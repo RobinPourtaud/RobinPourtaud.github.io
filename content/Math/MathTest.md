@@ -12,8 +12,6 @@ Introduction introduction introduction Introduction introduction introduction In
 
 #### 3eme section
 
-![](/uploads/share-banner.png)
-
 ```cpp
 for(int i=0; i<=10; i++){ //Commentaire
 	if(k<1){
@@ -21,3 +19,5 @@ for(int i=0; i<=10; i++){ //Commentaire
     }
 }
 ```
+
+<amp-mathml   layout="container"   data-formula="\[f(a) =\sum_{k=1}\]"> </amp-mathml>
