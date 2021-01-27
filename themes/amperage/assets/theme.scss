@@ -27,7 +27,6 @@ amp-next-page {
 		justify-content: flex-start;
 		align-items: center;
 		overflow: auto;
-		border: 1px solid #333;
 		a {
 			font-size: 1.2em;
 			white-space: nowrap;
@@ -39,8 +38,8 @@ amp-next-page {
 		&__logo {
 			line-height: 0;
 			svg {
-				width: 75px;
-				height: 75px;
+				width: 150px;
+				height: 150px;
 				min-width: 75px;
 				min-height: 75px;
 			}
