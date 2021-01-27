@@ -2,6 +2,7 @@
 <html ⚡ lang="{{.Site.LanguageCode}}">
 	<head>
 		{{- partial "head/base.html" . -}}
+		{{- partial "head/amp-components.html" . -}}
 	</head>
 	<body>
 		{{- partial "page/auto-ads.html" . -}}
@@ -12,6 +13,7 @@
 			{{- partial "header/base.html" . -}}
 		</header>
 		<main class="main">
+			{{- shortcode "toc.html"}}
 			{{- block "main" . }}{{- end }}
 		</main>
 		<footer class="footer">
