@@ -20,4 +20,4 @@ for(int i=0; i<=10; i++){ //Commentaire
 }
 ```
 
-<amp-mathml   layout="container"   data-formula="\\\[f(a) =\\sum_{k=1}\\\]"> </amp-mathml>
+<amp-mathml   layout="container"   data-formula="\[f(a) =\sum_{k=1}\]"> </amp-mathml>
