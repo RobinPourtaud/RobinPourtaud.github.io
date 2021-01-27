@@ -1,0 +1,44 @@
+[home]
+other = "Accueil"
+[notFound]
+other = "Page non trouvé"
+[openDropdown]
+other = "Ouvrir le menu"
+[search]
+other = "Recherche pour l'article..."
+[goBackHome]
+other = "Retourner à la page d'accueil"
+[by]
+other = "par"
+[tags]
+other = "Tags"
+[share]
+other = "Partager"
+[shareFacebook]
+other = "Partager sur Facebook"
+[shareTwitter]
+other = "Partager sur Twitter"
+[shareLinkedin]
+other = "Partager sur Linkedin"
+[sharePinterest]
+other = "Partager sur Pinterest"
+[toc]
+other = "Table des matières"
+[related]
+other = "Articles similaires 📖"
+[comments]
+other = "Laisser un commentaire 💬"
+[months]
+other = "mois"
+[published]
+other = "{{.Day}} {{.Month}} {{.Year}}"
+[next]
+other = "Suivant"
+[previous]
+other = "Précédent"
+[noAd]
+other = "Pas de publicités"
+[keepReading]
+other = "Continuer de lire"
+[authorCta]
+other = "Si vous aimez le contenu, partagez le !"
