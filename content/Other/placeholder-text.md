@@ -1,7 +1,6 @@
 +++
 date = 2019-12-23T10:09:32Z
 description = "Lorem Ipsum Dolor Si Amet"
-draft = true
 keywords = ["hugo", "placeholder", "example"]
 publishdate = 2019-12-23T10:09:32Z
 summary = "Lorem est tota propiore conpellat pectoribus de pectora summo."
