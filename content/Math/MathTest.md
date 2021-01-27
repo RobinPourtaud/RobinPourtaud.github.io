@@ -12,6 +12,8 @@ Introduction introduction introduction Introduction introduction introduction In
 
 #### 3eme section
 
+![](/uploads/share-banner.png)
+
 ```cpp
 for(int i=0; i<=10; i++){ //Commentaire
 	if(k<1){
