@@ -2,3 +2,5 @@
 label: Blog
 hide_body: false
 fields: []
+pages:
+- content/Math/MathTest.md
