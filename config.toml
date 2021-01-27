@@ -21,7 +21,7 @@ notAlternative = true
 home = ["HTML", "RSS", "SearchIndex"]
 [params]
 alternatePageName = "Amperage example"
-ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker"]
+ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-mathml"]
 copyright = "Amperage"
 organizationLogo = "/logo.png"
 organizationName = "Asur"
