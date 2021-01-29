@@ -14,8 +14,10 @@ tags = [
 keywords = ['hugo', 'emoji', 'example']
 
 [author]
-    name = "Asur"
-    homepage = "/"
+    name = "Robin Pourtaud"
+    homepage = "cv.devmath.fr"
+    image = "images/pdp.jpg"
+    bio = "Etudiant en informatique, je suis l'administrateur et rédacteur du site DevMath.fr. Si vous avez une question, n'hésitez pas à me contacter !"
 
 [twitter]
     site = "@asurbernardo"

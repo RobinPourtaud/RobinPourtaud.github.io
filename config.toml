@@ -2,7 +2,9 @@ DefaultContentLanguage = "fr"
 baseURL = "https://devmath.fr"
 paginate = 3
 pygmentsUseClasses = true
-theme = "amperage"
+theme = "themes/amperage"
+targetPath = "themes/amperage/assets"
+staticDir = ["static","themes/amperage/assets"]
 [languages.fr]
 contentDir = "content"
 description = "DevMath est un site d'informatique et de matématiques crée par un étudiant pour les étudiants."
@@ -10,6 +12,8 @@ languageCode = "fr"
 languageName = "Français"
 title = "DevMath.fr"
 weight = 1
+
+targetPath = "themes/amperage/assets"
 [markup.goldmark.renderer]
 unsafe = true
 [outputFormats.SearchIndex]
@@ -17,6 +21,7 @@ baseName = "search"
 isPlainText = true
 mediaType = "application/json"
 notAlternative = true
+
 [outputs]
 home = ["HTML", "RSS", "SearchIndex"]
 [params]
