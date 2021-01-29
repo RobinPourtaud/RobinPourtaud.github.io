@@ -2,7 +2,7 @@ DefaultContentLanguage = "fr"
 baseURL = "https://devmath.fr"
 paginate = 3
 pygmentsUseClasses = true
-theme = "themes/amperage"
+theme = "amperage"
 targetPath = "themes/amperage/assets"
 staticDir = ["static","themes/amperage/assets"]
 [languages.fr]

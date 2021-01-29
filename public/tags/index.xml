@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on DevMath.fr</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 28 Jan 2021 23:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>emoji</title>
+      <link>http://localhost:1313/tags/emoji/</link>
+      <pubDate>Thu, 28 Jan 2021 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/emoji/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>example</title>
+      <link>http://localhost:1313/tags/example/</link>
+      <pubDate>Thu, 28 Jan 2021 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Thu, 28 Jan 2021 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>amperage</title>
+      <link>http://localhost:1313/tags/amperage/</link>
+      <pubDate>Mon, 23 Dec 2019 12:09:32 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/amperage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>http://localhost:1313/tags/markdown/</link>
+      <pubDate>Mon, 23 Dec 2019 12:09:32 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text</title>
+      <link>http://localhost:1313/tags/text/</link>
+      <pubDate>Mon, 23 Dec 2019 10:09:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tag</title>
+      <link>http://localhost:1313/tags/tag/</link>
+      <pubDate>Mon, 16 Sep 2019 12:33:32 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/tag/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

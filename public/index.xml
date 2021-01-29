@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevMath.fr</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 28 Jan 2021 23:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Math Test</title>
+      <link>http://localhost:1313/math/mathtest/</link>
+      <pubDate>Thu, 28 Jan 2021 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/math/mathtest/</guid>
+      <description>Math test Introduction introduction introduction Introduction introduction introduction Introduction introduction introduction Introduction introduction introduction Introduction introduction introduction Introduction introduction introductionIntroduction introduction introduction Introduction introduction introduction Introduction introduction introduction Introduction introduction introduction Introduction introduction introduction Introduction introduction introduction
+Premiere Section Seconde section 3eme section for(int i=0; i&amp;lt;=10; i++){ //Commentaire 	if(k&amp;lt;1){ k++; } }</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>http://localhost:1313/other/emoji-support/</link>
+      <pubDate>Mon, 23 Dec 2019 12:09:32 +0200</pubDate>
+      
+      <guid>http://localhost:1313/other/emoji-support/</guid>
+      <description>Emoji can be enabled in a Hugo project in a number of ways.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>http://localhost:1313/other/markdown-syntax/</link>
+      <pubDate>Mon, 23 Dec 2019 12:09:32 +0200</pubDate>
+      
+      <guid>http://localhost:1313/other/markdown-syntax/</guid>
+      <description>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>http://localhost:1313/other/placeholder-text/</link>
+      <pubDate>Mon, 23 Dec 2019 10:09:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/other/placeholder-text/</guid>
+      <description>Lorem est tota propiore conpellat pectoribus de pectora summo.</description>
+    </item>
+    
+    <item>
+      <title>Yet another test post (with image)</title>
+      <link>http://localhost:1313/other/yet-another-test-post/</link>
+      <pubDate>Mon, 16 Sep 2019 12:33:32 +0200</pubDate>
+      
+      <guid>http://localhost:1313/other/yet-another-test-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet, mauris sed tincidunt dignissim, enim justo suscipit dui, vitae pharetra justo nulla at neque. Ut eu nulla in nisi dapibus efficitur. Donec sollicitudin ac arcu ac malesuada. Cras sapien orci, malesuada id ultrices ac, sodales sed est.</description>
+    </item>
+    
+  </channel>
+</rss>

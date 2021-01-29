@@ -1,0 +1,21 @@
+{ "items": [{
+            "title": "Math Test",
+            "url": "http://localhost:1313/math/mathtest/",
+            "date": "28 Janvier 2021"
+        },{
+            "title": "Emoji Support",
+            "url": "http://localhost:1313/other/emoji-support/",
+            "date": "23 Décembre 2019"
+        },{
+            "title": "Markdown Syntax Guide",
+            "url": "http://localhost:1313/other/markdown-syntax/",
+            "date": "23 Décembre 2019"
+        },{
+            "title": "Placeholder Text",
+            "url": "http://localhost:1313/other/placeholder-text/",
+            "date": "23 Décembre 2019"
+        },{
+            "title": "Yet another test post (with image)",
+            "url": "http://localhost:1313/other/yet-another-test-post/",
+            "date": "16 Septembre 2019"
+        }]}
