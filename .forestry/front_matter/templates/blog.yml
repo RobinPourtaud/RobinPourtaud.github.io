@@ -1,6 +1,33 @@
 ---
 label: Blog
 hide_body: false
-fields: []
+fields:
+- name: draft
+  type: boolean
+  label: Brouillon
+  default: true
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titre
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - content/Math/MathTest.md
