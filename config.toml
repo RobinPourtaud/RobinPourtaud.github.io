@@ -1,14 +1,14 @@
 DefaultContentLanguage = "fr"
-baseURL = "https://pourtaud.fr"
+baseURL = "https://devmath.fr"
 paginate = 3
 pygmentsUseClasses = true
 theme = "amperage"
 [languages.fr]
 contentDir = "content"
-description = "Ce site présente des articles de mathématiques et d informatiques"
+description = "DevMath est un site d'informatique et de matématiques crée par un étudiant pour les étudiants."
 languageCode = "fr"
 languageName = "Français"
-title = "Robin Pourtaud"
+title = "DevMath.fr"
 weight = 1
 [markup.goldmark.renderer]
 unsafe = true
@@ -20,16 +20,16 @@ notAlternative = true
 [outputs]
 home = ["HTML", "RSS", "SearchIndex"]
 [params]
-alternatePageName = "Amperage example"
+alternatePageName = "DevMath.fr"
 ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-mathml"]
-copyright = "Amperage"
+copyright = "DevMath.fr"
 organizationLogo = "/logo.png"
-organizationName = "Asur"
+organizationName = "DevMath"
 publisherLogo = "/logo-amp-article.png"
 publisherLogoHeight = 60
 publisherLogoWidth = 600
 publisherName = "amperage"
-socialProfiles = ["https://twitter.com/example", "https://www.linkedin.com/in/example/", "https://github.com/example"]
+socialProfiles = ["https://fr.linkedin.com/in/robinpourtaud", "https://github.com/RobinPourtaud/"]
 themeColor = "#333"
 [taxonomies]
 tag = "tags"
