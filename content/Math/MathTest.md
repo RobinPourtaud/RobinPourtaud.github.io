@@ -1,5 +1,9 @@
 +++
+date = 2021-01-28T23:00:00Z
+description = "la déscription"
 draft = true
+tags = ["hugo", "emoji", "example"]
+title = "Math Test"
 
 +++
 # Math test
@@ -20,6 +24,6 @@ for(int i=0; i<=10; i++){ //Commentaire
 }
 ```
 
-<amp-mathml   layout="container"   data-formula="\[f(a) =\\sum_{k=1}\]"> </amp-mathml>
+<amp-mathml   layout="container"   data-formula="\[f(a) =\sum_{k=1}\]"> </amp-mathml>
 
-![](/uploads/capture-d-ecran-2021-01-20-101816.png)
+![](/images/capture-d-ecran-2021-01-20-101816.png)
