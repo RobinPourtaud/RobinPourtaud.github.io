@@ -26,6 +26,27 @@ fields:
     required: false
   label: Description
 - name: tags
-  type: tag_list
-  default: []
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - ISETL
+    - LaTeX
+    - Analyse
+    - OCaml
+    - Python
+    - Démonstration
+    - Exercice corrigé
+    - Algèbre
+    - Java
+    - Julia
+    - Wordpress
+    - 'Dénombrement '
+    - Probabilité
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: Tags
