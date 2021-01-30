@@ -1,40 +1,48 @@
 DefaultContentLanguage = "fr"
 baseURL = "https://devmath.fr"
+title = "DevMath.fr"
 paginate = 3
+description = "DevMath est un site d'informatique et de matématiques crée par un étudiant pour les étudiants."
 pygmentsUseClasses = true
 theme = "amperage"
 targetPath = "themes/amperage/assets"
 staticDir = ["static","themes/amperage/assets"]
-[languages.fr]
-contentDir = "content"
-description = "DevMath est un site d'informatique et de matématiques crée par un étudiant pour les étudiants."
-languageCode = "fr"
-languageName = "Français"
-title = "DevMath.fr"
-weight = 1
 
-targetPath = "themes/amperage/assets"
+[languages.fr]
+    contentDir = "content"
+    languageCode = "fr"
+    languageName = "Français"
+    weight = 1
+
 [markup.goldmark.renderer]
-unsafe = true
+    unsafe = true
+
+[markup.tableOfContents]
+    startLevel = 2
+
 [outputFormats.SearchIndex]
-baseName = "search"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
+    baseName = "search"
+    isPlainText = true
+    mediaType = "application/json"
+    notAlternative = true
 
 [outputs]
-home = ["HTML", "RSS", "SearchIndex"]
+    home = ["HTML", "RSS", "SearchIndex"]
+
 [params]
-alternatePageName = "DevMath.fr"
-ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-mathml"]
-copyright = "DevMath.fr"
-organizationLogo = "/logo.png"
-organizationName = "DevMath"
-publisherLogo = "/logo-amp-article.png"
-publisherLogoHeight = 60
-publisherLogoWidth = 600
-publisherName = "amperage"
-socialProfiles = ["https://fr.linkedin.com/in/robinpourtaud", "https://github.com/RobinPourtaud/"]
-themeColor = "#333"
+    alternatePageName = "DevMath.fr"
+    ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-mathml"]
+    copyright = "DevMath.fr"
+    organizationLogo = "/logo.png"
+    organizationName = "DevMath"
+    publisherLogo = "/logo-amp-article.png"
+    publisherLogoHeight = 60
+    publisherLogoWidth = 600
+    publisherName = "amperage"
+    socialProfiles = ["https://fr.linkedin.com/in/robinpourtaud", "https://github.com/RobinPourtaud/"]
+    themeColor = "#333"
+
 [taxonomies]
-tag = "tags"
+    tag = "tags"
+[minify]
+    

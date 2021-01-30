@@ -12,7 +12,7 @@ tags = ["blog", "personal", "responsive", 'minimal', 'clean', "simple", "google 
     "white", "disqus", "starter", "search"]
 
 features = ["amp", "seo", "pwa", "responsive", "structured data", "toc", "related content", "service-worker", "shortcodes",
-    "syntax highlighting", "tags", "social share", "search"]
+    "syntax highlighting", "tags", "social share", "search","math-ml"]
 
 min_version = "0.72.0"
 

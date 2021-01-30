@@ -6,6 +6,17 @@ tags = ["hugo", "emoji", "example"]
 title = "Math Test"
 
 +++
+{{< latex 
+`
+\left\{
+\begin{array}{rcr}
+4x + 8y & = & 54 \\
+2x + 7y & = & 39 \\
+\end{array}
+\right.
+`
+
+>}}
 # Math test
 
 Introduction introduction introduction Introduction introduction introduction Introduction introduction introduction Introduction introduction introduction Introduction introduction introduction Introduction introduction introductionIntroduction introduction introduction Introduction introduction introduction Introduction introduction introduction Introduction introduction introduction Introduction introduction introduction Introduction introduction introduction
