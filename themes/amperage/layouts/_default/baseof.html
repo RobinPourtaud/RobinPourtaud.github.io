@@ -12,15 +12,11 @@
 		<header class="header">
 			{{- partial "header/base.html" . -}}
 		</header>
-		<main class="main">
-			
+		<main class="main">	
 			{{- block "main" . }}{{- end }}
 		</main>
 		<footer class="footer">
 			{{- partial "footer/base.html" . -}}
 		</footer>
-		{{ if .IsPage }}
-			{{- partial "page/infinite-scroll.html" . -}}
-		{{ end }}
 	</body>
 </html>

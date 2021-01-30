@@ -1,7 +1,14 @@
 <nav class="header__menu" {{ if .IsPage }}next-page-hide{{ end }}>
-    <a class="header__menu__logo" data-rel="prefetch" href="{{ "" | absLangURL }}" aria-label="{{ i18n "goBackHome" }}">
-        {{- partial "header/logo.html" . -}}
-    </a>
-    {{- partial "header/menu.html" . -}}
+    {{- partial "header/menu.html" . -}}    
 </nav>
+
+<a class="header__menu__logo" data-rel="prefetch" href="{{ "" | absLangURL }}" aria-label="{{ i18n "goBackHome" }}">
+    {{- partial "header/logo.html" . -}}
+</a>
+
+<div class="header__menu__title">
+    {{ $.Site.Title }}
+</div>
+
+
 {{- partial "header/search.html" . -}}

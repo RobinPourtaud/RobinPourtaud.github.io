@@ -5,7 +5,7 @@ other = "Page non trouvé"
 [openDropdown]
 other = "Ouvrir le menu"
 [search]
-other = "Recherche pour l'article..."
+other = "Rechercher un article"
 [goBackHome]
 other = "Retourner à la page d'accueil"
 [by]

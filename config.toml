@@ -7,9 +7,10 @@ pygmentsUseClasses = true
 theme = "amperage"
 targetPath = "themes/amperage/assets"
 staticDir = ["static","themes/amperage/assets"]
+contentDir = "content"
 
 [languages.fr]
-    contentDir = "content"
+    
     languageCode = "fr"
     languageName = "Français"
     weight = 1
@@ -30,8 +31,9 @@ staticDir = ["static","themes/amperage/assets"]
     home = ["HTML", "RSS", "SearchIndex"]
 
 [params]
+    title = "DevMath"
     alternatePageName = "DevMath.fr"
-    ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-mathml"]
+    ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-mathml","amp-autocomplete"]
     copyright = "DevMath.fr"
     organizationLogo = "/logo.png"
     organizationName = "DevMath"
