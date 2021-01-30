@@ -53,6 +53,8 @@ Soit un ensemble E = {a,b,c}
 
 Calculons l'ensemble des parties de E :
 
+{{< latex "\\mathcal{P}(E) = \\{\\varnothing, \\{a\\}, \\{b\\}, \\{c\\}, \\{a, b\\}, \\{a, c\\}, \\{b, c\\}, \\{a,b,c\\}\\}">}}.
+
 Il y a :
 
 * 1 élément à 0 élément (0 parmi 3 = 1)
@@ -78,12 +80,19 @@ On veut obtenir 3 cartes spécifiques parmi un paquet de 52 cartes.
 
 Si vous essayez de calculer ce chiffre "à la main", vous allez vite vous rendre compte que cette tâche va vite devenir compliquée. Utilisons donc notre formule !
 
-Avec n = 52 et k = 3, nous obtenons : {{<²binom{52}{3}>}}.
+Avec n = 52 et k = 3, nous obtenons : {{< latex "²binom{52}{3}" >}}.
 
 Ne calculez pas 52 factoriel à la main, 52 factoriel est égale à 8.0658175e+67.
 
-{{< latex²frac{n!}{k!(n-k)!} = ²frac{52!}{3!(52-3)!} = ²frac{52!}{6(49)!} = ²frac{52²times 51 ²times 50}{6}= 22100>}}
+{{< latex "²frac{n!}{k!(n-k)!} = ²frac{52!}{3!(52-3)!} = ²frac{52!}{6(49)!} = ²frac{52²times 51 ²times 50}{6}= 22100" >}}
 
 Il y a donc 22100 possibilités différentes.
 
-On veut obtenir une de ces possibilités parmi ces 22100, il y a donc une probabilité de réussite de $²frac{1}{22100}$. C'est à dire environ 0.004% de chance.
+On veut obtenir une de ces possibilités parmi ces 22100, il y a donc une probabilité de réussite de {{< latex "²frac{1}{22100}" >}}. C'est à dire environ 0.004% de chance.
+
+## Sources : 
+
+* [Combinaison - Wikipédia](https://fr.wikipedia.org/wiki/Combinaison_(math%C3%A9matiques))
+* [Combinaison - approche](http://villemin.gerard.free.fr/Denombre/Cbingene.htm)
+* [Loi Binomial - Wikipédia](https://fr.wikipedia.org/wiki/Loi_binomiale)
+* [Le coefficient binomial - jybaudot.fr](http://www.jybaudot.fr/Probas/coeffbinomial.html)
