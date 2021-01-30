@@ -50,3 +50,5 @@ fields:
       file: 
       path: 
   label: Tags
+pages:
+- content/mathematiques/coefficient-binomial.md
