@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on DevMath.fr</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in hugo on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 28 Jan 2021 23:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conditionnement d&#39;une matrice</title>
+      <link>http://localhost:1313/mathematiques/mathtest/</link>
+      <pubDate>Thu, 28 Jan 2021 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mathematiques/mathtest/</guid>
+      <description>Premiere Section   Seconde section 3eme section Wahou 3zeme section a for(int i=0; i&amp;lt;=10; i++){ //Commentaire 	if(k&amp;lt;1){ k++; } }   l</description>
+    </item>
+    
+  </channel>
+</rss>

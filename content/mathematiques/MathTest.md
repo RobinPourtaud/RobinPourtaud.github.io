@@ -9,18 +9,16 @@ title = "Conditionnement d'une matrice"
 ## Premiere Section
 {{< latex 
 `
-\left\{
-\begin{array}{rcr}
-4x + 8y & = & 54 \\
-2x + 7y & = & 39 \\
-\end{array}
-\right.
-`
+²left²{
+²begin{array}{rcr}
+4x + 8y & = & 54 ²²
+2x + 7y & = & 39 ²²
+²end{array}
+²right.
+`>}} 
+fdsgsd
 
->}} 
-
-
-
+{{< latex "²sum" >}}
 
 ### Seconde section
 

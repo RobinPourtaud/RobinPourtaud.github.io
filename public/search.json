@@ -1,18 +1,10 @@
 { "items": [{
             "title": "Conditionnement d'une matrice",
-            "url": "http://localhost:1313/mathematique/mathtest/",
-            "date": "28 Janvier 2021"
-        },{
-            "title": "Conditionnement d'une matrice",
             "url": "http://localhost:1313/mathematiques/mathtest/",
             "date": "28 Janvier 2021"
         },{
             "title": "Emoji Support",
             "url": "http://localhost:1313/emoji-support/",
-            "date": "23 Décembre 2019"
-        },{
-            "title": "Markdown Syntax Guide",
-            "url": "http://localhost:1313/mathematique/markdown-syntax/",
             "date": "23 Décembre 2019"
         },{
             "title": "Markdown Syntax Guide",
@@ -26,4 +18,8 @@
             "title": "Yet another test post (with image)",
             "url": "http://localhost:1313/yet-another-test-post/",
             "date": "16 Septembre 2019"
+        },{
+            "title": "Coefficient Binomial",
+            "url": "http://localhost:1313/mathematiques/coefficient-binomial/",
+            "date": "1 Janvier 1"
         }]}

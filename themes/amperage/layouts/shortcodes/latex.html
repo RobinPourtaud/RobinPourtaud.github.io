@@ -1,1 +1,1 @@
-<amp-mathml layout="container" data-formula="\[{{ .Get 0 }}\]"></amp-mathml>
+<amp-mathml layout="container" data-formula="\[{{ .Get 0 | replaceRE "²" "\\"  }}\]"></amp-mathml>
