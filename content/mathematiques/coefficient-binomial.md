@@ -10,12 +10,11 @@ title = "Coefficient Binomial"
 
 La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté "!", le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
 
-{{ latex "n! = \\Pi_{k=1}^{n}k = 1 \\times 2 \\times \\ldots \\times (n-1) \\times (n)" }}
+{{< latex "n! = \Pi_{k=1}^{n}k = 1 \times 2 \times \ldots \times (n-1) \times (n)">}}
 
-n! = \\Pi_{k=1}^{n}k = 1 \\times 2 \\times \\ldots \\times (n-1) \\times (n)
-
-* {{ latex "2! = 1 \\times 2" }}
-* {{ latex "5! = 1 \\times 2 \\times 3 \\times 4 \\times 5 = 120" }}
+Pour prendre plusieurs exemples : 
+* {{< latex "2! = 1 \times 2" >}}
+* {{< latex "5! = 1 \times 2 \times 3 \times 4 \times 5 = 120" >}}
 
 Pour finir, prenez en compte que 0! = 1. Vous pouvez en savoir plus ici si vous êtes curieux :
 
@@ -27,4 +26,4 @@ En dénombrement, on définit le coefficient binomial comme le nombre de parties
 
 On note le coefficient binomial par la formule :
 
-{{ latex "\\binom{n}{k} = C^k_n = \\frac{n!}{k!(n-k)!}"}}
+{{< latex "\binom{n}{k} = C^k_n = \frac{n!}{k!(n-k)!}">}}
