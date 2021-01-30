@@ -1,7 +1,6 @@
 +++
 date = ""
 description = "Cet article présente la notion de coefficient binomial, illustrée d'exemples et d'exercices corrigés. Un niveau de 1ère/Terminale est préférable pour pouvoir suivre cet article. Un rappel sur la notion de factoriel y sera explicité. "
-draft = true
 tags = "Dénombrement "
 title = "Coefficient Binomial"
 
@@ -53,7 +52,7 @@ Soit un ensemble E = {a,b,c}
 
 Calculons l'ensemble des parties de E :
 
-{{< latex "\\mathcal{P}(E) = \\{\\varnothing, \\{a\\}, \\{b\\}, \\{c\\}, \\{a, b\\}, \\{a, c\\}, \\{b, c\\}, \\{a,b,c\\}\\}">}}.
+{{< latex "²mathcal{P}(E) = ²{²varnothing, ²{a²}, ²{b²}, ²{c²}, ²{a, b²}, ²{a, c²}, ²{b, c²}, ²{a,b,c²}²}">}}.
 
 Il y a :
 
