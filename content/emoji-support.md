@@ -13,7 +13,7 @@ tags = [
 
 keywords = ['hugo', 'emoji', 'example']
 
-
+categories = 'math'
 
 [twitter]
     site = "@asurbernardo"

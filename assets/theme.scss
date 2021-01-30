@@ -45,6 +45,9 @@ amp-next-page {
 		}
 		&__logo {
 			line-height: 0;
+			position:absolute;
+			right:0;
+			left:0;
 			svg {
 				width: 60px;
 				height: 60px;
@@ -124,11 +127,12 @@ amp-next-page {
 		}
 	}
 	&__search {
+		position: absolute;
+		text-align: right;
 		font-family: "Poppins",sans-serif;
 		color: black;
 		width: 100px;
-		margin-right:0px;
-		margin: 0 auto 0 auto;
+		right:0px;
 		border-width: 0px;
 		&__input {
 			padding: .5em 1em;
@@ -156,7 +160,7 @@ amp-next-page {
 	min-width: 0;
 	min-height: 80vh;
 	position: relative;
-	
+	line-height: 1.7;
 	width:60%;
 	left:20%;
 	right:20%;
@@ -175,23 +179,37 @@ amp-next-page {
 }
 
 h1 {
-	font-size: 3.5rem;
+	font-size: 48px;
+    line-height: 58px;
+    color: #333;
+    margin: 0;
+    padding-top: 15px;
+	font-weight: bold;
 }
 h2 {
-	font-size: 2.5rem;
+	text-align: center;
+	background: linear-gradient(to right,#f2709c,#ff9472);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 h3 {
-	font-size: 2rem;
+	background-image: radial-gradient(circle farthest-corner at 12.3% 19.3%,rgba(85,88,218,1) 0%,rgba(95,209,249,1) 100.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 h4 {
 	font-size: 1.5rem;
 }
 
 a {
-	color: inherit;
+	color: #1e3888;
 	text-decoration:none;
 	transition: background 0.3s;
-	border-bottom: 2px dashed #37474f;
 	&:hover {
 		border-color: $main-color;
 	}
@@ -201,24 +219,23 @@ a {
 	padding: .5em .75em;
 	font-size: 1.2em;
 	text-align: center;
-	border: 1px solid black;
-	box-shadow: 7px 7px 0 0 #333;
-	&:hover {
-		color: $main-color;
-		border: 1px solid black;
-		transform: translate(4px, 4px);
-		box-shadow: 3px 3px 0 0 #333;
-	}
+	border: 0px;
 }
 
 li {
 	margin-top: 0.25em;
 }
 
-pre, code {
+pre {
 	font-family: "Poppins",sans-serif;
 	font-size: 12pt;
-	background-color: #F1F1F1;
+	display: block;
+    overflow-x: auto;
+    padding: 25px;
+    background: radial-gradient(circle 993px at .5% 50.5%,rgba(137,171,245,.37) 0%,rgba(245,247,252,1) 100.2%);
+    color: #000;
+    font-weight: 500;
+    border-radius: 4px;
 }
 
 blockquote {
@@ -342,13 +359,7 @@ blockquote {
 	& > h1 {
 		margin-top: 0.5em;
 	}
-	pre {
-		overflow: auto;
-		padding: .5em;
-	}
-	code {
-		padding: 0.1em;
-	}
+	
 	table {
 		display: block;
 		overflow-x: auto;
@@ -430,6 +441,8 @@ blockquote {
 }
 
 .summary {
+	background-color:rgb(172, 201, 201);
+	width: 300px;
 	&:not(:first-of-type) {
 		h2 {
 			margin-top: 2.5em;
@@ -446,6 +459,7 @@ blockquote {
 		display: block;
 		margin: inherit 1em;
 	}
+
 }
 
 @media (max-width: 1200px) {
@@ -530,5 +544,20 @@ blockquote {
 		&__title {
 			margin-top: 1em;
 		}
+	}
+}
+.toc{
+	margin-bottom: 40px;
+    background-color: rgba(0,0,0,.02);
+    padding: 30px;
+	&__title{
+		font-size:30px;
+		background-image: radial-gradient(circle 767px at 10.2% 22.1%,rgba(11,218,81,1) 0%,rgba(0,191,255,1) 90%);
+    	-webkit-background-clip: text;
+		font-weight: bold;
+    	-webkit-text-fill-color: transparent;
+	}
+	ul{
+		list-style:decimal;
 	}
 }

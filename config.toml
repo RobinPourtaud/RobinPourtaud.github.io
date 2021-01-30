@@ -10,16 +10,18 @@ staticDir = ["static","themes/amperage/assets"]
 contentDir = "content"
 
 [languages.fr]
-    
     languageCode = "fr"
     languageName = "Français"
     weight = 1
 
-[markup.goldmark.renderer]
-    unsafe = true
-
-[markup.tableOfContents]
-    startLevel = 2
+[markup]
+    [markup.goldmark.renderer]
+        unsafe = true
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 5
+    [markup.highlight]
+        style = "fruity"
 
 [outputFormats.SearchIndex]
     baseName = "search"
@@ -33,11 +35,11 @@ contentDir = "content"
 [params]
     title = "DevMath"
     alternatePageName = "DevMath.fr"
-    ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-mathml","amp-autocomplete"]
     copyright = "DevMath.fr"
-    organizationLogo = "/logo.png"
+    ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-mathml","amp-autocomplete"]
+    organizationLogo = "/icons/logo.svg"
     organizationName = "DevMath"
-    publisherLogo = "/logo-amp-article.png"
+    publisherLogo = "/icons/logo.svg"
     publisherLogoHeight = 60
     publisherLogoWidth = 600
     publisherName = "amperage"
@@ -46,5 +48,21 @@ contentDir = "content"
 
 [taxonomies]
     tag = "tags"
-[minify]
+    category = "categories"
+
+[permalinks]
+    posts = ":sections/:title"
+
+[[menu.main]]
+    identifier = "math"
+    name = "Catégories"
+    url = "categories/" 
+    weight = 8
+[[menu.main]]
+    identifier = "author"
+    name = "Tags"
+    url = "/tags"
+    weight = 9
+
+
     
