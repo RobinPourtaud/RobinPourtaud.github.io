@@ -5,17 +5,17 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/Other
+  path: content/autre
   label: Autre
   create: all
   match: "**/*"
 - type: directory
-  path: content/Math
+  path: content/mathematiques
   label: Mathématiques
   create: all
   match: "**/*"
 - type: directory
-  path: content/Info
+  path: content/informatique
   label: Informatique
   create: all
   match: "**/*"
