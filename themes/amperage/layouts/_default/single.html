@@ -1,10 +1,11 @@
 {{ define "main" }}
 <article class="content">
 	<h1>{{ .Title }}</h1>
-	
+	{{- partial "post/under-title.html" . -}}
 	{{ .Description }}
 	{{- partial "post/toc.html" . -}}
 	{{ .Content }}
+	{{- partial "post/aside.html" . -}}
 	{{- partial "post/related-content.html" . -}}
 	{{- partial "post/author.html" . -}}
 	{{- partial "post/comments.html" . -}}

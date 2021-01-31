@@ -1,9 +1,14 @@
-<article class="summary">
-    <a class="button" role="button" href="{{.Permalink}}">
-        <h2 class="summary__title">{{.Title}}</h2>
+<a class="summary" role="button" href="{{.Permalink}}"></a>
+    <div class="summary__image">
+        <div class="summary__image__title">{{.Title}}</div>
             {{ with .Params.Image.Src }}
             {{- partial "blocks/image.html" (dict "src" . "alt" $.Title "class" "summary__image") -}}
-    {{ end }}
-    <p>{{.Description}}</p>  
-    </a>
-</article>
+            {{ end }}
+    </div>
+    <div class="summary__bottom">
+        <p>{{.Description}}</p> 
+    </div>
+    
+    
+</div>
+</a>
