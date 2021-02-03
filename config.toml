@@ -45,6 +45,11 @@ contentDir = "content"
     publisherName = "amperage"
     socialProfiles = ["https://fr.linkedin.com/in/robinpourtaud", "https://github.com/RobinPourtaud/"]
     themeColor = "#333"
+    [params.author]
+        name = "Robin Pourtaud"
+        homepage = "cv.devmath.fr"
+        image = "images/pdp.jpg"
+        bio = "Etudiant en informatique, je suis l'administrateur et rédacteur du site DevMath.fr. Si vous avez une question, n'hésitez pas à me contacter !"
 
 [taxonomies]
     tag = "tags"
@@ -63,6 +68,8 @@ contentDir = "content"
     name = "Tags"
     url = "/tags"
     weight = 9
+
+
 
 
     

@@ -1,0 +1,121 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>http://localhost:1313/mathematiques/conditionnement-matrice/</loc>
+        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/</loc>
+        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/tags/emoji/</loc>
+        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/tags/example/</loc>
+        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/tags/hugo/</loc>
+        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/mathematiques/</loc>
+        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/tags/</loc>
+        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/tags/amperage/</loc>
+        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/autre/</loc>
+        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/categories/</loc>
+        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/autre/emoji-support/</loc>
+        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/tags/markdown/</loc>
+        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/autre/markdown-syntax/</loc>
+        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/categories/math/</loc>
+        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/autre/placeholder-text/</loc>
+        <lastmod>2019-12-23T10:09:32+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/tags/text/</loc>
+        <lastmod>2019-12-23T10:09:32+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/tags/tag/</loc>
+        <lastmod>2019-09-16T12:33:32+02:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/autre/yet-another-test-post/</loc>
+        <lastmod>2019-09-16T12:33:32+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/about/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/mathematiques/coefficient-binomial/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/tags/denombrement/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/tags/d%C3%A9nombrement/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+</urlset>

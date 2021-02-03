@@ -1,0 +1,13 @@
+<div class="more">
+    <h2 class="more__title">Thèmes relatifs à l'article</h2>
+    {{ $taxonomy := "tags" }}
+        <ul class="more__list">
+           
+            {{ range .Page.Param $taxonomy }}
+                {{ $name := . }}
+                {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy ($name | urlize)) }}
+                    <a href="{{ .Permalink }}" data-rel="prefetch"><li>{{ $name }}</li></a>
+                {{ end }}
+            {{ end }}
+        </ul>
+</div>

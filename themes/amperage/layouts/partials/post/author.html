@@ -1,19 +1,18 @@
-{{ with .Params.Author }}
+{{ with .Site.Params.Author }}
     <section class="author">
-        {{ with .name }}
-            <p class="author__name">{{ . }}</p>
-        {{ end }}
         {{ with .image }}
             <amp-img class="author__image"
                 src="{{ . | absURL }}"
                 layout="fixed" height="200" width="200"></amp-img>
         {{ end }}
-        {{ with .bio }}
-            <p class="author__bio">{{ . }}</p>
-        {{ end }}
-        <p class="author__cta">{{ i18n "authorCta" }}</p>
-        <div class="social-share">
-            {{- partial "post/social-share.html" . -}}
+        <div class="author__right">
+            {{ with .name }}
+                <p class="author__right__name">{{ . }}</p>
+            {{ end }}
+            {{ with .bio }}
+                <p class="author__right__bio">{{ . }}</p>
+            {{ end }}
         </div>
+        
     </section>
 {{ end }}

@@ -2,20 +2,22 @@
 date = ""
 description = "Cet article présente la notion de coefficient binomial, illustrée d'exemples et d'exercices corrigés. Un niveau de 1ère/Terminale est préférable pour pouvoir suivre cet article. Un rappel sur la notion de factoriel y sera explicité. "
 draft = true
-tags = "Dénombrement "
+tags = ["Denombrement"]
 title = "Coefficient Binomial"
+[image] 
+    src = "static/images/UAL.png"
 
 +++
 ## Prérequis :
 
 La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté "!", le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
 
-{{< latex "n! = \\Pi_{k=1}^{n}k = 1 \\times 2 \\times \\ldots \\times (n-1) \\times (n)">}}
+{{< latex "n! = ²Pi_{k=1}^{n}k = 1 ²times 2 ²times ²ldots ²times (n-1) ²times (n)">}}
 
 Pour prendre plusieurs exemples :
 
-* {{< latex "2! = 1 \\times 2" >}}
-* {{< latex "5! = 1 \\times 2 \\times 3 \\times 4 \\times 5 = 120" >}}
+* {{< latex "2! = 1 ²times 2" >}}
+* {{< latex "5! = 1 ²times 2 ²times 3 ²times 4 ²times 5 = 120" >}}
 
 Pour finir, prenez en compte que 0! = 1. Vous pouvez en savoir plus ici si vous êtes curieux :
 
@@ -27,7 +29,7 @@ En dénombrement, on définit le coefficient binomial comme le nombre de parties
 
 On note le coefficient binomial par la formule :
 
-{{< latex "\\binom{n}{k} = C^k_n = \\frac{n!}{k!(n-k)!}">}}
+{{< latex "²binom{n}{k} = C^k_n = ²frac{n!}{k!(n-k)!}">}}
 
 Un ensemble de propriétés faisant intervenir les coefficients binomiaux est trouvable sur [Wikipédia](https://fr.wikipedia.org/wiki/Coefficient_binomial#Formules%20faisant%20intervenir%20les%20coefficients%20binomiaux).
 

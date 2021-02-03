@@ -2,12 +2,14 @@
 <article class="content">
 	<h1>{{ .Title }}</h1>
 	{{- partial "post/under-title.html" . -}}
-	{{ .Description }}
+	<p class="description">{{ .Description }}</p>
 	{{- partial "post/toc.html" . -}}
 	{{ .Content }}
-	{{- partial "post/aside.html" . -}}
-	{{- partial "post/related-content.html" . -}}
+	{{- partial "post/more.html" . -}}
+	{{- partial "post/sources.html" . -}}
 	{{- partial "post/author.html" . -}}
+	{{- partial "post/related-content.html" . -}}
 	{{- partial "post/comments.html" . -}}
 </article>
+{{- partial "post/aside.html" . -}}
 {{ end }}
