@@ -2,7 +2,7 @@
 date = 2021-01-28T23:00:00Z
 description = "Cet article présente ce qu'est le conditionnement d'une matrice inversible et sa norme infinie, illustré par deux exemples."
 draft = false
-tags = ["hugo", "emoji", "example"]
+tags = ["Algebre Lineaire", "Matrice"]
 title = "Conditionnement d'une matrice"
 [image]
 	src = "/images/UAL.png"
