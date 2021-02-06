@@ -1,7 +1,7 @@
 <a class="summary" href="{{.Permalink}}">
     <div class="summary__top">
         
-            {{ with .Params.image.src }}
+            {{ with .Params.image_src }}
             {{- partial "blocks/image.html" (dict "src" . "alt" $.Title "class" "summary__top__image") -}}
             {{ end }}
     </div>

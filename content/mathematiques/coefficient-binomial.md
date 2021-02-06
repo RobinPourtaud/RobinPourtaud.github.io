@@ -5,8 +5,6 @@ draft = true
 image_src = ""
 tags = []
 title = "Coefficient Binomial"
-[image]
-src = "static/images/UAL.png"
 [[source]]
 src = ["https://google.fr"]
 title = ["Google"]
