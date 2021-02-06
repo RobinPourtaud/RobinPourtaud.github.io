@@ -50,5 +50,10 @@ fields:
       file: 
       path: 
   label: Tags
+- name: image_src
+  type: file
+  config:
+    maxSize: 64
+  label: 'Image '
 pages:
 - content/mathematiques/coefficient-binomial.md
