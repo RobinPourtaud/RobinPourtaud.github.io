@@ -2,7 +2,7 @@
     <div class="summary__top">
         
             {{ with .Params.image.src }}
-            {{- partial "blocks/image.html" (dict "src" . "alt" $.Title "class" "summary__image") -}}
+            {{- partial "blocks/image.html" (dict "src" . "alt" $.Title "class" "summary__top__image") -}}
             {{ end }}
     </div>
     

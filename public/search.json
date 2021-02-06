@@ -20,7 +20,11 @@
             "date": "16 Septembre 2019"
         },{
             "title": "",
-            "url": "http://localhost:1313/about/",
+            "url": "http://localhost:1313/confidentialite/",
+            "date": "1 Janvier 1"
+        },{
+            "title": "",
+            "url": "http://localhost:1313/contact/",
             "date": "1 Janvier 1"
         },{
             "title": "Coefficient Binomial",

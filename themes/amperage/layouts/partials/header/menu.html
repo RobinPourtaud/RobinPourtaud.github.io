@@ -4,7 +4,6 @@
 <label class="header__menu__dropdown-label" for="dropdown" role="button" aria-label="{{ i18n "openDropdown"}}">
     <span class="header__menu__dropdown-icon"></span>
 </label>
-
 <ul class="header__menu__dropdown-list">
     {{ range .Site.Menus.main }}
         {{ $url := trim .URL "/" | absURL }}

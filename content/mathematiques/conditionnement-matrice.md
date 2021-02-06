@@ -7,8 +7,8 @@ title = "Conditionnement d'une matrice"
 [image]
 	src = "/images/UAL.png"
 [source]
-	title = "titre"
-	src = ""
+	title = ["titre"]
+	src = [""]
 +++
 ## Premiere Section
 {{< latex 
