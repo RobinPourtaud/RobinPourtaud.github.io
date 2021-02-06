@@ -15,6 +15,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+  default: now
 - name: title
   type: text
   config:
@@ -25,30 +26,36 @@ fields:
   config:
     required: false
   label: Description
-- name: tags
-  type: select
-  default: ''
+- name: image_src
+  type: file
   config:
-    required: false
-    options:
-    - ISETL
-    - LaTeX
-    - Analyse
-    - OCaml
-    - Python
-    - Démonstration
-    - Exercice corrigé
-    - Algèbre
-    - Java
-    - Julia
-    - Wordpress
-    - 'Dénombrement '
-    - Probabilité
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
+    maxSize: 64
+  label: 'Image '
+- name: tags
+  type: tag_list
+  default: []
   label: Tags
+- name: source
+  type: field_group_list
+  fields:
+  - name: title
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Titre
+  - name: src
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Lien
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Sources
 pages:
 - content/mathematiques/coefficient-binomial.md

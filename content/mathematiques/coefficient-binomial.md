@@ -2,10 +2,14 @@
 date = ""
 description = "Cet article présente la notion de coefficient binomial, illustrée d'exemples et d'exercices corrigés. Un niveau de 1ère/Terminale est préférable pour pouvoir suivre cet article. Un rappel sur la notion de factoriel y sera explicité. "
 draft = true
-tags = ["Denombrement"]
+image_src = ""
+tags = []
 title = "Coefficient Binomial"
-[image] 
-    src = "static/images/UAL.png"
+[image]
+src = "static/images/UAL.png"
+[[source]]
+src = ["https://google.fr"]
+title = ["Google"]
 
 +++
 ## Prérequis :
