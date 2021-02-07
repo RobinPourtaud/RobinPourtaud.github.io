@@ -23,7 +23,7 @@ contentDir = "content"
         style = "fruity"
 
 [outputFormats.SearchIndex]
-    baseName = "search"
+    baseName = "search" 
     isPlainText = true
     mediaType = "application/json"
     notAlternative = true
@@ -44,6 +44,7 @@ contentDir = "content"
     publisherName = "amperage"
     socialProfiles = ["https://fr.linkedin.com/in/robinpourtaud", "https://github.com/RobinPourtaud/"]
     themeColor = "#333"
+    
     [params.author]
         name = "Robin Pourtaud"
         homepage = "cv.devmath.fr"

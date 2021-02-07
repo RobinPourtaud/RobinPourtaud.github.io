@@ -19,15 +19,15 @@
             "url": "http://localhost:1313/autre/yet-another-test-post/",
             "date": "16 Septembre 2019"
         },{
-            "title": "",
-            "url": "http://localhost:1313/confidentialite/",
-            "date": "1 Janvier 1"
-        },{
-            "title": "",
+            "title": "A propos de DevMath",
             "url": "http://localhost:1313/contact/",
             "date": "1 Janvier 1"
         },{
             "title": "Coefficient Binomial",
             "url": "http://localhost:1313/mathematiques/coefficient-binomial/",
+            "date": "1 Janvier 1"
+        },{
+            "title": "Confidentialité des données",
+            "url": "http://localhost:1313/confidentialite/",
             "date": "1 Janvier 1"
         }]}

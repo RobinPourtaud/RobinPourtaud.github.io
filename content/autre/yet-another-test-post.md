@@ -20,8 +20,6 @@ keywords = ['amperage', 'test', 'post']
     name = "Asur"
     homepage = "/"
 
-[image]
-    src = "/images/share-banner.png"
 
 [twitter]
     site = "@example"

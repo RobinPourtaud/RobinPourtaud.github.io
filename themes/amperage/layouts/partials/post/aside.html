@@ -1,9 +1,25 @@
 <aside class="aside">
+    
     <div class="aside__title">Partager</div>
     {{- partial "post/social-share.html" . -}}
-    <div class="aside__title">Publié par</div>
-
+    <div class="aside__title">Date de publication</div>
+    <time datetime="{{ .Page.PublishDate.Format "2006-01-02T15:04:05" | safeHTMLAttr }}">
+        {{ $months := index .Site.Data (i18n "months") }}
+        {{ $month := index $months (printf "%d" .Page.PublishDate.Month) }}
+        {{ i18n "published" (dict "Day" .Page.PublishDate.Day "Month" $month "Year" .Page.PublishDate.Year) }}
+    </time>
+    <div class="aside__title">Auteur</div>
+    {{ with .Site.Params.Author }}{{ .name }} {{ end }}
     <div class="aside__title">Tags :</div>
+    {{ $taxonomy := "tags" }}
+        <ul id="{{ $taxonomy }}">
+            {{ range .Page.Param $taxonomy }}
+                {{ $name := . }}
+                {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy ($name | urlize)) }}
+                    <li><a href="{{ .Permalink }}" data-rel="prefetch">{{ $name }}</a></li>
+                {{ end }}
+            {{ end }}
+        </ul>
     <div class="aside__title">Articles liés</div>
     {{- partial "post/related-content.html" . -}}
 

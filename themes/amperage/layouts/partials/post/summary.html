@@ -1,9 +1,15 @@
 <a class="summary" href="{{.Permalink}}">
     <div class="summary__top">
-        
-            {{ with .Params.image_src }}
+        {{ if (isset .Params "image" ) }}
+        {{ with .Params.image.src }}
             {{- partial "blocks/image.html" (dict "src" . "alt" $.Title "class" "summary__top__image") -}}
-            {{ end }}
+        {{end}}
+        {{ else }}
+        {{ $default := "/images/default.jpg" }}
+        {{- partial "blocks/image.html" (dict "src" $default "alt" $.Title "class" "summary__top__image") -}}
+        <div class="summary__top__title">{{.Title}}</div>
+        {{ end }}
+            
     </div>
     
     <div class="summary__bottom">

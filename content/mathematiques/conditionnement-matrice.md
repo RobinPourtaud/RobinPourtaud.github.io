@@ -5,7 +5,7 @@ draft = false
 tags = ["Algebre Lineaire", "Matrice"]
 title = "Conditionnement d'une matrice"
 [image]
-	src = "/images/UAL.png"
+	src = "/images/default.jpg"
 [source]
 	title = ["titre"]
 	src = [""]
