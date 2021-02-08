@@ -1,120 +1,787 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://localhost:1313/tags/algebre-lineaire/</loc>
-        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+        <loc>http://localhost:32871/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</loc>
+        <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/mathematiques/conditionnement-matrice/</loc>
-        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+        <loc>http://localhost:32871/tags/coefficients-binomiaux/</loc>
+        <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/</loc>
-        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+        <loc>http://localhost:32871/categories/denombrement/</loc>
+        <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/mathematiques/</loc>
-        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+        <loc>http://localhost:32871/mathematiques/</loc>
+        <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/tags/matrice/</loc>
-        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+        <loc>http://localhost:32871/tags/arbre-binaire/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/tags/</loc>
-        <lastmod>2021-01-28T23:00:00+00:00</lastmod>
+        <loc>http://localhost:32871/categories/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/tags/amperage/</loc>
-        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+        <loc>http://localhost:32871/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/autre/</loc>
-        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+        <loc>http://localhost:32871/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/categories/</loc>
-        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+        <loc>http://localhost:32871/informatique/espacement-en-mode-mathematique-latex/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/tags/emoji/</loc>
-        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+        <loc>http://localhost:32871/informatique/fonction-indicatrice-fonction-caracteristique-latex/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/autre/emoji-support/</loc>
-        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <loc>http://localhost:32871/categories/informatique/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/tags/markdown/</loc>
-        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+        <loc>http://localhost:32871/informatique/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/autre/markdown-syntax/</loc>
-        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <loc>http://localhost:32871/tags/latex/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/categories/math/</loc>
-        <lastmod>2019-12-23T12:09:32+02:00</lastmod>
+        <loc>http://localhost:32871/informatique/lorem-ipsum-lipsum-latex/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/autre/placeholder-text/</loc>
-        <lastmod>2019-12-23T10:09:32+00:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <loc>http://localhost:32871/categories/mathematiques/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/tags/text/</loc>
-        <lastmod>2019-12-23T10:09:32+00:00</lastmod>
+        <loc>http://localhost:32871/informatique/parcours-dun-arbre-binaire/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/tags/tag/</loc>
-        <lastmod>2019-09-16T12:33:32+02:00</lastmod>
+        <loc>http://localhost:32871/tags/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/autre/yet-another-test-post/</loc>
-        <lastmod>2019-09-16T12:33:32+02:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <loc>http://localhost:32871/tags/automate/</loc>
+        <lastmod>2020-12-30T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/contact/</loc>
+        <loc>http://localhost:32871/informatique/determinisation-dun-automate/</loc>
+        <lastmod>2020-12-30T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/bit/</loc>
+        <lastmod>2020-12-27T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/logique/</loc>
+        <lastmod>2020-12-27T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/processeur/</loc>
+        <lastmod>2020-12-27T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/ual-unite-arithmetique-et-logique/</loc>
+        <lastmod>2020-12-27T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/alphabet-grec-latex/</loc>
+        <lastmod>2020-12-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/vocabulaire-sur-les-automates-finis/</loc>
+        <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/graphe/</loc>
+        <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/exercice-corrige-simplification-de-formules-booleennes/</loc>
+        <lastmod>2020-11-24T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/complexite-asymptotique/</loc>
+        <lastmod>2020-11-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/definition-nff-sat/</loc>
+        <lastmod>2020-11-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/analyse-complexe/</loc>
+        <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/cercle-trigonometrique/</loc>
+        <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/racine-carree-de-i/</loc>
+        <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</loc>
+        <lastmod>2020-09-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/jupyter-notebook/</loc>
+        <lastmod>2020-09-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/linux/</loc>
+        <lastmod>2020-09-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/crible/</loc>
+        <lastmod>2020-09-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/denombrement/</loc>
+        <lastmod>2020-09-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/formule-de-sylvester/</loc>
+        <lastmod>2020-09-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/ensemble/</loc>
+        <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/denombrement/exercice-corrige-denombrement-n1/</loc>
+        <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/loi-de-morgan/</loc>
+        <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/demonstration/</loc>
+        <lastmod>2020-08-30T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</loc>
+        <lastmod>2020-08-30T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</loc>
+        <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/nmap/</loc>
+        <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/categories/securite-informatique/</loc>
+        <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/pourquoi-01/</loc>
+        <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/di-method-integration-tabulaire/</loc>
+        <lastmod>2020-08-08T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/integrale/</loc>
+        <lastmod>2020-08-08T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/demonstration-somme-des-k-parmi-n/</loc>
+        <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/isetl/</loc>
+        <lastmod>2020-07-31T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/isetl-langage-de-programmation/</loc>
+        <lastmod>2020-07-31T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/isetl-boucle-while-et-boucle-for/</loc>
+        <lastmod>2020-07-27T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/tuto/</loc>
+        <lastmod>2020-07-27T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/isetl-conditions-if-elseif-else/</loc>
+        <lastmod>2020-07-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/isetl-syntaxe-des-fonctions/</loc>
+        <lastmod>2020-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/isetl-utilisation-basique-de-isetlw-3-0/</loc>
+        <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/bing/</loc>
+        <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</loc>
+        <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/seo/</loc>
+        <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/wordpress/</loc>
+        <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/la-notation-en-mathematique/</loc>
+        <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/mode-mathematique-sur-gboard/</loc>
+        <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/notation/</loc>
+        <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/resolution-complexe-cosxsinx1/</loc>
+        <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/demonstration-cosxsinx1/</loc>
+        <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/nombre-complexe/</loc>
+        <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/ibm-language-translator/</loc>
+        <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/python/</loc>
+        <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/traduction/</loc>
+        <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</loc>
+        <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/combinaison-k-parmi-n-en-latex/</loc>
+        <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/combinaison/</loc>
+        <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</loc>
+        <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/partie-entiere-superieur-et-inferieur-en-latex/</loc>
+        <lastmod>2020-06-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/3-manieres-de-calculer-pi-en-python-3/</loc>
+        <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/hyperbolique/</loc>
+        <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/isetl-liste-de-fonctions/</loc>
+        <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/trigonometrie/</loc>
+        <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/isetl-fonction-mathematiques/</loc>
+        <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/numpy/</loc>
+        <lastmod>2020-06-17T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/seuillage-dimage-en-python/</loc>
+        <lastmod>2020-06-17T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</loc>
+        <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/apache2/</loc>
+        <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/htaccess/</loc>
+        <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/robots-txt/</loc>
+        <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/rediriger-http-vers-https-avec-htaccess/</loc>
+        <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</loc>
+        <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/installer-isetl/</loc>
+        <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/ms-dos/</loc>
+        <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/windows-10/</loc>
+        <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/zip/</loc>
+        <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/conversion/</loc>
+        <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</loc>
+        <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/accolades-verticales-horizontales-en-latex/</loc>
+        <lastmod>2020-05-27T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/systeme-lineaire/</loc>
+        <lastmod>2020-05-27T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/amp/</loc>
+        <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</loc>
+        <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/css/</loc>
+        <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/wsl-et-usb/</loc>
+        <lastmod>2020-05-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/wsl2/</loc>
+        <lastmod>2020-05-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/bitmap/</loc>
+        <lastmod>2020-05-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/matrice/</loc>
+        <lastmod>2020-05-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</loc>
+        <lastmod>2020-05-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</loc>
+        <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/algebre/</loc>
+        <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/operation-sur-les-matrices-avec-numpy-en-python/</loc>
+        <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/denombrement/denombrement-exercices-corriges/</loc>
+        <lastmod>2020-05-14T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/google-traduction/</loc>
+        <lastmod>2020-05-12T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</loc>
+        <lastmod>2020-05-12T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/jeu/</loc>
+        <lastmod>2020-05-09T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/limite/</loc>
+        <lastmod>2020-05-09T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/lycee/</loc>
+        <lastmod>2020-05-09T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/categories/sciences/</loc>
+        <lastmod>2020-05-09T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</loc>
+        <lastmod>2020-05-09T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/c/</loc>
+        <lastmod>2020-05-07T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/unordered_map/</loc>
+        <lastmod>2020-05-07T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/unordered_map-en-c/</loc>
+        <lastmod>2020-05-07T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/edt/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/google-agenda/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/iftt/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/mail/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/mysql/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/php/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/raspberry-pi/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/raspbian/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/server-http/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/somme/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/universite/</loc>
+        <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/debian/</loc>
+        <lastmod>2020-04-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/installer-php7-4-sur-un-raspberry-pi/</loc>
+        <lastmod>2020-04-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/algebre-2/</loc>
+        <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/</loc>
+        <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/valeurs-propres/</loc>
+        <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/vecteurs-propres/</loc>
+        <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/cholesky/</loc>
+        <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/decomposition/</loc>
+        <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/keske-cest-la-decomposition-de-cholesky/</loc>
+        <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/binaire/</loc>
+        <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/binary/</loc>
+        <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</loc>
+        <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/decimal/</loc>
+        <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/hexadecimal/</loc>
+        <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</loc>
+        <lastmod>2020-04-12T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/float/</loc>
+        <lastmod>2020-04-12T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/float32/</loc>
+        <lastmod>2020-04-12T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/mathematiques/keske-cest-lintegrale-de-xi-dx/</loc>
+        <lastmod>2020-04-12T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/analyse/</loc>
+        <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/keske-cest-le-conditionnement-dune-matrice/</loc>
+        <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/tags/optimisation-informatique/</loc>
+        <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/informatique/keske-cest-wsl2/</loc>
+        <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:32871/contact/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/mathematiques/coefficient-binomial/</loc>
-        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/confidentialite/</loc>
-        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/tags/denombrement/</loc>
+        <loc>http://localhost:32871/confidentialite/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
