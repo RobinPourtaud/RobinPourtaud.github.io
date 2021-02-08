@@ -8,10 +8,8 @@ tags:
   - "analyse"
   - "analyse-complexe"
   - "trigonometrie"
-no: ""
+description: "Cet article est un exercice avec solution présentant la solution réelle et complexe de cos(x)sin(x) = 1."
 ---
-
-Cet article est un exercice avec solution présentant la solution réelle et complexe de cos(x)sin(x) = 1.
 
 ## Exercice :
 

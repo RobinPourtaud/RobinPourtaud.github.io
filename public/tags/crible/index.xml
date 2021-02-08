@@ -2,30 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>crible on DevMath.fr</title>
-    <link>http://localhost:46787/tags/crible/</link>
+    <link>http://localhost:38561/tags/crible/</link>
     <description>Recent content in crible on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/crible/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/crible/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Formule de Sylvester</title>
-      <link>http://localhost:46787/mathematiques/formule-de-sylvester/</link>
+      <link>http://localhost:38561/mathematiques/formule-de-sylvester/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/formule-de-sylvester/</guid>
-      <description>La formule de Sylvester, aussi appelée formule de Boole-Sylvester ou principe d&amp;rsquo;inclusion-exclusion est la formule du crible de Poincaré appliquée à l&amp;rsquo;ensemble des entiers naturels inférieurs à n.
-Identité : La formule de Sylvester est la suivante :
+      <guid>http://localhost:38561/mathematiques/formule-de-sylvester/</guid>
+      <description>Identité : La formule de Sylvester est la suivante :
   \quicklatex{size=23}#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i}\right)  
-Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :</description>
+Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :
+ Formule du crible - Wikiversity
+En savoir plus - sources :   Inclusion–exclusion principle for belief functions  Prepacom.net Dénombrer  Formule du crible - Wikiversity  formule du crible de Da Silva et Sylvester - les-mathematiques.</description>
     </item>
     
     <item>
       <title>Exercice corrigé - Dénombrement n°1</title>
-      <link>http://localhost:46787/mathematiques/denombrement/exercice-corrige-denombrement-n1/</link>
+      <link>http://localhost:38561/mathematiques/denombrement/exercice-corrige-denombrement-n1/</link>
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/denombrement/exercice-corrige-denombrement-n1/</guid>
-      <description>Exercice corrigé de dénombrement n°1. Difficulté : Moyenne
+      <guid>http://localhost:38561/mathematiques/denombrement/exercice-corrige-denombrement-n1/</guid>
+      <description>Difficulté : Moyenne
 Liste d&amp;rsquo;exercice : (En cours)
 Énoncé : Une histoire de pigeon A Central Parc, il y a 250 oiseaux à 3 couleurs. Parmi eux se trouvent :
  68 oiseaux possédant des plumes magentas et blanches 133 oiseaux possédant des plumes blanches 192 oiseaux ne possédant pas de plumes blanches ou ne possédant pas de plumes vertes 213 oiseaux possédant des plumes magentas ou vertes  Seuls les pigeons sont verts, magentas et blancs, pouvez vous les dénombrer ?</description>

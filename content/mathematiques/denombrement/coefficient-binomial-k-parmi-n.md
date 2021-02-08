@@ -4,13 +4,10 @@ slug: "coefficient-binomial-k-parmi-n"
 date: "2021-01-15"
 categories: 
   - "denombrement"
-  - "mathematiques"
 tags: 
   - "coefficients-binomiaux"
-no: ""
+description: "Cet article présente la notion de coefficient binomial, illustrée d'exemples et d'exercices corrigés. Un niveau de 1ère/Terminale est préférable pour pouvoir suivre cet article. Un rappel sur la notion de factoriel y sera explicité."
 ---
-
-Cet article présente la notion de coefficient binomial, illustrée d'exemples et d'exercices corrigés. Un niveau de 1ère/Terminale est préférable pour pouvoir suivre cet article. Un rappel sur la notion de factoriel y sera explicité.
 
 ## Prérequis :
 

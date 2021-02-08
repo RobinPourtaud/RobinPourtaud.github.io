@@ -5,13 +5,11 @@ date: "2020-07-21"
 categories: 
   - "informatique"
 tags: 
-  - "bing"
-  - "seo"
-  - "wordpress"
-no: ""
+  - "Bing"
+  - "SEO"
+  - "Wordpress"
+description: "Le 21 juin 2020, Bing annonça la sortie de son nouveau plugin Wordpress : Bing URL Submissions Plugin. Open source, il permettrait d'indexer les articles Wordpress** automatiquement et immédiatement au moment de leurs publications."
 ---
-
-Le 21 juin 2020, Bing annonça la sortie de son nouveau plugin Wordpress : "Bing URL Submissions Plugin". Open source, il permettrait d'indexer **les articles Wordpress** automatiquement et immédiatement au moment de leurs publications.
 
 Cet article est basé sur un communiqué de [blogs.bing.com](https://blogs.bing.com/webmaster/july-2020/Get-your-WordPress-content-indexed-immediately-using-Bing-Webmaster-Tools-plugin) publié le 21 juin 2020.
 

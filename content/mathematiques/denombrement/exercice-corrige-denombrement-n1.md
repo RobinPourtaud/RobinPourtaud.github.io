@@ -8,10 +8,8 @@ tags:
   - "crible"
   - "ensemble"
   - "loi-de-morgan"
-no: ""
+description: "Exercice corrigé de dénombrement n°1. "
 ---
-
-Exercice corrigé de dénombrement n°1. 
 Difficulté : Moyenne
 
 ## Liste d'exercice :

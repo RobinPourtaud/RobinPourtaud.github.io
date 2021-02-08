@@ -4,7 +4,5 @@ slug: "mode-mathematique-sur-gboard"
 date: "2020-07-20"
 categories: 
   - "informatique"
-no: ""
+description: ""
 ---
-
-

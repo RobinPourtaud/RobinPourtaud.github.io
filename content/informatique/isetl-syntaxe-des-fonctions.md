@@ -7,10 +7,8 @@ categories:
 tags: 
   - "isetl"
   - "tuto"
-no: ""
+description: "Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, il avait pour finalité **l’enseignement des mathématiques discrètes à l’université**. Possédant une syntaxe atypique, ISETL est un langage difficile à appréhender pour un néophyte. Dans ce tutoriel, nous introduirons le concept de fonction en ISETL, partant d'une définition générale puis en prenant 3 exemples."
 ---
-
-Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, il avait pour finalité **l’enseignement des mathématiques discrètes à l’université**. Possédant une syntaxe atypique, ISETL est un langage difficile à appréhender pour un néophyte. Dans ce tutoriel, nous introduirons le concept de fonction en ISETL, partant d'une définition générale puis en prenant 3 exemples.
 
 ## Fonction en ISETL
 

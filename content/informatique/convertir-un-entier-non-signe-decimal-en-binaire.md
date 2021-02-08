@@ -12,10 +12,8 @@ tags:
   - "conversion"
   - "decimal"
   - "hexadecimal"
-no: ""
+description: "Tous les systèmes informatiques actuels fonctionnent en binaire. Très grossièrement, on pourrait considérer que 0 représente un courant éteint et 1 un courant allumé. Ainsi, il est nécessaire de comprendre le fonctionnement de la représentation binaire pour pouvoir représenter des chiffres dans la mémoire d'un ordinateur."
 ---
-
-Tous les systèmes informatiques actuels fonctionnent en binaire. Très grossièrement, on pourrait considérer que 0 représente un courant "éteint" et 1 un courant "allumé". Ainsi, il est nécessaire de comprendre le fonctionnement de la représentation binaire pour pouvoir représenter des chiffres dans la mémoire d'un ordinateur.
 
 > Le **système binaire** est le [système de numération](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_num%C3%A9ration) utilisant la [base](https://fr.wikipedia.org/wiki/Base_(arithm%C3%A9tique)) [2](https://fr.wikipedia.org/wiki/2_(nombre)). On nomme couramment [bit](https://fr.wikipedia.org/wiki/Bit) (de l'[anglais](https://fr.wikipedia.org/wiki/Anglais) _binary digit_, soit « chiffre binaire ») les [chiffres](https://fr.wikipedia.org/wiki/Chiffre) de la numération binaire positionnelle. Un bit peut prendre deux valeurs, notées par convention [0](https://fr.wikipedia.org/wiki/0_(chiffre)) et [1](https://fr.wikipedia.org/wiki/1_(nombre)).
 > 

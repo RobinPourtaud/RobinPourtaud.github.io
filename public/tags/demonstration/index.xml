@@ -2,41 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>demonstration on DevMath.fr</title>
-    <link>http://localhost:46787/tags/demonstration/</link>
+    <link>http://localhost:38561/tags/demonstration/</link>
     <description>Recent content in demonstration on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/demonstration/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/demonstration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Démonstration : Toutes les puissances de 6 finissent par un 6</title>
-      <link>http://localhost:46787/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</link>
+      <link>http://localhost:38561/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</link>
       <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</guid>
-      <description>Par une démonstration par récurrence, cet article montrera que toutes les puissances strictement positives de 6 finissent toujours par un 6.
-Intuition : 6 puissance 1 est 6, 6 puissance 2 36, 6 puissance 3 216. Pour aller plus vite je vous propose ce code python :
-for i in range(1,20) : print(&amp;quot;6 puissance &amp;quot; + str(i) + &amp;quot; est égale à &amp;quot; + str(6**i)) A l&amp;rsquo;exécution, nous avons :</description>
+      <guid>http://localhost:38561/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</guid>
+      <description>Intuition : 6 puissance 1 est 6, 6 puissance 2 36, 6 puissance 3 216. Pour aller plus vite je vous propose ce code python :
+for i in range(1,20) : print(&amp;quot;6 puissance &amp;quot; + str(i) + &amp;quot; est égale à &amp;quot; + str(6**i)) A l&amp;rsquo;exécution, nous avons :
+ 
+Puissance de 6 de 1 à 19
+Bien que très persuasif, ce n&amp;rsquo;est pas suffisant pour considérer cette propriété comme vraie&amp;hellip;</description>
     </item>
     
     <item>
       <title>Démonstration : Somme des k parmi n</title>
-      <link>http://localhost:46787/mathematiques/demonstration-somme-des-k-parmi-n/</link>
+      <link>http://localhost:38561/mathematiques/demonstration-somme-des-k-parmi-n/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
-      <description>Cet article présente 2 démonstrations de l&amp;rsquo;égalité : somme des k parmi n = 2^k (2 puissance k). La première se servant de la formule du binôme, la deuxième se servant de la définition de l&amp;rsquo;ensembles des parties de E.
-Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
-  Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe.</description>
+      <guid>http://localhost:38561/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
+      <description>Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
+  Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe. Elle s&amp;rsquo;appuiera sur la formule du binôme de Newton :
+  Si nous prenons   et  , alors obtenons l&amp;rsquo;égalité :
+  Ce qui nous donne :
+  Démonstration 2 : Cette deuxième démonstration s&amp;rsquo;appuie sur la définition exprimant le cardinal de l&amp;rsquo;ensemble des parties d&amp;rsquo;un ensemble quelconque comme étant égal à 2 à la puissance du cardinal de l&amp;rsquo;ensemble.</description>
     </item>
     
     <item>
       <title>Démonstration : Somme des k(k parmi n)</title>
-      <link>http://localhost:46787/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</link>
+      <link>http://localhost:38561/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
-      <description>Cet article présente la démonstration de : la somme des k fois k parmi n = n fois 2 puissance (n moins 1).
-Identité : Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
+      <guid>http://localhost:38561/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
+      <description>Identité : Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
   Démonstration :  On commence par reprendre la formule du binôme de Newton :    Soit  , alors :    Dérivons l&amp;rsquo;équation selon   comme ceci :    Ce qui donne :    Nous pouvons maintenant prendre   et retrouver l&amp;rsquo;équation :    D&amp;rsquo;autres identités ici :  Coefficient binomial - Wikipédia</description>
     </item>
     

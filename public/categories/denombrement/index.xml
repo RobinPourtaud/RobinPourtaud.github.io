@@ -2,29 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>denombrement on DevMath.fr</title>
-    <link>http://localhost:46787/categories/denombrement/</link>
+    <link>http://localhost:38561/categories/denombrement/</link>
     <description>Recent content in denombrement on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/categories/denombrement/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/categories/denombrement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coefficient binomial (k parmi n)</title>
-      <link>http://localhost:46787/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</link>
+      <link>http://localhost:38561/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</guid>
-      <description>Cet article présente la notion de coefficient binomial, illustrée d&amp;rsquo;exemples et d&amp;rsquo;exercices corrigés. Un niveau de 1ère/Terminale est préférable pour pouvoir suivre cet article. Un rappel sur la notion de factoriel y sera explicité.
-Prérequis : La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté &amp;ldquo;!&amp;rdquo;, le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
-  Pour prendre plusieurs exemples :</description>
+      <guid>http://localhost:38561/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</guid>
+      <description>Prérequis : La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté &amp;ldquo;!&amp;rdquo;, le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
+  Pour prendre plusieurs exemples :
+        Pour finir, prenez en compte que 0! = 1. Vous pouvez en savoir plus ici si vous êtes curieux :
+ Pourquoi 0 factoriel est égale à 1 ?</description>
     </item>
     
     <item>
       <title>Exercice corrigé - Dénombrement n°1</title>
-      <link>http://localhost:46787/mathematiques/denombrement/exercice-corrige-denombrement-n1/</link>
+      <link>http://localhost:38561/mathematiques/denombrement/exercice-corrige-denombrement-n1/</link>
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/denombrement/exercice-corrige-denombrement-n1/</guid>
-      <description>Exercice corrigé de dénombrement n°1. Difficulté : Moyenne
+      <guid>http://localhost:38561/mathematiques/denombrement/exercice-corrige-denombrement-n1/</guid>
+      <description>Difficulté : Moyenne
 Liste d&amp;rsquo;exercice : (En cours)
 Énoncé : Une histoire de pigeon A Central Parc, il y a 250 oiseaux à 3 couleurs. Parmi eux se trouvent :
  68 oiseaux possédant des plumes magentas et blanches 133 oiseaux possédant des plumes blanches 192 oiseaux ne possédant pas de plumes blanches ou ne possédant pas de plumes vertes 213 oiseaux possédant des plumes magentas ou vertes  Seuls les pigeons sont verts, magentas et blancs, pouvez vous les dénombrer ?</description>
@@ -32,12 +33,12 @@ Liste d&amp;rsquo;exercice : (En cours)
     
     <item>
       <title>Dénombrement - Exercices corrigés</title>
-      <link>http://localhost:46787/mathematiques/denombrement/denombrement-exercices-corriges/</link>
+      <link>http://localhost:38561/mathematiques/denombrement/denombrement-exercices-corriges/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/denombrement/denombrement-exercices-corriges/</guid>
-      <description>En licence, le dénombrement est peu-être le domaine des mathématiques le plus mal compris. Ésotériques pour certains, fastidieux pour d&amp;rsquo;autres, le dénombrement est (malheureusement ?) inévitable et capital. C&amp;rsquo;est pourquoi, vous devez absolument le maîtriser. Pour vous y aider, je vous propose 5 exercices (corrigés à la fin) plus ou moins difficile à faire en 30 min :).
-Exercice 1 : Des souris et des chats Exercice 2 : Des balles et des fusils Exercice 3 : Des creepers et des zombies Exercice 4 : Des Oiseaux et des cages Un zoologiste a une passion : les oiseaux, mais depuis la saison des amours, son nombre d&amp;rsquo;oiseaux à doublé!</description>
+      <guid>http://localhost:38561/mathematiques/denombrement/denombrement-exercices-corriges/</guid>
+      <description>Exercice 1 : Des souris et des chats Exercice 2 : Des balles et des fusils Exercice 3 : Des creepers et des zombies Exercice 4 : Des Oiseaux et des cages Un zoologiste a une passion : les oiseaux, mais depuis la saison des amours, son nombre d&amp;rsquo;oiseaux à doublé! C&amp;rsquo;est pourquoi il va devoir en relâcher quelque-uns.
+Exercice 5 : Des japonais et des tsunamis Correction Ex1 : </description>
     </item>
     
   </channel>

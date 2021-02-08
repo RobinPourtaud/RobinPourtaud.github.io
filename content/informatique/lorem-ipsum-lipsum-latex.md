@@ -6,10 +6,8 @@ categories:
   - "informatique"
 tags: 
   - "latex"
-no: ""
+description: "Cet article présente la façon la plus courante de générer un Lorem Ipsum (ou faux-texte) en Latex."
 ---
-
-Cet article présente la façon la plus courante de générer un Lorem Ipsum (ou faux-texte) en Latex.
 
 ## Utilisation
 

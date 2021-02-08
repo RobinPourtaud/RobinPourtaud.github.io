@@ -9,10 +9,8 @@ tags:
   - "tuto"
   - "windows-10"
   - "wsl2"
-no: ""
+description: "## Monter une Partition Fat32/Fat ou NFSF"
 ---
-
-## Monter une Partition Fat32/Fat ou NFSF
 
 ## Monter une partition ext4 ou ext2
 

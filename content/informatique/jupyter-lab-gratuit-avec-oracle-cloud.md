@@ -7,10 +7,8 @@ categories:
 tags: 
   - "jupyter-notebook"
   - "linux"
-no: ""
+description: "Gratuitement, de grandes entreprises (Google, IBM, Microsoft, ...) proposent un accès à leur Jupyter Notebook. Jupyter Lab, cependant, ne fait pas partie de leurs offres gratuites (sans durée limitée et sans restriction conséquentes). C'est dans cette optique que j'ai découvert l'accès Always free de Oracle, nous permettant aisément de créer notre Jupyter Lab personnel..."
 ---
-
-Gratuitement, de grandes entreprises (Google, IBM, Microsoft, ...) proposent un accès à leur Jupyter Notebook. Jupyter Lab, cependant, ne fait pas partie de leurs offres gratuites (sans durée limitée et sans restriction conséquentes). C'est dans cette optique que j'ai découvert l'accès "Always free" de Oracle, nous permettant aisément de créer notre Jupyter Lab personnel...
 
 ## Résumé
 

@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on DevMath.fr</title>
-    <link>http://localhost:46787/categories/</link>
+    <link>http://localhost:38561/categories/</link>
     <description>Recent content in Categories on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>denombrement</title>
-      <link>http://localhost:46787/categories/denombrement/</link>
+      <link>http://localhost:38561/categories/denombrement/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/categories/denombrement/</guid>
+      <guid>http://localhost:38561/categories/denombrement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mathematiques</title>
-      <link>http://localhost:46787/categories/mathematiques/</link>
+      <link>http://localhost:38561/categories/mathematiques/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/categories/mathematiques/</guid>
+      <guid>http://localhost:38561/categories/mathematiques/</guid>
       <description></description>
     </item>
     
     <item>
       <title>informatique</title>
-      <link>http://localhost:46787/categories/informatique/</link>
+      <link>http://localhost:38561/categories/informatique/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/categories/informatique/</guid>
+      <guid>http://localhost:38561/categories/informatique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>securite-informatique</title>
-      <link>http://localhost:46787/categories/securite-informatique/</link>
+      <link>http://localhost:38561/categories/securite-informatique/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/categories/securite-informatique/</guid>
+      <guid>http://localhost:38561/categories/securite-informatique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sciences</title>
-      <link>http://localhost:46787/categories/sciences/</link>
+      <link>http://localhost:38561/categories/sciences/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/categories/sciences/</guid>
+      <guid>http://localhost:38561/categories/sciences/</guid>
       <description></description>
     </item>
     

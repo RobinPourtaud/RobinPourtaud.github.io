@@ -7,10 +7,8 @@ categories:
   - "mathematiques"
 tags: 
   - "latex"
-no: ""
+description: "Cet article présente un moyen de générer le symbole usuel de la fonction indicatrice (ou fonction caractéristique). Ce symbole peut aussi désigner la fonction identité."
 ---
-
-Cet article présente un moyen de générer le symbole usuel de la fonction indicatrice (ou fonction caractéristique). Ce symbole peut aussi désigner la fonction identité.
 
 ## Package requis
 

@@ -8,10 +8,8 @@ tags:
   - "cholesky"
   - "decomposition"
   - "matrice"
-no: ""
+description: "Toute matrice symétrique définie positive A admet une décomposition de Cholesky. A étant égal à la multiplication d'une matrice triangulaire inférieure L par la matrice transposée de L."
 ---
-
-Toute matrice symétrique définie positive A admet une décomposition de Cholesky. A étant égal à la multiplication d'une matrice triangulaire inférieure L par la matrice transposée de L.
 
 ## Définition :
 

@@ -9,10 +9,8 @@ tags:
   - "analyse-complexe"
   - "integrale"
   - "nombre-complexe"
-no: ""
+description: "i est un nombre. Il est complexe certes, mais reste un nombre. Il est égale à la racine de -1 Ainsi, les règles des intégrales qu'on connait et qu'on utilise avec les nombres réels sont tout aussi applicables."
 ---
-
-"i" est un nombre. Il est complexe certes, mais reste un nombre. Il est égale à la racine de "-1" Ainsi, les règles des intégrales qu'on connait et qu'on utilise avec les nombres réels sont tout aussi applicables.
 
 ## Méthode 1 : Traditionnelle et Rapide
 

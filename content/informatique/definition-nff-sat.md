@@ -7,10 +7,8 @@ categories:
   - "mathematiques"
 tags: 
   - "complexite-asymptotique"
-no: ""
+description: "Un problème de satisfaction de contraintes booléennes, aussi appelé problème de satisfiabilité, consiste à déterminer, pour un ensemble de contraintes définies sur des variables booléennes, s’il existe une assignation de valeurs aux variables satisfaisant toutes les contraintes."
 ---
-
-Un problème de satisfaction de contraintes booléennes, aussi appelé problème de satisfiabilité, consiste à déterminer, pour un ensemble de contraintes définies sur des variables booléennes, s’il existe une assignation de valeurs aux variables satisfaisant toutes les contraintes.
 
 ## Un peu de vocabulaire :
 

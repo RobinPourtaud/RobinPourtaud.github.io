@@ -8,10 +8,8 @@ tags:
   - "bit"
   - "logique"
   - "processeur"
-no: ""
+description: "Une unité arithmétique et logique (UAL) ou ALU en anglais est un composant essentiel au fonctionnement de nos ordinateurs actuels. Souvent intégrée au processeur pour effectuer de nombreuses opérations arithmétiques, cet article en présente un exemple simple, conçu avec le logiciel Logisim."
 ---
-
-Une unité arithmétique et logique (UAL) ou ALU en anglais est un composant essentiel au fonctionnement de nos ordinateurs actuels. Souvent intégrée au processeur pour effectuer de nombreuses opérations arithmétiques, cet article en présente un exemple simple, conçu avec le logiciel Logisim.
 
 ## Caractéristiques de l'UAL :
 

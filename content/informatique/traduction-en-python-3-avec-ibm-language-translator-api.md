@@ -9,10 +9,8 @@ tags:
   - "jupyter-notebook"
   - "python"
   - "traduction"
-no: ""
+description: "Pour traduire du texte en Python, on pense à Google Traduction API. Cependant, il existe de nombreuses alternatives. Parmi celles-ci se trouve Language Translator API, qui propose de traduire gratuitement 1 000 000 de caractères par mois. Cet article vous aidera a le paramétrer et l'utiliser."
 ---
-
-Pour traduire du texte en Python, on pense à Google Traduction API. Cependant, il existe de nombreuses alternatives. Parmi celles-ci se trouve Language Translator API, qui propose de traduire gratuitement 1 000 000 de caractères par mois. Cet article vous aidera a le paramétrer et l'utiliser.
 
 ## Nécessaire
 

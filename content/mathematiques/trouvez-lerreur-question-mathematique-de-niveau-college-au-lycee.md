@@ -10,10 +10,8 @@ tags:
   - "jeu"
   - "limite"
   - "lycee"
-no: ""
+description: "Tout au long de votre scolarité, vous avez surement dû rencontrer beaucoup d'équations. Vous avez peut-être le sentiment d'être parfaitement capable de résoudre de simples équations du collège ou du lycée ? Et bien vous verrez qu'une erreur est très vite arrivée..."
 ---
-
-Tout au long de votre scolarité, vous avez surement dû rencontrer beaucoup d'équations. Vous avez peut-être le sentiment d'être parfaitement capable de résoudre de simples équations du collège ou du lycée ? Et bien vous verrez qu'une erreur est très vite arrivée...
 
 Note : Toutes les variables appartiennent à {{< latex "\mathbb{R}" >}}.
 

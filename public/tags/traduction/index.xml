@@ -2,19 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>traduction on DevMath.fr</title>
-    <link>http://localhost:46787/tags/traduction/</link>
+    <link>http://localhost:38561/tags/traduction/</link>
     <description>Recent content in traduction on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/traduction/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/traduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Traduction en Python 3 avec IBM Language Translator API</title>
-      <link>http://localhost:46787/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</link>
+      <link>http://localhost:38561/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</guid>
-      <description>Pour traduire du texte en Python, on pense à Google Traduction API. Cependant, il existe de nombreuses alternatives. Parmi celles-ci se trouve Language Translator API, qui propose de traduire gratuitement 1 000 000 de caractères par mois. Cet article vous aidera a le paramétrer et l&amp;rsquo;utiliser.
-Nécessaire  Un compte IBM Cloud (gratuit). Pour se connecter ou s&amp;rsquo;inscrire, c&amp;rsquo;est ici : IBM Cloud. Avoir installé Python et pip sur votre ordinateur.</description>
+      <guid>http://localhost:38561/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</guid>
+      <description>Nécessaire  Un compte IBM Cloud (gratuit). Pour se connecter ou s&amp;rsquo;inscrire, c&amp;rsquo;est ici : IBM Cloud. Avoir installé Python et pip sur votre ordinateur. Une alternative est l&amp;rsquo;utilisation de Jupyter Notebook.  Obtenir la clé de l&amp;rsquo;API Une fois connecté à IBM cloud, vous pouvez maintenant ajouter le service Language Translator :
+ Language Translator - IBM Cloud
+Sélectionnez le &amp;ldquo;plan lite&amp;rdquo; :
+ 
+Plan lite
+Une fois créé, dans l&amp;rsquo;onglet Manage, copiez l&amp;rsquo;API key et l&amp;rsquo;URL.</description>
     </item>
     
   </channel>

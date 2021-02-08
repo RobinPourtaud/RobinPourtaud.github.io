@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>conversion on DevMath.fr</title>
-    <link>http://localhost:46787/tags/conversion/</link>
+    <link>http://localhost:38561/tags/conversion/</link>
     <description>Recent content in conversion on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/conversion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/conversion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Octet, Giga-bits, Kibioctets, Byte ?</title>
-      <link>http://localhost:46787/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</link>
+      <link>http://localhost:38561/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</guid>
-      <description>Durant votre &amp;ldquo;vie numérique&amp;rdquo;, vous avez sans doute rencontré de nombreux acronymes. Des Kbit ? Des To? Voir même de Gio ?
-Savoir combien de films votre clé USB peut stocker, ce n&amp;rsquo;est pas inné, ça s&amp;rsquo;apprend, et c&amp;rsquo;est ce que je vais vous expliquer à travers cet article :).
+      <guid>http://localhost:38561/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</guid>
+      <description>Savoir combien de films votre clé USB peut stocker, ce n&amp;rsquo;est pas inné, ça s&amp;rsquo;apprend, et c&amp;rsquo;est ce que je vais vous expliquer à travers cet article :).
 Le système international d&amp;rsquo;unité (SI) Au lycée, vous avez certainement entendu parler du système international d&amp;rsquo;unité.
-Il s&amp;rsquo;agit d&amp;rsquo;un système décimal, permettant de conformer les unités avec précision pour tous les pays du monde (sauf exceptions).</description>
+Il s&amp;rsquo;agit d&amp;rsquo;un système décimal, permettant de conformer les unités avec précision pour tous les pays du monde (sauf exceptions). Le changement d’échelle se fait par puissance de 10.</description>
     </item>
     
     <item>
       <title>Convertir un entier non signé décimal en Binaire</title>
-      <link>http://localhost:46787/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</link>
+      <link>http://localhost:38561/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</guid>
-      <description>Tous les systèmes informatiques actuels fonctionnent en binaire. Très grossièrement, on pourrait considérer que 0 représente un courant &amp;ldquo;éteint&amp;rdquo; et 1 un courant &amp;ldquo;allumé&amp;rdquo;. Ainsi, il est nécessaire de comprendre le fonctionnement de la représentation binaire pour pouvoir représenter des chiffres dans la mémoire d&amp;rsquo;un ordinateur.
- Le système binaire est le système de numération utilisant la base 2. On nomme couramment bit (de l&#39; anglais binary digit, soit « chiffre binaire ») les chiffres de la numération binaire positionnelle.</description>
+      <guid>http://localhost:38561/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</guid>
+      <description>Le système binaire est le système de numération utilisant la base 2. On nomme couramment bit (de l&#39; anglais binary digit, soit « chiffre binaire ») les chiffres de la numération binaire positionnelle. Un bit peut prendre deux valeurs, notées par convention 0 et 1.
+ fr.wikipiedia.org
+ Tous les systèmes informatiques actuels fonctionnent en binaire. Très grossièrement, on pourrait considérer que 0 représente un courant &amp;ldquo;éteint&amp;rdquo; et 1 un courant &amp;ldquo;allumé&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Convertir un nombre décimal en Float</title>
-      <link>http://localhost:46787/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</link>
+      <link>http://localhost:38561/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</guid>
-      <description>La virgule flottante (float) est une méthode d&amp;rsquo;écriture de nombres réels fréquemment utilisée dans les ordinateurs. (Wikipédia)
-En mémoire, un nombre peut être codé par de nombreux schémas différents:
- int (entier sur 16 bits en c++) uint64_t (entier sur 64 bits en c++) float32 (réel sur 32 bits) float64 (réel sur 64 bits) &amp;hellip;..  Nécessaire : Pour suivre ce tutoriel, vous devez savoir convertir des entiers décimaux en binaires.</description>
+      <guid>http://localhost:38561/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</guid>
+      <description>En mémoire, un nombre peut être codé par de nombreux schémas différents:
+ int (entier sur 16 bits en c++) uint64_t (entier sur 64 bits en c++) float32 (réel sur 32 bits) float64 (réel sur 64 bits) &amp;hellip;..  Nécessaire : Pour suivre ce tutoriel, vous devez savoir convertir des entiers décimaux en binaires. Si jamais vous avez un doute, vous pouvez checker mon article sur cette conversion :
+ Convertir un entier non signé décimal en Binaire</description>
     </item>
     
   </channel>

@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>c on DevMath.fr</title>
-    <link>http://localhost:46787/tags/c/</link>
+    <link>http://localhost:38561/tags/c/</link>
     <description>Recent content in c on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>unordered_map en C&#43;&#43;</title>
-      <link>http://localhost:46787/informatique/unordered_map-en-c/</link>
+      <link>http://localhost:38561/informatique/unordered_map-en-c/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/unordered_map-en-c/</guid>
-      <description>Le conteneur unordered_map est un tableau associatif (ou table associative). Il permet l&amp;rsquo;association d&amp;rsquo;une clé du type de son choix à une valeur. Comme son nom l&amp;rsquo;indique, les éléments de l&amp;rsquo;unordered_map ne sont pas rangés, que ce soit par leurs clés ou par leurs valeurs associées (contrairement à &amp;ldquo;map&amp;rdquo;).
-Intérêts : L’intérêt principal de l&amp;rsquo;utilisation d&amp;rsquo;une unordered_map par rapport à un autre conteneur (notamement une map) est sa faible complexité asymptotique de recherche ou d&amp;rsquo;insertion moyenne (en O(1)).</description>
+      <guid>http://localhost:38561/informatique/unordered_map-en-c/</guid>
+      <description>Intérêts : L’intérêt principal de l&amp;rsquo;utilisation d&amp;rsquo;une unordered_map par rapport à un autre conteneur (notamement une map) est sa faible complexité asymptotique de recherche ou d&amp;rsquo;insertion moyenne (en O(1)).
+Exemple : En tant qu&amp;rsquo;exemple, je vais créer un tableau associant un animal à son âge.
+Définition : #include &amp;lt;iostream&amp;gt; //Cout, endl,etc #include &amp;lt;string&amp;gt; #include &amp;lt;unordered_map&amp;gt; int main(){ /* * Tableau associatif associant une clé de type string * à un int.</description>
     </item>
     
   </channel>

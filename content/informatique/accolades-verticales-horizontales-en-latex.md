@@ -8,10 +8,8 @@ categories:
 tags: 
   - "latex"
   - "systeme-lineaire"
-no: ""
+description: "Une des plus grandes forces de LaTeX est certainement **son rendu d'équations**. Très pratique et très rapide, le LaTeX vous permettra, dans le domaine des mathématiques, d'écrire des intégrales, des sommes, des limites, mais aussi **des systèmes linéaires**, le tout dans la plus grande simplicité.  "
 ---
-
-Une des plus grandes forces de LaTeX est certainement **son rendu d'équations**. Très pratique et très rapide, le LaTeX vous permettra, dans le domaine des mathématiques, d'écrire des intégrales, des sommes, des limites, mais aussi **des systèmes linéaires**, le tout dans la plus grande simplicité.  
 Faut-il encore savoir le faire... 
 
 

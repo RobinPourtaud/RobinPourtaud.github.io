@@ -8,10 +8,8 @@ tags:
   - "c"
   - "complexite-asymptotique"
   - "unordered_map"
-no: ""
+description: "Le conteneur unordered_map est un tableau associatif (ou table associative). Il permet l'association d'une clé du type de son choix à une valeur. Comme son nom l'indique, les éléments de l'unordered_map ne sont pas rangés, que ce soit par leurs clés ou par leurs valeurs associées (contrairement à map)."
 ---
-
-Le conteneur unordered_map est un tableau associatif (ou table associative). Il permet l'association d'une clé du type de son choix à une valeur. Comme son nom l'indique, les éléments de l'unordered_map ne sont pas rangés, que ce soit par leurs clés ou par leurs valeurs associées (contrairement à "map").
 
 ## Intérêts :
 

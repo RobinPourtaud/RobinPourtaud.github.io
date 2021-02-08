@@ -7,10 +7,8 @@ categories:
 tags: 
   - "combinaison"
   - "demonstration"
-no: ""
+description: "Cet article présente 2 démonstrations de l'égalité : somme des k parmi n = 2^k (2 puissance k). La première se servant de la formule du binôme, la deuxième se servant de la définition de l'ensembles des parties de E."
 ---
-
-Cet article présente 2 démonstrations de l'égalité : somme des k parmi n = 2^k (2 puissance k). La première se servant de la formule du binôme, la deuxième se servant de la définition de l'ensembles des parties de E.
 
 ## Définition :
 

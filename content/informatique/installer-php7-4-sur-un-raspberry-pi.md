@@ -12,10 +12,8 @@ tags:
   - "raspbian"
   - "tuto"
   - "wordpress"
-no: ""
+description: "PHP7.4 est actuellement la dernière version de PHP. Sortie fin 2019, je vais vous montrer la méthode la plus simple pour installer cette version de php sous Raspbian."
 ---
-
-PHP7.4 est actuellement la dernière version de PHP. Sortie fin 2019, je vais vous montrer la méthode la plus simple pour installer cette version de php sous Raspbian.
 
 Vous avez peut-être remarqué que votre WordPress tourne sous une ancienne version de PHP ? Vous avez donc sans doute vu ce message :
 

@@ -6,10 +6,8 @@ categories:
   - "mathematiques"
 tags: 
   - "integrale"
-no: ""
+description: "L' intégration par partie est une étape essentielle à la recherche de primitive. Il est facile de mal interpréter la formule, c'est pourquoi il existe une méthode appelée Intégration tabulaire (ou DI method) permettant d'éviter ce procédé classique et donc de s'épargner de nombreuses erreurs potentielles... Elle aurait été introduite dans le film Stand and Deliver."
 ---
-
-L' intégration par partie est une étape essentielle à la recherche de primitive. Il est facile de mal interpréter la formule, c'est pourquoi il existe une méthode appelée Intégration tabulaire (ou DI method) permettant d'éviter ce procédé classique et donc de s'épargner de nombreuses erreurs potentielles... Elle aurait été introduite dans le film "Stand and Deliver" \[1\].
 
 ## Exemple d'utilisation :
 

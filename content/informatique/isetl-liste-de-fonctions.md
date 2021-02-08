@@ -8,10 +8,8 @@ tags:
   - "hyperbolique"
   - "isetl"
   - "trigonometrie"
-no: ""
+description: "Cet article a pour finalité de vous lister quelques fonctions mathématiques predéfinies en ISETL."
 ---
-
-Cet article a pour finalité de vous lister quelques fonctions mathématiques predéfinies en ISETL.
 
 Pour installer ISETL, je vous renvoie vers [cet article](https://keskec.fr/sciences/informatique/robin/2690/).
 
@@ -20,7 +18,7 @@ Pour installer ISETL, je vous renvoie vers [cet article](https://keskec.fr/scien
 Soit x un réel quelconque (appartenant aux [domaines de définition](https://fr.wikipedia.org/wiki/Fonction_trigonom%C3%A9trique) des fonctions) :
 
 | Fonction Isetl | Fonction mathématique |
-| --- | --- |
+|--- |--- |
 | sin(x) | Sinus |
 | cos(x) | Cosinus |
 | tan(x) | Tangente |
@@ -44,7 +42,7 @@ sin(1) en ISETL
 Soit x un réel quelconque (appartenant aux [domaines de définition](https://fr.wikipedia.org/wiki/Fonction_hyperbolique) des fonctions) :
 
 | Fonction ISETL | Fonction Mathématique |
-| --- | --- |
+|--- |--- |
 | sinh(x) | Sinus Hyperbolique |
 | cosh(x) | Cosinus Hyperbolique |
 | tanh(x) | Tangente Hyperbolique |

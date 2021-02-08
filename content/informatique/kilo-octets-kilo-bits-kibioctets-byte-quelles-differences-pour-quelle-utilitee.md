@@ -7,10 +7,8 @@ categories:
 tags: 
   - "bit"
   - "conversion"
-no: ""
+description: "Durant votre vie numérique, vous avez sans doute rencontré de nombreux acronymes. Des Kbit ? Des To? Voir même de Gio ?  "
 ---
-
-Durant votre "vie numérique", vous avez sans doute rencontré de nombreux acronymes. Des Kbit ? Des To? Voir même de Gio ?  
 Savoir combien de films votre clé USB peut stocker, ce n'est pas inné, ça s'apprend, et c'est ce que je vais vous expliquer à travers cet article :).
 
 ## Le système international d'unité (SI)
@@ -26,7 +24,7 @@ Par exemple : 1 km = 1 kilomètre ou 10 hectomètre ou 100 décamètres, mais en
 Pour une vision plus globale de la chose, je vous propose un tableau présentant quelques préfixes utilisés pour respecter les standards du système internationales :
 
 | Préfixe | Symbole | Valeur |
-| --- | --- | --- |
+|--- |--- |--- |
 | (aucun) | unité | {{< latex "10^0" >}} |
 | déca- | da | {{< latex "10^1" >}} |
 | hecto- | h | {{< latex "10^2" >}} |
@@ -56,7 +54,7 @@ Il existe des exceptions, comme certains écrans OLED de LG, qui ont fait le cho
 Je vous propose un tableau usuel récapitulatif du bit selon le système internationale d'unité :
 
 | Unité | Notation | Valeur |
-| --- | --- | --- |
+|--- |--- |--- |
 | bit | bit | {{< latex "10^0 " >}} |
 | kilobit | kbit/kb | {{< latex "10^3" >}} |
 | mégabit | Mbit/Mb | {{< latex "10^6" >}} |
@@ -95,7 +93,7 @@ Vous verrez certainement souvent cette confusion. Dans la majorité des cas, cel
 Je vous propose un tableau usuelle récapitulatif du bit selon le système internationale d'unité :
 
 | Unité | Notation | Valeur |
-| --- | --- | --- |
+|--- |--- |--- |
 | Octet | o | {{< latex "10^0" >}} |
 | Kilooctet | Ko | {{< latex "10^3" >}} |
 | Mégaoctet | Mo | {{< latex "10^6" >}} |

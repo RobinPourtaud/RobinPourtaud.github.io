@@ -8,10 +8,8 @@ categories:
 tags: 
   - "isetl"
   - "tuto"
-no: ""
+description: "Cet article a pour finalité de lister des fonctions mathématiques implémentées par défaut dans ISETL3.0."
 ---
-
-Cet article a pour finalité de lister des fonctions mathématiques implémentées par défaut dans ISETL3.0.
 
 ## Prérequis :
 

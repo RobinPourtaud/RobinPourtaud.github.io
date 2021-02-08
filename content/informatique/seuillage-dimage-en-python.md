@@ -8,10 +8,8 @@ tags:
   - "numpy"
   - "python"
   - "tuto"
-no: ""
+description: "Le seuillage est une technique de traitement d'image permettant l'attribution de chaque pixel soit à une couleur, soit à une autre, selon un seuil. Plus explicitement :"
 ---
-
-Le seuillage est une technique de traitement d'image permettant l'attribution de chaque pixel soit à une couleur, soit à une autre, selon un seuil. Plus explicitement :
 
 
 

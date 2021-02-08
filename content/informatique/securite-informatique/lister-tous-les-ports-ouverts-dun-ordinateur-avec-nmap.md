@@ -7,10 +7,8 @@ categories:
 tags: 
   - "linux"
   - "nmap"
-no: ""
+description: "Pour des raisons de sécurité, de recherche ou tout simplement de curiosité, il peut être nécessaire de scanner une ip pour en extraire une liste de ports ouverts. Ce tutoriel présente la façon, à ma connaissance, la plus rapide et la plus simple d'accomplir cette tâche grâce à nmap."
 ---
-
-Pour des raisons de sécurité, de recherche ou tout simplement de curiosité, il peut être nécessaire de scanner une ip pour en extraire une liste de ports ouverts. Ce tutoriel présente la façon, à ma connaissance, la plus rapide et la plus simple d'accomplir cette tâche grâce à nmap.
 
 ## Installer nmap
 

@@ -10,10 +10,8 @@ tags:
   - "conversion"
   - "float"
   - "float32"
-no: ""
+description: "La **virgule flottante** (float) est une méthode d'écriture de [nombres réels](https://fr.wikipedia.org/wiki/Nombre_r%C3%A9el) fréquemment utilisée dans les [ordinateurs](https://fr.wikipedia.org/wiki/Ordinateur). (Wikipédia)"
 ---
-
-La **virgule flottante** (float) est une méthode d'écriture de [nombres réels](https://fr.wikipedia.org/wiki/Nombre_r%C3%A9el) fréquemment utilisée dans les [ordinateurs](https://fr.wikipedia.org/wiki/Ordinateur). (Wikipédia)
 
 En mémoire, un nombre peut être codé par de nombreux schémas différents:
 

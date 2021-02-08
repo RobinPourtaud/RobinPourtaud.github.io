@@ -7,10 +7,8 @@ categories:
 tags: 
   - "crible"
   - "denombrement"
-no: ""
+description: "La formule de Sylvester, aussi appelée formule de Boole-Sylvester ou principe d'inclusion-exclusion est la formule du crible de Poincaré appliquée à l'ensemble des entiers naturels inférieurs à n."
 ---
-
-La formule de Sylvester, aussi appelée formule de Boole-Sylvester ou principe d'inclusion-exclusion est la formule du crible de Poincaré appliquée à l'ensemble des entiers naturels inférieurs à n.
 
 ## Identité :
 

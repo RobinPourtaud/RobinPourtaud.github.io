@@ -9,10 +9,8 @@ tags:
   - "tuto"
   - "windows-10"
   - "wsl2"
-no: ""
+description: "Vous souhaitez savoir comment installer Windows Subsystem for Linux 2 ? Et utiliser Debian ou Ubuntu comme distribution ? Voici un article pour vous guider."
 ---
-
-Vous souhaitez savoir comment installer Windows Subsystem for Linux 2 ? Et utiliser Debian ou Ubuntu comme distribution ? Voici un article pour vous guider.
 
 > **Windows Subsystem for Linux (WSL)** est une couche de compatibilité permettant d'exécuter des [exécutables binaires](https://fr.wikipedia.org/wiki/Fichier_ex%C3%A9cutable) [Linux](https://fr.wikipedia.org/wiki/Linux) (au format [ELF](https://fr.wikipedia.org/wiki/Executable_and_Linkable_Format)) de manière native sur [Windows 10](https://fr.wikipedia.org/wiki/Windows_10) et [Windows Server 2019](https://fr.wikipedia.org/wiki/Windows_Server_2019).
 > 

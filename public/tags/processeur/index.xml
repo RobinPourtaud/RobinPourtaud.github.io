@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>processeur on DevMath.fr</title>
-    <link>http://localhost:46787/tags/processeur/</link>
+    <link>http://localhost:38561/tags/processeur/</link>
     <description>Recent content in processeur on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/processeur/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/processeur/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UAL - Unité arithmétique et logique</title>
-      <link>http://localhost:46787/informatique/ual-unite-arithmetique-et-logique/</link>
+      <link>http://localhost:38561/informatique/ual-unite-arithmetique-et-logique/</link>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/ual-unite-arithmetique-et-logique/</guid>
-      <description>Une unité arithmétique et logique (UAL) ou ALU en anglais est un composant essentiel au fonctionnement de nos ordinateurs actuels. Souvent intégrée au processeur pour effectuer de nombreuses opérations arithmétiques, cet article en présente un exemple simple, conçu avec le logiciel Logisim.
-Caractéristiques de l&amp;rsquo;UAL : Notre UAL nous permet d&amp;rsquo;effectuer 7 opérations sur des entiers signés de 8 bits.
+      <guid>http://localhost:38561/informatique/ual-unite-arithmetique-et-logique/</guid>
+      <description>Caractéristiques de l&amp;rsquo;UAL : Notre UAL nous permet d&amp;rsquo;effectuer 7 opérations sur des entiers signés de 8 bits.
 Entrées : Notre UAL prend 3 entrées :
- Un nombre sur 8 bits &amp;ldquo;A&amp;rdquo; utilisé en entrée des opérations.</description>
+ Un nombre sur 8 bits &amp;ldquo;A&amp;rdquo; utilisé en entrée des opérations. Un nombre sur 8 bits &amp;ldquo;B&amp;rdquo; utilisé en entrée des opérations. Un nombre sur 3 bits &amp;ldquo;ctr&amp;rdquo; utilisé pour sélectionner l&amp;rsquo;opération désirée.  Sorties : Notre UAL possède 2 sorties :
+ Un nombre sur 8 bits étant le résultat de l&amp;rsquo;opération choisie.</description>
     </item>
     
   </channel>

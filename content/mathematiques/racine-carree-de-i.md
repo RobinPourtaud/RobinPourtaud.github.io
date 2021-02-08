@@ -7,10 +7,8 @@ categories:
 tags: 
   - "analyse-complexe"
   - "cercle-trigonometrique"
-no: ""
+description: "Cet article présente un moyen d'évaluer la racine carrée de i très simplement. Seules des connaissances de base sur les nombres complexes et de la trigonométrie sont nécessaires."
 ---
-
-Cet article présente un moyen d'évaluer la racine carrée de i très simplement. Seules des connaissances de base sur les nombres complexes et de la trigonométrie sont nécessaires.
 
 ## La méthode :
 

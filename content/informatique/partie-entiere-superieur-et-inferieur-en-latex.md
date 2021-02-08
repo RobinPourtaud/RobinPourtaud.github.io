@@ -7,10 +7,8 @@ categories:
   - "mathematiques"
 tags: 
   - "latex"
-no: ""
+description: "Cet article présentera l'utilisation de la partie entière, aussi bien supérieure qu'inférieure en Latex. Deux macros seront explicitées pour faciliter leur utilisation."
 ---
-
-Cet article présentera l'utilisation de la partie entière, aussi bien supérieure qu'inférieure en Latex. Deux macros seront explicitées pour faciliter leur utilisation.
 
 ## Partie entière supérieure en LaTex :
 

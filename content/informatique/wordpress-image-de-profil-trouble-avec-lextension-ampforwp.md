@@ -6,10 +6,8 @@ categories:
   - "informatique"
 tags: 
   - "wordpress"
-no: ""
+description: "Durant l'installation de notre site web, nous avions décidé d'utiliser l'extension AMPforWP pour accélérer et faciliter notre référencement sur Google. Bien sûr, nous avons rencontré de nombreux problèmes. L'un d'entre eux était l'apparition de photos de profil troubles pour le bloc d'auteur (author box) ."
 ---
-
-Durant l'installation de notre site web, nous avions décidé d'utiliser l'extension AMPforWP pour accélérer et faciliter notre référencement sur Google. Bien sûr, nous avons rencontré de nombreux problèmes. L'un d'entre eux était l'apparition de photos de profil troubles pour le bloc d'auteur ("author box") .
 
 ## Le problème :
 

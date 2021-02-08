@@ -9,10 +9,8 @@ tags:
   - "jupyter-notebook"
   - "python"
   - "tuto"
-no: ""
+description: "Traduire du texte est quelque chose de complexe, demandant beaucoup de données et de ressources. C'est pourquoi, il n'est pas possible (difficile) de programmer soit même un algorithme performant de traduction."
 ---
-
-Traduire du texte est quelque chose de complexe, demandant beaucoup de données et de ressources. C'est pourquoi, il n'est pas possible (difficile) de programmer soit même un algorithme performant de traduction.
 
 La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l'API **Google Cloud Translation**. Cet API, bien que très pratique, pose un certain problème, celui du **prix** : [20 pour 1 million de caractères](https://cloud.google.com/translate/pricing). Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n'avez pas besoin d'utiliser autant de caractères, il serait intéressant de trouver une alternative **gratuite**. Et c'est pour cela que je vous propose cet article !
 

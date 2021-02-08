@@ -2,23 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>debian on DevMath.fr</title>
-    <link>http://localhost:46787/tags/debian/</link>
+    <link>http://localhost:38561/tags/debian/</link>
     <description>Recent content in debian on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installer PHP7.4 pour Wordpress</title>
-      <link>http://localhost:46787/informatique/installer-php7-4-sur-un-raspberry-pi/</link>
+      <link>http://localhost:38561/informatique/installer-php7-4-sur-un-raspberry-pi/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/installer-php7-4-sur-un-raspberry-pi/</guid>
-      <description>PHP7.4 est actuellement la dernière version de PHP. Sortie fin 2019, je vais vous montrer la méthode la plus simple pour installer cette version de php sous Raspbian.
-Vous avez peut-être remarqué que votre WordPress tourne sous une ancienne version de PHP ? Vous avez donc sans doute vu ce message :
+      <guid>http://localhost:38561/informatique/installer-php7-4-sur-un-raspberry-pi/</guid>
+      <description>Vous avez peut-être remarqué que votre WordPress tourne sous une ancienne version de PHP ? Vous avez donc sans doute vu ce message :
  
 Problème Critique PHP Wordpress
 Prenez 10 min de votre temps pour régler ce problème.
-Prérequis :  Vous devez avoir un ordinateur mis à jour, sous une distribution basée sur debian (raspbian pour moi).</description>
+Prérequis :  Vous devez avoir un ordinateur mis à jour, sous une distribution basée sur debian (raspbian pour moi). Avoir les droits de super utilisateur et donc avoir accès à la commande &amp;ldquo;sudo&amp;rdquo;.</description>
     </item>
     
   </channel>

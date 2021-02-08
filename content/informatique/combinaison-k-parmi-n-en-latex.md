@@ -8,10 +8,8 @@ categories:
 tags: 
   - "combinaison"
   - "latex"
-no: ""
+description: "Combien y a-t-il de possibilités de tirer 3 cartes parmi 13 ? Vous voulez certainement parler des coefficients binomiaux et vous ne savez pas comment le faire en Latex. Ci-dessous se trouvent 2 façons de rédiger des coefficients binomiaux pour vos PDF."
 ---
-
-Combien y a-t-il de possibilités de tirer 3 cartes parmi 13 ? Vous voulez certainement parler des coefficients binomiaux et vous ne savez pas comment le faire en Latex. Ci-dessous se trouvent 2 façons de rédiger des coefficients binomiaux pour vos PDF.
 
 
 

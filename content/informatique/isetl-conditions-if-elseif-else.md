@@ -7,10 +7,8 @@ categories:
 tags: 
   - "isetl"
   - "tuto"
-no: ""
+description: "Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, il avait pour finalité **l’enseignement des mathématiques discrètes à l’université**_._ Cet article est à destination des étudiants voulant apprendre à rédiger des conditions en ISETL."
 ---
-
-Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, il avait pour finalité **l’enseignement des mathématiques discrètes à l’université**_._ Cet article est à destination des étudiants voulant apprendre à rédiger des conditions en ISETL.
 
 ## If, ElseIf et Else
 

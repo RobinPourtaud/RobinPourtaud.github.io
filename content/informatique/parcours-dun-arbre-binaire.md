@@ -6,10 +6,8 @@ categories:
   - "informatique"
 tags: 
   - "arbre-binaire"
-no: ""
+description: "Cet article présente les différents parcours d'un arbre binaire : les plus communs. Les différents algorithmes de parcours ainsi qu'un exemple y seront explicités."
 ---
-
-Cet article présente les différents parcours d'un arbre binaire : les plus communs. Les différents algorithmes de parcours ainsi qu'un exemple y seront explicités.
 
 ## Différents parcours :
 

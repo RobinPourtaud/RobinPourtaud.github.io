@@ -7,10 +7,8 @@ categories:
   - "mathematiques"
 tags: 
   - "latex"
-no: ""
+description: "Cet article présente la façon usuelle d'afficher les symboles utilisés pour désigner certains ensembles mathématiques. Ces symboles, appelés majuscule ajourées serons explicités dans un tableau récapitulatif."
 ---
-
-Cet article présente la façon usuelle d'afficher les symboles utilisés pour désigner certains ensembles mathématiques. Ces symboles, appelés "majuscule ajourées" serons explicités dans un tableau récapitulatif.
 
 ## Ajourer une majuscule :
 

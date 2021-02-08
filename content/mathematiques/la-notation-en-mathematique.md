@@ -6,10 +6,8 @@ categories:
   - "mathematiques"
 tags: 
   - "notation"
-no: ""
+description: "Dans son livre **The Art of Computer Science**, l'informaticien Donald Knuth introduisit la notation **?**. Appelé Termial en anglais, la notation point d'interrogation n? représente la somme de tous les entiers naturels inférieurs ou égales à n."
 ---
-
-Dans son livre "The Art of Computer Science", l'informaticien Donald Knuth introduisit la notation "?". Appelé Termial en anglais, la notation point d'interrogation n? représente la somme de tous les entiers naturels inférieurs ou égales à n.
 
 ## Nota Bene :
 

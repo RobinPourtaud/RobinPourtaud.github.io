@@ -2,21 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cercle-trigonometrique on DevMath.fr</title>
-    <link>http://localhost:46787/tags/cercle-trigonometrique/</link>
+    <link>http://localhost:38561/tags/cercle-trigonometrique/</link>
     <description>Recent content in cercle-trigonometrique on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/cercle-trigonometrique/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/cercle-trigonometrique/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Racine carrée de i</title>
-      <link>http://localhost:46787/mathematiques/racine-carree-de-i/</link>
+      <link>http://localhost:38561/mathematiques/racine-carree-de-i/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/racine-carree-de-i/</guid>
-      <description>Cet article présente un moyen d&amp;rsquo;évaluer la racine carrée de i très simplement. Seules des connaissances de base sur les nombres complexes et de la trigonométrie sont nécessaires.
-La méthode : Soit  .
+      <guid>http://localhost:38561/mathematiques/racine-carree-de-i/</guid>
+      <description>La méthode : Soit  .
  On réécrit z :    Cherchons à écrire i en écriture exponentielle :
-Nous savons que  . Pour obtenir i, il faut donc que   et   soit respectivement égaux à 0 et 1.</description>
+Nous savons que  . Pour obtenir i, il faut donc que   et   soit respectivement égaux à 0 et 1.
+ 
+Source : Cercle Trigonométrique - Wikipédia
+En utilisant ce tableau, nous pouvons voir qu&amp;rsquo;un angle de   serait parfait ! (Utiliser un cercle trigonométrique ou partir de la forme algébrique aurait également été possible pour trouver la forme exponentielle de i).</description>
     </item>
     
   </channel>

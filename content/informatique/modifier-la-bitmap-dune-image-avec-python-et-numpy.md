@@ -10,10 +10,8 @@ tags:
   - "numpy"
   - "python"
   - "tuto"
-no: ""
+description: "Une image matricielle, ou « carte de points » (de l'anglais bitmap), est une image constituée d'une matrice de points colorés. Cela signifie qu'elle est constituée d'un tableau, d'une grille, où chaque case possède une couleur qui lui est propre et est considérée comme un point. (Wikipédia). Saviez-vous qu'il était possible de modifier cette bitmap très facilement en Python ? :)"
 ---
-
-Une image matricielle, ou « carte de points » (de l'anglais bitmap), est une image constituée d'une matrice de points colorés. Cela signifie qu'elle est constituée d'un tableau, d'une grille, où chaque case possède une couleur qui lui est propre et est considérée comme un point. (Wikipédia). Saviez-vous qu'il était possible de modifier cette bitmap très facilement en Python ? :)
 
 ## Télécharger une image
 

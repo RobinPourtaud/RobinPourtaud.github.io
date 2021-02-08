@@ -10,10 +10,8 @@ tags:
   - "analyse"
   - "optimisation-informatique"
   - "systeme-lineaire"
-no: ""
+description: "Cet article présente ce qu'est le conditionnement d'une matrice inversible et sa norme infinie, illustré par deux exemples."
 ---
-
-Cet article présente ce qu'est le conditionnement d'une matrice inversible et sa norme infinie, illustré par deux exemples.
 
 
 

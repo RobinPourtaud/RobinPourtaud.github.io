@@ -6,10 +6,8 @@ categories:
   - "informatique"
 tags: 
   - "isetl"
-no: ""
+description: "Cet article présente le langage ISETL, un langage utilisé pour l'apprentissage des mathématiques. Son intérêt, son installation et sa syntaxe seront explicité à travers plusieurs de nos articles sur le sujet."
 ---
-
-Cet article présente le langage ISETL, un langage utilisé pour l'apprentissage des mathématiques. Son intérêt, son installation et sa syntaxe seront explicité à travers plusieurs de nos articles sur le sujet.
 
 ## Définition :
 

@@ -6,10 +6,8 @@ categories:
   - "informatique"
 tags: 
   - "automate"
-no: ""
+description: "Cet article présente une méthode afin de convertir un automate fini non déterministe quelconque (AFN) en automate déterministe (AFD). Afin d'illustrer cette méthode, un exercice corrigé sera utilisé comme support. Les étapes de l'algorithme de conversion seront explicitées de façon tabulaire."
 ---
-
-Cet article présente une méthode afin de convertir un automate fini non déterministe quelconque (AFN) en automate déterministe (AFD). Afin d'illustrer cette méthode, un exercice corrigé sera utilisé comme support. Les étapes de l'algorithme de conversion seront explicitées de façon tabulaire.
 
 ## Définition :
 

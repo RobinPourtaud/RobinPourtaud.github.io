@@ -8,10 +8,8 @@ tags:
   - "coefficients-binomiaux"
   - "demonstration"
   - "somme"
-no: ""
+description: "Cet article présente la démonstration de : _la somme des k fois k parmi n = n fois 2 puissance (n moins 1)_."
 ---
-
-Cet article présente la démonstration de : _la somme des k fois k parmi n = n fois 2 puissance (n moins 1)_.
 
 ## Identité :
 

@@ -9,10 +9,8 @@ tags:
   - "ms-dos"
   - "tuto"
   - "windows-10"
-no: ""
+description: "Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, elle avait pour finalité **l'enseignement des mathématiques discrètes à l'université**."
 ---
-
-Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, elle avait pour finalité **l'enseignement des mathématiques discrètes à l'université**.
 
 En 1985, SETL était devenu un projet très lourd, lent et nécessitait une compilation, ce qui le rendait difficilement utilisable. C'est dans ce contexte que Gary Levin décida de créer une version de SETL interactive à direction des universités.  
 Et c'est ainsi qu'en 1988 sortit la version 1.0 d'ISETL : **plus rapide**, **plus léger** (<250K), et ayant une **syntaxe très proche de celle de SETL**. (source 1)

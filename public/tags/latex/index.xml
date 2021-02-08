@@ -2,104 +2,110 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>latex on DevMath.fr</title>
-    <link>http://localhost:46787/tags/latex/</link>
+    <link>http://localhost:38561/tags/latex/</link>
     <description>Recent content in latex on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ensembles mathématiques usuels (majuscules ajourées) - Latex</title>
-      <link>http://localhost:46787/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</link>
+      <link>http://localhost:38561/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</guid>
-      <description>Cet article présente la façon usuelle d&amp;rsquo;afficher les symboles utilisés pour désigner certains ensembles mathématiques. Ces symboles, appelés &amp;ldquo;majuscule ajourées&amp;rdquo; serons explicités dans un tableau récapitulatif.
-Ajourer une majuscule : Pour ajourer une majuscule (mettre une majuscule sous forme usuelle des ensembles) en Latex, il suffit d&amp;rsquo;importer amsfonts :
+      <guid>http://localhost:38561/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</guid>
+      <description>Ajourer une majuscule : Pour ajourer une majuscule (mettre une majuscule sous forme usuelle des ensembles) en Latex, il suffit d&amp;rsquo;importer amsfonts :
 \usepackage{amsfonts} Vous pouvez ainsi via &amp;ldquo;mathbb&amp;rdquo; afficher les majuscules que vous souhaitez :
 \mathbb{R} Ce qui nous donne :
-  Tableau récapitulatif Ce tableau liste quelques utilisation commune des majuscules ajourés en mathématique :</description>
+  Tableau récapitulatif Ce tableau liste quelques utilisation commune des majuscules ajourés en mathématique :
+EnsembleCode LatexAffichageBiquaternion\mathbb{B}  Ensemble des nombres complexes\mathbb{C}  Ensemble des nombres décimaux\mathbb{D}  Espérance mathématique\mathbb{E}  Quaternion\mathbb{H}  Corps\mathbb{K}  Quaternion Hyperbolique\mathbb{M}  Ensemble des entiers naturels\mathbb{N}  Octonion\mathbb{O}  Ensemble des nombres premiers / Probabilité\mathbb{P}  Ensemble des nombres rationnels\mathbb{Q}  Ensemble des nombres réels\mathbb{R}  Sédénion\mathbb{S}  Ensembles des entiers relatifs\mathbb{Z}   Majuscules ajourés</description>
     </item>
     
     <item>
       <title>Espacement en mode mathématique - Latex</title>
-      <link>http://localhost:46787/informatique/espacement-en-mode-mathematique-latex/</link>
+      <link>http://localhost:38561/informatique/espacement-en-mode-mathematique-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/espacement-en-mode-mathematique-latex/</guid>
-      <description>Cet article présente l&amp;rsquo;ensemble des façons d&amp;rsquo;effectuer un espacement dans vos formules mathématiques en Latex.
-Tableau récapitulatif des espacements horizontaux : Commentaire : Certains espacements sont exprimés en &amp;ldquo;mu&amp;rdquo; (math unit). 1 mu = 1/18 em = 0.2 mm environ (habituellement).
+      <guid>http://localhost:38561/informatique/espacement-en-mode-mathematique-latex/</guid>
+      <description>Tableau récapitulatif des espacements horizontaux : Commentaire : Certains espacements sont exprimés en &amp;ldquo;mu&amp;rdquo; (math unit). 1 mu = 1/18 em = 0.2 mm environ (habituellement).
 Formule LatexRésultatDescriptiona \, b Taille = 3 mua \: b Taille = 4 mua \; Taille = 5 mua \! Taille = -3 mua \ b Taille = 3 mua ~ b Taille = 3 mu (insécable)a \quad b Taille = 18 mua \qquad b Taille = 36 mua \hspace{1cm} b Taille = 1 cm Espacements - Latex</description>
     </item>
     
     <item>
       <title>Fonction Indicatrice / Fonction caractéristique - Latex</title>
-      <link>http://localhost:46787/informatique/fonction-indicatrice-fonction-caracteristique-latex/</link>
+      <link>http://localhost:38561/informatique/fonction-indicatrice-fonction-caracteristique-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/fonction-indicatrice-fonction-caracteristique-latex/</guid>
-      <description>Cet article présente un moyen de générer le symbole usuel de la fonction indicatrice (ou fonction caractéristique). Ce symbole peut aussi désigner la fonction identité.
-Package requis Il existe plusieurs paquets permettant de générer un &amp;ldquo;1 ajouré&amp;rdquo;. On peut retrouver dsfont notamment. Pour cet article, nous utiliserons le package bbold
+      <guid>http://localhost:38561/informatique/fonction-indicatrice-fonction-caracteristique-latex/</guid>
+      <description>Package requis Il existe plusieurs paquets permettant de générer un &amp;ldquo;1 ajouré&amp;rdquo;. On peut retrouver dsfont notamment. Pour cet article, nous utiliserons le package bbold
 \usepackage{bbold} Le package amsfonts ne permet pas de générer un 1 ajouré, vous obtiendrez ce symbole :
  
-Code Latex Pour afficher le symbole de la fonction caractéristique, il faut utiliser la commande mathbb :</description>
+Code Latex Pour afficher le symbole de la fonction caractéristique, il faut utiliser la commande mathbb :
+\mathbb{1} Résultat Nous obtenons ainsi :
+ 
+D&amp;rsquo;autres articles sur Latex Retrouvez l&amp;rsquo;ensemble de nos articles sur Latex ici :</description>
     </item>
     
     <item>
       <title>Lorem Ipsum (lipsum) - Latex</title>
-      <link>http://localhost:46787/informatique/lorem-ipsum-lipsum-latex/</link>
+      <link>http://localhost:38561/informatique/lorem-ipsum-lipsum-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/lorem-ipsum-lipsum-latex/</guid>
-      <description>Cet article présente la façon la plus courante de générer un Lorem Ipsum (ou faux-texte) en Latex.
-Utilisation Importation de lipsum Afin de générer ce faux-texte, vous devez avoir importé le package &amp;ldquo;lipsum&amp;rdquo; :
+      <guid>http://localhost:38561/informatique/lorem-ipsum-lipsum-latex/</guid>
+      <description>Utilisation Importation de lipsum Afin de générer ce faux-texte, vous devez avoir importé le package &amp;ldquo;lipsum&amp;rdquo; :
 \usepackage{lipsum} Exemple d&amp;rsquo;utilisation La syntaxe de la commande utilisateur est la suivante :
-\lipsum[&amp;lt;paragraph range&amp;gt;][&amp;lt;sentence range&amp;gt;]  &amp;ldquo;Paragraph range&amp;rdquo; fait référence aux paragraphes du Lipsum souhaité (150 étant la valeur maximum). &amp;ldquo;Sentence range&amp;rdquo; fait référence aux phrases du Lipsum correspondant au paragraphe voulu.</description>
+\lipsum[&amp;lt;paragraph range&amp;gt;][&amp;lt;sentence range&amp;gt;]  &amp;ldquo;Paragraph range&amp;rdquo; fait référence aux paragraphes du Lipsum souhaité (150 étant la valeur maximum). &amp;ldquo;Sentence range&amp;rdquo; fait référence aux phrases du Lipsum correspondant au paragraphe voulu. Ce paramètre nécessite une valeur non nulle du premier paramètre.  Les 2 paramètres sont optionnels.</description>
     </item>
     
     <item>
       <title>Alphabet Grec - Latex</title>
-      <link>http://localhost:46787/informatique/alphabet-grec-latex/</link>
+      <link>http://localhost:38561/informatique/alphabet-grec-latex/</link>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/alphabet-grec-latex/</guid>
-      <description>Cet article présente l&amp;rsquo;ensemble de l&amp;rsquo;alphabet grec, minuscule ou majuscule en Latex.
-Exemple : Pour afficher en mode mathématique (entre dollar) une lettre grec, il suffit de taper le nom de la lettre précédée d&amp;rsquo;un anti-slash, par exemple pour &amp;ldquo;phi&amp;rdquo; :
+      <guid>http://localhost:38561/informatique/alphabet-grec-latex/</guid>
+      <description>Exemple : Pour afficher en mode mathématique (entre dollar) une lettre grec, il suffit de taper le nom de la lettre précédée d&amp;rsquo;un anti-slash, par exemple pour &amp;ldquo;phi&amp;rdquo; :
 \phi Alphabet grec minuscule : LatexLettreLatexLettre\alpha  \nu  \beta  \xi  \gamma  o  \delta  \pi  \epsilon ou \varepsilon   ou  \rho  \zeta  \sigma  \eta  \tau  \theta ou \vartheta   ou  \upsilon  \iota  \phi ou \varphi   ou  \kappa  \chi  \lambda  \psi  \mu  \omega   Alphabet Grec minuscule en Latex</description>
     </item>
     
     <item>
       <title>Coefficient binomial - k parmi n en Latex</title>
-      <link>http://localhost:46787/informatique/combinaison-k-parmi-n-en-latex/</link>
+      <link>http://localhost:38561/informatique/combinaison-k-parmi-n-en-latex/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/combinaison-k-parmi-n-en-latex/</guid>
-      <description>Combien y a-t-il de possibilités de tirer 3 cartes parmi 13 ? Vous voulez certainement parler des coefficients binomiaux et vous ne savez pas comment le faire en Latex. Ci-dessous se trouvent 2 façons de rédiger des coefficients binomiaux pour vos PDF.
-Notation &amp;ldquo;Française&amp;rdquo; : k parmi n peut se noter de la façon suivante :
+      <guid>http://localhost:38561/informatique/combinaison-k-parmi-n-en-latex/</guid>
+      <description>Notation &amp;ldquo;Française&amp;rdquo; : k parmi n peut se noter de la façon suivante :
   Son code Latex en mode mathématique est tout simplement :
-C_n^k Notation &amp;ldquo;Anglo-Saxonne&amp;rdquo; : Notation certainement la plus couramment utilisée pour exprimer le coefficient binomial :</description>
+C_n^k Notation &amp;ldquo;Anglo-Saxonne&amp;rdquo; : Notation certainement la plus couramment utilisée pour exprimer le coefficient binomial :
+  Son code Latex en mode Mathématique est :
+\binom{n}{k} </description>
     </item>
     
     <item>
       <title>Partie entière supérieure et inférieure en Latex</title>
-      <link>http://localhost:46787/informatique/partie-entiere-superieur-et-inferieur-en-latex/</link>
+      <link>http://localhost:38561/informatique/partie-entiere-superieur-et-inferieur-en-latex/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/partie-entiere-superieur-et-inferieur-en-latex/</guid>
-      <description>Cet article présentera l&amp;rsquo;utilisation de la partie entière, aussi bien supérieure qu&amp;rsquo;inférieure en Latex. Deux macros seront explicitées pour faciliter leur utilisation.
-Partie entière supérieure en LaTex : Pour prendre la partie entière supérieure d&amp;rsquo;un entier   en Latex, il suffit de taper ceci :
+      <guid>http://localhost:38561/informatique/partie-entiere-superieur-et-inferieur-en-latex/</guid>
+      <description>Partie entière supérieure en LaTex : Pour prendre la partie entière supérieure d&amp;rsquo;un entier   en Latex, il suffit de taper ceci :
 \lceil x \rceil Voici le résultat :
-  Partie entière inférieure en LaTex : La partie entière inférieure en Latex d&amp;rsquo;un entier   se fait de façon analogue à celle supérieure :</description>
+  Partie entière inférieure en LaTex : La partie entière inférieure en Latex d&amp;rsquo;un entier   se fait de façon analogue à celle supérieure :
+\lfloor x \rfloor Voilà son rendu :
+  Raccourcir son utilisation avec une macro?</description>
     </item>
     
     <item>
       <title>Accolades Verticales/Horizontales en LaTeX</title>
-      <link>http://localhost:46787/informatique/accolades-verticales-horizontales-en-latex/</link>
+      <link>http://localhost:38561/informatique/accolades-verticales-horizontales-en-latex/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/accolades-verticales-horizontales-en-latex/</guid>
-      <description>Une des plus grandes forces de LaTeX est certainement son rendu d&amp;rsquo;équations. Très pratique et très rapide, le LaTeX vous permettra, dans le domaine des mathématiques, d&amp;rsquo;écrire des intégrales, des sommes, des limites, mais aussi des systèmes linéaires, le tout dans la plus grande simplicité.
-Faut-il encore savoir le faire&amp;hellip;
-Accolades horizontales Accolades sur du texte Pour afficher une accolade sur du texte, il suffit d&amp;rsquo;utiliser \overbrace comme ceci :</description>
+      <guid>http://localhost:38561/informatique/accolades-verticales-horizontales-en-latex/</guid>
+      <description>Faut-il encore savoir le faire&amp;hellip;
+Accolades horizontales Accolades sur du texte Pour afficher une accolade sur du texte, il suffit d&amp;rsquo;utiliser \overbrace comme ceci :
+Code LaTex :
+5+5 = \overbrace{10_{10}}^{1010_2} Rendu :
+  Accolades sous du texte La commande analogue à \overbrace est \underbrace.
+Code LaTeX :
+5+5 = \underbrace{10_{10}}_{1010_2} Rendu :
+  Accolades verticales Pour afficher une accolade verticale sur le coté gauche d&amp;rsquo;un texte, il suffit d&amp;rsquo;utiliser la commande suivante :</description>
     </item>
     
   </channel>

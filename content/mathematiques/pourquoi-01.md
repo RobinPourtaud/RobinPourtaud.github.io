@@ -6,10 +6,8 @@ categories:
   - "mathematiques"
 tags: 
   - "denombrement"
-no: ""
+description: "3 factoriel est égal à 1*2*3; 2 factoriel est égal à 2*1; 1 factoriel est égal à 1. En suivant cette logique, pourquoi 0 factoriel ne serait pas égal à rien, soit 0 ? C'est ce qu'on va essayer de comprendre à travers cet article."
 ---
-
-3 factoriel est égal à 1\*2\*3; 2 factoriel est égal à 2\*1; 1 factoriel est égal à 1. En suivant cette logique, pourquoi 0 factoriel ne serait pas égal à rien, soit 0 ? C'est ce qu'on va essayer de comprendre à travers cet article.
 
 ## Définition : "Factoriel"
 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>limite on DevMath.fr</title>
-    <link>http://localhost:46787/tags/limite/</link>
+    <link>http://localhost:38561/tags/limite/</link>
     <description>Recent content in limite on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/limite/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/limite/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trouvez l&#39;erreur ! Mathématiques Collège-Lycée</title>
-      <link>http://localhost:46787/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</link>
+      <link>http://localhost:38561/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</guid>
-      <description>Tout au long de votre scolarité, vous avez surement dû rencontrer beaucoup d&amp;rsquo;équations. Vous avez peut-être le sentiment d&amp;rsquo;être parfaitement capable de résoudre de simples équations du collège ou du lycée ? Et bien vous verrez qu&amp;rsquo;une erreur est très vite arrivée&amp;hellip;
-Note : Toutes les variables appartiennent à  .
+      <guid>http://localhost:38561/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</guid>
+      <description>Note : Toutes les variables appartiennent à  .
 Solutions à la fin !
-Niveau 1 : Un bon début ! Ici, chaque ligne correspond à la ligne précédente à laquelle on ajoute ce qui est écrit à sa droite.</description>
+Niveau 1 : Un bon début ! Ici, chaque ligne correspond à la ligne précédente à laquelle on ajoute ce qui est écrit à sa droite. Surtout, prenez votre temps ! Ce n&amp;rsquo;est pas un exercice compliqué, rappelez-vous juste de toutes les règles apprises au collège :).
+       En multipliant par a    En soustrayant      Identité remarquable :      En divisant par      En remplaçant   par         En divisant par b  Avez-vous trouvé l&amp;rsquo;erreur ?</description>
     </item>
     
   </channel>

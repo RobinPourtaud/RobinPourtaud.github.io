@@ -7,10 +7,8 @@ categories:
 tags: 
   - "automate"
   - "graphe"
-no: ""
+description: "Cet article présente un ensemble de propriétés concernant les automates finis. Pour mieux comprendre ces définitions, chaque type d'AFN sera illustré d'exemples générés grâce au logiciel Jflap. Les définitions formelles ne sont pas explicitées dans cet article mais sont disponibles via les liens sources."
 ---
-
-Cet article présente un ensemble de propriétés concernant les automates finis. Pour mieux comprendre ces définitions, chaque type d'AFN sera illustré d'exemples générés grâce au logiciel Jflap. Les définitions formelles ne sont pas explicitées dans cet article mais sont disponibles via les liens sources.
 
 ## Définitions :
 

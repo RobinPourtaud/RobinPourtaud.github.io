@@ -8,10 +8,8 @@ tags:
   - "analyse-complexe"
   - "nombre-complexe"
   - "trigonometrie"
-no: ""
+description: "Cet article présente 2 démonstrations de la relation cos(x)^2 + sin(x)^2 = 1. Une grâce au théorème de pythagore, et une autre avec les formules d'Euler."
 ---
-
-Cet article présente 2 démonstrations de la relation cos(x)^2 + sin(x)^2 = 1. Une grâce au théorème de pythagore, et une autre avec les formules d'Euler.
 
 ## Avec le théorème de Pythagore :
 

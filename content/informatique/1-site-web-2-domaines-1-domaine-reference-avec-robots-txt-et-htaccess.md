@@ -10,10 +10,8 @@ tags:
   - "robots-txt"
   - "tuto"
   - "wordpress"
-no: ""
+description: "Au cours de la création de notre site, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l'unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution. "
 ---
-
-Au cours de la création de notre site, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l'unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution. 
 
 Nb : Ce tutoriel nécessite un fichier .htaccess, il sera donc à destination des utilisateurs de Apache2 et non de Nginx.
 

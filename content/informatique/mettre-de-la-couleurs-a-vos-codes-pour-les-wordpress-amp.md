@@ -9,10 +9,8 @@ tags:
   - "css"
   - "tuto"
   - "wordpress"
-no: ""
+description: "AMP est une technologie développée par Google depuis 2015. Open Source, c'est une méthode de création de page Web statique permettant un rendu plus rapide. Applicable sur Wordpress, elle peut permettre des **gains importants**, de part son utilisation de cache et sa **désactivation par défaut de code personnalisé JavaScript**. Cette désactivation est, en terme de vitesse, bénéfique. Elle pose malgré tout de nombreux problèmes. Un problème parmi ceux-ci est celui de la **coloration syntaxique**."
 ---
-
-AMP est une technologie développée par Google depuis 2015. Open Source, c'est une méthode de création de page Web statique permettant un rendu plus rapide. Applicable sur Wordpress, elle peut permettre des **gains importants**, de part son utilisation de cache et sa **désactivation par défaut de code personnalisé JavaScript**. Cette désactivation est, en terme de vitesse, bénéfique. Elle pose malgré tout de nombreux problèmes. Un problème parmi ceux-ci est celui de la **coloration syntaxique**.
 
 Il existe de nombreuses extensions Wordpress permettant la coloration syntaxique. Cependant, la (très grande) majorité d'entre elles utilise le JavaScript... Ce tutoriel est là pour vous aider à rétablir vos magnifiques codes sur votre site Wordpress AMP :) .
 

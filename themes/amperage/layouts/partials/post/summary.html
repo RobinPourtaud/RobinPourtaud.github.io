@@ -6,15 +6,41 @@
         {{end}}
         {{ else }}
         {{ $default := "/images/default.jpg" }}
-        {{- partial "blocks/image.html" (dict "src" $default "alt" $.Title "class" "summary__top__image") -}}
         <div class="summary__top__title">{{.Title}}</div>
+        {{ with .Params.tags }}
+        <div class="summary__top__tags">
+        {{ range .}}
+        {{.}} /
+        {{end}}</div>
+        {{ end}}
+        {{ with .Params.categories }}
+        
+        {{ if (or (and (eq (index . 0) "mathematiques") (eq (index . 1) "informatique")) (and (eq (index . 1) "mathematiques") (eq (index . 0) "informatique")) )}}
+            {{ $default = "/images/default-mathinf.jpg" }}
+        {{ else if (eq (index . 0) "mathematiques")}}
+            {{ $default = "/images/default-math.jpg" }}
+        {{else if (eq (index . 0) "informatique")}}
+        {{ $default = "/images/default-info.jpg" }}
+        {{else if (eq (index . 0) "denombrement")}}
+        {{ $default = "/images/default-den.jpg" }}
+        {{ else}}
+        {{ $default = "/images/default-sec.jpg" }}
+        {{ end }}
+        
+        
+        
+        
+        
+        
+        {{- partial "blocks/image.html" (dict "src" $default "alt" $.Title "class" "summary__top__image") -}}
+        {{end}}
         {{ end }}
             
     </div>
     
     <div class="summary__bottom">
-        <div class="summary__image__title">{{.Params.Category}}</div>
-        <div class="summary__image__title">{{.Title}}</div>
+        <div class="summary__bottom__title">{{.Params.Category}}</div>
+        <div class="summary__bottom__title">{{.Title}}</div>
         <div class="summary__bottom__desc">
             {{.Description}}
         </div>

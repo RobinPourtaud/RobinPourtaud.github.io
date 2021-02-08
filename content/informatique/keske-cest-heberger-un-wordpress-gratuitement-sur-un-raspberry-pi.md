@@ -13,10 +13,8 @@ tags:
   - "server-http"
   - "tuto"
   - "wordpress"
-no: ""
+description: "WordPress est un système de gestion de contenu (SGC ou content management system (CMS) en anglais) gratuit, libre et open-source."
 ---
-
-WordPress est un système de gestion de contenu (SGC ou content management system (CMS) en anglais) gratuit, libre et open-source.
 
 Wordpress est le CMS le plus utilisé au monde. De part sa simplicité d'utilisation et sa liberté de design, sa popularité s’explique d'elle même.
 

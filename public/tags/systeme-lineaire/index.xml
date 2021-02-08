@@ -2,32 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>systeme-lineaire on DevMath.fr</title>
-    <link>http://localhost:46787/tags/systeme-lineaire/</link>
+    <link>http://localhost:38561/tags/systeme-lineaire/</link>
     <description>Recent content in systeme-lineaire on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/systeme-lineaire/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/systeme-lineaire/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Accolades Verticales/Horizontales en LaTeX</title>
-      <link>http://localhost:46787/informatique/accolades-verticales-horizontales-en-latex/</link>
+      <link>http://localhost:38561/informatique/accolades-verticales-horizontales-en-latex/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/accolades-verticales-horizontales-en-latex/</guid>
-      <description>Une des plus grandes forces de LaTeX est certainement son rendu d&amp;rsquo;équations. Très pratique et très rapide, le LaTeX vous permettra, dans le domaine des mathématiques, d&amp;rsquo;écrire des intégrales, des sommes, des limites, mais aussi des systèmes linéaires, le tout dans la plus grande simplicité.
-Faut-il encore savoir le faire&amp;hellip;
-Accolades horizontales Accolades sur du texte Pour afficher une accolade sur du texte, il suffit d&amp;rsquo;utiliser \overbrace comme ceci :</description>
+      <guid>http://localhost:38561/informatique/accolades-verticales-horizontales-en-latex/</guid>
+      <description>Faut-il encore savoir le faire&amp;hellip;
+Accolades horizontales Accolades sur du texte Pour afficher une accolade sur du texte, il suffit d&amp;rsquo;utiliser \overbrace comme ceci :
+Code LaTex :
+5+5 = \overbrace{10_{10}}^{1010_2} Rendu :
+  Accolades sous du texte La commande analogue à \overbrace est \underbrace.
+Code LaTeX :
+5+5 = \underbrace{10_{10}}_{1010_2} Rendu :
+  Accolades verticales Pour afficher une accolade verticale sur le coté gauche d&amp;rsquo;un texte, il suffit d&amp;rsquo;utiliser la commande suivante :</description>
     </item>
     
     <item>
       <title>Conditionnement d&#39;une Matrice</title>
-      <link>http://localhost:46787/informatique/keske-cest-le-conditionnement-dune-matrice/</link>
+      <link>http://localhost:38561/informatique/keske-cest-le-conditionnement-dune-matrice/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/keske-cest-le-conditionnement-dune-matrice/</guid>
-      <description>Cet article présente ce qu&amp;rsquo;est le conditionnement d&amp;rsquo;une matrice inversible et sa norme infinie, illustré par deux exemples.
-Définition Un système linéaire peut s&amp;rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&amp;rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.
+      <guid>http://localhost:38561/informatique/keske-cest-le-conditionnement-dune-matrice/</guid>
+      <description>Définition Un système linéaire peut s&amp;rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&amp;rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.
 Pour une matrice inversible A, sa fonction de conditionnement est :
-  Note : Plus   est élevé, plus la matrice A est mal conditionnée.</description>
+  Note : Plus   est élevé, plus la matrice A est mal conditionnée.
+Exemple 1 Pour comprendre ce qu&amp;rsquo;est le conditionnement, prenons un exemple de système linéaire   :</description>
     </item>
     
   </channel>

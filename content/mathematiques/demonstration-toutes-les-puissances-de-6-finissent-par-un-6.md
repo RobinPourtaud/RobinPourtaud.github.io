@@ -6,10 +6,8 @@ categories:
   - "mathematiques"
 tags: 
   - "demonstration"
-no: ""
+description: "Par une démonstration par récurrence, cet article montrera que toutes les puissances strictement positives de 6 finissent toujours par un 6."
 ---
-
-Par une démonstration par récurrence, cet article montrera que toutes les puissances strictement positives de 6 finissent toujours par un 6.
 
 ## Intuition :
 

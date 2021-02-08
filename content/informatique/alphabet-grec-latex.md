@@ -6,10 +6,8 @@ categories:
   - "informatique"
 tags: 
   - "latex"
-no: ""
+description: "Cet article présente l'ensemble de l'alphabet grec, minuscule ou majuscule en Latex."
 ---
-
-Cet article présente l'ensemble de l'alphabet grec, minuscule ou majuscule en Latex.
 
 ## Exemple :
 

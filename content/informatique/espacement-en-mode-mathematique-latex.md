@@ -7,10 +7,8 @@ categories:
   - "mathematiques"
 tags: 
   - "latex"
-no: ""
+description: "Cet article présente l'ensemble des façons d'effectuer un espacement dans vos formules mathématiques en Latex."
 ---
-
-Cet article présente l'ensemble des façons d'effectuer un espacement dans vos formules mathématiques en Latex.
 
 ## Tableau récapitulatif des espacements horizontaux :
 

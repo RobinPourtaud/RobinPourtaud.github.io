@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>optimisation-informatique on DevMath.fr</title>
-    <link>http://localhost:46787/tags/optimisation-informatique/</link>
+    <link>http://localhost:38561/tags/optimisation-informatique/</link>
     <description>Recent content in optimisation-informatique on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/optimisation-informatique/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/optimisation-informatique/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conditionnement d&#39;une Matrice</title>
-      <link>http://localhost:46787/informatique/keske-cest-le-conditionnement-dune-matrice/</link>
+      <link>http://localhost:38561/informatique/keske-cest-le-conditionnement-dune-matrice/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/informatique/keske-cest-le-conditionnement-dune-matrice/</guid>
-      <description>Cet article présente ce qu&amp;rsquo;est le conditionnement d&amp;rsquo;une matrice inversible et sa norme infinie, illustré par deux exemples.
-Définition Un système linéaire peut s&amp;rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&amp;rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.
+      <guid>http://localhost:38561/informatique/keske-cest-le-conditionnement-dune-matrice/</guid>
+      <description>Définition Un système linéaire peut s&amp;rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&amp;rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.
 Pour une matrice inversible A, sa fonction de conditionnement est :
-  Note : Plus   est élevé, plus la matrice A est mal conditionnée.</description>
+  Note : Plus   est élevé, plus la matrice A est mal conditionnée.
+Exemple 1 Pour comprendre ce qu&amp;rsquo;est le conditionnement, prenons un exemple de système linéaire   :</description>
     </item>
     
   </channel>

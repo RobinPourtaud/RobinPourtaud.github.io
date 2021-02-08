@@ -1,4 +1,26 @@
-
+@media (max-width: 1300px){
+	aside{
+		display:none!important;
+	}
+	article{
+		width: 100%!important;
+		
+	}
+	.main{
+		padding:0px!important;
+	}
+	h1{
+		font-size:32px!important;
+	}
+	.toc__title, h2{
+		font-size:25px!important;
+	}
+	.author{
+		padding:0px!important;
+		margin:0px!important;
+		text-align:center;
+	}
+}
 body {
 	position: absolute;
 	display: block;
@@ -296,7 +318,7 @@ blockquote {
 	}
 }
 
-.figure {
+article .figure {
 	flex-direction: column-reverse;
 	max-width:50%;
 	text-align:center;
@@ -515,35 +537,52 @@ blockquote {
 
 .summary {
 	width: 333.3px;
-	height: 363.8px;
+	height: 333px;
 	overflow: hidden;
 	margin : 15px;
 	display: inline-block;
 	&__top{
+		&__title{
+			position:absolute;
+			z-index:2;
+			color:white;
+			font-weight:bolder;
+			width:333.3px;
+			padding: 20px 15px 10px 80px;
+			text-align:right;
+			vertical-align: center;
+		}
 		&__image{
-			
 			border-radius: 6px;
-			
+			display:block;
 			width: 100%;
 			height: 181.9px;
 			padding:20px;
-			overflow:hidden;
-			background-size:cover;
-			padding:30px;
 			margin-bottom: 10px;
+		}
+		&__tags{
+			position: absolute;
+			color:white;
+			z-index: 2;
+			width:333.3px;
+			padding: 120px 15px 10px 80px;
+			text-align:right;
+			font-size:15px;
+			line-height:15px;
 		}
 	}
 	
 	&__bottom{
 		&__title{
 			color:black;
-			font-size:20px;
+			font-size:15px;
 			font-weight: bolder;
 			z-index: 10;
 		}
 		&__desc{
 			font-size:13px;
 			color:black;
+			text-overflow:ellipsis;
 		}
 	}
 	

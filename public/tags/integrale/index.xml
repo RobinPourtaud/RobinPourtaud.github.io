@@ -2,42 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>integrale on DevMath.fr</title>
-    <link>http://localhost:46787/tags/integrale/</link>
+    <link>http://localhost:38561/tags/integrale/</link>
     <description>Recent content in integrale on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/integrale/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/integrale/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DI Method / Intégration tabulaire</title>
-      <link>http://localhost:46787/mathematiques/di-method-integration-tabulaire/</link>
+      <link>http://localhost:38561/mathematiques/di-method-integration-tabulaire/</link>
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/di-method-integration-tabulaire/</guid>
-      <description>L&#39; intégration par partie est une étape essentielle à la recherche de primitive. Il est facile de mal interpréter la formule, c&amp;rsquo;est pourquoi il existe une méthode appelée Intégration tabulaire (ou DI method) permettant d&amp;rsquo;éviter ce procédé classique et donc de s&amp;rsquo;épargner de nombreuses erreurs potentielles&amp;hellip; Elle aurait été introduite dans le film &amp;ldquo;Stand and Deliver&amp;rdquo; [1].
-Exemple d&amp;rsquo;utilisation : Pour introduire la DI Method, nous nous servirons de 2 exemples :</description>
+      <guid>http://localhost:38561/mathematiques/di-method-integration-tabulaire/</guid>
+      <description>Exemple d&amp;rsquo;utilisation : Pour introduire la DI Method, nous nous servirons de 2 exemples :
+Exemple 1 On souhaite résoudre l&amp;rsquo;intégrale :
+  Création du tableau Comme pour l&amp;rsquo;intégration par partie, nous choisissons quel facteur de l&amp;rsquo;intégrale nous souhaitons intégrer et quel facteur nous souhaitons dériver. Dans notre cas, nous dériverons   et intégrerons  .
+LigneSigneDI1+    2-    3+    4-     Tableau de la méthode d&amp;rsquo;intégration tabulaire</description>
     </item>
     
     <item>
       <title>Trouvez l&#39;erreur ! Mathématiques Collège-Lycée</title>
-      <link>http://localhost:46787/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</link>
+      <link>http://localhost:38561/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</guid>
-      <description>Tout au long de votre scolarité, vous avez surement dû rencontrer beaucoup d&amp;rsquo;équations. Vous avez peut-être le sentiment d&amp;rsquo;être parfaitement capable de résoudre de simples équations du collège ou du lycée ? Et bien vous verrez qu&amp;rsquo;une erreur est très vite arrivée&amp;hellip;
-Note : Toutes les variables appartiennent à  .
+      <guid>http://localhost:38561/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</guid>
+      <description>Note : Toutes les variables appartiennent à  .
 Solutions à la fin !
-Niveau 1 : Un bon début ! Ici, chaque ligne correspond à la ligne précédente à laquelle on ajoute ce qui est écrit à sa droite.</description>
+Niveau 1 : Un bon début ! Ici, chaque ligne correspond à la ligne précédente à laquelle on ajoute ce qui est écrit à sa droite. Surtout, prenez votre temps ! Ce n&amp;rsquo;est pas un exercice compliqué, rappelez-vous juste de toutes les règles apprises au collège :).
+       En multipliant par a    En soustrayant      Identité remarquable :      En divisant par      En remplaçant   par         En divisant par b  Avez-vous trouvé l&amp;rsquo;erreur ?</description>
     </item>
     
     <item>
       <title>L&#39;intégrale de x^i dx</title>
-      <link>http://localhost:46787/mathematiques/keske-cest-lintegrale-de-xi-dx/</link>
+      <link>http://localhost:38561/mathematiques/keske-cest-lintegrale-de-xi-dx/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46787/mathematiques/keske-cest-lintegrale-de-xi-dx/</guid>
-      <description>&amp;ldquo;i&amp;rdquo; est un nombre. Il est complexe certes, mais reste un nombre. Il est égale à la racine de &amp;ldquo;-1&amp;rdquo; Ainsi, les règles des intégrales qu&amp;rsquo;on connait et qu&amp;rsquo;on utilise avec les nombres réels sont tout aussi applicables.
-Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
-&amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.</description>
+      <guid>http://localhost:38561/mathematiques/keske-cest-lintegrale-de-xi-dx/</guid>
+      <description>Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
+&amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.
+   est de la forme  ,  . Or, on sait que :
+  Nous obtenons donc la solution :
+  .
+Méthode 2 : Pour le fun Cette méthode n&amp;rsquo;est absolument pas nécessaire, ni pratique à utiliser.</description>
     </item>
     
   </channel>

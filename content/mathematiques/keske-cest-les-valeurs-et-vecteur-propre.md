@@ -8,10 +8,8 @@ tags:
   - "algebre-2"
   - "valeurs-propres"
   - "vecteurs-propres"
-no: ""
+description: "Un scalaire lambda est une valeur propre de f si il existe un vecteur x non nul tel que f(x) = lambda x."
 ---
-
-Un scalaire lambda est une valeur propre de f si il existe un vecteur x non nul tel que f(x) = lambda x.
 
 
 
