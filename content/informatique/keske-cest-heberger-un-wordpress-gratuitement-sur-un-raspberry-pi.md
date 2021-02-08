@@ -258,7 +258,7 @@ Et pour finir, rentrez toutes les informations comme ceci :
 - Identifiant: exempleUtilisateur
 - Mot de passe: exempleMotdepasse
 - Adresse de la base de données: localhost
-- Préfixe des tables: wp\_
+- Préfixe des tables: wp_
 
 Et voilà, tout doit maintenant marcher pour le mieux :). Amusez-vous bien avec votre nouveau site Wordpress.
 
@@ -267,9 +267,9 @@ Et voilà, tout doit maintenant marcher pour le mieux :). Amusez-vous bien avec 
 - [https://certbot.eff.org/lets-encrypt/ubuntubionic-apache](https://certbot.eff.org/lets-encrypt/ubuntubionic-apache)
 - [https://www.azote.org/](https://www.azote.org/)
 - [https://domains.google.com/](https://domains.google.com/)
-- [https://www.ibm.com/support/knowledgecenter/SSGSCT\_9.1.3/install\_guide/pac\_createdbschema\_mysql\_noha.html](https://www.ibm.com/support/knowledgecenter/SSGSCT_9.1.3/install_guide/pac_createdbschema_mysql_noha.html)
+- [https://www.ibm.com/support/knowledgecenter/SSGSCT_9.1.3/install_guide/pac_createdbschema_mysql_noha.html](https://www.ibm.com/support/knowledgecenter/SSGSCT_9.1.3/install_guide/pac_createdbschema_mysql_noha.html)
 - [https://www.daniloaz.com/en/how-to-create-a-user-in-mysql-mariadb-and-grant-permissions-on-a-specific-database/](https://www.daniloaz.com/en/how-to-create-a-user-in-mysql-mariadb-and-grant-permissions-on-a-specific-database/)
 - [https://wordpress.org/download/](https://wordpress.org/download/)
 - [https://doc.ubuntu-fr.org/wget](https://doc.ubuntu-fr.org/wget)
-- [https://lea-linux.org/documentations/Trucs:Compresser\_d%C3%A9compresser\_ZIP](https://lea-linux.org/documentations/Trucs:Compresser_d%C3%A9compresser_ZIP)
+- [https://lea-linux.org/documentations/Trucs:Compresser_d%C3%A9compresser_ZIP](https://lea-linux.org/documentations/Trucs:Compresser_d%C3%A9compresser_ZIP)
 - [https://alvinalexander.com/blog/post/mysql/show-users-i-ve-created-in-mysql-database/](https://alvinalexander.com/blog/post/mysql/show-users-i-ve-created-in-mysql-database/)

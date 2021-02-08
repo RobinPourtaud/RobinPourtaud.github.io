@@ -43,8 +43,8 @@ Un fichier _.htaccess_ est un fichier de configuration Apache2. Il permet de par
 
 ```
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^no-ref\.site\.com$
-RewriteRule ^robots\.txt$ robots2.txt [L]
+RewriteCond %{HTTP_HOST} ^no-ref\.site\.com
+RewriteRule ^robots\.txt robots2.txt [L]
 ```
 
 Littéralement, une requête à destination de no-ref.site.com/robots.txt renverra le contenu de robots2.txt.

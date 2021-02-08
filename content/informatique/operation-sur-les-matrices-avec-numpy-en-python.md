@@ -72,9 +72,9 @@ Transpose = M1.transpose()
 
 ## Inverse de Matrices
 
-\[latexpage\]
 
-L'inverse de matrice prend toute son utilité dans le calcul de systèmes linéaires. Si $Ax=B$, alors $x=A^{-1}B$.
+
+L'inverse de matrice prend toute son utilité dans le calcul de systèmes linéaires. Si {{< latex "Ax=B" >}}, alors {{< latex "x=A^{-1}B" >}}.
 
 Une matrice A admet une inverse si et seulement si son déterminant est différent de 0. Il est donc important de le tester au préalable :).
 
@@ -145,4 +145,4 @@ Ici se trouvent par exemple un certain nombre d'entre-elles : [https://docs.scip
 ## Sources :
 
 - [https://docs.scipy.org/doc/numpy/reference/routines.linalg.html?highlight=determinant](https://docs.scipy.org/doc/numpy/reference/routines.linalg.html?highlight=determinant)
-- [https://www.researchgate.net/post/Why\_eigenvectors\_seem\_incorrect\_in\_python](https://www.researchgate.net/post/Why_eigenvectors_seem_incorrect_in_python)
+- [https://www.researchgate.net/post/Why_eigenvectors_seem_incorrect_in_python](https://www.researchgate.net/post/Why_eigenvectors_seem_incorrect_in_python)

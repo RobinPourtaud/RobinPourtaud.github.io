@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algebre on DevMath.fr</title>
+    <link>http://localhost:32871/tags/algebre/</link>
+    <description>Recent content in algebre on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/algebre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Opération sur les matrices avec numpy en Python</title>
+      <link>http://localhost:32871/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
+      <description>Effectuer des calculs sur les matrices est, souvent, une opération fastidieuse et source de nombreuses erreurs. L&amp;rsquo;algorithme naïf de multiplication de matrice possède, par exemple, une complexité cubique, rendant le calcul manuel de grandes matrices vite impossible. Utiliser un ordinateur pour effectuer ce genre de calculs me semble donc une bonne chose à faire. Pour aujourd&amp;rsquo;hui, je vais vous présenter quelques fonctions en python, permettant d&amp;rsquo;effectuer des opérations sur les matrices en juste quelques lignes de codes.</description>
+    </item>
+    
+    <item>
+      <title>Conditionnement d&#39;une Matrice</title>
+      <link>http://localhost:32871/informatique/keske-cest-le-conditionnement-dune-matrice/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/informatique/keske-cest-le-conditionnement-dune-matrice/</guid>
+      <description>Cet article présente ce qu&amp;rsquo;est le conditionnement d&amp;rsquo;une matrice inversible et sa norme infinie, illustré par deux exemples.
+[latexpage]
+Définition Un système linéaire peut s&amp;rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&amp;rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.
+Pour une matrice inversible A, sa fonction de conditionnement est :
+ Note : Plus  est élevé, plus la matrice A est mal conditionnée.</description>
+    </item>
+    
+  </channel>
+</rss>

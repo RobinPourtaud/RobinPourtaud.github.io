@@ -116,7 +116,7 @@ Automate normalisé
 1. [Deterministic finite automaton - Wikipédia](https://en.wikipedia.org/wiki/Deterministic_finite_automaton)
 2. [Nondeterministic finite automaton - Wikipédia](https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton)
 3. [automate normalisé - math.cheredeprince.net](https://math.cheredeprince.net/elt/automate_normalise#!aside=opened&elts=set:automate_normalise,1)
-4. [séquence 209\_5\_7 - desmontils.net](http://www.desmontils.net/emiage/Module209EMiage/c5/Ch5_7.htm)
+4. [séquence 209_5_7 - desmontils.net](http://www.desmontils.net/emiage/Module209EMiage/c5/Ch5_7.htm)
 5. [Automate déterministe - momirandum.com](http://www.momirandum.com/automates-finis/Automatedeterministe.html)
 6. [Automate standard - momirandum.com](http://www.momirandum.com/automates-finis/Automatestandard.html)
 7. [Complétion - Etat poubelle](http://www.momirandum.com/automates-finis/CompletionEtatpoubelle.html)

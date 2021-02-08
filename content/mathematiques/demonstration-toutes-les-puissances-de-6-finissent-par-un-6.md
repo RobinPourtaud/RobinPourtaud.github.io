@@ -33,45 +33,45 @@ On souhaite que cette propriété soit vraie pour toutes les puissances, une dé
 
 ### Énoncé
 
-\[latexpage\]
 
-Soit $\\forall n \\in \\mathbb{N}\*$, nous allons prouver par récurrence la propriété $P\_n$ : $6^n$ se termine par un 6.
+
+Soit {{< latex "\forall n \in \mathbb{N}\*" >}}, nous allons prouver par récurrence la propriété {{< latex "P_n" >}} : {{< latex "6^n" >}} se termine par un 6.
 
 ### Initialisation
 
-On vérifie que $P\_1$ est vrai :
+On vérifie que {{< latex "P_1" >}} est vrai :
 
-$6^1 = 6$ se termine par un 6.
+{{< latex "6^1 = 6" >}} se termine par un 6.
 
 La propriété est vraie au rang 1.
 
 ### Hérédité
 
-Soit $n \\in \\mathbb{N}^\*$, nous supposons que $6^n$ se termine par un 6.
+Soit {{< latex "n \in \mathbb{N}^\*" >}}, nous supposons que {{< latex "6^n" >}} se termine par un 6.
 
-On peut réécrire notre hypothèse de récurrence comme ceci $\\forall k \\in \\mathbb{N}$ :
+On peut réécrire notre hypothèse de récurrence comme ceci {{< latex "\forall k \in \mathbb{N}" >}} :
 
-$6^n = 10k + 6$
+{{< latex "6^n = 10k + 6" >}}
 
 Nous avons donc :
 
-$6^{n+1} = 6 \\times (10k + 6)$
+{{< latex "6^{n+1} = 6 \times (10k + 6)" >}}
 
-$6^{n+1} = 60k + 36$
+{{< latex "6^{n+1} = 60k + 36" >}}
 
-$6^{n+1} = 60k + 30 + 6$
+{{< latex "6^{n+1} = 60k + 30 + 6" >}}
 
-$6^{n+1} = 10(6k + 3) + 6$
+{{< latex "6^{n+1} = 10(6k + 3) + 6" >}}
 
-En prenant $k' = 6k+3$, $k' \\in \\mathbb{N}$ :
+En prenant {{< latex "k' = 6k+3" >}}, {{< latex "k' \in \mathbb{N}" >}} :
 
-$6^{n+1} = 10k' + 6$
+{{< latex "6^{n+1} = 10k' + 6" >}}
 
-Ce qui implique donc que $6^{n+1}$ se termine par un 6.
+Ce qui implique donc que {{< latex "6^{n+1}" >}} se termine par un 6.
 
 ### Conclusion
 
-D’après le principe de récurrence, la propriété $P\_n$ est vraie $\\forall n \\in \\mathbb{N}^\*$.
+D’après le principe de récurrence, la propriété {{< latex "P_n" >}} est vraie {{< latex "\forall n \in \mathbb{N}^\*" >}}.
 
 ## Aller plus loin
 

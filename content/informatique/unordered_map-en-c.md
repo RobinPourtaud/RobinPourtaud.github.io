@@ -11,11 +11,11 @@ tags:
 no: ""
 ---
 
-Le conteneur unordered\_map est un tableau associatif (ou table associative). Il permet l'association d'une clé du type de son choix à une valeur. Comme son nom l'indique, les éléments de l'unordered\_map ne sont pas rangés, que ce soit par leurs clés ou par leurs valeurs associées (contrairement à "map").
+Le conteneur unordered_map est un tableau associatif (ou table associative). Il permet l'association d'une clé du type de son choix à une valeur. Comme son nom l'indique, les éléments de l'unordered_map ne sont pas rangés, que ce soit par leurs clés ou par leurs valeurs associées (contrairement à "map").
 
 ## Intérêts :
 
-L’intérêt principal de l'utilisation d'une unordered\_map par rapport à un autre conteneur (notamement une map) est sa faible complexité asymptotique de recherche ou d'insertion moyenne (en O(1)).
+L’intérêt principal de l'utilisation d'une unordered_map par rapport à un autre conteneur (notamement une map) est sa faible complexité asymptotique de recherche ou d'insertion moyenne (en O(1)).
 
 ## Exemple :
 
@@ -49,7 +49,7 @@ int main(){
 
 Complexité moyenne en O(1).
 
-#### Méthode 1 : std::unordered\_map::emplace
+#### Méthode 1 : std::unordered_map::emplace
 
 ```
 MaMap.emplace("Castor",2);
@@ -58,7 +58,7 @@ MaMap.emplace("Tortue",1);
 MaMap.emplace(std::make_pair("Oiseau",4));
 ```
 
-#### Méthode 2 : std::unordered\_map::insert
+#### Méthode 2 : std::unordered_map::insert
 
 ```
 MaMap.insert({"Castor",2});
@@ -89,7 +89,7 @@ std::cout << "Ma Souris a " << MaMap["Souris"] << " an." << std::endl;
 // Affichage : "Ma Souris a 1 an"
 ```
 
-#### Méthode 2 : std::unoredered\_map::at
+#### Méthode 2 : std::unoredered_map::at
 
 ```
 std::cout << "Mon chat a " << MaMap.at("Chat") << " ans." << std::endl;
@@ -97,9 +97,9 @@ std::cout << "Mon chat a " << MaMap.at("Chat") << " ans." << std::endl;
 // Affichage : "Mon chat a 3 ans."
 ```
 
-#### Méthode 3 : std::unoredered\_map::find + iterator
+#### Méthode 3 : std::unoredered_map::find + iterator
 
-Find permet en plus de tester si la clé est présente ou non dans l'unordered\_map avec un itérateur.
+Find permet en plus de tester si la clé est présente ou non dans l'unordered_map avec un itérateur.
 
 ```
 std::string search = "Castor";
@@ -125,7 +125,7 @@ MaMap["Castor"] = 3;
 // Castor est maintenant associé à la valeur 3
 ```
 
-#### Méthode 2 : std::unoredered\_map::at
+#### Méthode 2 : std::unoredered_map::at
 
 ```
 MaMap.at("Castor") += 6;
@@ -134,7 +134,7 @@ MaMap.at("Castor") = 20;
 // Castor est maintenant associé à la valeur 20
 ```
 
-#### Méthode 3 : std::unoredered\_map::find
+#### Méthode 3 : std::unoredered_map::find
 
 ```
 std::string search = "Castor";
@@ -179,7 +179,7 @@ std::cout << &MaMap.at("Chameau") << std::endl;
 
 ## Sources :
 
-- [http://www.cplusplus.com/reference/unordered\_map/unordered\_map/count/](http://www.cplusplus.com/reference/unordered_map/unordered_map/count/)
-- [http://www.cplusplus.com/reference/unordered\_map/unordered\_map/erase/](http://www.cplusplus.com/reference/unordered_map/unordered_map/erase/)
+- [http://www.cplusplus.com/reference/unordered_map/unordered_map/count/](http://www.cplusplus.com/reference/unordered_map/unordered_map/count/)
+- [http://www.cplusplus.com/reference/unordered_map/unordered_map/erase/](http://www.cplusplus.com/reference/unordered_map/unordered_map/erase/)
 - [https://zestedesavoir.com/tutoriels/822/la-programmation-en-c-moderne/decoupons-tout-ca/de-nouvelles-structures-de-donnees/](https://zestedesavoir.com/tutoriels/822/la-programmation-en-c-moderne/decoupons-tout-ca/de-nouvelles-structures-de-donnees/)
-- [https://fr.wikipedia.org/wiki/Fonction\_multivalu%C3%A9e](https://fr.wikipedia.org/wiki/Fonction_multivalu%C3%A9e)
+- [https://fr.wikipedia.org/wiki/Fonction_multivalu%C3%A9e](https://fr.wikipedia.org/wiki/Fonction_multivalu%C3%A9e)

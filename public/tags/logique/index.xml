@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logique on DevMath.fr</title>
+    <link>http://localhost:32871/tags/logique/</link>
+    <description>Recent content in logique on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/logique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UAL - Unité arithmétique et logique</title>
+      <link>http://localhost:32871/informatique/ual-unite-arithmetique-et-logique/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/informatique/ual-unite-arithmetique-et-logique/</guid>
+      <description>Une unité arithmétique et logique (UAL) ou ALU en anglais est un composant essentiel au fonctionnement de nos ordinateurs actuels. Souvent intégrée au processeur pour effectuer de nombreuses opérations arithmétiques, cet article en présente un exemple simple, conçu avec le logiciel Logisim.
+Caractéristiques de l&amp;rsquo;UAL : Notre UAL nous permet d&amp;rsquo;effectuer 7 opérations sur des entiers signés de 8 bits.
+Entrées : Notre UAL prend 3 entrées :
+ Un nombre sur 8 bits &amp;ldquo;A&amp;rdquo; utilisé en entrée des opérations.</description>
+    </item>
+    
+    <item>
+      <title>Exercice corrigé : Simplification de formules Booléennes</title>
+      <link>http://localhost:32871/informatique/exercice-corrige-simplification-de-formules-booleennes/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/informatique/exercice-corrige-simplification-de-formules-booleennes/</guid>
+      <description>A travers cet exercice, nous allons vous montrer comment simplifier une expression logique booléenne algébriquement, autrement dit sans avoir recours à un tableau de Karnaugh ou à la méthode de Quine. Pour pouvoir simplifier ces formules, vous devez avoir en tête un ensemble de propriétés sur les opérateurs logiques en plus du théorème de Morgan (que vous pouvez trouver facilement sur cette page : L&amp;rsquo;algèbre de Boole).
+Exercices : Simplifiez au maximum ces formules logiques algébriquement :</description>
+    </item>
+    
+  </channel>
+</rss>

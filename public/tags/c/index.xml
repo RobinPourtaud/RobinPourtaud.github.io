@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c on DevMath.fr</title>
+    <link>http://localhost:32871/tags/c/</link>
+    <description>Recent content in c on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>unordered_map en C&#43;&#43;</title>
+      <link>http://localhost:32871/informatique/unordered_map-en-c/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/informatique/unordered_map-en-c/</guid>
+      <description>Le conteneur unordered_map est un tableau associatif (ou table associative). Il permet l&amp;rsquo;association d&amp;rsquo;une clé du type de son choix à une valeur. Comme son nom l&amp;rsquo;indique, les éléments de l&amp;rsquo;unordered_map ne sont pas rangés, que ce soit par leurs clés ou par leurs valeurs associées (contrairement à &amp;ldquo;map&amp;rdquo;).
+Intérêts : L’intérêt principal de l&amp;rsquo;utilisation d&amp;rsquo;une unordered_map par rapport à un autre conteneur (notamement une map) est sa faible complexité asymptotique de recherche ou d&amp;rsquo;insertion moyenne (en O(1)).</description>
+    </item>
+    
+  </channel>
+</rss>

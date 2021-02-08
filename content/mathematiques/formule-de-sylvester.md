@@ -14,11 +14,11 @@ La formule de Sylvester, aussi appelée formule de Boole-Sylvester ou principe d
 
 ## Identité :
 
-\[latexpage\]
+
 
 La formule de Sylvester est la suivante :
 
-$$\\quicklatex{size=23}\\#\\left(\\bigcup\_{i\\in \\{1 \\ldots n \\}}A\_i \\right)=\\sum\_{I \\in({2^{\\{1 \\dots n\\}}\\backslash\\{\\emptyset\\})}}(-1)^{\\#(I)+1}\\#\\left(\\bigcap\_{i \\in I }A\_i}\\right)$$
+{{< latex "" >}}\quicklatex{size=23}\#\left(\bigcup_{i\in \{1 \ldots n \}}A_i \right)=\sum_{I \in({2^{\{1 \dots n\}}\backslash\{\emptyset\})}}(-1)^{\#(I)+1}\#\left(\bigcap_{i \in I }A_i}\right){{< latex "" >}}
 
 ## Démonstration :
 

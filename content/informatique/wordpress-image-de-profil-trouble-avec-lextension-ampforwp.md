@@ -34,17 +34,17 @@ Accédez par la méthode de votre choix à la racine de votre site web puis ouvr
 Remplacez (à la ligne 92 pour moi) cette partie du fichier :
 
 ```
-if ( null == $author_avatar_url ){
-       $author_avatar_url = get_avatar_url( $post_author->ID, array( 'size' => $avatar_size ) );
+if ( null == author_avatar_url ){
+       {{< latex "author_avatar_url = get_avatar_url( " >}}post_author->ID, array( 'size' => avatar_size ) );
 } 
 ```
 
 Par :
 
 ```
-if ( null == $author_avatar_url ){
-       $avatar_new_size = $avatar_size + 100;
-       $author_avatar_url = get_avatar_url( $post_author->ID, array( 'size' => $avatar_new_size ) );
+if ( null == author_avatar_url ){
+       {{< latex "avatar_new_size = " >}}avatar_size + 100;
+       {{< latex "author_avatar_url = get_avatar_url( " >}}post_author->ID, array( 'size' => avatar_new_size ) );
 } 
 ```
 

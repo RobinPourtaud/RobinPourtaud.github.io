@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>denombrement on DevMath.fr</title>
+    <link>http://localhost:32871/tags/denombrement/</link>
+    <description>Recent content in denombrement on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/denombrement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Formule de Sylvester</title>
+      <link>http://localhost:32871/mathematiques/formule-de-sylvester/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/mathematiques/formule-de-sylvester/</guid>
+      <description>La formule de Sylvester, aussi appelée formule de Boole-Sylvester ou principe d&amp;rsquo;inclusion-exclusion est la formule du crible de Poincaré appliquée à l&amp;rsquo;ensemble des entiers naturels inférieurs à n.
+Identité : [latexpage]
+La formule de Sylvester est la suivante :
+ \quicklatex{size=23}#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i}\right) Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :</description>
+    </item>
+    
+    <item>
+      <title>Pourquoi 0!=1 ?</title>
+      <link>http://localhost:32871/mathematiques/pourquoi-01/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/mathematiques/pourquoi-01/</guid>
+      <description>3 factoriel est égal à 1*2*3; 2 factoriel est égal à 2*1; 1 factoriel est égal à 1. En suivant cette logique, pourquoi 0 factoriel ne serait pas égal à rien, soit 0 ? C&amp;rsquo;est ce qu&amp;rsquo;on va essayer de comprendre à travers cet article.
+Définition : &amp;ldquo;Factoriel&amp;rdquo; [latexpage]
+En dénombrement, le factoriel d&amp;rsquo;un entier naturel &amp;ldquo;n&amp;rdquo; est égal au produit des entiers naturels appartenant à  . Autrement dit :</description>
+    </item>
+    
+  </channel>
+</rss>

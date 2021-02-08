@@ -42,9 +42,9 @@ Pour en voir plus :
 Pour ajouter les fichiers "zip", ajoutez-y ces lignes entre les balises php.
 
 ```
-function zip_up($mimes=array()) { 
-   $mimes['zip'] = 'application/zip';
-   return $mimes;
+function zip_up(mimes=array()) { 
+   mimes['zip'] = 'application/zip';
+   return mimes;
 }
 add_filter('upload_mimes', 'zip_up');
 ```

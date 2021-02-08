@@ -13,11 +13,11 @@ no: ""
 
 ## Définition : "Factoriel"
 
-\[latexpage\]
 
-En dénombrement, le factoriel d'un entier naturel "n" est égal au produit des entiers naturels appartenant à $\]0;n\]$. Autrement dit :
 
-$\\quicklatex{size=20} n! = \\prod^n\_{i=1} i = 1 \\times 2 \\times \\ldots \\times (n-1) \\times n$
+En dénombrement, le factoriel d'un entier naturel "n" est égal au produit des entiers naturels appartenant à {{< latex "\]0;n\]" >}}. Autrement dit :
+
+{{< latex "\quicklatex{size=20} n! = \prod^n_{i=1} i = 1 \times 2 \times \ldots \times (n-1) \times n" >}}
 
 ## Pourquoi 0! est égal à 1 ?
 
@@ -25,51 +25,51 @@ $\\quicklatex{size=20} n! = \\prod^n\_{i=1} i = 1 \\times 2 \\times \\ldots \\ti
 
 Repartons de la définition :
 
-$\\quicklatex{size=20}n! = 1 \\times \\ldots \\times (n-1) \\times n!$
+{{< latex "\quicklatex{size=20}n! = 1 \times \ldots \times (n-1) \times n!" >}}
 
-Autrement dit $n! = n \\times (n-1)!$. Cependant, si on prend $n = 0$, nous obtenons l'égalité $ 0! = 0 \\times (-1)!$. Le factoriel de -1 étant indéfini...
+Autrement dit {{< latex "n! = n \times (n-1)!" >}}. Cependant, si on prend {{< latex "n = 0" >}}, nous obtenons l'égalité {{< latex " 0! = 0 \times (-1)!" >}}. Le factoriel de -1 étant indéfini...
 
 Néanmoins :
 
-$\\quicklatex{size=20}n! = n \\times (n-1)! \\equiv (n-1)! = \\frac{n!}{n}$.
+{{< latex "\quicklatex{size=20}n! = n \times (n-1)! \equiv (n-1)! = \frac{n!}{n}" >}}.
 
-Pour $n = 1$, alors :
+Pour {{< latex "n = 1" >}}, alors :
 
-$\\quicklatex{size=20} (1-1) ! = \\frac{1!}{1} = 0! = 1$
+{{< latex "\quicklatex{size=20} (1-1) ! = \frac{1!}{1} = 0! = 1" >}}
 
 ### Depuis la fonction Gamma
 
  On sait que :
 
-$\\quicklatex{size=20}\\forall n \\in \\mathbb{N}^\* : \\Gamma(n) = (n–1)!=\\int\_0^{+\\infty} t^{n-1} \\times e^{-t}dt$
+{{< latex "\quicklatex{size=20}\forall n \in \mathbb{N}^\* : \Gamma(n) = (n–1)!=\int_0^{+\infty} t^{n-1} \times e^{-t}dt" >}}
 
 Ce qui nous donne :
 
-$\\quicklatex{size=20}0! = (1-1)! = \\Gamma(1) = \\int\_0^{+\\infty} t^{1-1} e^{-t} dt$
+{{< latex "\quicklatex{size=20}0! = (1-1)! = \Gamma(1) = \int_0^{+\infty} t^{1-1} e^{-t} dt" >}}
 
-Ou tout simplement : $\\quicklatex{size=20} \\int\_0^{+\\infty}e^{-t}dt$.
+Ou tout simplement : {{< latex "\quicklatex{size=20} \int_0^{+\infty}e^{-t}dt" >}}.
 
-La primitive de $e^{-t}$ est $-e^{-t}$.
+La primitive de {{< latex "e^{-t}" >}} est {{< latex "-e^{-t}" >}}.
 
 Ainsi :
 
-$\\quicklatex{size=20}0! = (\\lim\_{t\\to\\infty} -e^{-t}) - (-e^0) = 0 + 1 = 1$.
+{{< latex "\quicklatex{size=20}0! = (\lim_{t\to\infty} -e^{-t}) - (-e^0) = 0 + 1 = 1" >}}.
 
 ### Depuis la définition des permutations d'un ensemble
 
 En pratique, on peut utiliser le factoriel pour, par exemple, calculer le nombre de permutations d'un ensemble :
 
-Si un ensemble $E = \\{0,1\\}$, alors cet ensemble peut être permuté $\\#E$ fois (2 fois).
+Si un ensemble {{< latex "E = \{0,1\}" >}}, alors cet ensemble peut être permuté {{< latex "\#E" >}} fois (2 fois).
 
-L'ensemble des permutations est donc : $\\{(0,1),(1,0)\\}$.
+L'ensemble des permutations est donc : {{< latex "\{(0,1),(1,0)\}" >}}.
 
-Si un ensemble $E = \\{0,1,2\\}$, alors cet ensemble peut être permuté 6 fois :
+Si un ensemble {{< latex "E = \{0,1,2\}" >}}, alors cet ensemble peut être permuté 6 fois :
 
- Son ensemble de permutations étant $\\{(0, 1, 2), (0, 2, 1), (1, 0, 2), (1, 2, 0), (2, 0, 1), (2, 1, 0)\\}$.
+ Son ensemble de permutations étant {{< latex "\{(0, 1, 2), (0, 2, 1), (1, 0, 2), (1, 2, 0), (2, 0, 1), (2, 1, 0)\}" >}}.
 
-Donc, si un ensemble $E = \\emptyset $, alors son cardinal est 0 et peut être permuté 1 fois. "Il existe une seule possibilité pour permuter 0 élément".
+Donc, si un ensemble {{< latex "E = \emptyset " >}}, alors son cardinal est 0 et peut être permuté 1 fois. "Il existe une seule possibilité pour permuter 0 élément".
 
-L'ensemble de ses permutations étant $\\{\\emptyset\\}$.
+L'ensemble de ses permutations étant {{< latex "\{\emptyset\}" >}}.
 
 ## Sources
 

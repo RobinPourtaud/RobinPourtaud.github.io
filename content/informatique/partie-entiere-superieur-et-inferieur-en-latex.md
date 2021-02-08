@@ -14,9 +14,9 @@ Cet article présentera l'utilisation de la partie entière, aussi bien supérie
 
 ## Partie entière supérieure en LaTex :
 
-\[latexpage\]
 
-Pour prendre la partie entière supérieure d'un entier $x$ en Latex, il suffit de taper ceci :
+
+Pour prendre la partie entière supérieure d'un entier {{< latex "x" >}} en Latex, il suffit de taper ceci :
 
 ```
 \lceil x \rceil 
@@ -24,11 +24,11 @@ Pour prendre la partie entière supérieure d'un entier $x$ en Latex, il suffit 
 
 Voici le résultat :
 
-$\\quicklatex{size=28}\\lceil x \\rceil$
+{{< latex "\quicklatex{size=28}\lceil x \rceil" >}}
 
 ## Partie entière inférieure en LaTex :
 
-La partie entière inférieure en Latex d'un entier $x$ se fait de façon analogue à celle supérieure :
+La partie entière inférieure en Latex d'un entier {{< latex "x" >}} se fait de façon analogue à celle supérieure :
 
 ```
 \lfloor x \rfloor 
@@ -36,7 +36,7 @@ La partie entière inférieure en Latex d'un entier $x$ se fait de façon analog
 
 Voilà son rendu :
 
-$\\quicklatex{size=28}\\lfloor x \\rfloor$
+{{< latex "\quicklatex{size=28}\lfloor x \rfloor" >}}
 
 ## Raccourcir son utilisation avec une macro?
 
@@ -54,10 +54,10 @@ Il est ainsi possible d'utiliser :
 \ceil{x}
 ```
 
-$\\quicklatex{size=28}  
-\\newcommand{\\floor}\[1\]{\\lfloor #1 \\rfloor}  
-\\newcommand{\\ceil}\[1\]{\\lceil #1 \\rceil}  
-\\floor{x} \\ceil{x}$
+\quicklatex{size=28}  
+\newcommand{\floor}\[1\]{\lfloor #1 \rfloor}  
+\newcommand{\ceil}\[1\]{\lceil #1 \rceil}  
+\floor{x} \ceil{x}
 
 Pour raccourcir votre code Latex.
 

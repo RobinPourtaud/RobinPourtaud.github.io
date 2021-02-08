@@ -18,7 +18,7 @@ Oracle propose depuis bientôt un an une offre appelée "[Always Free](https://w
 
 - Deux bases de données Oracle Autonomous Database avec des outils puissants tels qu’Oracle Application Express (APEX) et Oracle SQL Developer
 - Deux machines virtuelles de calcul Oracle Cloud Infrastructure Compute ; stockage de niveau bloc, objet et archive ; équilibreur de charge et extraction de données ; surveillance et notifications
-- Pendant les 30 premiers jours 300$ de crédit sur leur plateforme
+- Pendant les 30 premiers jours 300 de crédit sur leur plateforme
 
 ![](images/image-7-1024x371.png)
 

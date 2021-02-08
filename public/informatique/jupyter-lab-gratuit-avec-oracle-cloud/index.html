@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html ⚡ lang="fr">
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=32871&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+<title>Jupyter Lab gratuit avec Oracle Cloud</title>
+    
+<meta name="description" content="" />
+<link rel="canonical" href="http://localhost:32871/informatique/jupyter-lab-gratuit-avec-oracle-cloud/" >
+<link rel="sitemap" href="http://localhost:32871/sitemap.xml" type="application/xml" /><meta property="og:title" content="Jupyter Lab gratuit avec Oracle Cloud">
+<meta property="og:url" content="http://localhost:32871/informatique/jupyter-lab-gratuit-avec-oracle-cloud/">
+<meta property="og:description" content="">
+<meta property="og:image" content="http://localhost:32871/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content=""><meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Jupyter Lab gratuit avec Oracle Cloud">
+<meta name="twitter:url" content="http://localhost:32871/informatique/jupyter-lab-gratuit-avec-oracle-cloud/">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="http://localhost:32871/logo.png">
+<meta name="twitter:site" content=""><meta name="theme-color" content="#333"/>
+<link rel="manifest" href="http://localhost:32871/manifest.json">
+<link rel="icon" href="icons/logo.svg" sizes="any" type="image/svg+xml"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<noscript>
+    <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+</noscript><style amp-custom>
+    
+        *,*::before,*::after{box-sizing:border-box}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0}body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}ul[class],ol[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img{max-width:100%;display:block}input,button,textarea,select{font:inherit}.chroma{background-color:#fff}.chroma .err{color:#a61717;background-color:#e3d2d2}.chroma .lntd{vertical-align:top;padding:0;margin:0;border:0}.chroma .lntable{border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block}.chroma .hl{display:block;width:100%;background-color:#ffc}.chroma .lnt{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .ln{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .k{color:#000;font-weight:700}.chroma .kc{color:#000;font-weight:700}.chroma .kd{color:#000;font-weight:700}.chroma .kn{color:#000;font-weight:700}.chroma .kp{color:#000;font-weight:700}.chroma .kr{color:#000;font-weight:700}.chroma .kt{color:#458;font-weight:700}.chroma .na{color:teal}.chroma .nb{color:#0086b3}.chroma .bp{color:#999}.chroma .nc{color:#458;font-weight:700}.chroma .no{color:teal}.chroma .nd{color:#3c5d5d;font-weight:700}.chroma .ni{color:purple}.chroma .ne{color:#900;font-weight:700}.chroma .nf{color:#900;font-weight:700}.chroma .nl{color:#900;font-weight:700}.chroma .nn{color:#555}.chroma .nt{color:navy}.chroma .nv{color:teal}.chroma .vc{color:teal}.chroma .vg{color:teal}.chroma .vi{color:teal}.chroma .s{color:#d14}.chroma .sa{color:#d14}.chroma .sb{color:#d14}.chroma .sc{color:#d14}.chroma .dl{color:#d14}.chroma .sd{color:#d14}.chroma .s2{color:#d14}.chroma .se{color:#d14}.chroma .sh{color:#d14}.chroma .si{color:#d14}.chroma .sx{color:#d14}.chroma .sr{color:#009926}.chroma .s1{color:#d14}.chroma .ss{color:#990073}.chroma .m{color:#099}.chroma .mb{color:#099}.chroma .mf{color:#099}.chroma .mh{color:#099}.chroma .mi{color:#099}.chroma .il{color:#099}.chroma .mo{color:#099}.chroma .o{color:#000;font-weight:700}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#998;font-style:italic}.chroma .ch{color:#998;font-style:italic}.chroma .cm{color:#998;font-style:italic}.chroma .c1{color:#998;font-style:italic}.chroma .cs{color:#999;font-weight:700;font-style:italic}.chroma .cp{color:#999;font-weight:700;font-style:italic}.chroma .cpf{color:#999;font-weight:700;font-style:italic}.chroma .gd{color:#000;background-color:#fdd}.chroma .ge{color:#000;font-style:italic}.chroma .gr{color:#a00}.chroma .gh{color:#999}.chroma .gi{color:#000;background-color:#dfd}.chroma .go{color:#888}.chroma .gp{color:#555}.chroma .gs{font-weight:700}.chroma .gu{color:#aaa}.chroma .gt{color:#a00}.chroma .gl{text-decoration:underline}.chroma .w{color:#bbb}body{position:absolute;display:block;font-size:1.2em;font-family:poppins,sans-serif;line-height:1.6;color:#000;background-color:#fafafa}amp-next-page{grid-column:span 12}.header{position:fixed;z-index:99;width:100%;height:80px;padding:10px 20%;top:0;background-color:#fff;border-bottom:.5px solid #000}.header__menu{margin:0;padding:0;align-items:center;overflow:auto;justify-content:space-between}.header__menu a{font-size:1.2em;white-space:nowrap;border-bottom:none;width:60px;height:60px}.header__menu a:hover{color:#d14}.header__menu__logo{content:"\e8b6";background-color:#000;font-family:icomoon;font-size:23px}.header__menu__logo svg{width:60px;height:60px}.header__menu__list{display:flex;flex-grow:1;flex-wrap:nowrap;align-items:center;justify-content:space-around}.header__menu__list li{padding:0 1em;display:inline}.header__menu__dropdown-input,.header__menu__dropdown-label,.header__menu__dropdown-list{display:none}.header__menu__dropdown-input:checked~.header__menu__dropdown-list{display:flex}.header__menu__dropdown-input:checked~.header__menu__dropdown-label .header__menu__dropdown-icon{background:0 0}.header__menu__dropdown-input:checked~.header__menu__dropdown-label .header__menu__dropdown-icon:before{top:0;transform:rotate(-45deg)}.header__menu__dropdown-input:checked~.header__menu__dropdown-label .header__menu__dropdown-icon:after{top:0;transform:rotate(45deg)}.header__menu__dropdown-label{cursor:pointer;padding:1em}.header__menu__dropdown-icon{background:#333;background-color:#000;display:block;height:36px;position:relative;transition:background .2s ease-out;width:36px}.header__menu__dropdown-icon:before,.header__menu__dropdown-icon:after{background:#333;content:'';display:block;height:100%;position:absolute;transition:all .2s ease-out;width:100%}.header__menu__dropdown-icon:before{top:15px}.header__menu__dropdown-icon:after{top:-15px}.header__menu__dropdown-list{width:100%;flex-direction:column;align-items:center;border-top:1px solid #333}.header__menu__dropdown-list li{padding:.5em}.header__search{right:0;float:right;position:relative;font-family:poppins,sans-serif;color:#000;width:80px;border:#000 solid 1px}.header__search :hover{width:180px}.header__search__input{padding:.5em 1em;font-family:poppins,sans-serif;font-size:1.2em;width:100%;height:100%;border-radius:0;border:0 solid #000;border-top:none;overflow:hidden}.header__search__input:focus{outline:none}.header__search .search-item__link{border-bottom:none}.main{background-color:#fafafa;line-height:1.7;width:100%;margin-top:80px;padding:20px 100px 0;position:relative}.main .pagination{margin:3em auto 2em;display:flex;justify-content:space-between}.footer{position:absolute;bottom:0;width:100%;background-color:#acacac;margin-bottom:0;text-align:center;font-size:15px;padding:3px}.footer__copyright{color:#fff}.footer__list__link{display:inline;margin:4px}.footer__list__link a{color:#fff}.more__title{text-align:center;background-color:#21d4fd;background-image:linear-gradient(19deg,#21D4FD 0%,#B721FF 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:32px}.more__list{list-style:none;text-align:center}.more__list li{background-color:#b3cdd1;background-image:linear-gradient(315deg,#b3cdd1 0%,#9fa4c4 74%);border-radius:4px;margin:20px;padding:10px;width:160px;display:inline-block}.more__list a{color:#fff!important}h1{font-size:48px;line-height:58px;color:#333;margin:0;font-weight:700}h2{text-align:center;background:linear-gradient(to right,#f2709c,#ff9472);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:32px;margin-top:40px}h3{background-image:radial-gradient(circle farthest-corner at 12.3% 19.3%,#5558da 0%,#5fd1f9 100.2%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-top:30px;margin-bottom:20px}h4{font-size:1.5rem}a{color:#1e3888;text-decoration:none;transition:background .3s}a:hover{border-color:#d14}.button{padding:.5em .75em;font-size:1.2em;text-align:center;border:0}li{margin-top:.25em}pre{font-family:poppins,sans-serif;font-size:12pt;display:block;overflow-x:auto;padding:25px;background:radial-gradient(circle 993px at 0.5% 50.5%,rgba(137,171,245,0.37) 0%,#f5f7fc 100.2%);color:#000;font-weight:500;border-radius:4px}blockquote{margin:inherit auto;margin-left:1em;padding:1em;border-left:5px solid #999}blockquote:before{display:none}blockquote:not(:first-of-type){margin-top:.5em}blockquote p{color:#555;font-size:1.25em;font-family:poppins,sans-serif}.figure{flex-direction:column-reverse;max-width:50%;text-align:center;cursor:pointer;display:block;margin-left:auto;margin-right:auto;margin-bottom:30px}.figure--with-caption{display:flex;border-top:none}.figure__image--with-caption{min-width:70%}.figure__caption{background-color:#333;color:#fff;font-weight:700;padding:.5em 1em;height:min-content;word-wrap:break-word;position:relative;max-width:100%}.post-it{width:100%;padding:1.5em}.post-it--tip{background-color:#fffacd}.post-it--info{background-color:azure}.post-it--danger{background-color:#ffcccb}.post-it--success{background-color:#d0f0c0}.post-it__title{font-weight:700;font-size:1.5em}.post-it__content{margin-top:1em}.product{width:100%;display:flex;justify-content:space-between;padding:1.5em;border:1px solid #333}.product__image{margin:auto;width:100%;min-width:250px;max-width:400px}.product__content{margin-left:2em;align-self:center;display:flex;flex-direction:column}.product__title{font-weight:700;font-size:1.5rem}.product__description{margin-top:1em}.product__cta{margin-top:1em}.social-share{display:flex;align-self:center;align-items:center}.social-share__button{margin:10px .3em;border-radius:50%;background-size:60%}#tags{margin:0;padding:0}#tags li{display:inline}.aside{float:left;position:relative;display:block;width:25%;background-color:#fafafa}.aside__title{font-size:21px;font-weight:bolder;margin-top:30px}.description{text-align:center;font-weight:lighter;font-style:italic}.content{background-color:#ffff;display:block;padding:40px;border-radius:10px;width:900px;margin-bottom:20px;float:right;position:relative}.content table{display:block;overflow-x:auto;border-collapse:collapse}.content table td,.content table th{border:1px solid #ddd}.content table td{padding:.5em 1em}.content table th{padding:1em 2em;background-color:#333;color:#fff}.content table tr:nth-child(even){background-color:#f1f1f1}.content table tr:hover{background-color:#ddd}.content .highlight .chroma{background-color:#f1f1f1}.content .under-title{display:flex;flex-wrap:wrap;justify-content:space-between;font-size:1rem}.content .under-title__info,.content .under-title__social-share{align-self:center}.content .ad{display:flex;margin:1rem auto;align-content:center;width:min-content;height:min-content;min-width:320px;min-height:320px;border:1px solid #333}.content .ad__fallback{display:flex;align-items:center}.content .ad__fallback p{margin:auto}.content .author{border-radius:10px;background-color:#f9f9f9;padding:20px 60px;margin:40px}.content .author>*:not(:first-child){margin-top:1rem}.content .author__image{border-radius:100px;width:70px!important;height:70px!important}.content .author__right{margin:0!important;float:right;width:80%}.content .author__right__name{font-weight:700;font-size:20px;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-image:linear-gradient(135deg,#8bc6ec 0%,#9599e2 100%)}.content .author__right__bio{font-size:12px}.summary{width:333.3px;height:363.8px;overflow:hidden;margin:15px;display:inline-block}.summary:first-child{width:100%;height:666.6px}.summary:first-child .summary__top__image{height:100%;width:666.6px}.summary__top__image{border-radius:6px;width:100%;height:181.9px;padding:20px;overflow:hidden;background-size:cover;padding:30px;margin-bottom:10px}.summary__bottom__title{color:#000;font-size:20px;font-weight:bolder;z-index:10}.summary__bottom__desc{font-size:13px;color:#000}.summary__list{max-width:1100px;width:100%;position:relative;display:inline-flex}@media(max-width:1200px){.footer{flex-direction:column;align-items:center;margin-bottom:1em}h1{font-size:2.5rem}h2{font-size:2rem}h3{font-size:1.66rem}h4{font-size:1.25rem}.post-it{margin-left:0;margin-right:0}}@media(max-width:320px){.p{font-size:20px}.under-title__social-share{width:100%;margin-top:1.5em;justify-content:space-between}.product{flex-wrap:wrap}.product__content{margin-left:unset;text-align:center}.product__title{margin-top:1em}}.toc{margin-top:40px;margin-bottom:40px;background-color:rgba(0,0,0,.02);padding:30px}.toc__title{font-size:30px;background-image:radial-gradient(circle 767px at 10.2% 22.1%,#0bda51 0%,deepskyblue 90%);-webkit-background-clip:text;font-weight:700;-webkit-text-fill-color:transparent}.toc ul{list-style:decimal}
+    
+    
+        
+            
+        
+    
+</style><script async src="https://cdn.ampproject.org/v0.js"></script><script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script><script async custom-element="amp-mathml" src="https://cdn.ampproject.org/v0/amp-mathml-0.1.js"></script><script async custom-element="amp-autocomplete" src="https://cdn.ampproject.org/v0/amp-autocomplete-0.1.js"></script>
+
+
+<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+
+
+
+    <script async custom-element="amp-next-page" src="https://cdn.ampproject.org/v0/amp-next-page-1.0.js"></script>
+<script async src="https://cdn.ampproject.org/v0.js"></script><script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script><script async custom-element="amp-mathml" src="https://cdn.ampproject.org/v0/amp-mathml-0.1.js"></script><script async custom-element="amp-autocomplete" src="https://cdn.ampproject.org/v0/amp-autocomplete-0.1.js"></script>
+
+
+<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+
+
+
+    <script async custom-element="amp-next-page" src="https://cdn.ampproject.org/v0/amp-next-page-1.0.js"></script>
+</head>
+	<body><amp-install-serviceworker
+  src="http://localhost:32871/sw.js"
+  data-iframe-src="http://localhost:32871/install-sw.html"
+  layout="nodisplay">
+</amp-install-serviceworker>
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      
+        
+        {
+          "@type": "ListItem",
+          "position":  1 ,
+          "item": {
+            "@id": "http:\/\/localhost:32871\/",
+            "name": "Accueil"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  2 ,
+          "item": {
+            "@id": "http:\/\/localhost:32871\/informatique\/",
+            "name": "Informatique"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  3 ,
+          "item": {
+            "@id": "http:\/\/localhost:32871\/informatique\/jupyter-lab-gratuit-avec-oracle-cloud\/",
+            "name": "Jupyter lab gratuit avec oracle cloud"
+          }
+        }
+       ]
+  }
+</script><script type="application/ld+json">
+  {
+    "@context":"http://schema.org",
+    "@type": "BlogPosting",
+    "image": "http:\/\/localhost:32871\/",
+    "url": "http:\/\/localhost:32871\/informatique\/jupyter-lab-gratuit-avec-oracle-cloud\/",
+    "headline": "Jupyter Lab gratuit avec Oracle Cloud",
+    "alternativeHeadline": "Jupyter Lab gratuit avec Oracle Cloud",
+    "dateCreated": "2020-09-29T00:00:00",
+    "datePublished": "2020-09-29T00:00:00",
+    "dateModified": "2020-09-29T00:00:00",
+    "inLanguage": "fr",
+    "isFamilyFriendly": "true",
+    "copyrightYear": "2020",
+    "copyrightHolder": "",
+    "accountablePerson": {
+      "@type": "Person",
+      "name": "",
+      "url": ""
+    },
+    "author": {
+      "@type": "Person",
+      "name": "",
+      "url": "http:\/\/localhost:32871\/",
+      "image": "http:\/\/localhost:32871\/",
+      "description": ""
+    },
+    "creator": {
+      "@type": "Person",
+      "name": "",
+      "url": "http:\/\/localhost:32871\/",
+      "image": "http:\/\/localhost:32871\/",
+      "description": ""
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "amperage",
+      "url": "http:\/\/localhost:32871\/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "\/icons\/logo.svg",
+        "width":"600",
+        "height":"60"
+      }
+    },
+    "mainEntityOfPage": "http:\/\/localhost:32871\/informatique\/jupyter-lab-gratuit-avec-oracle-cloud\/",
+    "keywords": "null",
+    "genre": "[\"jupyter-notebook\",\"linux\"]",
+    "articleSection": "Informatiques"
+  }
+</script><header class="header"><nav class="header__menu" next-page-hide>
+
+<input class="header__menu__dropdown-input" type="checkbox" id="dropdown"/>
+<label class="header__menu__dropdown-label" for="dropdown" role="button" aria-label="Ouvrir le menu">
+    <span class="header__menu__dropdown-icon"></span>
+</label>
+<ul class="header__menu__dropdown-list">
+    
+        
+        <li>
+            <a href="http://localhost:32871/categories"
+                 data-rel="prefetch"
+                >
+                <span>Catégories</span>
+            </a>
+        </li>
+    
+        
+        <li>
+            <a href="http://localhost:32871/tags"
+                 data-rel="prefetch"
+                >
+                <span>Tags</span>
+            </a>
+        </li>
+    
+</ul></nav>
+
+<a class="header__menu__logo" data-rel="prefetch" href="http://localhost:32871/" aria-label="Retourner à la page d&#39;accueil"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206 239.92">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #147480;
+            }
+
+            .cls-2 {
+                fill: #449199;
+            }
+
+            .cls-3 {
+                fill: #73acb3;
+            }
+
+            .cls-4 {
+                fill: #a0c8cc;
+            }
+
+            .cls-5 {
+                fill: #c5dde0;
+            }
+
+            .cls-6 {
+                fill: #dbeaec;
+            }
+        </style>
+    </defs>
+    <g id="Calque_2" data-name="Calque 2">
+        <polygon class="cls-1" points="30.86 196.91 103.86 239.91 176.28 196.91 103.57 154.35 30.86 196.91" />
+        <path class="cls-1" d="M157,245" transform="translate(-43 -48.41)" />
+        <path class="cls-1" d="M161,264" transform="translate(-43 -48.41)" />
+    </g>
+    <g id="Calque_3" data-name="Calque 3">
+        <polygon class="cls-2"
+            points="30.86 196.91 11 184.59 103.57 130.37 198 184.59 176.28 196.91 103.57 154.35 30.86 196.91" />
+    </g>
+    <g id="Calque_4" data-name="Calque 4">
+        <polygon class="cls-3"
+            points="11 184.59 0 178.59 0 169.47 103.57 109.7 206 169.59 206 179.01 198 184.59 103.57 130.37 11 184.59" />
+    </g>
+    <g id="Calque_5" data-name="Calque 5">
+        <polygon class="cls-4" points="0 169.47 0 150.08 103.57 89.04 206 148.81 206 169.59 103.57 109.7 0 169.47" />
+    </g>
+    <g id="Calque_7" data-name="Calque 7">
+        <polygon class="cls-5" points="0 150.08 0 129.31 103.57 68.37 206 127.82 206 148.81 103.57 89.04 0 150.08" />
+    </g>
+    <g id="Calque_8" data-name="Calque 8">
+        <polygon class="cls-6" points="0 129.31 0 60.72 103 0 206 60.34 206 127.82 103.57 68.37 0 129.31" />
+    </g>
+</svg></a><amp-autocomplete
+    on="select:AMP.navigateTo(url=event.value)"
+    filter="substring"
+    filter-value="title"
+    src="http://localhost:32871/search.json"
+    min-characters="1"
+    class="header__search"
+    next-page-hide>
+    <input class="header__search__input" type="text">
+    <template class="header__search__item-template" type="amp-mustache" id="amp-template-custom">
+        <div class="search-item" data-value="{{url}}">
+            <small class="search-item__date">{{date}}</small> <br>
+            <a class="search-item__link" href="{{url}}">
+                {{title}}
+            </a>
+        </div>
+    </template>
+</amp-autocomplete></header>
+		<main class="main">
+<article class="content">
+	<h1>Jupyter Lab gratuit avec Oracle Cloud</h1><section class="under-title">
+    <div class="under-title__info">
+        
+        
+        
+        <ul id="tags">
+            
+                
+                
+                    <li><a href="http://localhost:32871/tags/jupyter-notebook/" data-rel="prefetch">jupyter-notebook</a></li>
+                
+            
+                
+                
+                    <li><a href="http://localhost:32871/tags/linux/" data-rel="prefetch">linux</a></li>
+                
+            
+        </ul>
+    </div>
+</section><p class="description"></p>
+<div class="toc">
+    <div class="toc__title">Table des matières</div>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#résumé">Résumé</a></li>
+    <li><a href="#prérequis">Prérequis</a></li>
+    <li><a href="#inscription-à-oracle-cloud">Inscription à Oracle Cloud</a></li>
+    <li><a href="#création-dune-machine-virtuelle">Création d&rsquo;une machine virtuelle</a></li>
+    <li><a href="#se-connecter-à-la-machine-virtuelle-via-ssh">Se connecter à la machine Virtuelle via SSH</a></li>
+    <li><a href="#installation-de-jupyter-lab">Installation de Jupyter lab</a></li>
+    <li><a href="#accès-à-jupyter-lab">Accès à Jupyter lab</a></li>
+    <li><a href="#sources">Sources</a></li>
+  </ul>
+</nav>
+</div>
+<p>Gratuitement, de grandes entreprises (Google, IBM, Microsoft, &hellip;) proposent un accès à leur Jupyter Notebook. Jupyter Lab, cependant, ne fait pas partie de leurs offres gratuites (sans durée limitée et sans restriction conséquentes). C&rsquo;est dans cette optique que j&rsquo;ai découvert l&rsquo;accès &ldquo;Always free&rdquo; de Oracle, nous permettant aisément de créer notre Jupyter Lab personnel&hellip;</p>
+<h2 id="résumé">Résumé</h2>
+<p>Oracle propose depuis bientôt un an une offre appelée &ldquo;
+
+
+<a href="https://www.oracle.com/fr/cloud/free/#always-free"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >Always Free</a>&rdquo;. Celle-ci comprend :</p>
+<ul>
+<li>Deux bases de données Oracle Autonomous Database avec des outils puissants tels qu’Oracle Application Express (APEX) et Oracle SQL Developer</li>
+<li>Deux machines virtuelles de calcul Oracle Cloud Infrastructure Compute ; stockage de niveau bloc, objet et archive ; équilibreur de charge et extraction de données ; surveillance et notifications</li>
+<li>Pendant les 30 premiers jours 300 de crédit sur leur plateforme</li>
+</ul>
+<p><figure class="figure ">
+    
+    
+    
+        
+            <amp-img
+                src="http://localhost:32871/images/image-7-1024x371.png"
+                srcset="http://localhost:32871/images/image-7-1024x371_huca16b2b83ba3a7ac89b207aa3f082c09_128815_1200x0_resize_box_2.png 1200w,
+                    http://localhost:32871/images/image-7-1024x371_huca16b2b83ba3a7ac89b207aa3f082c09_128815_900x0_resize_box_2.png 900w,
+                    http://localhost:32871/images/image-7-1024x371_huca16b2b83ba3a7ac89b207aa3f082c09_128815_800x0_resize_box_2.png 800w,
+                    http://localhost:32871/images/image-7-1024x371_huca16b2b83ba3a7ac89b207aa3f082c09_128815_640x0_resize_box_2.png 640w,
+                    http://localhost:32871/images/image-7-1024x371_huca16b2b83ba3a7ac89b207aa3f082c09_128815_480x0_resize_box_2.png 480w,
+                    http://localhost:32871/images/image-7-1024x371_huca16b2b83ba3a7ac89b207aa3f082c09_128815_320x0_resize_box_2.png 320w
+                "
+                width="1024"
+                height="371"
+                layout="responsive"
+                alt=""
+                
+                class="figure__image "></amp-img>
+        
+    
+</figure></p>
+<p>Source : 
+
+
+<a href="https://www.oracle.com/fr/cloud/free/#always-free"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >oracle.com</a></p>
+<p>La configuration des machines virtuelles est la suivante :</p>
+<p><figure class="figure ">
+    
+    
+    
+        
+            <amp-img
+                src="http://localhost:32871/images/image-11-1024x156.png"
+                srcset="http://localhost:32871/images/image-11-1024x156_huc09867752bee823c9a578dbd52e5cf70_30664_1200x0_resize_box_2.png 1200w,
+                    http://localhost:32871/images/image-11-1024x156_huc09867752bee823c9a578dbd52e5cf70_30664_900x0_resize_box_2.png 900w,
+                    http://localhost:32871/images/image-11-1024x156_huc09867752bee823c9a578dbd52e5cf70_30664_800x0_resize_box_2.png 800w,
+                    http://localhost:32871/images/image-11-1024x156_huc09867752bee823c9a578dbd52e5cf70_30664_640x0_resize_box_2.png 640w,
+                    http://localhost:32871/images/image-11-1024x156_huc09867752bee823c9a578dbd52e5cf70_30664_480x0_resize_box_2.png 480w,
+                    http://localhost:32871/images/image-11-1024x156_huc09867752bee823c9a578dbd52e5cf70_30664_320x0_resize_box_2.png 320w
+                "
+                width="1024"
+                height="156"
+                layout="responsive"
+                alt=""
+                
+                class="figure__image "></amp-img>
+        
+    
+</figure></p>
+<p>Machine Virtuelle AMD - Oracle Cloud</p>
+<p>Si vous souhaitez une configuration plus &ldquo;confortable&rdquo;, il sera nécessaire de passer à un plan payant après 30 jours&hellip;</p>
+<h2 id="prérequis">Prérequis</h2>
+<p>Pour suivre ce tutoriel, il est nécessaire d&rsquo;avoir un accès en ssh sur son ordinateur (sous Linux, avec wsl2, avec putty&hellip;.).</p>
+<h2 id="inscription-à-oracle-cloud">Inscription à Oracle Cloud</h2>
+<p>Durant l&rsquo;inscription, vous aurez besoin de rentrer de nombreuses informations personnelles telles que votre adresse postale ou encore vos coordonnées de carte bleue.</p>
+<p>Cependant, il est important de noter que vous ne serez ni prélevé maintenant, ni au bout de 30 jours (du moins pas sans votre accord).</p>
+<p>Pour vous inscrire, connectez-vous ici :</p>
+<p>
+
+
+<a href="https://myservices.us.oraclecloud.com/mycloud/signup"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >Oracle Cloud Account Signup</a></p>
+<p>Suivez cette inscription. Cela dure maximum 5 min.</p>
+<h2 id="création-dune-machine-virtuelle">Création d&rsquo;une machine virtuelle</h2>
+<p>Une fois inscrit, vous devrez vous retrouver sur cette page :</p>
+<p><figure class="figure ">
+    
+    
+    
+        
+            <amp-img
+                src="http://localhost:32871/images/image-8-1024x397.png"
+                srcset="http://localhost:32871/images/image-8-1024x397_hud198a2cbd669af39af33ea84122c30aa_113491_1200x0_resize_box_2.png 1200w,
+                    http://localhost:32871/images/image-8-1024x397_hud198a2cbd669af39af33ea84122c30aa_113491_900x0_resize_box_2.png 900w,
+                    http://localhost:32871/images/image-8-1024x397_hud198a2cbd669af39af33ea84122c30aa_113491_800x0_resize_box_2.png 800w,
+                    http://localhost:32871/images/image-8-1024x397_hud198a2cbd669af39af33ea84122c30aa_113491_640x0_resize_box_2.png 640w,
+                    http://localhost:32871/images/image-8-1024x397_hud198a2cbd669af39af33ea84122c30aa_113491_480x0_resize_box_2.png 480w,
+                    http://localhost:32871/images/image-8-1024x397_hud198a2cbd669af39af33ea84122c30aa_113491_320x0_resize_box_2.png 320w
+                "
+                width="1024"
+                height="397"
+                layout="responsive"
+                alt=""
+                
+                class="figure__image "></amp-img>
+        
+    
+</figure></p>
+<p>Oracle Cloud - Accueil</p>
+<ol>
+<li>Cliquez sur &ldquo;Create a VM instance&rdquo;</li>
+<li>Nommez votre instance du nom de votre choix</li>
+<li>Choisissez l&rsquo;image &ldquo;Always free&rdquo; de votre choix (la suite du tutoriel peut varier selon l&rsquo;image choisie)</li>
+</ol>
+<p><figure class="figure ">
+    
+    
+    
+        
+            <amp-img
+                src="http://localhost:32871/images/image-9-1024x765.png"
+                srcset="http://localhost:32871/images/image-9-1024x765_hu02bcc8761b9b082f7fb10fa040f52b21_139122_1200x0_resize_box_2.png 1200w,
+                    http://localhost:32871/images/image-9-1024x765_hu02bcc8761b9b082f7fb10fa040f52b21_139122_900x0_resize_box_2.png 900w,
+                    http://localhost:32871/images/image-9-1024x765_hu02bcc8761b9b082f7fb10fa040f52b21_139122_800x0_resize_box_2.png 800w,
+                    http://localhost:32871/images/image-9-1024x765_hu02bcc8761b9b082f7fb10fa040f52b21_139122_640x0_resize_box_2.png 640w,
+                    http://localhost:32871/images/image-9-1024x765_hu02bcc8761b9b082f7fb10fa040f52b21_139122_480x0_resize_box_2.png 480w,
+                    http://localhost:32871/images/image-9-1024x765_hu02bcc8761b9b082f7fb10fa040f52b21_139122_320x0_resize_box_2.png 320w
+                "
+                width="1024"
+                height="765"
+                layout="responsive"
+                alt=""
+                
+                class="figure__image "></amp-img>
+        
+    
+</figure></p>
+<p>Choix du système d&rsquo;exploitation - Oracle Cloud</p>
+<ol start="4">
+<li>Cliquez ensuite sur &ldquo;Show Shape, Network and Storage Options&rdquo;</li>
+<li>Puis &ldquo;Change Shape&rdquo;</li>
+<li>Ensuite &ldquo;Virtual Machine&rdquo;</li>
+<li>Sur &ldquo;Specialty and Legacy&rdquo;</li>
+<li>Et sélectionnez la ressource &ldquo;Always Free Eligible&rdquo; comme sur l&rsquo;image ci-dessous (si aucune n&rsquo;est disponible, essayez de modifier dans la fenêtre précédente &ldquo;availability domain&rdquo;) :</li>
+</ol>
+<p><figure class="figure ">
+    
+    
+    
+        
+            <amp-img
+                src="http://localhost:32871/images/image-10-1024x742.png"
+                srcset="http://localhost:32871/images/image-10-1024x742_hu0391da3c3ddf526cd084fedbc182802f_189947_1200x0_resize_box_2.png 1200w,
+                    http://localhost:32871/images/image-10-1024x742_hu0391da3c3ddf526cd084fedbc182802f_189947_900x0_resize_box_2.png 900w,
+                    http://localhost:32871/images/image-10-1024x742_hu0391da3c3ddf526cd084fedbc182802f_189947_800x0_resize_box_2.png 800w,
+                    http://localhost:32871/images/image-10-1024x742_hu0391da3c3ddf526cd084fedbc182802f_189947_640x0_resize_box_2.png 640w,
+                    http://localhost:32871/images/image-10-1024x742_hu0391da3c3ddf526cd084fedbc182802f_189947_480x0_resize_box_2.png 480w,
+                    http://localhost:32871/images/image-10-1024x742_hu0391da3c3ddf526cd084fedbc182802f_189947_320x0_resize_box_2.png 320w
+                "
+                width="1024"
+                height="742"
+                layout="responsive"
+                alt=""
+                
+                class="figure__image "></amp-img>
+        
+    
+</figure></p>
+<p>Choix de la VM - Oracle Cloud</p>
+<ol start="9">
+<li>Enfin, sauvegardez la clé privée pour accéder à votre machine via ssh :</li>
+</ol>
+<p><figure class="figure ">
+    
+    
+    
+        
+            <amp-img
+                src="http://localhost:32871/images/image-12-1024x341.png"
+                srcset="http://localhost:32871/images/image-12-1024x341_hu22a9004e0f257c9a52b0c1e36f3a4a05_83405_1200x0_resize_box_2.png 1200w,
+                    http://localhost:32871/images/image-12-1024x341_hu22a9004e0f257c9a52b0c1e36f3a4a05_83405_900x0_resize_box_2.png 900w,
+                    http://localhost:32871/images/image-12-1024x341_hu22a9004e0f257c9a52b0c1e36f3a4a05_83405_800x0_resize_box_2.png 800w,
+                    http://localhost:32871/images/image-12-1024x341_hu22a9004e0f257c9a52b0c1e36f3a4a05_83405_640x0_resize_box_2.png 640w,
+                    http://localhost:32871/images/image-12-1024x341_hu22a9004e0f257c9a52b0c1e36f3a4a05_83405_480x0_resize_box_2.png 480w,
+                    http://localhost:32871/images/image-12-1024x341_hu22a9004e0f257c9a52b0c1e36f3a4a05_83405_320x0_resize_box_2.png 320w
+                "
+                width="1024"
+                height="341"
+                layout="responsive"
+                alt=""
+                
+                class="figure__image "></amp-img>
+        
+    
+</figure></p>
+<p>Sauvegarde des clés SSH - Oracle Cloud</p>
+<ol start="10">
+<li>Vous pouvez maintenant cliquer sur &ldquo;Create&rdquo; !</li>
+</ol>
+<h2 id="se-connecter-à-la-machine-virtuelle-via-ssh">Se connecter à la machine Virtuelle via SSH</h2>
+<p>Pour vous connecter avec putty, je vous renvoie vers 
+
+
+<a href="https://devops.ionos.com/tutorials/use-ssh-keys-with-putty-on-windows"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >ce lien</a>.</p>
+<p>Pour vous connecter &ldquo;traditionnellement&rdquo; avec un terminal, <strong>restez ici</strong> !</p>
+<p>Rendez-vous dans la liste des instances située dans :</p>
+<p>&ldquo;Menu de navigation en haut à gauche&rdquo; &gt; Compute &gt; Instances</p>
+<p><figure class="figure ">
+    
+    
+    
+        
+            <amp-img
+                src="http://localhost:32871/images/image-1024x288.png"
+                srcset="http://localhost:32871/images/image-1024x288_hue5a36048615b53a137da777368959431_98086_1200x0_resize_box_2.png 1200w,
+                    http://localhost:32871/images/image-1024x288_hue5a36048615b53a137da777368959431_98086_900x0_resize_box_2.png 900w,
+                    http://localhost:32871/images/image-1024x288_hue5a36048615b53a137da777368959431_98086_800x0_resize_box_2.png 800w,
+                    http://localhost:32871/images/image-1024x288_hue5a36048615b53a137da777368959431_98086_640x0_resize_box_2.png 640w,
+                    http://localhost:32871/images/image-1024x288_hue5a36048615b53a137da777368959431_98086_480x0_resize_box_2.png 480w,
+                    http://localhost:32871/images/image-1024x288_hue5a36048615b53a137da777368959431_98086_320x0_resize_box_2.png 320w
+                "
+                width="1024"
+                height="288"
+                layout="responsive"
+                alt=""
+                
+                class="figure__image "></amp-img>
+        
+    
+</figure></p>
+<p>Liste des Instances - Oracle Cloud</p>
+<p>Cliquez sur l&rsquo;instance puis copiez l&rsquo;IP public ainsi que le nom d&rsquo;utilisateur.</p>
+<p>Vous pouvez maintenant ouvrir un terminal et vous connecter à l&rsquo;instance via SSH :</p>
+<ol>
+<li>Ouvrez un terminal et allez dans le même dossier que votre &ldquo;clé&rdquo;.</li>
+<li>Entrez les 2 commandes suivantes :</li>
+</ol>
+<pre><code>chmod 500 &lt;Votre clé&gt;
+ssh -i &lt;Votre clé&gt; &lt;nom utilisateur&gt;@&lt;IP publique&gt;
+</code></pre><p>Résultat :</p>
+<p><figure class="figure ">
+    
+    
+    
+        
+            <amp-img
+                src="http://localhost:32871/images/image-2-1024x603.png"
+                srcset="http://localhost:32871/images/image-2-1024x603_hu2d851782ec4804a75e7dab56fbb13098_268127_1200x0_resize_box_2.png 1200w,
+                    http://localhost:32871/images/image-2-1024x603_hu2d851782ec4804a75e7dab56fbb13098_268127_900x0_resize_box_2.png 900w,
+                    http://localhost:32871/images/image-2-1024x603_hu2d851782ec4804a75e7dab56fbb13098_268127_800x0_resize_box_2.png 800w,
+                    http://localhost:32871/images/image-2-1024x603_hu2d851782ec4804a75e7dab56fbb13098_268127_640x0_resize_box_2.png 640w,
+                    http://localhost:32871/images/image-2-1024x603_hu2d851782ec4804a75e7dab56fbb13098_268127_480x0_resize_box_2.png 480w,
+                    http://localhost:32871/images/image-2-1024x603_hu2d851782ec4804a75e7dab56fbb13098_268127_320x0_resize_box_2.png 320w
+                "
+                width="1024"
+                height="603"
+                layout="responsive"
+                alt=""
+                
+                class="figure__image "></amp-img>
+        
+    
+</figure></p>
+<p>Connexion via SSH - Oracle Cloud</p>
+<h2 id="installation-de-jupyter-lab">Installation de Jupyter lab</h2>
+<p>Pour installer Jupyter Lab, nous aurons besoin de pip3. Pour l&rsquo;installer :</p>
+<pre><code>sudo apt install python3-pip
+</code></pre><p>Installons Jupyter Lab maintenant :</p>
+<pre><code>pip3 install jupyterlab 
+</code></pre><p>Après son installation, terminez votre connexion ssh puis relancez là. Vous pouvez maintenant exécuter Jupyter Lab.</p>
+<h2 id="accès-à-jupyter-lab">Accès à Jupyter lab</h2>
+<p>Je vous propose de vous connecter à Jupyter Lab via un tunnel SSH, mais il est tout à fait possible de s&rsquo;y connecter via l&rsquo;IP public! Pour cela, je vous renvoie vers 
+
+
+<a href="https://docs.cloud.oracle.com/en-us/iaas/developer-tutorials/tutorials/apache-on-ubuntu/01oci-ubuntu-apache-summary.htm"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >la partie 2 d&rsquo;un tutoriel de Oracle</a>.</p>
+<p>Dans votre terminal, commencez par taper &ldquo;jupyter lab&rdquo; :</p>
+<pre><code>jupyter lab
+</code></pre><p>Comme ceci :</p>
+<p><figure class="figure ">
+    
+    
+    
+        
+            <amp-img
+                src="http://localhost:32871/images/image-3-1024x569.png"
+                srcset="http://localhost:32871/images/image-3-1024x569_hucd466ac7a7da5d1ccb29a9c98e8186b9_296413_1200x0_resize_box_2.png 1200w,
+                    http://localhost:32871/images/image-3-1024x569_hucd466ac7a7da5d1ccb29a9c98e8186b9_296413_900x0_resize_box_2.png 900w,
+                    http://localhost:32871/images/image-3-1024x569_hucd466ac7a7da5d1ccb29a9c98e8186b9_296413_800x0_resize_box_2.png 800w,
+                    http://localhost:32871/images/image-3-1024x569_hucd466ac7a7da5d1ccb29a9c98e8186b9_296413_640x0_resize_box_2.png 640w,
+                    http://localhost:32871/images/image-3-1024x569_hucd466ac7a7da5d1ccb29a9c98e8186b9_296413_480x0_resize_box_2.png 480w,
+                    http://localhost:32871/images/image-3-1024x569_hucd466ac7a7da5d1ccb29a9c98e8186b9_296413_320x0_resize_box_2.png 320w
+                "
+                width="1024"
+                height="569"
+                layout="responsive"
+                alt=""
+                
+                class="figure__image "></amp-img>
+        
+    
+</figure></p>
+<p>Lancement de Jupyter Lab - Oracle Cloud</p>
+<p>Laissez ce terminal ouvert en ayant bien en tête le port sur lequel est déployé Jupyter Lab.</p>
+<p>Ouvrez un nouveau terminal et tapez la commande :</p>
+<pre><code>sudo ssh -i &lt;Votre clé&gt; -L 80:localhost:&lt;Port Jupyter&gt;  &lt;nom utilisateur&gt;@&lt;IP publique&gt;
+</code></pre><p>Cette commande permet de rediriger le port 80 de votre ordinateur vers le port jupyter de votre instance. Ainsi, ouvrez un navigateur et tapez &ldquo;localhost&rdquo;, vous devriez être en mesure de vous connecter à Jupyter Lab !</p>
+<p><figure class="figure ">
+    
+    
+    
+        
+            <amp-img
+                src="http://localhost:32871/images/image-4-1024x703.png"
+                srcset="http://localhost:32871/images/image-4-1024x703_hub418dea65c84409ae84a0f5426fa2d27_263837_1200x0_resize_box_2.png 1200w,
+                    http://localhost:32871/images/image-4-1024x703_hub418dea65c84409ae84a0f5426fa2d27_263837_900x0_resize_box_2.png 900w,
+                    http://localhost:32871/images/image-4-1024x703_hub418dea65c84409ae84a0f5426fa2d27_263837_800x0_resize_box_2.png 800w,
+                    http://localhost:32871/images/image-4-1024x703_hub418dea65c84409ae84a0f5426fa2d27_263837_640x0_resize_box_2.png 640w,
+                    http://localhost:32871/images/image-4-1024x703_hub418dea65c84409ae84a0f5426fa2d27_263837_480x0_resize_box_2.png 480w,
+                    http://localhost:32871/images/image-4-1024x703_hub418dea65c84409ae84a0f5426fa2d27_263837_320x0_resize_box_2.png 320w
+                "
+                width="1024"
+                height="703"
+                layout="responsive"
+                alt=""
+                
+                class="figure__image "></amp-img>
+        
+    
+</figure></p>
+<p>Connexion à Jupyter Lab - Oracle Cloud</p>
+<p>Pour finir, récupérez sur votre premier terminal le &ldquo;token&rdquo; et collez-le.</p>
+<p><figure class="figure ">
+    
+    
+    
+        
+            <amp-img
+                src="http://localhost:32871/images/image-5-1024x727.png"
+                srcset="http://localhost:32871/images/image-5-1024x727_hue7c7ca82d3d7da6ae2f3025ab4e7101c_221078_1200x0_resize_box_2.png 1200w,
+                    http://localhost:32871/images/image-5-1024x727_hue7c7ca82d3d7da6ae2f3025ab4e7101c_221078_900x0_resize_box_2.png 900w,
+                    http://localhost:32871/images/image-5-1024x727_hue7c7ca82d3d7da6ae2f3025ab4e7101c_221078_800x0_resize_box_2.png 800w,
+                    http://localhost:32871/images/image-5-1024x727_hue7c7ca82d3d7da6ae2f3025ab4e7101c_221078_640x0_resize_box_2.png 640w,
+                    http://localhost:32871/images/image-5-1024x727_hue7c7ca82d3d7da6ae2f3025ab4e7101c_221078_480x0_resize_box_2.png 480w,
+                    http://localhost:32871/images/image-5-1024x727_hue7c7ca82d3d7da6ae2f3025ab4e7101c_221078_320x0_resize_box_2.png 320w
+                "
+                width="1024"
+                height="727"
+                layout="responsive"
+                alt=""
+                
+                class="figure__image "></amp-img>
+        
+    
+</figure></p>
+<p>Jupyter Lab - Oracle Cloud</p>
+<p>Enjoy :).</p>
+<h2 id="sources">Sources</h2>
+<ol>
+<li>
+
+
+<a href="https://medium.com/@FranckPachot/the-oracle-cloud-free-tier-37c27f3b1e19"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >The Oracle Cloud Free Tier - medium.com</a></li>
+<li>
+
+
+<a href="https://www.oracle.com/fr/cloud/free"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >Oracle Cloud Free Tier - oracle.com</a></li>
+<li>
+
+
+<a href="https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >Installation Jupyter lab - readthedocs.io</a></li>
+<li>
+
+
+<a href="http://www.linux-france.org/prj/edu/archinet/systeme/ch13s04.html"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >Comprendre la redirection de port (Port Forwarding) - linux-france.org</a></li>
+</ol>
+<div class="more">
+    <h2 class="more__title">Thèmes relatifs à l'article</h2>
+    
+        <ul class="more__list">
+           
+            
+                
+                
+                    <a href="http://localhost:32871/tags/jupyter-notebook/" data-rel="prefetch"><li>jupyter-notebook</li></a>
+                
+            
+                
+                
+                    <a href="http://localhost:32871/tags/linux/" data-rel="prefetch"><li>linux</li></a>
+                
+            
+        </ul>
+</div>
+    <section class="author">
+        
+            <amp-img class="author__image"
+                src="http://localhost:32871/images/pdp.jpg"
+                layout="fixed" height="200" width="200"></amp-img>
+        
+        <div class="author__right">
+            
+                <p class="author__right__name">Robin Pourtaud</p>
+            
+            
+                <p class="author__right__bio">Etudiant en informatique, je suis l&#39;administrateur et rédacteur du site DevMath.fr. Si vous avez une question, n&#39;hésitez pas à me contacter !</p>
+            
+        </div>
+        
+    </section>
+
+<div class="summary__list">
+    
+    
+        <a class="summary" href="http://localhost:32871/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/">
+    <div class="summary__top">
+        
+        <figure class="figure ">
+    
+    
+    
+</figure><div class="summary__top__title">Lister tous les ports ouverts d&#39;un ordinateur avec nmap</div>
+        
+            
+    </div>
+    
+    <div class="summary__bottom">
+        <div class="summary__image__title"></div>
+        <div class="summary__image__title">Lister tous les ports ouverts d&#39;un ordinateur avec nmap</div>
+        <div class="summary__bottom__desc">
+            
+        </div>
+    </div>
+    
+    
+</div>
+</a> 
+    
+        <a class="summary" href="http://localhost:32871/informatique/traduction-en-python-3-avec-ibm-language-translator-api/">
+    <div class="summary__top">
+        
+        <figure class="figure ">
+    
+    
+    
+</figure><div class="summary__top__title">Traduction en Python 3 avec IBM Language Translator API</div>
+        
+            
+    </div>
+    
+    <div class="summary__bottom">
+        <div class="summary__image__title"></div>
+        <div class="summary__image__title">Traduction en Python 3 avec IBM Language Translator API</div>
+        <div class="summary__bottom__desc">
+            
+        </div>
+    </div>
+    
+    
+</div>
+</a> 
+    
+        <a class="summary" href="http://localhost:32871/informatique/3-manieres-de-calculer-pi-en-python-3/">
+    <div class="summary__top">
+        
+        <figure class="figure ">
+    
+    
+    
+</figure><div class="summary__top__title">3 manières de calculer Pi en Python 3</div>
+        
+            
+    </div>
+    
+    <div class="summary__bottom">
+        <div class="summary__image__title"></div>
+        <div class="summary__image__title">3 manières de calculer Pi en Python 3</div>
+        <div class="summary__bottom__desc">
+            
+        </div>
+    </div>
+    
+    
+</div>
+</a> 
+    
+    
+</div>
+</article><aside class="aside">
+    
+    <div class="aside__title">Partager</div><amp-social-share class="social-share__button"
+    aria-label="Partager" type="system" width="50" height="50"></amp-social-share>
+<amp-social-share class="social-share__button"
+    aria-label="Partager sur Facebook" type="facebook" width="50" height="50"></amp-social-share>
+<amp-social-share class="social-share__button"
+    aria-label="Partager sur Twitter" type="twitter" width="50" height="50"></amp-social-share>
+<amp-social-share class="social-share__button"
+    aria-label="Partager sur Linkedin" type="linkedin" width="50" height="50"></amp-social-share>
+<div class="aside__title">Date de publication</div>
+    <time datetime="2020-09-29T00:00:00">
+        
+        
+        29 Septembre 2020
+    </time>
+    <div class="aside__title">Auteur</div>
+    Robin Pourtaud 
+    <div class="aside__title">Tags :</div>
+    
+        <ul id="tags">
+            
+                
+                
+                    <li><a href="http://localhost:32871/tags/jupyter-notebook/" data-rel="prefetch">jupyter-notebook</a></li>
+                
+            
+                
+                
+                    <li><a href="http://localhost:32871/tags/linux/" data-rel="prefetch">linux</a></li>
+                
+            
+        </ul>
+    <div class="aside__title">Articles liés</div>
+<div class="summary__list">
+    
+    
+        <a class="summary" href="http://localhost:32871/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/">
+    <div class="summary__top">
+        
+        <figure class="figure ">
+    
+    
+    
+</figure><div class="summary__top__title">Lister tous les ports ouverts d&#39;un ordinateur avec nmap</div>
+        
+            
+    </div>
+    
+    <div class="summary__bottom">
+        <div class="summary__image__title"></div>
+        <div class="summary__image__title">Lister tous les ports ouverts d&#39;un ordinateur avec nmap</div>
+        <div class="summary__bottom__desc">
+            
+        </div>
+    </div>
+    
+    
+</div>
+</a> 
+    
+        <a class="summary" href="http://localhost:32871/informatique/traduction-en-python-3-avec-ibm-language-translator-api/">
+    <div class="summary__top">
+        
+        <figure class="figure ">
+    
+    
+    
+</figure><div class="summary__top__title">Traduction en Python 3 avec IBM Language Translator API</div>
+        
+            
+    </div>
+    
+    <div class="summary__bottom">
+        <div class="summary__image__title"></div>
+        <div class="summary__image__title">Traduction en Python 3 avec IBM Language Translator API</div>
+        <div class="summary__bottom__desc">
+            
+        </div>
+    </div>
+    
+    
+</div>
+</a> 
+    
+        <a class="summary" href="http://localhost:32871/informatique/3-manieres-de-calculer-pi-en-python-3/">
+    <div class="summary__top">
+        
+        <figure class="figure ">
+    
+    
+    
+</figure><div class="summary__top__title">3 manières de calculer Pi en Python 3</div>
+        
+            
+    </div>
+    
+    <div class="summary__bottom">
+        <div class="summary__image__title"></div>
+        <div class="summary__image__title">3 manières de calculer Pi en Python 3</div>
+        <div class="summary__bottom__desc">
+            
+        </div>
+    </div>
+    
+    
+</div>
+</a> 
+    
+    
+</div>
+</aside>
+		</main>
+		<footer class="footer"><div class="footer__copyright">© DevMath.fr 2021</div>
+<ul class="footer__list">
+    <li class="footer__list__link"><a>Contact</a></li>
+    <li class="footer__list__link"><a>Confidentialité</a></li>
+</ul></footer>
+	</body>
+</html>

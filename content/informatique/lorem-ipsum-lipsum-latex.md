@@ -36,7 +36,7 @@ Les 2 paramètres sont optionnels.
 
 #### Exemple 1
 
-La commande "\\lipsum" génère par défaut les paragraphes 1 à 7 du Lipsum :
+La commande "\lipsum" génère par défaut les paragraphes 1 à 7 du Lipsum :
 
 ```
 \lipsum

@@ -48,7 +48,7 @@ wget -qO - https://packages.sury.org/php/apt.gpg | sudo apt-key add -
 Ajoutons le repository sury.
 
 ```bash
-echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php7.x.list
+echo "deb https://packages.sury.org/php/ (lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php7.x.list
 ```
 
 Mettez à nouveau à jour votre ordinateur.

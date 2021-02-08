@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php on DevMath.fr</title>
+    <link>http://localhost:32871/tags/php/</link>
+    <description>Recent content in php on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Héberger un Wordpress Gratuitement sur un Raspberry Pi</title>
+      <link>http://localhost:32871/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid>
+      <description>WordPress est un système de gestion de contenu (SGC ou content management system (CMS) en anglais) gratuit, libre et open-source.
+Wordpress est le CMS le plus utilisé au monde. De part sa simplicité d&amp;rsquo;utilisation et sa liberté de design, sa popularité s’explique d&amp;rsquo;elle même.
+Malheureusement, utiliser Wordpress pour laisser libre cours à son imagination revient souvent à passer par son porte monnaie.
+Pour un site personnel, 4€ par mois reste raisonnable, mais pour un site d&amp;rsquo;e-Commerce, 45€ semble moins attrayant&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Recevoir des notifications par mail en PHP grâce à IFTTT</title>
+      <link>http://localhost:32871/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</guid>
+      <description>Il existe de nombreuses méthodes pour recevoir les notifications de son site web grâce à PHP. Aujourd&amp;rsquo;hui je vais vous montrer comment recevoir des mails grâce à IFTTT en moins de 10 min.
+Paramétrer IFTTT :  Connectez-vous à l’adresse https://ifttt.com/ . Inscrivez-vous si ce n&amp;rsquo;est pas déjà fais. Appuyez sur votre photo de profil en haut à gauche, puis appuyez sur &amp;ldquo;Create&amp;rdquo;. Appuyez sur &amp;ldquo;This&amp;rdquo; puis sélectionnez le service &amp;ldquo;Webhooks&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Installer PHP7.4 pour Wordpress</title>
+      <link>http://localhost:32871/informatique/installer-php7-4-sur-un-raspberry-pi/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/informatique/installer-php7-4-sur-un-raspberry-pi/</guid>
+      <description>PHP7.4 est actuellement la dernière version de PHP. Sortie fin 2019, je vais vous montrer la méthode la plus simple pour installer cette version de php sous Raspbian.
+Vous avez peut-être remarqué que votre WordPress tourne sous une ancienne version de PHP ? Vous avez donc sans doute vu ce message :
+ 
+Problème Critique PHP Wordpress
+Prenez 10 min de votre temps pour régler ce problème.
+Prérequis :  Vous devez avoir un ordinateur mis à jour, sous une distribution basée sur debian (raspbian pour moi).</description>
+    </item>
+    
+  </channel>
+</rss>

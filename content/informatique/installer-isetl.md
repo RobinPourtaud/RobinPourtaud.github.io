@@ -80,7 +80,7 @@ Vous pouvez télécharger la version MS-DOS juste ici :
 
 Je vous laisse extraire le fichier dans le dossier d'installation de vDos pour pouvoir l'exécuter sans se soucier de sa possession dans votre ordinateur.
 
-Par défaut : C:\\vDos
+Par défaut : C:\vDos
 
 ### Exectuter ISETL grâce à vDos
 
@@ -99,7 +99,7 @@ rem It's even adviced they don't, to limit access to the Windows file system.
 rem The USE command assigns vDos drive letters to Windows drives, folders,
 rem or network shares. The command syntax is:
 rem USE <vDos drive letter:> <Windows drive:|folder|network share>\
-rem Examples: USE C: D:\dosprog\, USE F: \\server\share\dosprog\.
+rem Examples: USE C: D:\dosprog\, USE F: \server\share\dosprog\.
 
 rem By default C: is assigned to the folder vDos.exe is started from.
 rem Execute the batch file that launches the DataPerfect demo program:

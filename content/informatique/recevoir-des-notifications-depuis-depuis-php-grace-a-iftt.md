@@ -29,7 +29,7 @@ Il existe de nombreuses méthodes pour recevoir les notifications de son site we
 Contenu Message IFTTT
 
 8. Appuyez sur "Finish"
-9. Allez sur le lien suivant: [https://ifttt.com/maker\_webhooks/settings](https://ifttt.com/maker_webhooks/settings)
+9. Allez sur le lien suivant: [https://ifttt.com/maker_webhooks/settings](https://ifttt.com/maker_webhooks/settings)
 10. Devant URL, vous devriez pouvoir voir votre clé ! Gardez-la précieusement.
 11. Fini pour la configuration de IFTTT
 
@@ -37,11 +37,11 @@ Contenu Message IFTTT
 
 ```
 <?php
-function msg($message){
- $msgmodify=rawurlencode($message); 
+function msg(message){
+ $msgmodify=rawurlencode(message); 
  $key="KEY"; //Ajouté votre clé
- $eventname="EVENT NAME"; //Ajouté votre nom d’événement 
- file_get_contents("https://maker.ifttt.com/trigger/$eventname/with/key/".$key."?value1=".$msgmodify."");
+ eventname="EVENT NAME"; //Ajouté votre nom d’événement 
+ file_get_contents("https://maker.ifttt.com/trigger/eventname/with/key/"." key."?value1=".msgmodify."");
 }
 ?>
 ```

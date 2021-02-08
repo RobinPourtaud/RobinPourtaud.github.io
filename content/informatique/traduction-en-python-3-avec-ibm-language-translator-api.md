@@ -37,9 +37,9 @@ Une fois créé, dans l'onglet _Manage_, copiez l'API key et l'URL. Ils seront t
 
 Language Translator API
 
-## Installation de la librairie ibm\_watson
+## Installation de la librairie ibm_watson
 
-Pour installer ibm\_watson depuis le terminal, exécutez la commande suivante :
+Pour installer ibm_watson depuis le terminal, exécutez la commande suivante :
 
 ```
 sudo pip install ibm_watson
@@ -89,7 +89,7 @@ Si vous avez suivi ce tutoriel comme prévu, vous devriez obtenir :
 
 Traduction du français vers l'anglais
 
-Pour donner un autre exemple : changer le paramètre "model\_id='fr-en'" par "mode\_id='fr-es'" permettrait donc de traduire cette phrase en espagnol.
+Pour donner un autre exemple : changer le paramètre "model_id='fr-en'" par "mode_id='fr-es'" permettrait donc de traduire cette phrase en espagnol.
 
 ## Alternative à IBM translate ?
 

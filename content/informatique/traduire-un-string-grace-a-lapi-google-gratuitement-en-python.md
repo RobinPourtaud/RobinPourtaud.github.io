@@ -14,7 +14,7 @@ no: ""
 
 Traduire du texte est quelque chose de complexe, demandant beaucoup de données et de ressources. C'est pourquoi, il n'est pas possible (difficile) de programmer soit même un algorithme performant de traduction.
 
-La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l'API **Google Cloud Translation**. Cet API, bien que très pratique, pose un certain problème, celui du **prix** : [20$ pour 1 million de caractères](https://cloud.google.com/translate/pricing). Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n'avez pas besoin d'utiliser autant de caractères, il serait intéressant de trouver une alternative **gratuite**. Et c'est pour cela que je vous propose cet article !
+La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l'API **Google Cloud Translation**. Cet API, bien que très pratique, pose un certain problème, celui du **prix** : [20 pour 1 million de caractères](https://cloud.google.com/translate/pricing). Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n'avez pas besoin d'utiliser autant de caractères, il serait intéressant de trouver une alternative **gratuite**. Et c'est pour cela que je vous propose cet article !
 
 Pour ce tutoriel, j'utiliserai [Colab Research](https://colab.research.google.com/), le Jupyter Notebook de Google.
 
@@ -72,5 +72,5 @@ Ce code affichera donc "Kitten", étant donné que 'dest' est par défaut égal 
 ## Sources :
 
 - [https://pypi.org/project/googletrans/](https://pypi.org/project/googletrans/)
-- [https://colab.research.google.com/notebooks/snippets/importing\_libraries.ipynb](https://colab.research.google.com/notebooks/snippets/importing_libraries.ipynb)
+- [https://colab.research.google.com/notebooks/snippets/importing_libraries.ipynb](https://colab.research.google.com/notebooks/snippets/importing_libraries.ipynb)
 - [https://notebooks.azure.com/help/jupyter-notebooks/package-installation](https://notebooks.azure.com/help/jupyter-notebooks/package-installation)

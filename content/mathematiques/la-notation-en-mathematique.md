@@ -21,15 +21,15 @@ Dans son livre "The Art of Computer Science", l'informaticien Donald Knuth intro
 
 Le Termial est présenté par Knuth comme une fonction analogue à la fonction factorielle "!".
 
-\[latexpage\]
 
-La fonction factorielle étant définie $\\forall n \\in \\mathbb{N}$ par :
 
-$\\quicklatex{size=25}n!=\\prod^n\_{i=1}i= 1 \\times 2 \\times \\ldots \\times (n-1) \\times n$
+La fonction factorielle étant définie {{< latex "\forall n \in \mathbb{N}" >}} par :
+
+{{< latex "\quicklatex{size=25}n!=\prod^n_{i=1}i= 1 \times 2 \times \ldots \times (n-1) \times n" >}}
 
 La fonction "termial" se définie par :
 
-$\\quicklatex{size=25}n?=\\sum^n\_{i=1}i = 1 + 2 + \\ldots + (n-1) + n$
+{{< latex "\quicklatex{size=25}n?=\sum^n_{i=1}i = 1 + 2 + \ldots + (n-1) + n" >}}
 
 Cette série est grossièrement divergente.
 
@@ -37,11 +37,11 @@ Cette série est grossièrement divergente.
 
 Comme pour la fonction factorielle avec la fonction gamma, il est possible d'étendre la fonction "Termial" à des valeurs non entières en prenant :
 
-$\\quicklatex{size=25}n?=\\sum^n\_{i=1}i = \\frac{n(n+1)}{2}$
+{{< latex "\quicklatex{size=25}n?=\sum^n_{i=1}i = \frac{n(n+1)}{2}" >}}
 
 Ainsi :
 
-$\\quicklatex{size=25}0.5? = \\frac{0.5(0.5+1)}{2} = \\frac{3}{8}$
+{{< latex "\quicklatex{size=25}0.5? = \frac{0.5(0.5+1)}{2} = \frac{3}{8}" >}}
 
 ## Sources :
 

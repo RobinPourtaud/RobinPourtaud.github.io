@@ -149,5 +149,5 @@ Sélectionnez le langage adéquat !
 ## Sources :
 
 - [https://developers.google.com/amp?hl=fr](https://developers.google.com/amp?hl=fr)
-- [https://fr.wikipedia.org/wiki/Accelerated\_Mobile\_Pages](https://fr.wikipedia.org/wiki/Accelerated_Mobile_Pages)
+- [https://fr.wikipedia.org/wiki/Accelerated_Mobile_Pages](https://fr.wikipedia.org/wiki/Accelerated_Mobile_Pages)
 - [https://github.com/highlightjs/highlight.js](https://github.com/highlightjs/highlight.js)

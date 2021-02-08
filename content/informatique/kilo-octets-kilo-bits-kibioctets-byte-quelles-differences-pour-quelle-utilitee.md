@@ -15,7 +15,7 @@ Savoir combien de films votre clé USB peut stocker, ce n'est pas inné, ça s'a
 
 ## Le système international d'unité (SI)
 
-\[latexpage\]
+
 
 Au lycée, vous avez certainement entendu parler du **système international d'unité**.  
 Il s'agit d'un système décimal, permettant de conformer les unités avec précision pour tous les pays du monde (sauf exceptions). Le changement d’échelle se fait par puissance de 10.
@@ -27,13 +27,13 @@ Pour une vision plus globale de la chose, je vous propose un tableau présentant
 
 | Préfixe | Symbole | Valeur |
 | --- | --- | --- |
-| (aucun) | unité | $10^0$ |
-| déca- | da | $10^1$ |
-| hecto- | h | $10^2$ |
-| kilo- | k | $10^3$ |
-| méga- | M | $10^6$ |
-| giga- | G | $10^9$ |
-| téra- | T | $10^{11}$ |
+| (aucun) | unité | {{< latex "10^0" >}} |
+| déca- | da | {{< latex "10^1" >}} |
+| hecto- | h | {{< latex "10^2" >}} |
+| kilo- | k | {{< latex "10^3" >}} |
+| méga- | M | {{< latex "10^6" >}} |
+| giga- | G | {{< latex "10^9" >}} |
+| téra- | T | {{< latex "10^{11}" >}} |
 
 Quelques préfixes SI couramment utilisés
 
@@ -48,24 +48,24 @@ Le bit représente **la plus petite unité utilisée** pour quantifier une donn�
 - 10 en binaire vaut 2 en décimal
 - 11 en binaire vaut 3 en décimal
 
-Avec 2 bits, on peut créer 3 valeurs. Avec 8 bits, on peut en créer $2^8$ valeurs, soit 256 valeurs.
+Avec 2 bits, on peut créer 3 valeurs. Avec 8 bits, on peut en créer {{< latex "2^8" >}} valeurs, soit 256 valeurs.
 
-_Pour la petite info : les pixels des écrans super VGA étaient codés sur 8 bits, ils pouvaient donc afficher 256 couleurs... Pour les écrans actuels, le triplet Rouge Vert Bleu codé est devenu la norme, chaque nuance de couleurs codé sur 8 bits chacun. Ce qui fait donc $2^{3 \\times 8}=2^{24}=16777216$ couleurs différentes.  
+_Pour la petite info : les pixels des écrans super VGA étaient codés sur 8 bits, ils pouvaient donc afficher 256 couleurs... Pour les écrans actuels, le triplet Rouge Vert Bleu codé est devenu la norme, chaque nuance de couleurs codé sur 8 bits chacun. Ce qui fait donc {{< latex "2^{3 \times 8}=2^{24}=16777216" >}} couleurs différentes.  
 Il existe des exceptions, comme certains écrans OLED de LG, qui ont fait le choix d'ajouter un pixel blanc : WRGB._
 
 Je vous propose un tableau usuel récapitulatif du bit selon le système internationale d'unité :
 
 | Unité | Notation | Valeur |
 | --- | --- | --- |
-| bit | bit | $10^0 $ |
-| kilobit | kbit/kb | $10^3$ |
-| mégabit | Mbit/Mb | $10^6$ |
-| gigabit | Gbit/Gb | $10^9$ |
-| térabit | Tbit | $10^{12}$ |
-| pétabit | Pbit | $10^{15}$ |
-| exabit | Ebit | $10^{18}$ |
-| zettabit | Zbit | $10^{21}$ |
-| yottabit | Ybit | $10^{24}$ |
+| bit | bit | {{< latex "10^0 " >}} |
+| kilobit | kbit/kb | {{< latex "10^3" >}} |
+| mégabit | Mbit/Mb | {{< latex "10^6" >}} |
+| gigabit | Gbit/Gb | {{< latex "10^9" >}} |
+| térabit | Tbit | {{< latex "10^{12}" >}} |
+| pétabit | Pbit | {{< latex "10^{15}" >}} |
+| exabit | Ebit | {{< latex "10^{18}" >}} |
+| zettabit | Zbit | {{< latex "10^{21}" >}} |
+| yottabit | Ybit | {{< latex "10^{24}" >}} |
 
 Le bit du SI
 
@@ -96,21 +96,21 @@ Je vous propose un tableau usuelle récapitulatif du bit selon le système inter
 
 | Unité | Notation | Valeur |
 | --- | --- | --- |
-| Octet | o | $10^0$ |
-| Kilooctet | Ko | $10^3$ |
-| Mégaoctet | Mo | $10^6$ |
-| Gigaoctet | Go | $10^9$ |
-| Teraoctet | To | $10^{12}$ |
-| Pétaoctet | Po | $10^{15}$ |
-| Exaoctet | Eo | $10^{18}$ |
-| Zettaoctet | Zo | $10^{21}$ |
-| Yotaoctet | Yo | $10^{24}$ |
+| Octet | o | {{< latex "10^0" >}} |
+| Kilooctet | Ko | {{< latex "10^3" >}} |
+| Mégaoctet | Mo | {{< latex "10^6" >}} |
+| Gigaoctet | Go | {{< latex "10^9" >}} |
+| Teraoctet | To | {{< latex "10^{12}" >}} |
+| Pétaoctet | Po | {{< latex "10^{15}" >}} |
+| Exaoctet | Eo | {{< latex "10^{18}" >}} |
+| Zettaoctet | Zo | {{< latex "10^{21}" >}} |
+| Yotaoctet | Yo | {{< latex "10^{24}" >}} |
 
 L'octet du SI
 
 Donc par exemple 1Ko = 1000o = 8Mb = 8000b. **Par mésusage** 1Ko=Kbytes.
 
-Il faut savoir que par le passé le passage entre plusieurs ordres de grandeurs se faisait par puissance de 2 et non par puissance 10. Ce qui représentait une anomalie du système internationale. Ainsi, **dans le passé** : $1 Ko = 2^{10} o$
+Il faut savoir que par le passé le passage entre plusieurs ordres de grandeurs se faisait par puissance de 2 et non par puissance 10. Ce qui représentait une anomalie du système internationale. Ainsi, **dans le passé** : {{< latex "1 Ko = 2^{10} o" >}}
 
 L'utilisation de puissance de 2 n'a malgré tout pas été oublié et c'est ce qu'on va voir dans la prochaine section !
 
@@ -118,9 +118,9 @@ L'utilisation de puissance de 2 n'a malgré tout pas été oublié et c'est ce q
 
 ## Kibioctet, Kibibit ?
 
-Dans le passé $1 Ko = 2^{10}o = 1024 o$. Depuis 1998, on dira $1Kio = 2^{10}o$. La notation $1KiB = 2^10bits$ est aussi très courante. Le B majuscule signifiant Byte.
+Dans le passé {{< latex "1 Ko = 2^{10}o = 1024 o" >}}. Depuis 1998, on dira {{< latex "1Kio = 2^{10}o" >}}. La notation {{< latex "1KiB = 2^10bits" >}} est aussi très courante. Le B majuscule signifiant Byte.
 
-De façon analogue : $1Kibit = 2^{10}bits = 1024bits$.
+De façon analogue : {{< latex "1Kibit = 2^{10}bits = 1024bits" >}}.
 
 L'utilisation de Gio ou de Tio se construira par la même logique :).
 
@@ -140,13 +140,13 @@ Dans combien de temps, mon jeu sera téléchargé en heure?
 
 ### Correction :
 
-$70Gio = 1 073 741 824 \\times 70 o = 75 161 927 680 o = 75.1619 Go$.
+{{< latex "70Gio = 1 073 741 824 \times 70 o = 75 161 927 680 o = 75.1619 Go" >}}.
 
 La taille totale du Jeu est inférieur à l'espace restant, le jeu va pouvoir s'installer :).
 
 Le jeu se télécharge à 75 Mbits/s, c'est-à-dire 9,375 Mo/s, mais encore 0,009375 Go/s.
 
-En faisant un produit en croix, $1 \\times 75 / 0.009375 = 8000 $ secondes. Ce qui fait 2.22 heures de téléchargement... (à condition que la connexion soit stable évidemment).
+En faisant un produit en croix, {{< latex "1 \times 75 / 0.009375 = 8000 " >}} secondes. Ce qui fait 2.22 heures de téléchargement... (à condition que la connexion soit stable évidemment).
 
 ## Sources :
 

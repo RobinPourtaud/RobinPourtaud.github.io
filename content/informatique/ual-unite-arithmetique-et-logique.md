@@ -82,15 +82,15 @@ Le zéro flag est égal à 1 si et seulement si tous les bits de S sont égaux �
 
 Zero Flag
 
-\[latexpage\]
 
-Autrement dit : $ZF = \\overline{S\_0+S\_1+S\_2+S\_3+S\_4+S\_5+S\_6+S\_7}$
+
+Autrement dit : {{< latex "ZF = \overline{S_0+S_1+S_2+S_3+S_4+S_5+S_6+S_7}" >}}
 
 ### Sign Flag (SF) :
 
 SF correspond au signe de S. Si S négatif, alors S = 1, sinon S=0.
 
-Autrement dit : $SF = S\_7$
+Autrement dit : {{< latex "SF = S_7" >}}
 
 ![](images/image-26.png)
 
@@ -117,8 +117,8 @@ Overflow Flag
 
 Autrement dit :
 
-- $OF+ = SA.SB.\\overline{SF}+\\overline{SA}.\\overline{SB}.SF$
-- $OF- = SA.\\overline{SB}.\\overline{SF}+\\overline{SA}.SB.SF$
+- {{< latex "OF+ = SA.SB.\overline{SF}+\overline{SA}.\overline{SB}.SF" >}}
+- {{< latex "OF- = SA.\overline{SB}.\overline{SF}+\overline{SA}.SB.SF" >}}
 - OF = OF+ si ctr = 000, OF- si ctr = 001, 0 sinon.
 
 ## Mention :

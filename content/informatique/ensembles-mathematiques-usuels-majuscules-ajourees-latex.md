@@ -28,15 +28,15 @@ Vous pouvez ainsi via "mathbb" afficher les majuscules que vous souhaitez :
 
 Ce qui nous donne :
 
-\[latexpage\]
 
-$\\mathbb{R}$
+
+{{< latex "\mathbb{R}" >}}
 
 ## Tableau récapitulatif
 
 Ce tableau liste quelques utilisation commune des majuscules ajourés en mathématique :
 
-<table class="has-fixed-layout"><tbody><tr><td><strong>Ensemble</strong></td><td><strong>Code Latex</strong></td><td><strong>Affichage</strong></td></tr><tr><td>Biquaternion</td><td>\mathbb{B}</td><td>$\mathbb{B}$</td></tr><tr><td>Ensemble des nombres complexes</td><td>\mathbb{C}</td><td>$\mathbb{C}$</td></tr><tr><td>Ensemble des nombres décimaux</td><td>\mathbb{D}</td><td>$\mathbb{D}$</td></tr><tr><td>Espérance mathématique</td><td>\mathbb{E}</td><td>$\mathbb{E}$</td></tr><tr><td>Quaternion</td><td>\mathbb{H}</td><td>$\mathbb{H}$</td></tr><tr><td>Corps</td><td>\mathbb{K}</td><td>$\mathbb{K}$</td></tr><tr><td>Quaternion Hyperbolique</td><td>\mathbb{M}</td><td>$\mathbb{M}$</td></tr><tr><td>Ensemble des entiers naturels</td><td>\mathbb{N}</td><td>$\mathbb{N}$</td></tr><tr><td>Octonion</td><td>\mathbb{O}</td><td>$\mathbb{O}$</td></tr><tr><td>Ensemble des nombres premiers / Probabilité</td><td>\mathbb{P}</td><td>$\mathbb{P}$</td></tr><tr><td>Ensemble des nombres rationnels</td><td>\mathbb{Q}</td><td>$\mathbb{Q}$</td></tr><tr><td>Ensemble des nombres réels</td><td>\mathbb{R}</td><td>$\mathbb{R}$</td></tr><tr><td>Sédénion</td><td>\mathbb{S}</td><td>$\mathbb{S}$</td></tr><tr><td>Ensembles des entiers relatifs</td><td>\mathbb{Z}</td><td>$\mathbb{Z}$</td></tr></tbody></table>
+<table class="has-fixed-layout"><tbody><tr><td><strong>Ensemble</strong></td><td><strong>Code Latex</strong></td><td><strong>Affichage</strong></td></tr><tr><td>Biquaternion</td><td>\mathbb{B}</td><td>{{< latex "\mathbb{B}" >}}</td></tr><tr><td>Ensemble des nombres complexes</td><td>\mathbb{C}</td><td>{{< latex "\mathbb{C}" >}}</td></tr><tr><td>Ensemble des nombres décimaux</td><td>\mathbb{D}</td><td>{{< latex "\mathbb{D}" >}}</td></tr><tr><td>Espérance mathématique</td><td>\mathbb{E}</td><td>{{< latex "\mathbb{E}" >}}</td></tr><tr><td>Quaternion</td><td>\mathbb{H}</td><td>{{< latex "\mathbb{H}" >}}</td></tr><tr><td>Corps</td><td>\mathbb{K}</td><td>{{< latex "\mathbb{K}" >}}</td></tr><tr><td>Quaternion Hyperbolique</td><td>\mathbb{M}</td><td>{{< latex "\mathbb{M}" >}}</td></tr><tr><td>Ensemble des entiers naturels</td><td>\mathbb{N}</td><td>{{< latex "\mathbb{N}" >}}</td></tr><tr><td>Octonion</td><td>\mathbb{O}</td><td>{{< latex "\mathbb{O}" >}}</td></tr><tr><td>Ensemble des nombres premiers / Probabilité</td><td>\mathbb{P}</td><td>{{< latex "\mathbb{P}" >}}</td></tr><tr><td>Ensemble des nombres rationnels</td><td>\mathbb{Q}</td><td>{{< latex "\mathbb{Q}" >}}</td></tr><tr><td>Ensemble des nombres réels</td><td>\mathbb{R}</td><td>{{< latex "\mathbb{R}" >}}</td></tr><tr><td>Sédénion</td><td>\mathbb{S}</td><td>{{< latex "\mathbb{S}" >}}</td></tr><tr><td>Ensembles des entiers relatifs</td><td>\mathbb{Z}</td><td>{{< latex "\mathbb{Z}" >}}</td></tr></tbody></table>
 
 Majuscules ajourés
 

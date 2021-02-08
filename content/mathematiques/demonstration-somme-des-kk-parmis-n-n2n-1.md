@@ -15,33 +15,33 @@ Cet article présente la démonstration de : _la somme des k fois k parmi n = n 
 
 ## Identité :
 
-\[latexpage\]
+
 
 Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
 
-$\\quicklatex{size=24} \\sum^n\_{k=1} k\\binom{n}{k} = n \\times 2^{n-1}$
+{{< latex "\quicklatex{size=24} \sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}" >}}
 
 ## Démonstration :
 
 1. On commence par reprendre la formule du binôme de Newton :
 
-$\\quicklatex{size=24}\\sum^n\_{k=1} \\binom{n}{k}a^{k}b^{n-k}=(a+b)^n$
+{{< latex "\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n" >}}
 
-2. Soit $b = 1$, alors :
+2. Soit {{< latex "b = 1" >}}, alors :
 
-$\\quicklatex{size=24}\\sum^n\_{k=1} \\binom{n}{k}a^{k} = (a+1)^n$
+{{< latex "\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n" >}}
 
-3. Dérivons l'équation selon $a$ comme ceci :
+3. Dérivons l'équation selon {{< latex "a" >}} comme ceci :
 
-$\\quicklatex{size=24}\\frac{d}{da}(\\sum^n\_{k=1} \\binom{n}{k}a^{k} = (a+1)^n)$
+{{< latex "\quicklatex{size=24}\frac{d}{da}(\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n)" >}}
 
 4. Ce qui donne :
 
-$\\quicklatex{size=24}\\sum^n\_{k=1} \\binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$
+{{< latex "\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}" >}}
 
-5. Nous pouvons maintenant prendre $a = 1$ et retrouver l'équation :
+5. Nous pouvons maintenant prendre {{< latex "a = 1" >}} et retrouver l'équation :
 
-$\\quicklatex{size=24}\\sum^n\_{k=1} k\\binom{n}{k} = n \\times 2^{n-1}$
+{{< latex "\quicklatex{size=24}\sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}" >}}
 
 ## D'autres identités ici :
 

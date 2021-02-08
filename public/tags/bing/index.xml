@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bing on DevMath.fr</title>
+    <link>http://localhost:32871/tags/bing/</link>
+    <description>Recent content in bing on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/bing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bing URL Submissions Plugin : Indexez instantanément vos pages Wordpress !</title>
+      <link>http://localhost:32871/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</guid>
+      <description>Le 21 juin 2020, Bing annonça la sortie de son nouveau plugin Wordpress : &amp;ldquo;Bing URL Submissions Plugin&amp;rdquo;. Open source, il permettrait d&amp;rsquo;indexer les articles Wordpress automatiquement et immédiatement au moment de leurs publications.
+Cet article est basé sur un communiqué de blogs.bing.com publié le 21 juin 2020.
+Nécessaire : Il y a 2 prérequis pour pouvoir suivre ce tutoriel :
+ Avoir un Wordpress à jour et en posséder les droits d&amp;rsquo;administrations.</description>
+    </item>
+    
+  </channel>
+</rss>

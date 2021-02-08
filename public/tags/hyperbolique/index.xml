@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hyperbolique on DevMath.fr</title>
+    <link>http://localhost:32871/tags/hyperbolique/</link>
+    <description>Recent content in hyperbolique on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/hyperbolique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ISETL - Fonctions trigonométriques et hyperboliques</title>
+      <link>http://localhost:32871/informatique/isetl-liste-de-fonctions/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/informatique/isetl-liste-de-fonctions/</guid>
+      <description>Cet article a pour finalité de vous lister quelques fonctions mathématiques predéfinies en ISETL.
+Pour installer ISETL, je vous renvoie vers cet article.
+Fonction trigonométrique : Soit x un réel quelconque (appartenant aux domaines de définition des fonctions) :
+   Fonction Isetl Fonction mathématique     sin(x) Sinus   cos(x) Cosinus   tan(x) Tangente   sec(x) Sécante   csc(x) Cosécante   cot(x) Cotangente   asin(x) Arc Sinus   acos(x) Arc Cosinus   atan(x) Arc Tangeante    Tableau récapitulatif des fonctions trigonométriques :</description>
+    </item>
+    
+  </channel>
+</rss>

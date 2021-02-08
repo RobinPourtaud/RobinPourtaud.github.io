@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on DevMath.fr</title>
+    <link>http://localhost:32871/categories/</link>
+    <description>Recent content in Categories on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>denombrement</title>
+      <link>http://localhost:32871/categories/denombrement/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/categories/denombrement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mathematiques</title>
+      <link>http://localhost:32871/categories/mathematiques/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/categories/mathematiques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>informatique</title>
+      <link>http://localhost:32871/categories/informatique/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/categories/informatique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>securite-informatique</title>
+      <link>http://localhost:32871/categories/securite-informatique/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/categories/securite-informatique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sciences</title>
+      <link>http://localhost:32871/categories/sciences/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/categories/sciences/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

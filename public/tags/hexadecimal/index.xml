@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hexadecimal on DevMath.fr</title>
+    <link>http://localhost:32871/tags/hexadecimal/</link>
+    <description>Recent content in hexadecimal on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/hexadecimal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convertir un entier non signé décimal en Binaire</title>
+      <link>http://localhost:32871/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:32871/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</guid>
+      <description>Tous les systèmes informatiques actuels fonctionnent en binaire. Très grossièrement, on pourrait considérer que 0 représente un courant &amp;ldquo;éteint&amp;rdquo; et 1 un courant &amp;ldquo;allumé&amp;rdquo;. Ainsi, il est nécessaire de comprendre le fonctionnement de la représentation binaire pour pouvoir représenter des chiffres dans la mémoire d&amp;rsquo;un ordinateur.
+ Le système binaire est le système de numération utilisant la base 2. On nomme couramment bit (de l&#39; anglais binary digit, soit « chiffre binaire ») les chiffres de la numération binaire positionnelle.</description>
+    </item>
+    
+  </channel>
+</rss>
