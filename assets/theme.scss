@@ -170,7 +170,7 @@ amp-next-page {
 }
 
 .footer {
-	position:absolute;
+	position:relative;
 	bottom: 0px;
   	width: 100%;
 	background-color:rgb(172, 172, 172);
@@ -178,6 +178,7 @@ amp-next-page {
 	text-align:center;
 	font-size:15px;
 	padding:3px;
+	float:right;
 	&__copyright{
 		color:white;
 	}
@@ -518,14 +519,6 @@ blockquote {
 	overflow: hidden;
 	margin : 15px;
 	display: inline-block;
-	&:first-child{
-		width: 100%;
-		height: 666.6px;
-		& .summary__top__image {
-			height: 100%;
-			width: 666.6px;
-		}
-	}
 	&__top{
 		&__image{
 			
@@ -565,31 +558,6 @@ blockquote {
 
 }
 
-@media (max-width: 1200px) {
-	
-	.footer {
-		flex-direction: column;
-		align-items: center;
-		margin-bottom: 1em;
-	}
-	
-	h1 {
-		font-size: 2.5rem;
-	}
-	h2 {
-		font-size: 2rem;
-	}
-	h3 {
-		font-size: 1.66rem;
-	}
-	h4 {
-		font-size: 1.25rem;
-	}
-	.post-it {
-		margin-left: 0;
-		margin-right: 0;
-	}
-}
 
 @media (max-width: 320px) {
 	.p{

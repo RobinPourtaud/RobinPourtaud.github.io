@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>arbre-binaire on DevMath.fr</title>
-    <link>http://localhost:32871/tags/arbre-binaire/</link>
+    <link>http://localhost:46787/tags/arbre-binaire/</link>
     <description>Recent content in arbre-binaire on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/arbre-binaire/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/arbre-binaire/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Parcours d&#39;un arbre binaire</title>
-      <link>http://localhost:32871/informatique/parcours-dun-arbre-binaire/</link>
+      <link>http://localhost:46787/informatique/parcours-dun-arbre-binaire/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/parcours-dun-arbre-binaire/</guid>
+      <guid>http://localhost:46787/informatique/parcours-dun-arbre-binaire/</guid>
       <description>Cet article présente les différents parcours d&amp;rsquo;un arbre binaire : les plus communs. Les différents algorithmes de parcours ainsi qu&amp;rsquo;un exemple y seront explicités.
 Différents parcours : Commentaire : Par abus de langage, nous utiliserons le mot Arbre pour désigner une arborescence.
 Soit Arbre, une structure telle que pour un arbre A:

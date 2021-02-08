@@ -2,33 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>combinaison on DevMath.fr</title>
-    <link>http://localhost:32871/tags/combinaison/</link>
+    <link>http://localhost:46787/tags/combinaison/</link>
     <description>Recent content in combinaison on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/combinaison/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/combinaison/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Démonstration : Somme des k parmi n</title>
-      <link>http://localhost:32871/mathematiques/demonstration-somme-des-k-parmi-n/</link>
+      <link>http://localhost:46787/mathematiques/demonstration-somme-des-k-parmi-n/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
+      <guid>http://localhost:46787/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
       <description>Cet article présente 2 démonstrations de l&amp;rsquo;égalité : somme des k parmi n = 2^k (2 puissance k). La première se servant de la formule du binôme, la deuxième se servant de la définition de l&amp;rsquo;ensembles des parties de E.
-Définition : [latexpage]
-La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
- Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe.</description>
+Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
+  Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe.</description>
     </item>
     
     <item>
       <title>Coefficient binomial - k parmi n en Latex</title>
-      <link>http://localhost:32871/informatique/combinaison-k-parmi-n-en-latex/</link>
+      <link>http://localhost:46787/informatique/combinaison-k-parmi-n-en-latex/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/combinaison-k-parmi-n-en-latex/</guid>
+      <guid>http://localhost:46787/informatique/combinaison-k-parmi-n-en-latex/</guid>
       <description>Combien y a-t-il de possibilités de tirer 3 cartes parmi 13 ? Vous voulez certainement parler des coefficients binomiaux et vous ne savez pas comment le faire en Latex. Ci-dessous se trouvent 2 façons de rédiger des coefficients binomiaux pour vos PDF.
-[latexpage]
 Notation &amp;ldquo;Française&amp;rdquo; : k parmi n peut se noter de la façon suivante :
- Son code Latex en mode mathématique est tout simplement :
+  Son code Latex en mode mathématique est tout simplement :
 C_n^k Notation &amp;ldquo;Anglo-Saxonne&amp;rdquo; : Notation certainement la plus couramment utilisée pour exprimer le coefficient binomial :</description>
     </item>
     

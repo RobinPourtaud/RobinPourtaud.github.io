@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wordpress on DevMath.fr</title>
-    <link>http://localhost:32871/tags/wordpress/</link>
+    <link>http://localhost:46787/tags/wordpress/</link>
     <description>Recent content in wordpress on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bing URL Submissions Plugin : Indexez instantanément vos pages Wordpress !</title>
-      <link>http://localhost:32871/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</link>
+      <link>http://localhost:46787/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</guid>
+      <guid>http://localhost:46787/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</guid>
       <description>Le 21 juin 2020, Bing annonça la sortie de son nouveau plugin Wordpress : &amp;ldquo;Bing URL Submissions Plugin&amp;rdquo;. Open source, il permettrait d&amp;rsquo;indexer les articles Wordpress automatiquement et immédiatement au moment de leurs publications.
 Cet article est basé sur un communiqué de blogs.bing.com publié le 21 juin 2020.
 Nécessaire : Il y a 2 prérequis pour pouvoir suivre ce tutoriel :
@@ -21,30 +21,30 @@ Nécessaire : Il y a 2 prérequis pour pouvoir suivre ce tutoriel :
     
     <item>
       <title>Wordpress - Image de profil trouble avec l&#39;extension AMPforWP</title>
-      <link>http://localhost:32871/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</link>
+      <link>http://localhost:46787/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</link>
       <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</guid>
+      <guid>http://localhost:46787/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</guid>
       <description>Durant l&amp;rsquo;installation de notre site web, nous avions décidé d&amp;rsquo;utiliser l&amp;rsquo;extension AMPforWP pour accélérer et faciliter notre référencement sur Google. Bien sûr, nous avons rencontré de nombreux problèmes. L&amp;rsquo;un d&amp;rsquo;entre eux était l&amp;rsquo;apparition de photos de profil troubles pour le bloc d&amp;rsquo;auteur (&amp;ldquo;author box&amp;rdquo;) .
 Le problème : On peut voir avec le screenshot suivant que AMP for WP demande à Gravatar une image de taille s=70 car la taille du bloc est de taille 70 (dans notre cas).</description>
     </item>
     
     <item>
       <title>1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)</title>
-      <link>http://localhost:32871/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</link>
+      <link>http://localhost:46787/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</guid>
+      <guid>http://localhost:46787/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</guid>
       <description>Au cours de la création de notre site &amp;ldquo;keskec.fr&amp;rdquo;, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&amp;rsquo;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution.
 Nb : Ce tutoriel nécessite un fichier .</description>
     </item>
     
     <item>
       <title>Rediriger le trafic HTTP vers HTTPS avec .htaccess.</title>
-      <link>http://localhost:32871/informatique/rediriger-http-vers-https-avec-htaccess/</link>
+      <link>http://localhost:46787/informatique/rediriger-http-vers-https-avec-htaccess/</link>
       <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/rediriger-http-vers-https-avec-htaccess/</guid>
+      <guid>http://localhost:46787/informatique/rediriger-http-vers-https-avec-htaccess/</guid>
       <description>.htaccess est un fichier de configuration utilisé par Apache2 permettant de paramétrer le comportement du serveur HTTP dans un dossier précis. Ainsi, sans toucher aux fichiers de configuration du serveur HTTP directement, on pourra facilement réécrire l&amp;rsquo;URL afin de permettre la redirection du trafic HTTP vers HTTPS.
 Ce tutoriel n&amp;rsquo;est donc pas à destination des utilisateurs de serveur Nginx.
 Accéder au fichier Manuellement Un fichier .htaccess peut se situer dans n&amp;rsquo;importe quel dossier de votre site web.</description>
@@ -52,10 +52,10 @@ Accéder au fichier Manuellement Un fichier .htaccess peut se situer dans n&amp;
     
     <item>
       <title>Autoriser l&#39;upload de fichiers non-autorisés sur Wordpress</title>
-      <link>http://localhost:32871/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</link>
+      <link>http://localhost:46787/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</guid>
+      <guid>http://localhost:46787/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</guid>
       <description>&amp;ldquo;Désolé, ce type de fichier n’est pas autorisé pour des raisons de sécurité.&amp;rdquo;.
 J&amp;rsquo;ai repoussé à de nombreuses reprises sa résolution pensant que c&amp;rsquo;était une opération complexe. Finalement, en moins de 5 min, c&amp;rsquo;était résolu et c&amp;rsquo;est ce que je vais vous montrer dès maintenant !
 Je traiterai l&amp;rsquo;upload de fichiers zip en particulier.
@@ -64,19 +64,19 @@ Résolution manuelle : Accéder au fichier function.php : Le fichier &amp;ldquo;
     
     <item>
       <title>Coloration Syntaxique pour Wordpress AMP</title>
-      <link>http://localhost:32871/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</link>
+      <link>http://localhost:46787/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</guid>
+      <guid>http://localhost:46787/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</guid>
       <description>AMP est une technologie développée par Google depuis 2015. Open Source, c&amp;rsquo;est une méthode de création de page Web statique permettant un rendu plus rapide. Applicable sur Wordpress, elle peut permettre des gains importants, de part son utilisation de cache et sa désactivation par défaut de code personnalisé JavaScript. Cette désactivation est, en terme de vitesse, bénéfique. Elle pose malgré tout de nombreux problèmes. Un problème parmi ceux-ci est celui de la coloration syntaxique.</description>
     </item>
     
     <item>
       <title>Héberger un Wordpress Gratuitement sur un Raspberry Pi</title>
-      <link>http://localhost:32871/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link>
+      <link>http://localhost:46787/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid>
+      <guid>http://localhost:46787/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid>
       <description>WordPress est un système de gestion de contenu (SGC ou content management system (CMS) en anglais) gratuit, libre et open-source.
 Wordpress est le CMS le plus utilisé au monde. De part sa simplicité d&amp;rsquo;utilisation et sa liberté de design, sa popularité s’explique d&amp;rsquo;elle même.
 Malheureusement, utiliser Wordpress pour laisser libre cours à son imagination revient souvent à passer par son porte monnaie.
@@ -85,10 +85,10 @@ Pour un site personnel, 4€ par mois reste raisonnable, mais pour un site d&amp
     
     <item>
       <title>Installer PHP7.4 pour Wordpress</title>
-      <link>http://localhost:32871/informatique/installer-php7-4-sur-un-raspberry-pi/</link>
+      <link>http://localhost:46787/informatique/installer-php7-4-sur-un-raspberry-pi/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/installer-php7-4-sur-un-raspberry-pi/</guid>
+      <guid>http://localhost:46787/informatique/installer-php7-4-sur-un-raspberry-pi/</guid>
       <description>PHP7.4 est actuellement la dernière version de PHP. Sortie fin 2019, je vais vous montrer la méthode la plus simple pour installer cette version de php sous Raspbian.
 Vous avez peut-être remarqué que votre WordPress tourne sous une ancienne version de PHP ? Vous avez donc sans doute vu ce message :
  

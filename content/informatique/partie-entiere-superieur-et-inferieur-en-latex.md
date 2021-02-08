@@ -24,7 +24,7 @@ Pour prendre la partie entière supérieure d'un entier {{< latex "x" >}} en Lat
 
 Voici le résultat :
 
-{{< latex "\quicklatex{size=28}\lceil x \rceil" >}}
+{{< latex "\lceil x \rceil" >}}
 
 ## Partie entière inférieure en LaTex :
 
@@ -36,7 +36,7 @@ La partie entière inférieure en Latex d'un entier {{< latex "x" >}} se fait de
 
 Voilà son rendu :
 
-{{< latex "\quicklatex{size=28}\lfloor x \rfloor" >}}
+{{< latex "\lfloor x \rfloor" >}}
 
 ## Raccourcir son utilisation avec une macro?
 
@@ -54,7 +54,7 @@ Il est ainsi possible d'utiliser :
 \ceil{x}
 ```
 
-\quicklatex{size=28}  
+  
 \newcommand{\floor}\[1\]{\lfloor #1 \rfloor}  
 \newcommand{\ceil}\[1\]{\lceil #1 \rceil}  
 \floor{x} \ceil{x}

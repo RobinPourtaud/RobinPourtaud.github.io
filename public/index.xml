@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DevMath.fr</title>
-    <link>http://localhost:32871/</link>
+    <link>http://localhost:46787/</link>
     <description>Recent content on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coefficient binomial (k parmi n)</title>
-      <link>http://localhost:32871/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</link>
+      <link>http://localhost:46787/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</guid>
+      <guid>http://localhost:46787/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</guid>
       <description>Cet article présente la notion de coefficient binomial, illustrée d&amp;rsquo;exemples et d&amp;rsquo;exercices corrigés. Un niveau de 1ère/Terminale est préférable pour pouvoir suivre cet article. Un rappel sur la notion de factoriel y sera explicité.
 Prérequis : La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté &amp;ldquo;!&amp;rdquo;, le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
- Pour prendre plusieurs exemples :</description>
+  Pour prendre plusieurs exemples :</description>
     </item>
     
     <item>
       <title>Ensembles mathématiques usuels (majuscules ajourées) - Latex</title>
-      <link>http://localhost:32871/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</link>
+      <link>http://localhost:46787/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</guid>
+      <guid>http://localhost:46787/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</guid>
       <description>Cet article présente la façon usuelle d&amp;rsquo;afficher les symboles utilisés pour désigner certains ensembles mathématiques. Ces symboles, appelés &amp;ldquo;majuscule ajourées&amp;rdquo; serons explicités dans un tableau récapitulatif.
 Ajourer une majuscule : Pour ajourer une majuscule (mettre une majuscule sous forme usuelle des ensembles) en Latex, il suffit d&amp;rsquo;importer amsfonts :
 \usepackage{amsfonts} Vous pouvez ainsi via &amp;ldquo;mathbb&amp;rdquo; afficher les majuscules que vous souhaitez :
 \mathbb{R} Ce qui nous donne :
- Tableau récapitulatif Ce tableau liste quelques utilisation commune des majuscules ajourés en mathématique :</description>
+  Tableau récapitulatif Ce tableau liste quelques utilisation commune des majuscules ajourés en mathématique :</description>
     </item>
     
     <item>
       <title>Espacement en mode mathématique - Latex</title>
-      <link>http://localhost:32871/informatique/espacement-en-mode-mathematique-latex/</link>
+      <link>http://localhost:46787/informatique/espacement-en-mode-mathematique-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/espacement-en-mode-mathematique-latex/</guid>
+      <guid>http://localhost:46787/informatique/espacement-en-mode-mathematique-latex/</guid>
       <description>Cet article présente l&amp;rsquo;ensemble des façons d&amp;rsquo;effectuer un espacement dans vos formules mathématiques en Latex.
 Tableau récapitulatif des espacements horizontaux : Commentaire : Certains espacements sont exprimés en &amp;ldquo;mu&amp;rdquo; (math unit). 1 mu = 1/18 em = 0.2 mm environ (habituellement).
 Formule LatexRésultatDescriptiona \, b Taille = 3 mua \: b Taille = 4 mua \; Taille = 5 mua \! Taille = -3 mua \ b Taille = 3 mua ~ b Taille = 3 mu (insécable)a \quad b Taille = 18 mua \qquad b Taille = 36 mua \hspace{1cm} b Taille = 1 cm Espacements - Latex</description>
@@ -44,10 +44,10 @@ Formule LatexRésultatDescriptiona \, b Taille = 3 mua \: b Taille = 4 mua \; Ta
     
     <item>
       <title>Fonction Indicatrice / Fonction caractéristique - Latex</title>
-      <link>http://localhost:32871/informatique/fonction-indicatrice-fonction-caracteristique-latex/</link>
+      <link>http://localhost:46787/informatique/fonction-indicatrice-fonction-caracteristique-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/fonction-indicatrice-fonction-caracteristique-latex/</guid>
+      <guid>http://localhost:46787/informatique/fonction-indicatrice-fonction-caracteristique-latex/</guid>
       <description>Cet article présente un moyen de générer le symbole usuel de la fonction indicatrice (ou fonction caractéristique). Ce symbole peut aussi désigner la fonction identité.
 Package requis Il existe plusieurs paquets permettant de générer un &amp;ldquo;1 ajouré&amp;rdquo;. On peut retrouver dsfont notamment. Pour cet article, nous utiliserons le package bbold
 \usepackage{bbold} Le package amsfonts ne permet pas de générer un 1 ajouré, vous obtiendrez ce symbole :
@@ -57,10 +57,10 @@ Code Latex Pour afficher le symbole de la fonction caractéristique, il faut uti
     
     <item>
       <title>Lorem Ipsum (lipsum) - Latex</title>
-      <link>http://localhost:32871/informatique/lorem-ipsum-lipsum-latex/</link>
+      <link>http://localhost:46787/informatique/lorem-ipsum-lipsum-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/lorem-ipsum-lipsum-latex/</guid>
+      <guid>http://localhost:46787/informatique/lorem-ipsum-lipsum-latex/</guid>
       <description>Cet article présente la façon la plus courante de générer un Lorem Ipsum (ou faux-texte) en Latex.
 Utilisation Importation de lipsum Afin de générer ce faux-texte, vous devez avoir importé le package &amp;ldquo;lipsum&amp;rdquo; :
 \usepackage{lipsum} Exemple d&amp;rsquo;utilisation La syntaxe de la commande utilisateur est la suivante :
@@ -69,10 +69,10 @@ Utilisation Importation de lipsum Afin de générer ce faux-texte, vous devez av
     
     <item>
       <title>Parcours d&#39;un arbre binaire</title>
-      <link>http://localhost:32871/informatique/parcours-dun-arbre-binaire/</link>
+      <link>http://localhost:46787/informatique/parcours-dun-arbre-binaire/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/parcours-dun-arbre-binaire/</guid>
+      <guid>http://localhost:46787/informatique/parcours-dun-arbre-binaire/</guid>
       <description>Cet article présente les différents parcours d&amp;rsquo;un arbre binaire : les plus communs. Les différents algorithmes de parcours ainsi qu&amp;rsquo;un exemple y seront explicités.
 Différents parcours : Commentaire : Par abus de langage, nous utiliserons le mot Arbre pour désigner une arborescence.
 Soit Arbre, une structure telle que pour un arbre A:
@@ -81,10 +81,10 @@ Soit Arbre, une structure telle que pour un arbre A:
     
     <item>
       <title>Déterminisation d&#39;un automate</title>
-      <link>http://localhost:32871/informatique/determinisation-dun-automate/</link>
+      <link>http://localhost:46787/informatique/determinisation-dun-automate/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/determinisation-dun-automate/</guid>
+      <guid>http://localhost:46787/informatique/determinisation-dun-automate/</guid>
       <description>Cet article présente une méthode afin de convertir un automate fini non déterministe quelconque (AFN) en automate déterministe (AFD). Afin d&amp;rsquo;illustrer cette méthode, un exercice corrigé sera utilisé comme support. Les étapes de l&amp;rsquo;algorithme de conversion seront explicitées de façon tabulaire.
 Définition : Un automate est dit déterministe s&amp;rsquo;il respecte trois conditions :
  Il possède un unique état initial. Il ne possède pas d’epsilon-transitions. Pour chaque état de cet automate, il existe au maximum une transition issue de cet état possédant le même symbole.</description>
@@ -92,10 +92,10 @@ Définition : Un automate est dit déterministe s&amp;rsquo;il respecte trois co
     
     <item>
       <title>UAL - Unité arithmétique et logique</title>
-      <link>http://localhost:32871/informatique/ual-unite-arithmetique-et-logique/</link>
+      <link>http://localhost:46787/informatique/ual-unite-arithmetique-et-logique/</link>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/ual-unite-arithmetique-et-logique/</guid>
+      <guid>http://localhost:46787/informatique/ual-unite-arithmetique-et-logique/</guid>
       <description>Une unité arithmétique et logique (UAL) ou ALU en anglais est un composant essentiel au fonctionnement de nos ordinateurs actuels. Souvent intégrée au processeur pour effectuer de nombreuses opérations arithmétiques, cet article en présente un exemple simple, conçu avec le logiciel Logisim.
 Caractéristiques de l&amp;rsquo;UAL : Notre UAL nous permet d&amp;rsquo;effectuer 7 opérations sur des entiers signés de 8 bits.
 Entrées : Notre UAL prend 3 entrées :
@@ -104,21 +104,21 @@ Entrées : Notre UAL prend 3 entrées :
     
     <item>
       <title>Alphabet Grec - Latex</title>
-      <link>http://localhost:32871/informatique/alphabet-grec-latex/</link>
+      <link>http://localhost:46787/informatique/alphabet-grec-latex/</link>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/alphabet-grec-latex/</guid>
+      <guid>http://localhost:46787/informatique/alphabet-grec-latex/</guid>
       <description>Cet article présente l&amp;rsquo;ensemble de l&amp;rsquo;alphabet grec, minuscule ou majuscule en Latex.
 Exemple : Pour afficher en mode mathématique (entre dollar) une lettre grec, il suffit de taper le nom de la lettre précédée d&amp;rsquo;un anti-slash, par exemple pour &amp;ldquo;phi&amp;rdquo; :
-\phi Alphabet grec minuscule : LatexLettreLatexLettre\alpha \nu \beta \xi \gamma o \delta \pi \epsilon ou \varepsilon ou  \rho \zeta \sigma \eta \tau \theta ou \vartheta ou  \upsilon \iota \phi ou \varphi ou  \kappa \chi \lambda \psi \mu \omega  Alphabet Grec minuscule en Latex</description>
+\phi Alphabet grec minuscule : LatexLettreLatexLettre\alpha  \nu  \beta  \xi  \gamma  o  \delta  \pi  \epsilon ou \varepsilon   ou  \rho  \zeta  \sigma  \eta  \tau  \theta ou \vartheta   ou  \upsilon  \iota  \phi ou \varphi   ou  \kappa  \chi  \lambda  \psi  \mu  \omega   Alphabet Grec minuscule en Latex</description>
     </item>
     
     <item>
       <title>Différents types d&#39;automates finis</title>
-      <link>http://localhost:32871/informatique/vocabulaire-sur-les-automates-finis/</link>
+      <link>http://localhost:46787/informatique/vocabulaire-sur-les-automates-finis/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/vocabulaire-sur-les-automates-finis/</guid>
+      <guid>http://localhost:46787/informatique/vocabulaire-sur-les-automates-finis/</guid>
       <description>Cet article présente un ensemble de propriétés concernant les automates finis. Pour mieux comprendre ces définitions, chaque type d&amp;rsquo;AFN sera illustré d&amp;rsquo;exemples générés grâce au logiciel Jflap. Les définitions formelles ne sont pas explicitées dans cet article mais sont disponibles via les liens sources.
 Définitions : Automate déterministe Un automate est dit déterministe si il respecte trois conditions :
  Il possède un unique état initial. Il ne possède pas d&amp;rsquo;epsilon-transitions.</description>
@@ -126,20 +126,20 @@ Définitions : Automate déterministe Un automate est dit déterministe si il re
     
     <item>
       <title>Exercice corrigé : Simplification de formules Booléennes</title>
-      <link>http://localhost:32871/informatique/exercice-corrige-simplification-de-formules-booleennes/</link>
+      <link>http://localhost:46787/informatique/exercice-corrige-simplification-de-formules-booleennes/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/exercice-corrige-simplification-de-formules-booleennes/</guid>
+      <guid>http://localhost:46787/informatique/exercice-corrige-simplification-de-formules-booleennes/</guid>
       <description>A travers cet exercice, nous allons vous montrer comment simplifier une expression logique booléenne algébriquement, autrement dit sans avoir recours à un tableau de Karnaugh ou à la méthode de Quine. Pour pouvoir simplifier ces formules, vous devez avoir en tête un ensemble de propriétés sur les opérateurs logiques en plus du théorème de Morgan (que vous pouvez trouver facilement sur cette page : L&amp;rsquo;algèbre de Boole).
 Exercices : Simplifiez au maximum ces formules logiques algébriquement :</description>
     </item>
     
     <item>
       <title>Définition : NFF-Sat</title>
-      <link>http://localhost:32871/informatique/definition-nff-sat/</link>
+      <link>http://localhost:46787/informatique/definition-nff-sat/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/definition-nff-sat/</guid>
+      <guid>http://localhost:46787/informatique/definition-nff-sat/</guid>
       <description>Un problème de satisfaction de contraintes booléennes, aussi appelé problème de satisfiabilité, consiste à déterminer, pour un ensemble de contraintes définies sur des variables booléennes, s’il existe une assignation de valeurs aux variables satisfaisant toutes les contraintes.
 Un peu de vocabulaire : Définition : Forme normale négative On dit d&amp;rsquo;une formule logique, qu&amp;rsquo;elle est en forme normale négative (FNN) si :
  Les négations se trouvent uniquement sur les littéraux. En plus de l&amp;rsquo;opérateur de négation, seul l&amp;rsquo;opérateur de conjonction (&amp;ldquo;et&amp;rdquo;) et de disjonction (&amp;ldquo;ou&amp;rdquo;) est autorisé.</description>
@@ -147,43 +147,44 @@ Un peu de vocabulaire : Définition : Forme normale négative On dit d&amp;rsquo
     
     <item>
       <title>Racine carrée de i</title>
-      <link>http://localhost:32871/mathematiques/racine-carree-de-i/</link>
+      <link>http://localhost:46787/mathematiques/racine-carree-de-i/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/racine-carree-de-i/</guid>
+      <guid>http://localhost:46787/mathematiques/racine-carree-de-i/</guid>
       <description>Cet article présente un moyen d&amp;rsquo;évaluer la racine carrée de i très simplement. Seules des connaissances de base sur les nombres complexes et de la trigonométrie sont nécessaires.
 La méthode : Soit  .
- On réécrit z :   Cherchons à écrire i en écriture exponentielle :
-Nous savons que  . Pour obtenir i, il faut donc que  et  soit respectivement égaux à 0 et 1.</description>
+ On réécrit z :    Cherchons à écrire i en écriture exponentielle :
+Nous savons que  . Pour obtenir i, il faut donc que   et   soit respectivement égaux à 0 et 1.</description>
     </item>
     
     <item>
       <title>Jupyter Lab gratuit avec Oracle Cloud</title>
-      <link>http://localhost:32871/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</link>
+      <link>http://localhost:46787/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</link>
       <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</guid>
+      <guid>http://localhost:46787/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</guid>
       <description>Gratuitement, de grandes entreprises (Google, IBM, Microsoft, &amp;hellip;) proposent un accès à leur Jupyter Notebook. Jupyter Lab, cependant, ne fait pas partie de leurs offres gratuites (sans durée limitée et sans restriction conséquentes). C&amp;rsquo;est dans cette optique que j&amp;rsquo;ai découvert l&amp;rsquo;accès &amp;ldquo;Always free&amp;rdquo; de Oracle, nous permettant aisément de créer notre Jupyter Lab personnel&amp;hellip;
 Résumé Oracle propose depuis bientôt un an une offre appelée &amp;ldquo; Always Free&amp;rdquo;. Celle-ci comprend :</description>
     </item>
     
     <item>
       <title>Formule de Sylvester</title>
-      <link>http://localhost:32871/mathematiques/formule-de-sylvester/</link>
+      <link>http://localhost:46787/mathematiques/formule-de-sylvester/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/formule-de-sylvester/</guid>
+      <guid>http://localhost:46787/mathematiques/formule-de-sylvester/</guid>
       <description>La formule de Sylvester, aussi appelée formule de Boole-Sylvester ou principe d&amp;rsquo;inclusion-exclusion est la formule du crible de Poincaré appliquée à l&amp;rsquo;ensemble des entiers naturels inférieurs à n.
 Identité : La formule de Sylvester est la suivante :
- \quicklatex{size=23}#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i}\right) Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :</description>
+  \quicklatex{size=23}#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i}\right)  
+Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :</description>
     </item>
     
     <item>
       <title>Exercice corrigé - Dénombrement n°1</title>
-      <link>http://localhost:32871/mathematiques/denombrement/exercice-corrige-denombrement-n1/</link>
+      <link>http://localhost:46787/mathematiques/denombrement/exercice-corrige-denombrement-n1/</link>
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/denombrement/exercice-corrige-denombrement-n1/</guid>
+      <guid>http://localhost:46787/mathematiques/denombrement/exercice-corrige-denombrement-n1/</guid>
       <description>Exercice corrigé de dénombrement n°1. Difficulté : Moyenne
 Liste d&amp;rsquo;exercice : (En cours)
 Énoncé : Une histoire de pigeon A Central Parc, il y a 250 oiseaux à 3 couleurs. Parmi eux se trouvent :
@@ -192,10 +193,10 @@ Liste d&amp;rsquo;exercice : (En cours)
     
     <item>
       <title>Démonstration : Toutes les puissances de 6 finissent par un 6</title>
-      <link>http://localhost:32871/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</link>
+      <link>http://localhost:46787/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</link>
       <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</guid>
+      <guid>http://localhost:46787/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</guid>
       <description>Par une démonstration par récurrence, cet article montrera que toutes les puissances strictement positives de 6 finissent toujours par un 6.
 Intuition : 6 puissance 1 est 6, 6 puissance 2 36, 6 puissance 3 216. Pour aller plus vite je vous propose ce code python :
 for i in range(1,20) : print(&amp;quot;6 puissance &amp;quot; + str(i) + &amp;quot; est égale à &amp;quot; + str(6**i)) A l&amp;rsquo;exécution, nous avons :</description>
@@ -203,10 +204,10 @@ for i in range(1,20) : print(&amp;quot;6 puissance &amp;quot; + str(i) + &amp;qu
     
     <item>
       <title>Lister tous les ports ouverts d&#39;un ordinateur avec nmap</title>
-      <link>http://localhost:32871/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</link>
+      <link>http://localhost:46787/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</guid>
+      <guid>http://localhost:46787/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</guid>
       <description>Pour des raisons de sécurité, de recherche ou tout simplement de curiosité, il peut être nécessaire de scanner une ip pour en extraire une liste de ports ouverts. Ce tutoriel présente la façon, à ma connaissance, la plus rapide et la plus simple d&amp;rsquo;accomplir cette tâche grâce à nmap.
 Installer nmap Pour ce tutoriel, nous utiliserons le programme nmap. Pour l&amp;rsquo;installer, rien de très compliqué :
 Sous une distribution basée sur Debian :</description>
@@ -214,41 +215,41 @@ Sous une distribution basée sur Debian :</description>
     
     <item>
       <title>Pourquoi 0!=1 ?</title>
-      <link>http://localhost:32871/mathematiques/pourquoi-01/</link>
+      <link>http://localhost:46787/mathematiques/pourquoi-01/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/pourquoi-01/</guid>
+      <guid>http://localhost:46787/mathematiques/pourquoi-01/</guid>
       <description>3 factoriel est égal à 1*2*3; 2 factoriel est égal à 2*1; 1 factoriel est égal à 1. En suivant cette logique, pourquoi 0 factoriel ne serait pas égal à rien, soit 0 ? C&amp;rsquo;est ce qu&amp;rsquo;on va essayer de comprendre à travers cet article.
 Définition : &amp;ldquo;Factoriel&amp;rdquo; En dénombrement, le factoriel d&amp;rsquo;un entier naturel &amp;ldquo;n&amp;rdquo; est égal au produit des entiers naturels appartenant à  . Autrement dit :</description>
     </item>
     
     <item>
       <title>DI Method / Intégration tabulaire</title>
-      <link>http://localhost:32871/mathematiques/di-method-integration-tabulaire/</link>
+      <link>http://localhost:46787/mathematiques/di-method-integration-tabulaire/</link>
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/di-method-integration-tabulaire/</guid>
+      <guid>http://localhost:46787/mathematiques/di-method-integration-tabulaire/</guid>
       <description>L&#39; intégration par partie est une étape essentielle à la recherche de primitive. Il est facile de mal interpréter la formule, c&amp;rsquo;est pourquoi il existe une méthode appelée Intégration tabulaire (ou DI method) permettant d&amp;rsquo;éviter ce procédé classique et donc de s&amp;rsquo;épargner de nombreuses erreurs potentielles&amp;hellip; Elle aurait été introduite dans le film &amp;ldquo;Stand and Deliver&amp;rdquo; [1].
 Exemple d&amp;rsquo;utilisation : Pour introduire la DI Method, nous nous servirons de 2 exemples :</description>
     </item>
     
     <item>
       <title>Démonstration : Somme des k parmi n</title>
-      <link>http://localhost:32871/mathematiques/demonstration-somme-des-k-parmi-n/</link>
+      <link>http://localhost:46787/mathematiques/demonstration-somme-des-k-parmi-n/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
+      <guid>http://localhost:46787/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
       <description>Cet article présente 2 démonstrations de l&amp;rsquo;égalité : somme des k parmi n = 2^k (2 puissance k). La première se servant de la formule du binôme, la deuxième se servant de la définition de l&amp;rsquo;ensembles des parties de E.
 Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
- Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe.</description>
+  Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe.</description>
     </item>
     
     <item>
       <title>ISETL - Langage de Programmation</title>
-      <link>http://localhost:32871/informatique/isetl-langage-de-programmation/</link>
+      <link>http://localhost:46787/informatique/isetl-langage-de-programmation/</link>
       <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/isetl-langage-de-programmation/</guid>
+      <guid>http://localhost:46787/informatique/isetl-langage-de-programmation/</guid>
       <description>Cet article présente le langage ISETL, un langage utilisé pour l&amp;rsquo;apprentissage des mathématiques. Son intérêt, son installation et sa syntaxe seront explicité à travers plusieurs de nos articles sur le sujet.
 Définition : Interactive Set Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, elle avait pour finalité l’enseignement des mathématiques discrètes à l’université.
 En 1985, SETL était devenu un projet très lourd, lent et nécessitait une compilation, ce qui le rendait difficilement utilisable.</description>
@@ -256,20 +257,20 @@ En 1985, SETL était devenu un projet très lourd, lent et nécessitait une comp
     
     <item>
       <title>ISETL - Boucle While et boucle For</title>
-      <link>http://localhost:32871/informatique/isetl-boucle-while-et-boucle-for/</link>
+      <link>http://localhost:46787/informatique/isetl-boucle-while-et-boucle-for/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/isetl-boucle-while-et-boucle-for/</guid>
+      <guid>http://localhost:46787/informatique/isetl-boucle-while-et-boucle-for/</guid>
       <description>Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, il avait pour finalité l’enseignement des mathématiques discrètes à l’université. Cet article est à destination des étudiants voulant apprendre à rédiger des boucles While et For en ISETL.
 Boucle While Définition : Une boucle &amp;ldquo;While&amp;rdquo;, ou boucle &amp;ldquo;Tant Que&amp;rdquo; permet de répéter l&amp;rsquo;exécution d&amp;rsquo;une portion de code tant qu&amp;rsquo;une condition est &amp;ldquo;Vrai&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>ISETL - Conditions If, ElseIf, Else</title>
-      <link>http://localhost:32871/informatique/isetl-conditions-if-elseif-else/</link>
+      <link>http://localhost:46787/informatique/isetl-conditions-if-elseif-else/</link>
       <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/isetl-conditions-if-elseif-else/</guid>
+      <guid>http://localhost:46787/informatique/isetl-conditions-if-elseif-else/</guid>
       <description>Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, il avait pour finalité l’enseignement des mathématiques discrètes à l’université. Cet article est à destination des étudiants voulant apprendre à rédiger des conditions en ISETL.
 If, ElseIf et Else En informatique, un &amp;ldquo;Si&amp;rdquo; permet d&amp;rsquo;exécuter une partie de code conditionnellement.
 Par exemple, prenons une variable x.
@@ -278,30 +279,30 @@ Si x &amp;gt; 5, alors on souhaite afficher &amp;quot;nombre &amp;gt; 5&amp;quot
     
     <item>
       <title>ISETL - Syntaxe des fonctions</title>
-      <link>http://localhost:32871/informatique/isetl-syntaxe-des-fonctions/</link>
+      <link>http://localhost:46787/informatique/isetl-syntaxe-des-fonctions/</link>
       <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/isetl-syntaxe-des-fonctions/</guid>
+      <guid>http://localhost:46787/informatique/isetl-syntaxe-des-fonctions/</guid>
       <description>Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, il avait pour finalité l’enseignement des mathématiques discrètes à l’université. Possédant une syntaxe atypique, ISETL est un langage difficile à appréhender pour un néophyte. Dans ce tutoriel, nous introduirons le concept de fonction en ISETL, partant d&amp;rsquo;une définition générale puis en prenant 3 exemples.
 Fonction en ISETL Définition : Comme dans d&amp;rsquo;autres langages de programmation, une fonction dans ISETL est une entité informatique permettant l&amp;rsquo;encapsulation d&amp;rsquo;une partie de code.</description>
     </item>
     
     <item>
       <title>ISETL - Utilisation basique de ISETLW 3.0</title>
-      <link>http://localhost:32871/informatique/isetl-utilisation-basique-de-isetlw-3-0/</link>
+      <link>http://localhost:46787/informatique/isetl-utilisation-basique-de-isetlw-3-0/</link>
       <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/isetl-utilisation-basique-de-isetlw-3-0/</guid>
+      <guid>http://localhost:46787/informatique/isetl-utilisation-basique-de-isetlw-3-0/</guid>
       <description>Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, elle avait pour finalité l’enseignement des mathématiques discrètes à l’université. Cet article a pour but de vous présenter comment exécuter du code via le logiciel ISETLW 3.0 sur Windows 10.
 Nécessaire : Pour pouvoir suivre ce tutoriel, il est nécessaire d&amp;rsquo;avoir accès au logiciel ISETLW 3.0 sur Windows. Pour cela, vous pouvez vous référer à mon précédent article sur son installation :</description>
     </item>
     
     <item>
       <title>Bing URL Submissions Plugin : Indexez instantanément vos pages Wordpress !</title>
-      <link>http://localhost:32871/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</link>
+      <link>http://localhost:46787/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</guid>
+      <guid>http://localhost:46787/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</guid>
       <description>Le 21 juin 2020, Bing annonça la sortie de son nouveau plugin Wordpress : &amp;ldquo;Bing URL Submissions Plugin&amp;rdquo;. Open source, il permettrait d&amp;rsquo;indexer les articles Wordpress automatiquement et immédiatement au moment de leurs publications.
 Cet article est basé sur un communiqué de blogs.bing.com publié le 21 juin 2020.
 Nécessaire : Il y a 2 prérequis pour pouvoir suivre ce tutoriel :
@@ -310,45 +311,44 @@ Nécessaire : Il y a 2 prérequis pour pouvoir suivre ce tutoriel :
     
     <item>
       <title>La notation &#34;?&#34; en mathématique : Termial</title>
-      <link>http://localhost:32871/mathematiques/la-notation-en-mathematique/</link>
+      <link>http://localhost:46787/mathematiques/la-notation-en-mathematique/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/la-notation-en-mathematique/</guid>
+      <guid>http://localhost:46787/mathematiques/la-notation-en-mathematique/</guid>
       <description>Dans son livre &amp;ldquo;The Art of Computer Science&amp;rdquo;, l&amp;rsquo;informaticien Donald Knuth introduisit la notation &amp;ldquo;?&amp;rdquo;. Appelé Termial en anglais, la notation point d&amp;rsquo;interrogation n? représente la somme de tous les entiers naturels inférieurs ou égales à n.
 Nota Bene :  Il faut savoir que cette notation n&amp;rsquo;est pas couramment employée et se doit donc d&amp;rsquo;être utilisée dans le bon contexte. La notation point d&amp;rsquo;interrogation est distincte de la fonction de Minkowski.</description>
     </item>
     
     <item>
       <title>Mode Mathématique sur Gboard</title>
-      <link>http://localhost:32871/informatique/mode-mathematique-sur-gboard/</link>
+      <link>http://localhost:46787/informatique/mode-mathematique-sur-gboard/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/mode-mathematique-sur-gboard/</guid>
+      <guid>http://localhost:46787/informatique/mode-mathematique-sur-gboard/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Résolution complexe : cos(x)sin(x)=1</title>
-      <link>http://localhost:32871/mathematiques/resolution-complexe-cosxsinx1/</link>
+      <link>http://localhost:46787/mathematiques/resolution-complexe-cosxsinx1/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/resolution-complexe-cosxsinx1/</guid>
+      <guid>http://localhost:46787/mathematiques/resolution-complexe-cosxsinx1/</guid>
       <description>Cet article est un exercice avec solution présentant la solution réelle et complexe de cos(x)sin(x) = 1.
-Exercice : Dans  et dans  , résoudre :
- Résolution : 1 - Recherche d&amp;rsquo;une solution dans R Soit la formule de trigonométrie suivante :
- Alors :
- Nous pouvons reprendre l&amp;rsquo;équation :
- Elle est donc équivalente à :
- Comme  .
-Cette équation n&amp;rsquo;admet donc pas de solution dans R.</description>
+Exercice : Dans   et dans  , résoudre :
+  Résolution : 1 - Recherche d&amp;rsquo;une solution dans R Soit la formule de trigonométrie suivante :
+  Alors :
+  Nous pouvons reprendre l&amp;rsquo;équation :
+  Elle est donc équivalente à :
+  Comme  .</description>
     </item>
     
     <item>
       <title>Démonstration : cos(x)²&#43;sin(x)²=1</title>
-      <link>http://localhost:32871/mathematiques/demonstration-cosxsinx1/</link>
+      <link>http://localhost:46787/mathematiques/demonstration-cosxsinx1/</link>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/demonstration-cosxsinx1/</guid>
+      <guid>http://localhost:46787/mathematiques/demonstration-cosxsinx1/</guid>
       <description>Cet article présente 2 démonstrations de la relation cos(x)^2 + sin(x)^2 = 1. Une grâce au théorème de pythagore, et une autre avec les formules d&amp;rsquo;Euler.
 Avec le théorème de Pythagore : Le théorème : En géométrie euclidienne, le théorème de pythagore met en relation dans un triangle rectangle, les 2 plus petits cotés avec l&amp;rsquo;hypothénuse :
  
@@ -358,66 +358,66 @@ La célèbre relation est la suivante :  .</description>
     
     <item>
       <title>Traduction en Python 3 avec IBM Language Translator API</title>
-      <link>http://localhost:32871/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</link>
+      <link>http://localhost:46787/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</guid>
+      <guid>http://localhost:46787/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</guid>
       <description>Pour traduire du texte en Python, on pense à Google Traduction API. Cependant, il existe de nombreuses alternatives. Parmi celles-ci se trouve Language Translator API, qui propose de traduire gratuitement 1 000 000 de caractères par mois. Cet article vous aidera a le paramétrer et l&amp;rsquo;utiliser.
 Nécessaire  Un compte IBM Cloud (gratuit). Pour se connecter ou s&amp;rsquo;inscrire, c&amp;rsquo;est ici : IBM Cloud. Avoir installé Python et pip sur votre ordinateur.</description>
     </item>
     
     <item>
       <title>Coefficient binomial - k parmi n en Latex</title>
-      <link>http://localhost:32871/informatique/combinaison-k-parmi-n-en-latex/</link>
+      <link>http://localhost:46787/informatique/combinaison-k-parmi-n-en-latex/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/combinaison-k-parmi-n-en-latex/</guid>
+      <guid>http://localhost:46787/informatique/combinaison-k-parmi-n-en-latex/</guid>
       <description>Combien y a-t-il de possibilités de tirer 3 cartes parmi 13 ? Vous voulez certainement parler des coefficients binomiaux et vous ne savez pas comment le faire en Latex. Ci-dessous se trouvent 2 façons de rédiger des coefficients binomiaux pour vos PDF.
 Notation &amp;ldquo;Française&amp;rdquo; : k parmi n peut se noter de la façon suivante :
- Son code Latex en mode mathématique est tout simplement :
+  Son code Latex en mode mathématique est tout simplement :
 C_n^k Notation &amp;ldquo;Anglo-Saxonne&amp;rdquo; : Notation certainement la plus couramment utilisée pour exprimer le coefficient binomial :</description>
     </item>
     
     <item>
       <title>Wordpress - Image de profil trouble avec l&#39;extension AMPforWP</title>
-      <link>http://localhost:32871/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</link>
+      <link>http://localhost:46787/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</link>
       <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</guid>
+      <guid>http://localhost:46787/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</guid>
       <description>Durant l&amp;rsquo;installation de notre site web, nous avions décidé d&amp;rsquo;utiliser l&amp;rsquo;extension AMPforWP pour accélérer et faciliter notre référencement sur Google. Bien sûr, nous avons rencontré de nombreux problèmes. L&amp;rsquo;un d&amp;rsquo;entre eux était l&amp;rsquo;apparition de photos de profil troubles pour le bloc d&amp;rsquo;auteur (&amp;ldquo;author box&amp;rdquo;) .
 Le problème : On peut voir avec le screenshot suivant que AMP for WP demande à Gravatar une image de taille s=70 car la taille du bloc est de taille 70 (dans notre cas).</description>
     </item>
     
     <item>
       <title>Partie entière supérieure et inférieure en Latex</title>
-      <link>http://localhost:32871/informatique/partie-entiere-superieur-et-inferieur-en-latex/</link>
+      <link>http://localhost:46787/informatique/partie-entiere-superieur-et-inferieur-en-latex/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/partie-entiere-superieur-et-inferieur-en-latex/</guid>
+      <guid>http://localhost:46787/informatique/partie-entiere-superieur-et-inferieur-en-latex/</guid>
       <description>Cet article présentera l&amp;rsquo;utilisation de la partie entière, aussi bien supérieure qu&amp;rsquo;inférieure en Latex. Deux macros seront explicitées pour faciliter leur utilisation.
-Partie entière supérieure en LaTex : Pour prendre la partie entière supérieure d&amp;rsquo;un entier  en Latex, il suffit de taper ceci :
+Partie entière supérieure en LaTex : Pour prendre la partie entière supérieure d&amp;rsquo;un entier   en Latex, il suffit de taper ceci :
 \lceil x \rceil Voici le résultat :
- Partie entière inférieure en LaTex : La partie entière inférieure en Latex d&amp;rsquo;un entier  se fait de façon analogue à celle supérieure :</description>
+  Partie entière inférieure en LaTex : La partie entière inférieure en Latex d&amp;rsquo;un entier   se fait de façon analogue à celle supérieure :</description>
     </item>
     
     <item>
       <title>3 manières de calculer Pi en Python 3</title>
-      <link>http://localhost:32871/informatique/3-manieres-de-calculer-pi-en-python-3/</link>
+      <link>http://localhost:46787/informatique/3-manieres-de-calculer-pi-en-python-3/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/3-manieres-de-calculer-pi-en-python-3/</guid>
+      <guid>http://localhost:46787/informatique/3-manieres-de-calculer-pi-en-python-3/</guid>
       <description>Le 14 mai 2019, Emma Haruka Iwao, un informaticien japonais détermina 31 415 milliards de décimales de Pi. La constante d&amp;rsquo;archimède &amp;hellip;..
 Définition de Pi : Pi est certainement la constante mathématique la plus connu. Enseigné à l&amp;rsquo;école primaire, elle est notamment utilisé pour calculer le périmètre d&amp;rsquo;un cercle grâce à son rayon :
 Soit P le périmètre du cercle et R son rayon, alors :
- Autrement dit :  Mais on peut aussi la retrouver dans de nombreuses autre formules !</description>
+  Autrement dit :</description>
     </item>
     
     <item>
       <title>ISETL - Fonctions trigonométriques et hyperboliques</title>
-      <link>http://localhost:32871/informatique/isetl-liste-de-fonctions/</link>
+      <link>http://localhost:46787/informatique/isetl-liste-de-fonctions/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/isetl-liste-de-fonctions/</guid>
+      <guid>http://localhost:46787/informatique/isetl-liste-de-fonctions/</guid>
       <description>Cet article a pour finalité de vous lister quelques fonctions mathématiques predéfinies en ISETL.
 Pour installer ISETL, je vous renvoie vers cet article.
 Fonction trigonométrique : Soit x un réel quelconque (appartenant aux domaines de définition des fonctions) :
@@ -426,46 +426,45 @@ Fonction trigonométrique : Soit x un réel quelconque (appartenant aux domaines
     
     <item>
       <title>ISETL - Fonctions Mathématiques</title>
-      <link>http://localhost:32871/informatique/isetl-fonction-mathematiques/</link>
+      <link>http://localhost:46787/informatique/isetl-fonction-mathematiques/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/isetl-fonction-mathematiques/</guid>
+      <guid>http://localhost:46787/informatique/isetl-fonction-mathematiques/</guid>
       <description>Cet article a pour finalité de lister des fonctions mathématiques implémentées par défaut dans ISETL3.0.
 Prérequis : Il est bien sur nécessaire d&amp;rsquo;avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n&amp;rsquo;est pas le cas, je vous renvoie vers mon article :
  ISETL 3.0 sur Windows 10
-Liste de fonctions mathématiques ISETL : Soit  et  , deux réels quelconques :
-Fonction ISETLFonction mathématiquesabs(x) exp(x) ceil(x) floor(x) ln(x) log(x) max(x,y) min(x,y) sgn(x) sqrt(x)  Fonctions Mathématiques ISETL</description>
+Liste de fonctions mathématiques ISETL : Soit   et  , deux réels quelconques :
+Fonction ISETLFonction mathématiquesabs(x)  exp(x)  ceil(x)  floor(x)  ln(x)  log(x)  max(x,y)  min(x,y)  sgn(x)  sqrt(x)   Fonctions Mathématiques ISETL</description>
     </item>
     
     <item>
       <title>Seuillage d&#39;image en Python3</title>
-      <link>http://localhost:32871/informatique/seuillage-dimage-en-python/</link>
+      <link>http://localhost:46787/informatique/seuillage-dimage-en-python/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/seuillage-dimage-en-python/</guid>
+      <guid>http://localhost:46787/informatique/seuillage-dimage-en-python/</guid>
       <description>Le seuillage est une technique de traitement d&amp;rsquo;image permettant l&amp;rsquo;attribution de chaque pixel soit à une couleur, soit à une autre, selon un seuil. Plus explicitement :
-Définition Soit  , une image composée de  lignes et  colonnes,  et  .
-Soit  l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet  associée au pixel.
-Soit un seuil  .
-Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction  tel que :</description>
+Définition Soit  , une image composée de   lignes et   colonnes,   et  .
+Soit   l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet   associée au pixel.
+Soit un seuil  .</description>
     </item>
     
     <item>
       <title>1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)</title>
-      <link>http://localhost:32871/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</link>
+      <link>http://localhost:46787/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</guid>
-      <description>Au cours de la création de notre site &amp;ldquo;keskec.fr&amp;rdquo;, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&amp;rsquo;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution.
+      <guid>http://localhost:46787/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</guid>
+      <description>Au cours de la création de notre site, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&amp;rsquo;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution.
 Nb : Ce tutoriel nécessite un fichier .</description>
     </item>
     
     <item>
       <title>Rediriger le trafic HTTP vers HTTPS avec .htaccess.</title>
-      <link>http://localhost:32871/informatique/rediriger-http-vers-https-avec-htaccess/</link>
+      <link>http://localhost:46787/informatique/rediriger-http-vers-https-avec-htaccess/</link>
       <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/rediriger-http-vers-https-avec-htaccess/</guid>
+      <guid>http://localhost:46787/informatique/rediriger-http-vers-https-avec-htaccess/</guid>
       <description>.htaccess est un fichier de configuration utilisé par Apache2 permettant de paramétrer le comportement du serveur HTTP dans un dossier précis. Ainsi, sans toucher aux fichiers de configuration du serveur HTTP directement, on pourra facilement réécrire l&amp;rsquo;URL afin de permettre la redirection du trafic HTTP vers HTTPS.
 Ce tutoriel n&amp;rsquo;est donc pas à destination des utilisateurs de serveur Nginx.
 Accéder au fichier Manuellement Un fichier .htaccess peut se situer dans n&amp;rsquo;importe quel dossier de votre site web.</description>
@@ -473,10 +472,10 @@ Accéder au fichier Manuellement Un fichier .htaccess peut se situer dans n&amp;
     
     <item>
       <title>Autoriser l&#39;upload de fichiers non-autorisés sur Wordpress</title>
-      <link>http://localhost:32871/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</link>
+      <link>http://localhost:46787/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</guid>
+      <guid>http://localhost:46787/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</guid>
       <description>&amp;ldquo;Désolé, ce type de fichier n’est pas autorisé pour des raisons de sécurité.&amp;rdquo;.
 J&amp;rsquo;ai repoussé à de nombreuses reprises sa résolution pensant que c&amp;rsquo;était une opération complexe. Finalement, en moins de 5 min, c&amp;rsquo;était résolu et c&amp;rsquo;est ce que je vais vous montrer dès maintenant !
 Je traiterai l&amp;rsquo;upload de fichiers zip en particulier.
@@ -485,10 +484,10 @@ Résolution manuelle : Accéder au fichier function.php : Le fichier &amp;ldquo;
     
     <item>
       <title>ISETL 3.0 sur Windows 10</title>
-      <link>http://localhost:32871/informatique/installer-isetl/</link>
+      <link>http://localhost:46787/informatique/installer-isetl/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/installer-isetl/</guid>
+      <guid>http://localhost:46787/informatique/installer-isetl/</guid>
       <description>Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, elle avait pour finalité l&amp;rsquo;enseignement des mathématiques discrètes à l&amp;rsquo;université.
 En 1985, SETL était devenu un projet très lourd, lent et nécessitait une compilation, ce qui le rendait difficilement utilisable. C&amp;rsquo;est dans ce contexte que Gary Levin décida de créer une version de SETL interactive à direction des universités.
 Et c&amp;rsquo;est ainsi qu&amp;rsquo;en 1988 sortit la version 1.</description>
@@ -496,10 +495,10 @@ Et c&amp;rsquo;est ainsi qu&amp;rsquo;en 1988 sortit la version 1.</description>
     
     <item>
       <title>Octet, Giga-bits, Kibioctets, Byte ?</title>
-      <link>http://localhost:32871/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</link>
+      <link>http://localhost:46787/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</guid>
+      <guid>http://localhost:46787/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</guid>
       <description>Durant votre &amp;ldquo;vie numérique&amp;rdquo;, vous avez sans doute rencontré de nombreux acronymes. Des Kbit ? Des To? Voir même de Gio ?
 Savoir combien de films votre clé USB peut stocker, ce n&amp;rsquo;est pas inné, ça s&amp;rsquo;apprend, et c&amp;rsquo;est ce que je vais vous expliquer à travers cet article :).
 Le système international d&amp;rsquo;unité (SI) Au lycée, vous avez certainement entendu parler du système international d&amp;rsquo;unité.
@@ -508,10 +507,10 @@ Il s&amp;rsquo;agit d&amp;rsquo;un système décimal, permettant de conformer le
     
     <item>
       <title>Accolades Verticales/Horizontales en LaTeX</title>
-      <link>http://localhost:32871/informatique/accolades-verticales-horizontales-en-latex/</link>
+      <link>http://localhost:46787/informatique/accolades-verticales-horizontales-en-latex/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/accolades-verticales-horizontales-en-latex/</guid>
+      <guid>http://localhost:46787/informatique/accolades-verticales-horizontales-en-latex/</guid>
       <description>Une des plus grandes forces de LaTeX est certainement son rendu d&amp;rsquo;équations. Très pratique et très rapide, le LaTeX vous permettra, dans le domaine des mathématiques, d&amp;rsquo;écrire des intégrales, des sommes, des limites, mais aussi des systèmes linéaires, le tout dans la plus grande simplicité.
 Faut-il encore savoir le faire&amp;hellip;
 Accolades horizontales Accolades sur du texte Pour afficher une accolade sur du texte, il suffit d&amp;rsquo;utiliser \overbrace comme ceci :</description>
@@ -519,38 +518,38 @@ Accolades horizontales Accolades sur du texte Pour afficher une accolade sur du 
     
     <item>
       <title>Coloration Syntaxique pour Wordpress AMP</title>
-      <link>http://localhost:32871/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</link>
+      <link>http://localhost:46787/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</guid>
+      <guid>http://localhost:46787/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</guid>
       <description>AMP est une technologie développée par Google depuis 2015. Open Source, c&amp;rsquo;est une méthode de création de page Web statique permettant un rendu plus rapide. Applicable sur Wordpress, elle peut permettre des gains importants, de part son utilisation de cache et sa désactivation par défaut de code personnalisé JavaScript. Cette désactivation est, en terme de vitesse, bénéfique. Elle pose malgré tout de nombreux problèmes. Un problème parmi ceux-ci est celui de la coloration syntaxique.</description>
     </item>
     
     <item>
       <title>WSL et USB</title>
-      <link>http://localhost:32871/informatique/wsl-et-usb/</link>
+      <link>http://localhost:46787/informatique/wsl-et-usb/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/wsl-et-usb/</guid>
+      <guid>http://localhost:46787/informatique/wsl-et-usb/</guid>
       <description>Monter une Partition Fat32/Fat ou NFSF Monter une partition ext4 ou ext2 Monter une partition ext4 protégé LUKS </description>
     </item>
     
     <item>
       <title>Modifier la Bitmap d&#39;une image avec Python 3</title>
-      <link>http://localhost:32871/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
+      <link>http://localhost:46787/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
+      <guid>http://localhost:46787/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
       <description>Une image matricielle, ou « carte de points » (de l&amp;rsquo;anglais bitmap), est une image constituée d&amp;rsquo;une matrice de points colorés. Cela signifie qu&amp;rsquo;elle est constituée d&amp;rsquo;un tableau, d&amp;rsquo;une grille, où chaque case possède une couleur qui lui est propre et est considérée comme un point. (Wikipédia). Saviez-vous qu&amp;rsquo;il était possible de modifier cette bitmap très facilement en Python ? :)
 Télécharger une image Je vous propose de modifier l&amp;rsquo;image que j&amp;rsquo;ai utilisé pour mon article sur l&amp;rsquo;idée reçu des 5 sens : Celle-ci.</description>
     </item>
     
     <item>
       <title>Filtre Sépia d&#39;une image en Python3</title>
-      <link>http://localhost:32871/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</link>
+      <link>http://localhost:46787/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</guid>
+      <guid>http://localhost:46787/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</guid>
       <description>Le filtre Sépia : Le fichier : Vous pouvez trouver le fichier complet ici :
 Les sources : Voir plus : Pour en savoir plus sur la modification de Bitmap en Python, je vous propose cet article, vous y trouverez le moyen de produire le négatif d&amp;rsquo;une image très simplement :).
  Modifier la Bitmap d’une image avec Python 3</description>
@@ -558,39 +557,39 @@ Les sources : Voir plus : Pour en savoir plus sur la modification de Bitmap en P
     
     <item>
       <title>Opération sur les matrices avec numpy en Python</title>
-      <link>http://localhost:32871/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
+      <link>http://localhost:46787/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
+      <guid>http://localhost:46787/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
       <description>Effectuer des calculs sur les matrices est, souvent, une opération fastidieuse et source de nombreuses erreurs. L&amp;rsquo;algorithme naïf de multiplication de matrice possède, par exemple, une complexité cubique, rendant le calcul manuel de grandes matrices vite impossible. Utiliser un ordinateur pour effectuer ce genre de calculs me semble donc une bonne chose à faire. Pour aujourd&amp;rsquo;hui, je vais vous présenter quelques fonctions en python, permettant d&amp;rsquo;effectuer des opérations sur les matrices en juste quelques lignes de codes.</description>
     </item>
     
     <item>
       <title>Dénombrement - Exercices corrigés</title>
-      <link>http://localhost:32871/mathematiques/denombrement/denombrement-exercices-corriges/</link>
+      <link>http://localhost:46787/mathematiques/denombrement/denombrement-exercices-corriges/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/denombrement/denombrement-exercices-corriges/</guid>
+      <guid>http://localhost:46787/mathematiques/denombrement/denombrement-exercices-corriges/</guid>
       <description>En licence, le dénombrement est peu-être le domaine des mathématiques le plus mal compris. Ésotériques pour certains, fastidieux pour d&amp;rsquo;autres, le dénombrement est (malheureusement ?) inévitable et capital. C&amp;rsquo;est pourquoi, vous devez absolument le maîtriser. Pour vous y aider, je vous propose 5 exercices (corrigés à la fin) plus ou moins difficile à faire en 30 min :).
 Exercice 1 : Des souris et des chats Exercice 2 : Des balles et des fusils Exercice 3 : Des creepers et des zombies Exercice 4 : Des Oiseaux et des cages Un zoologiste a une passion : les oiseaux, mais depuis la saison des amours, son nombre d&amp;rsquo;oiseaux à doublé!</description>
     </item>
     
     <item>
       <title>Traduire un string grâce à Google Traduction en Python (for free)</title>
-      <link>http://localhost:32871/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</link>
+      <link>http://localhost:46787/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</guid>
+      <guid>http://localhost:46787/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</guid>
       <description>Traduire du texte est quelque chose de complexe, demandant beaucoup de données et de ressources. C&amp;rsquo;est pourquoi, il n&amp;rsquo;est pas possible (difficile) de programmer soit même un algorithme performant de traduction.
 La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l&amp;rsquo;API Google Cloud Translation. Cet API, bien que très pratique, pose un certain problème, celui du prix : 20 pour 1 million de caractères.</description>
     </item>
     
     <item>
       <title>Trouvez l&#39;erreur ! Mathématiques Collège-Lycée</title>
-      <link>http://localhost:32871/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</link>
+      <link>http://localhost:46787/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</guid>
+      <guid>http://localhost:46787/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</guid>
       <description>Tout au long de votre scolarité, vous avez surement dû rencontrer beaucoup d&amp;rsquo;équations. Vous avez peut-être le sentiment d&amp;rsquo;être parfaitement capable de résoudre de simples équations du collège ou du lycée ? Et bien vous verrez qu&amp;rsquo;une erreur est très vite arrivée&amp;hellip;
 Note : Toutes les variables appartiennent à  .
 Solutions à la fin !
@@ -599,31 +598,31 @@ Niveau 1 : Un bon début ! Ici, chaque ligne correspond à la ligne précédente
     
     <item>
       <title>unordered_map en C&#43;&#43;</title>
-      <link>http://localhost:32871/informatique/unordered_map-en-c/</link>
+      <link>http://localhost:46787/informatique/unordered_map-en-c/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/unordered_map-en-c/</guid>
+      <guid>http://localhost:46787/informatique/unordered_map-en-c/</guid>
       <description>Le conteneur unordered_map est un tableau associatif (ou table associative). Il permet l&amp;rsquo;association d&amp;rsquo;une clé du type de son choix à une valeur. Comme son nom l&amp;rsquo;indique, les éléments de l&amp;rsquo;unordered_map ne sont pas rangés, que ce soit par leurs clés ou par leurs valeurs associées (contrairement à &amp;ldquo;map&amp;rdquo;).
 Intérêts : L’intérêt principal de l&amp;rsquo;utilisation d&amp;rsquo;une unordered_map par rapport à un autre conteneur (notamement une map) est sa faible complexité asymptotique de recherche ou d&amp;rsquo;insertion moyenne (en O(1)).</description>
     </item>
     
     <item>
       <title>Démonstration : Somme des k(k parmi n)</title>
-      <link>http://localhost:32871/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</link>
+      <link>http://localhost:46787/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
+      <guid>http://localhost:46787/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
       <description>Cet article présente la démonstration de : la somme des k fois k parmi n = n fois 2 puissance (n moins 1).
 Identité : Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
- Démonstration :  On commence par reprendre la formule du binôme de Newton :   Soit  , alors :   Dérivons l&amp;rsquo;équation selon  comme ceci :   Ce qui donne :   Nous pouvons maintenant prendre  et retrouver l&amp;rsquo;équation :   D&amp;rsquo;autres identités ici :  Coefficient binomial - Wikipédia</description>
+  Démonstration :  On commence par reprendre la formule du binôme de Newton :    Soit  , alors :    Dérivons l&amp;rsquo;équation selon   comme ceci :    Ce qui donne :    Nous pouvons maintenant prendre   et retrouver l&amp;rsquo;équation :    D&amp;rsquo;autres identités ici :  Coefficient binomial - Wikipédia</description>
     </item>
     
     <item>
       <title>Google Agenda : Ajouter un EDT de l&#39;Université de Nantes</title>
-      <link>http://localhost:32871/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</link>
+      <link>http://localhost:46787/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</guid>
+      <guid>http://localhost:46787/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</guid>
       <description>L&amp;rsquo;université de Nantes propose une Application Android et IOS depuis 2019. En revanche, l&amp;rsquo;accès à l&amp;rsquo;EDT reste assez long et fastidieux&amp;hellip; C&amp;rsquo;est pourquoi je vais vous expliquer comment associer votre EDT à Google Agenda.
 NB : ce tutoriel, bien qu&amp;rsquo;à destination des étudiants et professeurs de l&amp;rsquo;université de Nantes, fonctionnera de manière analogue pour toutes les universités (française en tout cas).
 Accéder à l&amp;rsquo;emploi du temps Web de votre Université Pour l&amp;rsquo;Université de Nantes, le lien est le suivant :</description>
@@ -631,10 +630,10 @@ Accéder à l&amp;rsquo;emploi du temps Web de votre Université Pour l&amp;rsqu
     
     <item>
       <title>Héberger un Wordpress Gratuitement sur un Raspberry Pi</title>
-      <link>http://localhost:32871/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link>
+      <link>http://localhost:46787/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid>
+      <guid>http://localhost:46787/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid>
       <description>WordPress est un système de gestion de contenu (SGC ou content management system (CMS) en anglais) gratuit, libre et open-source.
 Wordpress est le CMS le plus utilisé au monde. De part sa simplicité d&amp;rsquo;utilisation et sa liberté de design, sa popularité s’explique d&amp;rsquo;elle même.
 Malheureusement, utiliser Wordpress pour laisser libre cours à son imagination revient souvent à passer par son porte monnaie.
@@ -643,20 +642,20 @@ Pour un site personnel, 4€ par mois reste raisonnable, mais pour un site d&amp
     
     <item>
       <title>Recevoir des notifications par mail en PHP grâce à IFTTT</title>
-      <link>http://localhost:32871/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</link>
+      <link>http://localhost:46787/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</guid>
+      <guid>http://localhost:46787/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</guid>
       <description>Il existe de nombreuses méthodes pour recevoir les notifications de son site web grâce à PHP. Aujourd&amp;rsquo;hui je vais vous montrer comment recevoir des mails grâce à IFTTT en moins de 10 min.
 Paramétrer IFTTT :  Connectez-vous à l’adresse https://ifttt.com/ . Inscrivez-vous si ce n&amp;rsquo;est pas déjà fais. Appuyez sur votre photo de profil en haut à gauche, puis appuyez sur &amp;ldquo;Create&amp;rdquo;. Appuyez sur &amp;ldquo;This&amp;rdquo; puis sélectionnez le service &amp;ldquo;Webhooks&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Installer PHP7.4 pour Wordpress</title>
-      <link>http://localhost:32871/informatique/installer-php7-4-sur-un-raspberry-pi/</link>
+      <link>http://localhost:46787/informatique/installer-php7-4-sur-un-raspberry-pi/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/installer-php7-4-sur-un-raspberry-pi/</guid>
+      <guid>http://localhost:46787/informatique/installer-php7-4-sur-un-raspberry-pi/</guid>
       <description>PHP7.4 est actuellement la dernière version de PHP. Sortie fin 2019, je vais vous montrer la méthode la plus simple pour installer cette version de php sous Raspbian.
 Vous avez peut-être remarqué que votre WordPress tourne sous une ancienne version de PHP ? Vous avez donc sans doute vu ce message :
  
@@ -667,21 +666,21 @@ Prérequis :  Vous devez avoir un ordinateur mis à jour, sous une distribution 
     
     <item>
       <title>Les Valeurs et Vecteurs Propres</title>
-      <link>http://localhost:32871/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/</link>
+      <link>http://localhost:46787/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/</guid>
+      <guid>http://localhost:46787/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/</guid>
       <description>Un scalaire lambda est une valeur propre de f si il existe un vecteur x non nul tel que f(x) = lambda x.
-Soit E un espace vectoriel de dimension fini, sur  .  un endomorphisme (applications linéaires d&amp;rsquo;un espace vectoriel dans lui-même) de E.
-Définition Un scalaire  est une valeur propre de  s&amp;rsquo;il existe un vecteur x (le vecteur propre) non nul tel que  .</description>
+Soit E un espace vectoriel de dimension fini, sur  .   un endomorphisme (applications linéaires d&amp;rsquo;un espace vectoriel dans lui-même) de E.
+Définition Un scalaire   est une valeur propre de   s&amp;rsquo;il existe un vecteur x (le vecteur propre) non nul tel que  .</description>
     </item>
     
     <item>
       <title>La Factorisation de Cholesky</title>
-      <link>http://localhost:32871/mathematiques/keske-cest-la-decomposition-de-cholesky/</link>
+      <link>http://localhost:46787/mathematiques/keske-cest-la-decomposition-de-cholesky/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/keske-cest-la-decomposition-de-cholesky/</guid>
+      <guid>http://localhost:46787/mathematiques/keske-cest-la-decomposition-de-cholesky/</guid>
       <description>Toute matrice symétrique définie positive A admet une décomposition de Cholesky. A étant égal à la multiplication d&amp;rsquo;une matrice triangulaire inférieure L par la matrice transposée de L.
 Définition : Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que  . On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
 Vérification : Pour calculer la décomposition de A, nous devons vérifier que A est bien symétrique définie positive:</description>
@@ -689,20 +688,20 @@ Vérification : Pour calculer la décomposition de A, nous devons vérifier que 
     
     <item>
       <title>Convertir un entier non signé décimal en Binaire</title>
-      <link>http://localhost:32871/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</link>
+      <link>http://localhost:46787/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</guid>
+      <guid>http://localhost:46787/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</guid>
       <description>Tous les systèmes informatiques actuels fonctionnent en binaire. Très grossièrement, on pourrait considérer que 0 représente un courant &amp;ldquo;éteint&amp;rdquo; et 1 un courant &amp;ldquo;allumé&amp;rdquo;. Ainsi, il est nécessaire de comprendre le fonctionnement de la représentation binaire pour pouvoir représenter des chiffres dans la mémoire d&amp;rsquo;un ordinateur.
  Le système binaire est le système de numération utilisant la base 2. On nomme couramment bit (de l&#39; anglais binary digit, soit « chiffre binaire ») les chiffres de la numération binaire positionnelle.</description>
     </item>
     
     <item>
       <title>Convertir un nombre décimal en Float</title>
-      <link>http://localhost:32871/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</link>
+      <link>http://localhost:46787/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</guid>
+      <guid>http://localhost:46787/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</guid>
       <description>La virgule flottante (float) est une méthode d&amp;rsquo;écriture de nombres réels fréquemment utilisée dans les ordinateurs. (Wikipédia)
 En mémoire, un nombre peut être codé par de nombreux schémas différents:
  int (entier sur 16 bits en c++) uint64_t (entier sur 64 bits en c++) float32 (réel sur 32 bits) float64 (réel sur 64 bits) &amp;hellip;..  Nécessaire : Pour suivre ce tutoriel, vous devez savoir convertir des entiers décimaux en binaires.</description>
@@ -710,10 +709,10 @@ En mémoire, un nombre peut être codé par de nombreux schémas différents:
     
     <item>
       <title>L&#39;intégrale de x^i dx</title>
-      <link>http://localhost:32871/mathematiques/keske-cest-lintegrale-de-xi-dx/</link>
+      <link>http://localhost:46787/mathematiques/keske-cest-lintegrale-de-xi-dx/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/keske-cest-lintegrale-de-xi-dx/</guid>
+      <guid>http://localhost:46787/mathematiques/keske-cest-lintegrale-de-xi-dx/</guid>
       <description>&amp;ldquo;i&amp;rdquo; est un nombre. Il est complexe certes, mais reste un nombre. Il est égale à la racine de &amp;ldquo;-1&amp;rdquo; Ainsi, les règles des intégrales qu&amp;rsquo;on connait et qu&amp;rsquo;on utilise avec les nombres réels sont tout aussi applicables.
 Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
 &amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.</description>
@@ -721,22 +720,22 @@ Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;ar
     
     <item>
       <title>Conditionnement d&#39;une Matrice</title>
-      <link>http://localhost:32871/informatique/keske-cest-le-conditionnement-dune-matrice/</link>
+      <link>http://localhost:46787/informatique/keske-cest-le-conditionnement-dune-matrice/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/keske-cest-le-conditionnement-dune-matrice/</guid>
+      <guid>http://localhost:46787/informatique/keske-cest-le-conditionnement-dune-matrice/</guid>
       <description>Cet article présente ce qu&amp;rsquo;est le conditionnement d&amp;rsquo;une matrice inversible et sa norme infinie, illustré par deux exemples.
 Définition Un système linéaire peut s&amp;rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&amp;rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.
 Pour une matrice inversible A, sa fonction de conditionnement est :
- Note : Plus  est élevé, plus la matrice A est mal conditionnée.</description>
+  Note : Plus   est élevé, plus la matrice A est mal conditionnée.</description>
     </item>
     
     <item>
       <title>Wsl2</title>
-      <link>http://localhost:32871/informatique/keske-cest-wsl2/</link>
+      <link>http://localhost:46787/informatique/keske-cest-wsl2/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/keske-cest-wsl2/</guid>
+      <guid>http://localhost:46787/informatique/keske-cest-wsl2/</guid>
       <description>Vous souhaitez savoir comment installer Windows Subsystem for Linux 2 ? Et utiliser Debian ou Ubuntu comme distribution ? Voici un article pour vous guider.
  Windows Subsystem for Linux (WSL) est une couche de compatibilité permettant d&amp;rsquo;exécuter des exécutables binaires Linux (au format ELF) de manière native sur Windows 10 et Windows Server 2019.
  fr.wikipedia.org
@@ -745,19 +744,19 @@ Pour une matrice inversible A, sa fonction de conditionnement est :
     
     <item>
       <title>A propos de DevMath</title>
-      <link>http://localhost:32871/contact/</link>
+      <link>http://localhost:46787/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/contact/</guid>
+      <guid>http://localhost:46787/contact/</guid>
       <description>A propos </description>
     </item>
     
     <item>
       <title>Confidentialité des données</title>
-      <link>http://localhost:32871/confidentialite/</link>
+      <link>http://localhost:46787/confidentialite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/confidentialite/</guid>
+      <guid>http://localhost:46787/confidentialite/</guid>
       <description>Qu&amp;rsquo;est ce que DevMath ? DevMath est mon site web personnel ! Je m&amp;rsquo;appelle Robin Pourtaud, je suis actuellement étudiant en Informatique. Passioné de math et d&amp;rsquo;informatique depuis le collège, j&amp;rsquo;ai
 J&amp;rsquo;ai décidé de créer ce site web partant d&amp;rsquo;un constat : Trouvé de l&amp;rsquo;aide sur des articles de mathématiques au collèges, c&amp;rsquo;est simple. Cependant, cette facillité n&amp;rsquo;est plus depuis le passage a des études supérieurs.
 C&amp;rsquo;est pourquoi j&amp;rsquo;ai crée DevMath !</description>

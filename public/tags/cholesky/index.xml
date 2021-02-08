@@ -2,20 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cholesky on DevMath.fr</title>
-    <link>http://localhost:32871/tags/cholesky/</link>
+    <link>http://localhost:46787/tags/cholesky/</link>
     <description>Recent content in cholesky on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/cholesky/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/cholesky/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La Factorisation de Cholesky</title>
-      <link>http://localhost:32871/mathematiques/keske-cest-la-decomposition-de-cholesky/</link>
+      <link>http://localhost:46787/mathematiques/keske-cest-la-decomposition-de-cholesky/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/keske-cest-la-decomposition-de-cholesky/</guid>
+      <guid>http://localhost:46787/mathematiques/keske-cest-la-decomposition-de-cholesky/</guid>
       <description>Toute matrice symétrique définie positive A admet une décomposition de Cholesky. A étant égal à la multiplication d&amp;rsquo;une matrice triangulaire inférieure L par la matrice transposée de L.
-Définition : [latexpage]
-Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que  . On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
+Définition : Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que  . On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
 Vérification : Pour calculer la décomposition de A, nous devons vérifier que A est bien symétrique définie positive:</description>
     </item>
     

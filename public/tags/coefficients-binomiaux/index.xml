@@ -2,33 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>coefficients-binomiaux on DevMath.fr</title>
-    <link>http://localhost:32871/tags/coefficients-binomiaux/</link>
+    <link>http://localhost:46787/tags/coefficients-binomiaux/</link>
     <description>Recent content in coefficients-binomiaux on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/coefficients-binomiaux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/coefficients-binomiaux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coefficient binomial (k parmi n)</title>
-      <link>http://localhost:32871/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</link>
+      <link>http://localhost:46787/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</guid>
+      <guid>http://localhost:46787/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</guid>
       <description>Cet article présente la notion de coefficient binomial, illustrée d&amp;rsquo;exemples et d&amp;rsquo;exercices corrigés. Un niveau de 1ère/Terminale est préférable pour pouvoir suivre cet article. Un rappel sur la notion de factoriel y sera explicité.
-Prérequis : [latexpage]
-La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté &amp;ldquo;!&amp;rdquo;, le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
- Pour prendre plusieurs exemples :</description>
+Prérequis : La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté &amp;ldquo;!&amp;rdquo;, le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
+  Pour prendre plusieurs exemples :</description>
     </item>
     
     <item>
       <title>Démonstration : Somme des k(k parmi n)</title>
-      <link>http://localhost:32871/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</link>
+      <link>http://localhost:46787/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
+      <guid>http://localhost:46787/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
       <description>Cet article présente la démonstration de : la somme des k fois k parmi n = n fois 2 puissance (n moins 1).
-Identité : [latexpage]
-Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
- Démonstration :  On commence par reprendre la formule du binôme de Newton :   Soit  , alors :   Dérivons l&amp;rsquo;équation selon  comme ceci :   Ce qui donne :   Nous pouvons maintenant prendre  et retrouver l&amp;rsquo;équation :   D&amp;rsquo;autres identités ici :  Coefficient binomial - Wikipédia</description>
+Identité : Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
+  Démonstration :  On commence par reprendre la formule du binôme de Newton :    Soit  , alors :    Dérivons l&amp;rsquo;équation selon   comme ceci :    Ce qui donne :    Nous pouvons maintenant prendre   et retrouver l&amp;rsquo;équation :    D&amp;rsquo;autres identités ici :  Coefficient binomial - Wikipédia</description>
     </item>
     
   </channel>

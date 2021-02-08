@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bitmap on DevMath.fr</title>
-    <link>http://localhost:32871/tags/bitmap/</link>
+    <link>http://localhost:46787/tags/bitmap/</link>
     <description>Recent content in bitmap on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/bitmap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/bitmap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modifier la Bitmap d&#39;une image avec Python 3</title>
-      <link>http://localhost:32871/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
+      <link>http://localhost:46787/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
+      <guid>http://localhost:46787/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
       <description>Une image matricielle, ou « carte de points » (de l&amp;rsquo;anglais bitmap), est une image constituée d&amp;rsquo;une matrice de points colorés. Cela signifie qu&amp;rsquo;elle est constituée d&amp;rsquo;un tableau, d&amp;rsquo;une grille, où chaque case possède une couleur qui lui est propre et est considérée comme un point. (Wikipédia). Saviez-vous qu&amp;rsquo;il était possible de modifier cette bitmap très facilement en Python ? :)
 Télécharger une image Je vous propose de modifier l&amp;rsquo;image que j&amp;rsquo;ai utilisé pour mon article sur l&amp;rsquo;idée reçu des 5 sens : Celle-ci.</description>
     </item>

@@ -2,34 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nombre-complexe on DevMath.fr</title>
-    <link>http://localhost:32871/tags/nombre-complexe/</link>
+    <link>http://localhost:46787/tags/nombre-complexe/</link>
     <description>Recent content in nombre-complexe on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/nombre-complexe/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/nombre-complexe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Démonstration : cos(x)²&#43;sin(x)²=1</title>
-      <link>http://localhost:32871/mathematiques/demonstration-cosxsinx1/</link>
+      <link>http://localhost:46787/mathematiques/demonstration-cosxsinx1/</link>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/demonstration-cosxsinx1/</guid>
+      <guid>http://localhost:46787/mathematiques/demonstration-cosxsinx1/</guid>
       <description>Cet article présente 2 démonstrations de la relation cos(x)^2 + sin(x)^2 = 1. Une grâce au théorème de pythagore, et une autre avec les formules d&amp;rsquo;Euler.
 Avec le théorème de Pythagore : Le théorème : En géométrie euclidienne, le théorème de pythagore met en relation dans un triangle rectangle, les 2 plus petits cotés avec l&amp;rsquo;hypothénuse :
  
 Triangle Rectangle
-[latexpage]
 La célèbre relation est la suivante :  .</description>
     </item>
     
     <item>
       <title>L&#39;intégrale de x^i dx</title>
-      <link>http://localhost:32871/mathematiques/keske-cest-lintegrale-de-xi-dx/</link>
+      <link>http://localhost:46787/mathematiques/keske-cest-lintegrale-de-xi-dx/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/keske-cest-lintegrale-de-xi-dx/</guid>
+      <guid>http://localhost:46787/mathematiques/keske-cest-lintegrale-de-xi-dx/</guid>
       <description>&amp;ldquo;i&amp;rdquo; est un nombre. Il est complexe certes, mais reste un nombre. Il est égale à la racine de &amp;ldquo;-1&amp;rdquo; Ainsi, les règles des intégrales qu&amp;rsquo;on connait et qu&amp;rsquo;on utilise avec les nombres réels sont tout aussi applicables.
-Méthode 1 : Traditionnelle et Rapide [latexpage]
-Précision pour le reste de l&amp;rsquo;article :
+Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
 &amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.</description>
     </item>
     

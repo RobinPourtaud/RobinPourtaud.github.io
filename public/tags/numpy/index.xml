@@ -2,41 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>numpy on DevMath.fr</title>
-    <link>http://localhost:32871/tags/numpy/</link>
+    <link>http://localhost:46787/tags/numpy/</link>
     <description>Recent content in numpy on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/numpy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/numpy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Seuillage d&#39;image en Python3</title>
-      <link>http://localhost:32871/informatique/seuillage-dimage-en-python/</link>
+      <link>http://localhost:46787/informatique/seuillage-dimage-en-python/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/seuillage-dimage-en-python/</guid>
+      <guid>http://localhost:46787/informatique/seuillage-dimage-en-python/</guid>
       <description>Le seuillage est une technique de traitement d&amp;rsquo;image permettant l&amp;rsquo;attribution de chaque pixel soit à une couleur, soit à une autre, selon un seuil. Plus explicitement :
-[latexpage]
-Définition Soit  , une image composée de  lignes et  colonnes,  et  .
-Soit  l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet  associée au pixel.
-Soit un seuil  .
-Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction  tel que :</description>
+Définition Soit  , une image composée de   lignes et   colonnes,   et  .
+Soit   l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet   associée au pixel.
+Soit un seuil  .</description>
     </item>
     
     <item>
       <title>Modifier la Bitmap d&#39;une image avec Python 3</title>
-      <link>http://localhost:32871/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
+      <link>http://localhost:46787/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
+      <guid>http://localhost:46787/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
       <description>Une image matricielle, ou « carte de points » (de l&amp;rsquo;anglais bitmap), est une image constituée d&amp;rsquo;une matrice de points colorés. Cela signifie qu&amp;rsquo;elle est constituée d&amp;rsquo;un tableau, d&amp;rsquo;une grille, où chaque case possède une couleur qui lui est propre et est considérée comme un point. (Wikipédia). Saviez-vous qu&amp;rsquo;il était possible de modifier cette bitmap très facilement en Python ? :)
 Télécharger une image Je vous propose de modifier l&amp;rsquo;image que j&amp;rsquo;ai utilisé pour mon article sur l&amp;rsquo;idée reçu des 5 sens : Celle-ci.</description>
     </item>
     
     <item>
       <title>Filtre Sépia d&#39;une image en Python3</title>
-      <link>http://localhost:32871/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</link>
+      <link>http://localhost:46787/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</guid>
+      <guid>http://localhost:46787/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</guid>
       <description>Le filtre Sépia : Le fichier : Vous pouvez trouver le fichier complet ici :
 Les sources : Voir plus : Pour en savoir plus sur la modification de Bitmap en Python, je vous propose cet article, vous y trouverez le moyen de produire le négatif d&amp;rsquo;une image très simplement :).
  Modifier la Bitmap d’une image avec Python 3</description>
@@ -44,10 +42,10 @@ Les sources : Voir plus : Pour en savoir plus sur la modification de Bitmap en P
     
     <item>
       <title>Opération sur les matrices avec numpy en Python</title>
-      <link>http://localhost:32871/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
+      <link>http://localhost:46787/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
+      <guid>http://localhost:46787/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
       <description>Effectuer des calculs sur les matrices est, souvent, une opération fastidieuse et source de nombreuses erreurs. L&amp;rsquo;algorithme naïf de multiplication de matrice possède, par exemple, une complexité cubique, rendant le calcul manuel de grandes matrices vite impossible. Utiliser un ordinateur pour effectuer ce genre de calculs me semble donc une bonne chose à faire. Pour aujourd&amp;rsquo;hui, je vais vous présenter quelques fonctions en python, permettant d&amp;rsquo;effectuer des opérations sur les matrices en juste quelques lignes de codes.</description>
     </item>
     

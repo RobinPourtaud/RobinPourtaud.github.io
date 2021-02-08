@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>notation on DevMath.fr</title>
-    <link>http://localhost:32871/tags/notation/</link>
+    <link>http://localhost:46787/tags/notation/</link>
     <description>Recent content in notation on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/notation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/notation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La notation &#34;?&#34; en mathématique : Termial</title>
-      <link>http://localhost:32871/mathematiques/la-notation-en-mathematique/</link>
+      <link>http://localhost:46787/mathematiques/la-notation-en-mathematique/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/mathematiques/la-notation-en-mathematique/</guid>
+      <guid>http://localhost:46787/mathematiques/la-notation-en-mathematique/</guid>
       <description>Dans son livre &amp;ldquo;The Art of Computer Science&amp;rdquo;, l&amp;rsquo;informaticien Donald Knuth introduisit la notation &amp;ldquo;?&amp;rdquo;. Appelé Termial en anglais, la notation point d&amp;rsquo;interrogation n? représente la somme de tous les entiers naturels inférieurs ou égales à n.
 Nota Bene :  Il faut savoir que cette notation n&amp;rsquo;est pas couramment employée et se doit donc d&amp;rsquo;être utilisée dans le bon contexte. La notation point d&amp;rsquo;interrogation est distincte de la fonction de Minkowski.</description>
     </item>

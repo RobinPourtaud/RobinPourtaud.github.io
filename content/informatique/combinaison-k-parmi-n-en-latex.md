@@ -19,11 +19,11 @@ Combien y a-t-il de possibilités de tirer 3 cartes parmi 13 ? Vous voulez certa
 
 k parmi n peut se noter de la façon suivante :
 
-{{< latex "\quicklatex{size=28}C_n^k " >}}
+{{< latex "C_n^k " >}}
 
 Son code Latex en mode mathématique est tout simplement :
 
-```
+```tex
 C_n^k 
 ```
 
@@ -31,10 +31,10 @@ C_n^k
 
 Notation certainement la plus couramment utilisée pour exprimer le coefficient binomial :
 
-{{< latex "\quicklatex{size=28}\binom{n}{k}" >}}
+{{< latex "\binom{n}{k}" >}}
 
 Son code Latex en mode Mathématique est :
 
-```
+```tex
 \binom{n}{k}
 ```

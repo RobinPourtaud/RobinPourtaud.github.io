@@ -2,719 +2,719 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on DevMath.fr</title>
-    <link>http://localhost:32871/tags/</link>
+    <link>http://localhost:46787/tags/</link>
     <description>Recent content in Tags on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>coefficients-binomiaux</title>
-      <link>http://localhost:32871/tags/coefficients-binomiaux/</link>
+      <link>http://localhost:46787/tags/coefficients-binomiaux/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/coefficients-binomiaux/</guid>
+      <guid>http://localhost:46787/tags/coefficients-binomiaux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>arbre-binaire</title>
-      <link>http://localhost:32871/tags/arbre-binaire/</link>
+      <link>http://localhost:46787/tags/arbre-binaire/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/arbre-binaire/</guid>
+      <guid>http://localhost:46787/tags/arbre-binaire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>latex</title>
-      <link>http://localhost:32871/tags/latex/</link>
+      <link>http://localhost:46787/tags/latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/latex/</guid>
+      <guid>http://localhost:46787/tags/latex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>automate</title>
-      <link>http://localhost:32871/tags/automate/</link>
+      <link>http://localhost:46787/tags/automate/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/automate/</guid>
+      <guid>http://localhost:46787/tags/automate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bit</title>
-      <link>http://localhost:32871/tags/bit/</link>
+      <link>http://localhost:46787/tags/bit/</link>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/bit/</guid>
+      <guid>http://localhost:46787/tags/bit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>logique</title>
-      <link>http://localhost:32871/tags/logique/</link>
+      <link>http://localhost:46787/tags/logique/</link>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/logique/</guid>
+      <guid>http://localhost:46787/tags/logique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>processeur</title>
-      <link>http://localhost:32871/tags/processeur/</link>
+      <link>http://localhost:46787/tags/processeur/</link>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/processeur/</guid>
+      <guid>http://localhost:46787/tags/processeur/</guid>
       <description></description>
     </item>
     
     <item>
       <title>graphe</title>
-      <link>http://localhost:32871/tags/graphe/</link>
+      <link>http://localhost:46787/tags/graphe/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/graphe/</guid>
+      <guid>http://localhost:46787/tags/graphe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>complexite-asymptotique</title>
-      <link>http://localhost:32871/tags/complexite-asymptotique/</link>
+      <link>http://localhost:46787/tags/complexite-asymptotique/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/complexite-asymptotique/</guid>
+      <guid>http://localhost:46787/tags/complexite-asymptotique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>analyse-complexe</title>
-      <link>http://localhost:32871/tags/analyse-complexe/</link>
+      <link>http://localhost:46787/tags/analyse-complexe/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/analyse-complexe/</guid>
+      <guid>http://localhost:46787/tags/analyse-complexe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cercle-trigonometrique</title>
-      <link>http://localhost:32871/tags/cercle-trigonometrique/</link>
+      <link>http://localhost:46787/tags/cercle-trigonometrique/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/cercle-trigonometrique/</guid>
+      <guid>http://localhost:46787/tags/cercle-trigonometrique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jupyter-notebook</title>
-      <link>http://localhost:32871/tags/jupyter-notebook/</link>
+      <link>http://localhost:46787/tags/jupyter-notebook/</link>
       <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/jupyter-notebook/</guid>
+      <guid>http://localhost:46787/tags/jupyter-notebook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>http://localhost:32871/tags/linux/</link>
+      <link>http://localhost:46787/tags/linux/</link>
       <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/linux/</guid>
+      <guid>http://localhost:46787/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>crible</title>
-      <link>http://localhost:32871/tags/crible/</link>
+      <link>http://localhost:46787/tags/crible/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/crible/</guid>
+      <guid>http://localhost:46787/tags/crible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>denombrement</title>
-      <link>http://localhost:32871/tags/denombrement/</link>
+      <link>http://localhost:46787/tags/denombrement/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/denombrement/</guid>
+      <guid>http://localhost:46787/tags/denombrement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ensemble</title>
-      <link>http://localhost:32871/tags/ensemble/</link>
+      <link>http://localhost:46787/tags/ensemble/</link>
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/ensemble/</guid>
+      <guid>http://localhost:46787/tags/ensemble/</guid>
       <description></description>
     </item>
     
     <item>
       <title>loi-de-morgan</title>
-      <link>http://localhost:32871/tags/loi-de-morgan/</link>
+      <link>http://localhost:46787/tags/loi-de-morgan/</link>
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/loi-de-morgan/</guid>
+      <guid>http://localhost:46787/tags/loi-de-morgan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>demonstration</title>
-      <link>http://localhost:32871/tags/demonstration/</link>
+      <link>http://localhost:46787/tags/demonstration/</link>
       <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/demonstration/</guid>
+      <guid>http://localhost:46787/tags/demonstration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nmap</title>
-      <link>http://localhost:32871/tags/nmap/</link>
+      <link>http://localhost:46787/tags/nmap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/nmap/</guid>
+      <guid>http://localhost:46787/tags/nmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>integrale</title>
-      <link>http://localhost:32871/tags/integrale/</link>
+      <link>http://localhost:46787/tags/integrale/</link>
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/integrale/</guid>
+      <guid>http://localhost:46787/tags/integrale/</guid>
       <description></description>
     </item>
     
     <item>
       <title>combinaison</title>
-      <link>http://localhost:32871/tags/combinaison/</link>
+      <link>http://localhost:46787/tags/combinaison/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/combinaison/</guid>
+      <guid>http://localhost:46787/tags/combinaison/</guid>
       <description></description>
     </item>
     
     <item>
       <title>isetl</title>
-      <link>http://localhost:32871/tags/isetl/</link>
+      <link>http://localhost:46787/tags/isetl/</link>
       <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/isetl/</guid>
+      <guid>http://localhost:46787/tags/isetl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tuto</title>
-      <link>http://localhost:32871/tags/tuto/</link>
+      <link>http://localhost:46787/tags/tuto/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/tuto/</guid>
+      <guid>http://localhost:46787/tags/tuto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bing</title>
-      <link>http://localhost:32871/tags/bing/</link>
+      <link>http://localhost:46787/tags/bing/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/bing/</guid>
+      <guid>http://localhost:46787/tags/bing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>seo</title>
-      <link>http://localhost:32871/tags/seo/</link>
+      <link>http://localhost:46787/tags/seo/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/seo/</guid>
+      <guid>http://localhost:46787/tags/seo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wordpress</title>
-      <link>http://localhost:32871/tags/wordpress/</link>
+      <link>http://localhost:46787/tags/wordpress/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/wordpress/</guid>
+      <guid>http://localhost:46787/tags/wordpress/</guid>
       <description></description>
     </item>
     
     <item>
       <title>notation</title>
-      <link>http://localhost:32871/tags/notation/</link>
+      <link>http://localhost:46787/tags/notation/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/notation/</guid>
+      <guid>http://localhost:46787/tags/notation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>analyse</title>
-      <link>http://localhost:32871/tags/analyse/</link>
+      <link>http://localhost:46787/tags/analyse/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/analyse/</guid>
+      <guid>http://localhost:46787/tags/analyse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>trigonometrie</title>
-      <link>http://localhost:32871/tags/trigonometrie/</link>
+      <link>http://localhost:46787/tags/trigonometrie/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/trigonometrie/</guid>
+      <guid>http://localhost:46787/tags/trigonometrie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nombre-complexe</title>
-      <link>http://localhost:32871/tags/nombre-complexe/</link>
+      <link>http://localhost:46787/tags/nombre-complexe/</link>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/nombre-complexe/</guid>
+      <guid>http://localhost:46787/tags/nombre-complexe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ibm-language-translator</title>
-      <link>http://localhost:32871/tags/ibm-language-translator/</link>
+      <link>http://localhost:46787/tags/ibm-language-translator/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/ibm-language-translator/</guid>
+      <guid>http://localhost:46787/tags/ibm-language-translator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>http://localhost:32871/tags/python/</link>
+      <link>http://localhost:46787/tags/python/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/python/</guid>
+      <guid>http://localhost:46787/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>traduction</title>
-      <link>http://localhost:32871/tags/traduction/</link>
+      <link>http://localhost:46787/tags/traduction/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/traduction/</guid>
+      <guid>http://localhost:46787/tags/traduction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hyperbolique</title>
-      <link>http://localhost:32871/tags/hyperbolique/</link>
+      <link>http://localhost:46787/tags/hyperbolique/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/hyperbolique/</guid>
+      <guid>http://localhost:46787/tags/hyperbolique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>numpy</title>
-      <link>http://localhost:32871/tags/numpy/</link>
+      <link>http://localhost:46787/tags/numpy/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/numpy/</guid>
+      <guid>http://localhost:46787/tags/numpy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>apache2</title>
-      <link>http://localhost:32871/tags/apache2/</link>
+      <link>http://localhost:46787/tags/apache2/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/apache2/</guid>
+      <guid>http://localhost:46787/tags/apache2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>htaccess</title>
-      <link>http://localhost:32871/tags/htaccess/</link>
+      <link>http://localhost:46787/tags/htaccess/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/htaccess/</guid>
+      <guid>http://localhost:46787/tags/htaccess/</guid>
       <description></description>
     </item>
     
     <item>
       <title>robots-txt</title>
-      <link>http://localhost:32871/tags/robots-txt/</link>
+      <link>http://localhost:46787/tags/robots-txt/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/robots-txt/</guid>
+      <guid>http://localhost:46787/tags/robots-txt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ms-dos</title>
-      <link>http://localhost:32871/tags/ms-dos/</link>
+      <link>http://localhost:46787/tags/ms-dos/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/ms-dos/</guid>
+      <guid>http://localhost:46787/tags/ms-dos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows-10</title>
-      <link>http://localhost:32871/tags/windows-10/</link>
+      <link>http://localhost:46787/tags/windows-10/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/windows-10/</guid>
+      <guid>http://localhost:46787/tags/windows-10/</guid>
       <description></description>
     </item>
     
     <item>
       <title>zip</title>
-      <link>http://localhost:32871/tags/zip/</link>
+      <link>http://localhost:46787/tags/zip/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/zip/</guid>
+      <guid>http://localhost:46787/tags/zip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conversion</title>
-      <link>http://localhost:32871/tags/conversion/</link>
+      <link>http://localhost:46787/tags/conversion/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/conversion/</guid>
+      <guid>http://localhost:46787/tags/conversion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>systeme-lineaire</title>
-      <link>http://localhost:32871/tags/systeme-lineaire/</link>
+      <link>http://localhost:46787/tags/systeme-lineaire/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/systeme-lineaire/</guid>
+      <guid>http://localhost:46787/tags/systeme-lineaire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>amp</title>
-      <link>http://localhost:32871/tags/amp/</link>
+      <link>http://localhost:46787/tags/amp/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/amp/</guid>
+      <guid>http://localhost:46787/tags/amp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>http://localhost:32871/tags/css/</link>
+      <link>http://localhost:46787/tags/css/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/css/</guid>
+      <guid>http://localhost:46787/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wsl2</title>
-      <link>http://localhost:32871/tags/wsl2/</link>
+      <link>http://localhost:46787/tags/wsl2/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/wsl2/</guid>
+      <guid>http://localhost:46787/tags/wsl2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bitmap</title>
-      <link>http://localhost:32871/tags/bitmap/</link>
+      <link>http://localhost:46787/tags/bitmap/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/bitmap/</guid>
+      <guid>http://localhost:46787/tags/bitmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>matrice</title>
-      <link>http://localhost:32871/tags/matrice/</link>
+      <link>http://localhost:46787/tags/matrice/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/matrice/</guid>
+      <guid>http://localhost:46787/tags/matrice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>algebre</title>
-      <link>http://localhost:32871/tags/algebre/</link>
+      <link>http://localhost:46787/tags/algebre/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/algebre/</guid>
+      <guid>http://localhost:46787/tags/algebre/</guid>
       <description></description>
     </item>
     
     <item>
       <title>google-traduction</title>
-      <link>http://localhost:32871/tags/google-traduction/</link>
+      <link>http://localhost:46787/tags/google-traduction/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/google-traduction/</guid>
+      <guid>http://localhost:46787/tags/google-traduction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jeu</title>
-      <link>http://localhost:32871/tags/jeu/</link>
+      <link>http://localhost:46787/tags/jeu/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/jeu/</guid>
+      <guid>http://localhost:46787/tags/jeu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>limite</title>
-      <link>http://localhost:32871/tags/limite/</link>
+      <link>http://localhost:46787/tags/limite/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/limite/</guid>
+      <guid>http://localhost:46787/tags/limite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lycee</title>
-      <link>http://localhost:32871/tags/lycee/</link>
+      <link>http://localhost:46787/tags/lycee/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/lycee/</guid>
+      <guid>http://localhost:46787/tags/lycee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>c</title>
-      <link>http://localhost:32871/tags/c/</link>
+      <link>http://localhost:46787/tags/c/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/c/</guid>
+      <guid>http://localhost:46787/tags/c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unordered_map</title>
-      <link>http://localhost:32871/tags/unordered_map/</link>
+      <link>http://localhost:46787/tags/unordered_map/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/unordered_map/</guid>
+      <guid>http://localhost:46787/tags/unordered_map/</guid>
       <description></description>
     </item>
     
     <item>
       <title>edt</title>
-      <link>http://localhost:32871/tags/edt/</link>
+      <link>http://localhost:46787/tags/edt/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/edt/</guid>
+      <guid>http://localhost:46787/tags/edt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>google-agenda</title>
-      <link>http://localhost:32871/tags/google-agenda/</link>
+      <link>http://localhost:46787/tags/google-agenda/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/google-agenda/</guid>
+      <guid>http://localhost:46787/tags/google-agenda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iftt</title>
-      <link>http://localhost:32871/tags/iftt/</link>
+      <link>http://localhost:46787/tags/iftt/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/iftt/</guid>
+      <guid>http://localhost:46787/tags/iftt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mail</title>
-      <link>http://localhost:32871/tags/mail/</link>
+      <link>http://localhost:46787/tags/mail/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/mail/</guid>
+      <guid>http://localhost:46787/tags/mail/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mysql</title>
-      <link>http://localhost:32871/tags/mysql/</link>
+      <link>http://localhost:46787/tags/mysql/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/mysql/</guid>
+      <guid>http://localhost:46787/tags/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>php</title>
-      <link>http://localhost:32871/tags/php/</link>
+      <link>http://localhost:46787/tags/php/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/php/</guid>
+      <guid>http://localhost:46787/tags/php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>raspberry-pi</title>
-      <link>http://localhost:32871/tags/raspberry-pi/</link>
+      <link>http://localhost:46787/tags/raspberry-pi/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/raspberry-pi/</guid>
+      <guid>http://localhost:46787/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>raspbian</title>
-      <link>http://localhost:32871/tags/raspbian/</link>
+      <link>http://localhost:46787/tags/raspbian/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/raspbian/</guid>
+      <guid>http://localhost:46787/tags/raspbian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>server-http</title>
-      <link>http://localhost:32871/tags/server-http/</link>
+      <link>http://localhost:46787/tags/server-http/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/server-http/</guid>
+      <guid>http://localhost:46787/tags/server-http/</guid>
       <description></description>
     </item>
     
     <item>
       <title>somme</title>
-      <link>http://localhost:32871/tags/somme/</link>
+      <link>http://localhost:46787/tags/somme/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/somme/</guid>
+      <guid>http://localhost:46787/tags/somme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>universite</title>
-      <link>http://localhost:32871/tags/universite/</link>
+      <link>http://localhost:46787/tags/universite/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/universite/</guid>
+      <guid>http://localhost:46787/tags/universite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>debian</title>
-      <link>http://localhost:32871/tags/debian/</link>
+      <link>http://localhost:46787/tags/debian/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/debian/</guid>
+      <guid>http://localhost:46787/tags/debian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>algebre-2</title>
-      <link>http://localhost:32871/tags/algebre-2/</link>
+      <link>http://localhost:46787/tags/algebre-2/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/algebre-2/</guid>
+      <guid>http://localhost:46787/tags/algebre-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>valeurs-propres</title>
-      <link>http://localhost:32871/tags/valeurs-propres/</link>
+      <link>http://localhost:46787/tags/valeurs-propres/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/valeurs-propres/</guid>
+      <guid>http://localhost:46787/tags/valeurs-propres/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vecteurs-propres</title>
-      <link>http://localhost:32871/tags/vecteurs-propres/</link>
+      <link>http://localhost:46787/tags/vecteurs-propres/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/vecteurs-propres/</guid>
+      <guid>http://localhost:46787/tags/vecteurs-propres/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cholesky</title>
-      <link>http://localhost:32871/tags/cholesky/</link>
+      <link>http://localhost:46787/tags/cholesky/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/cholesky/</guid>
+      <guid>http://localhost:46787/tags/cholesky/</guid>
       <description></description>
     </item>
     
     <item>
       <title>decomposition</title>
-      <link>http://localhost:32871/tags/decomposition/</link>
+      <link>http://localhost:46787/tags/decomposition/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/decomposition/</guid>
+      <guid>http://localhost:46787/tags/decomposition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>binaire</title>
-      <link>http://localhost:32871/tags/binaire/</link>
+      <link>http://localhost:46787/tags/binaire/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/binaire/</guid>
+      <guid>http://localhost:46787/tags/binaire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>binary</title>
-      <link>http://localhost:32871/tags/binary/</link>
+      <link>http://localhost:46787/tags/binary/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/binary/</guid>
+      <guid>http://localhost:46787/tags/binary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>decimal</title>
-      <link>http://localhost:32871/tags/decimal/</link>
+      <link>http://localhost:46787/tags/decimal/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/decimal/</guid>
+      <guid>http://localhost:46787/tags/decimal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hexadecimal</title>
-      <link>http://localhost:32871/tags/hexadecimal/</link>
+      <link>http://localhost:46787/tags/hexadecimal/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/hexadecimal/</guid>
+      <guid>http://localhost:46787/tags/hexadecimal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>float</title>
-      <link>http://localhost:32871/tags/float/</link>
+      <link>http://localhost:46787/tags/float/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/float/</guid>
+      <guid>http://localhost:46787/tags/float/</guid>
       <description></description>
     </item>
     
     <item>
       <title>float32</title>
-      <link>http://localhost:32871/tags/float32/</link>
+      <link>http://localhost:46787/tags/float32/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/float32/</guid>
+      <guid>http://localhost:46787/tags/float32/</guid>
       <description></description>
     </item>
     
     <item>
       <title>optimisation-informatique</title>
-      <link>http://localhost:32871/tags/optimisation-informatique/</link>
+      <link>http://localhost:46787/tags/optimisation-informatique/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/tags/optimisation-informatique/</guid>
+      <guid>http://localhost:46787/tags/optimisation-informatique/</guid>
       <description></description>
     </item>
     

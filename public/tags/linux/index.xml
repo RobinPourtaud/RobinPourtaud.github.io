@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on DevMath.fr</title>
-    <link>http://localhost:32871/tags/linux/</link>
+    <link>http://localhost:46787/tags/linux/</link>
     <description>Recent content in linux on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 29 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:32871/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46787/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jupyter Lab gratuit avec Oracle Cloud</title>
-      <link>http://localhost:32871/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</link>
+      <link>http://localhost:46787/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</link>
       <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</guid>
+      <guid>http://localhost:46787/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</guid>
       <description>Gratuitement, de grandes entreprises (Google, IBM, Microsoft, &amp;hellip;) proposent un accès à leur Jupyter Notebook. Jupyter Lab, cependant, ne fait pas partie de leurs offres gratuites (sans durée limitée et sans restriction conséquentes). C&amp;rsquo;est dans cette optique que j&amp;rsquo;ai découvert l&amp;rsquo;accès &amp;ldquo;Always free&amp;rdquo; de Oracle, nous permettant aisément de créer notre Jupyter Lab personnel&amp;hellip;
 Résumé Oracle propose depuis bientôt un an une offre appelée &amp;ldquo; Always Free&amp;rdquo;. Celle-ci comprend :</description>
     </item>
     
     <item>
       <title>Lister tous les ports ouverts d&#39;un ordinateur avec nmap</title>
-      <link>http://localhost:32871/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</link>
+      <link>http://localhost:46787/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</guid>
+      <guid>http://localhost:46787/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</guid>
       <description>Pour des raisons de sécurité, de recherche ou tout simplement de curiosité, il peut être nécessaire de scanner une ip pour en extraire une liste de ports ouverts. Ce tutoriel présente la façon, à ma connaissance, la plus rapide et la plus simple d&amp;rsquo;accomplir cette tâche grâce à nmap.
 Installer nmap Pour ce tutoriel, nous utiliserons le programme nmap. Pour l&amp;rsquo;installer, rien de très compliqué :
 Sous une distribution basée sur Debian :</description>
@@ -30,19 +30,19 @@ Sous une distribution basée sur Debian :</description>
     
     <item>
       <title>WSL et USB</title>
-      <link>http://localhost:32871/informatique/wsl-et-usb/</link>
+      <link>http://localhost:46787/informatique/wsl-et-usb/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/wsl-et-usb/</guid>
+      <guid>http://localhost:46787/informatique/wsl-et-usb/</guid>
       <description>Monter une Partition Fat32/Fat ou NFSF Monter une partition ext4 ou ext2 Monter une partition ext4 protégé LUKS </description>
     </item>
     
     <item>
       <title>Wsl2</title>
-      <link>http://localhost:32871/informatique/keske-cest-wsl2/</link>
+      <link>http://localhost:46787/informatique/keske-cest-wsl2/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:32871/informatique/keske-cest-wsl2/</guid>
+      <guid>http://localhost:46787/informatique/keske-cest-wsl2/</guid>
       <description>Vous souhaitez savoir comment installer Windows Subsystem for Linux 2 ? Et utiliser Debian ou Ubuntu comme distribution ? Voici un article pour vous guider.
  Windows Subsystem for Linux (WSL) est une couche de compatibilité permettant d&amp;rsquo;exécuter des exécutables binaires Linux (au format ELF) de manière native sur Windows 10 et Windows Server 2019.
  fr.wikipedia.org
