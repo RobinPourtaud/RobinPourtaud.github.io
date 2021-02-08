@@ -5,7 +5,7 @@ paginate = 10
 description = "DevMath est un site d'informatique et de matématiques crée par un étudiant pour les étudiants."
 pygmentsUseClasses = true
 theme = "amperage"
-targetPath = "themes/amperage/assets"
+targetPath = "assets"
 staticDir = ["static","themes/amperage/assets"]
 contentDir = "content"
 [languages.fr]
