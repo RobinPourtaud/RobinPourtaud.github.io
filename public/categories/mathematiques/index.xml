@@ -2,52 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mathematiques on DevMath.fr</title>
-    <link>http://localhost:38561/categories/mathematiques/</link>
+    <link>http://localhost:1313/categories/mathematiques/</link>
     <description>Recent content in mathematiques on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/categories/mathematiques/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Coefficient binomial (k parmi n)</title>
-      <link>http://localhost:38561/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</link>
-      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:38561/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</guid>
-      <description>Prérequis : La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté &amp;ldquo;!&amp;rdquo;, le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
-  Pour prendre plusieurs exemples :
-        Pour finir, prenez en compte que 0! = 1. Vous pouvez en savoir plus ici si vous êtes curieux :
- Pourquoi 0 factoriel est égale à 1 ?</description>
-    </item>
-    
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/mathematiques/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ensembles mathématiques usuels (majuscules ajourées) - Latex</title>
-      <link>http://localhost:38561/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</link>
+      <link>http://localhost:1313/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</guid>
+      <guid>http://localhost:1313/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</guid>
       <description>Ajourer une majuscule : Pour ajourer une majuscule (mettre une majuscule sous forme usuelle des ensembles) en Latex, il suffit d&amp;rsquo;importer amsfonts :
 \usepackage{amsfonts} Vous pouvez ainsi via &amp;ldquo;mathbb&amp;rdquo; afficher les majuscules que vous souhaitez :
 \mathbb{R} Ce qui nous donne :
-  Tableau récapitulatif Ce tableau liste quelques utilisation commune des majuscules ajourés en mathématique :
-EnsembleCode LatexAffichageBiquaternion\mathbb{B}  Ensemble des nombres complexes\mathbb{C}  Ensemble des nombres décimaux\mathbb{D}  Espérance mathématique\mathbb{E}  Quaternion\mathbb{H}  Corps\mathbb{K}  Quaternion Hyperbolique\mathbb{M}  Ensemble des entiers naturels\mathbb{N}  Octonion\mathbb{O}  Ensemble des nombres premiers / Probabilité\mathbb{P}  Ensemble des nombres rationnels\mathbb{Q}  Ensemble des nombres réels\mathbb{R}  Sédénion\mathbb{S}  Ensembles des entiers relatifs\mathbb{Z}   Majuscules ajourés</description>
+$\mathbb{R}$
+Tableau récapitulatif Ce tableau liste quelques utilisation commune des majuscules ajourés en mathématique :
+EnsembleCode LatexAffichageBiquaternion\mathbb{B}$\mathbb{B}$Ensemble des nombres complexes\mathbb{C}$\mathbb{C}$Ensemble des nombres décimaux\mathbb{D}$\mathbb{D}$Espérance mathématique\mathbb{E}$\mathbb{E}$Quaternion\mathbb{H}$\mathbb{H}$Corps\mathbb{K}$\mathbb{K}$Quaternion Hyperbolique\mathbb{M}$\mathbb{M}$Ensemble des entiers naturels\mathbb{N}$\mathbb{N}$Octonion\mathbb{O}$\mathbb{O}$Ensemble des nombres premiers / Probabilité\mathbb{P}$\mathbb{P}$Ensemble des nombres rationnels\mathbb{Q}$\mathbb{Q}$Ensemble des nombres réels\mathbb{R}$\mathbb{R}$Sédénion\mathbb{S}$\mathbb{S}$Ensembles des entiers relatifs\mathbb{Z}$\mathbb{Z}$ Majuscules ajourés</description>
     </item>
     
     <item>
       <title>Espacement en mode mathématique - Latex</title>
-      <link>http://localhost:38561/informatique/espacement-en-mode-mathematique-latex/</link>
+      <link>http://localhost:1313/informatique/espacement-en-mode-mathematique-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/espacement-en-mode-mathematique-latex/</guid>
+      <guid>http://localhost:1313/informatique/espacement-en-mode-mathematique-latex/</guid>
       <description>Tableau récapitulatif des espacements horizontaux : Commentaire : Certains espacements sont exprimés en &amp;ldquo;mu&amp;rdquo; (math unit). 1 mu = 1/18 em = 0.2 mm environ (habituellement).
-Formule LatexRésultatDescriptiona \, b Taille = 3 mua \: b Taille = 4 mua \; Taille = 5 mua \! Taille = -3 mua \ b Taille = 3 mua ~ b Taille = 3 mu (insécable)a \quad b Taille = 18 mua \qquad b Taille = 36 mua \hspace{1cm} b Taille = 1 cm Espacements - Latex</description>
+Formule LatexRésultatDescriptiona \, b$a \, b$Taille = 3 mua \: b$a \: b$Taille = 4 mua \;$a \; b$Taille = 5 mua \!$a \! b$Taille = -3 mua \ b$a \ b$Taille = 3 mua ~ b$a~b$Taille = 3 mu (insécable)a \quad b$a \quad b$Taille = 18 mua \qquad b$a \qquad b$Taille = 36 mua \hspace{1cm} b$a \hspace{1cm} b$Taille = 1 cm Espacements - Latex</description>
     </item>
     
     <item>
       <title>Fonction Indicatrice / Fonction caractéristique - Latex</title>
-      <link>http://localhost:38561/informatique/fonction-indicatrice-fonction-caracteristique-latex/</link>
+      <link>http://localhost:1313/informatique/fonction-indicatrice-fonction-caracteristique-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/fonction-indicatrice-fonction-caracteristique-latex/</guid>
+      <guid>http://localhost:1313/informatique/fonction-indicatrice-fonction-caracteristique-latex/</guid>
       <description>Package requis Il existe plusieurs paquets permettant de générer un &amp;ldquo;1 ajouré&amp;rdquo;. On peut retrouver dsfont notamment. Pour cet article, nous utiliserons le package bbold
 \usepackage{bbold} Le package amsfonts ne permet pas de générer un 1 ajouré, vous obtiendrez ce symbole :
  
@@ -59,50 +48,56 @@ D&amp;rsquo;autres articles sur Latex Retrouvez l&amp;rsquo;ensemble de nos arti
     
     <item>
       <title>Exercice corrigé : Simplification de formules Booléennes</title>
-      <link>http://localhost:38561/informatique/exercice-corrige-simplification-de-formules-booleennes/</link>
+      <link>http://localhost:1313/informatique/exercice-corrige-simplification-de-formules-booleennes/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/exercice-corrige-simplification-de-formules-booleennes/</guid>
+      <guid>http://localhost:1313/informatique/exercice-corrige-simplification-de-formules-booleennes/</guid>
       <description>Exercices : Simplifiez au maximum ces formules logiques algébriquement :
-Formule 1   Formule 2   Formule 3   Formule 4   Formule 5   Indices : Formule 1 Il faut utiliser 2 fois la propriété :  .
-Formule 2 Il faut utiliser 2 fois la propriété  .
-Une fois  .
+Formule 1 $ABC+\overline{A}+\overline{C}$
+Formule 2 $\overline{A}B+C\overline{A}D+\overline{B}+\overline{D}$
+Formule 3 $\overline{\overline{A+D}.\overline{\overline{C}+\overline{B}}+C}$
+Formule 4 $(A+\overline{AB}+C\overline{AB})(A+B\overline{A}+\overline{B})$
+Formule 5 $A\overline{C} + AB\overline{C}+B\overline{C}+\overline{A}B$
+Indices : Formule 1 Il faut utiliser 2 fois la propriété : $\overline{A}+AB = \overline{A}+B$.
+Formule 2 Il faut utiliser 2 fois la propriété $\overline{A}+AB = \overline{A}+B$.
+Une fois $A + AB = A(1+B) = A$.
 Formule 3 Ce développement a pour but de vous faire réviser le théorème de Morgan.</description>
     </item>
     
     <item>
       <title>Définition : NFF-Sat</title>
-      <link>http://localhost:38561/informatique/definition-nff-sat/</link>
+      <link>http://localhost:1313/informatique/definition-nff-sat/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/definition-nff-sat/</guid>
+      <guid>http://localhost:1313/informatique/definition-nff-sat/</guid>
       <description>Un peu de vocabulaire : Définition : Forme normale négative On dit d&amp;rsquo;une formule logique, qu&amp;rsquo;elle est en forme normale négative (FNN) si :
  Les négations se trouvent uniquement sur les littéraux. En plus de l&amp;rsquo;opérateur de négation, seul l&amp;rsquo;opérateur de conjonction (&amp;ldquo;et&amp;rdquo;) et de disjonction (&amp;ldquo;ou&amp;rdquo;) est autorisé.  Pour prendre un exemple :
-    n&amp;rsquo;est pas sous forme normale négative.    est sous forme normale négative.</description>
+ $\overline{A \wedge B}$ n&amp;rsquo;est pas sous forme normale négative. $\overline{A}\wedge B$ est sous forme normale négative.</description>
     </item>
     
     <item>
       <title>Racine carrée de i</title>
-      <link>http://localhost:38561/mathematiques/racine-carree-de-i/</link>
+      <link>http://localhost:1313/mathematiques/racine-carree-de-i/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/racine-carree-de-i/</guid>
-      <description>La méthode : Soit  .
- On réécrit z :    Cherchons à écrire i en écriture exponentielle :
-Nous savons que  . Pour obtenir i, il faut donc que   et   soit respectivement égaux à 0 et 1.
+      <guid>http://localhost:1313/mathematiques/racine-carree-de-i/</guid>
+      <description>La méthode : Soit $z=\sqrt{i}$.
+ On réécrit z :  $z=i^{\frac{1}{2}}$
+Cherchons à écrire i en écriture exponentielle :
+Nous savons que $e^{i \theta}=cos(\theta)+i sin(\theta)$. Pour obtenir i, il faut donc que $cos(\theta)$ et $sin(\theta)$ soit respectivement égaux à 0 et 1.
  
 Source : Cercle Trigonométrique - Wikipédia
-En utilisant ce tableau, nous pouvons voir qu&amp;rsquo;un angle de   serait parfait ! (Utiliser un cercle trigonométrique ou partir de la forme algébrique aurait également été possible pour trouver la forme exponentielle de i).</description>
+En utilisant ce tableau, nous pouvons voir qu&amp;rsquo;un angle de $\frac{\pi}{2}$ serait parfait ! (Utiliser un cercle trigonométrique ou partir de la forme algébrique aurait également été possible pour trouver la forme exponentielle de i).</description>
     </item>
     
     <item>
       <title>Formule de Sylvester</title>
-      <link>http://localhost:38561/mathematiques/formule-de-sylvester/</link>
+      <link>http://localhost:1313/mathematiques/formule-de-sylvester/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/formule-de-sylvester/</guid>
+      <guid>http://localhost:1313/mathematiques/formule-de-sylvester/</guid>
       <description>Identité : La formule de Sylvester est la suivante :
-  \quicklatex{size=23}#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i}\right)  
+$$\quicklatex{size=23}#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i}\right)$$
 Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :
  Formule du crible - Wikiversity
 En savoir plus - sources :   Inclusion–exclusion principle for belief functions  Prepacom.net Dénombrer  Formule du crible - Wikiversity  formule du crible de Da Silva et Sylvester - les-mathematiques.</description>
@@ -110,10 +105,10 @@ En savoir plus - sources :   Inclusion–exclusion principle for belief function
     
     <item>
       <title>Démonstration : Toutes les puissances de 6 finissent par un 6</title>
-      <link>http://localhost:38561/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</link>
+      <link>http://localhost:1313/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</link>
       <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</guid>
+      <guid>http://localhost:1313/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</guid>
       <description>Intuition : 6 puissance 1 est 6, 6 puissance 2 36, 6 puissance 3 216. Pour aller plus vite je vous propose ce code python :
 for i in range(1,20) : print(&amp;quot;6 puissance &amp;quot; + str(i) + &amp;quot; est égale à &amp;quot; + str(6**i)) A l&amp;rsquo;exécution, nous avons :
  
@@ -123,157 +118,171 @@ Bien que très persuasif, ce n&amp;rsquo;est pas suffisant pour considérer cett
     
     <item>
       <title>Pourquoi 0!=1 ?</title>
-      <link>http://localhost:38561/mathematiques/pourquoi-01/</link>
+      <link>http://localhost:1313/mathematiques/pourquoi-01/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/pourquoi-01/</guid>
-      <description>Définition : &amp;ldquo;Factoriel&amp;rdquo; En dénombrement, le factoriel d&amp;rsquo;un entier naturel &amp;ldquo;n&amp;rdquo; est égal au produit des entiers naturels appartenant à  . Autrement dit :
-  Pourquoi 0! est égal à 1 ? Depuis la définition du factoriel Repartons de la définition :
-  Autrement dit  . Cependant, si on prend  , nous obtenons l&amp;rsquo;égalité  . Le factoriel de -1 étant indéfini&amp;hellip;
-Néanmoins :
-  .</description>
+      <guid>http://localhost:1313/mathematiques/pourquoi-01/</guid>
+      <description>Définition : &amp;ldquo;Factoriel&amp;rdquo; En dénombrement, le factoriel d&amp;rsquo;un entier naturel &amp;ldquo;n&amp;rdquo; est égal au produit des entiers naturels appartenant à $]0;n]$. Autrement dit :
+$\quicklatex{size=20} n! = \prod^n_{i=1} i = 1 \times 2 \times \ldots \times (n-1) \times n$
+Pourquoi 0! est égal à 1 ? Depuis la définition du factoriel Repartons de la définition :
+$\quicklatex{size=20}n! = 1 \times \ldots \times (n-1) \times n!$
+Autrement dit $n! = n \times (n-1)!</description>
     </item>
     
     <item>
       <title>DI Method / Intégration tabulaire</title>
-      <link>http://localhost:38561/mathematiques/di-method-integration-tabulaire/</link>
+      <link>http://localhost:1313/mathematiques/di-method-integration-tabulaire/</link>
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/di-method-integration-tabulaire/</guid>
+      <guid>http://localhost:1313/mathematiques/di-method-integration-tabulaire/</guid>
       <description>Exemple d&amp;rsquo;utilisation : Pour introduire la DI Method, nous nous servirons de 2 exemples :
 Exemple 1 On souhaite résoudre l&amp;rsquo;intégrale :
-  Création du tableau Comme pour l&amp;rsquo;intégration par partie, nous choisissons quel facteur de l&amp;rsquo;intégrale nous souhaitons intégrer et quel facteur nous souhaitons dériver. Dans notre cas, nous dériverons   et intégrerons  .
-LigneSigneDI1+    2-    3+    4-     Tableau de la méthode d&amp;rsquo;intégration tabulaire</description>
+$\quicklatex{size=22}\int cos(x) x^2 dx$
+Création du tableau Comme pour l&amp;rsquo;intégration par partie, nous choisissons quel facteur de l&amp;rsquo;intégrale nous souhaitons intégrer et quel facteur nous souhaitons dériver. Dans notre cas, nous dériverons $x^2$ et intégrerons $cos(x)$.
+LigneSigneDI1+$x^2$$cos(x)$2-$2x$$sin(x)$3+$2$$-cos(x)$4-$0$$-sin(x)$ Tableau de la méthode d&amp;rsquo;intégration tabulaire
+Dans la colonne signe, nous alternons le signe positif et négatif.</description>
     </item>
     
     <item>
       <title>Démonstration : Somme des k parmi n</title>
-      <link>http://localhost:38561/mathematiques/demonstration-somme-des-k-parmi-n/</link>
+      <link>http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
+      <guid>http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
       <description>Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
-  Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe. Elle s&amp;rsquo;appuiera sur la formule du binôme de Newton :
-  Si nous prenons   et  , alors obtenons l&amp;rsquo;égalité :
-  Ce qui nous donne :
-  Démonstration 2 : Cette deuxième démonstration s&amp;rsquo;appuie sur la définition exprimant le cardinal de l&amp;rsquo;ensemble des parties d&amp;rsquo;un ensemble quelconque comme étant égal à 2 à la puissance du cardinal de l&amp;rsquo;ensemble.</description>
+$\sum_{k=0}^n {n \choose k}= 2^n$
+Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe. Elle s&amp;rsquo;appuiera sur la formule du binôme de Newton :
+$\quicklatex{size=22}\sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n$
+Si nous prenons $x = 1$ et $y=1$, alors obtenons l&amp;rsquo;égalité :
+$\quicklatex{size=22}\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$</description>
     </item>
     
     <item>
       <title>La notation &#34;?&#34; en mathématique : Termial</title>
-      <link>http://localhost:38561/mathematiques/la-notation-en-mathematique/</link>
+      <link>http://localhost:1313/mathematiques/la-notation-en-mathematique/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/la-notation-en-mathematique/</guid>
+      <guid>http://localhost:1313/mathematiques/la-notation-en-mathematique/</guid>
       <description>Nota Bene :  Il faut savoir que cette notation n&amp;rsquo;est pas couramment employée et se doit donc d&amp;rsquo;être utilisée dans le bon contexte. La notation point d&amp;rsquo;interrogation est distincte de la fonction de Minkowski. Je n&amp;rsquo;ai pas trouvé de traduction pour &amp;ldquo;Termial&amp;rdquo; en français.  Définition : Le Termial est présenté par Knuth comme une fonction analogue à la fonction factorielle &amp;ldquo;!&amp;rdquo;.
-La fonction factorielle étant définie   par :</description>
+La fonction factorielle étant définie $\forall n \in \mathbb{N}$ par :</description>
     </item>
     
     <item>
       <title>Résolution complexe : cos(x)sin(x)=1</title>
-      <link>http://localhost:38561/mathematiques/resolution-complexe-cosxsinx1/</link>
+      <link>http://localhost:1313/mathematiques/resolution-complexe-cosxsinx1/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/resolution-complexe-cosxsinx1/</guid>
-      <description>Exercice : Dans   et dans  , résoudre :
-  Résolution : 1 - Recherche d&amp;rsquo;une solution dans R Soit la formule de trigonométrie suivante :
-  Alors :
-  Nous pouvons reprendre l&amp;rsquo;équation :
-  Elle est donc équivalente à :
-  Comme  .
+      <guid>http://localhost:1313/mathematiques/resolution-complexe-cosxsinx1/</guid>
+      <description>Exercice : Dans $\mathbb{R}$ et dans $\mathbb{C}$, résoudre :
+$\cos x \sin x = 1$
+Résolution : 1 - Recherche d&amp;rsquo;une solution dans R Soit la formule de trigonométrie suivante :
+$2sin(x)cos(x)=sin(2x)$
+Alors :
+$sin(x)cos(x)=\frac{sin(2x)}{2}$
+Nous pouvons reprendre l&amp;rsquo;équation :
+$cos(x)sin(x)=1$
+Elle est donc équivalente à :
+$sin(2x) = 2$
+Comme $\forall x \in \mathbb{R} &amp;amp; sin(x) \in [0,1]$.
 Cette équation n&amp;rsquo;admet donc pas de solution dans R.
-2 - Introduction des formules d&amp;rsquo;Euler Continuons dans   :</description>
+2 - Introduction des formules d&amp;rsquo;Euler Continuons dans $\mathbb{C}$ :</description>
     </item>
     
     <item>
       <title>Démonstration : cos(x)²&#43;sin(x)²=1</title>
-      <link>http://localhost:38561/mathematiques/demonstration-cosxsinx1/</link>
+      <link>http://localhost:1313/mathematiques/demonstration-cosxsinx1/</link>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/demonstration-cosxsinx1/</guid>
+      <guid>http://localhost:1313/mathematiques/demonstration-cosxsinx1/</guid>
       <description>Avec le théorème de Pythagore : Le théorème : En géométrie euclidienne, le théorème de pythagore met en relation dans un triangle rectangle, les 2 plus petits cotés avec l&amp;rsquo;hypothénuse :
  
 Triangle Rectangle
-La célèbre relation est la suivante :  .
+La célèbre relation est la suivante : $a^2+b^2=c^2$.
 Démonstration : En reprenant les formules vu en 3ème, on a :
-   et  
+$\sin \alpha = \frac{a}{c}$ et $\cos \alpha = \frac{b}{c}$
 Cela nous donne donc :
-   et</description>
+$a = \sin \alpha \times c$ et $b = \cos \alpha \times c$</description>
     </item>
     
     <item>
       <title>Coefficient binomial - k parmi n en Latex</title>
-      <link>http://localhost:38561/informatique/combinaison-k-parmi-n-en-latex/</link>
+      <link>http://localhost:1313/informatique/combinaison-k-parmi-n-en-latex/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/combinaison-k-parmi-n-en-latex/</guid>
+      <guid>http://localhost:1313/informatique/combinaison-k-parmi-n-en-latex/</guid>
       <description>Notation &amp;ldquo;Française&amp;rdquo; : k parmi n peut se noter de la façon suivante :
-  Son code Latex en mode mathématique est tout simplement :
+$C_n^k $
+Son code Latex en mode mathématique est tout simplement :
 C_n^k Notation &amp;ldquo;Anglo-Saxonne&amp;rdquo; : Notation certainement la plus couramment utilisée pour exprimer le coefficient binomial :
-  Son code Latex en mode Mathématique est :
+$\binom{n}{k}$
+Son code Latex en mode Mathématique est :
 \binom{n}{k} </description>
     </item>
     
     <item>
       <title>Partie entière supérieure et inférieure en Latex</title>
-      <link>http://localhost:38561/informatique/partie-entiere-superieur-et-inferieur-en-latex/</link>
+      <link>http://localhost:1313/informatique/partie-entiere-superieur-et-inferieur-en-latex/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/partie-entiere-superieur-et-inferieur-en-latex/</guid>
-      <description>Partie entière supérieure en LaTex : Pour prendre la partie entière supérieure d&amp;rsquo;un entier   en Latex, il suffit de taper ceci :
+      <guid>http://localhost:1313/informatique/partie-entiere-superieur-et-inferieur-en-latex/</guid>
+      <description>Partie entière supérieure en LaTex : Pour prendre la partie entière supérieure d&amp;rsquo;un entier $x$ en Latex, il suffit de taper ceci :
 \lceil x \rceil Voici le résultat :
-  Partie entière inférieure en LaTex : La partie entière inférieure en Latex d&amp;rsquo;un entier   se fait de façon analogue à celle supérieure :
+$\lceil x \rceil$
+Partie entière inférieure en LaTex : La partie entière inférieure en Latex d&amp;rsquo;un entier $x$ se fait de façon analogue à celle supérieure :
 \lfloor x \rfloor Voilà son rendu :
-  Raccourcir son utilisation avec une macro?</description>
+$\lfloor x \rfloor$
+Raccourcir son utilisation avec une macro?</description>
     </item>
     
     <item>
       <title>3 manières de calculer Pi en Python 3</title>
-      <link>http://localhost:38561/informatique/3-manieres-de-calculer-pi-en-python-3/</link>
+      <link>http://localhost:1313/informatique/3-manieres-de-calculer-pi-en-python-3/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/3-manieres-de-calculer-pi-en-python-3/</guid>
+      <guid>http://localhost:1313/informatique/3-manieres-de-calculer-pi-en-python-3/</guid>
       <description>Définition de Pi : Pi est certainement la constante mathématique la plus connu. Enseigné à l&amp;rsquo;école primaire, elle est notamment utilisé pour calculer le périmètre d&amp;rsquo;un cercle grâce à son rayon :
 Soit P le périmètre du cercle et R son rayon, alors :
-  Autrement dit :  
-Mais on peut aussi la retrouver dans de nombreuses autre formules !
- La célèbre formule d&amp;rsquo;Euler :   La formule de Riemann :   La formule de Stirling :   Le sinus intégral sur   &amp;hellip;.</description>
+$P = 2 \times \pi \times R$
+Autrement dit : $\pi = \frac{P}{2\times R}$
+Mais on peut aussi la retrouver dans de nombreuses autre formules !</description>
     </item>
     
     <item>
       <title>ISETL - Fonctions Mathématiques</title>
-      <link>http://localhost:38561/informatique/isetl-fonction-mathematiques/</link>
+      <link>http://localhost:1313/informatique/isetl-fonction-mathematiques/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/isetl-fonction-mathematiques/</guid>
+      <guid>http://localhost:1313/informatique/isetl-fonction-mathematiques/</guid>
       <description>Prérequis : Il est bien sur nécessaire d&amp;rsquo;avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n&amp;rsquo;est pas le cas, je vous renvoie vers mon article :
  ISETL 3.0 sur Windows 10
-Liste de fonctions mathématiques ISETL : Soit   et  , deux réels quelconques :
-Fonction ISETLFonction mathématiquesabs(x)  exp(x)  ceil(x)  floor(x)  ln(x)  log(x)  max(x,y)  min(x,y)  sgn(x)  sqrt(x)   Fonctions Mathématiques ISETL</description>
+Liste de fonctions mathématiques ISETL : Soit $x$ et $y$, deux réels quelconques :
+Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rceil$floor(x)$\lfloor x \rfloor$ln(x)$\ln x$log(x)$\log x $max(x,y)$\max (x,y)$min(x,y)$\min (x,y)$sgn(x)$\left\{\begin{array}{rcr} 1 &amp;amp; si &amp;amp; x&amp;gt;0 \ 0 &amp;amp; si &amp;amp; x = 0 \ -1 &amp;amp; si &amp;amp; x&amp;lt;0 \ \end{array}\right.</description>
     </item>
     
     <item>
       <title>Accolades Verticales/Horizontales en LaTeX</title>
-      <link>http://localhost:38561/informatique/accolades-verticales-horizontales-en-latex/</link>
+      <link>http://localhost:1313/informatique/accolades-verticales-horizontales-en-latex/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/accolades-verticales-horizontales-en-latex/</guid>
+      <guid>http://localhost:1313/informatique/accolades-verticales-horizontales-en-latex/</guid>
       <description>Faut-il encore savoir le faire&amp;hellip;
 Accolades horizontales Accolades sur du texte Pour afficher une accolade sur du texte, il suffit d&amp;rsquo;utiliser \overbrace comme ceci :
 Code LaTex :
 5+5 = \overbrace{10_{10}}^{1010_2} Rendu :
-  Accolades sous du texte La commande analogue à \overbrace est \underbrace.
+$5+5 = \overbrace{10_{10}}^{1010_2}$
+Accolades sous du texte La commande analogue à \overbrace est \underbrace.
 Code LaTeX :
 5+5 = \underbrace{10_{10}}_{1010_2} Rendu :
-  Accolades verticales Pour afficher une accolade verticale sur le coté gauche d&amp;rsquo;un texte, il suffit d&amp;rsquo;utiliser la commande suivante :</description>
+$5+5 = \underbrace{10_{10}}_{1010_2}$
+Accolades verticales Pour afficher une accolade verticale sur le coté gauche d&amp;rsquo;un texte, il suffit d&amp;rsquo;utiliser la commande suivante :</description>
     </item>
     
     <item>
       <title>Opération sur les matrices avec numpy en Python</title>
-      <link>http://localhost:38561/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
+      <link>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
+      <guid>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
       <description>Importer numpy Avant toute chose, pour effectuer des calculs scientifiques, vous devez importer la bibliothèque numpy.
 import numpy as np Addition et Multiplication de Matrices M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) M2 = np.array([ [1.,1.,1.], [1.,2.,1.], [1.,1.,1.]]) MResultAdd = np.add(M1,M2) MResultSous = np.subtract(M1,M2) MResultMulti = M1.dot(M2) Trace de Matrices La trace d&amp;rsquo;une matrice est la somme des valeurs de la diagonale de la matrice.
 M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le calcul du déterminant d&amp;rsquo;une matrice est un outil nécessaire en algèbre linéaire afin de vérifier une inversibilité ou pour calculer l&amp;rsquo;inverse d&amp;rsquo;une matrice.</description>
@@ -281,56 +290,59 @@ M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le
     
     <item>
       <title>Trouvez l&#39;erreur ! Mathématiques Collège-Lycée</title>
-      <link>http://localhost:38561/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</link>
+      <link>http://localhost:1313/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</guid>
-      <description>Note : Toutes les variables appartiennent à  .
+      <guid>http://localhost:1313/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</guid>
+      <description>Note : Toutes les variables appartiennent à $\mathbb{R}$.
 Solutions à la fin !
 Niveau 1 : Un bon début ! Ici, chaque ligne correspond à la ligne précédente à laquelle on ajoute ce qui est écrit à sa droite. Surtout, prenez votre temps ! Ce n&amp;rsquo;est pas un exercice compliqué, rappelez-vous juste de toutes les règles apprises au collège :).
-       En multipliant par a    En soustrayant      Identité remarquable :      En divisant par      En remplaçant   par         En divisant par b  Avez-vous trouvé l&amp;rsquo;erreur ?</description>
+ $ a = b $ $aa = ba $ En multipliant par a $a^2 - b^2 = ba - b^2$ En soustrayant $b^2$ $(a+b)(a-b) = b(a-b)$ Identité remarquable : $ (a+b)(a-b) = a^2 - b^2 $ $a+b = b$ En divisant par $(a-b)$ $b+b = b$ En remplaçant $a$ par $b$ $2b = b$ $2 = 1$ En divisant par b  Avez-vous trouvé l&amp;rsquo;erreur ?</description>
     </item>
     
     <item>
       <title>Démonstration : Somme des k(k parmi n)</title>
-      <link>http://localhost:38561/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</link>
+      <link>http://localhost:1313/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
+      <guid>http://localhost:1313/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
       <description>Identité : Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
-  Démonstration :  On commence par reprendre la formule du binôme de Newton :    Soit  , alors :    Dérivons l&amp;rsquo;équation selon   comme ceci :    Ce qui donne :    Nous pouvons maintenant prendre   et retrouver l&amp;rsquo;équation :    D&amp;rsquo;autres identités ici :  Coefficient binomial - Wikipédia</description>
+$\quicklatex{size=24} \sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$
+Démonstration :  On commence par reprendre la formule du binôme de Newton :  $\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n$
+Soit $b = 1$, alors :  $\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n$
+Dérivons l&amp;rsquo;équation selon $a$ comme ceci :  $\quicklatex{size=24}\frac{d}{da}(\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n)$
+Ce qui donne :  $\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$</description>
     </item>
     
     <item>
       <title>Les Valeurs et Vecteurs Propres</title>
-      <link>http://localhost:38561/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/</link>
+      <link>http://localhost:1313/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/</guid>
-      <description>Soit E un espace vectoriel de dimension fini, sur  .   un endomorphisme (applications linéaires d&amp;rsquo;un espace vectoriel dans lui-même) de E.
-Définition Un scalaire   est une valeur propre de   s&amp;rsquo;il existe un vecteur x (le vecteur propre) non nul tel que  .
-Exemple   .
-Calcul du Polynôme Caractéristique Le polynome caractéristique de A est défini comme:  .
-Ainsi :</description>
+      <guid>http://localhost:1313/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/</guid>
+      <description>Soit E un espace vectoriel de dimension fini, sur $\mathbb{K}$. $f$ un endomorphisme (applications linéaires d&amp;rsquo;un espace vectoriel dans lui-même) de E.
+Définition Un scalaire $\lambda$ est une valeur propre de $f$ s&amp;rsquo;il existe un vecteur x (le vecteur propre) non nul tel que $f(x)=\lambda x$.
+Exemple $A = \begin{bmatrix} 7 &amp;amp; 2 \ -4 &amp;amp; 1 \end{bmatrix}$.
+Calcul du Polynôme Caractéristique Le polynome caractéristique de A est défini comme: $\chi_A(\lambda) = \det(\lambda I_{dim A} - A)$.</description>
     </item>
     
     <item>
       <title>La Factorisation de Cholesky</title>
-      <link>http://localhost:38561/mathematiques/keske-cest-la-decomposition-de-cholesky/</link>
+      <link>http://localhost:1313/mathematiques/keske-cest-la-decomposition-de-cholesky/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/keske-cest-la-decomposition-de-cholesky/</guid>
-      <description>Définition : Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que  . On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
+      <guid>http://localhost:1313/mathematiques/keske-cest-la-decomposition-de-cholesky/</guid>
+      <description>Définition : Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que $A = L^tL$. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
 Vérification : Pour calculer la décomposition de A, nous devons vérifier que A est bien symétrique définie positive:
-Symétrique : Une matrice   est dite symétrique si  . C&amp;rsquo;est à dire que  .</description>
+Symétrique : Une matrice $A$ est dite symétrique si $L = ^tL$. C&amp;rsquo;est à dire que $\forall i,j \in \dim{A}, A_{i,j} = A_{j,i}$.</description>
     </item>
     
     <item>
       <title>Convertir un entier non signé décimal en Binaire</title>
-      <link>http://localhost:38561/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</link>
+      <link>http://localhost:1313/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</guid>
+      <guid>http://localhost:1313/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</guid>
       <description>Le système binaire est le système de numération utilisant la base 2. On nomme couramment bit (de l&#39; anglais binary digit, soit « chiffre binaire ») les chiffres de la numération binaire positionnelle. Un bit peut prendre deux valeurs, notées par convention 0 et 1.
  fr.wikipiedia.org
  Tous les systèmes informatiques actuels fonctionnent en binaire. Très grossièrement, on pourrait considérer que 0 représente un courant &amp;ldquo;éteint&amp;rdquo; et 1 un courant &amp;ldquo;allumé&amp;rdquo;.</description>
@@ -338,10 +350,10 @@ Symétrique : Une matrice   est dite symétrique si  . C&amp;rsquo;est à dire q
     
     <item>
       <title>Convertir un nombre décimal en Float</title>
-      <link>http://localhost:38561/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</link>
+      <link>http://localhost:1313/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</guid>
+      <guid>http://localhost:1313/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</guid>
       <description>En mémoire, un nombre peut être codé par de nombreux schémas différents:
  int (entier sur 16 bits en c++) uint64_t (entier sur 64 bits en c++) float32 (réel sur 32 bits) float64 (réel sur 64 bits) &amp;hellip;..  Nécessaire : Pour suivre ce tutoriel, vous devez savoir convertir des entiers décimaux en binaires. Si jamais vous avez un doute, vous pouvez checker mon article sur cette conversion :
  Convertir un entier non signé décimal en Binaire</description>
@@ -349,28 +361,30 @@ Symétrique : Une matrice   est dite symétrique si  . C&amp;rsquo;est à dire q
     
     <item>
       <title>L&#39;intégrale de x^i dx</title>
-      <link>http://localhost:38561/mathematiques/keske-cest-lintegrale-de-xi-dx/</link>
+      <link>http://localhost:1313/mathematiques/keske-cest-lintegrale-de-xi-dx/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/keske-cest-lintegrale-de-xi-dx/</guid>
+      <guid>http://localhost:1313/mathematiques/keske-cest-lintegrale-de-xi-dx/</guid>
       <description>Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
 &amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.
-   est de la forme  ,  . Or, on sait que :
-  Nous obtenons donc la solution :
-  .
+$x^i$ est de la forme $x^b$, $\forall b \in \mathbb{C}$. Or, on sait que :
+$\quicklatex{size=22} \int x^b dx = \frac{x^{b+1}}{b+1}$
+Nous obtenons donc la solution :
+$\quicklatex{size=22}\int x^i dx = \frac{x^{i+1}}{i+1} + C$.
 Méthode 2 : Pour le fun Cette méthode n&amp;rsquo;est absolument pas nécessaire, ni pratique à utiliser.</description>
     </item>
     
     <item>
       <title>Conditionnement d&#39;une Matrice</title>
-      <link>http://localhost:38561/informatique/keske-cest-le-conditionnement-dune-matrice/</link>
+      <link>http://localhost:1313/informatique/keske-cest-le-conditionnement-dune-matrice/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/keske-cest-le-conditionnement-dune-matrice/</guid>
+      <guid>http://localhost:1313/informatique/keske-cest-le-conditionnement-dune-matrice/</guid>
       <description>Définition Un système linéaire peut s&amp;rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&amp;rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.
 Pour une matrice inversible A, sa fonction de conditionnement est :
-  Note : Plus   est élevé, plus la matrice A est mal conditionnée.
-Exemple 1 Pour comprendre ce qu&amp;rsquo;est le conditionnement, prenons un exemple de système linéaire   :</description>
+$\kappa(A)=\Vert A \Vert \Vert A^{-1} \Vert $
+Note : Plus $\kappa$ est élevé, plus la matrice A est mal conditionnée.
+Exemple 1 Pour comprendre ce qu&amp;rsquo;est le conditionnement, prenons un exemple de système linéaire $AX=Y$ :</description>
     </item>
     
   </channel>

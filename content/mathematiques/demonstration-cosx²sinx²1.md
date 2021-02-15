@@ -23,27 +23,27 @@ Triangle Rectangle
 
 
 
-La célèbre relation est la suivante : {{< latex "a^2+b^2=c^2" >}}.
+La célèbre relation est la suivante : $a^2+b^2=c^2$.
 
 ### Démonstration :
 
 En reprenant les formules vu en 3ème, on a :
 
-{{< latex "\sin \alpha = \frac{a}{c}" >}} et {{< latex "\cos \alpha = \frac{b}{c}" >}}
+$\sin \alpha = \frac{a}{c}$ et $\cos \alpha = \frac{b}{c}$
 
 Cela nous donne donc :
 
-{{< latex "a = \sin \alpha \times c" >}} et {{< latex "b = \cos \alpha \times c" >}}
+$a = \sin \alpha \times c$ et $b = \cos \alpha \times c$
 
 En utilisant le théorème de pythagore :
 
-{{< latex "a^2+b^2=c^2" >}}
+$a^2+b^2=c^2$
 
-{{< latex "(\sin \alpha \times c) ^2 + (\cos \alpha \times c) ^2= c" >}}
+$(\sin \alpha \times c) ^2 + (\cos \alpha \times c) ^2= c$
 
-En prenant {{< latex "c = 1" >}}, nous obtenons la relation :
+En prenant $c = 1$, nous obtenons la relation :
 
-{{< latex "\sin \alpha ^2 + \cos \alpha ^2 = 1" >}}
+$\sin \alpha ^2 + \cos \alpha ^2 = 1$
 
 ## Depuis les formules d'Euler
 
@@ -51,14 +51,14 @@ En prenant {{< latex "c = 1" >}}, nous obtenons la relation :
 
 Soit :
 
-{{< latex "\sin \alpha = \frac{e^{i\alpha}-e^{-i\alpha}}{2i}" >}} et {{< latex "\cos \alpha = \frac{e^{i\alpha}+e^{-i\alpha}}{2}" >}}
+$\sin \alpha = \frac{e^{i\alpha}-e^{-i\alpha}}{2i}$ et $\cos \alpha = \frac{e^{i\alpha}+e^{-i\alpha}}{2}$
 
 ### Démonstration :
 
 Reprenons l'équation :
 
-1. {{< latex "sin \alpha ^2 + \cos \alpha ^2" >}}
-2. {{< latex " = \frac{e^{i\alpha}-e^{-i\alpha}}{2i}^2 + \frac{e^{i\alpha}+e^{-i\alpha}}{2}^2" >}}
-3. {{< latex "= \frac{e^{2i\alpha}-2e^{2i\alpha-2i\alpha}+e^{-2i\alpha}}{-4} + \frac{e^{2i\alpha}+2e^{2i\alpha-2i\alpha}+e^{-2i\alpha}}{4}" >}}
-4. {{< latex "=\frac{2+2}{4}" >}}
-5. {{< latex "=1" >}}
+1. $sin \alpha ^2 + \cos \alpha ^2$
+2. $= \frac{e^{i\alpha}-e^{-i\alpha}}{2i}^2 + \frac{e^{i\alpha}+e^{-i\alpha}}{2}^2$
+3. $= \frac{e^{2i\alpha}-2e^{2i\alpha-2i\alpha}+e^{-2i\alpha}}{-4} + \frac{e^{2i\alpha}+2e^{2i\alpha-2i\alpha}+e^{-2i\alpha}}{4}$
+4. $=\frac{2+2}{4}$
+5. $=1$

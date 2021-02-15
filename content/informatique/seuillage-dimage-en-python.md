@@ -15,13 +15,13 @@ description: "Le seuillage est une technique de traitement d'image permettant l'
 
 ## Définition
 
-Soit {{< latex "f" >}}, une image composée de {{< latex "n" >}} lignes et {{< latex "m" >}} colonnes, {{< latex "\forall i \in \[0,n\]" >}} et {{< latex "\forall j \in \[0,m\]" >}}.
+Soit $f$, une image composée de $n$ lignes et $m$ colonnes, $\forall i \in \[0,n\]$ et $\forall j \in \[0,m\]$.
 
-Soit {{< latex "f(i,j)" >}} l'intensité d'un pixel. C'est à dire la valeur maximale du triplet {{< latex "\[R,G,B\]" >}} associée au pixel.
+Soit $f(i,j)$ l'intensité d'un pixel. C'est à dire la valeur maximale du triplet $\[R,G,B\]$ associée au pixel.
 
-Soit un seuil {{< latex "s \in \[0,255\]" >}}.
+Soit un seuil $s \in \[0,255\]$.
 
-Alors le seuillage de l'image f serait équivalent à une fonction {{< latex "g" >}} tel que :
+Alors le seuillage de l'image f serait équivalent à une fonction $g$ tel que :
 
   
 g(i,j) = \left\{  

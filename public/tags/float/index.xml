@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>float on DevMath.fr</title>
-    <link>http://localhost:38561/tags/float/</link>
+    <link>http://localhost:1313/tags/float/</link>
     <description>Recent content in float on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/float/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/float/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Convertir un nombre décimal en Float</title>
-      <link>http://localhost:38561/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</link>
+      <link>http://localhost:1313/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</guid>
+      <guid>http://localhost:1313/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</guid>
       <description>En mémoire, un nombre peut être codé par de nombreux schémas différents:
  int (entier sur 16 bits en c++) uint64_t (entier sur 64 bits en c++) float32 (réel sur 32 bits) float64 (réel sur 64 bits) &amp;hellip;..  Nécessaire : Pour suivre ce tutoriel, vous devez savoir convertir des entiers décimaux en binaires. Si jamais vous avez un doute, vous pouvez checker mon article sur cette conversion :
  Convertir un entier non signé décimal en Binaire</description>

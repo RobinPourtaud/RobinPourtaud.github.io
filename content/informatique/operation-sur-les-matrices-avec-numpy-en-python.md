@@ -72,7 +72,7 @@ Transpose = M1.transpose()
 
 
 
-L'inverse de matrice prend toute son utilité dans le calcul de systèmes linéaires. Si {{< latex "Ax=B" >}}, alors {{< latex "x=A^{-1}B" >}}.
+L'inverse de matrice prend toute son utilité dans le calcul de systèmes linéaires. Si $Ax=B$, alors $x=A^{-1}B$.
 
 Une matrice A admet une inverse si et seulement si son déterminant est différent de 0. Il est donc important de le tester au préalable :).
 

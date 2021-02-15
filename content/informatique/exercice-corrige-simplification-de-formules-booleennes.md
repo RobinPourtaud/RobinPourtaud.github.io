@@ -18,35 +18,35 @@ Simplifiez au maximum ces formules logiques algébriquement :
 
 
 
-{{< latex "ABC+\overline{A}+\overline{C}" >}}
+$ABC+\overline{A}+\overline{C}$
 
 ### Formule 2
 
-{{< latex "\overline{A}B+C\overline{A}D+\overline{B}+\overline{D}" >}}
+$\overline{A}B+C\overline{A}D+\overline{B}+\overline{D}$
 
 ### Formule 3
 
-{{< latex "\overline{\overline{A+D}.\overline{\overline{C}+\overline{B}}+C}" >}}
+$\overline{\overline{A+D}.\overline{\overline{C}+\overline{B}}+C}$
 
 ### Formule 4
 
-{{< latex "(A+\overline{AB}+C\overline{AB})(A+B\overline{A}+\overline{B})" >}}
+$(A+\overline{AB}+C\overline{AB})(A+B\overline{A}+\overline{B})$
 
 ### Formule 5
 
-{{< latex "A\overline{C} + AB\overline{C}+B\overline{C}+\overline{A}B" >}}
+$A\overline{C} + AB\overline{C}+B\overline{C}+\overline{A}B$
 
 ## Indices :
 
 ### Formule 1
 
-Il faut utiliser 2 fois la propriété : {{< latex "\overline{A}+AB = \overline{A}+B" >}}.
+Il faut utiliser 2 fois la propriété : $\overline{A}+AB = \overline{A}+B$.
 
 ### Formule 2
 
-Il faut utiliser 2 fois la propriété {{< latex "\overline{A}+AB = \overline{A}+B" >}}.
+Il faut utiliser 2 fois la propriété $\overline{A}+AB = \overline{A}+B$.
 
-Une fois {{< latex "A + AB = A(1+B) = A" >}}.
+Une fois $A + AB = A(1+B) = A$.
 
 ### Formule 3
 
@@ -58,21 +58,21 @@ Un triple développement n'est pas nécessaire !
 
 ### Formule 5
 
-Vous avez quelque chose de trop ? Utilisez la propriété {{< latex "A+\overline{A}=1" >}}.
+Vous avez quelque chose de trop ? Utilisez la propriété $A+\overline{A}=1$.
 
 ## Correction :
 
 ### Formule 1
 
-{{< latex "\overline{A}+B+\overline{C}" >}}
+$\overline{A}+B+\overline{C}$
 
 ### Formule 2
 
-{{< latex "\overline{A}+\overline{B}+\overline{D}" >}}
+$\overline{A}+\overline{B}+\overline{D}$
 
 ### Formule 3
 
-{{< latex "C" >}}
+$C$
 
 ### Formule 4
 
@@ -80,4 +80,4 @@ Vous avez quelque chose de trop ? Utilisez la propriété {{< latex "A+\overline
 
 ### Formule 5
 
-{{< latex "A\overline{C}+\overline{A}B" >}}
+$A\overline{C}+\overline{A}B$

@@ -47,29 +47,29 @@ On peut commencer par traduire les événements :
 - B : "Oiseaux possédant des plumes blanches"
 - M : "Oiseaux possédant dans plumes magenta"
 
-Ainsi, l'univers {{< latex "\Omega = V\cup B \cup M" >}}.
+Ainsi, l'univers $\Omega = V\cup B \cup M$.
 
 Nous avons :
 
-1. {{< latex "\#(M\cap B)=140" >}}
-2. {{< latex "\#B= 23" >}}
-3. {{< latex "\#(\olsi{B}\cup\olsi{V}) = 75" >}}
-4. {{< latex "\#(M\cup V)=32" >}}
+1. $\#(M\cap B)=140$
+2. $\#B= 23$
+3. $\#(\olsi{B}\cup\olsi{V}) = 75$
+4. $\#(M\cup V)=32$
 
 Selon la formule du crible de Poincaré :
 
-{{< latex " \#(M\cup V \cup B) = \#M + \#V + \#B - \#(M\cap V) - \#(M\cap B) - \#(V \cap B) + \#(M \cap V \cap B) " >}}
+$ \#(M\cup V \cup B) = \#M + \#V + \#B - \#(M\cap V) - \#(M\cap B) - \#(V \cap B) + \#(M \cap V \cap B) $
 
-{{< latex "\#(M\cap V \cap B) = \#(M \cup V \cup B) - \#M - \#V - \#B + \#(M\cap V) + \#(M\cap B) + \#(V \cap B)" >}}
+$\#(M\cap V \cap B) = \#(M \cup V \cup B) - \#M - \#V - \#B + \#(M\cap V) + \#(M\cap B) + \#(V \cap B)$
 
 En utilisant une fois de plus la formule de Poincaré et une fois une loi de De Morgan :
 
-{{< latex "" >}}= \#\Omega - \#M - \#V - \#B + (\#M + \#V - \#(M\cup V)) + \#(M\cap B) + (\#\Omega - #(\overline{V}\cup \overline{B})){{< latex "" >}}
+$= \#\Omega - \#M - \#V - \#B + (\#M + \#V - \#(M\cup V)) + \#(M\cap B) + (\#\Omega - #(\overline{V}\cup \overline{B}))$
 
-{{< latex "" >}}= 2 \times \#\Omega - \#B - \#(M\cup V)+ \#(M\cap B) - #(\overline{V}\cup \overline{B}){{< latex "" >}}
+$= 2 \times \#\Omega - \#B - \#(M\cup V)+ \#(M\cap B) - #(\overline{V}\cup \overline{B})$
 
 Ainsi :
 
-{{< latex "=500 - 133 - 213 + 68 - 192 = 30" >}}
+$=500 - 133 - 213 + 68 - 192 = 30$
 
 Il y a donc dans Central Park **30 pigeons.**

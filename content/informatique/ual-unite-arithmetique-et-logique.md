@@ -82,13 +82,13 @@ Zero Flag
 
 
 
-Autrement dit : {{< latex "ZF = \overline{S_0+S_1+S_2+S_3+S_4+S_5+S_6+S_7}" >}}
+Autrement dit : $ZF = \overline{S_0+S_1+S_2+S_3+S_4+S_5+S_6+S_7}$
 
 ### Sign Flag (SF) :
 
 SF correspond au signe de S. Si S négatif, alors S = 1, sinon S=0.
 
-Autrement dit : {{< latex "SF = S_7" >}}
+Autrement dit : $SF = S_7$
 
 ![](images/image-26.png)
 
@@ -115,8 +115,8 @@ Overflow Flag
 
 Autrement dit :
 
-- {{< latex "OF+ = SA.SB.\overline{SF}+\overline{SA}.\overline{SB}.SF" >}}
-- {{< latex "OF- = SA.\overline{SB}.\overline{SF}+\overline{SA}.SB.SF" >}}
+- $OF+ = SA.SB.\overline{SF}+\overline{SA}.\overline{SB}.SF$
+- $OF- = SA.\overline{SB}.\overline{SF}+\overline{SA}.SB.SF$
 - OF = OF+ si ctr = 000, OF- si ctr = 001, 0 sinon.
 
 ## Mention :

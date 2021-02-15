@@ -21,44 +21,44 @@ Un système linéaire peut s'écrire sous forme de matrice par une équation du 
 
 Pour une matrice inversible A, sa fonction de conditionnement est :
 
-{{< latex "\kappa(A)=\Vert A \Vert \Vert A^{-1} \Vert " >}}
+$\kappa(A)=\Vert A \Vert \Vert A^{-1} \Vert $
 
-Note : Plus {{< latex "\kappa" >}} est élevé, plus la matrice A est mal conditionnée.
+Note : Plus $\kappa$ est élevé, plus la matrice A est mal conditionnée.
 
 ## Exemple 1
 
-Pour comprendre ce qu'est le conditionnement, prenons un exemple de système linéaire {{< latex "AX=Y" >}} :
+Pour comprendre ce qu'est le conditionnement, prenons un exemple de système linéaire $AX=Y$ :
 
 ### Matrice A et sa solution
 
 Soit une matrice A :
 
-{{< latex "A=\begin{bmatrix} 10 & 7 & 8 & 7 \\ 7 & 5 & 6 & 5 \\8 & 6 & 10 & 9 \\ 7 & 5 & 9 & 10 \end{bmatrix}, Y=\begin{bmatrix}32 \\ 23 \\ 33 \\ 31\end{bmatrix}" >}}
+$A=\begin{bmatrix} 10 & 7 & 8 & 7 \\ 7 & 5 & 6 & 5 \\8 & 6 & 10 & 9 \\ 7 & 5 & 9 & 10 \end{bmatrix}, Y=\begin{bmatrix}32 \\ 23 \\ 33 \\ 31\end{bmatrix}$
 
 La solution de ce système sera donc :
 
-{{< latex "X = \begin{bmatrix}1\\1\\1\\1\end{bmatrix}" >}}
+$X = \begin{bmatrix}1\\1\\1\\1\end{bmatrix}$
 
 ### Exemple de variation
 
-Il est intéressant de remarquer que si on varie faiblement {{< latex "Y" >}} :
+Il est intéressant de remarquer que si on varie faiblement $Y$ :
 
-{{< latex "\Delta_Y=\begin{bmatrix}0.1\\-0.1\\0.1\\-0.1\end{bmatrix}" >}}
+$\Delta_Y=\begin{bmatrix}0.1\\-0.1\\0.1\\-0.1\end{bmatrix}$
 
 Nous obtenons :
 
-{{< latex "X=\begin{bmatrix}9.2\\-12.6\\4.5\\-11\end{bmatrix}" >}}
+$X=\begin{bmatrix}9.2\\-12.6\\4.5\\-11\end{bmatrix}$
 
-Une petite variation {{< latex "\Delta_Y" >}} sur {{< latex "Y" >}} implique une grande variation de {{< latex "X" >}}.  
-On dira de la matrice {{< latex "A" >}} qu'elle est "**mal conditionnée**".
+Une petite variation $\Delta_Y$ sur $Y$ implique une grande variation de $X$.  
+On dira de la matrice $A$ qu'elle est "**mal conditionnée**".
 
 ### Calcul du conditionnement
 
-La fonction de conditionnement d’une matrice {{< latex "A" >}} est {{< latex "\kappa(A)=\Vert A \Vert \Vert A^{-1} \Vert " >}}, {{< latex "A" >}} ayant un déterminant différent de 0 et donc étant inversible. Prenons la norme infini :
+La fonction de conditionnement d’une matrice $A$ est $\kappa(A)=\Vert A \Vert \Vert A^{-1} \Vert $, $A$ ayant un déterminant différent de 0 et donc étant inversible. Prenons la norme infini :
 
-{{< latex "\kappa(A)=\Vert A \Vert _\infty \Vert A^{-1} \Vert _\infty = \max_{\{1\le i \le n\}} \sum^n_{j=1}|A_{i,j}| \times \max_{\{1\le i \le n\}} \sum^n_{j=1}|A_{i,j}^{-1}|" >}} avec {{< latex "n = \dim A" >}}.
+$\kappa(A)=\Vert A \Vert _\infty \Vert A^{-1} \Vert _\infty = \max_{\{1\le i \le n\}} \sum^n_{j=1}|A_{i,j}| \times \max_{\{1\le i \le n\}} \sum^n_{j=1}|A_{i,j}^{-1}|$ avec $n = \dim A$.
 
-Dans cet exemple: {{< latex "\kappa(A)=33 \times 136 = 4488" >}}.
+Dans cet exemple: $\kappa(A)=33 \times 136 = 4488$.
 
 ### En python
 
@@ -80,13 +80,13 @@ Pour prendre un autre exemple: La "matrice B" est bien conditionnée:
 
 Soit la matrice inversible B :
 
-{{< latex "B=\begin{bmatrix}1&7&2&1\\7&5&1&5\\8&6&10&9\\7&5&9&1\end{bmatrix}" >}}.
+$B=\begin{bmatrix}1&7&2&1\\7&5&1&5\\8&6&10&9\\7&5&9&1\end{bmatrix}$.
 
-Nous avons : {{< latex "\kappa(B)=33\times 0.4496=14.8368" >}}
+Nous avons : $\kappa(B)=33\times 0.4496=14.8368$
 
-Cette matrice est relativement bien conditionnée en comparaison avec la matrice {{< latex "A" >}}.
+Cette matrice est relativement bien conditionnée en comparaison avec la matrice $A$.
 
-Nous pouvons donc affirmer que pour un système linéaire {{< latex "BX=Y" >}}, une petite variation de {{< latex "Y" >}} n’engendra pas une grosse variation {{< latex "X" >}}.
+Nous pouvons donc affirmer que pour un système linéaire $BX=Y$, une petite variation de $Y$ n’engendra pas une grosse variation $X$.
 
 ## Sources
 

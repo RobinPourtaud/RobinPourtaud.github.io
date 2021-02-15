@@ -19,14 +19,14 @@ Pi est certainement la constante mathématique la plus connu. Enseigné à l'éc
 
 Soit P le périmètre du cercle et R son rayon, alors :
 
-{{< latex "P = 2 \times \pi \times R" >}}
+$P = 2 \times \pi \times R$
 
-Autrement dit : {{< latex "\pi = \frac{P}{2\times R}" >}}
+Autrement dit : $\pi = \frac{P}{2\times R}$
 
 Mais on peut aussi la retrouver dans de nombreuses autre formules !
 
-- La célèbre formule d'Euler : {{< latex "e^{i\theta}+1=0" >}}
-- La formule de Riemann : {{< latex "\zeta{2} = \frac{\pi^2}{6}" >}}
-- La formule de Stirling : {{< latex "\lim_{n \to +\infty} {n\,!\over \sqrt{2 \pi n} \; \left({n}/{\rm e}\right)^{n} } = 1" >}}
-- Le sinus intégral sur {{< latex "\mathbb{R} = 2\int_{0}^{\infty} \frac {\sin x}{x}dx = \pi" >}}
+- La célèbre formule d'Euler : $e^{i\theta}+1=0$
+- La formule de Riemann : $\zeta{2} = \frac{\pi^2}{6}$
+- La formule de Stirling : $\lim_{n \to +\infty} {n\,!\over \sqrt{2 \pi n} \; \left({n}/{\rm e}\right)^{n} } = 1$
+- Le sinus intégral sur $\mathbb{R} = 2\int_{0}^{\infty} \frac {\sin x}{x}dx = \pi$
 - ....

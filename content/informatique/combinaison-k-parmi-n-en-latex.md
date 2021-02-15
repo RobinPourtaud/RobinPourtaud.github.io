@@ -17,7 +17,7 @@ description: "Combien y a-t-il de possibilités de tirer 3 cartes parmi 13 ? Vou
 
 k parmi n peut se noter de la façon suivante :
 
-{{< latex "C_n^k " >}}
+$C_n^k $
 
 Son code Latex en mode mathématique est tout simplement :
 
@@ -29,7 +29,7 @@ C_n^k
 
 Notation certainement la plus couramment utilisée pour exprimer le coefficient binomial :
 
-{{< latex "\binom{n}{k}" >}}
+$\binom{n}{k}$
 
 Son code Latex en mode Mathématique est :
 

@@ -15,19 +15,21 @@ Pour introduire la DI Method, nous nous servirons de 2 exemples :
 
 ### Exemple 1
 
-
-
 On souhaite résoudre l'intégrale :
 
-{{< latex "\quicklatex{size=22}\int cos(x) x^2 dx" >}}
+$\int cos(x) x^2 dx$
 
 #### Création du tableau
 
-Comme pour l'intégration par partie, nous choisissons quel facteur de l'intégrale nous souhaitons intégrer et quel facteur nous souhaitons dériver. Dans notre cas, nous dériverons {{< latex "x^2" >}} et intégrerons {{< latex "cos(x)" >}}.
+Comme pour l'intégration par partie, nous choisissons quel facteur de l'intégrale nous souhaitons intégrer et quel facteur nous souhaitons dériver. Dans notre cas, nous dériverons $x^2$ et intégrerons $cos(x)$.
 
-<table><tbody><tr><td><strong>Ligne</strong></td><td><strong>Signe</strong></td><td><strong>D</strong></td><td><strong>I</strong></td></tr><tr><td>1</td><td>+</td><td>{{< latex "x^2" >}}</td><td>{{< latex "cos(x)" >}}</td></tr><tr><td>2</td><td>-</td><td>{{< latex "2x" >}}</td><td>{{< latex "sin(x)" >}}</td></tr><tr><td>3</td><td>+</td><td>{{< latex "2" >}}</td><td>{{< latex "-cos(x)" >}}</td></tr><tr><td>4</td><td>-</td><td>{{< latex "0" >}}</td><td>{{< latex "-sin(x)" >}}</td></tr></tbody></table>
+|Ligne|Signe|D|I|
+|--- |--- |--- |--- |
+|1|+|$x^2$|$cos(x)$|
+|2|-|$2x$|$sin(x)$|
+|3|+|$2$|$-cos(x)$|
+|4|-|$0$|$-sin(x)$|
 
-Tableau de la méthode d'intégration tabulaire
 
 Dans la colonne signe, nous alternons le signe positif et négatif.
 
@@ -49,11 +51,11 @@ _Autrement dit, nous dérivons en diagonale jusqu'à l'avant dernière ligne, pu
 
 Cela nous donne directement la solution :
 
-{{< latex "\quicklatex{size=22}\int cos(x) x^2 dx = + (x^2 \times sin(x)) - (2x \times -cos(x)) + (2 \times -sin(x)) - (\int 0 \times -sin(x) dx) " >}}
+$\int cos(x) x^2 dx = + (x^2 \times sin(x)) - (2x \times -cos(x)) + (2 \times -sin(x)) - (\int 0 \times -sin(x) dx)$
 
 Ce qui nous donne bien :
 
-{{< latex "\quicklatex{size=22}\int cos(x) x^2 dx = 2 \times cos(x) + (-2 + x^2) sin(x) " >}}
+$\int cos(x) x^2 dx = 2 \times cos(x) + (-2 + x^2) sin(x)$
 
 Vous pouvez retrouver la même chose sur [Wolfram Alpha](https://www.wolframalpha.com/input/?i=int+x%5E2+cosx+dx).
 
@@ -65,28 +67,28 @@ Intégrale x^2 cosx dx - Wolfram Alpha
 
 Dans un autre article, pour résoudre [l'intégrale de x à la puissance i](https://keskec.fr/sciences/mathematiques/robin/220/), j'ai dû effectuer une intégration par partie pour l'intégrale :
 
-{{< latex "\quicklatex{size=22}\int cos(u) e^u du " >}}.
+$\int cos(u) e^u du$.
 
 #### Création du tableau
 
-<table><tbody><tr><td>Ligne</td><td>Signe</td><td>D</td><td>I</td></tr><tr><td>1</td><td>+</td><td>{{< latex "e^u" >}}</td><td>{{< latex "cos(u)" >}}</td></tr><tr><td>2</td><td>-</td><td>{{< latex "e^u" >}}</td><td>{{< latex "sin(u)" >}}</td></tr><tr><td>3</td><td>+</td><td>{{< latex "e^u" >}}</td><td>{{< latex "-cos(u)" >}}</td></tr></tbody></table>
+<table><tbody><tr><td>Ligne</td><td>Signe</td><td>D</td><td>I</td></tr><tr><td>1</td><td>+</td><td>$e^u$</td><td>$cos(u)$</td></tr><tr><td>2</td><td>-</td><td>$e^u$</td><td>$sin(u)$</td></tr><tr><td>3</td><td>+</td><td>$e^u$</td><td>$-cos(u)$</td></tr></tbody></table>
 
 Tableau DI Method e^u cos(u)
 
 Comme nous pouvons le voir, la dérivé ne sera jamais égale à 0 contrairement à l'exemple 1. Dans ce cas là, nous pouvons nous arrêter si on arrive à une répétition :  
-Nous avons {{< latex "cos(u)" >}} en ligne 1 et 3.
+Nous avons $cos(u)$ en ligne 1 et 3.
 
 #### Utilisation du tableau
 
 De façon analogue à l'exemple 1, nous avons :
 
-{{< latex " \quicklatex{size=22}\int cos (u) e^u = + (e^u \times sin(u)) - (e^u \times -cos(u)) + (\int e^u \times -cos(u)) " >}}
+$\int cos (u) e^u = + (e^u \times sin(u)) - (e^u \times -cos(u)) + (\int e^u \times -cos(u))$
 
 En reformulant, nous avons :
 
-{{< latex "\quicklatex{size=22}2 \int cos u e^u = + (e^u \times sin(u)) - (e^u \times -cos(u))" >}}
+$2 \int cos u e^u = + (e^u \times sin(u)) - (e^u \times -cos(u))$
 
-{{< latex "\quicklatex{size=22} \int cos u e^u = \frac{1}{2} \times e^u \times (sin(u)-cos(u))" >}}
+$\int cos u e^u = \frac{1}{2} \times e^u \times (sin(u)-cos(u))$
 
 Encore une fois, vous pouvez trouver le même résultat sur Wolfram Alpha.
 

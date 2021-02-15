@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>windows-10 on DevMath.fr</title>
-    <link>http://localhost:38561/tags/windows-10/</link>
+    <link>http://localhost:1313/tags/windows-10/</link>
     <description>Recent content in windows-10 on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ISETL 3.0 sur Windows 10</title>
-      <link>http://localhost:38561/informatique/installer-isetl/</link>
+      <link>http://localhost:1313/informatique/installer-isetl/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/installer-isetl/</guid>
+      <guid>http://localhost:1313/informatique/installer-isetl/</guid>
       <description>En 1985, SETL était devenu un projet très lourd, lent et nécessitait une compilation, ce qui le rendait difficilement utilisable. C&amp;rsquo;est dans ce contexte que Gary Levin décida de créer une version de SETL interactive à direction des universités.
 Et c&amp;rsquo;est ainsi qu&amp;rsquo;en 1988 sortit la version 1.0 d&amp;rsquo;ISETL : plus rapide, plus léger (&amp;lt;250K), et ayant une syntaxe très proche de celle de SETL. (source 1)
 Il est extrêmement complexe de se procurer des informations utiles sur ISETL en 2020.</description>
@@ -20,19 +20,19 @@ Il est extrêmement complexe de se procurer des informations utiles sur ISETL en
     
     <item>
       <title>WSL et USB</title>
-      <link>http://localhost:38561/informatique/wsl-et-usb/</link>
+      <link>http://localhost:1313/informatique/wsl-et-usb/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/wsl-et-usb/</guid>
+      <guid>http://localhost:1313/informatique/wsl-et-usb/</guid>
       <description>Monter une partition ext4 ou ext2 Monter une partition ext4 protégé LUKS </description>
     </item>
     
     <item>
       <title>Wsl2</title>
-      <link>http://localhost:38561/informatique/keske-cest-wsl2/</link>
+      <link>http://localhost:1313/informatique/keske-cest-wsl2/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/keske-cest-wsl2/</guid>
+      <guid>http://localhost:1313/informatique/keske-cest-wsl2/</guid>
       <description>Windows Subsystem for Linux (WSL) est une couche de compatibilité permettant d&amp;rsquo;exécuter des exécutables binaires Linux (au format ELF) de manière native sur Windows 10 et Windows Server 2019.
  fr.wikipedia.org
  En mai 2019, Microsoft lance WSL2, une mise à jours de WSL proposant de nombreuses nouveautés.

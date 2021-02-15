@@ -15,7 +15,7 @@ description: "Toute matrice symétrique définie positive A admet une décomposi
 
 
 
-Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que {{< latex "A = L^tL" >}}. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
+Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que $A = L^tL$. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
 
 ## Vérification :
 
@@ -23,9 +23,9 @@ Pour calculer la décomposition de A, nous devons vérifier que A est bien symé
 
 ### Symétrique :
 
-Une matrice {{< latex "A" >}} est dite symétrique si {{< latex "L = ^tL" >}}. C'est à dire que {{< latex "\forall i,j \in \dim{A}, A_{i,j} = A_{j,i}" >}}.
+Une matrice $A$ est dite symétrique si $L = ^tL$. C'est à dire que $\forall i,j \in \dim{A}, A_{i,j} = A_{j,i}$.
 
-Par exemple : {{< latex "\begin{bmatrix} -4 & -2 \\ -2 & 13 \end{bmatrix}" >}}
+Par exemple : $\begin{bmatrix} -4 & -2 \\ -2 & 13 \end{bmatrix}$
 
 ### Définie positive :
 
@@ -35,39 +35,39 @@ Une matrice A est dite définie positive si et seulement si ses valeurs propres 
 
 ## Résolution :
 
-Une fois la vérification faite, en dimension 3, on cherche une matrice L telle que {{< latex "A = L^tL" >}}.
+Une fois la vérification faite, en dimension 3, on cherche une matrice L telle que $A = L^tL$.
 
 L = \begin{bmatrix} L_{1,1} & 0 & 0 \\  
 L_{2,1} & L_{2,2} & 0 \\  
 L_{3,1} & L_{3,2} & L_{3,3}\\  
 \end{bmatrix}
 
-{{< latex "A = \begin{bmatrix} L_{1,1} & 0 & 0 \\ L_{2,1} & L_{2,2} & 0 \\ L_{3,1} & L_{3,2} & L_{3,3} \end{bmatrix}\begin{bmatrix} L_{1,1} & L_{2,1} & L_{3,1} \\ 0 & L_{2,2} & L_{3,2} \\ 0 & 0 & L_{3,3} \end{bmatrix}" >}}
+$A = \begin{bmatrix} L_{1,1} & 0 & 0 \\ L_{2,1} & L_{2,2} & 0 \\ L_{3,1} & L_{3,2} & L_{3,3} \end{bmatrix}\begin{bmatrix} L_{1,1} & L_{2,1} & L_{3,1} \\ 0 & L_{2,2} & L_{3,2} \\ 0 & 0 & L_{3,3} \end{bmatrix}$
 
-{{< latex "A = \begin{bmatrix} L_{1,1}^2 & \* & \* \\ L_{2,1}L_{1,1} & L_{2,1}^2 + L_{2,2}^2& \* \\ L_{3,1}L_{1,1} & L_{3,1}L_{2,1}+L_{3,2}L_{2,2} & L_{3,1}^2 + L_{3,2}^2+L_{3,3}^2 \end{bmatrix}" >}}
+$A = \begin{bmatrix} L_{1,1}^2 & \* & \* \\ L_{2,1}L_{1,1} & L_{2,1}^2 + L_{2,2}^2& \* \\ L_{3,1}L_{1,1} & L_{3,1}L_{2,1}+L_{3,2}L_{2,2} & L_{3,1}^2 + L_{3,2}^2+L_{3,3}^2 \end{bmatrix}$
 
-Il suffit maintenant de résoudre équation par équation le système {{< latex " A = L^tL" >}}.
+Il suffit maintenant de résoudre équation par équation le système $ A = L^tL$.
 
 ## Exemple :
 
-Prenons {{< latex "A = \begin{bmatrix} 1 & 2 \\ 2 & 7 \end{bmatrix}" >}}.
+Prenons $A = \begin{bmatrix} 1 & 2 \\ 2 & 7 \end{bmatrix}$.
 
-A étant de taille 2x2, alors : {{< latex "A = L^tL= \begin{bmatrix} L_{1,1}^2 & L_{1,1}L_{2,1} \\ L_{2,1}L_{1,1} & L_{2,1}^2 + L_{2,2}^2 \end{bmatrix}" >}}.
+A étant de taille 2x2, alors : $A = L^tL= \begin{bmatrix} L_{1,1}^2 & L_{1,1}L_{2,1} \\ L_{2,1}L_{1,1} & L_{2,1}^2 + L_{2,2}^2 \end{bmatrix}$.
 
 Ce qui nous donne 4 équations:
 
-- {{< latex "1 = L_{1,1}^2" >}}
-- {{< latex "2 = L_{1,1}L_{2,1}" >}}
-- {{< latex "2 = L_{1,1}L_{2,1}" >}}
-- {{< latex "7 = L_{2,1}^2 + L_{2,2}^2" >}}
+- $1 = L_{1,1}^2$
+- $2 = L_{1,1}L_{2,1}$
+- $2 = L_{1,1}L_{2,1}$
+- $7 = L_{2,1}^2 + L_{2,2}^2$
 
 Donc:
 
-- {{< latex "L_{1,1}=1" >}}
-- {{< latex "L_{2,1}=2" >}}
-- {{< latex "L_{2,2}=\sqrt{3}" >}}
+- $L_{1,1}=1$
+- $L_{2,1}=2$
+- $L_{2,2}=\sqrt{3}$
 
-{{< latex "A=L^tL=\begin{bmatrix}1 & 2\\ 2 & 7 \end{bmatrix} = \begin{bmatrix}1 & 0\\ 2 & \sqrt{3}\end{bmatrix}\begin{bmatrix}1 & 2\\ 0 & \sqrt{3} \end{bmatrix}" >}}
+$A=L^tL=\begin{bmatrix}1 & 2\\ 2 & 7 \end{bmatrix} = \begin{bmatrix}1 & 0\\ 2 & \sqrt{3}\end{bmatrix}\begin{bmatrix}1 & 2\\ 0 & \sqrt{3} \end{bmatrix}$
 
 ## Utile pour le calcul de déterminant !
 
@@ -75,7 +75,7 @@ La décomposition de Cholesky offre un avantage pour le calcul de déterminant.
 
 En effet, L étant triangulaire :
 
- {{< latex "\det{A}=\det{L^tL}=\det{L}\times\det{^tL}=\det{L}^2=(\prod_{i=1}^{dim L}L_{i,i})^2" >}}
+ $\det{A}=\det{L^tL}=\det{L}\times\det{^tL}=\det{L}^2=(\prod_{i=1}^{dim L}L_{i,i})^2$
 
 ## En python :
 

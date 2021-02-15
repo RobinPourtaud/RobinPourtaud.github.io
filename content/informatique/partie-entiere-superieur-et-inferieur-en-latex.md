@@ -14,7 +14,7 @@ description: "Cet article présentera l'utilisation de la partie entière, aussi
 
 
 
-Pour prendre la partie entière supérieure d'un entier {{< latex "x" >}} en Latex, il suffit de taper ceci :
+Pour prendre la partie entière supérieure d'un entier $x$ en Latex, il suffit de taper ceci :
 
 ```
 \lceil x \rceil 
@@ -22,11 +22,11 @@ Pour prendre la partie entière supérieure d'un entier {{< latex "x" >}} en Lat
 
 Voici le résultat :
 
-{{< latex "\lceil x \rceil" >}}
+$\lceil x \rceil$
 
 ## Partie entière inférieure en LaTex :
 
-La partie entière inférieure en Latex d'un entier {{< latex "x" >}} se fait de façon analogue à celle supérieure :
+La partie entière inférieure en Latex d'un entier $x$ se fait de façon analogue à celle supérieure :
 
 ```
 \lfloor x \rfloor 
@@ -34,7 +34,7 @@ La partie entière inférieure en Latex d'un entier {{< latex "x" >}} se fait de
 
 Voilà son rendu :
 
-{{< latex "\lfloor x \rfloor" >}}
+$\lfloor x \rfloor$
 
 ## Raccourcir son utilisation avec une macro?
 

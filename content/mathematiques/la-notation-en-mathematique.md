@@ -21,13 +21,13 @@ Le Termial est présenté par Knuth comme une fonction analogue à la fonction f
 
 
 
-La fonction factorielle étant définie {{< latex "\forall n \in \mathbb{N}" >}} par :
+La fonction factorielle étant définie $\forall n \in \mathbb{N}$ par :
 
-{{< latex "\quicklatex{size=25}n!=\prod^n_{i=1}i= 1 \times 2 \times \ldots \times (n-1) \times n" >}}
+$n!=\prod^n_{i=1}i= 1 \times 2 \times \ldots \times (n-1) \times n$
 
 La fonction "termial" se définie par :
 
-{{< latex "\quicklatex{size=25}n?=\sum^n_{i=1}i = 1 + 2 + \ldots + (n-1) + n" >}}
+$n?=\sum^n_{i=1}i = 1 + 2 + \ldots + (n-1) + n$
 
 Cette série est grossièrement divergente.
 
@@ -35,11 +35,11 @@ Cette série est grossièrement divergente.
 
 Comme pour la fonction factorielle avec la fonction gamma, il est possible d'étendre la fonction "Termial" à des valeurs non entières en prenant :
 
-{{< latex "\quicklatex{size=25}n?=\sum^n_{i=1}i = \frac{n(n+1)}{2}" >}}
+$n?=\sum^n_{i=1}i = \frac{n(n+1)}{2}$
 
 Ainsi :
 
-{{< latex "\quicklatex{size=25}0.5? = \frac{0.5(0.5+1)}{2} = \frac{3}{8}" >}}
+$0.5? = \frac{0.5(0.5+1)}{2} = \frac{3}{8}$
 
 ## Sources :
 

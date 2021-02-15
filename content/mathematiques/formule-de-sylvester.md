@@ -16,7 +16,7 @@ description: "La formule de Sylvester, aussi appelée formule de Boole-Sylvester
 
 La formule de Sylvester est la suivante :
 
-{{< latex "" >}}\quicklatex{size=23}\#\left(\bigcup_{i\in \{1 \ldots n \}}A_i \right)=\sum_{I \in({2^{\{1 \dots n\}}\backslash\{\emptyset\})}}(-1)^{\#(I)+1}\#\left(\bigcap_{i \in I }A_i}\right){{< latex "" >}}
+$\#\left(\bigcup_{i\in \{1 \ldots n \}}A_i \right)=\sum_{I \in({2^{\{1 \dots n\}}\backslash\{\emptyset\})}}(-1)^{\#(I)+1}\#\left(\bigcap_{i \in I }A_i}\right)$
 
 ## Démonstration :
 

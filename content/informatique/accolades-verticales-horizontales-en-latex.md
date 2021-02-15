@@ -28,7 +28,7 @@ Pour afficher une accolade sur du texte, il suffit d'utiliser \overbrace comme c
 
 **Rendu :**
 
-{{< latex "5+5 = \overbrace{10_{10}}^{1010_2}" >}}
+$5+5 = \overbrace{10_{10}}^{1010_2}$
 
 ### Accolades sous du texte
 
@@ -42,7 +42,7 @@ La commande analogue à \overbrace est \underbrace.
 
 **Rendu :**
 
-{{< latex "5+5 = \underbrace{10_{10}}_{1010_2}" >}}
+$5+5 = \underbrace{10_{10}}_{1010_2}$
 
 ## Accolades verticales
 
@@ -56,7 +56,7 @@ Pour afficher une accolade verticale sur le coté gauche d'un texte, il suffit d
 
 **Rendu :**
 
-{{< latex "\left\{ 1+1=2" >}}
+$\left\{ 1+1=2$
 
 Pour une accolade à droite, il existe la commande \right.
 

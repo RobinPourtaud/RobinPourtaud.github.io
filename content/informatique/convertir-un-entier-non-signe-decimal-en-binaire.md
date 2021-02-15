@@ -31,9 +31,9 @@ Tout d'abord, il faut bien comprendre ce qu'est le système le plus courant, le 
 
 Un nombre, 7803 par exemple peut être décomposé comme ceci:
 
-{{< latex "7803_{10}=7\times1000+8\times100+0\times10+3\times1" >}}
+$7803_{10}=7\times1000+8\times100+0\times10+3\times1$
 
-Autrement dit: {{< latex "7803_{10}=7\times10^3+8\times10^2+0\times10^1+3\times10^0" >}}
+Autrement dit: $7803_{10}=7\times10^3+8\times10^2+0\times10^1+3\times10^0$
 
 Un nombre binaire sera donc décomposé de la même façon, mais avec une base de 2 et non de 10.
 
@@ -41,13 +41,13 @@ Un nombre binaire sera donc décomposé de la même façon, mais avec une base d
 
 Prenons un nombre binaire assez grand et décomposons-le:
 
-{{< latex "1011011101_2=1\times2^9+0\times2^8+1\times2^7+1\times2^6+0\times2^5+1\times2^4+1\times2^3+1\times2^2+0\times2^1+1\times2^0" >}}
+$1011011101_2=1\times2^9+0\times2^8+1\times2^7+1\times2^6+0\times2^5+1\times2^4+1\times2^3+1\times2^2+0\times2^1+1\times2^0$
 
 Ainsi:
 
-{{< latex "1011011101_2=512+128+64+16+8+4+1= 733_{10}" >}}
+$1011011101_2=512+128+64+16+8+4+1= 733_{10}$
 
-Voilà :). Vous pouvez maintenant essayer de convertir le nombre {{< latex "10000101100010_2" >}} en binaire (solution: 8546).
+Voilà :). Vous pouvez maintenant essayer de convertir le nombre $10000101100010_2$ en binaire (solution: 8546).
 
 ## Conversion Décimal-Binaire:
 
@@ -77,4 +77,4 @@ La méthode la plus connue pour convertir un nombre décimal en nombre binaire e
 
 Maintenant: prenez le reste de chaque opération de bas en haut. Ce qui donne:
 
-{{< latex "733_10 =1011011101_2" >}}
+$733_10 =1011011101_2$

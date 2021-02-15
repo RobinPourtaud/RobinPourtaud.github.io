@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html ⚡ lang="fr">
-	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38561&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
 <title>Les Valeurs et Vecteurs Propres</title>
     
 <meta name="description" content="Un scalaire lambda est une valeur propre de f si il existe un vecteur x non nul tel que f(x) = lambda x." />
-<link rel="canonical" href="http://localhost:38561/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/" >
-<link rel="sitemap" href="http://localhost:38561/sitemap.xml" type="application/xml" /><meta property="og:title" content="Les Valeurs et Vecteurs Propres">
-<meta property="og:url" content="http://localhost:38561/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/">
+<link rel="canonical" href="http://localhost:1313/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/" >
+<link rel="sitemap" href="http://localhost:1313/sitemap.xml" type="application/xml" /><meta property="og:title" content="Les Valeurs et Vecteurs Propres">
+<meta property="og:url" content="http://localhost:1313/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/">
 <meta property="og:description" content="Un scalaire lambda est une valeur propre de f si il existe un vecteur x non nul tel que f(x) = lambda x.">
-<meta property="og:image" content="http://localhost:38561/logo.png">
+<meta property="og:image" content="http://localhost:1313/logo.png">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content=""><meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Les Valeurs et Vecteurs Propres">
-<meta name="twitter:url" content="http://localhost:38561/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/">
+<meta name="twitter:url" content="http://localhost:1313/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/">
 <meta name="twitter:description" content="Un scalaire lambda est une valeur propre de f si il existe un vecteur x non nul tel que f(x) = lambda x.">
-<meta name="twitter:image" content="http://localhost:38561/logo.png">
+<meta name="twitter:image" content="http://localhost:1313/logo.png">
 <meta name="twitter:site" content=""><meta name="theme-color" content="#333"/>
-<link rel="manifest" href="http://localhost:38561/manifest.json">
+<link rel="manifest" href="http://localhost:1313/manifest.json">
 <link rel="icon" href="icons/logo.svg" sizes="any" type="image/svg+xml"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
 <noscript>
     <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
 </noscript><style amp-custom>
     
-        *,*::before,*::after{box-sizing:border-box}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0}body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}ul[class],ol[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img{max-width:100%;display:block}input,button,textarea,select{font:inherit}.chroma{background-color:#fff}.chroma .err{color:#a61717;background-color:#e3d2d2}.chroma .lntd{vertical-align:top;padding:0;margin:0;border:0}.chroma .lntable{border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block}.chroma .hl{display:block;width:100%;background-color:#ffc}.chroma .lnt{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .ln{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .k{color:#000;font-weight:700}.chroma .kc{color:#000;font-weight:700}.chroma .kd{color:#000;font-weight:700}.chroma .kn{color:#000;font-weight:700}.chroma .kp{color:#000;font-weight:700}.chroma .kr{color:#000;font-weight:700}.chroma .kt{color:#458;font-weight:700}.chroma .na{color:teal}.chroma .nb{color:#0086b3}.chroma .bp{color:#999}.chroma .nc{color:#458;font-weight:700}.chroma .no{color:teal}.chroma .nd{color:#3c5d5d;font-weight:700}.chroma .ni{color:purple}.chroma .ne{color:#900;font-weight:700}.chroma .nf{color:#900;font-weight:700}.chroma .nl{color:#900;font-weight:700}.chroma .nn{color:#555}.chroma .nt{color:navy}.chroma .nv{color:teal}.chroma .vc{color:teal}.chroma .vg{color:teal}.chroma .vi{color:teal}.chroma .s{color:#d14}.chroma .sa{color:#d14}.chroma .sb{color:#d14}.chroma .sc{color:#d14}.chroma .dl{color:#d14}.chroma .sd{color:#d14}.chroma .s2{color:#d14}.chroma .se{color:#d14}.chroma .sh{color:#d14}.chroma .si{color:#d14}.chroma .sx{color:#d14}.chroma .sr{color:#009926}.chroma .s1{color:#d14}.chroma .ss{color:#990073}.chroma .m{color:#099}.chroma .mb{color:#099}.chroma .mf{color:#099}.chroma .mh{color:#099}.chroma .mi{color:#099}.chroma .il{color:#099}.chroma .mo{color:#099}.chroma .o{color:#000;font-weight:700}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#998;font-style:italic}.chroma .ch{color:#998;font-style:italic}.chroma .cm{color:#998;font-style:italic}.chroma .c1{color:#998;font-style:italic}.chroma .cs{color:#999;font-weight:700;font-style:italic}.chroma .cp{color:#999;font-weight:700;font-style:italic}.chroma .cpf{color:#999;font-weight:700;font-style:italic}.chroma .gd{color:#000;background-color:#fdd}.chroma .ge{color:#000;font-style:italic}.chroma .gr{color:#a00}.chroma .gh{color:#999}.chroma .gi{color:#000;background-color:#dfd}.chroma .go{color:#888}.chroma .gp{color:#555}.chroma .gs{font-weight:700}.chroma .gu{color:#aaa}.chroma .gt{color:#a00}.chroma .gl{text-decoration:underline}.chroma .w{color:#bbb}body{position:absolute;display:block;font-size:1.2em;font-family:poppins,sans-serif;line-height:1.6;color:#000;background-color:#fafafa}amp-next-page{grid-column:span 12}.header{position:fixed;z-index:99;width:100%;height:80px;padding:10px 20%;top:0;background-color:#fff;border-bottom:.5px solid #000}.header__menu{margin:0;padding:0;align-items:center;overflow:auto;justify-content:space-between}.header__menu a{font-size:1.2em;white-space:nowrap;border-bottom:none;width:60px;height:60px}.header__menu a:hover{color:#d14}.header__menu__logo{content:"\e8b6";background-color:#000;font-family:icomoon;font-size:23px}.header__menu__logo svg{width:60px;height:60px}.header__menu__list{display:flex;flex-grow:1;flex-wrap:nowrap;align-items:center;justify-content:space-around}.header__menu__list li{padding:0 1em;display:inline}.header__menu__dropdown-input,.header__menu__dropdown-label,.header__menu__dropdown-list{display:none}.header__menu__dropdown-input:checked~.header__menu__dropdown-list{display:flex}.header__menu__dropdown-input:checked~.header__menu__dropdown-label .header__menu__dropdown-icon{background:0 0}.header__menu__dropdown-input:checked~.header__menu__dropdown-label .header__menu__dropdown-icon:before{top:0;transform:rotate(-45deg)}.header__menu__dropdown-input:checked~.header__menu__dropdown-label .header__menu__dropdown-icon:after{top:0;transform:rotate(45deg)}.header__menu__dropdown-label{cursor:pointer;padding:1em}.header__menu__dropdown-icon{background:#333;background-color:#000;display:block;height:36px;position:relative;transition:background .2s ease-out;width:36px}.header__menu__dropdown-icon:before,.header__menu__dropdown-icon:after{background:#333;content:'';display:block;height:100%;position:absolute;transition:all .2s ease-out;width:100%}.header__menu__dropdown-icon:before{top:15px}.header__menu__dropdown-icon:after{top:-15px}.header__menu__dropdown-list{width:100%;flex-direction:column;align-items:center;border-top:1px solid #333}.header__menu__dropdown-list li{padding:.5em}.header__search{right:0;float:right;position:relative;font-family:poppins,sans-serif;color:#000;width:80px;border:#000 solid 1px}.header__search :hover{width:180px}.header__search__input{padding:.5em 1em;font-family:poppins,sans-serif;font-size:1.2em;width:100%;height:100%;border-radius:0;border:0 solid #000;border-top:none;overflow:hidden}.header__search__input:focus{outline:none}.header__search .search-item__link{border-bottom:none}.main{background-color:#fafafa;line-height:1.7;width:100%;margin-top:80px;padding:20px 100px 0;position:relative}.main .pagination{margin:3em auto 2em;display:flex;justify-content:space-between}.footer{position:relative;bottom:0;width:100%;background-color:#acacac;margin-bottom:0;text-align:center;font-size:15px;padding:3px;float:right}.footer__copyright{color:#fff}.footer__list__link{display:inline;margin:4px}.footer__list__link a{color:#fff}.more__title{text-align:center;background-color:#21d4fd;background-image:linear-gradient(19deg,#21D4FD 0%,#B721FF 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:32px}.more__list{list-style:none;text-align:center}.more__list li{background-color:#b3cdd1;background-image:linear-gradient(315deg,#b3cdd1 0%,#9fa4c4 74%);border-radius:4px;margin:20px;padding:10px;width:160px;display:inline-block}.more__list a{color:#fff!important}h1{font-size:48px;line-height:58px;color:#333;margin:0;font-weight:700}h2{text-align:center;background:linear-gradient(to right,#f2709c,#ff9472);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:32px;margin-top:40px}h3{background-image:radial-gradient(circle farthest-corner at 12.3% 19.3%,#5558da 0%,#5fd1f9 100.2%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-top:30px;margin-bottom:20px}h4{font-size:1.5rem}a{color:#1e3888;text-decoration:none;transition:background .3s}a:hover{border-color:#d14}.button{padding:.5em .75em;font-size:1.2em;text-align:center;border:0}li{margin-top:.25em}pre{font-family:poppins,sans-serif;font-size:12pt;display:block;overflow-x:auto;padding:25px;background:radial-gradient(circle 993px at 0.5% 50.5%,rgba(137,171,245,0.37) 0%,#f5f7fc 100.2%);color:#000;font-weight:500;border-radius:4px}blockquote{margin:inherit auto;margin-left:1em;padding:1em;border-left:5px solid #999}blockquote:before{display:none}blockquote:not(:first-of-type){margin-top:.5em}blockquote p{color:#555;font-size:1.25em;font-family:poppins,sans-serif}.figure{flex-direction:column-reverse;max-width:50%;text-align:center;cursor:pointer;display:block;margin-left:auto;margin-right:auto;margin-bottom:30px}.figure--with-caption{display:flex;border-top:none}.figure__image--with-caption{min-width:70%}.figure__caption{background-color:#333;color:#fff;font-weight:700;padding:.5em 1em;height:min-content;word-wrap:break-word;position:relative;max-width:100%}.post-it{width:100%;padding:1.5em}.post-it--tip{background-color:#fffacd}.post-it--info{background-color:azure}.post-it--danger{background-color:#ffcccb}.post-it--success{background-color:#d0f0c0}.post-it__title{font-weight:700;font-size:1.5em}.post-it__content{margin-top:1em}.product{width:100%;display:flex;justify-content:space-between;padding:1.5em;border:1px solid #333}.product__image{margin:auto;width:100%;min-width:250px;max-width:400px}.product__content{margin-left:2em;align-self:center;display:flex;flex-direction:column}.product__title{font-weight:700;font-size:1.5rem}.product__description{margin-top:1em}.product__cta{margin-top:1em}.social-share{display:flex;align-self:center;align-items:center}.social-share__button{margin:10px .3em;border-radius:50%;background-size:60%}#tags{margin:0;padding:0}#tags li{display:inline}.aside{float:left;position:relative;display:block;width:25%;background-color:#fafafa}.aside__title{font-size:21px;font-weight:bolder;margin-top:30px}.description{text-align:center;font-weight:lighter;font-style:italic}.content{background-color:#ffff;display:block;padding:40px;border-radius:10px;width:900px;margin-bottom:20px;float:right;position:relative}.content table{display:block;overflow-x:auto;border-collapse:collapse}.content table td,.content table th{border:1px solid #ddd}.content table td{padding:.5em 1em}.content table th{padding:1em 2em;background-color:#333;color:#fff}.content table tr:nth-child(even){background-color:#f1f1f1}.content table tr:hover{background-color:#ddd}.content .highlight .chroma{background-color:#f1f1f1}.content .under-title{display:flex;flex-wrap:wrap;justify-content:space-between;font-size:1rem}.content .under-title__info,.content .under-title__social-share{align-self:center}.content .ad{display:flex;margin:1rem auto;align-content:center;width:min-content;height:min-content;min-width:320px;min-height:320px;border:1px solid #333}.content .ad__fallback{display:flex;align-items:center}.content .ad__fallback p{margin:auto}.content .author{border-radius:10px;background-color:#f9f9f9;padding:20px 60px;margin:40px}.content .author>*:not(:first-child){margin-top:1rem}.content .author__image{border-radius:100px;width:70px!important;height:70px!important}.content .author__right{margin:0!important;float:right;width:80%}.content .author__right__name{font-weight:700;font-size:20px;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-image:linear-gradient(135deg,#8bc6ec 0%,#9599e2 100%)}.content .author__right__bio{font-size:12px}.summary{width:333.3px;height:363.8px;overflow:hidden;margin:15px;display:inline-block}.summary__top__image{border-radius:6px;width:100%;height:181.9px;padding:20px;overflow:hidden;background-size:cover;padding:30px;margin-bottom:10px}.summary__bottom__title{color:#000;font-size:20px;font-weight:bolder;z-index:10}.summary__bottom__desc{font-size:13px;color:#000}.summary__list{max-width:1100px;width:100%;position:relative;display:inline-flex}@media(max-width:320px){.p{font-size:20px}.under-title__social-share{width:100%;margin-top:1.5em;justify-content:space-between}.product{flex-wrap:wrap}.product__content{margin-left:unset;text-align:center}.product__title{margin-top:1em}}.toc{margin-top:40px;margin-bottom:40px;background-color:rgba(0,0,0,.02);padding:30px}.toc__title{font-size:30px;background-image:radial-gradient(circle 767px at 10.2% 22.1%,#0bda51 0%,deepskyblue 90%);-webkit-background-clip:text;font-weight:700;-webkit-text-fill-color:transparent}.toc ul{list-style:decimal}
+        *,*::before,*::after{box-sizing:border-box}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0}body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}ul[class],ol[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img{max-width:100%;display:block}input,button,textarea,select{font:inherit}.chroma{background-color:#fff}.chroma .err{color:#a61717;background-color:#e3d2d2}.chroma .lntd{vertical-align:top;padding:0;margin:0;border:0}.chroma .lntable{border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block}.chroma .hl{display:block;width:100%;background-color:#ffc}.chroma .lnt{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .ln{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .k{color:#000;font-weight:700}.chroma .kc{color:#000;font-weight:700}.chroma .kd{color:#000;font-weight:700}.chroma .kn{color:#000;font-weight:700}.chroma .kp{color:#000;font-weight:700}.chroma .kr{color:#000;font-weight:700}.chroma .kt{color:#458;font-weight:700}.chroma .na{color:teal}.chroma .nb{color:#0086b3}.chroma .bp{color:#999}.chroma .nc{color:#458;font-weight:700}.chroma .no{color:teal}.chroma .nd{color:#3c5d5d;font-weight:700}.chroma .ni{color:purple}.chroma .ne{color:#900;font-weight:700}.chroma .nf{color:#900;font-weight:700}.chroma .nl{color:#900;font-weight:700}.chroma .nn{color:#555}.chroma .nt{color:navy}.chroma .nv{color:teal}.chroma .vc{color:teal}.chroma .vg{color:teal}.chroma .vi{color:teal}.chroma .s{color:#d14}.chroma .sa{color:#d14}.chroma .sb{color:#d14}.chroma .sc{color:#d14}.chroma .dl{color:#d14}.chroma .sd{color:#d14}.chroma .s2{color:#d14}.chroma .se{color:#d14}.chroma .sh{color:#d14}.chroma .si{color:#d14}.chroma .sx{color:#d14}.chroma .sr{color:#009926}.chroma .s1{color:#d14}.chroma .ss{color:#990073}.chroma .m{color:#099}.chroma .mb{color:#099}.chroma .mf{color:#099}.chroma .mh{color:#099}.chroma .mi{color:#099}.chroma .il{color:#099}.chroma .mo{color:#099}.chroma .o{color:#000;font-weight:700}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#998;font-style:italic}.chroma .ch{color:#998;font-style:italic}.chroma .cm{color:#998;font-style:italic}.chroma .c1{color:#998;font-style:italic}.chroma .cs{color:#999;font-weight:700;font-style:italic}.chroma .cp{color:#999;font-weight:700;font-style:italic}.chroma .cpf{color:#999;font-weight:700;font-style:italic}.chroma .gd{color:#000;background-color:#fdd}.chroma .ge{color:#000;font-style:italic}.chroma .gr{color:#a00}.chroma .gh{color:#999}.chroma .gi{color:#000;background-color:#dfd}.chroma .go{color:#888}.chroma .gp{color:#555}.chroma .gs{font-weight:700}.chroma .gu{color:#aaa}.chroma .gt{color:#a00}.chroma .gl{text-decoration:underline}.chroma .w{color:#bbb}@media(max-width:1300px){aside{display:none!important}article{width:100%!important}.main{padding:0!important}h1{font-size:32px!important}.toc__title,h2{font-size:25px!important}.author{padding:0!important;margin:0!important;text-align:center}}body{position:absolute;display:block;font-size:1.2em;font-family:poppins,sans-serif;line-height:1.6;color:#000;background-color:#fafafa}amp-next-page{grid-column:span 12}.header{position:fixed;z-index:99;width:100%;height:80px;padding:10px 20%;top:0;background-color:#fff;border-bottom:.5px solid #000}.header__menu{margin:0;padding:0;align-items:center;overflow:auto;justify-content:space-between}.header__menu a{font-size:1.2em;white-space:nowrap;border-bottom:none;width:60px;height:60px}.header__menu a:hover{color:#d14}.header__menu__logo{content:"\e8b6";background-color:#000;font-family:icomoon;font-size:23px}.header__menu__logo svg{width:60px;height:60px}.header__menu__list{display:flex;flex-grow:1;flex-wrap:nowrap;align-items:center;justify-content:space-around}.header__menu__list li{padding:0 1em;display:inline}.header__menu__dropdown-input,.header__menu__dropdown-label,.header__menu__dropdown-list{display:none}.header__menu__dropdown-input:checked~.header__menu__dropdown-list{display:flex}.header__menu__dropdown-input:checked~.header__menu__dropdown-label .header__menu__dropdown-icon{background:0 0}.header__menu__dropdown-input:checked~.header__menu__dropdown-label .header__menu__dropdown-icon:before{top:0;transform:rotate(-45deg)}.header__menu__dropdown-input:checked~.header__menu__dropdown-label .header__menu__dropdown-icon:after{top:0;transform:rotate(45deg)}.header__menu__dropdown-label{cursor:pointer;padding:1em}.header__menu__dropdown-icon{background:#333;background-color:#000;display:block;height:36px;position:relative;transition:background .2s ease-out;width:36px}.header__menu__dropdown-icon:before,.header__menu__dropdown-icon:after{background:#333;content:'';display:block;height:100%;position:absolute;transition:all .2s ease-out;width:100%}.header__menu__dropdown-icon:before{top:15px}.header__menu__dropdown-icon:after{top:-15px}.header__menu__dropdown-list{width:100%;flex-direction:column;align-items:center;border-top:1px solid #333}.header__menu__dropdown-list li{padding:.5em}.header__search{right:0;float:right;position:relative;font-family:poppins,sans-serif;color:#000;width:80px;border:#000 solid 1px}.header__search :hover{width:180px}.header__search__input{padding:.5em 1em;font-family:poppins,sans-serif;font-size:1.2em;width:100%;height:100%;border-radius:0;border:0 solid #000;border-top:none;overflow:hidden}.header__search__input:focus{outline:none}.header__search .search-item__link{border-bottom:none}.main{background-color:#fafafa;line-height:1.7;width:100%;margin-top:80px;padding:20px 100px 0;position:relative}.main .pagination{margin:3em auto 2em;display:flex;justify-content:space-between}.footer{position:relative;bottom:0;width:100%;background-color:#0093e9;background-image:linear-gradient(160deg,#0093E9 0%,#80D0C7 100%);margin-bottom:0;text-align:center;font-size:15px;padding:3px;float:right}.footer__copyright{color:#fff}.footer__list__link{display:inline;margin:4px}.footer__list__link a{color:#fff}.more__title{text-align:center;background-color:#21d4fd;background-image:linear-gradient(19deg,#21D4FD 0%,#B721FF 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:32px}.more__list{list-style:none;text-align:center}.more__list li{background-color:#b3cdd1;background-image:linear-gradient(315deg,#b3cdd1 0%,#9fa4c4 74%);border-radius:4px;margin:20px;padding:10px;width:160px;display:inline-block}.more__list a{color:#fff!important}h1{font-size:48px;line-height:58px;color:#333;margin:0;font-weight:700}h2{text-align:center;background:linear-gradient(to right,#f2709c,#ff9472);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:32px;margin-top:40px}h3{background-image:radial-gradient(circle farthest-corner at 12.3% 19.3%,#5558da 0%,#5fd1f9 100.2%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-top:30px;margin-bottom:20px}h4{font-size:1.5rem}a{color:#1e3888;text-decoration:none;transition:background .3s}a:hover{border-color:#d14}.button{padding:.5em .75em;font-size:1.2em;text-align:center;border:0}li{margin-top:.25em}pre{font-family:poppins,sans-serif;font-size:12pt;display:block;overflow-x:auto;padding:25px;background:radial-gradient(circle 993px at 0.5% 50.5%,rgba(137,171,245,0.37) 0%,#f5f7fc 100.2%);color:#000;font-weight:500;border-radius:4px}blockquote{margin:inherit auto;margin-left:1em;padding:1em;border-left:5px solid #999}blockquote:before{display:none}blockquote:not(:first-of-type){margin-top:.5em}blockquote p{color:#555;font-size:1.25em;font-family:poppins,sans-serif}article .figure{flex-direction:column-reverse;max-width:50%;text-align:center;cursor:pointer;display:block;margin-left:auto;margin-right:auto;margin-bottom:30px}article .figure--with-caption{display:flex;border-top:none}article .figure__image--with-caption{min-width:70%}article .figure__caption{background-color:#333;color:#fff;font-weight:700;padding:.5em 1em;height:min-content;word-wrap:break-word;position:relative;max-width:100%}.post-it{width:100%;padding:1.5em}.post-it--tip{background-color:#fffacd}.post-it--info{background-color:azure}.post-it--danger{background-color:#ffcccb}.post-it--success{background-color:#d0f0c0}.post-it__title{font-weight:700;font-size:1.5em}.post-it__content{margin-top:1em}.product{width:100%;display:flex;justify-content:space-between;padding:1.5em;border:1px solid #333}.product__image{margin:auto;width:100%;min-width:250px;max-width:400px}.product__content{margin-left:2em;align-self:center;display:flex;flex-direction:column}.product__title{font-weight:700;font-size:1.5rem}.product__description{margin-top:1em}.product__cta{margin-top:1em}.social-share{display:flex;align-self:center;align-items:center}.social-share__button{margin:10px .3em;border-radius:50%;background-size:60%}#tags{margin:0;padding:0}#tags li{display:inline}.aside{float:left;position:relative;display:block;width:25%;background-color:#fafafa}.aside__title{font-size:21px;font-weight:bolder;margin-top:30px}.description{text-align:center;font-weight:lighter;font-style:italic}.content{background-color:#ffff;display:block;padding:40px;border-radius:10px;width:900px;margin-bottom:20px;float:right;position:relative}.content table{display:block;overflow-x:auto;border-collapse:collapse}.content table td,.content table th{border:1px solid #ddd}.content table td{padding:.5em 1em}.content table th{padding:1em 2em;background-color:#333;color:#fff}.content table tr:nth-child(even){background-color:#f1f1f1}.content table tr:hover{background-color:#ddd}.content .highlight .chroma{background-color:#f1f1f1}.content .under-title{display:flex;flex-wrap:wrap;justify-content:space-between;font-size:1rem}.content .under-title__info,.content .under-title__social-share{align-self:center}.content .ad{display:flex;margin:1rem auto;align-content:center;width:min-content;height:min-content;min-width:320px;min-height:320px;border:1px solid #333}.content .ad__fallback{display:flex;align-items:center}.content .ad__fallback p{margin:auto}.content .author{border-radius:10px;background-color:#f9f9f9;padding:20px 60px;margin:40px}.content .author>*:not(:first-child){margin-top:1rem}.content .author__image{border-radius:100px;width:70px!important;height:70px!important}.content .author__right{margin:0!important;float:right;width:80%}.content .author__right__name{font-weight:700;font-size:20px;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-image:linear-gradient(135deg,#8bc6ec 0%,#9599e2 100%)}.content .author__right__bio{font-size:12px}.summary{width:333.3px;height:333px;overflow:hidden;margin:15px;display:inline-block;left:50%;transform:translateX(50%)}.summary__top__title{position:absolute;z-index:2;color:#fff;font-weight:bolder;width:333.3px;padding:20px 15px 10px 80px;text-align:right;vertical-align:center;line-height:25px}.summary__top__image{border-radius:6px;display:block;width:100%;height:181.9px;padding:20px;margin-bottom:10px}.summary__top__tags{position:absolute;color:#fff;z-index:2;width:333.3px;padding:120px 15px 10px 80px;text-align:right;font-size:15px;line-height:15px}.summary__bottom__title{color:#000;font-size:15px;font-weight:bolder;z-index:10}.summary__bottom__desc{font-size:13px;color:#000;text-overflow:ellipsis}.summary__list{max-width:1100px;width:100%;position:relative;display:inline-flex}@media(max-width:320px){.p{font-size:20px}.under-title__social-share{width:100%;margin-top:1.5em;justify-content:space-between}.product{flex-wrap:wrap}.product__content{margin-left:unset;text-align:center}.product__title{margin-top:1em}}.toc{margin-top:40px;margin-bottom:40px;background-color:rgba(0,0,0,.02);padding:30px}.toc__title{font-size:30px;background-image:radial-gradient(circle 767px at 10.2% 22.1%,#0bda51 0%,deepskyblue 90%);-webkit-background-clip:text;font-weight:700;-webkit-text-fill-color:transparent}.toc ul{list-style:decimal}
     
     
         
@@ -49,8 +49,8 @@
     <script async custom-element="amp-next-page" src="https://cdn.ampproject.org/v0/amp-next-page-1.0.js"></script>
 </head>
 	<body><amp-install-serviceworker
-  src="http://localhost:38561/sw.js"
-  data-iframe-src="http://localhost:38561/install-sw.html"
+  src="http://localhost:1313/sw.js"
+  data-iframe-src="http://localhost:1313/install-sw.html"
   layout="nodisplay">
 </amp-install-serviceworker>
 
@@ -85,7 +85,7 @@
           "@type": "ListItem",
           "position":  1 ,
           "item": {
-            "@id": "http:\/\/localhost:38561\/",
+            "@id": "http:\/\/localhost:1313\/",
             "name": "Accueil"
           }
         }
@@ -95,7 +95,7 @@
           "@type": "ListItem",
           "position":  2 ,
           "item": {
-            "@id": "http:\/\/localhost:38561\/mathematiques\/",
+            "@id": "http:\/\/localhost:1313\/mathematiques\/",
             "name": "Mathematiques"
           }
         }
@@ -105,7 +105,7 @@
           "@type": "ListItem",
           "position":  3 ,
           "item": {
-            "@id": "http:\/\/localhost:38561\/mathematiques\/keske-cest-les-valeurs-et-vecteur-propre\/",
+            "@id": "http:\/\/localhost:1313\/mathematiques\/keske-cest-les-valeurs-et-vecteur-propre\/",
             "name": "Keske cest les valeurs et vecteur propre"
           }
         }
@@ -115,8 +115,8 @@
   {
     "@context":"http://schema.org",
     "@type": "BlogPosting",
-    "image": "http:\/\/localhost:38561\/",
-    "url": "http:\/\/localhost:38561\/mathematiques\/keske-cest-les-valeurs-et-vecteur-propre\/",
+    "image": "http:\/\/localhost:1313\/",
+    "url": "http:\/\/localhost:1313\/mathematiques\/keske-cest-les-valeurs-et-vecteur-propre\/",
     "headline": "Les Valeurs et Vecteurs Propres",
     "alternativeHeadline": "Les Valeurs et Vecteurs Propres",
     "dateCreated": "2020-04-19T00:00:00",
@@ -134,21 +134,21 @@
     "author": {
       "@type": "Person",
       "name": "",
-      "url": "http:\/\/localhost:38561\/",
-      "image": "http:\/\/localhost:38561\/",
+      "url": "http:\/\/localhost:1313\/",
+      "image": "http:\/\/localhost:1313\/",
       "description": ""
     },
     "creator": {
       "@type": "Person",
       "name": "",
-      "url": "http:\/\/localhost:38561\/",
-      "image": "http:\/\/localhost:38561\/",
+      "url": "http:\/\/localhost:1313\/",
+      "image": "http:\/\/localhost:1313\/",
       "description": ""
     },
     "publisher": {
       "@type": "Organization",
       "name": "amperage",
-      "url": "http:\/\/localhost:38561\/",
+      "url": "http:\/\/localhost:1313\/",
       "logo": {
         "@type": "ImageObject",
         "url": "\/icons\/logo.svg",
@@ -156,7 +156,7 @@
         "height":"60"
       }
     },
-    "mainEntityOfPage": "http:\/\/localhost:38561\/mathematiques\/keske-cest-les-valeurs-et-vecteur-propre\/",
+    "mainEntityOfPage": "http:\/\/localhost:1313\/mathematiques\/keske-cest-les-valeurs-et-vecteur-propre\/",
     "keywords": "null",
     "genre": "[\"algebre-2\",\"valeurs-propres\",\"vecteurs-propres\"]",
     "articleSection": "Mathematiques"
@@ -171,7 +171,7 @@
     
         
         <li>
-            <a href="http://localhost:38561/categories"
+            <a href="http://localhost:1313/categories"
                  data-rel="prefetch"
                 >
                 <span>Catégories</span>
@@ -180,7 +180,7 @@
     
         
         <li>
-            <a href="http://localhost:38561/tags"
+            <a href="http://localhost:1313/tags"
                  data-rel="prefetch"
                 >
                 <span>Tags</span>
@@ -189,7 +189,7 @@
     
 </ul></nav>
 
-<a class="header__menu__logo" data-rel="prefetch" href="http://localhost:38561/" aria-label="Retourner à la page d&#39;accueil"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206 239.92">
+<a class="header__menu__logo" data-rel="prefetch" href="http://localhost:1313/" aria-label="Retourner à la page d&#39;accueil"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206 239.92">
     <defs>
         <style>
             .cls-1 {
@@ -243,7 +243,7 @@
     on="select:AMP.navigateTo(url=event.value)"
     filter="substring"
     filter-value="title"
-    src="http://localhost:38561/search.json"
+    src="http://localhost:1313/search.json"
     min-characters="1"
     class="header__search"
     next-page-hide>
@@ -268,17 +268,17 @@
             
                 
                 
-                    <li><a href="http://localhost:38561/tags/algebre-2/" data-rel="prefetch">algebre-2</a></li>
+                    <li><a href="http://localhost:1313/tags/algebre-2/" data-rel="prefetch">algebre-2</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:38561/tags/valeurs-propres/" data-rel="prefetch">valeurs-propres</a></li>
+                    <li><a href="http://localhost:1313/tags/valeurs-propres/" data-rel="prefetch">valeurs-propres</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:38561/tags/vecteurs-propres/" data-rel="prefetch">vecteurs-propres</a></li>
+                    <li><a href="http://localhost:1313/tags/vecteurs-propres/" data-rel="prefetch">vecteurs-propres</a></li>
                 
             
         </ul>
@@ -300,403 +300,29 @@
   </ul>
 </nav>
 </div>
-<p>Soit E un espace vectoriel de dimension fini, sur 
-
-
-<amp-img
-  alt="\mathbb{K}"
-  src="https://render.githubusercontent.com/render/math?math=%5cmathbb%7bK%7d"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\mathbb{K}"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>. 
-
-
-<amp-img
-  alt="f"
-  src="https://render.githubusercontent.com/render/math?math=f"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="f"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img> un endomorphisme (applications linéaires d&rsquo;un espace vectoriel dans lui-même) de E.</p>
+<p>Soit E un espace vectoriel de dimension fini, sur <amp-img alt="\mathbb{K}" src="https://render.githubusercontent.com/render/math?math=\mathbb{K}" layout="fixed-height" height="14px"><amp-img alt="\mathbb{K}" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>. <amp-img alt="f" src="https://render.githubusercontent.com/render/math?math=f" layout="fixed-height" height="14px"><amp-img alt="f" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img> un endomorphisme (applications linéaires d&rsquo;un espace vectoriel dans lui-même) de E.</p>
 <h2 id="définition">Définition</h2>
-<p>Un scalaire 
-
-
-<amp-img
-  alt="\lambda"
-  src="https://render.githubusercontent.com/render/math?math=%5clambda"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\lambda"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img> est une valeur propre de 
-
-
-<amp-img
-  alt="f"
-  src="https://render.githubusercontent.com/render/math?math=f"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="f"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img> s&rsquo;il existe un vecteur x (le vecteur propre) non nul tel que 
-
-
-<amp-img
-  alt="f(x)=\lambda x"
-  src="https://render.githubusercontent.com/render/math?math=f%28x%29%3d%5clambda%20x"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="f(x)=\lambda x"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>.</p>
+<p>Un scalaire <amp-img alt="\lambda" src="https://render.githubusercontent.com/render/math?math=\lambda" layout="fixed-height" height="14px"><amp-img alt="\lambda" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img> est une valeur propre de <amp-img alt="f" src="https://render.githubusercontent.com/render/math?math=f" layout="fixed-height" height="14px"><amp-img alt="f" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img> s&rsquo;il existe un vecteur x (le vecteur propre) non nul tel que <amp-img alt="f(x)=\lambda x" src="https://render.githubusercontent.com/render/math?math=f(x)=\lambda x" layout="fixed-height" height="14px"><amp-img alt="f(x)=\lambda x" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>.</p>
 <h2 id="exemple">Exemple</h2>
-<p>
-
-
-<amp-img
-  alt="A = \begin{bmatrix} 7 &amp; 2 \\ -4 &amp; 1 \end{bmatrix}"
-  src="https://render.githubusercontent.com/render/math?math=A%20%3d%20%5cbegin%7bbmatrix%7d%207%20%26%202%20%5c%5c%20-4%20%26%201%20%5cend%7bbmatrix%7d"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="A = \begin{bmatrix} 7 &amp; 2 \\ -4 &amp; 1 \end{bmatrix}"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>.</p>
+<p><amp-img alt="A = \begin{bmatrix} 7 &amp; 2 \ -4 &amp; 1 \end{bmatrix}" src="https://render.githubusercontent.com/render/math?math=A = \begin{bmatrix} 7 &amp; 2 \ -4 &amp; 1 \end{bmatrix}" layout="fixed-height" height="14px"><amp-img alt="A = \begin{bmatrix} 7 &amp; 2 \ -4 &amp; 1 \end{bmatrix}" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>.</p>
 <h3 id="calcul-du-polynôme-caractéristique">Calcul du Polynôme Caractéristique</h3>
-<p>Le polynome caractéristique de A est défini comme: 
-
-
-<amp-img
-  alt="\chi_A(\lambda) = \det(\lambda I_{dim A} - A)"
-  src="https://render.githubusercontent.com/render/math?math=%5cchi_A%28%5clambda%29%20%3d%20%5cdet%28%5clambda%20I_%7bdim%20A%7d%20-%20A%29"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\chi_A(\lambda) = \det(\lambda I_{dim A} - A)"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>.</p>
+<p>Le polynome caractéristique de A est défini comme: <amp-img alt="\chi_A(\lambda) = \det(\lambda I_{dim A} - A)" src="https://render.githubusercontent.com/render/math?math=\chi_A(\lambda) = \det(\lambda I_{dim A} - A)" layout="fixed-height" height="14px"><amp-img alt="\chi_A(\lambda) = \det(\lambda I_{dim A} - A)" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>.</p>
 <p>Ainsi :</p>
-<p>
-
-
-<amp-img
-  alt="\chi_A(\lambda) = \det \begin{bmatrix} \lambda - 7 &amp; -2 \\ 4 &amp; \lambda -1 \end{bmatrix} = (\lambda - 7)(\lambda - 1) &#43; 8 = (\lambda - 3)(\lambda - 5)"
-  src="https://render.githubusercontent.com/render/math?math=%5cchi_A%28%5clambda%29%20%3d%20%5cdet%20%5cbegin%7bbmatrix%7d%20%5clambda%20-%207%20%26%20-2%20%5c%5c%204%20%26%20%5clambda%20-1%20%5cend%7bbmatrix%7d%20%3d%20%28%5clambda%20-%207%29%28%5clambda%20-%201%29%20%2b%208%20%3d%20%28%5clambda%20-%203%29%28%5clambda%20-%205%29"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\chi_A(\lambda) = \det \begin{bmatrix} \lambda - 7 &amp; -2 \\ 4 &amp; \lambda -1 \end{bmatrix} = (\lambda - 7)(\lambda - 1) &#43; 8 = (\lambda - 3)(\lambda - 5)"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>.</p>
+<p><amp-img alt="\chi_A(\lambda) = \det \begin{bmatrix} \lambda - 7 &amp; -2 \ 4 &amp; \lambda -1 \end{bmatrix} = (\lambda - 7)(\lambda - 1) + 8 = (\lambda - 3)(\lambda - 5)" src="https://render.githubusercontent.com/render/math?math=\chi_A(\lambda) = \det \begin{bmatrix} \lambda - 7 &amp; -2 \ 4 &amp; \lambda -1 \end{bmatrix} = (\lambda - 7)(\lambda - 1) + 8 = (\lambda - 3)(\lambda - 5)" layout="fixed-height" height="14px"><amp-img alt="\chi_A(\lambda) = \det \begin{bmatrix} \lambda - 7 &amp; -2 \ 4 &amp; \lambda -1 \end{bmatrix} = (\lambda - 7)(\lambda - 1) + 8 = (\lambda - 3)(\lambda - 5)" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>.</p>
 <h3 id="calcul-des-valeurs-propres">Calcul des Valeurs Propres</h3>
-<p>Les valeurs propres sont les racines du polynôme caractéristique. C&rsquo;est à dire les solutions de 
-
-
-<amp-img
-  alt="\ker \chi_A(\lambda)"
-  src="https://render.githubusercontent.com/render/math?math=%5cker%20%5cchi_A%28%5clambda%29"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\ker \chi_A(\lambda)"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>.</p>
-<p>
-
-
-<amp-img
-  alt="(\lambda - 3)(\lambda - 5) = 0"
-  src="https://render.githubusercontent.com/render/math?math=%28%5clambda%20-%203%29%28%5clambda%20-%205%29%20%3d%200"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="(\lambda - 3)(\lambda - 5) = 0"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img> Admet 2 solutions: 
-
-
-<amp-img
-  alt="\lambda_{1,2}=\{3,5\}"
-  src="https://render.githubusercontent.com/render/math?math=%5clambda_%7b1%2c2%7d%3d%5c%7b3%2c5%5c%7d"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\lambda_{1,2}=\{3,5\}"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img></p>
+<p>Les valeurs propres sont les racines du polynôme caractéristique. C&rsquo;est à dire les solutions de <amp-img alt="\ker \chi_A(\lambda)" src="https://render.githubusercontent.com/render/math?math=\ker \chi_A(\lambda)" layout="fixed-height" height="14px"><amp-img alt="\ker \chi_A(\lambda)" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>.</p>
+<p><amp-img alt="(\lambda - 3)(\lambda - 5) = 0" src="https://render.githubusercontent.com/render/math?math=(\lambda - 3)(\lambda - 5) = 0" layout="fixed-height" height="14px"><amp-img alt="(\lambda - 3)(\lambda - 5) = 0" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img> Admet 2 solutions: <amp-img alt="\lambda_{1,2}={3,5}" src="https://render.githubusercontent.com/render/math?math=\lambda_{1,2}={3,5}" layout="fixed-height" height="14px"><amp-img alt="\lambda_{1,2}={3,5}" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img></p>
 <p>Le Spectre d&rsquo;une matrice est l&rsquo;ensembles de ses Valeurs Propres associées. Ainsi :</p>
-
-
-
-<amp-img
-  alt="Sp(A)=\{3,5\}"
-  src="https://render.githubusercontent.com/render/math?math=Sp%28A%29%3d%5c%7b3%2c5%5c%7d"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="Sp(A)=\{3,5\}"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>
+<p><amp-img alt="Sp(A)={3,5}" src="https://render.githubusercontent.com/render/math?math=Sp(A)={3,5}" layout="fixed-height" height="14px"><amp-img alt="Sp(A)={3,5}" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img></p>
 <h3 id="calcul-des-vecteurs-propres">Calcul des Vecteurs Propres</h3>
-<p>Pour calculer les Vecteurs Propres, on cherche les solutions de 
-
-
-<amp-img
-  alt="\ker(\lambda_{1,2} I - A)"
-  src="https://render.githubusercontent.com/render/math?math=%5cker%28%5clambda_%7b1%2c2%7d%20I%20-%20A%29"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\ker(\lambda_{1,2} I - A)"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>.</p>
-<p>Pour 
-
-
-<amp-img
-  alt="\lambda = 3"
-  src="https://render.githubusercontent.com/render/math?math=%5clambda%20%3d%203"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\lambda = 3"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>.</p>
-
-
-
-<amp-img
-  alt="\ker (3I - A) = \ker \begin{bmatrix} -4 &amp; -2 \\ 4 &amp; 2 \end{bmatrix}"
-  src="https://render.githubusercontent.com/render/math?math=%5cker%20%283I%20-%20A%29%20%3d%20%5cker%20%5cbegin%7bbmatrix%7d%20-4%20%26%20-2%20%5c%5c%204%20%26%202%20%5cend%7bbmatrix%7d"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\ker (3I - A) = \ker \begin{bmatrix} -4 &amp; -2 \\ 4 &amp; 2 \end{bmatrix}"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>
-<p>Soit un Vecteur 
-
-
-<amp-img
-  alt="x = \begin{bmatrix} X \\ Y \end{bmatrix}"
-  src="https://render.githubusercontent.com/render/math?math=x%20%3d%20%5cbegin%7bbmatrix%7d%20X%20%5c%5c%20Y%20%5cend%7bbmatrix%7d"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="x = \begin{bmatrix} X \\ Y \end{bmatrix}"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>.</p>
-
-
-
-<amp-img
-  alt="\begin{bmatrix} -4 &amp; -2 \\ 4 &amp; 2 \end{bmatrix}\begin{bmatrix} X \\ Y \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \Rightarrow 2X&#43;Y = 0 \Rightarrow Y=-2X \Rightarrow \begin{bmatrix} X \\ Y \end{bmatrix} = X \begin{bmatrix} 1 \\ -2 \end{bmatrix}"
-  src="https://render.githubusercontent.com/render/math?math=%5cbegin%7bbmatrix%7d%20-4%20%26%20-2%20%5c%5c%204%20%26%202%20%5cend%7bbmatrix%7d%5cbegin%7bbmatrix%7d%20X%20%5c%5c%20Y%20%5cend%7bbmatrix%7d%20%3d%20%5cbegin%7bbmatrix%7d%200%20%5c%5c%200%20%5cend%7bbmatrix%7d%20%5cRightarrow%202X%2bY%20%3d%200%20%5cRightarrow%20Y%3d-2X%20%5cRightarrow%20%5cbegin%7bbmatrix%7d%20X%20%5c%5c%20Y%20%5cend%7bbmatrix%7d%20%3d%20X%20%5cbegin%7bbmatrix%7d%201%20%5c%5c%20-2%20%5cend%7bbmatrix%7d"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\begin{bmatrix} -4 &amp; -2 \\ 4 &amp; 2 \end{bmatrix}\begin{bmatrix} X \\ Y \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \Rightarrow 2X&#43;Y = 0 \Rightarrow Y=-2X \Rightarrow \begin{bmatrix} X \\ Y \end{bmatrix} = X \begin{bmatrix} 1 \\ -2 \end{bmatrix}"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>
-
-
-
-<amp-img
-  alt="\ker(3I - A) = Vect\{\begin{bmatrix} 1 \\ -2 \end{bmatrix}\}"
-  src="https://render.githubusercontent.com/render/math?math=%5cker%283I%20-%20A%29%20%3d%20Vect%5c%7b%5cbegin%7bbmatrix%7d%201%20%5c%5c%20-2%20%5cend%7bbmatrix%7d%5c%7d"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\ker(3I - A) = Vect\{\begin{bmatrix} 1 \\ -2 \end{bmatrix}\}"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>
-<p>Un vecteur propre associé à 
-
-
-<amp-img
-  alt="\lambda = 3"
-  src="https://render.githubusercontent.com/render/math?math=%5clambda%20%3d%203"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\lambda = 3"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img> est donc 
-
-
-<amp-img
-  alt="\begin{bmatrix} 1 \\ -2 \end{bmatrix}"
-  src="https://render.githubusercontent.com/render/math?math=%5cbegin%7bbmatrix%7d%201%20%5c%5c%20-2%20%5cend%7bbmatrix%7d"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\begin{bmatrix} 1 \\ -2 \end{bmatrix}"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>.</p>
-<p>De la même façon, un vecteur propre de 
-
-
-<amp-img
-  alt="\lambda=5"
-  src="https://render.githubusercontent.com/render/math?math=%5clambda%3d5"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\lambda=5"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img> est 
-
-
-<amp-img
-  alt="\begin{bmatrix} 1 \\ -1 \end{bmatrix}"
-  src="https://render.githubusercontent.com/render/math?math=%5cbegin%7bbmatrix%7d%201%20%5c%5c%20-1%20%5cend%7bbmatrix%7d"
-  layout="fixed-height"
-  height="14px"
->
-  <amp-img
-    alt="\begin{bmatrix} 1 \\ -1 \end{bmatrix}"
-    fallback
-    layout="fixed-height"
-  height="14px"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"
-  >
-  </amp-img>
-</amp-img>.</p>
+<p>Pour calculer les Vecteurs Propres, on cherche les solutions de <amp-img alt="\ker(\lambda_{1,2} I - A)" src="https://render.githubusercontent.com/render/math?math=\ker(\lambda_{1,2} I - A)" layout="fixed-height" height="14px"><amp-img alt="\ker(\lambda_{1,2} I - A)" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>.</p>
+<p>Pour <amp-img alt="\lambda = 3" src="https://render.githubusercontent.com/render/math?math=\lambda = 3" layout="fixed-height" height="14px"><amp-img alt="\lambda = 3" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>.</p>
+<p><amp-img alt="\ker (3I - A) = \ker \begin{bmatrix} -4 &amp; -2 \ 4 &amp; 2 \end{bmatrix}" src="https://render.githubusercontent.com/render/math?math=\ker (3I - A) = \ker \begin{bmatrix} -4 &amp; -2 \ 4 &amp; 2 \end{bmatrix}" layout="fixed-height" height="14px"><amp-img alt="\ker (3I - A) = \ker \begin{bmatrix} -4 &amp; -2 \ 4 &amp; 2 \end{bmatrix}" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img></p>
+<p>Soit un Vecteur <amp-img alt="x = \begin{bmatrix} X \ Y \end{bmatrix}" src="https://render.githubusercontent.com/render/math?math=x = \begin{bmatrix} X \ Y \end{bmatrix}" layout="fixed-height" height="14px"><amp-img alt="x = \begin{bmatrix} X \ Y \end{bmatrix}" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>.</p>
+<p><amp-img alt="\begin{bmatrix} -4 &amp; -2 \ 4 &amp; 2 \end{bmatrix}\begin{bmatrix} X \ Y \end{bmatrix} = \begin{bmatrix} 0 \ 0 \end{bmatrix} \Rightarrow 2X+Y = 0 \Rightarrow Y=-2X \Rightarrow \begin{bmatrix} X \ Y \end{bmatrix} = X \begin{bmatrix} 1 \ -2 \end{bmatrix}" src="https://render.githubusercontent.com/render/math?math=\begin{bmatrix} -4 &amp; -2 \ 4 &amp; 2 \end{bmatrix}\begin{bmatrix} X \ Y \end{bmatrix} = \begin{bmatrix} 0 \ 0 \end{bmatrix} \Rightarrow 2X+Y = 0 \Rightarrow Y=-2X \Rightarrow \begin{bmatrix} X \ Y \end{bmatrix} = X \begin{bmatrix} 1 \ -2 \end{bmatrix}" layout="fixed-height" height="14px"><amp-img alt="\begin{bmatrix} -4 &amp; -2 \ 4 &amp; 2 \end{bmatrix}\begin{bmatrix} X \ Y \end{bmatrix} = \begin{bmatrix} 0 \ 0 \end{bmatrix} \Rightarrow 2X+Y = 0 \Rightarrow Y=-2X \Rightarrow \begin{bmatrix} X \ Y \end{bmatrix} = X \begin{bmatrix} 1 \ -2 \end{bmatrix}" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img></p>
+<p><amp-img alt="\ker(3I - A) = Vect{\begin{bmatrix} 1 \ -2 \end{bmatrix}}" src="https://render.githubusercontent.com/render/math?math=\ker(3I - A) = Vect{\begin{bmatrix} 1 \ -2 \end{bmatrix}}" layout="fixed-height" height="14px"><amp-img alt="\ker(3I - A) = Vect{\begin{bmatrix} 1 \ -2 \end{bmatrix}}" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img></p>
+<p>Un vecteur propre associé à <amp-img alt="\lambda = 3" src="https://render.githubusercontent.com/render/math?math=\lambda = 3" layout="fixed-height" height="14px"><amp-img alt="\lambda = 3" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img> est donc <amp-img alt="\begin{bmatrix} 1 \ -2 \end{bmatrix}" src="https://render.githubusercontent.com/render/math?math=\begin{bmatrix} 1 \ -2 \end{bmatrix}" layout="fixed-height" height="14px"><amp-img alt="\begin{bmatrix} 1 \ -2 \end{bmatrix}" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>.</p>
+<p>De la même façon, un vecteur propre de <amp-img alt="\lambda=5" src="https://render.githubusercontent.com/render/math?math=\lambda=5" layout="fixed-height" height="14px"><amp-img alt="\lambda=5" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img> est <amp-img alt="\begin{bmatrix} 1 \ -1 \end{bmatrix}" src="https://render.githubusercontent.com/render/math?math=\begin{bmatrix} 1 \ -1 \end{bmatrix}" layout="fixed-height" height="14px"><amp-img alt="\begin{bmatrix} 1 \ -1 \end{bmatrix}" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>.</p>
 <h3 id="sources">Sources</h3>
 <ul>
 <li>
@@ -738,17 +364,17 @@
             
                 
                 
-                    <a href="http://localhost:38561/tags/algebre-2/" data-rel="prefetch"><li>algebre-2</li></a>
+                    <a href="http://localhost:1313/tags/algebre-2/" data-rel="prefetch"><li>algebre-2</li></a>
                 
             
                 
                 
-                    <a href="http://localhost:38561/tags/valeurs-propres/" data-rel="prefetch"><li>valeurs-propres</li></a>
+                    <a href="http://localhost:1313/tags/valeurs-propres/" data-rel="prefetch"><li>valeurs-propres</li></a>
                 
             
                 
                 
-                    <a href="http://localhost:38561/tags/vecteurs-propres/" data-rel="prefetch"><li>vecteurs-propres</li></a>
+                    <a href="http://localhost:1313/tags/vecteurs-propres/" data-rel="prefetch"><li>vecteurs-propres</li></a>
                 
             
         </ul>
@@ -756,7 +382,7 @@
     <section class="author">
         
             <amp-img class="author__image"
-                src="http://localhost:38561/images/pdp.jpg"
+                src="http://localhost:1313/images/pdp.jpg"
                 layout="fixed" height="200" width="200"></amp-img>
         
         <div class="author__right">
@@ -793,17 +419,17 @@
             
                 
                 
-                    <li><a href="http://localhost:38561/tags/algebre-2/" data-rel="prefetch">algebre-2</a></li>
+                    <li><a href="http://localhost:1313/tags/algebre-2/" data-rel="prefetch">algebre-2</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:38561/tags/valeurs-propres/" data-rel="prefetch">valeurs-propres</a></li>
+                    <li><a href="http://localhost:1313/tags/valeurs-propres/" data-rel="prefetch">valeurs-propres</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:38561/tags/vecteurs-propres/" data-rel="prefetch">vecteurs-propres</a></li>
+                    <li><a href="http://localhost:1313/tags/vecteurs-propres/" data-rel="prefetch">vecteurs-propres</a></li>
                 
             
         </ul>

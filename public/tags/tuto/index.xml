@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tuto on DevMath.fr</title>
-    <link>http://localhost:38561/tags/tuto/</link>
+    <link>http://localhost:1313/tags/tuto/</link>
     <description>Recent content in tuto on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/tuto/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tuto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ISETL - Boucle While et boucle For</title>
-      <link>http://localhost:38561/informatique/isetl-boucle-while-et-boucle-for/</link>
+      <link>http://localhost:1313/informatique/isetl-boucle-while-et-boucle-for/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/isetl-boucle-while-et-boucle-for/</guid>
+      <guid>http://localhost:1313/informatique/isetl-boucle-while-et-boucle-for/</guid>
       <description>Boucle While Définition : Une boucle &amp;ldquo;While&amp;rdquo;, ou boucle &amp;ldquo;Tant Que&amp;rdquo; permet de répéter l&amp;rsquo;exécution d&amp;rsquo;une portion de code tant qu&amp;rsquo;une condition est &amp;ldquo;Vrai&amp;rdquo;.
 En ISETL, une boucle &amp;ldquo;While&amp;rdquo; se rédige de cette façon :
 Exemple : On veut se compliquer la vie et afficher 3 fois &amp;ldquo;true&amp;rdquo; avec une boucle &amp;ldquo;While&amp;rdquo; :
@@ -21,10 +21,10 @@ x := true; i := 0; while x do i:=i+1; print(x); if i &amp;gt; 2 then x:=false; e
     
     <item>
       <title>ISETL - Conditions If, ElseIf, Else</title>
-      <link>http://localhost:38561/informatique/isetl-conditions-if-elseif-else/</link>
+      <link>http://localhost:1313/informatique/isetl-conditions-if-elseif-else/</link>
       <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/isetl-conditions-if-elseif-else/</guid>
+      <guid>http://localhost:1313/informatique/isetl-conditions-if-elseif-else/</guid>
       <description>If, ElseIf et Else En informatique, un &amp;ldquo;Si&amp;rdquo; permet d&amp;rsquo;exécuter une partie de code conditionnellement.
 Par exemple, prenons une variable x.
 Si x &amp;gt; 5, alors on souhaite afficher &amp;quot;nombre &amp;gt; 5&amp;quot;, Sinon Si x = 5, alors afficher &amp;quot;nombre = 5&amp;quot;, Sinon, &amp;quot;nombre &amp;lt; 5&amp;quot;. En ISETL, une structure conditionnelle se rédige de la façon suivante :
@@ -33,10 +33,10 @@ if (condition) then .... elseif (condition) then ..... else ..... end if; Comme 
     
     <item>
       <title>ISETL - Syntaxe des fonctions</title>
-      <link>http://localhost:38561/informatique/isetl-syntaxe-des-fonctions/</link>
+      <link>http://localhost:1313/informatique/isetl-syntaxe-des-fonctions/</link>
       <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/isetl-syntaxe-des-fonctions/</guid>
+      <guid>http://localhost:1313/informatique/isetl-syntaxe-des-fonctions/</guid>
       <description>Fonction en ISETL Définition : Comme dans d&amp;rsquo;autres langages de programmation, une fonction dans ISETL est une entité informatique permettant l&amp;rsquo;encapsulation d&amp;rsquo;une partie de code. Elle peut prendre zéro, une ou plusieurs entrées et retourne une valeur (ou non, on parlera alors de procédures).
 La syntaxe : En ISETL, la syntaxe des fonctions ne repose pas sur l&amp;rsquo;indentation, ni sur des accolades :
 Une fonction commence par func(); et se fini par end func();.</description>
@@ -44,10 +44,10 @@ Une fonction commence par func(); et se fini par end func();.</description>
     
     <item>
       <title>ISETL - Utilisation basique de ISETLW 3.0</title>
-      <link>http://localhost:38561/informatique/isetl-utilisation-basique-de-isetlw-3-0/</link>
+      <link>http://localhost:1313/informatique/isetl-utilisation-basique-de-isetlw-3-0/</link>
       <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/isetl-utilisation-basique-de-isetlw-3-0/</guid>
+      <guid>http://localhost:1313/informatique/isetl-utilisation-basique-de-isetlw-3-0/</guid>
       <description>Nécessaire : Pour pouvoir suivre ce tutoriel, il est nécessaire d&amp;rsquo;avoir accès au logiciel ISETLW 3.0 sur Windows. Pour cela, vous pouvez vous référer à mon précédent article sur son installation :
  ISETL 3.0 sur Windows 10
 Utilisation de la console : Utilisation habituelle : Au démarrage de ISETLW, la console ISETL s&amp;rsquo;ouvrira par défaut :
@@ -58,26 +58,26 @@ Vous pouvez directement taper les commandes que vous souhaitez et appuyer sur &a
     
     <item>
       <title>ISETL - Fonctions Mathématiques</title>
-      <link>http://localhost:38561/informatique/isetl-fonction-mathematiques/</link>
+      <link>http://localhost:1313/informatique/isetl-fonction-mathematiques/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/isetl-fonction-mathematiques/</guid>
+      <guid>http://localhost:1313/informatique/isetl-fonction-mathematiques/</guid>
       <description>Prérequis : Il est bien sur nécessaire d&amp;rsquo;avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n&amp;rsquo;est pas le cas, je vous renvoie vers mon article :
  ISETL 3.0 sur Windows 10
-Liste de fonctions mathématiques ISETL : Soit   et  , deux réels quelconques :
-Fonction ISETLFonction mathématiquesabs(x)  exp(x)  ceil(x)  floor(x)  ln(x)  log(x)  max(x,y)  min(x,y)  sgn(x)  sqrt(x)   Fonctions Mathématiques ISETL</description>
+Liste de fonctions mathématiques ISETL : Soit $x$ et $y$, deux réels quelconques :
+Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rceil$floor(x)$\lfloor x \rfloor$ln(x)$\ln x$log(x)$\log x $max(x,y)$\max (x,y)$min(x,y)$\min (x,y)$sgn(x)$\left\{\begin{array}{rcr} 1 &amp;amp; si &amp;amp; x&amp;gt;0 \ 0 &amp;amp; si &amp;amp; x = 0 \ -1 &amp;amp; si &amp;amp; x&amp;lt;0 \ \end{array}\right.</description>
     </item>
     
     <item>
       <title>Seuillage d&#39;image en Python3</title>
-      <link>http://localhost:38561/informatique/seuillage-dimage-en-python/</link>
+      <link>http://localhost:1313/informatique/seuillage-dimage-en-python/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/seuillage-dimage-en-python/</guid>
-      <description>Définition Soit  , une image composée de   lignes et   colonnes,   et  .
-Soit   l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet   associée au pixel.
-Soit un seuil  .
-Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction   tel que :
+      <guid>http://localhost:1313/informatique/seuillage-dimage-en-python/</guid>
+      <description>Définition Soit $f$, une image composée de $n$ lignes et $m$ colonnes, $\forall i \in [0,n]$ et $\forall j \in [0,m]$.
+Soit $f(i,j)$ l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet $[R,G,B]$ associée au pixel.
+Soit un seuil $s \in [0,255]$.
+Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction $g$ tel que :
 g(i,j) = \left{
 \begin{array}{ll}
 255 &amp;amp; \mbox{si } f(i,j) \leq s \</description>
@@ -85,10 +85,10 @@ g(i,j) = \left{
     
     <item>
       <title>1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)</title>
-      <link>http://localhost:38561/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</link>
+      <link>http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</guid>
+      <guid>http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</guid>
       <description>Nb : Ce tutoriel nécessite un fichier .htaccess, il sera donc à destination des utilisateurs de Apache2 et non de Nginx.
 Modification et création de robots.txt Un fichier robots.txt est un fichier utilisé par de nombreux moteurs de recherche afin d&amp;rsquo;indiquer si un site (ou une page / un document) doit être référencé ou non.
 Pour ce tutoriel, prenons 2 site web : &amp;ldquo;site.com&amp;rdquo; et &amp;ldquo;no-ref.site.com&amp;rdquo;. Comme leurs noms le suggèrent, on souhaite que le site &amp;ldquo;site.</description>
@@ -96,10 +96,10 @@ Pour ce tutoriel, prenons 2 site web : &amp;ldquo;site.com&amp;rdquo; et &amp;ld
     
     <item>
       <title>Rediriger le trafic HTTP vers HTTPS avec .htaccess.</title>
-      <link>http://localhost:38561/informatique/rediriger-http-vers-https-avec-htaccess/</link>
+      <link>http://localhost:1313/informatique/rediriger-http-vers-https-avec-htaccess/</link>
       <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/rediriger-http-vers-https-avec-htaccess/</guid>
+      <guid>http://localhost:1313/informatique/rediriger-http-vers-https-avec-htaccess/</guid>
       <description>Ce tutoriel n&amp;rsquo;est donc pas à destination des utilisateurs de serveur Nginx.
 Accéder au fichier Manuellement Un fichier .htaccess peut se situer dans n&amp;rsquo;importe quel dossier de votre site web. Si vous souhaitez appliquer la redirection à tout le site, je vous conseille donc de modifier celui positionné à la racine de votre site.
 Vous pouvez bien-sûr le faire via FTP/SSH manuellement.
@@ -108,10 +108,10 @@ Attention ! Si vous ne le trouvez pas, il est possible que le fichier soit cach�
     
     <item>
       <title>Autoriser l&#39;upload de fichiers non-autorisés sur Wordpress</title>
-      <link>http://localhost:38561/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</link>
+      <link>http://localhost:1313/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</guid>
+      <guid>http://localhost:1313/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</guid>
       <description>Je traiterai l&amp;rsquo;upload de fichiers zip en particulier.
 Résolution manuelle : Accéder au fichier function.php : Le fichier &amp;ldquo;function.php&amp;rdquo; est censé se situer dans le dossier du thème de votre site web. Accedez-y via SFTP, SSH ou de la façon de votre choix.
 Modifier function.php Pour comprendre la fonction ci-dessous, il faut savoir ce qu&amp;rsquo;est un type Mime :
@@ -120,10 +120,10 @@ Un type de média, ou type MIME est un identifiant de format de données compos�
     
     <item>
       <title>ISETL 3.0 sur Windows 10</title>
-      <link>http://localhost:38561/informatique/installer-isetl/</link>
+      <link>http://localhost:1313/informatique/installer-isetl/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/installer-isetl/</guid>
+      <guid>http://localhost:1313/informatique/installer-isetl/</guid>
       <description>En 1985, SETL était devenu un projet très lourd, lent et nécessitait une compilation, ce qui le rendait difficilement utilisable. C&amp;rsquo;est dans ce contexte que Gary Levin décida de créer une version de SETL interactive à direction des universités.
 Et c&amp;rsquo;est ainsi qu&amp;rsquo;en 1988 sortit la version 1.0 d&amp;rsquo;ISETL : plus rapide, plus léger (&amp;lt;250K), et ayant une syntaxe très proche de celle de SETL. (source 1)
 Il est extrêmement complexe de se procurer des informations utiles sur ISETL en 2020.</description>
@@ -131,29 +131,29 @@ Il est extrêmement complexe de se procurer des informations utiles sur ISETL en
     
     <item>
       <title>Coloration Syntaxique pour Wordpress AMP</title>
-      <link>http://localhost:38561/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</link>
+      <link>http://localhost:1313/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</guid>
+      <guid>http://localhost:1313/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</guid>
       <description>Il existe de nombreuses extensions Wordpress permettant la coloration syntaxique. Cependant, la (très grande) majorité d&amp;rsquo;entre elles utilise le JavaScript&amp;hellip; Ce tutoriel est là pour vous aider à rétablir vos magnifiques codes sur votre site Wordpress AMP :) .
 Nécessaire  Avoir accès aux droits d&amp;rsquo;administration de votre Wordpress mis à jour (mai 2020). Avoir de préférence installé ce plugin pour AMP. Savoir installer une extension. Sinon : Support  Installer l’extension : Syntax-highlighting Code Block Je vous propose d&amp;rsquo;installer l&amp;rsquo;extension :</description>
     </item>
     
     <item>
       <title>WSL et USB</title>
-      <link>http://localhost:38561/informatique/wsl-et-usb/</link>
+      <link>http://localhost:1313/informatique/wsl-et-usb/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/wsl-et-usb/</guid>
+      <guid>http://localhost:1313/informatique/wsl-et-usb/</guid>
       <description>Monter une partition ext4 ou ext2 Monter une partition ext4 protégé LUKS </description>
     </item>
     
     <item>
       <title>Modifier la Bitmap d&#39;une image avec Python 3</title>
-      <link>http://localhost:38561/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
+      <link>http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
+      <guid>http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
       <description>Télécharger une image Je vous propose de modifier l&amp;rsquo;image que j&amp;rsquo;ai utilisé pour mon article sur l&amp;rsquo;idée reçu des 5 sens : Celle-ci.
  
 Chat Surpris
@@ -164,22 +164,11 @@ from PIL import Image import requests from io import BytesIO Url = &#39;https://
     </item>
     
     <item>
-      <title>Filtre Sépia d&#39;une image en Python3</title>
-      <link>http://localhost:38561/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</link>
-      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:38561/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</guid>
-      <description>Le fichier : Vous pouvez trouver le fichier complet ici :
-Les sources : Voir plus : Pour en savoir plus sur la modification de Bitmap en Python, je vous propose cet article, vous y trouverez le moyen de produire le négatif d&amp;rsquo;une image très simplement :).
- Modifier la Bitmap d’une image avec Python 3</description>
-    </item>
-    
-    <item>
       <title>Opération sur les matrices avec numpy en Python</title>
-      <link>http://localhost:38561/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
+      <link>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
+      <guid>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
       <description>Importer numpy Avant toute chose, pour effectuer des calculs scientifiques, vous devez importer la bibliothèque numpy.
 import numpy as np Addition et Multiplication de Matrices M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) M2 = np.array([ [1.,1.,1.], [1.,2.,1.], [1.,1.,1.]]) MResultAdd = np.add(M1,M2) MResultSous = np.subtract(M1,M2) MResultMulti = M1.dot(M2) Trace de Matrices La trace d&amp;rsquo;une matrice est la somme des valeurs de la diagonale de la matrice.
 M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le calcul du déterminant d&amp;rsquo;une matrice est un outil nécessaire en algèbre linéaire afin de vérifier une inversibilité ou pour calculer l&amp;rsquo;inverse d&amp;rsquo;une matrice.</description>
@@ -187,19 +176,19 @@ M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le
     
     <item>
       <title>Traduire un string grâce à Google Traduction en Python (for free)</title>
-      <link>http://localhost:38561/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</link>
+      <link>http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</guid>
+      <guid>http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</guid>
       <description>La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l&amp;rsquo;API Google Cloud Translation. Cet API, bien que très pratique, pose un certain problème, celui du prix : 20 pour 1 million de caractères. Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n&amp;rsquo;avez pas besoin d&amp;rsquo;utiliser autant de caractères, il serait intéressant de trouver une alternative gratuite.</description>
     </item>
     
     <item>
       <title>Google Agenda : Ajouter un EDT de l&#39;Université de Nantes</title>
-      <link>http://localhost:38561/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</link>
+      <link>http://localhost:1313/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</guid>
+      <guid>http://localhost:1313/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</guid>
       <description>NB : ce tutoriel, bien qu&amp;rsquo;à destination des étudiants et professeurs de l&amp;rsquo;université de Nantes, fonctionnera de manière analogue pour toutes les universités (française en tout cas).
 Accéder à l&amp;rsquo;emploi du temps Web de votre Université Pour l&amp;rsquo;Université de Nantes, le lien est le suivant :
  https://edt.univ-nantes.fr/edt
@@ -209,10 +198,10 @@ Pour l&amp;rsquo;université de Nantes, cliquez sur cette icône :</description>
     
     <item>
       <title>Héberger un Wordpress Gratuitement sur un Raspberry Pi</title>
-      <link>http://localhost:38561/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link>
+      <link>http://localhost:1313/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid>
+      <guid>http://localhost:1313/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid>
       <description>Wordpress est le CMS le plus utilisé au monde. De part sa simplicité d&amp;rsquo;utilisation et sa liberté de design, sa popularité s’explique d&amp;rsquo;elle même.
 Malheureusement, utiliser Wordpress pour laisser libre cours à son imagination revient souvent à passer par son porte monnaie.
 Pour un site personnel, 4€ par mois reste raisonnable, mais pour un site d&amp;rsquo;e-Commerce, 45€ semble moins attrayant&amp;hellip;.
@@ -223,19 +212,19 @@ Il serait donc intéressent de pouvoir profiter de WordPress gratuitement, et ce
     
     <item>
       <title>Recevoir des notifications par mail en PHP grâce à IFTTT</title>
-      <link>http://localhost:38561/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</link>
+      <link>http://localhost:1313/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</guid>
+      <guid>http://localhost:1313/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</guid>
       <description>Paramétrer IFTTT :  Connectez-vous à l’adresse https://ifttt.com/ . Inscrivez-vous si ce n&amp;rsquo;est pas déjà fais. Appuyez sur votre photo de profil en haut à gauche, puis appuyez sur &amp;ldquo;Create&amp;rdquo;. Appuyez sur &amp;ldquo;This&amp;rdquo; puis sélectionnez le service &amp;ldquo;Webhooks&amp;rdquo;. Choisissez l&amp;rsquo;Event Name de votre choix. Pour ma part, ce sera &amp;ldquo;iftttmessage&amp;rdquo;. Appuyez sur &amp;ldquo;That&amp;rdquo; puis sélectionnez &amp;ldquo;Email&amp;rdquo;. Personnalisez le body, le subject comme vous le souhaitez. Gardez juste bien en tête que &amp;ldquo;Value1&amp;rdquo; contiendra le message qu&amp;rsquo;on voudra envoyer.</description>
     </item>
     
     <item>
       <title>Installer PHP7.4 pour Wordpress</title>
-      <link>http://localhost:38561/informatique/installer-php7-4-sur-un-raspberry-pi/</link>
+      <link>http://localhost:1313/informatique/installer-php7-4-sur-un-raspberry-pi/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/installer-php7-4-sur-un-raspberry-pi/</guid>
+      <guid>http://localhost:1313/informatique/installer-php7-4-sur-un-raspberry-pi/</guid>
       <description>Vous avez peut-être remarqué que votre WordPress tourne sous une ancienne version de PHP ? Vous avez donc sans doute vu ce message :
  
 Problème Critique PHP Wordpress
@@ -245,10 +234,10 @@ Prérequis :  Vous devez avoir un ordinateur mis à jour, sous une distribution 
     
     <item>
       <title>Wsl2</title>
-      <link>http://localhost:38561/informatique/keske-cest-wsl2/</link>
+      <link>http://localhost:1313/informatique/keske-cest-wsl2/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/keske-cest-wsl2/</guid>
+      <guid>http://localhost:1313/informatique/keske-cest-wsl2/</guid>
       <description>Windows Subsystem for Linux (WSL) est une couche de compatibilité permettant d&amp;rsquo;exécuter des exécutables binaires Linux (au format ELF) de manière native sur Windows 10 et Windows Server 2019.
  fr.wikipedia.org
  En mai 2019, Microsoft lance WSL2, une mise à jours de WSL proposant de nombreuses nouveautés.

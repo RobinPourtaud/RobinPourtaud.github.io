@@ -23,8 +23,8 @@ Pour prendre un exemple :
 
 
 
-- {{< latex "\overline{A \wedge B}" >}} n'est pas sous forme normale négative.
-- {{< latex "\overline{A}\wedge B" >}} est sous forme normale négative.
+- $\overline{A \wedge B}$ n'est pas sous forme normale négative.
+- $\overline{A}\wedge B$ est sous forme normale négative.
 
 ### Définition : Satisifiabilité
 
@@ -32,8 +32,8 @@ On dit d'une formule booléenne qu'elle est satisfiable s'il existe une assignat
 
 Par exemple :
 
-- {{< latex "\overline{A}\wedge A" >}} n'est pas satisfiable
-- {{< latex "\overline{A}\lor A" >}} est satisfiable
+- $\overline{A}\wedge A$ n'est pas satisfiable
+- $\overline{A}\lor A$ est satisfiable
 
 Fun-Fact : Dans le deuxième cas, peu importe la valeur de notre seule variable A, notre formule est satisfiable, on peut dans ce cas parler de tautologie.
 
@@ -41,9 +41,9 @@ Fun-Fact : Dans le deuxième cas, peu importe la valeur de notre seule variable 
 
 Le problème NFF-Sat, ou NegLit-Sat peut se présenter en 2 lignes :
 
-Soit {{< latex "\mathcal{F}" >}} une formule booléenne telle que {{< latex "\mathcal{F}" >}} est sous forme normale négative.
+Soit $\mathcal{F}$ une formule booléenne telle que $\mathcal{F}$ est sous forme normale négative.
 
-{{< latex "\mathcal{F}" >}} est-elle satisfiable ?
+$\mathcal{F}$ est-elle satisfiable ?
 
 ## Sources :
 

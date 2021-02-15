@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ensemble on DevMath.fr</title>
-    <link>http://localhost:38561/tags/ensemble/</link>
+    <link>http://localhost:1313/tags/ensemble/</link>
     <description>Recent content in ensemble on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/ensemble/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ensemble/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exercice corrigé - Dénombrement n°1</title>
-      <link>http://localhost:38561/mathematiques/denombrement/exercice-corrige-denombrement-n1/</link>
+      <link>http://localhost:1313/mathematiques/denombrement/exercice-corrige-denombrement-n1/</link>
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/denombrement/exercice-corrige-denombrement-n1/</guid>
+      <guid>http://localhost:1313/mathematiques/denombrement/exercice-corrige-denombrement-n1/</guid>
       <description>Difficulté : Moyenne
 Liste d&amp;rsquo;exercice : (En cours)
 Énoncé : Une histoire de pigeon A Central Parc, il y a 250 oiseaux à 3 couleurs. Parmi eux se trouvent :

@@ -31,7 +31,7 @@ Pour suivre ce tutoriel, vous devez savoir convertir des entiers décimaux en bi
 
 
 
-Un nombre réel peut s'écrire avec une notation appelé notation scientifique. Par exemple: {{< latex "74632 = 7.4632 \times 10^4" >}}
+Un nombre réel peut s'écrire avec une notation appelé notation scientifique. Par exemple: $74632 = 7.4632 \times 10^4$
 
 ## Représentation en Virgule flottante :
 
@@ -51,7 +51,7 @@ Nombre en Virgule flottante
 
 ### Conversion de 12 en binaire :
 
-{{< latex "12_{10}=1100_2" >}}
+$12_{10}=1100_2$
 
 Si vous ne savez pas comment faire, retournez sur mon précédent article [(ici)](https://keskec.fr/index.php/2020/04/12/convertir-un-entier-non-signe-decimal-en-binaire/).
 
@@ -59,37 +59,37 @@ Si vous ne savez pas comment faire, retournez sur mon précédent article [(ici)
 
 La méthode pour ce calcul est la suivante :
 
-{{< latex "0.4375 \times 2 = 0 + 0.875" >}}
+$0.4375 \times 2 = 0 + 0.875$
 
-{{< latex "0.875 \times 2 = 1 + 0.75" >}}
+$0.875 \times 2 = 1 + 0.75$
 
-{{< latex "0.75 \times 2 = 1 + 0.5" >}}
+$0.75 \times 2 = 1 + 0.5$
 
-{{< latex "0.5 \times 2 = 1 + 0" >}}
+$0.5 \times 2 = 1 + 0$
 
 On choisis de s'arrêter là car le reste est égale à 0.
 
-Maintenant, en lisant de haut en bas, nous pouvons voir que {{< latex "0.4375 = 0.0111" >}}.
+Maintenant, en lisant de haut en bas, nous pouvons voir que $0.4375 = 0.0111$.
 
 ### Déplacez la virgule :
 
-{{< latex "12.4375{10}" >}} donne {{< latex "1100.0111_{2}" >}}.
+$12.4375{10}$ donne $1100.0111_{2}$.
 
 Pour une représentation en float32, nous devons représenter ce nombre en écriture scientifique :
 
-{{< latex "1100.0111 = 1.1000111 \times 10^3" >}}
+$1100.0111 = 1.1000111 \times 10^3$
 
 Pour calculer la mantisse, il suffit de relever la partie décimal et de la compléter avec 0 pour avoir 23 bits).
 
-On sait maintenant que la mantisse est égale à {{< latex "10001110000000000000000" >}}.
+On sait maintenant que la mantisse est égale à $10001110000000000000000$.
 
 ### Calcul de l’exposant :
 
 On sait que [le biais est de 127 pour un float32.](https://en.wikipedia.org/wiki/Exponent_bias)
 
-{{< latex "1.1000111 \times 10^3" >}} a pour exposant {{< latex "3" >}}.
+$1.1000111 \times 10^3$ a pour exposant $3$.
 
-Ainsi, l’exposant biaisé est {{< latex "127 + 3" >}}, ce qui est égale à {{< latex "130_{10}=10000010_2" >}}.
+Ainsi, l’exposant biaisé est $127 + 3$, ce qui est égale à $130_{10}=10000010_2$.
 
 ### Signe:
 

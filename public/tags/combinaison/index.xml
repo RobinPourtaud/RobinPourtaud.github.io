@@ -2,34 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>combinaison on DevMath.fr</title>
-    <link>http://localhost:38561/tags/combinaison/</link>
+    <link>http://localhost:1313/tags/combinaison/</link>
     <description>Recent content in combinaison on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:38561/tags/combinaison/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/combinaison/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Démonstration : Somme des k parmi n</title>
-      <link>http://localhost:38561/mathematiques/demonstration-somme-des-k-parmi-n/</link>
+      <link>http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
+      <guid>http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
       <description>Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
-  Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe. Elle s&amp;rsquo;appuiera sur la formule du binôme de Newton :
-  Si nous prenons   et  , alors obtenons l&amp;rsquo;égalité :
-  Ce qui nous donne :
-  Démonstration 2 : Cette deuxième démonstration s&amp;rsquo;appuie sur la définition exprimant le cardinal de l&amp;rsquo;ensemble des parties d&amp;rsquo;un ensemble quelconque comme étant égal à 2 à la puissance du cardinal de l&amp;rsquo;ensemble.</description>
+$\sum_{k=0}^n {n \choose k}= 2^n$
+Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe. Elle s&amp;rsquo;appuiera sur la formule du binôme de Newton :
+$\quicklatex{size=22}\sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n$
+Si nous prenons $x = 1$ et $y=1$, alors obtenons l&amp;rsquo;égalité :
+$\quicklatex{size=22}\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$</description>
     </item>
     
     <item>
       <title>Coefficient binomial - k parmi n en Latex</title>
-      <link>http://localhost:38561/informatique/combinaison-k-parmi-n-en-latex/</link>
+      <link>http://localhost:1313/informatique/combinaison-k-parmi-n-en-latex/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:38561/informatique/combinaison-k-parmi-n-en-latex/</guid>
+      <guid>http://localhost:1313/informatique/combinaison-k-parmi-n-en-latex/</guid>
       <description>Notation &amp;ldquo;Française&amp;rdquo; : k parmi n peut se noter de la façon suivante :
-  Son code Latex en mode mathématique est tout simplement :
+$C_n^k $
+Son code Latex en mode mathématique est tout simplement :
 C_n^k Notation &amp;ldquo;Anglo-Saxonne&amp;rdquo; : Notation certainement la plus couramment utilisée pour exprimer le coefficient binomial :
-  Son code Latex en mode Mathématique est :
+$\binom{n}{k}$
+Son code Latex en mode Mathématique est :
 \binom{n}{k} </description>
     </item>
     
