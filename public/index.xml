@@ -6,26 +6,14 @@
     <description>Recent content on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Récursivité terminale</title>
-      <link>http://localhost:1313/informatique/recursivite-terminale/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/informatique/recursivite-terminale/</guid>
-      <description>Définition En informatique, une fonction f est dite récursive terminale
-Toute fonction récursive terminale peut être réécrit avec une boucle for (standard). Cependant toute fonction récursive non terminale n&amp;rsquo;est pas forcément réécrivable avec une boucle for, la fonction de ackermann en est un parfait exemple. La fonction d&amp;rsquo;ackermann est malgrè réécrivable itérativement ! Avec une boucle while&amp;hellip;
-Intéret Dans de nombreux langages de programmation comme Python, c/c++, Ocaml ou même PHP, les fonctions présentant un caractère récursif terminale sont éxécuté comme une boucle itérative, ce qui permet de réduire le risque de &amp;ldquo;Stack Overflow&amp;rdquo;.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coefficient binomial (k parmi n)</title>
-      <link>http://localhost:1313/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</link>
+      <link>http://localhost:1313/mathematiques/coefficient-binomial-k-parmi-n/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</guid>
-      <description>Prérequis : $\sum$
-La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté &amp;ldquo;!&amp;rdquo;, le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
+      <guid>http://localhost:1313/mathematiques/coefficient-binomial-k-parmi-n/</guid>
+      <description>Prérequis : La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté &amp;ldquo;!&amp;rdquo;, le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
 $n! = \Pi_{k=1}^{n}k = 1 \times 2 \times \ldots \times (n-1) \times (n)$
 Pour prendre plusieurs exemples :
  $2! = 1 \times 2$ $5! = 1 \times 2 \times 3 \times 4 \times 5 = 120$  Pour finir, prenez en compte que 0!</description>
@@ -125,7 +113,7 @@ Entrées : Notre UAL prend 3 entrées :
       
       <guid>http://localhost:1313/informatique/alphabet-grec-latex/</guid>
       <description>Exemple : Pour afficher en mode mathématique (entre dollar) une lettre grec, il suffit de taper le nom de la lettre précédée d&amp;rsquo;un anti-slash, par exemple pour &amp;ldquo;phi&amp;rdquo; :
-\phi Alphabet grec minuscule : LatexLettreLatexLettre\alpha$\alpha$\nu \beta$\beta$\xi$\xi$\gamma$\gamma$o$o$\delta$\delta$\pi$\pi$\epsilon ou \varepsilon$\epsilon$ ou $\varepsilon$\rho$\rho$\zeta$\zeta$\sigma$\sigma$\eta$\eta$\tau$\tau$\theta ou \vartheta$\theta$ ou $\vartheta$\upsilon$\upsilon$\iota$\iota$\phi ou \varphi$\phi$ ou $\varphi$\kappa$\kappa$\chi$\chi$\lambda$\lambda$\psi$\psi$\mu$\mu$\omega$\omega$ Alphabet Grec minuscule en Latex
+\phi Alphabet grec minuscule : LatexLettreLatexLettre\alpha$\alpha$\nu$\nu$\beta$\beta$\xi$\xi$\gamma$\gamma$o$o$\delta$\delta$\pi$\pi$\epsilon ou \varepsilon$\epsilon$ ou $\varepsilon$\rho$\rho$\zeta$\zeta$\sigma$\sigma$\eta$\eta$\tau$\tau$\theta ou \vartheta$\theta$ ou $\vartheta$\upsilon$\upsilon$\iota$\iota$\phi ou \varphi$\phi$ ou $\varphi$\kappa$\kappa$\chi$\chi$\lambda$\lambda$\psi$\psi$\mu$\mu$\omega$\omega$ Alphabet Grec minuscule en Latex
 Alphabet grec majuscule : LatexLettreLatexLettreA$A$N$N$B$B$\Xi$\Xi$\Gamma$\Gamma$O$O$\Delta$\Delta$\Pi$\Pi$E$E$P$P$Z$Z$\Sigma$\Sigma$H$H$T$T$\Theta$\Theta$\Upsilon$\Upsilon$I$I$\Phi$\Phi$K$K$X$X$\Lambda$\Lambda$\Psi$\Psi$M$M$\Omega$\Omega$ Alphabet Grec Majuscule en Latex</description>
     </item>
     
@@ -192,7 +180,7 @@ En utilisant ce tableau, nous pouvons voir qu&amp;rsquo;un angle de $\frac{\pi}{
       
       <guid>http://localhost:1313/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</guid>
       <description>Résumé Oracle propose depuis bientôt un an une offre appelée &amp;ldquo; Always Free&amp;rdquo;. Celle-ci comprend :
- Deux bases de données Oracle Autonomous Database avec des outils puissants tels qu’Oracle Application Express (APEX) et Oracle SQL Developer Deux machines virtuelles de calcul Oracle Cloud Infrastructure Compute ; stockage de niveau bloc, objet et archive ; équilibreur de charge et extraction de données ; surveillance et notifications Pendant les 30 premiers jours 300 de crédit sur leur plateforme</description>
+ Deux bases de données Oracle Autonomous Database avec des outils puissants tels qu’Oracle Application Express (APEX) et Oracle SQL Developer Deux machines virtuelles de calcul Oracle Cloud Infrastructure Compute ; stockage de niveau bloc, objet et archive ; équilibreur de charge et extraction de données ; surveillance et notifications Pendant les 30 premiers jours 300$ de crédit sur leur plateforme</description>
     </item>
     
     <item>
@@ -202,7 +190,7 @@ En utilisant ce tableau, nous pouvons voir qu&amp;rsquo;un angle de $\frac{\pi}{
       
       <guid>http://localhost:1313/mathematiques/formule-de-sylvester/</guid>
       <description>Identité : La formule de Sylvester est la suivante :
-$#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i}\right)$
+$$#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i}\right)$$
 Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :
  Formule du crible - Wikiversity
 En savoir plus - sources :   Inclusion–exclusion principle for belief functions  Prepacom.net Dénombrer  Formule du crible - Wikiversity  formule du crible de Da Silva et Sylvester - les-mathematiques.</description>
@@ -210,10 +198,10 @@ En savoir plus - sources :   Inclusion–exclusion principle for belief function
     
     <item>
       <title>Exercice corrigé - Dénombrement n°1</title>
-      <link>http://localhost:1313/mathematiques/denombrement/exercice-corrige-denombrement-n1/</link>
+      <link>http://localhost:1313/mathematiques/exercice-corrige-denombrement-n1/</link>
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mathematiques/denombrement/exercice-corrige-denombrement-n1/</guid>
+      <guid>http://localhost:1313/mathematiques/exercice-corrige-denombrement-n1/</guid>
       <description>Difficulté : Moyenne
 Liste d&amp;rsquo;exercice : (En cours)
 Énoncé : Une histoire de pigeon A Central Parc, il y a 250 oiseaux à 3 couleurs. Parmi eux se trouvent :
@@ -235,10 +223,10 @@ Bien que très persuasif, ce n&amp;rsquo;est pas suffisant pour considérer cett
     
     <item>
       <title>Lister tous les ports ouverts d&#39;un ordinateur avec nmap</title>
-      <link>http://localhost:1313/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</link>
+      <link>http://localhost:1313/informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</guid>
+      <guid>http://localhost:1313/informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</guid>
       <description>Installer nmap Pour ce tutoriel, nous utiliserons le programme nmap. Pour l&amp;rsquo;installer, rien de très compliqué :
 Sous une distribution basée sur Debian :
 sudo apt update sudo apt install nmap Sous ArchLinux :
@@ -270,7 +258,8 @@ Autrement dit $n! = n \times (n-1)!</description>
 Exemple 1 On souhaite résoudre l&amp;rsquo;intégrale :
 $\int cos(x) x^2 dx$
 Création du tableau Comme pour l&amp;rsquo;intégration par partie, nous choisissons quel facteur de l&amp;rsquo;intégrale nous souhaitons intégrer et quel facteur nous souhaitons dériver. Dans notre cas, nous dériverons $x^2$ et intégrerons $cos(x)$.
-   Ligne Signe D I     1 + $x^2$ $cos(x)$   2 - $2x$ $sin(x)$   3 + $2$ $-cos(x)$   4 - $0$ $-sin(x)$    Dans la colonne signe, nous alternons le signe positif et négatif.</description>
+LigneSigneDI1+$x^2$$cos(x)$2-$2x$$sin(x)$3+$2$$-cos(x)$4-$0$$-sin(x)$ Tableau de la méthode d&amp;rsquo;intégration tabulaire
+Dans la colonne signe, nous alternons le signe positif et négatif.</description>
     </item>
     
     <item>
@@ -519,6 +508,7 @@ Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rce
 Soit $f(i,j)$ l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet $[R,G,B]$ associée au pixel.
 Soit un seuil $s \in [0,255]$.
 Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction $g$ tel que :
+$
 g(i,j) = \left{
 \begin{array}{ll}
 255 &amp;amp; \mbox{si } f(i,j) \leq s \</description>
@@ -634,6 +624,17 @@ from PIL import Image import requests from io import BytesIO Url = &#39;https://
     </item>
     
     <item>
+      <title>Filtre Sépia d&#39;une image en Python3</title>
+      <link>http://localhost:1313/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</guid>
+      <description>Le fichier : Vous pouvez trouver le fichier complet ici :
+Les sources : Voir plus : Pour en savoir plus sur la modification de Bitmap en Python, je vous propose cet article, vous y trouverez le moyen de produire le négatif d&amp;rsquo;une image très simplement :).
+ Modifier la Bitmap d’une image avec Python 3</description>
+    </item>
+    
+    <item>
       <title>Opération sur les matrices avec numpy en Python</title>
       <link>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
@@ -646,10 +647,10 @@ M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le
     
     <item>
       <title>Dénombrement - Exercices corrigés</title>
-      <link>http://localhost:1313/mathematiques/denombrement/denombrement-exercices-corriges/</link>
+      <link>http://localhost:1313/mathematiques/denombrement-exercices-corriges/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mathematiques/denombrement/denombrement-exercices-corriges/</guid>
+      <guid>http://localhost:1313/mathematiques/denombrement-exercices-corriges/</guid>
       <description>Exercice 1 : Des souris et des chats Exercice 2 : Des balles et des fusils Exercice 3 : Des creepers et des zombies Exercice 4 : Des Oiseaux et des cages Un zoologiste a une passion : les oiseaux, mais depuis la saison des amours, son nombre d&amp;rsquo;oiseaux à doublé! C&amp;rsquo;est pourquoi il va devoir en relâcher quelque-uns.
 Exercice 5 : Des japonais et des tsunamis Correction Ex1 : </description>
     </item>
@@ -660,7 +661,7 @@ Exercice 5 : Des japonais et des tsunamis Correction Ex1 : </description>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</guid>
-      <description>La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l&amp;rsquo;API Google Cloud Translation. Cet API, bien que très pratique, pose un certain problème, celui du prix : 20 pour 1 million de caractères. Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n&amp;rsquo;avez pas besoin d&amp;rsquo;utiliser autant de caractères, il serait intéressant de trouver une alternative gratuite.</description>
+      <description>La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l&amp;rsquo;API Google Cloud Translation. Cet API, bien que très pratique, pose un certain problème, celui du prix : 20$ pour 1 million de caractères. Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n&amp;rsquo;avez pas besoin d&amp;rsquo;utiliser autant de caractères, il serait intéressant de trouver une alternative gratuite.</description>
     </item>
     
     <item>
@@ -693,12 +694,11 @@ Définition : #include &amp;lt;iostream&amp;gt; //Cout, endl,etc #include &amp;l
       
       <guid>http://localhost:1313/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
       <description>Identité : Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
-$\sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$
+$ \sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$
 Démonstration :  On commence par reprendre la formule du binôme de Newton :  $\sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n$
 Soit $b = 1$, alors :  $\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n$
 Dérivons l&amp;rsquo;équation selon $a$ comme ceci :  $\frac{d}{da}(\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n)$
-Ce qui donne :  $\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$
-Nous pouvons maintenant prendre $a = 1$ et retrouver l&amp;rsquo;équation :  $\sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$</description>
+Ce qui donne :  $\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$</description>
     </item>
     
     <item>
@@ -838,19 +838,19 @@ Parmi celles-ci, on retrouve:
     
     <item>
       <title>A propos de DevMath</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>http://localhost:1313/pages/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>http://localhost:1313/pages/contact/</guid>
       <description>A propos </description>
     </item>
     
     <item>
       <title>Confidentialité des données</title>
-      <link>http://localhost:1313/confidentialite/</link>
+      <link>http://localhost:1313/pages/confidentialite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/confidentialite/</guid>
+      <guid>http://localhost:1313/pages/confidentialite/</guid>
       <description>Qu&amp;rsquo;est ce que DevMath ? DevMath est mon site web personnel ! Je m&amp;rsquo;appelle Robin Pourtaud, je suis actuellement étudiant en Informatique. Passioné de math et d&amp;rsquo;informatique depuis le collège, j&amp;rsquo;ai
 J&amp;rsquo;ai décidé de créer ce site web partant d&amp;rsquo;un constat : Trouvé de l&amp;rsquo;aide sur des articles de mathématiques au collèges, c&amp;rsquo;est simple. Cependant, cette facillité n&amp;rsquo;est plus depuis le passage a des études supérieurs.
 C&amp;rsquo;est pourquoi j&amp;rsquo;ai crée DevMath !</description>

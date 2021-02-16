@@ -6,18 +6,7 @@
     <description>Recent content in informatique on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/informatique/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Récursivité terminale</title>
-      <link>http://localhost:1313/informatique/recursivite-terminale/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/informatique/recursivite-terminale/</guid>
-      <description>Définition En informatique, une fonction f est dite récursive terminale
-Toute fonction récursive terminale peut être réécrit avec une boucle for (standard). Cependant toute fonction récursive non terminale n&amp;rsquo;est pas forcément réécrivable avec une boucle for, la fonction de ackermann en est un parfait exemple. La fonction d&amp;rsquo;ackermann est malgrè réécrivable itérativement ! Avec une boucle while&amp;hellip;
-Intéret Dans de nombreux langages de programmation comme Python, c/c++, Ocaml ou même PHP, les fonctions présentant un caractère récursif terminale sont éxécuté comme une boucle itérative, ce qui permet de réduire le risque de &amp;ldquo;Stack Overflow&amp;rdquo;.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/informatique/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ensembles mathématiques usuels (majuscules ajourées) - Latex</title>
       <link>http://localhost:1313/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</link>
@@ -112,7 +101,7 @@ Entrées : Notre UAL prend 3 entrées :
       
       <guid>http://localhost:1313/informatique/alphabet-grec-latex/</guid>
       <description>Exemple : Pour afficher en mode mathématique (entre dollar) une lettre grec, il suffit de taper le nom de la lettre précédée d&amp;rsquo;un anti-slash, par exemple pour &amp;ldquo;phi&amp;rdquo; :
-\phi Alphabet grec minuscule : LatexLettreLatexLettre\alpha$\alpha$\nu \beta$\beta$\xi$\xi$\gamma$\gamma$o$o$\delta$\delta$\pi$\pi$\epsilon ou \varepsilon$\epsilon$ ou $\varepsilon$\rho$\rho$\zeta$\zeta$\sigma$\sigma$\eta$\eta$\tau$\tau$\theta ou \vartheta$\theta$ ou $\vartheta$\upsilon$\upsilon$\iota$\iota$\phi ou \varphi$\phi$ ou $\varphi$\kappa$\kappa$\chi$\chi$\lambda$\lambda$\psi$\psi$\mu$\mu$\omega$\omega$ Alphabet Grec minuscule en Latex
+\phi Alphabet grec minuscule : LatexLettreLatexLettre\alpha$\alpha$\nu$\nu$\beta$\beta$\xi$\xi$\gamma$\gamma$o$o$\delta$\delta$\pi$\pi$\epsilon ou \varepsilon$\epsilon$ ou $\varepsilon$\rho$\rho$\zeta$\zeta$\sigma$\sigma$\eta$\eta$\tau$\tau$\theta ou \vartheta$\theta$ ou $\vartheta$\upsilon$\upsilon$\iota$\iota$\phi ou \varphi$\phi$ ou $\varphi$\kappa$\kappa$\chi$\chi$\lambda$\lambda$\psi$\psi$\mu$\mu$\omega$\omega$ Alphabet Grec minuscule en Latex
 Alphabet grec majuscule : LatexLettreLatexLettreA$A$N$N$B$B$\Xi$\Xi$\Gamma$\Gamma$O$O$\Delta$\Delta$\Pi$\Pi$E$E$P$P$Z$Z$\Sigma$\Sigma$H$H$T$T$\Theta$\Theta$\Upsilon$\Upsilon$I$I$\Phi$\Phi$K$K$X$X$\Lambda$\Lambda$\Psi$\Psi$M$M$\Omega$\Omega$ Alphabet Grec Majuscule en Latex</description>
     </item>
     
@@ -164,7 +153,7 @@ Formule 3 Ce développement a pour but de vous faire réviser le théorème de M
       
       <guid>http://localhost:1313/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</guid>
       <description>Résumé Oracle propose depuis bientôt un an une offre appelée &amp;ldquo; Always Free&amp;rdquo;. Celle-ci comprend :
- Deux bases de données Oracle Autonomous Database avec des outils puissants tels qu’Oracle Application Express (APEX) et Oracle SQL Developer Deux machines virtuelles de calcul Oracle Cloud Infrastructure Compute ; stockage de niveau bloc, objet et archive ; équilibreur de charge et extraction de données ; surveillance et notifications Pendant les 30 premiers jours 300 de crédit sur leur plateforme</description>
+ Deux bases de données Oracle Autonomous Database avec des outils puissants tels qu’Oracle Application Express (APEX) et Oracle SQL Developer Deux machines virtuelles de calcul Oracle Cloud Infrastructure Compute ; stockage de niveau bloc, objet et archive ; équilibreur de charge et extraction de données ; surveillance et notifications Pendant les 30 premiers jours 300$ de crédit sur leur plateforme</description>
     </item>
     
     <item>
@@ -237,15 +226,6 @@ Vous pouvez directement taper les commandes que vous souhaitez et appuyer sur &a
 Nécessaire : Il y a 2 prérequis pour pouvoir suivre ce tutoriel :
  Avoir un Wordpress à jour et en posséder les droits d&amp;rsquo;administrations. Avoir un compte  Bing Webmaster Tools correctement parametré.  Étape par étape : L&amp;rsquo;installation se déroule en 3 étapes et ne devrait pas vous prendre plus de 10 min.
 Installez l&amp;rsquo;extension sur votre wordpress : Selon vos préférences, vous pouvez soit chercher dans votre interface d&amp;rsquo;administration l&amp;rsquo;extension &amp;ldquo;Bing Url Submissions Plugin&amp;rdquo; et l&amp;rsquo;installer :</description>
-    </item>
-    
-    <item>
-      <title>Mode Mathématique sur Gboard</title>
-      <link>http://localhost:1313/informatique/mode-mathematique-sur-gboard/</link>
-      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/informatique/mode-mathematique-sur-gboard/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -352,6 +332,7 @@ Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rce
 Soit $f(i,j)$ l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet $[R,G,B]$ associée au pixel.
 Soit un seuil $s \in [0,255]$.
 Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction $g$ tel que :
+$
 g(i,j) = \left{
 \begin{array}{ll}
 255 &amp;amp; \mbox{si } f(i,j) \leq s \</description>
@@ -467,6 +448,17 @@ from PIL import Image import requests from io import BytesIO Url = &#39;https://
     </item>
     
     <item>
+      <title>Filtre Sépia d&#39;une image en Python3</title>
+      <link>http://localhost:1313/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</guid>
+      <description>Le fichier : Vous pouvez trouver le fichier complet ici :
+Les sources : Voir plus : Pour en savoir plus sur la modification de Bitmap en Python, je vous propose cet article, vous y trouverez le moyen de produire le négatif d&amp;rsquo;une image très simplement :).
+ Modifier la Bitmap d’une image avec Python 3</description>
+    </item>
+    
+    <item>
       <title>Opération sur les matrices avec numpy en Python</title>
       <link>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
@@ -483,7 +475,7 @@ M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</guid>
-      <description>La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l&amp;rsquo;API Google Cloud Translation. Cet API, bien que très pratique, pose un certain problème, celui du prix : 20 pour 1 million de caractères. Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n&amp;rsquo;avez pas besoin d&amp;rsquo;utiliser autant de caractères, il serait intéressant de trouver une alternative gratuite.</description>
+      <description>La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l&amp;rsquo;API Google Cloud Translation. Cet API, bien que très pratique, pose un certain problème, celui du prix : 20$ pour 1 million de caractères. Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n&amp;rsquo;avez pas besoin d&amp;rsquo;utiliser autant de caractères, il serait intéressant de trouver une alternative gratuite.</description>
     </item>
     
     <item>

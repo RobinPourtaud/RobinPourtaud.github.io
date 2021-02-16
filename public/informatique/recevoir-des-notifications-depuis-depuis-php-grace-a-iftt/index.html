@@ -318,23 +318,14 @@
     
     
     
-        
-            <amp-img
-                src="http://localhost:1313/images/image-1-1.png"
-                srcset="http://localhost:1313/images/image-1-1_hu7d17ae6d6455f99ac03c54177e995b42_33821_1200x0_resize_box_2.png 1200w,
-                    http://localhost:1313/images/image-1-1_hu7d17ae6d6455f99ac03c54177e995b42_33821_900x0_resize_box_2.png 900w,
-                    http://localhost:1313/images/image-1-1_hu7d17ae6d6455f99ac03c54177e995b42_33821_800x0_resize_box_2.png 800w,
-                    http://localhost:1313/images/image-1-1_hu7d17ae6d6455f99ac03c54177e995b42_33821_640x0_resize_box_2.png 640w,
-                    http://localhost:1313/images/image-1-1_hu7d17ae6d6455f99ac03c54177e995b42_33821_480x0_resize_box_2.png 480w,
-                    http://localhost:1313/images/image-1-1_hu7d17ae6d6455f99ac03c54177e995b42_33821_320x0_resize_box_2.png 320w
-                "
-                width="497"
-                height="701"
-                layout="responsive"
-                alt=""
-                
-                class="figure__image "></amp-img>
-        
+        <amp-img
+            src="http://localhost:1313/image-1-1.png"
+            height="1"
+            width="1"
+            layout="responsive"
+            alt=""
+            
+            class="figure__image "></amp-img>
     
 </figure></p>
 <p>Contenu Message IFTTT</p>
@@ -351,11 +342,11 @@
 </ol>
 <h2 id="création-dune-fonction-php-">Création d&rsquo;une fonction PHP :</h2>
 <pre><code>&lt;?php
-function msg(message){
- $msgmodify=rawurlencode(message); 
+function msg($message){
+ <amp-img alt="msgmodify=rawurlencode(" src="https://render.githubusercontent.com/render/math?math=msgmodify=rawurlencode(" layout="fixed-height" height="14px"><amp-img alt="msgmodify=rawurlencode(" fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>message); 
  $key=&quot;KEY&quot;; //Ajouté votre clé
- eventname=&quot;EVENT NAME&quot;; //Ajouté votre nom d’événement 
- file_get_contents(&quot;https://maker.ifttt.com/trigger/eventname/with/key/&quot;.&quot; key.&quot;?value1=&quot;.msgmodify.&quot;&quot;);
+ $eventname=&quot;EVENT NAME&quot;; //Ajouté votre nom d’événement 
+ file_get_contents(&quot;https://maker.ifttt.com/trigger/<amp-img alt="eventname/with/key/&quot;." src="https://render.githubusercontent.com/render/math?math=eventname/with/key/&quot;." layout="fixed-height" height="14px"><amp-img alt="eventname/with/key/&quot;." fallback layout="fixed-height" height="14px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSAiaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMSAxIDggNCI+PGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQW9BQUFBR0NBWUFBQUQ2OEEvR0FBQUFBWE5TUjBJQXJzNGM2UUFBQUVSbFdFbG1UVTBBS2dBQUFBZ0FBWWRwQUFRQUFBQUJBQUFBR2dBQUFBQUFBNkFCQUFNQUFBQUJBQUVBQUtBQ0FBUUFBQUFCQUFBQUNxQURBQVFBQUFBQkFBQUFCZ0FBQUFEK2lGWDBBQUFBcjBsRVFWUUlIVDJQU1FxRlFBeEVYN2VpNG9BYkVRV3Y0TVlMZUhLdjQwSVV3UW5uL25ZdmZxQ29JcWxRaVVpU1JQbStqNVFTei9PNDd4dkhjUmlHZ2I3dnNTeUw2N3FRNy91YW9XNHN5L0kzYXYwOGp6SHlsZFNHZmQrcDY5cXcxbTNia21VWlFnalQweXlpS0ZKNlE4ZVdaVWxSRklSaGFLS2JwdUU4VCtaNVJyaXVxejZna2VjNVZWVXhqaVBUTkpremp1TmcyemJzN3htQ0lDQk5VK0k0cHVzNmxGS3M2NHB0MjBicnhCODZ4VmdkUHdJV2NRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iLjUiIC8+PC9maWx0ZXI+PC9zdmc+"></amp-img></amp-img>key.&quot;?value1=&quot;.$msgmodify.&quot;&quot;);
 }
 ?&gt;
 </code></pre><p>En incluant cette fonction dans le reste de votre code, vous pourrez facilement envoyer des messages comme ceci :</p>
@@ -488,25 +479,6 @@ function msg(message){
     
     
     
-        
-        
-            <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
-                "
-                width= 1920 
-                height= 1080 
-                layout="responsive"
-                alt="Héberger un Wordpress Gratuitement sur un Raspberry Pi"
-                class="figure__image summary__top__image ">
-            </amp-img>
-        
-    
 </figure>
         
             
@@ -555,25 +527,6 @@ function msg(message){
     
     
     
-        
-        
-            <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
-                "
-                width= 1920 
-                height= 1080 
-                layout="responsive"
-                alt="Installer PHP7.4 pour Wordpress"
-                class="figure__image summary__top__image ">
-            </amp-img>
-        
-    
 </figure>
         
             
@@ -615,25 +568,6 @@ function msg(message){
         <figure class="figure ">
     
     
-    
-        
-        
-            <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
-                "
-                width= 1920 
-                height= 1080 
-                layout="responsive"
-                alt="Google Agenda : Ajouter un EDT de l&#39;Université de Nantes"
-                class="figure__image summary__top__image ">
-            </amp-img>
-        
     
 </figure>
         

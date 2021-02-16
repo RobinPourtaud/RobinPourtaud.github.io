@@ -6,16 +6,7 @@
     <description>Recent content in Categories on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>informatique</title>
-      <link>http://localhost:1313/categories/informatique/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/categories/informatique/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>denombrement</title>
       <link>http://localhost:1313/categories/denombrement/</link>
@@ -28,9 +19,18 @@
     <item>
       <title>mathematiques</title>
       <link>http://localhost:1313/categories/mathematiques/</link>
-      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/categories/mathematiques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>informatique</title>
+      <link>http://localhost:1313/categories/informatique/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/informatique/</guid>
       <description></description>
     </item>
     
@@ -40,6 +40,15 @@
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/categories/securite-informatique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>non-classe</title>
+      <link>http://localhost:1313/categories/non-classe/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/non-classe/</guid>
       <description></description>
     </item>
     

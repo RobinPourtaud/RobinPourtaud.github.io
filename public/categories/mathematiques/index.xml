@@ -6,7 +6,19 @@
     <description>Recent content in mathematiques on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/mathematiques/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/mathematiques/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coefficient binomial (k parmi n)</title>
+      <link>http://localhost:1313/mathematiques/coefficient-binomial-k-parmi-n/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mathematiques/coefficient-binomial-k-parmi-n/</guid>
+      <description>Prérequis : La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté &amp;ldquo;!&amp;rdquo;, le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
+$n! = \Pi_{k=1}^{n}k = 1 \times 2 \times \ldots \times (n-1) \times (n)$
+Pour prendre plusieurs exemples :
+ $2! = 1 \times 2$ $5! = 1 \times 2 \times 3 \times 4 \times 5 = 120$  Pour finir, prenez en compte que 0!</description>
+    </item>
+    
     <item>
       <title>Ensembles mathématiques usuels (majuscules ajourées) - Latex</title>
       <link>http://localhost:1313/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</link>
@@ -97,7 +109,7 @@ En utilisant ce tableau, nous pouvons voir qu&amp;rsquo;un angle de $\frac{\pi}{
       
       <guid>http://localhost:1313/mathematiques/formule-de-sylvester/</guid>
       <description>Identité : La formule de Sylvester est la suivante :
-$$\quicklatex{size=23}#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i}\right)$$
+$$#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i}\right)$$
 Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :
  Formule du crible - Wikiversity
 En savoir plus - sources :   Inclusion–exclusion principle for belief functions  Prepacom.net Dénombrer  Formule du crible - Wikiversity  formule du crible de Da Silva et Sylvester - les-mathematiques.</description>
@@ -123,9 +135,9 @@ Bien que très persuasif, ce n&amp;rsquo;est pas suffisant pour considérer cett
       
       <guid>http://localhost:1313/mathematiques/pourquoi-01/</guid>
       <description>Définition : &amp;ldquo;Factoriel&amp;rdquo; En dénombrement, le factoriel d&amp;rsquo;un entier naturel &amp;ldquo;n&amp;rdquo; est égal au produit des entiers naturels appartenant à $]0;n]$. Autrement dit :
-$\quicklatex{size=20} n! = \prod^n_{i=1} i = 1 \times 2 \times \ldots \times (n-1) \times n$
+$ n! = \prod^n_{i=1} i = 1 \times 2 \times \ldots \times (n-1) \times n$
 Pourquoi 0! est égal à 1 ? Depuis la définition du factoriel Repartons de la définition :
-$\quicklatex{size=20}n! = 1 \times \ldots \times (n-1) \times n!$
+$n! = 1 \times \ldots \times (n-1) \times n!$
 Autrement dit $n! = n \times (n-1)!</description>
     </item>
     
@@ -137,7 +149,7 @@ Autrement dit $n! = n \times (n-1)!</description>
       <guid>http://localhost:1313/mathematiques/di-method-integration-tabulaire/</guid>
       <description>Exemple d&amp;rsquo;utilisation : Pour introduire la DI Method, nous nous servirons de 2 exemples :
 Exemple 1 On souhaite résoudre l&amp;rsquo;intégrale :
-$\quicklatex{size=22}\int cos(x) x^2 dx$
+$\int cos(x) x^2 dx$
 Création du tableau Comme pour l&amp;rsquo;intégration par partie, nous choisissons quel facteur de l&amp;rsquo;intégrale nous souhaitons intégrer et quel facteur nous souhaitons dériver. Dans notre cas, nous dériverons $x^2$ et intégrerons $cos(x)$.
 LigneSigneDI1+$x^2$$cos(x)$2-$2x$$sin(x)$3+$2$$-cos(x)$4-$0$$-sin(x)$ Tableau de la méthode d&amp;rsquo;intégration tabulaire
 Dans la colonne signe, nous alternons le signe positif et négatif.</description>
@@ -152,9 +164,9 @@ Dans la colonne signe, nous alternons le signe positif et négatif.</description
       <description>Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
 $\sum_{k=0}^n {n \choose k}= 2^n$
 Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe. Elle s&amp;rsquo;appuiera sur la formule du binôme de Newton :
-$\quicklatex{size=22}\sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n$
+$\sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n$
 Si nous prenons $x = 1$ et $y=1$, alors obtenons l&amp;rsquo;égalité :
-$\quicklatex{size=22}\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$</description>
+$\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$</description>
     </item>
     
     <item>
@@ -307,11 +319,11 @@ Niveau 1 : Un bon début ! Ici, chaque ligne correspond à la ligne précédente
       
       <guid>http://localhost:1313/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
       <description>Identité : Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
-$\quicklatex{size=24} \sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$
-Démonstration :  On commence par reprendre la formule du binôme de Newton :  $\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n$
-Soit $b = 1$, alors :  $\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n$
-Dérivons l&amp;rsquo;équation selon $a$ comme ceci :  $\quicklatex{size=24}\frac{d}{da}(\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n)$
-Ce qui donne :  $\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$</description>
+$ \sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$
+Démonstration :  On commence par reprendre la formule du binôme de Newton :  $\sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n$
+Soit $b = 1$, alors :  $\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n$
+Dérivons l&amp;rsquo;équation selon $a$ comme ceci :  $\frac{d}{da}(\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n)$
+Ce qui donne :  $\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$</description>
     </item>
     
     <item>
@@ -368,9 +380,9 @@ Symétrique : Une matrice $A$ est dite symétrique si $L = ^tL$. C&amp;rsquo;est
       <description>Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
 &amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.
 $x^i$ est de la forme $x^b$, $\forall b \in \mathbb{C}$. Or, on sait que :
-$\quicklatex{size=22} \int x^b dx = \frac{x^{b+1}}{b+1}$
+$ \int x^b dx = \frac{x^{b+1}}{b+1}$
 Nous obtenons donc la solution :
-$\quicklatex{size=22}\int x^i dx = \frac{x^{i+1}}{i+1} + C$.
+$\int x^i dx = \frac{x^{i+1}}{i+1} + C$.
 Méthode 2 : Pour le fun Cette méthode n&amp;rsquo;est absolument pas nécessaire, ni pratique à utiliser.</description>
     </item>
     

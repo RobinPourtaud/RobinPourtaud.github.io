@@ -44,6 +44,7 @@ Mais on peut aussi la retrouver dans de nombreuses autre formules !</description
 Soit $f(i,j)$ l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet $[R,G,B]$ associée au pixel.
 Soit un seuil $s \in [0,255]$.
 Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction $g$ tel que :
+$
 g(i,j) = \left{
 \begin{array}{ll}
 255 &amp;amp; \mbox{si } f(i,j) \leq s \</description>
@@ -65,6 +66,17 @@ from PIL import Image import requests from io import BytesIO Url = &#39;https://
     </item>
     
     <item>
+      <title>Filtre Sépia d&#39;une image en Python3</title>
+      <link>http://localhost:1313/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</guid>
+      <description>Le fichier : Vous pouvez trouver le fichier complet ici :
+Les sources : Voir plus : Pour en savoir plus sur la modification de Bitmap en Python, je vous propose cet article, vous y trouverez le moyen de produire le négatif d&amp;rsquo;une image très simplement :).
+ Modifier la Bitmap d’une image avec Python 3</description>
+    </item>
+    
+    <item>
       <title>Opération sur les matrices avec numpy en Python</title>
       <link>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
@@ -81,7 +93,7 @@ M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</guid>
-      <description>La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l&amp;rsquo;API Google Cloud Translation. Cet API, bien que très pratique, pose un certain problème, celui du prix : 20 pour 1 million de caractères. Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n&amp;rsquo;avez pas besoin d&amp;rsquo;utiliser autant de caractères, il serait intéressant de trouver une alternative gratuite.</description>
+      <description>La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l&amp;rsquo;API Google Cloud Translation. Cet API, bien que très pratique, pose un certain problème, celui du prix : 20$ pour 1 million de caractères. Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n&amp;rsquo;avez pas besoin d&amp;rsquo;utiliser autant de caractères, il serait intéressant de trouver une alternative gratuite.</description>
     </item>
     
   </channel>

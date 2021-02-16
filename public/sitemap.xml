@@ -2,41 +2,11 @@
     
     <url>
         <loc>http://localhost:1313/categories/</loc>
-        <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+        <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/</loc>
-        <lastmod>2021-01-16T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/tags/factoriel/</loc>
-        <lastmod>2021-01-16T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/categories/informatique/</loc>
-        <lastmod>2021-01-16T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/informatique/</loc>
-        <lastmod>2021-01-16T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/informatique/recursivite-terminale/</loc>
-        <lastmod>2021-01-16T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/tags/</loc>
-        <lastmod>2021-01-16T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/mathematiques/denombrement/coefficient-binomial-k-parmi-n/</loc>
+        <loc>http://localhost:1313/mathematiques/coefficient-binomial-k-parmi-n/</loc>
         <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -51,7 +21,22 @@
     </url>
     
     <url>
+        <loc>http://localhost:1313/</loc>
+        <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
         <loc>http://localhost:1313/mathematiques/</loc>
+        <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/categories/mathematiques/</loc>
+        <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/tags/</loc>
         <lastmod>2021-01-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -76,17 +61,22 @@
     </url>
     
     <url>
+        <loc>http://localhost:1313/categories/informatique/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/informatique/</loc>
+        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
         <loc>http://localhost:1313/tags/latex/</loc>
         <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
         <loc>http://localhost:1313/informatique/lorem-ipsum-lipsum-latex/</loc>
-        <lastmod>2021-01-05T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/categories/mathematiques/</loc>
         <lastmod>2021-01-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -206,7 +196,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:1313/mathematiques/denombrement/exercice-corrige-denombrement-n1/</loc>
+        <loc>http://localhost:1313/mathematiques/exercice-corrige-denombrement-n1/</loc>
         <lastmod>2020-09-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -226,7 +216,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:1313/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</loc>
+        <loc>http://localhost:1313/informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</loc>
         <lastmod>2020-08-24T00:00:00+00:00</lastmod>
     </url>
     
@@ -327,6 +317,11 @@
     
     <url>
         <loc>http://localhost:1313/informatique/mode-mathematique-sur-gboard/</loc>
+        <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/categories/non-classe/</loc>
         <lastmod>2020-07-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -536,6 +531,11 @@
     </url>
     
     <url>
+        <loc>http://localhost:1313/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</loc>
+        <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
         <loc>http://localhost:1313/tags/algebre/</loc>
         <lastmod>2020-05-18T00:00:00+00:00</lastmod>
     </url>
@@ -546,7 +546,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:1313/mathematiques/denombrement/denombrement-exercices-corriges/</loc>
+        <loc>http://localhost:1313/mathematiques/denombrement-exercices-corriges/</loc>
         <lastmod>2020-05-14T00:00:00+00:00</lastmod>
     </url>
     
@@ -781,12 +781,17 @@
     </url>
     
     <url>
-        <loc>http://localhost:1313/contact/</loc>
+        <loc>http://localhost:1313/pages/contact/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/confidentialite/</loc>
+        <loc>http://localhost:1313/pages/confidentialite/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/pages/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     

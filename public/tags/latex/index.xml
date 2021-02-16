@@ -64,7 +64,7 @@ D&amp;rsquo;autres articles sur Latex Retrouvez l&amp;rsquo;ensemble de nos arti
       
       <guid>http://localhost:1313/informatique/alphabet-grec-latex/</guid>
       <description>Exemple : Pour afficher en mode mathématique (entre dollar) une lettre grec, il suffit de taper le nom de la lettre précédée d&amp;rsquo;un anti-slash, par exemple pour &amp;ldquo;phi&amp;rdquo; :
-\phi Alphabet grec minuscule : LatexLettreLatexLettre\alpha$\alpha$\nu \beta$\beta$\xi$\xi$\gamma$\gamma$o$o$\delta$\delta$\pi$\pi$\epsilon ou \varepsilon$\epsilon$ ou $\varepsilon$\rho$\rho$\zeta$\zeta$\sigma$\sigma$\eta$\eta$\tau$\tau$\theta ou \vartheta$\theta$ ou $\vartheta$\upsilon$\upsilon$\iota$\iota$\phi ou \varphi$\phi$ ou $\varphi$\kappa$\kappa$\chi$\chi$\lambda$\lambda$\psi$\psi$\mu$\mu$\omega$\omega$ Alphabet Grec minuscule en Latex
+\phi Alphabet grec minuscule : LatexLettreLatexLettre\alpha$\alpha$\nu$\nu$\beta$\beta$\xi$\xi$\gamma$\gamma$o$o$\delta$\delta$\pi$\pi$\epsilon ou \varepsilon$\epsilon$ ou $\varepsilon$\rho$\rho$\zeta$\zeta$\sigma$\sigma$\eta$\eta$\tau$\tau$\theta ou \vartheta$\theta$ ou $\vartheta$\upsilon$\upsilon$\iota$\iota$\phi ou \varphi$\phi$ ou $\varphi$\kappa$\kappa$\chi$\chi$\lambda$\lambda$\psi$\psi$\mu$\mu$\omega$\omega$ Alphabet Grec minuscule en Latex
 Alphabet grec majuscule : LatexLettreLatexLettreA$A$N$N$B$B$\Xi$\Xi$\Gamma$\Gamma$O$O$\Delta$\Delta$\Pi$\Pi$E$E$P$P$Z$Z$\Sigma$\Sigma$H$H$T$T$\Theta$\Theta$\Upsilon$\Upsilon$I$I$\Phi$\Phi$K$K$X$X$\Lambda$\Lambda$\Psi$\Psi$M$M$\Omega$\Omega$ Alphabet Grec Majuscule en Latex</description>
     </item>
     

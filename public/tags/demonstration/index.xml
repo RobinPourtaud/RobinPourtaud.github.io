@@ -29,9 +29,9 @@ Bien que très persuasif, ce n&amp;rsquo;est pas suffisant pour considérer cett
       <description>Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
 $\sum_{k=0}^n {n \choose k}= 2^n$
 Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe. Elle s&amp;rsquo;appuiera sur la formule du binôme de Newton :
-$\quicklatex{size=22}\sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n$
+$\sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n$
 Si nous prenons $x = 1$ et $y=1$, alors obtenons l&amp;rsquo;égalité :
-$\quicklatex{size=22}\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$</description>
+$\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$</description>
     </item>
     
     <item>
@@ -41,11 +41,11 @@ $\quicklatex{size=22}\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$</descriptio
       
       <guid>http://localhost:1313/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
       <description>Identité : Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
-$\quicklatex{size=24} \sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$
-Démonstration :  On commence par reprendre la formule du binôme de Newton :  $\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n$
-Soit $b = 1$, alors :  $\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n$
-Dérivons l&amp;rsquo;équation selon $a$ comme ceci :  $\quicklatex{size=24}\frac{d}{da}(\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n)$
-Ce qui donne :  $\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$</description>
+$ \sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$
+Démonstration :  On commence par reprendre la formule du binôme de Newton :  $\sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n$
+Soit $b = 1$, alors :  $\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n$
+Dérivons l&amp;rsquo;équation selon $a$ comme ceci :  $\frac{d}{da}(\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n)$
+Ce qui donne :  $\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$</description>
     </item>
     
   </channel>

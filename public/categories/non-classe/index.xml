@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>non-classe on DevMath.fr</title>
+    <link>http://localhost:1313/categories/non-classe/</link>
+    <description>Recent content in non-classe on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/non-classe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mode Mathématique sur Gboard</title>
+      <link>http://localhost:1313/informatique/mode-mathematique-sur-gboard/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/mode-mathematique-sur-gboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dénombrement - Exercices corrigés</title>
+      <link>http://localhost:1313/mathematiques/denombrement-exercices-corriges/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mathematiques/denombrement-exercices-corriges/</guid>
+      <description>Exercice 1 : Des souris et des chats Exercice 2 : Des balles et des fusils Exercice 3 : Des creepers et des zombies Exercice 4 : Des Oiseaux et des cages Un zoologiste a une passion : les oiseaux, mais depuis la saison des amours, son nombre d&amp;rsquo;oiseaux à doublé! C&amp;rsquo;est pourquoi il va devoir en relâcher quelque-uns.
+Exercice 5 : Des japonais et des tsunamis Correction Ex1 : </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,7 @@
     {{ $resource := resources.Get .src }}
     {{ with $resource }}
         {{ if in (slice "jpeg" "jpg" "png" "gif") $resource.MediaType.SubType }}
-        
+            
             <amp-img
                 src="{{ .Permalink | absURL }}"
                 srcset="{{ (.Resize "1200x").Permalink }} 1200w,

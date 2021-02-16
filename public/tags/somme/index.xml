@@ -14,11 +14,11 @@
       
       <guid>http://localhost:1313/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
       <description>Identité : Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
-$\quicklatex{size=24} \sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$
-Démonstration :  On commence par reprendre la formule du binôme de Newton :  $\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n$
-Soit $b = 1$, alors :  $\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n$
-Dérivons l&amp;rsquo;équation selon $a$ comme ceci :  $\quicklatex{size=24}\frac{d}{da}(\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n)$
-Ce qui donne :  $\quicklatex{size=24}\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$</description>
+$ \sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$
+Démonstration :  On commence par reprendre la formule du binôme de Newton :  $\sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n$
+Soit $b = 1$, alors :  $\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n$
+Dérivons l&amp;rsquo;équation selon $a$ comme ceci :  $\frac{d}{da}(\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n)$
+Ce qui donne :  $\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$</description>
     </item>
     
   </channel>

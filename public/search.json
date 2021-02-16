@@ -1,10 +1,6 @@
 { "items": [{
-            "title": "Récursivité terminale",
-            "url": "http://localhost:1313/informatique/recursivite-terminale/",
-            "date": "16 Janvier 2021"
-        },{
             "title": "Coefficient binomial (k parmi n)",
-            "url": "http://localhost:1313/mathematiques/denombrement/coefficient-binomial-k-parmi-n/",
+            "url": "http://localhost:1313/mathematiques/coefficient-binomial-k-parmi-n/",
             "date": "15 Janvier 2021"
         },{
             "title": "Ensembles mathématiques usuels (majuscules ajourées) - Latex",
@@ -64,7 +60,7 @@
             "date": "22 Septembre 2020"
         },{
             "title": "Exercice corrigé - Dénombrement n°1",
-            "url": "http://localhost:1313/mathematiques/denombrement/exercice-corrige-denombrement-n1/",
+            "url": "http://localhost:1313/mathematiques/exercice-corrige-denombrement-n1/",
             "date": "15 Septembre 2020"
         },{
             "title": "Démonstration : Toutes les puissances de 6 finissent par un 6",
@@ -72,7 +68,7 @@
             "date": "30 Août 2020"
         },{
             "title": "Lister tous les ports ouverts d'un ordinateur avec nmap",
-            "url": "http://localhost:1313/informatique/securite-informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/",
+            "url": "http://localhost:1313/informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/",
             "date": "24 Août 2020"
         },{
             "title": "Pourquoi 0!=1 ?",
@@ -195,12 +191,16 @@
             "url": "http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/",
             "date": "21 Mai 2020"
         },{
+            "title": "Filtre Sépia d'une image en Python3",
+            "url": "http://localhost:1313/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/",
+            "date": "19 Mai 2020"
+        },{
             "title": "Opération sur les matrices avec numpy en Python",
             "url": "http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/",
             "date": "18 Mai 2020"
         },{
             "title": "Dénombrement - Exercices corrigés",
-            "url": "http://localhost:1313/mathematiques/denombrement/denombrement-exercices-corriges/",
+            "url": "http://localhost:1313/mathematiques/denombrement-exercices-corriges/",
             "date": "14 Mai 2020"
         },{
             "title": "Traduire un string grâce à Google Traduction en Python (for free)",
@@ -264,10 +264,10 @@
             "date": "11 Avril 2020"
         },{
             "title": "A propos de DevMath",
-            "url": "http://localhost:1313/contact/",
+            "url": "http://localhost:1313/pages/contact/",
             "date": "1 Janvier 1"
         },{
             "title": "Confidentialité des données",
-            "url": "http://localhost:1313/confidentialite/",
+            "url": "http://localhost:1313/pages/confidentialite/",
             "date": "1 Janvier 1"
         }]}

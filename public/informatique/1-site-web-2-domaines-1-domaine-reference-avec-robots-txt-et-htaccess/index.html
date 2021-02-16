@@ -5,17 +5,17 @@
 
 <title>1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)</title>
     
-<meta name="description" content="Au cours de la création de notre site, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&#39;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution. " />
+<meta name="description" content="Au cours de la création de notre site DevMath.fr, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&#39;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution." />
 <link rel="canonical" href="http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/" >
 <link rel="sitemap" href="http://localhost:1313/sitemap.xml" type="application/xml" /><meta property="og:title" content="1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)">
 <meta property="og:url" content="http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/">
-<meta property="og:description" content="Au cours de la création de notre site, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&#39;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution. ">
+<meta property="og:description" content="Au cours de la création de notre site DevMath.fr, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&#39;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution.">
 <meta property="og:image" content="http://localhost:1313/logo.png">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content=""><meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)">
 <meta name="twitter:url" content="http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/">
-<meta name="twitter:description" content="Au cours de la création de notre site, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&#39;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution. ">
+<meta name="twitter:description" content="Au cours de la création de notre site DevMath.fr, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&#39;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution.">
 <meta name="twitter:image" content="http://localhost:1313/logo.png">
 <meta name="twitter:site" content=""><meta name="theme-color" content="#333"/>
 <link rel="manifest" href="http://localhost:1313/manifest.json">
@@ -293,7 +293,7 @@
             
         </ul>
     </div>
-</section><p class="description">Au cours de la création de notre site, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&#39;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution. </p>
+</section><p class="description">Au cours de la création de notre site DevMath.fr, nous avons souhaité créer un sous-domaine afin de faciliter notre gestion du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&#39;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution.</p>
 <div class="toc">
     <div class="toc__title">Table des matières</div>
     <nav id="TableOfContents">
@@ -327,8 +327,8 @@ Il sera alors nécessaire, pour le domaine &ldquo;<em>no-ref.site.com</em>&rdquo
 <h2 id="configuration-du-htaccess">Configuration du .htaccess</h2>
 <p>Un fichier <em>.htaccess</em> est un fichier de configuration Apache2. Il permet de paramétrer le serveur HTTP depuis un dossier spécifique. Nous allons nous en servir pour permettre aux moteurs de recherche d&rsquo;accéder au contenu de robots2.txt depuis no-ref.site.com/robots.txt. Pour cela :</p>
 <pre><code>RewriteEngine on
-RewriteCond %{HTTP_HOST} ^no-ref\.site\.com
-RewriteRule ^robots\.txt robots2.txt [L]
+RewriteCond %{HTTP_HOST} ^no-ref\.site\.com$
+RewriteRule ^robots\.txt$ robots2.txt [L]
 </code></pre><p>Littéralement, une requête à destination de no-ref.site.com/robots.txt renverra le contenu de robots2.txt.</p>
 <p>Les moteurs de recherches (principaux) ne référenceront donc pas votre deuxième domaine !</p>
 <div class="more">
@@ -457,25 +457,6 @@ RewriteRule ^robots\.txt robots2.txt [L]
     
     
     
-        
-        
-            <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
-                "
-                width= 1920 
-                height= 1080 
-                layout="responsive"
-                alt="Rediriger le trafic HTTP vers HTTPS avec .htaccess."
-                class="figure__image summary__top__image ">
-            </amp-img>
-        
-    
 </figure>
         
             
@@ -526,25 +507,6 @@ RewriteRule ^robots\.txt robots2.txt [L]
     
     
     
-        
-        
-            <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
-                "
-                width= 1920 
-                height= 1080 
-                layout="responsive"
-                alt="Héberger un Wordpress Gratuitement sur un Raspberry Pi"
-                class="figure__image summary__top__image ">
-            </amp-img>
-        
-    
 </figure>
         
             
@@ -592,25 +554,6 @@ RewriteRule ^robots\.txt robots2.txt [L]
         <figure class="figure ">
     
     
-    
-        
-        
-            <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
-                "
-                width= 1920 
-                height= 1080 
-                layout="responsive"
-                alt="Installer PHP7.4 pour Wordpress"
-                class="figure__image summary__top__image ">
-            </amp-img>
-        
     
 </figure>
         
