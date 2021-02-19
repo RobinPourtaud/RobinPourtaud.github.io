@@ -1,11 +1,7 @@
-<nav class="header__menu" {{ if .IsPage }}next-page-hide{{ end }}>
-    {{- partial "header/menu.html" . -}}    
-</nav>
-
-<a class="header__menu__logo" data-rel="prefetch" href="{{ "" | absLangURL }}" aria-label="{{ i18n "goBackHome" }}">
-    {{- partial "header/logo.html" . -}}
+<a class="header__title" data-rel="prefetch" href="{{ "" | absLangURL }}" aria-label="{{ i18n "goBackHome" }}">
+    <div class="header__title__logo">{{- partial "header/logo.html" . -}}</div>
+    <div class="header__title__text">DevMath</div>
 </a>
-
 
 
 {{- partial "header/search.html" . -}}

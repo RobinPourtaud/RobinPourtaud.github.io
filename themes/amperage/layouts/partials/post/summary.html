@@ -7,12 +7,13 @@
         {{ else }}
         {{ $default := "/images/default.jpg" }}
         <div class="summary__top__title">{{.Title}}</div>
+
         {{ with .Params.tags }}
-        <div class="summary__top__tags">
-        {{ range .}}
-        {{.}} /
-        {{end}}</div>
+            <div class="summary__top__tags">
+            {{ range .}}{{.}} /{{end}}
+            </div>
         {{ end}}
+
         {{ with .Params.categories }}
         
         {{ if (or (and (eq (index . 0) "mathematiques") (eq (index . 1) "informatique")) (and (eq (index . 1) "mathematiques") (eq (index . 0) "informatique")) )}}
@@ -32,11 +33,6 @@
     <div class="summary__bottom">
         <div class="summary__bottom__title">{{.Params.Category}}</div>
         <div class="summary__bottom__title">{{.Title}}</div>
-        <div class="summary__bottom__desc">
-            {{.Description}}
-        </div>
+        <div class="summary__bottom__desc">{{.Description}}</div>
     </div>
-    
-    
-</div>
 </a> 
