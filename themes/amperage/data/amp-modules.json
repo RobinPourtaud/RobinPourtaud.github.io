@@ -39,6 +39,7 @@
   "amp-reach-player" : "https://cdn.ampproject.org/v0/amp-reach-player-0.1.js",
   "amp-reddit" : "https://cdn.ampproject.org/v0/amp-reddit-0.1.js",
   "amp-script" : "https://cdn.ampproject.org/v0/amp-script-0.1.js",
+  "amp-mustache" : "https://cdn.ampproject.org/v0/amp-mustache-0.2.js",
   "amp-selector" : "https://cdn.ampproject.org/v0/amp-selector-0.1.js",
   "amp-sidebar" : "https://cdn.ampproject.org/v0/amp-sidebar-0.1.js",
   "amp-social-share" : "https://cdn.ampproject.org/v0/amp-social-share-0.1.js",
@@ -53,5 +54,7 @@
   "amp-viz-vega" : "https://cdn.ampproject.org/v0/amp-viz-vega-0.1.js",
   "amp-youtube" : "https://cdn.ampproject.org/v0/amp-youtube-0.1.js",
   "amp-autocomplete" : "https://cdn.ampproject.org/v0/amp-autocomplete-0.1.js",
-  "amp-mathml" : "https://cdn.ampproject.org/v0/amp-mathml-0.1.js"
+  "amp-mathml" : "https://cdn.ampproject.org/v0/amp-mathml-0.1.js", 
+  "amp-auto-ads" : "https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js", 
+  "amp-next-page" : "https://cdn.ampproject.org/v0/amp-next-page-1.0.js"
 }

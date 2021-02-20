@@ -107,7 +107,7 @@
             "url": "http://localhost:1313/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/",
             "date": "21 Juillet 2020"
         },{
-            "title": "La notation "?" en mathématique : Termial",
+            "title": "La notation ? en mathématique : Termial",
             "url": "http://localhost:1313/mathematiques/la-notation-en-mathematique/",
             "date": "20 Juillet 2020"
         },{
@@ -262,6 +262,10 @@
             "title": "Wsl2",
             "url": "http://localhost:1313/informatique/keske-cest-wsl2/",
             "date": "11 Avril 2020"
+        },{
+            "title": "",
+            "url": "http://localhost:1313/informatique/a/",
+            "date": "1 Janvier 1"
         },{
             "title": "A propos de DevMath",
             "url": "http://localhost:1313/pages/contact/",

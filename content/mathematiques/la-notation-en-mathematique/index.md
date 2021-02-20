@@ -1,5 +1,5 @@
 ---
-title: "La notation \"?\" en mathématique : Termial"
+title: "La notation ? en mathématique : Termial"
 slug: "la-notation-en-mathematique"
 date: "2020-07-20"
 categories: 

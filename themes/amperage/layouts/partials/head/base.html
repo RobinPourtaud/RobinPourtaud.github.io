@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
 <title>{{ .Title }}</title>
-
+{{- partial "head/amp-components.html" . -}}
 {{- partial "head/language-metas.html" . -}}
 
 {{- partial "head/pagination-metas.html" . -}}
@@ -24,4 +24,3 @@
 
 {{- partial "head/styles.html" . -}}
 
-{{- partial "head/amp-components.html" . -}}
