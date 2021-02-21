@@ -41,12 +41,6 @@ Toutes les lettres de l'alphabet (latin ou grec) peuvent être prises en argumen
 
 _Commentaire : La fonction indicatrice ne peut pas être affichée avec amsfonts, il faut utiliser un autre package. Vous pouvez retrouver un article sur le sujet ici (fonction indicatrice - KeskeC)._
 
-## D'autres articles sur Latex
-
-Retrouvez l'ensemble de nos articles sur Latex ici :
-
-[Latex - KeskeC](https://keskec.fr/tag/latex/)
-
 ## Sources :
 
 1. [Nombre Hypercomplexe - Wikipédia](https://fr.wikipedia.org/wiki/Nombre_hypercomplexe)

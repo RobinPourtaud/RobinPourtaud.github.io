@@ -2,7 +2,7 @@
     <section class="author">
         {{ with .image }}
             <amp-img class="author__image"
-                src="{{ . }}"
+                src="{{ . | absURL}}"
                 layout="fixed" height="200" width="200"></amp-img>
         {{ end }}
         <div class="author__right">

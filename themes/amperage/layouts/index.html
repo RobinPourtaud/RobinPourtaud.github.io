@@ -1,6 +1,9 @@
 {{ define "main" }}
-	{{ range .Paginator.Pages }}
+	<div class="list__summary">
+		{{ range .Paginator.Pages }}
 		{{- partial "post/summary.html" . -}}
 	{{ end }}
+	</div>
+	
 	{{- partial "page/pagination.html" . -}}
 {{ end }}

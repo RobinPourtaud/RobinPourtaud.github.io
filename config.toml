@@ -1,7 +1,7 @@
 DefaultContentLanguage = "fr"
 baseURL = "https://devmath.fr"
 title = "DevMath.fr"
-paginate = 10
+paginate = 9
 description = "DevMath est un site d'informatique et de matématiques crée par un étudiant pour les étudiants."
 pygmentsUseClasses = true
 theme = "amperage"
@@ -48,7 +48,7 @@ contentDir = "content"
     [params.author]
         name = "Robin Pourtaud"
         homepage = "cv.devmath.fr"
-        image = "images/pdp.jpg"
+        image = "/images/pdp.jpg"
         bio = "Etudiant en informatique, je suis l'administrateur et rédacteur du site DevMath.fr. Si vous avez une question, n'hésitez pas à me contacter !"
 
 [taxonomies]
