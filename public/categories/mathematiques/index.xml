@@ -109,7 +109,7 @@ En utilisant ce tableau, nous pouvons voir qu&amp;rsquo;un angle de $\frac{\pi}{
       
       <guid>http://localhost:1313/mathematiques/formule-de-sylvester/</guid>
       <description>Identité : La formule de Sylvester est la suivante :
-$$#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i}\right)$$
+$#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i\right)$
 Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :
  Formule du crible - Wikiversity
 En savoir plus - sources :   Inclusion–exclusion principle for belief functions  Prepacom.net Dénombrer  Formule du crible - Wikiversity  formule du crible de Da Silva et Sylvester - les-mathematiques.</description>
@@ -344,9 +344,10 @@ Calcul du Polynôme Caractéristique Le polynome caractéristique de A est défi
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/mathematiques/keske-cest-la-decomposition-de-cholesky/</guid>
-      <description>Définition : Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que $A = L^tL$. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
+      <description>Définition : &amp;amp;
+Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que $A = L^tL$. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
 Vérification : Pour calculer la décomposition de A, nous devons vérifier que A est bien symétrique définie positive:
-Symétrique : Une matrice $A$ est dite symétrique si $L = ^tL$. C&amp;rsquo;est à dire que $\forall i,j \in \dim{A}, A_{i,j} = A_{j,i}$.</description>
+Symétrique : Une matrice A est dite symétrique si $L = ^tL$. C&amp;rsquo;est à dire : $\forall i,j \in \dim{A}, A_{i,j} = A_{j,i}$.</description>
     </item>
     
     <item>

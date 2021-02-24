@@ -20,9 +20,9 @@ Pour en savoir plus : [Différents types d’automates finis](https://keskec.fr/
 
 ## Méthode :
 
-![](image-18-1024x602.png)
+![Automate fini non déterministe](image-18-1024x602.png)
 
-Automate fini non déterministe
+
 
 La méthode permettant de passer d'un automate fini quelconque à un automate déterministe va être illustrée par l'exercice corrigé suivant :
 
@@ -82,9 +82,7 @@ Afin de tracer l'automate il nous suffit de créer des états de A à K, et de l
 
 Vous devriez obtenir cet automate :
 
-![](image-19-1024x491.png)
-
-Automate équivalent déterministe
+![Automate équivalent déterministe](image-19-1024x491.png)
 
 ## Source :
 

@@ -16,7 +16,6 @@
       <description>Définition : Un automate est dit déterministe s&amp;rsquo;il respecte trois conditions :
  Il possède un unique état initial. Il ne possède pas d’epsilon-transitions. Pour chaque état de cet automate, il existe au maximum une transition issue de cet état possédant le même symbole.  Pour en savoir plus : Différents types d’automates finis
 Méthode :  
-Automate fini non déterministe
 La méthode permettant de passer d&amp;rsquo;un automate fini quelconque à un automate déterministe va être illustrée par l&amp;rsquo;exercice corrigé suivant :</description>
     </item>
     

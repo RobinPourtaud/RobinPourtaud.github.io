@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Factoriel on DevMath.fr</title>
+    <link>http://localhost:1313/tags/factoriel/</link>
+    <description>Recent content in Factoriel on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/factoriel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coefficient binomial (k parmi n)</title>
+      <link>http://localhost:1313/mathematiques/coefficient-binomial-k-parmi-n/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mathematiques/coefficient-binomial-k-parmi-n/</guid>
+      <description>Prérequis : La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté &amp;ldquo;!&amp;rdquo;, le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
+$n! = \Pi_{k=1}^{n}k = 1 \times 2 \times \ldots \times (n-1) \times (n)$
+Pour prendre plusieurs exemples :
+ $2! = 1 \times 2$ $5! = 1 \times 2 \times 3 \times 4 \times 5 = 120$  Pour finir, prenez en compte que 0!</description>
+    </item>
+    
+  </channel>
+</rss>

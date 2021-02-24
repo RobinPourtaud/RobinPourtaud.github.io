@@ -13,9 +13,10 @@
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/mathematiques/keske-cest-la-decomposition-de-cholesky/</guid>
-      <description>Définition : Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que $A = L^tL$. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
+      <description>Définition : &amp;amp;
+Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que $A = L^tL$. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
 Vérification : Pour calculer la décomposition de A, nous devons vérifier que A est bien symétrique définie positive:
-Symétrique : Une matrice $A$ est dite symétrique si $L = ^tL$. C&amp;rsquo;est à dire que $\forall i,j \in \dim{A}, A_{i,j} = A_{j,i}$.</description>
+Symétrique : Une matrice A est dite symétrique si $L = ^tL$. C&amp;rsquo;est à dire : $\forall i,j \in \dim{A}, A_{i,j} = A_{j,i}$.</description>
     </item>
     
   </channel>

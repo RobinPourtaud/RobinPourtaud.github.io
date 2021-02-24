@@ -90,7 +90,6 @@ Procédure préfixe(Arbre A) : Début : Afficher(A.e) Si A.g !</description>
       <description>Définition : Un automate est dit déterministe s&amp;rsquo;il respecte trois conditions :
  Il possède un unique état initial. Il ne possède pas d’epsilon-transitions. Pour chaque état de cet automate, il existe au maximum une transition issue de cet état possédant le même symbole.  Pour en savoir plus : Différents types d’automates finis
 Méthode :  
-Automate fini non déterministe
 La méthode permettant de passer d&amp;rsquo;un automate fini quelconque à un automate déterministe va être illustrée par l&amp;rsquo;exercice corrigé suivant :</description>
     </item>
     
@@ -190,7 +189,7 @@ En utilisant ce tableau, nous pouvons voir qu&amp;rsquo;un angle de $\frac{\pi}{
       
       <guid>http://localhost:1313/mathematiques/formule-de-sylvester/</guid>
       <description>Identité : La formule de Sylvester est la suivante :
-$$#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i}\right)$$
+$#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i\right)$
 Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :
  Formule du crible - Wikiversity
 En savoir plus - sources :   Inclusion–exclusion principle for belief functions  Prepacom.net Dénombrer  Formule du crible - Wikiversity  formule du crible de Da Silva et Sylvester - les-mathematiques.</description>
@@ -646,16 +645,6 @@ M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le
     </item>
     
     <item>
-      <title>Dénombrement - Exercices corrigés</title>
-      <link>http://localhost:1313/mathematiques/denombrement-exercices-corriges/</link>
-      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mathematiques/denombrement-exercices-corriges/</guid>
-      <description>Exercice 1 : Des souris et des chats Exercice 2 : Des balles et des fusils Exercice 3 : Des creepers et des zombies Exercice 4 : Des Oiseaux et des cages Un zoologiste a une passion : les oiseaux, mais depuis la saison des amours, son nombre d&amp;rsquo;oiseaux à doublé! C&amp;rsquo;est pourquoi il va devoir en relâcher quelque-uns.
-Exercice 5 : Des japonais et des tsunamis Correction Ex1 : </description>
-    </item>
-    
-    <item>
       <title>Traduire un string grâce à Google Traduction en Python (for free)</title>
       <link>http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
@@ -768,9 +757,10 @@ Calcul du Polynôme Caractéristique Le polynome caractéristique de A est défi
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/mathematiques/keske-cest-la-decomposition-de-cholesky/</guid>
-      <description>Définition : Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que $A = L^tL$. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
+      <description>Définition : &amp;amp;
+Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que $A = L^tL$. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
 Vérification : Pour calculer la décomposition de A, nous devons vérifier que A est bien symétrique définie positive:
-Symétrique : Une matrice $A$ est dite symétrique si $L = ^tL$. C&amp;rsquo;est à dire que $\forall i,j \in \dim{A}, A_{i,j} = A_{j,i}$.</description>
+Symétrique : Une matrice A est dite symétrique si $L = ^tL$. C&amp;rsquo;est à dire : $\forall i,j \in \dim{A}, A_{i,j} = A_{j,i}$.</description>
     </item>
     
     <item>

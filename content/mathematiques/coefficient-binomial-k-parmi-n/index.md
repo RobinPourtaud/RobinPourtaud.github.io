@@ -6,12 +6,11 @@ categories:
   - "denombrement"
   - "mathematiques"
 tags: 
-  - "coefficients-binomiaux"
+  - "Coefficients-Binomiaux"
+  - "Factoriel"
 description: "Cet article présente la notion de coefficient binomial, illustrée d'exemples et d'exercices corrigés. Un niveau de 1ère/Terminale est préférable pour pouvoir suivre cet article. Un rappel sur la notion de factoriel y sera explicité."
 ---
 ## Prérequis :
-
-
 
 La notion de factoriel est nécessaire pour pouvoir suivre cet article. Noté "!", le factoriel de n est le produit (usuellement) des entiers naturels de 1 à n. Autrement dit :
 
@@ -24,7 +23,7 @@ Pour prendre plusieurs exemples :
 
 Pour finir, prenez en compte que 0! = 1. Vous pouvez en savoir plus ici si vous êtes curieux :
 
-[Pourquoi 0 factoriel est égale à 1 ? - KeskeC](https://keskec.fr/sciences/mathematiques/robin/4272/)
+[Pourquoi 0 factoriel est égale à 1 ? - DevMath](/mathematiques/pourquoi-01/)
 
 ## Définition
 
@@ -42,9 +41,7 @@ Un ensemble de propriétés faisant intervenir les coefficients binomiaux est tr
 
 On retrouve ce coefficient un peu partout en dénombrement, probabilité ou statistique. Pour prendre un exemple, dans le cadre d'une succession d'épreuves de Bernoulli, le coefficient binomial est utilisé pour calculer le nombre de k succès parmi n épreuves.
 
-![](image-5.png)
-
-Succession de n épreuves de Bernoulli
+![Succession de n épreuves de Bernoulli](image-5.png)
 
 Visiblement, selon cette arborescence, il y a :
 
@@ -60,7 +57,7 @@ Soit un ensemble E = {a,b,c}.
 
 Calculons l'ensemble des parties de E :
 
-$\mathcal{P}(E) = \{\varnothing, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\}, \{a,b,c\}\}$.
+$\mathcal{P}(E) = \{\varnothing, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\}, \{a,b,c\}\}$
 
 Il y a :
 
@@ -69,7 +66,7 @@ Il y a :
 - 3 éléments à 2 éléments (0 parmi 3 = 3)
 - 1 élément à 3 éléments (0 parmi 3 = 1)
 
-Commentaire : L'ensemble des parties d'un ensemble E a pour cardinal $2^{\#E}$, ce qui correspond à la somme des cardinaux des parties à k éléments. Par exemple, nous avons bien pour cet exemple 1+3+3+1=2^3. Pour en savoir plus, [c'est ici](https://keskec.fr/sciences/mathematiques/robin/4073/).
+Commentaire : L'ensemble des parties d'un ensemble E a pour cardinal 2^#E, ce qui correspond à la somme des cardinaux des parties à k éléments. Par exemple, nous avons bien pour cet exemple 1+3+3+1=2^3. Pour en savoir plus, [c'est ici](https://keskec.fr/sciences/mathematiques/robin/4073/).
 
 ## Exercice corrigé
 
@@ -97,7 +94,9 @@ $\frac{n!}{k!(n-k)!} = \frac{52!}{3!(52-3)!} = \frac{52!}{6(49)!} = \frac{52\tim
 
 Il y a donc 22100 possibilités différentes.
 
-On veut obtenir une de ces possibilités parmi ces 22100, il y a donc une probabilité de réussite de $\frac{1}{22100}$. C'est à dire environ 0.004% de chance.
+On veut obtenir une de ces possibilités parmi ces 22100, il y a donc une probabilité de réussite de  : 
+$\frac{1}{22100}$ 
+C'est à dire environ 0.004% de chance.
 
 ## Sources :
 

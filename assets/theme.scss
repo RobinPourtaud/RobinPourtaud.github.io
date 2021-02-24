@@ -261,7 +261,7 @@ blockquote {
 
 article .figure {
 	flex-direction: column-reverse;
-	max-width:50%;
+	max-width:70%;
 	text-align:center;
 	cursor:pointer;
 	display: block;
@@ -286,6 +286,12 @@ article .figure {
 		word-wrap: break-word;
 		position: relative;
 		max-width: 100%; 
+	}
+	img{
+		min-height: 0%; 
+    	min-width: 0%; 
+    	width:auto;
+		height:auto; 
 	}
 }
 .post-it {
