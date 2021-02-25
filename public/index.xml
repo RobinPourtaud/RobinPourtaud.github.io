@@ -827,12 +827,25 @@ Parmi celles-ci, on retrouve:
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/informatique/a/</link>
+      <title>A propos de DevMath</title>
+      <link>http://localhost:1313/contact/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/a/</guid>
-      <description></description>
+      <guid>http://localhost:1313/contact/contact/</guid>
+      <description>A propos Qu&amp;rsquo;est ce que DevMath ? DevMath est mon site web personnel ! Je m&amp;rsquo;appelle Robin Pourtaud, je suis actuellement étudiant en Informatique. Passioné de math et d&amp;rsquo;informatique depuis le collège, j&amp;rsquo;ai
+J&amp;rsquo;ai décidé de créer ce site web partant d&amp;rsquo;un constat : Trouvé de l&amp;rsquo;aide sur des articles de mathématiques au collèges, c&amp;rsquo;est simple. Cependant, cette facillité n&amp;rsquo;est plus depuis le passage a des études supérieurs.
+C&amp;rsquo;est pourquoi j&amp;rsquo;ai crée DevMath !</description>
+    </item>
+    
+    <item>
+      <title>A propos de DevMath</title>
+      <link>http://localhost:1313/page/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/page/contact/</guid>
+      <description>A propos Qu&amp;rsquo;est ce que DevMath ? DevMath est mon site web personnel ! Je m&amp;rsquo;appelle Robin Pourtaud, je suis actuellement étudiant en Informatique. Passioné de math et d&amp;rsquo;informatique depuis le collège, j&amp;rsquo;ai
+J&amp;rsquo;ai décidé de créer ce site web partant d&amp;rsquo;un constat : Trouvé de l&amp;rsquo;aide sur des articles de mathématiques au collèges, c&amp;rsquo;est simple. Cependant, cette facillité n&amp;rsquo;est plus depuis le passage a des études supérieurs.
+C&amp;rsquo;est pourquoi j&amp;rsquo;ai crée DevMath !</description>
     </item>
     
     <item>
@@ -841,7 +854,27 @@ Parmi celles-ci, on retrouve:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/contact/</guid>
-      <description>A propos </description>
+      <description>A propos Qu&amp;rsquo;est ce que DevMath ? DevMath est mon site web personnel ! Je m&amp;rsquo;appelle Robin Pourtaud, je suis actuellement étudiant en Informatique. Passioné de math et d&amp;rsquo;informatique depuis le collège, j&amp;rsquo;ai
+J&amp;rsquo;ai décidé de créer ce site web partant d&amp;rsquo;un constat : Trouvé de l&amp;rsquo;aide sur des articles de mathématiques au collèges, c&amp;rsquo;est simple. Cependant, cette facillité n&amp;rsquo;est plus depuis le passage a des études supérieurs.
+C&amp;rsquo;est pourquoi j&amp;rsquo;ai crée DevMath !</description>
+    </item>
+    
+    <item>
+      <title>Confidentialité des données</title>
+      <link>http://localhost:1313/contact/confidentialite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/contact/confidentialite/</guid>
+      <description>Confidentialité des données </description>
+    </item>
+    
+    <item>
+      <title>Confidentialité des données</title>
+      <link>http://localhost:1313/page/confidentialite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/page/confidentialite/</guid>
+      <description>Confidentialité des données </description>
     </item>
     
     <item>
@@ -850,9 +883,7 @@ Parmi celles-ci, on retrouve:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/confidentialite/</guid>
-      <description>Qu&amp;rsquo;est ce que DevMath ? DevMath est mon site web personnel ! Je m&amp;rsquo;appelle Robin Pourtaud, je suis actuellement étudiant en Informatique. Passioné de math et d&amp;rsquo;informatique depuis le collège, j&amp;rsquo;ai
-J&amp;rsquo;ai décidé de créer ce site web partant d&amp;rsquo;un constat : Trouvé de l&amp;rsquo;aide sur des articles de mathématiques au collèges, c&amp;rsquo;est simple. Cependant, cette facillité n&amp;rsquo;est plus depuis le passage a des études supérieurs.
-C&amp;rsquo;est pourquoi j&amp;rsquo;ai crée DevMath !</description>
+      <description>Confidentialité des données </description>
     </item>
     
   </channel>

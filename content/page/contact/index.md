@@ -1,7 +1,8 @@
 +++
-title = "Confidentialité des données"
+title = "A propos de DevMath"
 +++
 
+# A propos
 ## Qu'est ce que DevMath ? 
 DevMath est mon site web personnel ! Je m'appelle Robin Pourtaud, je suis actuellement étudiant en Informatique. Passioné de math et d'informatique depuis le collège, j'ai 
 
@@ -17,6 +18,3 @@ Vous pouvez me contacter pour plusieurs raisons :
 - Me contacter pour tout autre raison : robin@devmath.fr
 
 Vous pouvez aussi me contacter sur [Github](https://github.com/RobinPourtaud) ou [Linkedin](https://www.linkedin.com/in/robinpourtaud/) ! 
-
-## Confidentialité des données
-
