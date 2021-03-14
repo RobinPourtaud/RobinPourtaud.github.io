@@ -318,7 +318,7 @@ Fonction trigonométrique : Soit x un réel quelconque (appartenant aux domaines
       <description>Prérequis : Il est bien sur nécessaire d&amp;rsquo;avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n&amp;rsquo;est pas le cas, je vous renvoie vers mon article :
  ISETL 3.0 sur Windows 10
 Liste de fonctions mathématiques ISETL : Soit $x$ et $y$, deux réels quelconques :
-Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rceil$floor(x)$\lfloor x \rfloor$ln(x)$\ln x$log(x)$\log x $max(x,y)$\max (x,y)$min(x,y)$\min (x,y)$sgn(x)$\left\{\begin{array}{rcr} 1 &amp;amp; si &amp;amp; x&amp;gt;0 \ 0 &amp;amp; si &amp;amp; x = 0 \ -1 &amp;amp; si &amp;amp; x&amp;lt;0 \ \end{array}\right.</description>
+Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rceil$floor(x)$\lfloor x \rfloor$ln(x)$\ln x$log(x)$\log x $max(x,y)$\max (x,y)$min(x,y)$\min (x,y)$sgn(x)$\left\\{\begin{array}{rcr} 1 &amp;amp; si &amp;amp; x&amp;gt;0 \ 0 &amp;amp; si &amp;amp; x = 0 \ -1 &amp;amp; si &amp;amp; x&amp;lt;0 \ \end{array}\right.</description>
     </item>
     
     <item>
@@ -332,7 +332,7 @@ Soit $f(i,j)$ l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à di
 Soit un seuil $s \in [0,255]$.
 Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction $g$ tel que :
 $
-g(i,j) = \left{
+g(i,j) = \left\{
 \begin{array}{ll}
 255 &amp;amp; \mbox{si } f(i,j) \leq s \</description>
     </item>

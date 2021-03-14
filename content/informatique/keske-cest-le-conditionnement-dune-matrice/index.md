@@ -55,7 +55,7 @@ On dira de la matrice $A$ qu'elle est "**mal conditionnée**".
 
 La fonction de conditionnement d’une matrice $A$ est $\kappa(A)=\Vert A \Vert \Vert A^{-1} \Vert $, $A$ ayant un déterminant différent de 0 et donc étant inversible. Prenons la norme infini :
 
-$\kappa(A)=\Vert A \Vert _\infty \Vert A^{-1} \Vert _\infty = \max_{\{1\le i \le n\}} \sum^n_{j=1}|A_{i,j}| \times \max_{\{1\le i \le n\}} \sum^n_{j=1}|A_{i,j}^{-1}|$ avec $n = \dim A$.
+$\kappa(A)=\Vert A \Vert _\infty \Vert A^{-1} \Vert _\infty = \max_{\\{1\le i \le n\\}} \sum^n_{j=1}|A_{i,j}| \times \max_{\\{1\le i \le n\\}} \sum^n_{j=1}|A_{i,j}^{-1}|$ avec $n = \dim A$.
 
 Dans cet exemple: $\kappa(A)=33 \times 136 = 4488$.
 

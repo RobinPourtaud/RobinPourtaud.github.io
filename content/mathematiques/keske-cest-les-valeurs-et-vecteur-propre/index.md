@@ -34,11 +34,11 @@ $\chi_A(\lambda) = \det \begin{bmatrix} \lambda - 7 & -2 \\ 4 & \lambda -1 \end{
 
 Les valeurs propres sont les racines du polynôme caractéristique. C'est à dire les solutions de $\ker \chi_A(\lambda)$.
 
-$(\lambda - 3)(\lambda - 5) = 0$ Admet 2 solutions: $\lambda_{1,2}=\{3,5\}$
+$(\lambda - 3)(\lambda - 5) = 0$ Admet 2 solutions: $\lambda_{1,2}=\\{3,5\\}$
 
 Le Spectre d'une matrice est l'ensembles de ses Valeurs Propres associées. Ainsi :
 
-$Sp(A)=\{3,5\}$
+$Sp(A)=\\{3,5\\}$
 
 ### Calcul des Vecteurs Propres
 
@@ -52,7 +52,7 @@ Soit un Vecteur $x = \begin{bmatrix} X \\ Y \end{bmatrix}$.
 
 $\begin{bmatrix} -4 & -2 \\ 4 & 2 \end{bmatrix}\begin{bmatrix} X \\ Y \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \Rightarrow 2X+Y = 0 \Rightarrow Y=-2X \Rightarrow \begin{bmatrix} X \\ Y \end{bmatrix} = X \begin{bmatrix} 1 \\ -2 \end{bmatrix}$
 
-$\ker(3I - A) = Vect\{\begin{bmatrix} 1 \\ -2 \end{bmatrix}\}$
+$\ker(3I - A) = Vect\\{\begin{bmatrix} 1 \\ -2 \end{bmatrix}\\}$
 
 Un vecteur propre associé à $\lambda = 3$ est donc $\begin{bmatrix} 1 \\ -2 \end{bmatrix}$.
 

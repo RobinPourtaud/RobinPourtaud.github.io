@@ -189,7 +189,7 @@ En utilisant ce tableau, nous pouvons voir qu&amp;rsquo;un angle de $\frac{\pi}{
       
       <guid>http://localhost:1313/mathematiques/formule-de-sylvester/</guid>
       <description>Identité : La formule de Sylvester est la suivante :
-$#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i\right)$
+$#\left(\bigcup_{i\in \{1 \ldots n \}}A_i \right)=\sum_{I \in({2^{\{1 \dots n\}}\backslash\{\emptyset\})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i\right)$
 Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :
  Formule du crible - Wikiversity
 En savoir plus - sources :   Inclusion–exclusion principle for belief functions  Prepacom.net Dénombrer  Formule du crible - Wikiversity  formule du crible de Da Silva et Sylvester - les-mathematiques.</description>
@@ -240,8 +240,8 @@ Pour lister tous les ports ouverts pour une adresse ip ou domaine donné, je vou
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/mathematiques/pourquoi-01/</guid>
-      <description>Définition : &amp;ldquo;Factoriel&amp;rdquo; En dénombrement, le factoriel d&amp;rsquo;un entier naturel &amp;ldquo;n&amp;rdquo; est égal au produit des entiers naturels appartenant à $]0;n]$. Autrement dit :
-$ n! = \prod^n_{i=1} i = 1 \times 2 \times \ldots \times (n-1) \times n$
+      <description>Définition : &amp;ldquo;Factoriel&amp;rdquo; En dénombrement, le factoriel d&amp;rsquo;un entier naturel &amp;ldquo;n&amp;rdquo; est égal au produit des entiers naturels appartenant à $]0,n]$. Autrement dit :
+$n! = \prod^n_{i=1} i = 1 \times 2 \times \ldots \times (n-1) \times n$
 Pourquoi 0! est égal à 1 ? Depuis la définition du factoriel Repartons de la définition :
 $n! = 1 \times \ldots \times (n-1) \times n!$
 Autrement dit $n! = n \times (n-1)!</description>
@@ -268,10 +268,10 @@ Dans la colonne signe, nous alternons le signe positif et négatif.</description
       
       <guid>http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
       <description>Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
-$\sum_{k=0}^n {n \choose k}= 2^n$
+$$\sum_{k=0}^n {n \choose k}= 2^n$$
 Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe. Elle s&amp;rsquo;appuiera sur la formule du binôme de Newton :
 $\sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n$
-Si nous prenons $x = 1$ et $y=1$, alors obtenons l&amp;rsquo;égalité :
+Si nous prenons $x=1$ et $y=1$, alors obtenons l&amp;rsquo;égalité :
 $\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$</description>
     </item>
     
@@ -494,7 +494,7 @@ Fonction trigonométrique : Soit x un réel quelconque (appartenant aux domaines
       <description>Prérequis : Il est bien sur nécessaire d&amp;rsquo;avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n&amp;rsquo;est pas le cas, je vous renvoie vers mon article :
  ISETL 3.0 sur Windows 10
 Liste de fonctions mathématiques ISETL : Soit $x$ et $y$, deux réels quelconques :
-Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rceil$floor(x)$\lfloor x \rfloor$ln(x)$\ln x$log(x)$\log x $max(x,y)$\max (x,y)$min(x,y)$\min (x,y)$sgn(x)$\left\{\begin{array}{rcr} 1 &amp;amp; si &amp;amp; x&amp;gt;0 \ 0 &amp;amp; si &amp;amp; x = 0 \ -1 &amp;amp; si &amp;amp; x&amp;lt;0 \ \end{array}\right.</description>
+Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rceil$floor(x)$\lfloor x \rfloor$ln(x)$\ln x$log(x)$\log x $max(x,y)$\max (x,y)$min(x,y)$\min (x,y)$sgn(x)$\left\\{\begin{array}{rcr} 1 &amp;amp; si &amp;amp; x&amp;gt;0 \ 0 &amp;amp; si &amp;amp; x = 0 \ -1 &amp;amp; si &amp;amp; x&amp;lt;0 \ \end{array}\right.</description>
     </item>
     
     <item>
@@ -508,7 +508,7 @@ Soit $f(i,j)$ l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à di
 Soit un seuil $s \in [0,255]$.
 Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction $g$ tel que :
 $
-g(i,j) = \left{
+g(i,j) = \left\{
 \begin{array}{ll}
 255 &amp;amp; \mbox{si } f(i,j) \leq s \</description>
     </item>
@@ -827,14 +827,14 @@ Parmi celles-ci, on retrouve:
     </item>
     
     <item>
-      <title>A propos de DevMath</title>
-      <link>http://localhost:1313/contact/contact/</link>
+      <title></title>
+      <link>http://localhost:1313/informatique/a/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/contact/contact/</guid>
-      <description>A propos Qu&amp;rsquo;est ce que DevMath ? DevMath est mon site web personnel ! Je m&amp;rsquo;appelle Robin Pourtaud, je suis actuellement étudiant en Informatique. Passioné de math et d&amp;rsquo;informatique depuis le collège, j&amp;rsquo;ai
-J&amp;rsquo;ai décidé de créer ce site web partant d&amp;rsquo;un constat : Trouvé de l&amp;rsquo;aide sur des articles de mathématiques au collèges, c&amp;rsquo;est simple. Cependant, cette facillité n&amp;rsquo;est plus depuis le passage a des études supérieurs.
-C&amp;rsquo;est pourquoi j&amp;rsquo;ai crée DevMath !</description>
+      <guid>http://localhost:1313/informatique/a/</guid>
+      <description>Titre machin
+$\sum$
+   a b     a b   c d   a     aaaa</description>
     </item>
     
     <item>
@@ -849,40 +849,11 @@ C&amp;rsquo;est pourquoi j&amp;rsquo;ai crée DevMath !</description>
     </item>
     
     <item>
-      <title>A propos de DevMath</title>
-      <link>http://localhost:1313/pages/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/pages/contact/</guid>
-      <description>A propos Qu&amp;rsquo;est ce que DevMath ? DevMath est mon site web personnel ! Je m&amp;rsquo;appelle Robin Pourtaud, je suis actuellement étudiant en Informatique. Passioné de math et d&amp;rsquo;informatique depuis le collège, j&amp;rsquo;ai
-J&amp;rsquo;ai décidé de créer ce site web partant d&amp;rsquo;un constat : Trouvé de l&amp;rsquo;aide sur des articles de mathématiques au collèges, c&amp;rsquo;est simple. Cependant, cette facillité n&amp;rsquo;est plus depuis le passage a des études supérieurs.
-C&amp;rsquo;est pourquoi j&amp;rsquo;ai crée DevMath !</description>
-    </item>
-    
-    <item>
-      <title>Confidentialité des données</title>
-      <link>http://localhost:1313/contact/confidentialite/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/contact/confidentialite/</guid>
-      <description>Confidentialité des données </description>
-    </item>
-    
-    <item>
       <title>Confidentialité des données</title>
       <link>http://localhost:1313/page/confidentialite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/page/confidentialite/</guid>
-      <description>Confidentialité des données </description>
-    </item>
-    
-    <item>
-      <title>Confidentialité des données</title>
-      <link>http://localhost:1313/pages/confidentialite/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/pages/confidentialite/</guid>
       <description>Confidentialité des données </description>
     </item>
     

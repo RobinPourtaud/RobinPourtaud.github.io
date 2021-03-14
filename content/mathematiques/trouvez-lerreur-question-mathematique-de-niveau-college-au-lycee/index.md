@@ -54,7 +54,7 @@ Un niveau de première **n'est pas** requis pour **résoudre** l'équation ci-de
 2. $x+1 = 3 \times (x^2 - 1)$
 3. $3x^2-x-4 = 0$ <-Formule de résolution des équations de second degré
 4. $x_{1,2} = \frac{1\pm\sqrt{49}}{6}$
-5. $x_{1,2}=\{-1,\frac{4}{3}\}$
+5. $x_{1,2}=\\{-1,\frac{4}{3}\\}$
 
 Un détail ne vous chagrine pas?
 
@@ -88,7 +88,7 @@ $a=b$ donc $a-b=0$. Or, on ne peut pas diviser par 0 ! Erreur à la ligne 5
 
 ### Niveau 2 :
 
-Pour rappel : $\sqrt{9} = 3$ mais aussi $\sqrt{9}=-3$ ! Erreur donc à la ligne 1 et la ligne 5. $b=\{3,-3\}$
+Pour rappel : $\sqrt{9} = 3$ mais aussi $\sqrt{9}=-3$ ! Erreur donc à la ligne 1 et la ligne 5. $b=\\{3,-3\\}$
 
 ### Niveau 3 :
 

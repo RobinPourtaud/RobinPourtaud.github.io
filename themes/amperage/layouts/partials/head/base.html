@@ -3,6 +3,7 @@
 <title>{{ .Title }}</title>
 {{- partial "head/language-metas.html" . -}}
 {{- partial "head/pagination-metas.html" . -}}
+
 <meta name="description" content="{{if .IsHome}}{{ .Site.Params.Description }}{{else}}{{.Description}}{{end}}" />
 <link rel="canonical" href="{{ .Permalink }}" >
 <link rel="sitemap" href="{{ "sitemap.xml" | absURL }}" type="application/xml" />

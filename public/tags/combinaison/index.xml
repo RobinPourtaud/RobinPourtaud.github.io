@@ -14,10 +14,10 @@
       
       <guid>http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
       <description>Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
-$\sum_{k=0}^n {n \choose k}= 2^n$
+$$\sum_{k=0}^n {n \choose k}= 2^n$$
 Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe. Elle s&amp;rsquo;appuiera sur la formule du binôme de Newton :
 $\sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n$
-Si nous prenons $x = 1$ et $y=1$, alors obtenons l&amp;rsquo;égalité :
+Si nous prenons $x=1$ et $y=1$, alors obtenons l&amp;rsquo;égalité :
 $\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$</description>
     </item>
     

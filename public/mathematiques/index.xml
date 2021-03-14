@@ -41,7 +41,7 @@ En utilisant ce tableau, nous pouvons voir qu&amp;rsquo;un angle de $\frac{\pi}{
       
       <guid>http://localhost:1313/mathematiques/formule-de-sylvester/</guid>
       <description>Identité : La formule de Sylvester est la suivante :
-$#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i\right)$
+$#\left(\bigcup_{i\in \{1 \ldots n \}}A_i \right)=\sum_{I \in({2^{\{1 \dots n\}}\backslash\{\emptyset\})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i\right)$
 Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :
  Formule du crible - Wikiversity
 En savoir plus - sources :   Inclusion–exclusion principle for belief functions  Prepacom.net Dénombrer  Formule du crible - Wikiversity  formule du crible de Da Silva et Sylvester - les-mathematiques.</description>
@@ -106,10 +106,10 @@ Dans la colonne signe, nous alternons le signe positif et négatif.</description
       
       <guid>http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
       <description>Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
-$\sum_{k=0}^n {n \choose k}= 2^n$
+$$\sum_{k=0}^n {n \choose k}= 2^n$$
 Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe. Elle s&amp;rsquo;appuiera sur la formule du binôme de Newton :
 $\sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n$
-Si nous prenons $x = 1$ et $y=1$, alors obtenons l&amp;rsquo;égalité :
+Si nous prenons $x=1$ et $y=1$, alors obtenons l&amp;rsquo;égalité :
 $\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$</description>
     </item>
     

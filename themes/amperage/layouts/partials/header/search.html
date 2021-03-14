@@ -7,6 +7,7 @@
     class="header__search"
     {{ if .IsPage }}next-page-hide{{ end }}>
     <input class="header__search__input" type="text" placeholder="{{ i18n "search"}}" aria-label="{{ i18n "search"}}">
+    <amp-img class="header__search__icon" width="30" height="30"  src="{{ `/icons/search.svg` | absURL }}"></amp-img>
     <template class="header__search__item-template" type="amp-mustache" id="amp-template-custom">
         <div class="search-item" data-value="{{ `{{url}}` }}">
             <small class="search-item__date">{{ `{{date}}` }}</small> <br>

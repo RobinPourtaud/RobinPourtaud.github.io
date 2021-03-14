@@ -22,7 +22,7 @@ Il est bien sur nécessaire d'avoir accès à un interpréteur ISETL sur votre o
 
 Soit $x$ et $y$, deux réels quelconques :
 
-<table><tbody><tr><td><strong>Fonction ISETL</strong></td><td><strong>Fonction mathématiques</strong></td></tr><tr><td>abs(x)</td><td>$|x|$</td></tr><tr><td>exp(x)</td><td>$e^x$</td></tr><tr><td>ceil(x)</td><td>$\lceil x \rceil$</td></tr><tr><td>floor(x)</td><td>$\lfloor x \rfloor$</td></tr><tr><td>ln(x)</td><td>$\ln x$</td></tr><tr><td>log(x)</td><td>$\log x $</td></tr><tr><td>max(x,y)</td><td>$\max (x,y)$</td></tr><tr><td>min(x,y)</td><td>$\min (x,y)$</td></tr><tr><td>sgn(x)</td><td>$\left\{\begin{array}{rcr} 1 &amp; si &amp; x&gt;0 \ 0 &amp; si &amp; x = 0 \ -1 &amp; si &amp; x&lt;0 \ \end{array}\right.$</td></tr><tr><td>sqrt(x)</td><td>$\sqrt{x} $</td></tr></tbody></table>
+<table><tbody><tr><td><strong>Fonction ISETL</strong></td><td><strong>Fonction mathématiques</strong></td></tr><tr><td>abs(x)</td><td>$|x|$</td></tr><tr><td>exp(x)</td><td>$e^x$</td></tr><tr><td>ceil(x)</td><td>$\lceil x \rceil$</td></tr><tr><td>floor(x)</td><td>$\lfloor x \rfloor$</td></tr><tr><td>ln(x)</td><td>$\ln x$</td></tr><tr><td>log(x)</td><td>$\log x $</td></tr><tr><td>max(x,y)</td><td>$\max (x,y)$</td></tr><tr><td>min(x,y)</td><td>$\min (x,y)$</td></tr><tr><td>sgn(x)</td><td>$\left\\{\begin{array}{rcr} 1 &amp; si &amp; x&gt;0 \ 0 &amp; si &amp; x = 0 \ -1 &amp; si &amp; x&lt;0 \ \end{array}\right.$</td></tr><tr><td>sqrt(x)</td><td>$\sqrt{x} $</td></tr></tbody></table>
 
 Fonctions Mathématiques ISETL
 
@@ -34,10 +34,10 @@ Fonction Mathématique en ISETL
 
 Un ensemble fini ne possède pas une notation unique :
 
-- Sans relation d'ordre : $\{-6,-5\}=\{-5,-6\}$.
-- La répétition d'éléments entre les accolades ne modifie pas non plus l'ensemble : $\{-5,-5\}=\{-5\}$.
+- Sans relation d'ordre : $\\{-6,-5\\}=\\{-5,-6\\}$.
+- La répétition d'éléments entre les accolades ne modifie pas non plus l'ensemble : $\\{-5,-5\\}=\\{-5\\}$.
 
-C'est pourquoi, dans l'exemple ci-dessus, $E = \{-1,0,1\}$ et non $\{-1,-1,0,1\}$.
+C'est pourquoi, dans l'exemple ci-dessus, $E = \\{-1,0,1\\}$ et non $\\{-1,-1,0,1\\}$.
 
 ## Fonction Trigonométriques et Hyperboliques
 

@@ -11,11 +11,9 @@ description: "Cet article présente 2 démonstrations de l'égalité : somme des
 ---
 ## Définition :
 
-
-
 La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
 
-$\sum_{k=0}^n {n \choose k}= 2^n$
+$$\sum_{k=0}^n {n \choose k}= 2^n$$
 
 ## Démonstrations :
 
@@ -25,7 +23,7 @@ Cette première démonstration est la plus rapide et directe. Elle s'appuiera su
 
 $\sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n$
 
-Si nous prenons $x = 1$ et $y=1$, alors obtenons l'égalité :
+Si nous prenons $x=1$ et $y=1$, alors obtenons l'égalité :
 
 $\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$
 
@@ -41,8 +39,8 @@ Soit un ensemble E de cardinal n, alors l'ensemble ayant pour éléments tous le
 
 **Par exemple :** 
 
-Soit $E = \{a,b,c\}$, alors :
-$n = \#E = 3$ et $\mathcal{P}(E) = \{\emptyset, \{a\}, \{b\}, \{c\}, \{a,b\}, \{a,c\}, \{b,c\}, \{a,b,c\}\}$.
+Soit $E=\\{a,b,c\\}$, alors :
+$n = \#E = 3$ et $\mathcal{P}(E)=\\\{\emptyset,\\\{a\\\},\\\{b\\\},\\\{c\\\},\\\{a,b\\\},\\\{a,c\\\},\\\{b,c\\\},\\\{a,b,c\\\}\\\}$.
 
 L'ensemble des parties est constitué **par définition** d'1 partie à 0 élément, de n parties à 1 élément et ainsi de $ n \choose k$ parties à $k$ éléments...
 

@@ -50,12 +50,12 @@ Pour afficher une accolade verticale sur le coté gauche d'un texte, il suffit d
 **Code LaTeX :**
 
 ```
-\left\{ 1+1=2
+\left\\{ 1+1=2
 ```
 
 **Rendu :**
 
-$\left\{ 1+1=2$
+$\left\\{ 1+1=2$
 
 Pour une accolade à droite, il existe la commande \right.
 
@@ -66,7 +66,7 @@ Pour une accolade à droite, il existe la commande \right.
 **Code LaTeX :**
 
 ```
-\left\{
+\left\\{
 \begin{array}{rcr}
 4x + 8y & = & 54 \
 2x + 7y & = & 39 \
@@ -76,7 +76,7 @@ Pour une accolade à droite, il existe la commande \right.
 
 **Rendu :**
 
-$\left\{  
+$\left\\{  
 \begin{array}{rcr}  
 4x + 8y & = & 54 \\  
 2x + 7y & = & 39 \\  
@@ -89,7 +89,7 @@ $
 **Code LaTeX :**
 
 ```
-g(i,j) = \left\{
+g(i,j) = \left\\{
 \begin{array}{ll}
 \ 255 & \mbox{si } f(i,j) \leq s \
 \ 0 & \mbox{sinon} 
@@ -100,7 +100,7 @@ g(i,j) = \left\{
 **Rendu :**
 
 $  
-g(i,j) = \left\{  
+g(i,j) = \left\\{  
 \begin{array}{ll}  
 \255 & \mbox{si } f(i,j) \leq s \  
 \0 & \mbox{sinon.}  

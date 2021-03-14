@@ -1,0 +1,7 @@
+{{ $first :=replaceRE "\\$\\$(.*?)\\$\\$" "<amp-img class=\"formula\" alt=\"$1\" src=\"https://render.githubusercontent.com/render/math?math=$1\" layout=\"fixed-height\" height=\"14px\"><amp-img alt=\"$1\" fallback layout=\"fixed-height\" height=\"14px\" src=\"https://latex.codecogs.com/svg.latex?$1\"></amp-img></amp-img>" .Content }}
+	{{ $second :=replaceRE "\\$(.*?)\\$" "<amp-img class=\"formula-inline\" alt=\"$1\" src=\"https://render.githubusercontent.com/render/math?math=$1\" layout=\"fixed-height\" height=\"14px\"><amp-img alt=\"$1\" fallback layout=\"fixed-height\" height=\"14px\" src=\"https://latex.codecogs.com/svg.latex?$1\"></amp-img></amp-img>" $first }}
+
+	{{ $third := replaceRE "\\#" "\\%23" $second}}
+	{{ $sixth := replaceRE "\\+" "%2B" $third}}
+	{{ $seventh := replaceRE "&amp;" "%26" $sixth}}
+	{{ $seventh | safeHTML}}

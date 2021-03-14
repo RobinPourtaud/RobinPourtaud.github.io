@@ -12,9 +12,9 @@ description: "3 factoriel est égal à 1 fois 2 fois 3, 2 factoriel est égal à
 
 
 
-En dénombrement, le factoriel d'un entier naturel "n" est égal au produit des entiers naturels appartenant à $\]0;n\]$. Autrement dit :
+En dénombrement, le factoriel d'un entier naturel "n" est égal au produit des entiers naturels appartenant à $]0,n]$. Autrement dit :
 
-$ n! = \prod^n_{i=1} i = 1 \times 2 \times \ldots \times (n-1) \times n$
+$n! = \prod^n_{i=1} i = 1 \times 2 \times \ldots \times (n-1) \times n$
 
 ## Pourquoi 0! est égal à 1 ?
 
@@ -36,13 +36,9 @@ $ (1-1) ! = \frac{1!}{1} = 0! = 1$
 
 ### Depuis la fonction Gamma
 
- On sait que :
+On sait que : $\forall n \in \mathbb{N}^\* : \Gamma(n) = (n–1)!=\int_0^{+\infty} t^{n-1} \times e^{-t}dt$
 
-$\forall n \in \mathbb{N}^\* : \Gamma(n) = (n–1)!=\int_0^{+\infty} t^{n-1} \times e^{-t}dt$
-
-Ce qui nous donne :
-
-$0! = (1-1)! = \Gamma(1) = \int_0^{+\infty} t^{1-1} e^{-t} dt$
+Ce qui nous donne : $0! = (1-1)! = \Gamma(1) = \int_0^{+\infty} t^{1-1} e^{-t} dt$
 
 Ou tout simplement : $ \int_0^{+\infty}e^{-t}dt$.
 
@@ -56,17 +52,17 @@ $0! = (\lim_{t\to\infty} -e^{-t}) - (-e^0) = 0 + 1 = 1$.
 
 En pratique, on peut utiliser le factoriel pour, par exemple, calculer le nombre de permutations d'un ensemble :
 
-Si un ensemble $E = \{0,1\}$, alors cet ensemble peut être permuté $\#E$ fois (2 fois).
+Si un ensemble $E = \\{0,1\\}$, alors cet ensemble peut être permuté $\#E$ fois (2 fois).
 
-L'ensemble des permutations est donc : $\{(0,1),(1,0)\}$.
+L'ensemble des permutations est donc : $\\{(0,1),(1,0)\\}$.
 
-Si un ensemble $E = \{0,1,2\}$, alors cet ensemble peut être permuté 6 fois :
+Si un ensemble $E = \\{0,1,2\\}$, alors cet ensemble peut être permuté 6 fois :
 
- Son ensemble de permutations étant $\{(0, 1, 2), (0, 2, 1), (1, 0, 2), (1, 2, 0), (2, 0, 1), (2, 1, 0)\}$.
+ Son ensemble de permutations étant $\\{(0, 1, 2), (0, 2, 1), (1, 0, 2), (1, 2, 0), (2, 0, 1), (2, 1, 0)\\}$.
 
 Donc, si un ensemble $E = \emptyset $, alors son cardinal est 0 et peut être permuté 1 fois. "Il existe une seule possibilité pour permuter 0 élément".
 
-L'ensemble de ses permutations étant $\{\emptyset\}$.
+L'ensemble de ses permutations étant $\\{\emptyset\\}$.
 
 ## Sources
 

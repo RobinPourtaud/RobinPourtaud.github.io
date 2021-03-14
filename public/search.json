@@ -259,27 +259,15 @@
             "url": "http://localhost:1313/informatique/keske-cest-wsl2/",
             "date": "11 Avril 2020"
         },{
-            "title": "A propos de DevMath",
-            "url": "http://localhost:1313/contact/contact/",
+            "title": "",
+            "url": "http://localhost:1313/informatique/a/",
             "date": "1 Janvier 1"
         },{
             "title": "A propos de DevMath",
             "url": "http://localhost:1313/page/contact/",
             "date": "1 Janvier 1"
         },{
-            "title": "A propos de DevMath",
-            "url": "http://localhost:1313/pages/contact/",
-            "date": "1 Janvier 1"
-        },{
-            "title": "Confidentialité des données",
-            "url": "http://localhost:1313/contact/confidentialite/",
-            "date": "1 Janvier 1"
-        },{
             "title": "Confidentialité des données",
             "url": "http://localhost:1313/page/confidentialite/",
-            "date": "1 Janvier 1"
-        },{
-            "title": "Confidentialité des données",
-            "url": "http://localhost:1313/pages/confidentialite/",
             "date": "1 Janvier 1"
         }]}

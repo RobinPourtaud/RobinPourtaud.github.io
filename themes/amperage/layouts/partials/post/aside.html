@@ -10,7 +10,7 @@
     </time>
     <div class="aside__title">Auteur</div>
     {{ with .Site.Params.Author }}{{ .name }} {{ end }}
-    <div class="aside__title">Tags :</div>
+    <div class="aside__title">Tags</div>
     {{ $taxonomy := "tags" }}
         <ul id="{{ $taxonomy }}">
             {{ range .Page.Param $taxonomy }}

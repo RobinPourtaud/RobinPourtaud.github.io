@@ -1,19 +1,15 @@
 {{ define "main" }}
-<article class="content">
-	<h1>{{ .Title }}</h1>
-	{{- partial "post/under-title.html" . -}}
-	<p class="description">{{ .Description }}</p>
-	{{- partial "post/toc.html" . -}}
-	
-	{{ $first :=replaceRE "\\$(.*?)\\$" "<amp-img class=\"formula\" alt=\"$1\" src=\"https://latex.codecogs.com/svg.latex?$1\" layout=\"fixed-height\" height=\"14px\"><amp-img alt=\"$1\" fallback layout=\"fixed-height\" height=\"14px\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICAgIHdpZHRoPSIxMDBweCIgaGVpZ2h0PSIzMHB4IiB2aWV3Qm94PSIwIDAgMTAwMCAzMDAiPgoKICA8dGV4dCB4PSIyNTAiIHk9IjE1MCIKICAgICAgICBmb250LWZhbWlseT0iVmVyZGFuYSIKICAgICAgICBmb250LXNpemU9IjU1Ij4KICAgIDQwNAogIDwvdGV4dD4KICA8cmVjdCB4PSIxIiB5PSIxIiB3aWR0aD0iOTk4IiBoZWlnaHQ9IjI5OCIKICAgICAgICBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjIiIC8+Cjwvc3ZnPg==\"></amp-img></amp-img>" .Content | safeHTML}}
-	{{ $second := replaceRE "\\#" "\\%23" $first}}
-	{{ $third := replaceRE "&amp;" "%26 " $second}}
-	{{ $forth := replaceRE "\\\\ " " \\\\" $third}}
-	{{ $forth | safeHTML}}
-	{{- partial "post/more.html" . -}}
-	{{- partial "post/sources.html" . -}}
-	{{- partial "post/author.html" . -}}
-	{{- partial "post/comments.html" . -}}
-</article>
-{{- partial "post/aside.html" . -}}
+<div class="single">
+	<article class="content">
+		<h1>{{ .Title }}</h1>
+		{{- partial "post/under-title.html" . -}}
+		<p class="description">{{ .Description }}</p>
+		{{- partial "post/toc.html" . -}}
+		{{- partial "post/content.html" . -}}
+		{{- partial "post/more.html" . -}}
+		{{- partial "post/author.html" . -}}
+		{{- partial "post/comments.html" . -}}
+	</article>
+	{{- partial "post/aside.html" . -}}
+</div>
 {{ end }}

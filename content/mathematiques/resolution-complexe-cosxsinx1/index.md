@@ -66,7 +66,7 @@ Prenons maintenant $y = \frac{-1}{2}ie^{2ix}$.
 
 Cela nous revient à résoudre le système :
 
-$\left\{ \begin{array}{rcr}  
+$\left\\{ \begin{array}{rcr}  
 \frac{-1}{2}ie^{2ix} & = & y \\  
 \frac{1}{4y}+y & = &2 \\  
 \end{array} \right.$
