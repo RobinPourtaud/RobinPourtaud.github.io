@@ -52,8 +52,8 @@ amp-next-page {
 	height: 70px;
 	padding: 10px 20% 10px 20%;
 	top: 0px;
-	background-color:#273444;
-	
+	background-color:#fff;
+	box-shadow: 0 15px 10px -15px #1e204b2b;
 	
 	&__title {
 		float:left;
@@ -64,10 +64,10 @@ amp-next-page {
 		overflow: auto;
 		justify-content: space-between;
 		&__text {
-			color:white;
+			color:#147480;
 			font-weight:bolder;
 			letter-spacing: 1px;
-			margin-left: 40px;
+			margin-left: 50px;
 			font-size: 1.3em;
 			white-space: nowrap;
 			&:hover {
@@ -94,19 +94,20 @@ amp-next-page {
 		z-index:4;
 		display:block;
 		padding:10px;
-		color:white;
+		color:#757575;
 		background-color:transparent;
 		height:50px;
         border:0px;
         transition: .9s ease;
-		& :focus{
-			border-bottom:white solid 1px;
+		& :cheked{
+			border-bottom:757575 solid 1px;
 			transition: 1s;
 			width: 80%;
 			max-width: 333px;
 			outline:none;
 			width:auto;
 		}
+		
 		&__input {
 			width:10px;
 			font-size: 1.2em;
@@ -119,10 +120,15 @@ amp-next-page {
 			overflow:hidden;
 			position:relative;
 			float:left;
+			color:white;
+			&::placeholder{
+				color:white;
+			}
 		}
 		&__icon{
 			float:right;
 			position:relative;
+			cursor: pointer;
 		}
 		.search-item {
 			width:300px;
@@ -201,7 +207,7 @@ amp-next-page {
 	}
 }
 h1 {
-	font-size: 48px;
+	font-size: 40px;
     line-height: 58px;
     color: #333;
     margin: 0;
@@ -292,11 +298,6 @@ article .figure {
 		display: flex;
 		border-top: none;
 	}
-	&__image {
-		&--with-caption {
-			min-width: 70%;
-		}
-	}
 	&__caption {
 		background-color: #333;
 		color: white;
@@ -312,6 +313,24 @@ article .figure {
     	min-width: 0%; 
     	width:auto;
 		height:auto; 
+	}
+	img[src$='#t1']{
+		width:40px;
+	}
+	img[src$='#t2']{
+		width:100px;
+	}
+	img[src$='#t3']{
+		width:300px;
+	}
+	img[src$='#t4']{
+		width:500px;
+	}
+	img[src$='#t5']{
+		width:700px;
+	}
+	img[src$='#t6']{
+		width:900px;
 	}
 }
 .post-it {
@@ -406,7 +425,7 @@ article .figure {
 	background-color:#f9fafc;
 	padding: 20px;
 	&__title{
-		border-top:#666 solid 2px;
+		border-top: #e8e8e8 solid 2px;
 		margin-top: 20px;
 		text-transform: uppercase;
     	font-size: 12px;
@@ -415,14 +434,33 @@ article .figure {
 	}
 	&__share{
 		text-align:center;
-		
+		margin-top:10px;
 	}
 	& .summary{
 		width:100%;
 		margin:0px;
 		display:block;
 		&__top{
-			width:100px;
+			width: auto;
+			height:auto;
+			&__tags{
+				width:260px;
+				font-size:10px;
+				padding: 110px 15px 10px 80px;
+			}
+			&__image{
+				height:auto;
+			}
+			&__title{
+				width:260px;
+				font-size: 16px;
+			}
+		}
+		&__bottom{
+			&__desc{
+				height:83px;
+				overflow:hidden;
+			}
 		}
 		&__list{
 			display:initial;
@@ -641,7 +679,6 @@ article .figure {
 
 .formula-inline {
 overflow:visible!important;
-margin:20px;
 vertical-align: middle; 
 display:inline-block;
 position:relative;

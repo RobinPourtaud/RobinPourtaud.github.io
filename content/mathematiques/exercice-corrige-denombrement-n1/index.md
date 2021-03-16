@@ -63,9 +63,9 @@ $\#(M\cap V \cap B) = \#(M \cup V \cup B) - \#M - \#V - \#B + \#(M\cap V) + \#(M
 
 En utilisant une fois de plus la formule de Poincaré et une fois une loi de De Morgan :
 
-$= \#\Omega - \#M - \#V - \#B + (\#M + \#V - \#(M\cup V)) + \#(M\cap B) + (\#\Omega - #(\overline{V}\cup \overline{B}))$
+$= \#\Omega - \#M - \#V - \#B + (\#M + \#V - \#(M\cup V)) + \#(M\cap B) + (\#\Omega - \#(\overline{V}\cup \overline{B}))$
 
-$= 2 \times \#\Omega - \#B - \#(M\cup V)+ \#(M\cap B) - #(\overline{V}\cup \overline{B})$
+$= 2 \times \#\Omega - \#B - \#(M\cup V)+ \#(M\cap B) - \#(\overline{V}\cup \overline{B})$
 
 Ainsi :
 

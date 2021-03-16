@@ -1,7 +1,15 @@
-{{ $first :=replaceRE "\\$\\$(.*?)\\$\\$" "<amp-img class=\"formula\" alt=\"$1\" src=\"https://render.githubusercontent.com/render/math?math=$1\" layout=\"fixed-height\" height=\"14px\"><amp-img alt=\"$1\" fallback layout=\"fixed-height\" height=\"14px\" src=\"https://latex.codecogs.com/svg.latex?$1\"></amp-img></amp-img>" .Content }}
-	{{ $second :=replaceRE "\\$(.*?)\\$" "<amp-img class=\"formula-inline\" alt=\"$1\" src=\"https://render.githubusercontent.com/render/math?math=$1\" layout=\"fixed-height\" height=\"14px\"><amp-img alt=\"$1\" fallback layout=\"fixed-height\" height=\"14px\" src=\"https://latex.codecogs.com/svg.latex?$1\"></amp-img></amp-img>" $first }}
+{{ $first :=replaceRE "\\$\\$(.*?)\\$\\$" "<amp-img class=\"inline-formula\" alt=\"$1\" src=\"/latex-svg/$1.svg\" layout=\"fixed-height\" height=\"20\"></amp-img>"  .Content }}
+{{ $second :=replaceRE "\\$(.*?)\\$" "<amp-img src=\"/latex-svg/$1.svg\" height=\"20\" layout=\"fixed-height\" alt=\"$1\" class=\"inline-formula\" ><img decoding=\"async\" alt=\"$1\" src=\"/latex-svg/$1.svg\" height=\"20\" class=\"i-amphtml-fill-content i-amphtml-replaced-content\"></amp-img>" $first }}
+{{ $third :=replaceRE "\\\\" "" $second}}
 
-	{{ $third := replaceRE "\\#" "\\%23" $second}}
-	{{ $sixth := replaceRE "\\+" "%2B" $third}}
-	{{ $seventh := replaceRE "&amp;" "%26" $sixth}}
-	{{ $seventh | safeHTML}}
+
+
+{{ $foo := $third }}
+{{ $regexp := "/latex-svg/(.*?)\\.svg" }}
+{{ $matches := findRE $regexp $foo }}
+{{ range $matches }}
+{{ $m := md5 .}}
+{{ $t := print "/latex-svg/" $m ".svg"}}
+   {{ $foo = replace $foo . $t }}
+{{ end }}
+{{ $foo | safeHTML }}

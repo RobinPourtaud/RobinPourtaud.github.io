@@ -41,7 +41,7 @@ Un ensemble de propriétés faisant intervenir les coefficients binomiaux est tr
 
 On retrouve ce coefficient un peu partout en dénombrement, probabilité ou statistique. Pour prendre un exemple, dans le cadre d'une succession d'épreuves de Bernoulli, le coefficient binomial est utilisé pour calculer le nombre de k succès parmi n épreuves.
 
-![Succession de n épreuves de Bernoulli](image-5.png)
+![Succession de n épreuves de Bernoulli](image-5.png#t3)
 
 Visiblement, selon cette arborescence, il y a :
 
@@ -56,7 +56,7 @@ Cette symétrie dans les résultats se retrouvera bien sûr des arborescences pl
 Soit un ensemble E = {a,b,c}.
 
 Calculons l'ensemble des parties de E :
-
+\{}
 $\mathcal{P}(E) = \\{\varnothing, \\{a\\}, \\{b\\}, \\{c\\}, \\{a, b\\}, \\{a, c\\}, \\{b, c\\}, \\{a,b,c\\}\\}$
 
 Il y a :

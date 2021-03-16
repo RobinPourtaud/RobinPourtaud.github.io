@@ -13,13 +13,13 @@ description: "Cet article présente la façon usuelle d'afficher les symboles ut
 
 Pour ajourer une majuscule (mettre une majuscule sous forme usuelle des ensembles) en Latex, il suffit d'importer amsfonts :
 
-```
+```tex
 \usepackage{amsfonts}
 ```
 
 Vous pouvez ainsi via "mathbb" afficher les majuscules que vous souhaitez :
 
-```
+```tex
 \mathbb{R}
 ```
 
