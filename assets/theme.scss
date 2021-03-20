@@ -454,6 +454,7 @@ article .figure {
 			&__title{
 				width:260px;
 				font-size: 16px;
+				line-height: 18px;
 			}
 		}
 		&__bottom{
@@ -677,24 +678,44 @@ article .figure {
 	}
 }
 
-.formula-inline {
-overflow:visible!important;
-vertical-align: middle; 
-display:inline-block;
-position:relative;
-& img{
-	width:auto;
-	height: auto; 
-}}
-.formula {
-	overflow:visible!important;
-	margin:30px 0px 30px 0;
-	vertical-align: middle; 
-	& img{
-		width:auto;
-		height: auto; 
-		max-height: 1000px; 
-		max-width: 1000px; 
-		min-height: 30px; 
-		min-width: auto; 
-	}}
+	.formula {
+		&__center{
+			text-align:center; 
+			overflow:visible!important;
+			margin:25px 0px;
+			& img{
+    			height: auto; 
+				max-height: none; 
+				max-width: none; 
+    			min-height: auto; 
+    			min-width: auto; 
+    			width: auto; 
+    			margin: auto;
+			}
+		}
+		&__span{
+			overflow:visible!important;
+			position:relative;
+		}
+		&__inline{
+			
+			overflow:visible!important;
+			width:auto;
+			height:20px;
+			
+			& img{
+    			height: auto; 
+				max-height: none; 
+				max-width: none; 
+    			min-height: auto; 
+    			min-width: auto; 
+    			width: auto; 
+    			margin: none;
+				display: inherit!important;
+				position: relative!important;
+				margin: 0 2px;
+			}
+		}
+	}
+
+

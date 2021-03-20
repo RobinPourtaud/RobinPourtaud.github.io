@@ -51,10 +51,7 @@ Il est ainsi possible d'utiliser :
 \ceil{x}
 ```
 
-$  
-\newcommand{\floor}\[1\]{\lfloor #1 \rfloor}  
-\newcommand{\ceil}\[1\]{\lceil #1 \rceil}  
-\floor{x} \ceil{x}$
+$\lceil x \rceil\ \lfloor x \rfloor$
 
 Pour raccourcir votre code Latex.
 

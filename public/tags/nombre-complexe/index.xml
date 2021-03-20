@@ -32,9 +32,9 @@ $a = \sin \alpha \times c$ et $b = \cos \alpha \times c$</description>
       <description>Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
 &amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.
 $x^i$ est de la forme $x^b$, $\forall b \in \mathbb{C}$. Or, on sait que :
-$ \int x^b dx = \frac{x^{b+1}}{b+1}$
+$\int x^b dx = \frac{x^{b+1}}{b+1}$
 Nous obtenons donc la solution :
-$\int x^i dx = \frac{x^{i+1}}{i+1} + C$.
+$$\int x^i dx = \frac{x^{i+1}}{i+1} + C$$.
 Méthode 2 : Pour le fun Cette méthode n&amp;rsquo;est absolument pas nécessaire, ni pratique à utiliser.</description>
     </item>
     

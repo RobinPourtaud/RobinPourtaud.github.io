@@ -109,7 +109,7 @@ En utilisant ce tableau, nous pouvons voir qu&amp;rsquo;un angle de $\frac{\pi}{
       
       <guid>http://localhost:1313/mathematiques/formule-de-sylvester/</guid>
       <description>Identité : La formule de Sylvester est la suivante :
-$#\left(\bigcup_{i\in \{1 \ldots n \}}A_i \right)=\sum_{I \in({2^{\{1 \dots n\}}\backslash\{\emptyset\})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i\right)$
+$#\left(\bigcup_{i\in {1 \ldots n }}A_i \right)=\sum_{I \in({2^{{1 \dots n}}\backslash{\emptyset})}}(-1)^{#(I)+1}#\left(\bigcap_{i \in I }A_i\right)$
 Démonstration : Vous pouvez télécharger la démonstration de la formule du crible de Wikiversity[3] au format PDF juste ici :
  Formule du crible - Wikiversity
 En savoir plus - sources :   Inclusion–exclusion principle for belief functions  Prepacom.net Dénombrer  Formule du crible - Wikiversity  formule du crible de Da Silva et Sylvester - les-mathematiques.</description>
@@ -135,9 +135,9 @@ Bien que très persuasif, ce n&amp;rsquo;est pas suffisant pour considérer cett
       
       <guid>http://localhost:1313/mathematiques/pourquoi-01/</guid>
       <description>Définition : &amp;ldquo;Factoriel&amp;rdquo; En dénombrement, le factoriel d&amp;rsquo;un entier naturel &amp;ldquo;n&amp;rdquo; est égal au produit des entiers naturels appartenant à $]0,n]$. Autrement dit :
-$n! = \prod^n_{i=1} i = 1 \times 2 \times \ldots \times (n-1) \times n$
+$$n! = \prod^n_{i=1} i = 1 \times 2 \times \ldots \times (n-1) \times n$$
 Pourquoi 0! est égal à 1 ? Depuis la définition du factoriel Repartons de la définition :
-$n! = 1 \times \ldots \times (n-1) \times n!$
+$$n! = 1 \times \ldots \times (n-1) \times n!$$
 Autrement dit $n! = n \times (n-1)!</description>
     </item>
     
@@ -186,16 +186,16 @@ La fonction factorielle étant définie $\forall n \in \mathbb{N}$ par :</descri
       
       <guid>http://localhost:1313/mathematiques/resolution-complexe-cosxsinx1/</guid>
       <description>Exercice : Dans $\mathbb{R}$ et dans $\mathbb{C}$, résoudre :
-$\cos x \sin x = 1$
+$$\cos x \sin x = 1$$
 Résolution : 1 - Recherche d&amp;rsquo;une solution dans R Soit la formule de trigonométrie suivante :
-$2sin(x)cos(x)=sin(2x)$
+$$2sin(x)cos(x)=sin(2x)$$
 Alors :
-$sin(x)cos(x)=\frac{sin(2x)}{2}$
+$$sin(x)cos(x)=\frac{sin(2x)}{2}$$
 Nous pouvons reprendre l&amp;rsquo;équation :
-$cos(x)sin(x)=1$
+$$cos(x)sin(x)=1$$
 Elle est donc équivalente à :
-$sin(2x) = 2$
-Comme $\forall x \in \mathbb{R} &amp;amp; sin(x) \in [0,1]$.
+$$sin(2x) = 2$$
+Comme $\forall x \in \mathbb{R} | sin(x) \in [0,1]$.
 Cette équation n&amp;rsquo;admet donc pas de solution dans R.
 2 - Introduction des formules d&amp;rsquo;Euler Continuons dans $\mathbb{C}$ :</description>
     </item>
@@ -268,7 +268,7 @@ Mais on peut aussi la retrouver dans de nombreuses autre formules !</description
       <description>Prérequis : Il est bien sur nécessaire d&amp;rsquo;avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n&amp;rsquo;est pas le cas, je vous renvoie vers mon article :
  ISETL 3.0 sur Windows 10
 Liste de fonctions mathématiques ISETL : Soit $x$ et $y$, deux réels quelconques :
-Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rceil$floor(x)$\lfloor x \rfloor$ln(x)$\ln x$log(x)$\log x $max(x,y)$\max (x,y)$min(x,y)$\min (x,y)$sgn(x)$\left\\{\begin{array}{rcr} 1 &amp;amp; si &amp;amp; x&amp;gt;0 \ 0 &amp;amp; si &amp;amp; x = 0 \ -1 &amp;amp; si &amp;amp; x&amp;lt;0 \ \end{array}\right.</description>
+Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rceil$floor(x)$\lfloor x \rfloor$ln(x)$\ln x$log(x)$\log x $max(x,y)$\max (x,y)$min(x,y)$\min (x,y)$sgn(x)$\left\{\begin{array}{rcr} 1 &amp;amp; si &amp;amp; x&amp;gt;0 \ 0 &amp;amp; si &amp;amp; x = 0 \ -1 &amp;amp; si &amp;amp; x&amp;lt;0 \ \end{array}\right.</description>
     </item>
     
     <item>
@@ -381,9 +381,9 @@ Symétrique : Une matrice A est dite symétrique si $L = ^tL$. C&amp;rsquo;est �
       <description>Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
 &amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.
 $x^i$ est de la forme $x^b$, $\forall b \in \mathbb{C}$. Or, on sait que :
-$ \int x^b dx = \frac{x^{b+1}}{b+1}$
+$\int x^b dx = \frac{x^{b+1}}{b+1}$
 Nous obtenons donc la solution :
-$\int x^i dx = \frac{x^{i+1}}{i+1} + C$.
+$$\int x^i dx = \frac{x^{i+1}}{i+1} + C$$.
 Méthode 2 : Pour le fun Cette méthode n&amp;rsquo;est absolument pas nécessaire, ni pratique à utiliser.</description>
     </item>
     

@@ -39,8 +39,8 @@ Soit un ensemble E de cardinal n, alors l'ensemble ayant pour éléments tous le
 
 **Par exemple :** 
 
-Soit $E=\\{a,b,c\\}$, alors :
-$n = \#E = 3$ et $\mathcal{P}(E)=\\\{\emptyset,\\\{a\\\},\\\{b\\\},\\\{c\\\},\\\{a,b\\\},\\\{a,c\\\},\\\{b,c\\\},\\\{a,b,c\\\}\\\}$.
+Soit $E=\{a,b,c\}$, alors :
+$n = \#E = 3$ et $\mathcal{P}(E)=\{\emptyset,\{a\},\{b\},\{c\},\{a,b\},\{a,c\},\{b,c\},\{a,b,c\}\}$.
 
 L'ensemble des parties est constitué **par définition** d'1 partie à 0 élément, de n parties à 1 élément et ainsi de $ n \choose k$ parties à $k$ éléments...
 

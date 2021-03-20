@@ -57,7 +57,7 @@ Soit un ensemble E = {a,b,c}.
 
 Calculons l'ensemble des parties de E :
 \{}
-$\mathcal{P}(E) = \\{\varnothing, \\{a\\}, \\{b\\}, \\{c\\}, \\{a, b\\}, \\{a, c\\}, \\{b, c\\}, \\{a,b,c\\}\\}$
+$\mathcal{P}(E) = \{\varnothing, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\}, \{a,b,c\}\}$
 
 Il y a :
 

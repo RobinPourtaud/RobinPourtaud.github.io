@@ -48,7 +48,7 @@ On souhaite créer une fonction retournant **le produit cartésien de 2 ensemble
 
 On appelle produit cartésien de 2 ensembles $e_1$ et $e_2$, l'ensemble des couples (i,j) tel que $i\in e_1$ et $j\in e_2$ .
 
-Si $e_1 = \\{x,y\\}$ et $e_2 = \\{1,2\\}$, alors $e_1\times e_2 = \\{(x,1);(x,2);(y,1);(y,2)\\}$.
+Si $e_1 = \{x,y\}$ et $e_2 = \{1,2\}$, alors $e_1\times e_2 = \{(x,1);(x,2);(y,1);(y,2)\}$.
 
 Nous avons donc :
 

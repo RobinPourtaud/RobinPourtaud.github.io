@@ -32,7 +32,7 @@ On souhaite que cette propriété soit vraie pour toutes les puissances, une dé
 
 
 
-Soit $\forall n \in \mathbb{N}\*$, nous allons prouver par récurrence la propriété $P_n$ : $6^n$ se termine par un 6.
+Soit $\forall n \in \mathbb{N}\ast$, nous allons prouver par récurrence la propriété $P_n$ : $6^n$ se termine par un 6.
 
 ### Initialisation
 
@@ -44,7 +44,7 @@ La propriété est vraie au rang 1.
 
 ### Hérédité
 
-Soit $n \in \mathbb{N}^\*$, nous supposons que $6^n$ se termine par un 6.
+Soit $n \in \mathbb{N}^\ast$, nous supposons que $6^n$ se termine par un 6.
 
 On peut réécrire notre hypothèse de récurrence comme ceci $\forall k \in \mathbb{N}$ :
 
@@ -68,7 +68,7 @@ Ce qui implique donc que $6^{n+1}$ se termine par un 6.
 
 ### Conclusion
 
-D’après le principe de récurrence, la propriété $P_n$ est vraie $\forall n \in \mathbb{N}^\*$.
+D’après le principe de récurrence, la propriété $P_n$ est vraie $\forall n \in \mathbb{N}^\ast$.
 
 ## Aller plus loin
 

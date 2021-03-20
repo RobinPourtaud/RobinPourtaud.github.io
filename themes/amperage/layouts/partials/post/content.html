@@ -1,5 +1,6 @@
-{{ $first :=replaceRE "\\$\\$(.*?)\\$\\$" "<amp-img class=\"inline-formula\" alt=\"$1\" src=\"/latex-svg/$1.svg\" layout=\"fixed-height\" height=\"20\"></amp-img>"  .Content }}
-{{ $second :=replaceRE "\\$(.*?)\\$" "<amp-img src=\"/latex-svg/$1.svg\" height=\"20\" layout=\"fixed-height\" alt=\"$1\" class=\"inline-formula\" ><img decoding=\"async\" alt=\"$1\" src=\"/latex-svg/$1.svg\" height=\"20\" class=\"i-amphtml-fill-content i-amphtml-replaced-content\"></amp-img>" $first }}
+
+{{ $first :=replaceRE "\\$\\$(.*?)\\$\\$" "<amp-img layout=\"fixed-height\" height=\"20\" class=\"formula__center\" alt=\"$1\" src=\"/latex-svg/$1.svg\"></amp-img>"  .Content }}
+{{ $second :=replaceRE "\\$(.*?)\\$" "<span class=\"formula__span\"><amp-img layout=\"intrinsic\" height=\"1\" width=\"1\"class=\"formula__inline\" alt=\"$1\" src=\"/latex-svg/$1.svg\"disable-inline-width></amp-img></span>" $first }}
 {{ $third :=replaceRE "\\\\" "" $second}}
 
 

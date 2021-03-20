@@ -13,9 +13,10 @@ def ddl_svg(formula, folder):
   to_hash = str("/latex-svg/"+str(formula).replace("\\", "")[0:]+".svg").encode('utf-8')
   f = folder+"/"+hashlib.md5(to_hash).hexdigest() + ".svg"
   with open(f, 'wb') as handle:
-    response = requests.get("https://latex.codecogs.com/svg.latex?"+urllib.parse.quote(str(formula))[0:], stream=True)
+    response = requests.get("https://latex.codecogs.com/svg.latex?"+str(formula)[0:].replace("%5C%7B", "\\{").replace("%5C%7D", "\\}"), stream=True)
     if not response.ok:
       log.error(str(response.status_code) + " : " + formula)
+      log.error("https://latex.codecogs.com/svg.latex?"+urllib.parse.quote(str(formula))[0:].replace("%5C%7B", "\\{"))
       err = True
     else : 
       for block in response.iter_content(1024):

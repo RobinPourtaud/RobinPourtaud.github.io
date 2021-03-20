@@ -18,7 +18,7 @@
                 "
                 width="{{ .Width }}"
                 height="{{ .Height }}"
-                layout="responsive"
+                layout="intrinsic"
                 alt="{{ $.Text }}"
                 {{ with $.Title}} title="{{ . }}"{{ end }}
                 class="figure__image {{ with $.Title }}figure__image--with-caption{{ end }}"></amp-img>
@@ -28,7 +28,7 @@
                 width="{{ .Width }}"
                 height="{{ .Height }}"
                 alt="{{ $.Text }}"
-                layout="responsive"
+                layout="intrinsic"
                 class="figure__image {{ with $.Title }}figure__image--with-caption{{ end }}"></amp-anim>
         {{ else if in (slice "svg") $resource.MediaType.SubType }}
             GoHugo resouces don't support svg images! ୧( ಠ Д ಠ )୨
