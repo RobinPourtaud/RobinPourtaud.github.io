@@ -41,17 +41,17 @@ Notre UAL peut nous autoriser à effectuer 8 opérations. Nous nous servirons un
 5. ctr = 101 : Décalage à gauche logique
 6. ctr = 110 : Décalage à droite logique
 
-![](image-30-1024x667.png)
+![Opérations - UAL](image-30-1024x667.png#t5)
 
-Opérations - UAL
+
 
 Les opérations "non" et les 2 décalages se servent uniquement du premier nombre "A". C+ et C- sont les carrys de l'addition et de la soustraction.
 
 ## Flags :
 
-![](image-23.png)
+![4 bits Flags](image-23.png)
 
-4 bits Flags
+
 
 Notre sortie flags est représentée par un 4 bit correspondant respectivement à CF, ZF, SF et OF.
 
@@ -63,9 +63,9 @@ Cependant, dans le cadre de ce tutoriel, le circuit restera explicité :
 - c+ est le carry de l'opération 000 (addition)
 - c- est le carry de l'opération 001 (soustraction)
 
-![](image-24.png)
+![Carry Flag](image-24.png)
 
-Carry Flag
+
 
 - Si ctr = 000, alors CF = c+
 - Si ctr = 001, alors CF = c-
@@ -75,9 +75,9 @@ Carry Flag
 
 Le zéro flag est égal à 1 si et seulement si tous les bits de S sont égaux à 0 :
 
-![](image-25.png)
+![Zero Flag](image-25.png)
 
-Zero Flag
+
 
 
 
@@ -89,9 +89,9 @@ SF correspond au signe de S. Si S négatif, alors S = 1, sinon S=0.
 
 Autrement dit : $SF = S_7$
 
-![](image-26.png)
+![Sign Flag](image-26.png)
 
-Sign Flag
+
 
 ### Overflow Flag (OF) :
 

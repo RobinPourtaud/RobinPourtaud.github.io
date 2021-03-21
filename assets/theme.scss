@@ -286,33 +286,46 @@ blockquote {
 }
 
 article .figure {
+	margin-bottom:10px;
+	width: 100%;
+	max-width: 100%;
 	flex-direction: column-reverse;
-	max-width:70%;
 	text-align:center;
-	cursor:pointer;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	margin-bottom: 30px;
-	&--with-caption {
+	&--with-alt {
 		display: flex;
-		border-top: none;
+		border-top: none;	
+	}
+	&__image {
+		
+		& img{
+			
+			height: auto; 
+			max-height: none; 
+			max-width: none; 
+    		min-height: auto; 
+    		min-width: auto; 
+			width: auto; 
+    		margin: none;
+			display: inherit!important;
+			position: relative!important;
+			margin: auto;
+		}
 	}
 	&__caption {
-		background-color: #333;
-		color: white;
-		font-weight: 700;
+		color: #333;
+		font-weight: 400;
 		padding: .5em 1em;
 		height: min-content;
 		word-wrap: break-word;
-		position: relative;
-		max-width: 100%; 
+		text-align:center;
 	}
+	
 	img{
 		min-height: 0%; 
     	min-width: 0%; 
     	width:auto;
 		height:auto; 
+		max-width: 100%;
 	}
 	img[src$='#t1']{
 		width:40px;

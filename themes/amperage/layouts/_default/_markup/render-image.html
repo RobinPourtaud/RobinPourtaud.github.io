@@ -1,5 +1,5 @@
-<figure class="figure {{ with .Title }}figure--with-caption{{ end }}">
-    {{ with .Title }}
+<figure class="figure {{ with .Text }}figure--with-alt{{ end }}">
+    {{ with .Text }}
         <figcaption class="figure__caption">
             {{- . -}}
         </figcaption>
@@ -21,7 +21,7 @@
                 layout="intrinsic"
                 alt="{{ $.Text }}"
                 {{ with $.Title}} title="{{ . }}"{{ end }}
-                class="figure__image {{ with $.Title }}figure__image--with-caption{{ end }}"></amp-img>
+                class="figure__image {{ with $.Text }}figure__image--with-alt{{ end }}"></amp-img>
         {{ else if in (slice "gif") $resource.MediaType.SubType }}
             <amp-anim
                 src="{{ .Permalink | safeURL}}"
@@ -29,18 +29,19 @@
                 height="{{ .Height }}"
                 alt="{{ $.Text }}"
                 layout="intrinsic"
-                class="figure__image {{ with $.Title }}figure__image--with-caption{{ end }}"></amp-anim>
+                class="figure__image {{ with $.Text }}figure__image--with-alt{{ end }}"></amp-anim>
         {{ else if in (slice "svg") $resource.MediaType.SubType }}
             GoHugo resouces don't support svg images! ୧( ಠ Д ಠ )୨
         {{ end }}
     {{ else }}
+    
         <amp-img
             src="{{ .Destination | safeURL }}"
             height="1"
             width="1"
-            layout="responsive"
+            layout="intrinsic"
             alt="{{ .Text }}"
             {{ with .Title}} title="{{ . }}"{{ end }}
-            class="figure__image {{ with .Title }}figure__image--with-caption{{ end }}"></amp-img>
+            class="figure__image {{ with .Text}}figure__image--with-alt{{ end }}"></amp-img>
     {{ end }}
 </figure>

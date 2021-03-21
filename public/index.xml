@@ -89,7 +89,7 @@ Procédure préfixe(Arbre A) : Début : Afficher(A.e) Si A.g !</description>
       <guid>http://localhost:1313/informatique/determinisation-dun-automate/</guid>
       <description>Définition : Un automate est dit déterministe s&amp;rsquo;il respecte trois conditions :
  Il possède un unique état initial. Il ne possède pas d’epsilon-transitions. Pour chaque état de cet automate, il existe au maximum une transition issue de cet état possédant le même symbole.  Pour en savoir plus : Différents types d’automates finis
-Méthode :  
+Méthode : Automate fini non déterministe  
 La méthode permettant de passer d&amp;rsquo;un automate fini quelconque à un automate déterministe va être illustrée par l&amp;rsquo;exercice corrigé suivant :</description>
     </item>
     
@@ -394,13 +394,12 @@ Cette équation n&amp;rsquo;admet donc pas de solution dans R.
       
       <guid>http://localhost:1313/mathematiques/demonstration-cosxsinx1/</guid>
       <description>Avec le théorème de Pythagore : Le théorème : En géométrie euclidienne, le théorème de pythagore met en relation dans un triangle rectangle, les 2 plus petits cotés avec l&amp;rsquo;hypothénuse :
- 
+107123505_710315529768801_8982444762377697329_n.png (1080×1080)  
 Triangle Rectangle
 La célèbre relation est la suivante : $a^2+b^2=c^2$.
 Démonstration : En reprenant les formules vu en 3ème, on a :
 $\sin \alpha = \frac{a}{c}$ et $\cos \alpha = \frac{b}{c}$
-Cela nous donne donc :
-$a = \sin \alpha \times c$ et $b = \cos \alpha \times c$</description>
+Cela nous donne donc :</description>
     </item>
     
     <item>
@@ -843,7 +842,7 @@ $\sum$
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/page/contact/</guid>
-      <description>A propos Qu&amp;rsquo;est ce que DevMath ? DevMath est mon site web personnel ! Je m&amp;rsquo;appelle Robin Pourtaud, je suis actuellement étudiant en Informatique. Passioné de math et d&amp;rsquo;informatique depuis le collège, j&amp;rsquo;ai
+      <description>Qu&amp;rsquo;est ce que DevMath ? DevMath est mon site web personnel ! Je m&amp;rsquo;appelle Robin Pourtaud, je suis actuellement étudiant en Informatique. Passioné de math et d&amp;rsquo;informatique depuis le collège, j&amp;rsquo;ai
 J&amp;rsquo;ai décidé de créer ce site web partant d&amp;rsquo;un constat : Trouvé de l&amp;rsquo;aide sur des articles de mathématiques au collèges, c&amp;rsquo;est simple. Cependant, cette facillité n&amp;rsquo;est plus depuis le passage a des études supérieurs.
 C&amp;rsquo;est pourquoi j&amp;rsquo;ai crée DevMath !</description>
     </item>
@@ -854,7 +853,8 @@ C&amp;rsquo;est pourquoi j&amp;rsquo;ai crée DevMath !</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/page/confidentialite/</guid>
-      <description>Confidentialité des données </description>
+      <description>Politique de gestion des Cookies Cette politique de cookies explique ce que sont les cookies et comment nous les utilisons. Vous devez lire cette politique pour comprendre ce que sont les cookies, comment nous les utilisons, les types de cookies que nous utilisons, c’est-à-dire les informations que nous recueillons à l’aide de cookies et comment ces informations sont utilisées et comment contrôler les préférences en matière de cookies.
+Pour plus d’informations sur la façon dont nous utilisons, stockons et protégeons vos données personnelles, consultez notre Politique de confidentialité.</description>
     </item>
     
   </channel>

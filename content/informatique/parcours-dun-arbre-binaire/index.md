@@ -93,9 +93,9 @@ Procédure largeur(Arbre A) :
 
 Soit l'ABR suivant :
 
-![](image-32.png)
+![Exemple arbre binaire](image-32.png)
 
-Exemple : arbre binaire
+
 
 - Parcours préfixe : + \* 1 7 \* 3 2
 - Parcours suffixe ou postfixe : 1 7 \* 3 2 \* +

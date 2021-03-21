@@ -1,8 +1,7 @@
 +++
 title = "A propos de DevMath"
+type = "page"
 +++
-
-# A propos
 ## Qu'est ce que DevMath ? 
 DevMath est mon site web personnel ! Je m'appelle Robin Pourtaud, je suis actuellement étudiant en Informatique. Passioné de math et d'informatique depuis le collège, j'ai 
 
