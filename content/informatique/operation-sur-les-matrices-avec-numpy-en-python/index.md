@@ -17,13 +17,13 @@ description: "Effectuer des calculs sur les matrices est, souvent, une opératio
 
 Avant toute chose, pour effectuer des calculs scientifiques, vous devez importer la bibliothèque numpy.
 
-```
+```python
 import numpy as np 
 ```
 
 ## Addition et Multiplication de Matrices
 
-```
+```python
 M1 = np.array([ [1.,1.,1.],
                 [1.,3.,1.],
                 [1.,1.,1.]])
@@ -39,7 +39,7 @@ MResultMulti = M1.dot(M2)
 
 La trace d'une matrice est la somme des valeurs de la diagonale de la matrice.
 
-```
+```python
 M1 = np.array([ [1.,1.,1.],
                 [1.,3.,1.],
                 [1.,1.,1.]])
@@ -49,7 +49,7 @@ M1 = np.array([ [1.,1.,1.],
 
 Le calcul du déterminant d'une matrice est un outil nécessaire en algèbre linéaire afin de vérifier une inversibilité ou pour calculer l'inverse d'une matrice. (Wikipédia)
 
-```
+```python
 M1 = np.array([ [1.,1.,1.],
                 [1.,3.,1.],
                 [1.,1.,1.]])
@@ -60,7 +60,7 @@ Determinant = np.linalg.det(M1)
 
 La transposée d'une matrice A est une matrice B telle que les colonnes et lignes de la matrice A deviennent respectivement les lignes et colonnes de la matrice B.
 
-```
+```python
 M1 = np.array([ [1.,1.,2.],
                 [6.,3.,1.],
                 [1.,1.,1.]])
@@ -75,7 +75,7 @@ L'inverse de matrice prend toute son utilité dans le calcul de systèmes linéa
 
 Une matrice A admet une inverse si et seulement si son déterminant est différent de 0. Il est donc important de le tester au préalable :).
 
-```
+```python
 M1 = np.array([ [1.,1.,1.],
                 [1.,3.,2.],
                 [1.,5.,1.]])
@@ -86,7 +86,7 @@ Inverse = np.linalg.inv(M1)
 
 Veuillez bien prendre en compte le fait que les vecteurs propres ne sont pas uniques, l'échelle (la longueur), le signe, ou l'ordre peuvent être [différents](https://www.researchgate.net/post/Why_eigenvectors_seem_incorrect_in_python).
 
-```
+```python
 M1 = np.array([ [1.,1.,2.],
                 [6.,3.,1.],
                 [1.,1.,1.]])
@@ -99,7 +99,7 @@ Pour en savoir plus sur le sujet, je vous renvoie vers mon article sur [les vale
 
 La décomposition de Cholesky permet de décomposer une matrice symétrique définie positive en un produit d'une matrice L par sa transposée.
 
-```
+```python
 M1 = np.array([ [1,2],
                 [2,7] ])
 np.linalg.cholesky(M1)
@@ -113,7 +113,7 @@ Pour en savoir plus sur l'utilité et le calcul de la matrice de Cholesky, [c'es
 
 Pour définir correctement le conditionnement d'une matrice, je vous suggère [mon article sur ce sujet](https://keskec.fr/sciences/informatique/robin/57/).
 
-```
+```python
 M1 = np.array([ [1,7,2,1],
                 [7,5,1,5],
                 [8,6,10,9],

@@ -44,8 +44,7 @@ Mais on peut aussi la retrouver dans de nombreuses autre formules !</description
 Soit $f(i,j)$ l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet $[R,G,B]$ associée au pixel.
 Soit un seuil $s \in [0,255]$.
 Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction $g$ tel que :
-$
-g(i,j) = \left{
+$$ g(i,j) = \left{
 \begin{array}{ll}
 255 &amp;amp; \mbox{si } f(i,j) \leq s \</description>
     </item>

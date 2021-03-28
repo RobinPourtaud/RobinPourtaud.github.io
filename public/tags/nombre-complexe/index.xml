@@ -14,13 +14,12 @@
       
       <guid>http://localhost:1313/mathematiques/demonstration-cosxsinx1/</guid>
       <description>Avec le théorème de Pythagore : Le théorème : En géométrie euclidienne, le théorème de pythagore met en relation dans un triangle rectangle, les 2 plus petits cotés avec l&amp;rsquo;hypothénuse :
- 
+107123505_710315529768801_8982444762377697329_n.png (1080×1080)  
 Triangle Rectangle
 La célèbre relation est la suivante : $a^2+b^2=c^2$.
 Démonstration : En reprenant les formules vu en 3ème, on a :
 $\sin \alpha = \frac{a}{c}$ et $\cos \alpha = \frac{b}{c}$
-Cela nous donne donc :
-$a = \sin \alpha \times c$ et $b = \cos \alpha \times c$</description>
+Cela nous donne donc :</description>
     </item>
     
     <item>

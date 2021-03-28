@@ -22,11 +22,11 @@ Le Termial est présenté par Knuth comme une fonction analogue à la fonction f
 
 La fonction factorielle étant définie $\forall n \in \mathbb{N}$ par :
 
-$n!=\prod^n_{i=1}i= 1 \times 2 \times \ldots \times (n-1) \times n$
+$$n!=\prod^n_{i=1}i= 1 \times 2 \times \ldots \times (n-1) \times n$$
 
 La fonction "termial" se définie par :
 
-$n?=\sum^n_{i=1}i = 1 + 2 + \ldots + (n-1) + n$
+$$n?=\sum^n_{i=1}i = 1 + 2 + \ldots + (n-1) + n$$
 
 Cette série est grossièrement divergente.
 

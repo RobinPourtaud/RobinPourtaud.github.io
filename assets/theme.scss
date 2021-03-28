@@ -268,8 +268,7 @@ pre {
 }
 
 blockquote {
-	margin: inherit auto;
-	margin-left: 1em;
+	margin: 1em 0em 1em 1em;
 	padding: 1em;
 	border-left: 5px solid #999;
 	&:before {
@@ -280,12 +279,13 @@ blockquote {
 	}
 	p {
 		color: #555;
-		font-size: 1.25em;
+		font-size: 1em;
 		font-family: "Poppins",sans-serif;
 	}
 }
 
 article .figure {
+	margin-top: 10px;
 	margin-bottom:10px;
 	width: 100%;
 	max-width: 100%;

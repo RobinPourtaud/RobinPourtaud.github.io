@@ -41,7 +41,7 @@ et copiez le contenu du fichier CSS choisi.
 
 Mon préféré étant celui-ci :
 
-```
+```css
 /*
 Monokai style - ported by Luigi Maselli - http://grigio.org
 */

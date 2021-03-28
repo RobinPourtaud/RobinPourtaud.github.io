@@ -1,13 +1,13 @@
 ---
 title: "Wsl2"
-slug: "keske-cest-wsl2"
+slug: "wsl2"
 date: "2020-04-11"
 categories: 
   - "informatique"
 tags: 
   - "linux"
   - "tuto"
-  - "windows-10"
+  - "windows 10"
   - "wsl2"
 description: "Vous souhaitez savoir comment installer Windows Subsystem for Linux 2 ? Et utiliser Debian ou Ubuntu comme distribution ? Voici un article pour vous guider."
 ---
@@ -39,7 +39,7 @@ Concrètement, WSL nous offre un accès à un système Linux à l'intérieur de 
 
 D'abord, ouvrez le terminal PowerShell en Administrateur et tapez la commande:
 
-```
+```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
@@ -49,13 +49,13 @@ Ensuite, redémarrez l'ordinateur.
 
 Aussi avec le terminal PowerShell en Administrateur, tapez la commande suivante:
 
-```
+```powershell
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 
 puis:
 
-```
+```powershell
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
@@ -73,21 +73,19 @@ Patientez un peu, puis choisissez un nom d'utilisateur UNIX et un mot de passe, 
 
 Vous avez maintenant accès à un vrai terminal Linux sous Windows.... sous WSL1.
 
-![](Capture-1-1024x523.png)
-
-Windows Subsystem for Linux
+![Windows Subsystem for Linux](Capture-1-1024x523.png#t5)
 
 ### Passer de WSL1 à WSL2
 
 Pour passer votre distribution de WSL1 à WSL2, il suffit d'abord de taper la commande suivante dans le terminal powershell:
 
-```
+```powershell
 wsl --set-version <Distro> 2
 ```
 
 Ensuite, remplacez <Distro> par le nom de votre distribution
 
-```
+```powershell
 wsl --set-version 2
 ```
 
@@ -95,7 +93,7 @@ Si vous souhaitez que toutes vos futures distributions soit sous WSL2 par défau
 
 La commande ci-dessous vous permet également de lister les noms des distribution Linux si besoin.
 
-```
+```powershell
 wsl -l
 ```
 

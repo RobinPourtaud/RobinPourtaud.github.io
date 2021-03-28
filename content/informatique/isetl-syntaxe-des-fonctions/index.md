@@ -34,9 +34,9 @@ VotreFonction(5);
 
 Vous devriez voir sur le terminal d'exécution affiché "5;".
 
-![](image-5.png)
+![ISETL - Syntaxe d'une fonction](image-5.png)
 
-ISETL - Syntaxe d'une fonction
+
 
 ## Exemples de fonctions
 

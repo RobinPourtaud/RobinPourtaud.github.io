@@ -22,14 +22,14 @@ Soit un seuil $s \in \[0,255\]$.
 
 Alors le seuillage de l'image f serait équivalent à une fonction $g$ tel que :
 
-$  
+$$
 g(i,j) = \left\{  
 \begin{array}{ll}  
 255 & \mbox{si } f(i,j) \leq s \  
 0 & \mbox{sinon.}  
 \end{array}  
 \right.  
-$
+$$
 
 ## Nécessaire
 
@@ -63,7 +63,7 @@ ImgDL = Image.open(BytesIO(response.content))
 
 Il existe plein de façon d'effectuer un seuillage en python, je vous propose celle-ci :
 
-```
+```python
 def Seuillage(Img:Image, s:int)->Image:
   newImg = np.copy(Img)
   for i in range(len(newImg)):

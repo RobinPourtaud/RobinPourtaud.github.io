@@ -19,9 +19,9 @@ Un automate est dit déterministe si il respecte trois conditions :
 2. Il ne possède pas d'epsilon-transitions.
 3. Pour chaque état de cet automate, il existe au maximum une transition issue de cet état possédant le même symbole.
 
-![](image-1-edited.png)
+![Pas un AFD](image-1-edited.png)
 
-N'est pas un AFD
+
 
 Attention : Un automate fini est toujours un AFN (automate fini non déterministe). Un automate fini déterministe (AFD) est un AFN particulier.
 
@@ -33,17 +33,17 @@ Un automate fini est dit complet si :
 
 Par exemple pour l'alphabet {a,b,c} :
 
-![](image-12.png)
+![Automate fini non complet](image-12.png#t3)
 
-Automate fini non complet
+
 
 Cet automate n'est pas complet car on ne peut pas obtenir le symbole "a" depuis q2.
 
 Pour obtenir un automate équivalent, complet, il suffit de créer un état "puits", ou état "poubelle". Comme suit :
 
-![](image-14.png)
+![Automate fini complet](image-14.png)
 
-Automate fini complet
+
 
 ### Automate émondé
 
@@ -51,23 +51,23 @@ Un automate est dit émondé (ou utile) si tous les états de cet automate peuve
 
 Par exemple : Cet automate est fini émondé. q0, q1 et q3 peuvent servir tous les 3 à la création du langage.
 
-![](image-6.png)
+![Automate fini émondé](image-6.png)
 
-Automate fini émondé
+
 
 Cependant celui là ne l'est pas : l'état q1 n'est plus "utile".
 
-![](image-7.png)
+![Automate non émondé](image-7.png)
 
-Automate non émondé
+
 
 ### Automate unitaire
 
 Un automate est dit unitaire si il possède un unique état initial.
 
-![](image.png)
+![Automate unitaire](image.png)
 
-Automate unitaire
+
 
 ### Automate standard
 
@@ -78,15 +78,15 @@ Un automate est dit standard si :
 
 Par exemple, ceci n'est pas un automate standard :
 
-![](image-8-1024x317.png)
+![Automate non standard](image-8-1024x317.png)
 
-Automate non standard
+
 
 Mais celui là l'est :
 
-![](image-9-1024x282.png)
+![Automate standard](image-9-1024x282.png)
 
-Automate standard
+
 
 ### Automate normalisé
 
@@ -98,15 +98,15 @@ Un automate est dit normalisé si :
 
 Par exemple cet automate n'est pas normalisé :
 
-![](image-10-1024x676.png)
+![Automate non-normalisé](image-10-1024x676.png)
 
-Automate non-normalisé
+
 
 Cet automate est normalisé :
 
-![](image-11-1024x654.png)
+![Automate normalisé](image-11-1024x654.png)
 
-Automate normalisé
+
 
 ## Sources :
 

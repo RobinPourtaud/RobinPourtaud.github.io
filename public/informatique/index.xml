@@ -77,7 +77,7 @@ Procédure préfixe(Arbre A) : Début : Afficher(A.e) Si A.g !</description>
       <guid>http://localhost:1313/informatique/determinisation-dun-automate/</guid>
       <description>Définition : Un automate est dit déterministe s&amp;rsquo;il respecte trois conditions :
  Il possède un unique état initial. Il ne possède pas d’epsilon-transitions. Pour chaque état de cet automate, il existe au maximum une transition issue de cet état possédant le même symbole.  Pour en savoir plus : Différents types d’automates finis
-Méthode :  
+Méthode : Automate fini non déterministe  
 La méthode permettant de passer d&amp;rsquo;un automate fini quelconque à un automate déterministe va être illustrée par l&amp;rsquo;exercice corrigé suivant :</description>
     </item>
     
@@ -111,8 +111,7 @@ Alphabet grec majuscule : LatexLettreLatexLettreA$A$N$N$B$B$\Xi$\Xi$\Gamma$\Gamm
       
       <guid>http://localhost:1313/informatique/vocabulaire-sur-les-automates-finis/</guid>
       <description>Définitions : Automate déterministe Un automate est dit déterministe si il respecte trois conditions :
- Il possède un unique état initial. Il ne possède pas d&amp;rsquo;epsilon-transitions. Pour chaque état de cet automate, il existe au maximum une transition issue de cet état possédant le même symbole.   
-N&amp;rsquo;est pas un AFD
+ Il possède un unique état initial. Il ne possède pas d&amp;rsquo;epsilon-transitions. Pour chaque état de cet automate, il existe au maximum une transition issue de cet état possédant le même symbole.  Pas un AFD  
 Attention : Un automate fini est toujours un AFN (automate fini non déterministe). Un automate fini déterministe (AFD) est un AFN particulier.</description>
     </item>
     
@@ -354,8 +353,7 @@ Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rce
 Soit $f(i,j)$ l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet $[R,G,B]$ associée au pixel.
 Soit un seuil $s \in [0,255]$.
 Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction $g$ tel que :
-$
-g(i,j) = \left{
+$$ g(i,j) = \left{
 \begin{array}{ll}
 255 &amp;amp; \mbox{si } f(i,j) \leq s \</description>
     </item>
@@ -597,10 +595,10 @@ Exemple 1 Pour comprendre ce qu&amp;rsquo;est le conditionnement, prenons un exe
     
     <item>
       <title>Wsl2</title>
-      <link>http://localhost:1313/informatique/keske-cest-wsl2/</link>
+      <link>http://localhost:1313/informatique/wsl2/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/keske-cest-wsl2/</guid>
+      <guid>http://localhost:1313/informatique/wsl2/</guid>
       <description>Windows Subsystem for Linux (WSL) est une couche de compatibilité permettant d&amp;rsquo;exécuter des exécutables binaires Linux (au format ELF) de manière native sur Windows 10 et Windows Server 2019.
  fr.wikipedia.org
  En mai 2019, Microsoft lance WSL2, une mise à jours de WSL proposant de nombreuses nouveautés.
