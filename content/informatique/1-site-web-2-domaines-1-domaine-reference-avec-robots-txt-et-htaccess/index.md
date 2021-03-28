@@ -8,7 +8,7 @@ tags:
   - "apache2"
   - "htaccess"
   - "robots-txt"
-  - "tuto"
+  
   - "wordpress"
 description: "Au cours de la création de notre site DevMath.fr, nous avons souhaité créer un sous-domaine afin de faciliter notre gestionp du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais nen devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l'unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution."
 ---

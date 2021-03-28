@@ -6,7 +6,7 @@ categories:
   - "informatique"
 tags: 
   - "isetl"
-  - "tuto"
+  
 description: "_Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, il avait pour finalité_ **l’enseignement des mathématiques discrètes à l’université**_. Cet article est à destination des étudiants voulant apprendre à rédiger des boucles While et For en ISETL._"
 ---
 ## Boucle While

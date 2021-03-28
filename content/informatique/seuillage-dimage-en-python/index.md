@@ -7,7 +7,7 @@ categories:
 tags: 
   - "numpy"
   - "python"
-  - "tuto"
+  
 description: "Le seuillage est une technique de traitement d'image permettant l'attribution de chaque pixel soit à une couleur, soit à une autre, selon un seuil. Plus explicitement :"
 ---
 
@@ -23,13 +23,12 @@ Soit un seuil $s \in \[0,255\]$.
 Alors le seuillage de l'image f serait équivalent à une fonction $g$ tel que :
 
 $$
-g(i,j) = \left\{  
-\begin{array}{ll}  
-255 & \mbox{si } f(i,j) \leq s \  
-0 & \mbox{sinon.}  
-\end{array}  
-\right.  
+g(i,j) = \begin{cases} 
+255 & \text{si} f(i,j) \leq s \\ 
+0 & \text{sinon.}  
+\end{cases}
 $$
+
 
 ## Nécessaire
 
@@ -47,7 +46,7 @@ J'utiliserai personnellement le "Jupyter notebook" de Google : [Google Colab](ht
 
 Tout d'abord, il nous faut une image. Pour cela, je vous suggère de télécharger celle-ci comme ceci :
 
-```
+```python
 import numpy as np
 from PIL import Image
 import requests
@@ -83,37 +82,33 @@ def Seuillage(Img:Image, s:int)->Image:
 
 Un exemple d'utilisation de cette fonction serait :
 
-```
+```python
 Seuillage(ImgDL,90)
 ```
 
 ### Le résultat :
 
-![Seuillage](autumn-autumn-leaves-beautiful-color-206648-1024x771.jpg)
+![Image originale](autumn-autumn-leaves-beautiful-color-206648-1024x771.jpg#t3)
 
-Image originale
 
-![Seuillage](téléchargement-1024x771.png)
 
-Seuillage d'image (seuil = 110)
+![Seuillage d image (seuil = 110)](téléchargement-1024x771.png#t3)
+
+
 
 Faire varier le seuil entre 0 et 255 peut permettre d'obtenir de nombreuses images très intéressantes :
 
-![](image-4.png)
 
-Seuille = 20
 
-![](image-5.png)
-
-Seuille = 70
-
-![godwAXz22AAAAAElFTkSuQmCC (1024×771)](image-6.png)
-
-Seuille = 140
+<amp-carousel height="300" layout="fixed-height" type="carousel" role="region">
+    <amp-img src="image-4.png" width="400" height="300" alt="Seuille = 20"></amp-img>
+    <amp-img src="image-5.png" width="400" height="300" alt="Seuille = 70"></amp-img>
+    <amp-img src="image-6.png" width="400" height="300" alt="Seuille = 140"></amp-img>
+</amp-carousel>
 
 ## Le code source sur Github
 
-[**seuillage-keskec.ipynb**](https://gist.github.com/RobinPourtaud/274589130004ef89eb83569019bfeca6#file-seuillage-keskec-ipynb)
+[seuillage-keskec.ipynb](https://gist.github.com/RobinPourtaud/274589130004ef89eb83569019bfeca6#file-seuillage-keskec-ipynb)
 
 ## Sources
 

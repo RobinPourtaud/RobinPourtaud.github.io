@@ -55,7 +55,7 @@ Pour afficher une accolade verticale sur le coté gauche d'un texte, il suffit d
 
 **Rendu :**
 
-$\left\{ 1+1=2$
+$$\begin{cases} 1+1=2\end{cases}$$
 
 Pour une accolade à droite, il existe la commande \right.
 
@@ -76,12 +76,11 @@ Pour une accolade à droite, il existe la commande \right.
 
 **Rendu :**
 
-$$\left\{  
-\begin{array}{rcr}  
-4x + 8y & = & 54 \\  
-2x + 7y & = & 39 \\  
-\end{array}  
-\right.  
+$$
+\begin{cases}  
+4x + 8y = & 54 \\  
+2x + 7y = & 39 \\  
+\end{cases}   
 $$
 
 ### Un exemple de fonction :

@@ -20,7 +20,7 @@ En tant qu'exemple, je vais créer un tableau associant un animal à son âge.
 
 ### Définition :
 
-```
+```c++
 #include <iostream> //Cout, endl,etc
 #include <string>
 #include <unordered_map>
@@ -48,7 +48,7 @@ Complexité moyenne en O(1).
 
 #### Méthode 1 : std::unordered_map::emplace
 
-```
+```c++
 MaMap.emplace("Castor",2);
 MaMap.emplace("Tortue",1);
 //Avec make_pair
@@ -57,7 +57,7 @@ MaMap.emplace(std::make_pair("Oiseau",4));
 
 #### Méthode 2 : std::unordered_map::insert
 
-```
+```c++
 MaMap.insert({"Castor",2});
 
 // Insert avec std::make_pair
@@ -69,7 +69,7 @@ MaMap.insert({{"Souris",1},{"Girafe",6}});
 
 #### Méthode 3 : Operateur\[\]
 
-```
+```c++
 // On insère dans MaMap la clé Cochon associée à 4
 MaMap["Cochon"] = 4;
 ```
@@ -80,7 +80,7 @@ Complexité moyenne en O(1), linéaire dans le pire cas.
 
 #### Méthode 1 : Operateur\[\]
 
-```
+```c++
 std::cout << "Ma Souris a " << MaMap["Souris"] << " an." << std::endl;
 
 // Affichage : "Ma Souris a 1 an"
@@ -88,7 +88,7 @@ std::cout << "Ma Souris a " << MaMap["Souris"] << " an." << std::endl;
 
 #### Méthode 2 : std::unoredered_map::at
 
-```
+```c++
 std::cout << "Mon chat a " << MaMap.at("Chat") << " ans." << std::endl;
 
 // Affichage : "Mon chat a 3 ans."
@@ -98,7 +98,7 @@ std::cout << "Mon chat a " << MaMap.at("Chat") << " ans." << std::endl;
 
 Find permet en plus de tester si la clé est présente ou non dans l'unordered_map avec un itérateur.
 
-```
+```c++
 std::string search = "Castor";
 
 auto it = MaMap.find(search);
@@ -117,14 +117,14 @@ Complexité moyenne en O(1), linéaire dans le pire cas.
 
 #### Méthode 1 : Operateur\[\]
 
-```
+```c++
 MaMap["Castor"] = 3;
 // Castor est maintenant associé à la valeur 3
 ```
 
 #### Méthode 2 : std::unoredered_map::at
 
-```
+```c++
 MaMap.at("Castor") += 6;
 // Castor est maintenant associé à la valeur 9
 MaMap.at("Castor") = 20;
@@ -133,7 +133,7 @@ MaMap.at("Castor") = 20;
 
 #### Méthode 3 : std::unoredered_map::find
 
-```
+```c++
 std::string search = "Castor";
 
 auto it = MaMap.find(search);
@@ -150,7 +150,7 @@ else{
 
 Complexité moyenne en O(1), linéaire dans le pire cas.
 
-```
+```c++
 Mamap.erase("Castor");
 //L'entrée Castor -> 3 est maintenant effacée
 ```
@@ -161,7 +161,7 @@ On pourrait penser que **la relation associative** du conteneur est comparable �
 
 En effet, chaque clé (ensemble de départ) est **unique** et même si 2 clés peuvent avoir la même image, ces 2 images sont représentées dans **2 adresses mémoires différentes** (voir exemple ci-dessous). De plus, toute image possède un antécédent...
 
-```
+```c++
 /* Chat et Chameau ont pour image 3, pourtant ils n'ont pas la même adresse mémoire */
 std::cout << &MaMap.at("Rat") << std::endl;
 std::cout << &MaMap.at("Chat") << std::endl;

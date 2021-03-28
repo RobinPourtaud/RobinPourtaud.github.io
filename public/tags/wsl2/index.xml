@@ -6,16 +6,7 @@
     <description>Recent content in wsl2 on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/wsl2/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>WSL et USB</title>
-      <link>http://localhost:1313/informatique/wsl-et-usb/</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/informatique/wsl-et-usb/</guid>
-      <description>Monter une partition ext4 ou ext2 Monter une partition ext4 protégé LUKS </description>
-    </item>
-    
+    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/wsl2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wsl2</title>
       <link>http://localhost:1313/informatique/wsl2/</link>

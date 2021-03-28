@@ -5,7 +5,7 @@ date: "2020-06-03"
 categories: 
   - "informatique"
 tags: 
-  - "tuto"
+  
   - "wordpress"
   - "zip"
 description: "*Désolé, ce type de fichier n’est pas autorisé pour des raisons de sécurité.* J'ai repoussé à de nombreuses reprises sa résolution pensant que c'était une opération complexe. Finalement, en moins de 5 min, c'était résolu et c'est ce que je vais vous montrer dès maintenant ! "

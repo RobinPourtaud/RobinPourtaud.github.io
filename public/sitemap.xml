@@ -276,11 +276,6 @@
     </url>
     
     <url>
-        <loc>http://localhost:1313/tags/tuto/</loc>
-        <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
         <loc>http://localhost:1313/informatique/isetl-conditions-if-elseif-else/</loc>
         <lastmod>2020-07-26T00:00:00+00:00</lastmod>
     </url>
@@ -317,16 +312,6 @@
     
     <url>
         <loc>http://localhost:1313/mathematiques/la-notation-en-mathematique/</loc>
-        <lastmod>2020-07-20T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/informatique/mode-mathematique-sur-gboard/</loc>
-        <lastmod>2020-07-20T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/categories/non-classe/</loc>
         <lastmod>2020-07-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -511,16 +496,6 @@
     </url>
     
     <url>
-        <loc>http://localhost:1313/informatique/wsl-et-usb/</loc>
-        <lastmod>2020-05-22T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/tags/wsl2/</loc>
-        <lastmod>2020-05-22T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
         <loc>http://localhost:1313/tags/bitmap/</loc>
         <lastmod>2020-05-21T00:00:00+00:00</lastmod>
     </url>
@@ -533,11 +508,6 @@
     <url>
         <loc>http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</loc>
         <lastmod>2020-05-21T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</loc>
-        <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     </url>
     
     <url>
@@ -621,7 +591,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:1313/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</loc>
+        <loc>http://localhost:1313/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</loc>
         <lastmod>2020-04-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -766,7 +736,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:1313/informatique/keske-cest-le-conditionnement-dune-matrice/</loc>
+        <loc>http://localhost:1313/informatique/conditionnement-dune-matrice/</loc>
         <lastmod>2020-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -777,6 +747,11 @@
     
     <url>
         <loc>http://localhost:1313/informatique/wsl2/</loc>
+        <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:1313/tags/wsl2/</loc>
         <lastmod>2020-04-11T00:00:00+00:00</lastmod>
     </url>
     

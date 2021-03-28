@@ -84,10 +84,9 @@ Fonction trigonométrique : Soit x un réel quelconque (appartenant aux domaines
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/informatique/isetl-fonction-mathematiques/</guid>
-      <description>Prérequis : Il est bien sur nécessaire d&amp;rsquo;avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n&amp;rsquo;est pas le cas, je vous renvoie vers mon article :
- ISETL 3.0 sur Windows 10
+      <description>Prérequis : Il est bien sur nécessaire d&amp;rsquo;avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n&amp;rsquo;est pas le cas, je vous renvoie vers mon article : ISETL 3.0 sur Windows 10
 Liste de fonctions mathématiques ISETL : Soit $x$ et $y$, deux réels quelconques :
-Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rceil$floor(x)$\lfloor x \rfloor$ln(x)$\ln x$log(x)$\log x $max(x,y)$\max (x,y)$min(x,y)$\min (x,y)$sgn(x)$\left\{\begin{array}{rcr} 1 &amp;amp; si &amp;amp; x&amp;gt;0 \ 0 &amp;amp; si &amp;amp; x = 0 \ -1 &amp;amp; si &amp;amp; x&amp;lt;0 \ \end{array}\right.</description>
+   Fonction ISETL Fonction mathématiques     abs(x) $\lvert x \rvert$   exp(x) $e^x$   ceil(x) $\lceil x \rceil$   floor(x) $\lfloor x \rfloor$   ln(x) $\ln x$   log(x) $\log x$   max(x,y) $\max (x,y)$   min(x,y) $\min (x,y)$   sgn(x) $\begin{cases}1\text{ si }x&amp;gt;0\0\text{ si }x=0\-1\text{ si }x&amp;lt;0\end{cases}$   sqrt(x) $\sqrt{x}$    NB : Il ne faut pas oublier qu&amp;rsquo;ISETL est utilisé habituellement sur des ensembles finis, comme pour l&amp;rsquo;exemple suivant :</description>
     </item>
     
     <item>

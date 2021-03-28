@@ -7,7 +7,7 @@ categories:
 tags: 
   - "amp"
   - "css"
-  - "tuto"
+  
   - "wordpress"
 description: "AMP est une technologie développée par Google depuis 2015. Open Source, c'est une méthode de création de page Web statique permettant un rendu plus rapide. Applicable sur Wordpress, elle peut permettre des **gains importants**, de part son utilisation de cache et sa **désactivation par défaut de code personnalisé JavaScript**. Cette désactivation est, en terme de vitesse, bénéfique. Elle pose malgré tout de nombreux problèmes. Un problème parmi ceux-ci est celui de la **coloration syntaxique**."
 ---

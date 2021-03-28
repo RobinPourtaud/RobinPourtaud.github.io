@@ -7,7 +7,7 @@ categories:
 tags: 
   - "apache2"
   - "htaccess"
-  - "tuto"
+  
   - "wordpress"
 description: ".htaccess est un fichier de configuration utilisé par Apache2 permettant de paramétrer le comportement du serveur HTTP dans un dossier précis. Ainsi, sans toucher aux fichiers de configuration du serveur HTTP directement, on pourra facilement réécrire l'URL afin de permettre la redirection du trafic HTTP vers HTTPS."
 ---

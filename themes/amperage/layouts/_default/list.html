@@ -1,7 +1,4 @@
 {{ define "main" }}
-	<article class="content">
-		{{.Content}}
-	</article>
 	{{ range .Paginator.Pages }}
 		{{- partial "post/summary.html" . -}}
 	{{ end }}

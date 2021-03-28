@@ -10,7 +10,7 @@ tags:
   - "php"
   - "raspberry-pi"
   - "raspbian"
-  - "tuto"
+  
   - "wordpress"
 description: "PHP7.4 est actuellement la dernière version de PHP. Sortie fin 2019, je vais vous montrer la méthode la plus simple pour installer cette version de php sous Raspbian."
 ---

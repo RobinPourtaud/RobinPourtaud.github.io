@@ -503,6 +503,8 @@ article .figure {
 		display: block;
 		overflow-x: auto;
 		border-collapse: collapse;
+		margin:10px;
+		text-align:center;
 		td, th {
 			border: 1px solid #ddd;
 		}
@@ -565,6 +567,7 @@ article .figure {
 			border-radius: 100px;
 			width:70px!important;
 			height:70px!important;
+			margin: 10px 0px 0px 0px;
 		}
 		&__right{
 			margin:0px!important;
@@ -625,16 +628,22 @@ article .figure {
 	}
 	
 	&__bottom{
+		text-align: left;
 		&__title{
-			color:black;
-			font-size:15px;
 			font-weight: bolder;
 			z-index: 10;
+			background-image: radial-gradient(circle farthest-corner at 12.3% 19.3%,rgba(85,88,218,1) 0%,rgba(95,209,249,1) 100.2%);
+    		-webkit-background-clip: text;
+    		-webkit-text-fill-color: transparent;
+			line-height: 1.4;
+    		font-weight: 500;
+			font-size: 20px;
 		}
 		&__desc{
 			font-size:13px;
 			color:black;
 			text-overflow:ellipsis;
+			letter-spacing: .1px;
 		}
 	}
 	

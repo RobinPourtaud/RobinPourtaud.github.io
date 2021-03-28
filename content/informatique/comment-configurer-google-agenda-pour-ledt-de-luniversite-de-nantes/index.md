@@ -7,7 +7,7 @@ categories:
 tags: 
   - "edt"
   - "google-agenda"
-  - "tuto"
+  
   - "universite"
 description: "L'université de Nantes propose une Application Android et IOS depuis 2019. En revanche, l'accès à l'EDT reste assez long et fastidieux... C'est pourquoi je vais vous expliquer comment associer votre EDT à Google Agenda."
 ---

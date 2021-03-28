@@ -215,15 +215,6 @@
     </item>
     
     <item>
-      <title>tuto</title>
-      <link>http://localhost:1313/tags/tuto/</link>
-      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/tuto/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>bing</title>
       <link>http://localhost:1313/tags/bing/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
@@ -418,15 +409,6 @@
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wsl2</title>
-      <link>http://localhost:1313/tags/wsl2/</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/wsl2/</guid>
       <description></description>
     </item>
     
@@ -724,6 +706,15 @@
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/optimisation-informatique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wsl2</title>
+      <link>http://localhost:1313/tags/wsl2/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/wsl2/</guid>
       <description></description>
     </item>
     

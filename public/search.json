@@ -111,10 +111,6 @@
             "url": "http://localhost:1313/mathematiques/la-notation-en-mathematique/",
             "date": "20 Juillet 2020"
         },{
-            "title": "Mode Mathématique sur Gboard",
-            "url": "http://localhost:1313/informatique/mode-mathematique-sur-gboard/",
-            "date": "20 Juillet 2020"
-        },{
             "title": "Résolution complexe : cos(x)sin(x)=1",
             "url": "http://localhost:1313/mathematiques/resolution-complexe-cosxsinx1/",
             "date": "7 Juillet 2020"
@@ -183,17 +179,9 @@
             "url": "http://localhost:1313/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/",
             "date": "25 Mai 2020"
         },{
-            "title": "WSL et USB",
-            "url": "http://localhost:1313/informatique/wsl-et-usb/",
-            "date": "22 Mai 2020"
-        },{
             "title": "Modifier la Bitmap d'une image avec Python 3",
             "url": "http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/",
             "date": "21 Mai 2020"
-        },{
-            "title": "Filtre Sépia d'une image en Python3",
-            "url": "http://localhost:1313/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/",
-            "date": "19 Mai 2020"
         },{
             "title": "Opération sur les matrices avec numpy en Python",
             "url": "http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/",
@@ -220,7 +208,7 @@
             "date": "23 Avril 2020"
         },{
             "title": "Héberger un Wordpress Gratuitement sur un Raspberry Pi",
-            "url": "http://localhost:1313/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/",
+            "url": "http://localhost:1313/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/",
             "date": "23 Avril 2020"
         },{
             "title": "Recevoir des notifications par mail en PHP grâce à IFTTT",
@@ -252,7 +240,7 @@
             "date": "12 Avril 2020"
         },{
             "title": "Conditionnement d'une Matrice",
-            "url": "http://localhost:1313/informatique/keske-cest-le-conditionnement-dune-matrice/",
+            "url": "http://localhost:1313/informatique/conditionnement-dune-matrice/",
             "date": "11 Avril 2020"
         },{
             "title": "Wsl2",

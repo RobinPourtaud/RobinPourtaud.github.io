@@ -8,7 +8,7 @@ tags:
   - "iftt"
   - "mail"
   - "php"
-  - "tuto"
+  
 description: "Il existe de nombreuses méthodes pour recevoir les notifications de son site web grâce à PHP. Aujourd'hui je vais vous montrer comment recevoir des mails grâce à IFTTT en moins de 10 min."
 ---
 ## Paramétrer IFTTT :

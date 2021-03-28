@@ -241,15 +241,6 @@ Installez l&amp;rsquo;extension sur votre wordpress : Selon vos préférences, v
     </item>
     
     <item>
-      <title>Mode Mathématique sur Gboard</title>
-      <link>http://localhost:1313/informatique/mode-mathematique-sur-gboard/</link>
-      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/informatique/mode-mathematique-sur-gboard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Traduction en Python 3 avec IBM Language Translator API</title>
       <link>http://localhost:1313/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
@@ -337,10 +328,9 @@ Fonction trigonométrique : Soit x un réel quelconque (appartenant aux domaines
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/informatique/isetl-fonction-mathematiques/</guid>
-      <description>Prérequis : Il est bien sur nécessaire d&amp;rsquo;avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n&amp;rsquo;est pas le cas, je vous renvoie vers mon article :
- ISETL 3.0 sur Windows 10
+      <description>Prérequis : Il est bien sur nécessaire d&amp;rsquo;avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n&amp;rsquo;est pas le cas, je vous renvoie vers mon article : ISETL 3.0 sur Windows 10
 Liste de fonctions mathématiques ISETL : Soit $x$ et $y$, deux réels quelconques :
-Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rceil$floor(x)$\lfloor x \rfloor$ln(x)$\ln x$log(x)$\log x $max(x,y)$\max (x,y)$min(x,y)$\min (x,y)$sgn(x)$\left\{\begin{array}{rcr} 1 &amp;amp; si &amp;amp; x&amp;gt;0 \ 0 &amp;amp; si &amp;amp; x = 0 \ -1 &amp;amp; si &amp;amp; x&amp;lt;0 \ \end{array}\right.</description>
+   Fonction ISETL Fonction mathématiques     abs(x) $\lvert x \rvert$   exp(x) $e^x$   ceil(x) $\lceil x \rceil$   floor(x) $\lfloor x \rfloor$   ln(x) $\ln x$   log(x) $\log x$   max(x,y) $\max (x,y)$   min(x,y) $\min (x,y)$   sgn(x) $\begin{cases}1\text{ si }x&amp;gt;0\0\text{ si }x=0\-1\text{ si }x&amp;lt;0\end{cases}$   sqrt(x) $\sqrt{x}$    NB : Il ne faut pas oublier qu&amp;rsquo;ISETL est utilisé habituellement sur des ensembles finis, comme pour l&amp;rsquo;exemple suivant :</description>
     </item>
     
     <item>
@@ -353,9 +343,7 @@ Fonction ISETLFonction mathématiquesabs(x)$|x|$exp(x)$e^x$ceil(x)$\lceil x \rce
 Soit $f(i,j)$ l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet $[R,G,B]$ associée au pixel.
 Soit un seuil $s \in [0,255]$.
 Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction $g$ tel que :
-$$ g(i,j) = \left{
-\begin{array}{ll}
-255 &amp;amp; \mbox{si } f(i,j) \leq s \</description>
+$$ g(i,j) = \begin{cases} 255 &amp;amp; \text{si} f(i,j) \leq s \ 0 &amp;amp; \text{sinon.</description>
     </item>
     
     <item>
@@ -444,15 +432,6 @@ Nécessaire  Avoir accès aux droits d&amp;rsquo;administration de votre Wordpre
     </item>
     
     <item>
-      <title>WSL et USB</title>
-      <link>http://localhost:1313/informatique/wsl-et-usb/</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/informatique/wsl-et-usb/</guid>
-      <description>Monter une partition ext4 ou ext2 Monter une partition ext4 protégé LUKS </description>
-    </item>
-    
-    <item>
       <title>Modifier la Bitmap d&#39;une image avec Python 3</title>
       <link>http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
@@ -465,17 +444,6 @@ Il n&amp;rsquo;est pas nécessaire de la télécharger, je vais vous montrer com
 Tout d&amp;rsquo;abord, ouvrez un nouveau fichier python dans votre IDE préféré. Jupyter Notebook est probablement la meilleure alternative :).
 Entrez ce code.
 from PIL import Image import requests from io import BytesIO Url = &#39;https://keskec.</description>
-    </item>
-    
-    <item>
-      <title>Filtre Sépia d&#39;une image en Python3</title>
-      <link>http://localhost:1313/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</link>
-      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/informatique/applique-un-filtre-sepia-sur-une-image-en-python3/</guid>
-      <description>Le fichier : Vous pouvez trouver le fichier complet ici :
-Les sources : Voir plus : Pour en savoir plus sur la modification de Bitmap en Python, je vous propose cet article, vous y trouverez le moyen de produire le négatif d&amp;rsquo;une image très simplement :).
- Modifier la Bitmap d’une image avec Python 3</description>
     </item>
     
     <item>
@@ -506,7 +474,7 @@ M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le
       <guid>http://localhost:1313/informatique/unordered_map-en-c/</guid>
       <description>Intérêts : L’intérêt principal de l&amp;rsquo;utilisation d&amp;rsquo;une unordered_map par rapport à un autre conteneur (notamement une map) est sa faible complexité asymptotique de recherche ou d&amp;rsquo;insertion moyenne (en O(1)).
 Exemple : En tant qu&amp;rsquo;exemple, je vais créer un tableau associant un animal à son âge.
-Définition : #include &amp;lt;iostream&amp;gt; //Cout, endl,etc #include &amp;lt;string&amp;gt; #include &amp;lt;unordered_map&amp;gt; int main(){ /* * Tableau associatif associant une clé de type string * à un int.</description>
+Définition : #include &amp;lt;iostream&amp;gt; //Cout, endl,etc#include &amp;lt;string&amp;gt;#include &amp;lt;unordered_map&amp;gt;int main(){ /* * Tableau associatif associant une clé de type string * à un int. * Concrètement, MaMap associant un animal à son âge */ std::unordered_map&amp;lt;std::string,int&amp;gt; MaMap = { {&amp;#34;Chien&amp;#34;,1}, {&amp;#34;Chat&amp;#34;,3}, {&amp;#34;Rat&amp;#34;,10}, {&amp;#34;Chameau&amp;#34;,3} }; // Le reste des parties ce situent ici  return 0; } Insertion : Complexité moyenne en O(1).</description>
     </item>
     
     <item>
@@ -524,10 +492,10 @@ Pour l&amp;rsquo;université de Nantes, cliquez sur cette icône :</description>
     
     <item>
       <title>Héberger un Wordpress Gratuitement sur un Raspberry Pi</title>
-      <link>http://localhost:1313/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link>
+      <link>http://localhost:1313/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/keske-cest-heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid>
+      <guid>http://localhost:1313/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid>
       <description>Wordpress est le CMS le plus utilisé au monde. De part sa simplicité d&amp;rsquo;utilisation et sa liberté de design, sa popularité s’explique d&amp;rsquo;elle même.
 Malheureusement, utiliser Wordpress pour laisser libre cours à son imagination revient souvent à passer par son porte monnaie.
 Pour un site personnel, 4€ par mois reste raisonnable, mais pour un site d&amp;rsquo;e-Commerce, 45€ semble moins attrayant&amp;hellip;.
@@ -582,13 +550,13 @@ Prérequis :  Vous devez avoir un ordinateur mis à jour, sous une distribution 
     
     <item>
       <title>Conditionnement d&#39;une Matrice</title>
-      <link>http://localhost:1313/informatique/keske-cest-le-conditionnement-dune-matrice/</link>
+      <link>http://localhost:1313/informatique/conditionnement-dune-matrice/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/keske-cest-le-conditionnement-dune-matrice/</guid>
+      <guid>http://localhost:1313/informatique/conditionnement-dune-matrice/</guid>
       <description>Définition Un système linéaire peut s&amp;rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&amp;rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.
 Pour une matrice inversible A, sa fonction de conditionnement est :
-$\kappa(A)=\Vert A \Vert \Vert A^{-1} \Vert $
+$$\kappa(A)=\Vert A \Vert \Vert A^{-1} \Vert$$
 Note : Plus $\kappa$ est élevé, plus la matrice A est mal conditionnée.
 Exemple 1 Pour comprendre ce qu&amp;rsquo;est le conditionnement, prenons un exemple de système linéaire $AX=Y$ :</description>
     </item>

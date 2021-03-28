@@ -6,7 +6,6 @@ categories:
   - "informatique"
 tags: 
   - "linux"
-  - "tuto"
   - "windows 10"
   - "wsl2"
 description: "Vous souhaitez savoir comment installer Windows Subsystem for Linux 2 ? Et utiliser Debian ou Ubuntu comme distribution ? Voici un article pour vous guider."
@@ -101,12 +100,10 @@ Vous avez enfin un système Linux opérationnel :).
 
 ### Petit + : Le nouveau Terminal Windows
 
-Vous pouvez télécharger le nouveau terminal Windows à l'adresse suivante:
+Vous pouvez télécharger le nouveau terminal Windows à l'adresse suivante : [Microsoft-Store](https://www.microsoft.com/fr-fr/p/windows-terminal-preview/9n0dx20hk701)
 
-[https://www.microsoft.com/fr-fr/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab](https://www.microsoft.com/fr-fr/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab)
 
-https://www.youtube.com/watch?v=8gw0rXPMMPE
-
+{{< youtube "8gw0rXPMMPE" >}}
 ## Sources:
 
 - [https://docs.microsoft.com/en-us/windows/wsl/wsl2-install](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install)

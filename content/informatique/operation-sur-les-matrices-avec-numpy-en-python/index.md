@@ -10,7 +10,7 @@ tags:
   - "matrice"
   - "numpy"
   - "python"
-  - "tuto"
+  
 description: "Effectuer des calculs sur les matrices est, souvent, une opération fastidieuse et source de nombreuses erreurs. L'algorithme naïf de multiplication de matrice possède, par exemple, une complexité cubique, rendant le calcul manuel de grandes matrices vite impossible. Utiliser un ordinateur pour effectuer ce genre de calculs me semble donc une bonne chose à faire. Pour aujourd'hui, je vais vous présenter quelques fonctions en python, permettant d'effectuer des opérations sur les matrices en juste quelques lignes de codes."
 ---
 ## Importer numpy
