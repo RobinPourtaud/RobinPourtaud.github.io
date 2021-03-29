@@ -15,14 +15,14 @@ Pour ce tutoriel, nous utiliserons le programme nmap. Pour l'installer, rien de 
 
 Sous une distribution basée sur Debian :
 
-```
+```bash
 sudo apt update
 sudo apt install nmap
 ```
 
 Sous ArchLinux :
 
-```
+```bash
 pacman -Sy nmap
 ```
 
@@ -34,7 +34,7 @@ En fonction des paramètres envoyés à nmap, la recherche de ports peut aussi b
 
 Pour lister tous les ports ouverts pour une adresse ip ou domaine donné, je vous propose la commande suivante :
 
-```
+```bash
 sudo nmap -p- -v -sS DOMAINE_OU_IP
 ```
 
@@ -47,21 +47,21 @@ L'option -sS ou scan SYN est celui par défaut et le plus populaire pour de bonn
 
 Pour prendre un exemple :
 
-```
+```bash
 sudo nmap -p- -v -sS google.fr
 ```
 
 En moins de 3 secondes on obtient 2 ports communs découverts : Le 80 et le 443 correspondants aux ports ouverts pour les protocoles HTTP et HTTPS :
 
-![](image-4-1024x583.png)
+![nmap google.fr](image-4-1024x583.png#t5)
 
-nmap google.fr
+
 
 Avec un peu de patience, nous pouvons enfin avoir accès à ce magnifique tableau récapitulatif :
 
-![](image-5.png)
+![Listes des ports ouverts de google.fr](image-5.png#t5)
 
-Listes des ports ouverts de google.fr
+
 
 ## Sources
 

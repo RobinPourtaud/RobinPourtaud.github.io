@@ -21,9 +21,9 @@ Cherchons à écrire i en écriture exponentielle :
 
 Nous savons que $e^{i \theta}=cos(\theta)+i sin(\theta)$. Pour obtenir i, il faut donc que $cos(\theta)$ et $sin(\theta)$ soit respectivement égaux à 0 et 1.
 
-![](image-1024x239.png)
+![Source : Cercle Trigonométrique - Wikipédia](image-1024x239.png#t5)
 
-Source : Cercle Trigonométrique - Wikipédia
+
 
 En utilisant ce tableau, nous pouvons voir qu'un angle de $\frac{\pi}{2}$ serait parfait ! (Utiliser un cercle trigonométrique ou partir de la forme algébrique aurait également été possible pour trouver la forme exponentielle de i).
 
@@ -59,7 +59,7 @@ $\frac{1}{\sqrt{2}}+ i \frac{1}{\sqrt{2}}$ ou $-\frac{1}{\sqrt{2}}- i \frac{1}{\
 
 Vous pouvez trouver un autre moyen de parvenir à la réponse en suivant cette vidéo de Blackpenredpen ici :
 
-https://www.youtube.com/watch?v=Z49hXoN4KWg
+{{< youtube Z49hXoN4KWg >}}
 
 ## Sources :
 

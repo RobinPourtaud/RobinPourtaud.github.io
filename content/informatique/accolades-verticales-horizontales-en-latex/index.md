@@ -8,40 +8,38 @@ categories:
 tags: 
   - "latex"
   - "systeme-lineaire"
-description: "Une des plus grandes forces de LaTeX est certainement **son rendu d'équations**. Très pratique et très rapide, le LaTeX vous permettra, dans le domaine des mathématiques, d'écrire des intégrales, des sommes, des limites, mais aussi **des systèmes linéaires**, le tout dans la plus grande simplicité.  "
----Faut-il encore savoir le faire...
-
-
+description: "Une des plus grandes forces de LaTeX est certainement son rendu d'équations. Très pratique et très rapide, le LaTeX vous permettra, dans le domaine des mathématiques, d'écrire des intégrales, des sommes, des limites, mais aussi des systèmes linéaires, le tout dans la plus grande simplicité."
+---
 
 ## Accolades horizontales
 
 ### Accolades sur du texte
 
-Pour afficher une accolade sur du texte, il suffit d'utiliser \overbrace comme ceci :
+Pour afficher une accolade sur du texte, il suffit d'utiliser ²overbrace comme ceci :
 
 **Code LaTex :**
 
-```
-5+5 = \overbrace{10_{10}}^{1010_2}
+```tex
+5+5 = ²overbrace{10_{10}}^{1010_2}
 ```
 
 **Rendu :**
 
-$5+5 = \overbrace{10_{10}}^{1010_2}$
+$$5+5 = \overbrace{10_{10}}^{1010_2}$$
 
 ### Accolades sous du texte
 
-La commande analogue à \overbrace est \underbrace.
+La commande analogue à ²overbrace est ²underbrace.
 
 **Code LaTeX :**
 
-```
-5+5 = \underbrace{10_{10}}_{1010_2}
+```tex
+5+5 = ²underbrace{10_{10}}_{1010_2}
 ```
 
 **Rendu :**
 
-$5+5 = \underbrace{10_{10}}_{1010_2}$
+$$5+5 = \underbrace{10_{10}}_{1010_2}$$
 
 ## Accolades verticales
 
@@ -49,29 +47,29 @@ Pour afficher une accolade verticale sur le coté gauche d'un texte, il suffit d
 
 **Code LaTeX :**
 
-```
-\left\{ 1+1=2
+```tex
+²left²{ 1+1=2
 ```
 
 **Rendu :**
 
 $$\begin{cases} 1+1=2\end{cases}$$
 
-Pour une accolade à droite, il existe la commande \right.
+Pour une accolade à droite, il existe la commande ²right.
 
-**Mais \left et \right prennent toute leur utilité dans l'écriture de systèmes ou de fonctions. Voici 2 exemples :**
+**Mais ²left et ²right prennent toute leur utilité dans l'écriture de systèmes ou de fonctions. Voici 2 exemples :**
 
 ### Un exemple de système :
 
 **Code LaTeX :**
 
-```
-\left\{
-\begin{array}{rcr}
-4x + 8y & = & 54 \
-2x + 7y & = & 39 \
-\end{array}
-\right.
+```tex
+²left²{
+²begin{array}{rcr}
+4x + 8y & = & 54 ²
+2x + 7y & = & 39 ²
+²end{array}
+²right.
 ```
 
 **Rendu :**
@@ -79,7 +77,7 @@ Pour une accolade à droite, il existe la commande \right.
 $$
 \begin{cases}  
 4x + 8y = & 54 \\  
-2x + 7y = & 39 \\  
+2x + 7y = & 39 
 \end{cases}   
 $$
 
@@ -87,25 +85,29 @@ $$
 
 **Code LaTeX :**
 
+```tex
+g(i,j) = &left²{
+²begin{array}{ll}
+² 255 & &mbox{si} f(i,j) ²leq s ²
+² 0 & ²mbox{sinon} 
+&end{array}
+&right.
 ```
-g(i,j) = \left\{
-\begin{array}{ll}
-\ 255 & \mbox{si } f(i,j) \leq s \
-\ 0 & \mbox{sinon} 
-\end{array}
-\right.
-```
-
 **Rendu :**
 
-$$ 
-g(i,j) = \left\{  
-\begin{array}{ll}  
-255 & \mbox{si } f(i,j) \leq s \\ 
-0 & \mbox{sinon.}  
-\end{array}  
-\right.  
-$$
+
+$$g(i,j) =\begin{cases}255&\text{si}\; f(i,j)\leq s\\0 &\text{sinon.}\end{cases}$$
+
+### Alternative : 
+Il est possible alternativement d'utiliser "²begin{cases}" et "²end{cases}" pour écrire un système : 
+
+```tex
+g(i,j) =
+²begin{cases}  
+255 ²text{si} f(i,j) ²leq s \\ 
+0 ²text{sinon.}    
+²end{cases}   
+```
 
 ## Sources :
 

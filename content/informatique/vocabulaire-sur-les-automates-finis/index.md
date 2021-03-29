@@ -19,7 +19,7 @@ Un automate est dit déterministe si il respecte trois conditions :
 2. Il ne possède pas d'epsilon-transitions.
 3. Pour chaque état de cet automate, il existe au maximum une transition issue de cet état possédant le même symbole.
 
-![Pas un AFD](image-1-edited.png)
+![Pas un AFD](image-1-edited.png#t3)
 
 
 
@@ -41,7 +41,7 @@ Cet automate n'est pas complet car on ne peut pas obtenir le symbole "a" depuis 
 
 Pour obtenir un automate équivalent, complet, il suffit de créer un état "puits", ou état "poubelle". Comme suit :
 
-![Automate fini complet](image-14.png)
+![Automate fini complet](image-14.png#t3)
 
 
 
@@ -51,13 +51,13 @@ Un automate est dit émondé (ou utile) si tous les états de cet automate peuve
 
 Par exemple : Cet automate est fini émondé. q0, q1 et q3 peuvent servir tous les 3 à la création du langage.
 
-![Automate fini émondé](image-6.png)
+![Automate fini émondé](image-6.png#t3)
 
 
 
 Cependant celui là ne l'est pas : l'état q1 n'est plus "utile".
 
-![Automate non émondé](image-7.png)
+![Automate non émondé](image-7.png#t3)
 
 
 
@@ -65,7 +65,7 @@ Cependant celui là ne l'est pas : l'état q1 n'est plus "utile".
 
 Un automate est dit unitaire si il possède un unique état initial.
 
-![Automate unitaire](image.png)
+![Automate unitaire](image.png#t3)
 
 
 
@@ -78,13 +78,13 @@ Un automate est dit standard si :
 
 Par exemple, ceci n'est pas un automate standard :
 
-![Automate non standard](image-8-1024x317.png)
+![Automate non standard](image-8-1024x317.png#t3)
 
 
 
 Mais celui là l'est :
 
-![Automate standard](image-9-1024x282.png)
+![Automate standard](image-9-1024x282.png#t3)
 
 
 
@@ -98,13 +98,13 @@ Un automate est dit normalisé si :
 
 Par exemple cet automate n'est pas normalisé :
 
-![Automate non-normalisé](image-10-1024x676.png)
+![Automate non-normalisé](image-10-1024x676.png#t3)
 
 
 
 Cet automate est normalisé :
 
-![Automate normalisé](image-11-1024x654.png)
+![Automate normalisé](image-11-1024x654.png#t3)
 
 
 

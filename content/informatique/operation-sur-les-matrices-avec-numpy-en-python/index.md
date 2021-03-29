@@ -93,7 +93,7 @@ M1 = np.array([ [1.,1.,2.],
 Eig = np.linalg.eig(M1)
 ```
 
-Pour en savoir plus sur le sujet, je vous renvoie vers mon article sur [les valeurs et vecteurs propres](https://keskec.fr/sciences/mathematiques/robin/684/).
+Pour en savoir plus sur le sujet, je vous renvoie vers mon article sur [les valeurs et vecteurs propres](/mathematiques/valeurs-et-vecteur-propre).
 
 ## Décomposition de Cholesky de Matrices
 
@@ -107,11 +107,11 @@ np.linalg.cholesky(M1)
 
 Le résultat de np.linalg.cholesky(M1) sera cette matrice L.
 
-Pour en savoir plus sur l'utilité et le calcul de la matrice de Cholesky, [c'est ici](https://keskec.fr/sciences/mathematiques/robin/622/).
+Pour en savoir plus sur l'utilité et le calcul de la matrice de Cholesky, [c'est ici](/mathematiques/decomposition-de-cholesky/).
 
 ## Conditionnement de Matrice
 
-Pour définir correctement le conditionnement d'une matrice, je vous suggère [mon article sur ce sujet](https://keskec.fr/sciences/informatique/robin/57/).
+Pour définir correctement le conditionnement d'une matrice, je vous suggère [mon article sur ce sujet](/informatiques/conditionnement-dune-matrice).
 
 ```python
 M1 = np.array([ [1,7,2,1],
@@ -123,7 +123,7 @@ Cond = np.linalg.cond(M1)
 
 Par défaut, np.linalg.cond **n'utilise pas la norme infinie.** Si vous souhaitez l'utiliser, je vous propose de rajouter cette option :
 
-```
+```python
 M1 = np.array([ [1,7,2,1],
                 [7,5,1,5],
                 [8,6,10,9],

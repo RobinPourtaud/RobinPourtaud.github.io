@@ -14,11 +14,11 @@ description: "Une image matricielle, ou « carte de points » (de l'anglais bitm
 ---
 ## Télécharger une image
 
-Je vous propose de modifier l'image que j'ai utilisé pour [mon article sur l'idée reçu des 5 sens](https://keskec.fr/sciences/biologie/robin/1101/) : [Celle-ci](https://keskec.fr/wp-content/uploads/2020/05/pexels-photo-2194261-1384x752.jpeg).
+Je vous propose de modifier cette image [image](pexels-photo-2194261-1384x752.jpeg).
 
-![](pexels-photo-2194261-1024x683.jpeg)
+![Chat Surpris](pexels-photo-2194261-1024x683.jpeg#t4)
 
-Chat Surpris
+
 
 Il n'est pas nécessaire de la télécharger, je vais vous montrer comment le faire avec Python directement.
 
@@ -26,12 +26,12 @@ Tout d'abord, ouvrez un nouveau fichier python dans votre IDE préféré. Jupyte
 
 Entrez ce code.
 
-```
+```python
 from PIL import Image
 import requests
 from io import BytesIO
 
-Url = 'https://keskec.fr/wp-content/uploads/2020/05/pexels-photo-2194261-1384x752.jpeg'
+Url = 'https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/pexels-photo-2194261-1384x752.jpeg'
 
 response = requests.get(Url)
 ImgDL = Image.open(BytesIO(response.content))
@@ -42,7 +42,7 @@ Dans vos fichiers, vous pouvez maintenant trouver "chat.jpeg".
 
 Je vous propose de faire une copie de ImgDL pour pouvoir réutiliser ImgDL plus tard si besoin.
 
-```
+```python
 import numpy as np
 newImg = np.copy(ImgDL)
 ```
@@ -51,7 +51,7 @@ newImg = np.copy(ImgDL)
 
 Pour afficher le tableau associé à l'image, rien de compliqué :
 
-```
+```python
 newImg
 ```
 
@@ -67,7 +67,7 @@ Pour cela, rien de très compliqué :
 
 #### Code :
 
-```
+```python
 newImg[0, 0:] = [0, 0, 0]
 
 imgF = Image.fromarray(newImg, 'RGB')
@@ -77,13 +77,13 @@ newImg
 
 #### Comparaison :
 
-![](pexels-photo-2194261-1024x683.jpeg)
+![Chat Surpris](pexels-photo-2194261-1024x683.jpeg#t4)
 
-Chat Surpris
 
-![](ligne-1024x683.png)
 
-Chat Surpris avec la première ligne en noir
+![Chat Surpris avec la première ligne en noir](ligne-1024x683.png#t4)
+
+
 
 A peine visible, il y a bien une première ligne noir sur la photo de droite :).
 
@@ -93,7 +93,7 @@ Pour rendre une image "rouge", il faut que la première valeur de chaque pixel s
 
 #### Code :
 
-```
+```python
 newImg[0, 0:] = [0,0,0]
 imgF = Image.fromarray(newImg, 'RGB')
 imgF.save('Rouge.png')
@@ -102,13 +102,12 @@ imgF
 
 #### Comparaison :
 
-![](pexels-photo-2194261-1024x683.jpeg)
+![Chat Surpris](pexels-photo-2194261-1024x683.jpeg#t4)
 
-Chat Surpris
 
-![](téléchargement-1024x683.png)
 
-Chat Surpris Rouge
+![Chat Surpris Rouge](téléchargement-1024x683.png#t4)
+
 
 ### Faire un négatif de l'image
 
@@ -116,22 +115,22 @@ Pour obtenir le négatif d’une image, il faut que chaque valeur soit remplacé
 
 #### Code :
 
-```
+```python
 newImg[0:, 0:, 0:] = 255 - newImg[0:, 0:, 0:]
 imgF = Image.fromarray(newImg, 'RGB')
-imgF.save('Rouge.png')
+imgF.save('negatif.png')
 imgF
 ```
 
 #### Comparaison :
 
-![](pexels-photo-2194261-1024x683.jpeg)
+![Image Originale](pexels-photo-2194261-1024x683.jpeg#t4)
 
-Image Originale
 
-![](Chat-Surpris-Neg-1024x683.png)
 
-Image Négative
+![Image Négative](Chat-Surpris-Neg-1024x683.png#t4)
+
+
 
 ## Le fichier sur GitHub :
 

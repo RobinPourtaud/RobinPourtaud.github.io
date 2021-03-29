@@ -27,23 +27,29 @@ Dû à la quasis absence de tutoriels sur le Web, nous avons essayé d'y remédi
 
 ### Installation :
 
-[ISETL 3.0 sur Windows 10](https://keskec.fr/sciences/informatique/robin/2690/)
+[ISETL 3.0 sur Windows 10](informatique/installer-isetl)
 
 ### Utilisation de ISETLW :
 
-[ISETL – Utilisation basique de ISETLW 3.0](https://keskec.fr/sciences/informatique/robin/3838/)
+[ISETL – Utilisation basique de ISETLW 3.0](/informatique/isetl-utilisation-basique-de-isetlw-3-0)
 
 ### Syntaxe des fonctions :
 
-[ISETL – Syntaxe des fonctions](https://keskec.fr/sciences/informatique/robin/3823/)
+[ISETL – Syntaxe des fonctions](/informatique/isetl-syntaxe-des-fonctions)
 
 ### Syntaxe des boucles :
 
-[ISETL – Boucle While et boucle For](https://keskec.fr/sciences/informatique/robin/3869/)
+[ISETL – Boucle While et boucle For](/informatique/isetl-boucle-while-et-boucle-for)
 
 ### Syntaxe des conditions :
 
-[ISETL - Conditions If, ElseIf, Else](https://keskec.fr/sciences/informatique/robin/3860/)
+[ISETL - Conditions If, ElseIf, Else](/informatique/isetl-conditions-if-elseif-else)
+
+### Fonctions trigonométriques et hyperboliques : 
+[ISETL - Fonctions trigonométriques et hyperboliques](/informatique/isetl-fonctions-trigonometriques-hyperboliques)
+
+### Fonctions mathématiques : 
+[ISETL - Fonctions mathematiques](/informatique/isetl-fonction-mathematiques)
 
 ## Sources :
 

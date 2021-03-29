@@ -22,12 +22,7 @@ Soit un seuil $s \in \[0,255\]$.
 
 Alors le seuillage de l'image f serait équivalent à une fonction $g$ tel que :
 
-$$
-g(i,j) = \begin{cases} 
-255 & \text{si} f(i,j) \leq s \\ 
-0 & \text{sinon.}  
-\end{cases}
-$$
+$$g(i,j) = \begin{cases} 255 & \text{si} \; f(i,j) \leq s \\ 0 & \text{sinon.}  \end{cases}$$
 
 
 ## Nécessaire

@@ -2,72 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>python on DevMath.fr</title>
-    <link>http://localhost:1313/tags/python/</link>
+    <link>//devmath.fr:1313/tags/python/</link>
     <description>Recent content in python on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="//devmath.fr:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Traduction en Python 3 avec IBM Language Translator API</title>
-      <link>http://localhost:1313/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</link>
+      <link>//devmath.fr:1313/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</guid>
+      <guid>//devmath.fr:1313/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</guid>
       <description>Nécessaire  Un compte IBM Cloud (gratuit). Pour se connecter ou s&amp;rsquo;inscrire, c&amp;rsquo;est ici : IBM Cloud. Avoir installé Python et pip sur votre ordinateur. Une alternative est l&amp;rsquo;utilisation de Jupyter Notebook.  Obtenir la clé de l&amp;rsquo;API Une fois connecté à IBM cloud, vous pouvez maintenant ajouter le service Language Translator :
  Language Translator - IBM Cloud
 Sélectionnez le &amp;ldquo;plan lite&amp;rdquo; :
- 
-Plan lite
+Plan lite  
 Une fois créé, dans l&amp;rsquo;onglet Manage, copiez l&amp;rsquo;API key et l&amp;rsquo;URL.</description>
     </item>
     
     <item>
-      <title>3 manières de calculer Pi en Python 3</title>
-      <link>http://localhost:1313/informatique/3-manieres-de-calculer-pi-en-python-3/</link>
-      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/informatique/3-manieres-de-calculer-pi-en-python-3/</guid>
-      <description>Définition de Pi : Pi est certainement la constante mathématique la plus connu. Enseigné à l&amp;rsquo;école primaire, elle est notamment utilisé pour calculer le périmètre d&amp;rsquo;un cercle grâce à son rayon :
-Soit P le périmètre du cercle et R son rayon, alors :
-$P = 2 \times \pi \times R$
-Autrement dit : $\pi = \frac{P}{2\times R}$
-Mais on peut aussi la retrouver dans de nombreuses autre formules !</description>
-    </item>
-    
-    <item>
       <title>Seuillage d&#39;image en Python3</title>
-      <link>http://localhost:1313/informatique/seuillage-dimage-en-python/</link>
+      <link>//devmath.fr:1313/informatique/seuillage-dimage-en-python/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/seuillage-dimage-en-python/</guid>
+      <guid>//devmath.fr:1313/informatique/seuillage-dimage-en-python/</guid>
       <description>Définition Soit $f$, une image composée de $n$ lignes et $m$ colonnes, $\forall i \in [0,n]$ et $\forall j \in [0,m]$.
 Soit $f(i,j)$ l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet $[R,G,B]$ associée au pixel.
 Soit un seuil $s \in [0,255]$.
 Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction $g$ tel que :
-$$ g(i,j) = \begin{cases} 255 &amp;amp; \text{si} f(i,j) \leq s \ 0 &amp;amp; \text{sinon.</description>
+$$g(i,j) = \begin{cases} 255 &amp;amp; \text{si} ; f(i,j) \leq s \ 0 &amp;amp; \text{sinon.</description>
     </item>
     
     <item>
       <title>Modifier la Bitmap d&#39;une image avec Python 3</title>
-      <link>http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
+      <link>//devmath.fr:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
-      <description>Télécharger une image Je vous propose de modifier l&amp;rsquo;image que j&amp;rsquo;ai utilisé pour mon article sur l&amp;rsquo;idée reçu des 5 sens : Celle-ci.
- 
-Chat Surpris
+      <guid>//devmath.fr:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
+      <description>Télécharger une image Je vous propose de modifier cette image image.
+Chat Surpris  
 Il n&amp;rsquo;est pas nécessaire de la télécharger, je vais vous montrer comment le faire avec Python directement.
 Tout d&amp;rsquo;abord, ouvrez un nouveau fichier python dans votre IDE préféré. Jupyter Notebook est probablement la meilleure alternative :).
 Entrez ce code.
-from PIL import Image import requests from io import BytesIO Url = &#39;https://keskec.</description>
+from PIL import Image import requests from io import BytesIO Url = &amp;#39;https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/pexels-photo-2194261-1384x752.jpeg&amp;#39; response = requests.get(Url) ImgDL = Image.</description>
     </item>
     
     <item>
       <title>Opération sur les matrices avec numpy en Python</title>
-      <link>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
+      <link>//devmath.fr:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
+      <guid>//devmath.fr:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
       <description>Importer numpy Avant toute chose, pour effectuer des calculs scientifiques, vous devez importer la bibliothèque numpy.
 import numpy as np Addition et Multiplication de Matrices M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) M2 = np.array([ [1.,1.,1.], [1.,2.,1.], [1.,1.,1.]]) MResultAdd = np.add(M1,M2) MResultSous = np.subtract(M1,M2) MResultMulti = M1.dot(M2) Trace de Matrices La trace d&amp;rsquo;une matrice est la somme des valeurs de la diagonale de la matrice.
 M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le calcul du déterminant d&amp;rsquo;une matrice est un outil nécessaire en algèbre linéaire afin de vérifier une inversibilité ou pour calculer l&amp;rsquo;inverse d&amp;rsquo;une matrice.</description>
@@ -75,10 +60,10 @@ M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le
     
     <item>
       <title>Traduire un string grâce à Google Traduction en Python (for free)</title>
-      <link>http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</link>
+      <link>//devmath.fr:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</guid>
+      <guid>//devmath.fr:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</guid>
       <description>La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l&amp;rsquo;API Google Cloud Translation. Cet API, bien que très pratique, pose un certain problème, celui du prix : 20$ pour 1 million de caractères. Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n&amp;rsquo;avez pas besoin d&amp;rsquo;utiliser autant de caractères, il serait intéressant de trouver une alternative gratuite.</description>
     </item>
     

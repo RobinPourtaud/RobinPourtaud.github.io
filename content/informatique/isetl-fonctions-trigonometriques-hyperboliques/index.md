@@ -1,6 +1,6 @@
 ---
 title: "ISETL - Fonctions trigonométriques et hyperboliques"
-slug: "isetl-liste-de-fonctions"
+slug: "isetl-fonctions-trigonometriques-hyperboliques"
 date: "2020-06-19"
 categories: 
   - "informatique"
@@ -10,7 +10,7 @@ tags:
   - "trigonometrie"
 description: "Cet article a pour finalité de vous lister quelques fonctions mathématiques predéfinies en ISETL."
 ---
-Pour installer ISETL, je vous renvoie vers [cet article](https://keskec.fr/sciences/informatique/robin/2690/).
+Pour installer ISETL, je vous renvoie vers [cet article](/informatique/installer-isetl/).
 
 ## Fonction trigonométrique :
 
@@ -32,9 +32,9 @@ Tableau récapitulatif des fonctions trigonométriques :
 
 Ces fonctions s'exécutent tout simplement de cette manière :
 
-![](image-7-1024x461.png)
+![sin(1) en ISETL](image-7-1024x461.png#t4)
 
-sin(1) en ISETL
+
 
 ## Fonctions hyperboliques :
 
@@ -49,10 +49,4 @@ Soit x un réel quelconque (appartenant aux [domaines de définition](https://fr
 | acosh(x) | Cosinus Hyperboliques réciproque |
 | atanh(x) | Tangente Hyperbolique réciproque |
 
-Tableau récapitulatif des fonctions hyperboliques :
 
-## Pour plus d'article sur ISETL :
-
-D'autres articles au sujet d'ISETL se trouvent ici :
-
-[ISETL - KeskeC](https://keskec.fr/tag/isetl/)

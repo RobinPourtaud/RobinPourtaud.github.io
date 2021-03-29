@@ -36,7 +36,7 @@ Elle est donc équivalente à :
 
 $$sin(2x) = 2$$
 
-Comme $\forall x \in \mathbb{R} | sin(x) \in \[0,1\]$.
+Comme $\forall x \in \mathbb{R} \;|\; sin(x) \in \[0,1\]$.
 
 Cette équation n'admet donc pas de solution dans R.
 
@@ -64,10 +64,7 @@ Prenons maintenant $y = \frac{-1}{2}ie^{2ix}$.
 
 Cela nous revient à résoudre le système :
 
-$\left\{ \begin{array}{rcr}  
-\frac{-1}{2}ie^{2ix} & = & y \\  
-\frac{1}{4y}+y & = &2 \\  
-\end{array} \right.$
+$$\begin{cases}\frac{-1}{2}ie^{2ix} \; = \; y \\ \frac{1}{4y}+y \; = \; 2  \end{cases}$$
 
 ### 4 - Recherche des solutions y
 

@@ -93,7 +93,7 @@ Procédure largeur(Arbre A) :
 
 Soit l'ABR suivant :
 
-![Exemple arbre binaire](image-32.png)
+![Exemple arbre binaire](image-32.png#t3)
 
 
 
@@ -108,7 +108,7 @@ Le résultat obtenu par le parcours suffixe de l'arbre binaire est similaire à 
 
 Si vous êtes intéressé pour en savoir plus, le sujet de la notation polonaise inverse est introduite dans cette vidéo de Computerphile :
 
-https://www.youtube.com/watch?v=7ha78yWRDlE
+{{< youtube "7ha78yWRDlE" >}}
 
 ## Sources :
 

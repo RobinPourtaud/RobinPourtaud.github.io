@@ -7,7 +7,7 @@ categories:
   - "mathematiques"
 tags: 
   - "logique"
-description: "A travers cet exercice, nous allons vous montrer comment simplifier une expression logique booléenne algébriquement, autrement dit sans avoir recours à un tableau de Karnaugh ou à la méthode de Quine. Pour pouvoir simplifier ces formules, vous devez avoir en tête un ensemble de propriétés sur les opérateurs logiques en plus du théorème de Morgan (que vous pouvez trouver facilement sur cette page : [L'algèbre de Boole](https://fr.wikipedia.org/wiki/Alg%C3%A8bre_de_Boole_(logique)))."
+description: "A travers cet exercice, nous allons vous montrer comment simplifier une expression logique booléenne algébriquement, autrement dit sans avoir recours à un tableau de Karnaugh ou à la méthode de Quine. Pour pouvoir simplifier ces formules, vous devez avoir en tête un ensemble de propriétés sur les opérateurs logiques en plus du théorème de Morgan (que vous pouvez trouver facilement sur la page wikipedia de l'algèbre de bool)."
 ---
 ## Exercices :
 
@@ -75,7 +75,7 @@ $C$
 
 ### Formule 4
 
-1
+$1$
 
 ### Formule 5
 

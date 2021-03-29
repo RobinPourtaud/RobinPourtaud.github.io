@@ -21,15 +21,15 @@ $$\sum_{k=0}^n {n \choose k}= 2^n$$
 
 Cette première démonstration est la plus rapide et directe. Elle s'appuiera sur la formule du binôme de Newton :
 
-$\sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n$
+$$\sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n$$
 
 Si nous prenons $x=1$ et $y=1$, alors obtenons l'égalité :
 
-$\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$
+$$\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$$
 
 Ce qui nous donne :
 
-$\sum_{k=0}^n {n \choose k}= 2^n$
+$$\sum_{k=0}^n {n \choose k}= 2^n$$
 
 ### Démonstration 2 :
 
@@ -46,6 +46,7 @@ L'ensemble des parties est constitué **par définition** d'1 partie à 0 élém
 
 Le cardinal de l'ensemble des parties est donc égal à $ \sum_{k=0}^n {n \choose k}$.
 
-Or selon de [nombreuses démonstrations](https://fr.wikipedia.org/wiki/Ensemble_des_parties_d%27un_ensemble), on peut dire que $\#\mathcal{P}(E)=2^{\#E}$.
+Or selon de [nombreuses démonstrations](https://fr.wikipedia.org/wiki/Ensemble_des_parties_d%27un_ensemble), on peut dire que
+$$\#\mathcal{P}(E)=2^{\#E}$$
 
 Nous retrouvons bien notre égalité de départ.

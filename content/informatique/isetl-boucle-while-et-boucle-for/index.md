@@ -7,7 +7,7 @@ categories:
 tags: 
   - "isetl"
   
-description: "_Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, il avait pour finalité_ **l’enseignement des mathématiques discrètes à l’université**_. Cet article est à destination des étudiants voulant apprendre à rédiger des boucles While et For en ISETL._"
+description: "Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, il avait pour finalité l’enseignement des mathématiques discrètes à l’université. Cet article est à destination des étudiants voulant apprendre à rédiger des boucles While et For en ISETL."
 ---
 ## Boucle While
 
@@ -21,7 +21,7 @@ En ISETL, une boucle "While" se rédige de cette façon :
 
 On veut se compliquer la vie et afficher 3 fois "true" avec une boucle "While" :
 
-```
+```php
 x := true;
 i := 0;
 while x do 
@@ -33,9 +33,9 @@ while x do
 end while;
 ```
 
-![](image-15-1024x456.png)
+![Boucle While ISETL](image-15-1024x456.png#t5)
 
-Boucle While ISETL
+
 
 ## Boucle For
 
@@ -45,7 +45,7 @@ Une boucle "For" est un type de boucle While se servant **d'un compteur et d'une
 
 En ISETL, une boucle For se rédige de cette façon :
 
-```
+```php
 for <variable> in <tuple> do
 <code>
 end for;
@@ -55,16 +55,11 @@ end for;
 
 On veut afficher tous les carrés des éléments de 0 à 9 d'un tuple :
 
-```
+```php
 E:=[0..9];
 for i in E do print(i**2);
 end for;
 ```
 
-![](image-14-1024x473.png)
+![Carrés des valeurs d\'un tuple](image-14-1024x473.png#t5)
 
-Carrés des valeurs d'un tuple
-
-## Plus d'ISETL ?
-
-[KeskeC - ISETL](https://keskec.fr/tag/isetl/)

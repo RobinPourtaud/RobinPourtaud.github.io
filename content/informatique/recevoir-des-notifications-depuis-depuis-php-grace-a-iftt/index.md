@@ -21,18 +21,17 @@ description: "Il existe de nombreuses méthodes pour recevoir les notifications 
 6. Appuyez sur "That" puis sélectionnez "Email".
 7. Personnalisez le body, le subject comme vous le souhaitez. Gardez juste bien en tête que "Value1" contiendra le message qu'on voudra envoyer.
 
-![](image-1-1.png)
+![Contenu Message IFTTT](image-1-1.png#t3)
 
-Contenu Message IFTTT
 
-8. Appuyez sur "Finish"
-9. Allez sur le lien suivant: [https://ifttt.com/maker_webhooks/settings](https://ifttt.com/maker_webhooks/settings)
-10. Devant URL, vous devriez pouvoir voir votre clé ! Gardez-la précieusement.
-11. Fini pour la configuration de IFTTT
+1. Appuyez sur "Finish"
+2. Allez sur le lien suivant: [https://ifttt.com/maker_webhooks/settings](https://ifttt.com/maker_webhooks/settings)
+3.  Devant URL, vous devriez pouvoir voir votre clé ! Gardez-la précieusement.
+4.  Fini pour la configuration de IFTTT
 
 ## Création d'une fonction PHP :
 
-```
+```php
 <?php
 function msg($message){
  $msgmodify=rawurlencode($message); 
@@ -45,7 +44,7 @@ function msg($message){
 
 En incluant cette fonction dans le reste de votre code, vous pourrez facilement envoyer des messages comme ceci :
 
-```
+```php
 msg("Bonjour, voici un message");
 ```
 

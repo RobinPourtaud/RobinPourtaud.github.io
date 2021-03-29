@@ -14,12 +14,12 @@ description: "Durant l'installation de notre site web, nous avions décidé d'ut
 
 On peut voir avec le screenshot suivant que _AMP for WP_ demande à Gravatar une image de taille s=70 car la taille du bloc est de taille 70 (dans notre cas).
 
-![Cependant, une image Gravatar de taille s=70 a tendance à être trouble.](image-8-1024x129.png)
+![Cependant, une image Gravatar de taille s=70 a tendance à être trouble.](image-8-1024x129.png#t5)
 
 
 Malheureusement, l'extension AMPforWP (actuellement en version : 1.0.53.1) ne le permet pas depuis les paramètres :
 
-![Author Bio - AMPforWP](image-9-1024x566.png)
+![Author Bio - AMPforWP](image-9-1024x566.png#t4)
 
 
 

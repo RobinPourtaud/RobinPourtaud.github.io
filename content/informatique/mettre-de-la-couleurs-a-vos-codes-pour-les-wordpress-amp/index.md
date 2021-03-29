@@ -9,7 +9,7 @@ tags:
   - "css"
   
   - "wordpress"
-description: "AMP est une technologie développée par Google depuis 2015. Open Source, c'est une méthode de création de page Web statique permettant un rendu plus rapide. Applicable sur Wordpress, elle peut permettre des **gains importants**, de part son utilisation de cache et sa **désactivation par défaut de code personnalisé JavaScript**. Cette désactivation est, en terme de vitesse, bénéfique. Elle pose malgré tout de nombreux problèmes. Un problème parmi ceux-ci est celui de la **coloration syntaxique**."
+description: "AMP est une technologie développée par Google depuis 2015. Open Source, c'est une méthode de création de page Web statique permettant un rendu plus rapide. Applicable sur Wordpress, elle peut permettre des gains importants, de part son utilisation de cache et sa désactivation par défaut de code personnalisé JavaScript. Cette désactivation est, en terme de vitesse, bénéfique. Elle pose malgré tout de nombreux problèmes. Un problème parmi ceux-ci est celui de la coloration syntaxique."
 ---
 Il existe de nombreuses extensions Wordpress permettant la coloration syntaxique. Cependant, la (très grande) majorité d'entre elles utilise le JavaScript... Ce tutoriel est là pour vous aider à rétablir vos magnifiques codes sur votre site Wordpress AMP :) .
 
@@ -137,9 +137,9 @@ Si ce n'est pas le cas, il se peut que vous utilisiez un plugin de cache, n'affi
 
 Si vos couleurs ne s'affichent pas où il faut pour certains blocs de code, il faudra sélectionner manuellement le bon langage de programmation associé. Pour cela, rendez-vous sur votre article. Cliquez sur le bloc de code posant problème.
 
-![](image-2-533x1024.png)
+![Bloc code](image-2-533x1024.png#t3)
 
-Bloc code
+
 
 Sélectionnez le langage adéquat !
 

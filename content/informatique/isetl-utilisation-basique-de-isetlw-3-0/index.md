@@ -7,13 +7,11 @@ categories:
 tags: 
   - "isetl"
   
-description: "_Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, elle avait pour finalité_ **l’enseignement des mathématiques discrètes à l’université**_._ Cet article a pour but de vous présenter comment exécuter du code via le logiciel ISETLW 3.0 sur Windows 10."
+description: "Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, elle avait pour finalité l’enseignement des mathématiques discrètes à l’université. Cet article a pour but de vous présenter comment exécuter du code via le logiciel ISETLW 3.0 sur Windows 10."
 ---
 ## Nécessaire :
 
-Pour pouvoir suivre ce tutoriel, il est nécessaire d'avoir accès au logiciel ISETLW 3.0 sur Windows. Pour cela, vous pouvez vous référer à mon précédent article sur son installation :
-
-[ISETL 3.0 sur Windows 10](https://keskec.fr/sciences/informatique/robin/2690/)
+Pour pouvoir suivre ce tutoriel, il est nécessaire d'avoir accès au logiciel ISETLW 3.0 sur Windows. Pour cela, vous pouvez vous référer à mon précédent article sur son installation : [ISETL 3.0 sur Windows 10](/informatique/installer-isetl)
 
 ## Utilisation de la console :
 
@@ -21,30 +19,30 @@ Pour pouvoir suivre ce tutoriel, il est nécessaire d'avoir accès au logiciel I
 
 Au démarrage de ISETLW, la console ISETL s'ouvrira par défaut :
 
-![](image-6-1024x624.png)
+![Console ISETLW 3.0](image-6-1024x624.png#t5)
 
-Console ISETLW 3.0
+
 
 Vous pouvez directement taper les commandes que vous souhaitez et appuyer sur "Entrer".  
 Sachez que vous pouvez aussi créer des fonctions, des boucles ou des conditions sans quitter le terminal. L'indentation se fera automatiquement, comme le montre le screen ci-dessous :
 
-![](image-7.png)
+![Utilisation de la console](image-7.png#t4)
 
-Utilisation de la console
+
 
 ### Effacer la console :
 
 Pour effacer la console, vous pouvez cliquer sur le menu "Windows" puis "Erase this Window".
 
-![](image-9.png)
+![Erase this Window](image-9.png#t4)
 
-Erase this Window
+
 
 ### Erreurs fréquentes :
 
 Si vous oubliez un ";", sachez qu'il est toujours possible de le rentrer à la ligne suivante :
 
-![](image-8.png)
+![](image-8.png#t4)
 
 ## Utilisation plus confortable :
 
@@ -56,9 +54,9 @@ Commencez par mettre en cascade ISETL, pour cela appuyez sur "Window" puis "Casc
 
 Ensuite réduisez la fenêtre "Graph Windows" :
 
-![](image-10-1024x211.png)
+![Réduction de graph Window](image-10-1024x211.png#t5)
 
-Réduction de graph Window
+
 
 ### Étape 2 : Ouvrir un nouveau document
 
@@ -68,15 +66,14 @@ Appuyez sur "File" puis "New".
 
 Vous pouvez maintenant cliquer sur "Window" puis "Tile Horizontally" ou "Tile Vertically" selon vos préférences :
 
-![](image-11-1024x643.png)
+![Affichage fragmenté ISETLW 3.0](image-11-1024x643.png#t5)
 
-Affichage fragmenté ISETLW 3.0
 
 ## Utilisation du "Text Window" :
 
-Je vous propose de tester avec une petite fonction tirée d'un [précédent tutoriel](https://keskec.fr/sciences/informatique/robin/3823/) sur les fonctions en ISETL :
+Je vous propose de tester avec une petite fonction tirée d'un [précédent tutoriel](/informatique/isetl-fonction-mathematiques) sur les fonctions en ISETL :
 
-```
+```php
 somme:=func(e);
 local x;
 if (#e = 1) then return arb(e);
@@ -91,15 +88,15 @@ somme({8,6,9});
 
 Collez cette fonction (ou votre code) dans la fenêtre "Text Window", et selectionnez tout ce code comme sur le screenshot suivant :
 
-![](image-12-1024x636.png)
+![Texte Sélectionné ISETLW 3.0](image-12-1024x636.png#t5)
 
-Texte Sélectionné ISETLW 3.0
+
 
 Une fois sélectionné, vous pouvez cliquer sur le feu vert :
 
-![](image-13-1024x650.png)
+![Texte éxécuté ISETLW 3.0](image-13-1024x650.png#t5)
 
-Texte éxécuté ISETLW 3.0
+
 
 Vous pouvez bien-sûr sauvegarder ce document grâce à la disquette !
 
@@ -107,8 +104,3 @@ Dans le cas où votre exécution se passerait mal, vous pouvez toujours cliquer 
 
 Vous pouvez maintenant utiliser ce petit logiciel normalement sans trop de problèmes :).
 
-## Plus de turoriels sur ISETL ?
-
-Pour faciliter votre apprentissage sur ISETL, je vous propose quelques articles afin de vous familiariser avec ce "magnifique" langage :
-
-[Isetl - KeskeC](https://keskec.fr/tag/isetl/)

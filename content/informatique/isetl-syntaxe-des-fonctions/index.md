@@ -7,7 +7,7 @@ categories:
 tags: 
   - "isetl"
   
-description: "Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, il avait pour finalité **l’enseignement des mathématiques discrètes à l’université**. Possédant une syntaxe atypique, ISETL est un langage difficile à appréhender pour un néophyte. Dans ce tutoriel, nous introduirons le concept de fonction en ISETL, partant d'une définition générale puis en prenant 3 exemples."
+description: "Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, il avait pour finalité l’enseignement des mathématiques discrètes à l’université. Possédant une syntaxe atypique, ISETL est un langage difficile à appréhender pour un néophyte. Dans ce tutoriel, nous introduirons le concept de fonction en ISETL, partant d'une définition générale puis en prenant 3 exemples."
 ---
 ## Fonction en ISETL
 
@@ -20,7 +20,7 @@ Comme dans d'autres langages de programmation, une fonction dans ISETL est une e
 En ISETL, la syntaxe des fonctions ne repose pas sur l'indentation, ni sur des accolades :  
 Une fonction commence par **func();** et se fini par **end func();**. Ainsi :
 
-```
+```php
 VotreFonction := func(param1);
 return param1;
 end func; 
@@ -28,7 +28,7 @@ end func;
 
 Pour exécuter cette fonction avec le paramètre 5 :
 
-```
+```php
 VotreFonction(5);
 ```
 
@@ -52,7 +52,7 @@ Si $e_1 = \{x,y\}$ et $e_2 = \{1,2\}$, alors $e_1\times e_2 = \{(x,1);(x,2);(y,1
 
 Nous avons donc :
 
-```
+```php
 cartesien := func(e1,e2);
 return {[x,y]:x in e1, y in e2};
 end func;
@@ -68,7 +68,7 @@ Par exemple pour l'ensemble {1,2,3}, nous souhaitons retourner 6.
 
 Je vous propose une fonction (plus complexe que nécessaire) pour vous familiariser avec la syntaxe ISETL.
 
-```
+```php
 somme:=func(e);
 local x;
 if (#e = 1) then return arb(e);
@@ -83,12 +83,9 @@ _Note : "#e" est le cardinal de e, "arb(e)" est un nombre arbitraire contenu dan
 
 Comme escompté :
 
-```
+```php
 somme({8,6,9});
 ```
 
 retourne "23;".
 
-## Plus de tutoriels sur ISETL ici :
-
-[Article sur ISETL de KeskeC](https://keskec.fr/tag/isetl/)

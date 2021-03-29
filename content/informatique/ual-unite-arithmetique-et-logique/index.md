@@ -49,7 +49,7 @@ Les opérations "non" et les 2 décalages se servent uniquement du premier nombr
 
 ## Flags :
 
-![4 bits Flags](image-23.png)
+![4 bits Flags](image-23.png#t3)
 
 
 
@@ -63,7 +63,7 @@ Cependant, dans le cadre de ce tutoriel, le circuit restera explicité :
 - c+ est le carry de l'opération 000 (addition)
 - c- est le carry de l'opération 001 (soustraction)
 
-![Carry Flag](image-24.png)
+![Carry Flag](image-24.png#t3)
 
 
 
@@ -75,7 +75,7 @@ Cependant, dans le cadre de ce tutoriel, le circuit restera explicité :
 
 Le zéro flag est égal à 1 si et seulement si tous les bits de S sont égaux à 0 :
 
-![Zero Flag](image-25.png)
+![Zero Flag](image-25.png#t3)
 
 
 
@@ -89,7 +89,7 @@ SF correspond au signe de S. Si S négatif, alors S = 1, sinon S=0.
 
 Autrement dit : $SF = S_7$
 
-![Sign Flag](image-26.png)
+![Sign Flag](image-26.png#t3)
 
 
 
@@ -108,9 +108,9 @@ Dans les autres cas : OF = 0.
 - S B est le signe de B
 - SF est le signe de S
 
-![](image-28.png)
+![Overflow Flag](image-28.png#t5)
 
-Overflow Flag
+
 
 Autrement dit :
 

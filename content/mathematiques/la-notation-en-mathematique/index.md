@@ -6,7 +6,7 @@ categories:
   - "mathematiques"
 tags: 
   - "notation"
-description: "Dans son livre *The Art of Computer Science*, l'informaticien Donald Knuth introduisit la notation *?*. Appelé Termial en anglais, la notation point d'interrogation n? représente la somme de tous les entiers naturels inférieurs ou égales à n."
+description: "Dans son livre 'The Art of Computer Science', l'informaticien Donald Knuth introduisit la notation '?'. Appelé Termial en anglais, la notation point d'interrogation 'n?' représente la somme de tous les entiers naturels inférieurs ou égales à n."
 ---
 ## Nota Bene :
 
@@ -34,11 +34,11 @@ Cette série est grossièrement divergente.
 
 Comme pour la fonction factorielle avec la fonction gamma, il est possible d'étendre la fonction "Termial" à des valeurs non entières en prenant :
 
-$n?=\sum^n_{i=1}i = \frac{n(n+1)}{2}$
+$$n?=\sum^n_{i=1}i = \frac{n(n+1)}{2}$$
 
 Ainsi :
 
-$0.5? = \frac{0.5(0.5+1)}{2} = \frac{3}{8}$
+$$0.5? = \frac{0.5(0.5+1)}{2} = \frac{3}{8}$$
 
 ## Sources :
 

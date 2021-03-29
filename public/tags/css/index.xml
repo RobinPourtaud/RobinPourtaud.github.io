@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>css on DevMath.fr</title>
-    <link>http://localhost:1313/tags/css/</link>
+    <link>//devmath.fr:1313/tags/css/</link>
     <description>Recent content in css on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="//devmath.fr:1313/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coloration Syntaxique pour Wordpress AMP</title>
-      <link>http://localhost:1313/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</link>
+      <link>//devmath.fr:1313/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</guid>
+      <guid>//devmath.fr:1313/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</guid>
       <description>Il existe de nombreuses extensions Wordpress permettant la coloration syntaxique. Cependant, la (très grande) majorité d&amp;rsquo;entre elles utilise le JavaScript&amp;hellip; Ce tutoriel est là pour vous aider à rétablir vos magnifiques codes sur votre site Wordpress AMP :) .
 Nécessaire  Avoir accès aux droits d&amp;rsquo;administration de votre Wordpress mis à jour (mai 2020). Avoir de préférence installé ce plugin pour AMP. Savoir installer une extension. Sinon : Support  Installer l’extension : Syntax-highlighting Code Block Je vous propose d&amp;rsquo;installer l&amp;rsquo;extension :</description>
     </item>

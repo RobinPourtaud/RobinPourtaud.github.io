@@ -11,9 +11,6 @@ tags:
 description: "Exercice corrigé de dénombrement n°1. "
 ---Difficulté : Moyenne
 
-## Liste d'exercice :
-
-**(En cours)**
 
 ## Énoncé : Une histoire de pigeon
 

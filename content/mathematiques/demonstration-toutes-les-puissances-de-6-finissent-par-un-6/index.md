@@ -12,15 +12,15 @@ description: "Par une démonstration par récurrence, cet article montrera que t
 
 6 puissance 1 est 6, 6 puissance 2 36, 6 puissance 3 216. Pour aller plus vite je vous propose ce code python :
 
-```
+```python
 for i in range(1,20) : print("6 puissance " + str(i) + " est égale à " + str(6**i))
 ```
 
 A l'exécution, nous avons :
 
-![](image-6-1024x530.png)
+![Puissance de 6 de 1 à 19](image-6-1024x530.png#t4)
 
-Puissance de 6 de 1 à 19
+
 
 Bien que très persuasif, ce n'est pas suffisant pour considérer cette propriété comme vraie...
 

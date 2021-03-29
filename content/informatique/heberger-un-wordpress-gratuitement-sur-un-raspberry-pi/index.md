@@ -9,9 +9,6 @@ tags:
   - "mysql"
   - "php"
   - "raspberry-pi"
-  - "raspbian"
-  - "server-http"
-  
   - "wordpress"
 description: "WordPress est un système de gestion de contenu (SGC ou content management system (CMS) en anglais) gratuit, libre et open-source."
 ---
@@ -21,9 +18,9 @@ Malheureusement, utiliser Wordpress pour laisser libre cours à son imagination 
 
 Pour un site personnel, 4€ par mois reste raisonnable, mais pour un site d'e-Commerce, 45€ semble moins attrayant....
 
-![](image-1024x423.png)
+![Tarifs avril 2020](image-1024x423.png#t5)
 
-Tarifs avril 2020
+
 
 Il serait donc intéressent de pouvoir profiter de WordPress gratuitement, et ce sans être limité par les blocages du modèle "gratuit".
 
@@ -40,26 +37,26 @@ Héberger soit même, son site WordPress semble donc être la bonne chose à fai
 
 Avant tout, vérifiez que votre ordinateur est bien à jour:
 
-```
+```bash
 sudo apt update
 sudo apt upgrade
 ```
 
 Pour pouvoir envoyer des pages web aux utilisateurs, nous avons besoin pour cela d'un serveur HTTP. Il existe Nginx, mais pour ma part, je vais utiliser Apache2.
 
-```
+```bash
 sudo apt install apache2
 ```
 
-```
+```bash
 sudo service apache2 start
 ```
 
 Maintenant, vous devriez pouvoir accéder à l'adresse http://localhost sur votre ordinateur et voir ce magnifique message:
 
-![](image-1-1024x535.png)
+![Apache2 Debian Default Page](image-1-1024x535.png#t5)
 
-Apache2 Debian Default Page
+
 
 > Bien sûr, vous pouvez paramétrer votre serveur à distance via SSH. Dans ce cas, veuillez taper son IP local à la place de localhost...
 > 
@@ -69,15 +66,15 @@ Apache2 Debian Default Page
 
 Wordpress est un programme développé en PHP, il est donc nécessaire d'installer PHP7. Wordpress utilise une base de données MySQL, nous devons donc l'installer également.
 
-```
+```bash
 sudo apt install php mysql
 wget https://dev.mysql.com/get/mysql-apt-config_0.8.13-1_all.deb
 sudo dpkg -i mysql-apt-config_0.8.13-1_all.deb
 ```
 
-![](image-2-1024x592.png)
+![Configure Mysql-apt-config](image-2-1024x592.png#t5)
 
-Configure Mysql-apt-config
+
 
 Appuyez sur "Ok"
 
@@ -88,7 +85,7 @@ sudo apt install mysql-server
 
 Si vous souhaitez avoir la dernière version de PHP, je vous conseille de suivre le tutoriel ci-dessous:
 
-[Installer PHP7.3 pour Wordpress](https://keskec.fr/sciences/informatique/robin/786/)
+[Installer PHP7.3 pour Wordpress](https://keskec.fr/sciences/informatique/robin/786/#t5)
 
 ## Configurer Mysql
 
@@ -96,35 +93,35 @@ Il faut maintenant configurer Mysql pour ajouter une base de données vide et un
 
 Pour cela, tapez:
 
-```
+```bash
 sudo mysql -u root -p
 ```
 
 Vous devriez maintenant voir ceci :
 
-![](image-9-1024x281.png)
+![](image-9-1024x281.png#t5)
 
 Ensuite, créez une nouvelle base de donnée :
 
-```
+```SQL
 CREATE DATABASE exempleDB;
 ```
 
 Créez un nouvel utilisateur :
 
-```
+```SQL
 CREATE USER 'exempleUtilisateur' IDENTIFIED BY 'exempleMDP';
 ```
 
 Et maintenant, donnez la permission à votre utilisateur de modifier à volonté exempleDB :
 
-```
+```SQL
 GRANT USAGE ON 'exempleDB'.* TO 'exempleUtilisateur'@localhost IDENTIFIED BY 'exempleMDP';
 ```
 
 Et enfin, afin de rendre ces nouveaux privilèges effectifs :
 
-```
+```SQL
 FLUSH PRIVILEGES;
 ```
 
@@ -138,9 +135,9 @@ Ce paramètrage est accessible sous l'onglet "Gestion des ports" sur les Freebox
 
 L'idée générale consiste à trouver ce menu, rajouter une redirection, et de la remplir ainsi :
 
-![](image-5.png)
+![Redirection de port: Freebox](image-5.png#t4)
 
-Redirection de port: Freebox
+
 
 Faites de même avec le HTTP (port 80) si vous le souhaitez.
 
@@ -154,7 +151,7 @@ Une fois votre domaine acheté, vous devrez configurer vos règles de type A.
 
 Dans l'onglet DNS, vous pouvez rajouter cette règle, c'est ici que vous configurer les sous-domaines éventuels de votre site.
 
-![](image-7-1024x307.png)
+![](image-7-1024x307.png#t5)
 
 ## Installer un Certificat SSL gratuit pour HTTPS
 
@@ -162,7 +159,7 @@ Optionnel: Si vous souhaitez avoir plusieurs sous-domaines, il est préférable 
 
 La façon d'avoir un certificat gratuit le plus facilement est d'utiliser l'outil Certbot, il vous délivrera et configurera seul le certificat SSL. Pour cela, ajoutez le PPA de certbot :
 
-```
+```bash
 sudo apt-get update
 sudo apt-get install software-properties-common
 sudo add-apt-repository universe
@@ -172,19 +169,19 @@ sudo apt-get update
 
 Et installez-le :
 
-```
+```bash
 sudo apt-get install certbot python-certbot-apache
 ```
 
 Une fois installé, vous pouvez maintenant l’exécuter :
 
-```
+```bash
 sudo certbot
 ```
 
 Vous devriez maintenant recevoir la question suivante :
 
-![](image-8-1024x408.png)
+![](image-8-1024x408.png#t5)
 
 Ensuite, acceptez la redirection. Apache doit maintenant redémarrer et vous pourrez (normalement) voir la page Apache s’afficher à l’adresse : https://votre-site.com
 
@@ -194,31 +191,31 @@ Veuillez prendre en compte qu'il aurait été préférable de pré-paramétrer s
 
 Positionnez-vous dans le dossier /var/www/
 
-```
+```bash
 cd /var/www
 ```
 
 Téléchargez l'archive avec la commande :
 
-```
+```bash
 wget https://wordpress.org/latest.zip
 ```
 
 Ensuite, extrayez l'archive :
 
-```
+```bash
 unzip latest.zip
 ```
 
 Un nouveau dossier nommé "Wordpress" est apparu dans le dossier courant. Vous devez maintenant indiquer à Apache2 de regarder dans ce dossier :
 
-```
+```bash
 sudo nano /etc/apache2/sites-available/000-default-le-ssl.conf
 ```
 
 Ensuite, indiquez la localisation du dossier comme ceci :
 
-```
+```ApacheConf
 <IfModule mod_ssl.c>
 <VirtualHost *:443>
         ServerName NOMDUSITE.COM
@@ -239,7 +236,7 @@ Configuration de Apache2 basique, suffisante pour que le site fonctionne mais de
 
 Redémarrez Apache2 :
 
-```
+```bash
 sudo service apache2 restart
 ```
 

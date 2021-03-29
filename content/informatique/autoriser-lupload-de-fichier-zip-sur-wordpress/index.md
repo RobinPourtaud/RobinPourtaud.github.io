@@ -8,7 +8,9 @@ tags:
   
   - "wordpress"
   - "zip"
-description: "*Désolé, ce type de fichier n’est pas autorisé pour des raisons de sécurité.* J'ai repoussé à de nombreuses reprises sa résolution pensant que c'était une opération complexe. Finalement, en moins de 5 min, c'était résolu et c'est ce que je vais vous montrer dès maintenant ! "
+
+latex: false
+description: "Désolé, ce type de fichier n’est pas autorisé pour des raisons de sécurité. J'ai repoussé à de nombreuses reprises sa résolution pensant que c'était une opération complexe. Finalement, en moins de 5 min, c'était résolu et c'est ce que je vais vous montrer dès maintenant ! "
 ---
 
 Je traiterai l'upload de fichiers zip en particulier.
@@ -32,13 +34,11 @@ Dans notre cas, notre type MIME est "application/zip", mais il en existe pleins 
 - **image/gif** pour les images GIF
 - **text/css** pour le CSS
 
-Pour en voir plus :
-
-[Type Mimes - Wikipédia](https://fr.wikipedia.org/wiki/Type_de_m%C3%A9dias)
+Pour en voir plus : [Type Mimes - Wikipédia](https://fr.wikipedia.org/wiki/Type_de_m%C3%A9dias)
 
 Pour ajouter les fichiers "zip", ajoutez-y ces lignes entre les balises php.
 
-```
+```php
 function zip_up($mimes=array()) { 
    $mimes['zip'] = 'application/zip';
    return $mimes;
@@ -54,24 +54,19 @@ _Nb : Vous pouvez bien sûr ajouter autant d'extensions que vous souhaitez..._
 
 Pour autoriser l'upload de n'importe quel fichier, il suffit d'ajouter la ligne suivante au fichier wp-config.php à la racine de votre site web.
 
-```
+```php
 define('ALLOW_UNFILTERED_UPLOADS', true);
 ```
 
 ## Alternative : Utiliser une extension
 
-J'utilise personnellement l'extension :
-
-[WP add Mimes Types](https://fr.wordpress.org/plugins/wp-add-mime-types/) par  [Kimiya Kitani](http://kitaney-wordpress.blogspot.jp/)
+J'utilise personnellement l'extension : [WP add Mimes Types](https://fr.wordpress.org/plugins/wp-add-mime-types/) par [Kimiya Kitani](http://kitaney-wordpress.blogspot.jp/)
 
 Une fois installée, vous la trouverez sous "Réglage" puis "Mime types settings".
 
 Vous y trouverez également une liste d'extension autorisé sous "List of allowed mime types and file extensions by WordPress".
 
-![](image-3-1024x519.png)
+![Add Values - WP add Mimes Types](image-3-1024x519.png#t4)
 
-Add Values - WP add Mimes Types
 
-Ajoutez-y cette ligne et enregistrez :).
-
-Plus d'articles sur Wordpress ? [Bonne lecture](https://keskec.fr/tag/wordpress/)
+Ajoutez-y cette ligne et enregistrez.

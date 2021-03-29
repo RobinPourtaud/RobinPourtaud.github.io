@@ -8,7 +8,7 @@ tags:
   - "bing"
   - "seo"
   - "wordpress"
-description: "Le 21 juin 2020, Bing annonça la sortie de son nouveau plugin Wordpress : *Bing URL Submissions Plugin*. Open source, il permettrait d'indexer **les articles Wordpress** automatiquement et immédiatement au moment de leurs publications."
+description: "Le 21 juin 2020, Bing annonça la sortie de son nouveau plugin Wordpress : Bing URL Submissions Plugin. Open source, il permettrait d'indexer les articles Wordpress automatiquement et immédiatement au moment de leurs publications."
 ---
 Cet article est basé sur un communiqué de [blogs.bing.com](https://blogs.bing.com/webmaster/july-2020/Get-your-WordPress-content-indexed-immediately-using-Bing-Webmaster-Tools-plugin) publié le 21 juin 2020.
 
@@ -27,9 +27,9 @@ L'installation se déroule en 3 étapes et ne devrait pas vous prendre plus de 1
 
 Selon vos préférences, vous pouvez soit chercher dans votre interface d'administration l'extension "Bing Url Submissions Plugin" et l'installer :
 
-![](image-2-1024x733.png)
+![Bing Url Submissions Plugin](image-2-1024x733.png#t4)
 
-Bing Url Submissions Plugin
+
 
 Soit télécharger et installer manuellement [l'extension.](https://wordpress.org/plugins/bing-webmaster-tools/)
 
@@ -43,17 +43,17 @@ Soit télécharger et installer manuellement [l'extension.](https://wordpress.or
 
 Accédez, depuis la liste des extensions, au paramètres de "URL Submission plugin" :
 
-![](image-3-1024x649.png)
+![Bing URL Submission plugin for Wordpress](image-3-1024x649.png#t4)
 
-Bing URL Submission plugin for Wordpress
+
 
 Enfin, vous pouvez maintenant coller la clé de l'API.
 
 Tous vos nouveaux articles seront maintenant présents sur Bing !
 
-![](image-4-1024x727.png)
+![Url Submission plugin for Wordpress Interface](image-4-1024x727.png#t4)
 
-Url Submission plugin for Wordpress Interface
+
 
 ## Source :
 

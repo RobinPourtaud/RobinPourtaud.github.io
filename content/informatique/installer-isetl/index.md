@@ -7,9 +7,8 @@ categories:
 tags: 
   - "isetl"
   - "ms-dos"
-  
   - "windows-10"
-description: "Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, elle avait pour finalité **l'enseignement des mathématiques discrètes à l'université**."
+description: "Interactive SET Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, elle avait pour finalité l'enseignement des mathématiques discrètes à l'université."
 ---
 En 1985, SETL était devenu un projet très lourd, lent et nécessitait une compilation, ce qui le rendait difficilement utilisable. C'est dans ce contexte que Gary Levin décida de créer une version de SETL interactive à direction des universités.  
 Et c'est ainsi qu'en 1988 sortit la version 1.0 d'ISETL : **plus rapide**, **plus léger** (<250K), et ayant une **syntaxe très proche de celle de SETL**. (source 1)
@@ -26,9 +25,9 @@ Dans le cas où les fichiers ne seraient plus disponibles, vous pouvez les retro
 
 Au moment où je rédige cet article, je suis sur Windows 10 version 2004, il se peut que de futures mises à jour de Windows rendent ce "vieux programme" inutilisable.
 
-![](image.png)
+![Windows 10 version 2004](image.png#t4)
 
-Windows 10 version 2004
+
 
 _Info : pour connaitre rapidement votre version de Windows : Win + R et tapez "winver"._
 
@@ -38,15 +37,13 @@ Dans le pire cas, je peux vous proposer d'utiliser une ancienne version de Windo
 
 Malencontreusement, le site web officiel d'ISETL n'est plus accessible en ligne et n'est absolument plus mis à jour. En revanche, il est tout à fait possible de le retrouver archivé sur [Wayback Machine](https://web.archive.org/web/20070411084445/http://csis03.muc.edu/isetlw/isetlw.htm).
 
-Il n'est pas nécessaire de cliquer, je vous propose de télécharger le fichier juste ici :
-
-[Télécharger IsetlW](https://keskec.fr/wp-content/uploads/2020/06/ISETLW.zip)
+Il n'est pas nécessaire de cliquer, je vous propose de télécharger le fichier juste ici : [Télécharger IsetlW](https://keskec.fr/wp-content/uploads/2020/06/ISETLW.zip)
 
 À l'intérieur de l'archive, vous trouverez un fichier exécutable. Extrayez-le et exécutez-le. Vous pourrez maintenant interpréter du ISETL sur Windows 10 !
 
-![](image-1-1024x573.png)
+![ISETLW 3.0](image-1-1024x573.png#t4)
 
-ISETLW 3.0
+
 
 ## La version MS-DOS :
 
@@ -63,17 +60,13 @@ Il va donc falloir installer un émulateur MS-DOS pour pouvoir faire tourner ce 
 - [DOSBox](https://la-vache-libre.org/dosbox-tatez-du-ms-dos-sous-gnulinux/) pour Linux
 - [DOSBox](https://play.google.com/store/apps/details?id=bruenor.magicbox.free&hl=fr) pour Android
 
-Je vais continuer les explications avec vDos pour Windows 10. Vous pouvez d'ailleurs le télécharger ici :
-
-[vDos.zip](https://keskec.fr/wp-content/uploads/2020/06/Vdos.zip)
+Je vais continuer les explications avec vDos pour Windows 10. Vous pouvez d'ailleurs le télécharger ici : [vDos.zip](https://www.vdos.info/download.html)
 
 Je vous laisse l'installer en gardant bien en tête l'endroit où il sera stocké (le garder à la racine est conseillé).
 
 ### Télécharger ISETL3.0 pour MS-DOS
 
-Vous pouvez télécharger la version MS-DOS juste ici :
-
-[ISETL3.0 MS-DOS](https://keskec.fr/wp-content/uploads/2020/06/ISETLMS-DOS.zip)
+Vous pouvez télécharger la version MS-DOS juste ici : [ISETL3.0 MS-DOS](https://github.com/KeskeC/ISETL/tree/master/ISETL-DOS)
 
 Je vous laisse extraire le fichier dans le dossier d'installation de vDos pour pouvoir l'exécuter sans se soucier de sa possession dans votre ordinateur.
 
@@ -83,7 +76,7 @@ Par défaut : C:\vDos
 
 Ouvre et modifier le fichier "autoexec.txt" comme ceci :
 
-```
+```batch
 rem This is essentially the DOS autoexec.bat.
 rem =========================================
 
@@ -111,9 +104,8 @@ Sauvegardez le fichier.
 
 Vous pouvez enfin exécuter "vDos.exe". Constatez que tout fonctionne comme prévu !
 
-![](image-2-1024x658.png)
+![ISETL 3.0 MS-DOS](image-2-1024x658.png#t4)
 
-ISETL 3.0 MS-DOS
 
 ## Sources :
 

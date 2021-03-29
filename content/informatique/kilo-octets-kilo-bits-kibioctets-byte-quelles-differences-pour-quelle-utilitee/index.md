@@ -8,7 +8,8 @@ tags:
   - "bit"
   - "conversion"
 description: "Durant votre *vie numérique*, vous avez sans doute rencontré de nombreux acronymes. Des Kbit ? Des To? Voir même de Gio ?  "
----Savoir combien de films votre clé USB peut stocker, ce n'est pas inné, ça s'apprend, et c'est ce que je vais vous expliquer à travers cet article :).
+---
+Savoir combien de films votre clé USB peut stocker, ce n'est pas inné, ça s'apprend, et c'est ce que je vais vous expliquer à travers cet article :).
 
 ## Le système international d'unité (SI)
 
@@ -32,7 +33,7 @@ Pour une vision plus globale de la chose, je vous propose un tableau présentant
 | giga- | G | $10^9$ |
 | téra- | T | $10^{11}$ |
 
-Quelques préfixes SI couramment utilisés
+
 
 Voyons maintenant les unités employées pour **la quantification de données.**
 
@@ -64,7 +65,7 @@ Je vous propose un tableau usuel récapitulatif du bit selon le système interna
 | zettabit | Zbit | $10^{21}$ |
 | yottabit | Ybit | $10^{24}$ |
 
-Le bit du SI
+
 
 Par exemple : 1kbit = 1000 bits
 
@@ -103,7 +104,6 @@ Je vous propose un tableau usuelle récapitulatif du bit selon le système inter
 | Zettaoctet | Zo | $10^{21}$ |
 | Yotaoctet | Yo | $10^{24}$ |
 
-L'octet du SI
 
 Donc par exemple 1Ko = 1000o = 8Mb = 8000b. **Par mésusage** 1Ko=Kbytes.
 

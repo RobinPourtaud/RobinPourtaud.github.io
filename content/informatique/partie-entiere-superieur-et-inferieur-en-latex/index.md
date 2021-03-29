@@ -15,48 +15,44 @@ description: "Cet article présentera l'utilisation de la partie entière, aussi
 
 Pour prendre la partie entière supérieure d'un entier $x$ en Latex, il suffit de taper ceci :
 
-```
-\lceil x \rceil 
+```tex
+²lceil x ²rceil 
 ```
 
 Voici le résultat :
 
-$\lceil x \rceil$
+$$\lceil x \rceil$$
 
 ## Partie entière inférieure en LaTex :
 
 La partie entière inférieure en Latex d'un entier $x$ se fait de façon analogue à celle supérieure :
 
-```
-\lfloor x \rfloor 
+```tex
+²lfloor x ²rfloor 
 ```
 
 Voilà son rendu :
 
-$\lfloor x \rfloor$
+$$\lfloor x \rfloor$$
 
 ## Raccourcir son utilisation avec une macro?
 
 Il est possible de faire une macro de la partie entière afin de simplifier son utilisation :
 
-```
+```tex
 \newcommand{\floor}[1]{\lfloor #1 \rfloor}
 \newcommand{\ceil}[1]{\lceil #1 \rceil}
 ```
 
 Il est ainsi possible d'utiliser :
 
-```
+```tex
 \floor{x}
 \ceil{x}
 ```
 
-$\lceil x \rceil\ \lfloor x \rfloor$
+$$\lceil x \rceil\ \lfloor x \rfloor$$
 
 Pour raccourcir votre code Latex.
 
-## Intéressé par la création d'accolades en LaTeX ?
 
-Je vous propose mon article sur le sujet :
-
-[Accolades Verticales/Horizontales en LaTeX](https://keskec.fr/sciences/informatique/robin/2530/)

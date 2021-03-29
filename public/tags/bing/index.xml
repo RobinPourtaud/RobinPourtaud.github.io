@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bing on DevMath.fr</title>
-    <link>http://localhost:1313/tags/bing/</link>
+    <link>//devmath.fr:1313/tags/bing/</link>
     <description>Recent content in bing on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/bing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="//devmath.fr:1313/tags/bing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bing URL Submissions Plugin : Indexez instantanément vos pages Wordpress !</title>
-      <link>http://localhost:1313/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</link>
+      <link>//devmath.fr:1313/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</guid>
+      <guid>//devmath.fr:1313/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</guid>
       <description>Cet article est basé sur un communiqué de blogs.bing.com publié le 21 juin 2020.
 Nécessaire : Il y a 2 prérequis pour pouvoir suivre ce tutoriel :
  Avoir un Wordpress à jour et en posséder les droits d&amp;rsquo;administrations. Avoir un compte  Bing Webmaster Tools correctement parametré.  Étape par étape : L&amp;rsquo;installation se déroule en 3 étapes et ne devrait pas vous prendre plus de 10 min.

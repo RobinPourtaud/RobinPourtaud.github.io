@@ -27,15 +27,28 @@ Ce qui nous donne :
 
 
 
-$\mathbb{R}$
+$$\mathbb{R}$$
 
 ## Tableau récapitulatif
 
 Ce tableau liste quelques utilisation commune des majuscules ajourés en mathématique :
 
-<table class="has-fixed-layout"><tbody><tr><td><strong>Ensemble</strong></td><td><strong>Code Latex</strong></td><td><strong>Affichage</strong></td></tr><tr><td>Biquaternion</td><td>\mathbb{B}</td><td>$\mathbb{B}$</td></tr><tr><td>Ensemble des nombres complexes</td><td>\mathbb{C}</td><td>$\mathbb{C}$</td></tr><tr><td>Ensemble des nombres décimaux</td><td>\mathbb{D}</td><td>$\mathbb{D}$</td></tr><tr><td>Espérance mathématique</td><td>\mathbb{E}</td><td>$\mathbb{E}$</td></tr><tr><td>Quaternion</td><td>\mathbb{H}</td><td>$\mathbb{H}$</td></tr><tr><td>Corps</td><td>\mathbb{K}</td><td>$\mathbb{K}$</td></tr><tr><td>Quaternion Hyperbolique</td><td>\mathbb{M}</td><td>$\mathbb{M}$</td></tr><tr><td>Ensemble des entiers naturels</td><td>\mathbb{N}</td><td>$\mathbb{N}$</td></tr><tr><td>Octonion</td><td>\mathbb{O}</td><td>$\mathbb{O}$</td></tr><tr><td>Ensemble des nombres premiers / Probabilité</td><td>\mathbb{P}</td><td>$\mathbb{P}$</td></tr><tr><td>Ensemble des nombres rationnels</td><td>\mathbb{Q}</td><td>$\mathbb{Q}$</td></tr><tr><td>Ensemble des nombres réels</td><td>\mathbb{R}</td><td>$\mathbb{R}$</td></tr><tr><td>Sédénion</td><td>\mathbb{S}</td><td>$\mathbb{S}$</td></tr><tr><td>Ensembles des entiers relatifs</td><td>\mathbb{Z}</td><td>$\mathbb{Z}$</td></tr></tbody></table>
-
-Majuscules ajourés
+|Ensemble|Code Latex|Affichage|
+|--- |--- |--- |
+|Biquaternion|²mathbb{B}|$\mathbb{B}$|
+|Ensemble des nombres complexes|²mathbb{C}|$\mathbb{C}$|
+|Ensemble des nombres décimaux|²mathbb{D}|$\mathbb{D}$|
+|Espérance mathématique|²mathbb{E}|$\mathbb{E}$|
+|Quaternion|²mathbb{H}|$\mathbb{H}$|
+|Corps|²mathbb{K}|$\mathbb{K}$|
+|Quaternion Hyperbolique|²mathbb{M}|$\mathbb{M}$|
+|Ensemble des entiers naturels|²mathbb{N}|$\mathbb{N}$|
+|Octonion|²mathbb{O}|$\mathbb{O}$|
+|Ensemble des nombres premiers / Probabilité|²mathbb{P}|$\mathbb{P}$|
+|Ensemble des nombres rationnels|²mathbb{Q}|$\mathbb{Q}$|
+|Ensemble des nombres réels|²mathbb{R}|$\mathbb{R}$|
+|Sédénion|²mathbb{S}|$\mathbb{S}$|
+|Ensembles des entiers relatifs|²mathbb{Z}|$\mathbb{Z}$|
 
 Toutes les lettres de l'alphabet (latin ou grec) peuvent être prises en argument.
 

@@ -1,6 +1,6 @@
 ---
 title: "Coefficient binomial - k parmi n en Latex"
-slug: "combinaison-k-parmi-n-en-latex"
+slug: "coefficient-binomial-k-parmi-n-en-latex"
 date: "2020-07-01"
 categories: 
   - "informatique"
@@ -16,11 +16,11 @@ description: "Combien y a-t-il de possibilités de tirer 3 cartes parmi 13 ? Vou
 
 k parmi n peut se noter de la façon suivante :
 
-$C_n^k $
+$$C_n^k$$
 
 Son code Latex en mode mathématique est tout simplement :
 
-```
+```tex
 C_n^k 
 ```
 
@@ -28,10 +28,10 @@ C_n^k
 
 Notation certainement la plus couramment utilisée pour exprimer le coefficient binomial :
 
-$\binom{n}{k}$
+$$\binom{n}{k}$$
 
 Son code Latex en mode Mathématique est :
 
-```
-\binom{n}{k}
+```tex
+²binom{n}{k}
 ```

@@ -11,35 +11,30 @@ description: "Cet article présente un moyen de générer le symbole usuel de la
 ---
 ## Package requis
 
-Il existe plusieurs paquets permettant de générer un "1 ajouré". On peut retrouver dsfont notamment. Pour cet article, nous utiliserons le package bbold
+Il existe plusieurs paquets permettant de générer un "1 ajouré". On peut y trouver dsfont notamment. Pour cet article, nous utiliserons le package bbold.
 
-```
-\usepackage{bbold}
+```tex
+²usepackage{bbold}
 ```
 
 _Le package amsfonts ne permet pas de générer un 1 ajouré, vous obtiendrez ce symbole :_
 
-![](image-1.png)
+![](image-1.png#t1)
 
 ## Code Latex
 
 Pour afficher le symbole de la fonction caractéristique, il faut utiliser la commande mathbb :
 
-```
-\mathbb{1}
+```tex
+²mathbb{1}
 ```
 
 ## Résultat
 
 Nous obtenons ainsi :
 
-![](image.png)
+![](image.png#t1)
 
-## D'autres articles sur Latex
-
-Retrouvez l'ensemble de nos articles sur Latex ici :
-
-[Latex - KeskeC](https://keskec.fr/tag/latex/)
 
 ## Sources :
 

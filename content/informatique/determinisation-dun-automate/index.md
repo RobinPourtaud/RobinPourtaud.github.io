@@ -16,11 +16,11 @@ Un automate est dit déterministe s'il respecte trois conditions :
 2. Il ne possède pas d’epsilon-transitions.
 3. Pour chaque état de cet automate, il existe au maximum une transition issue de cet état possédant le même symbole.
 
-Pour en savoir plus : [Différents types d’automates finis](https://keskec.fr/sciences/informatique/robin/4870/)
+Pour en savoir plus : [Différents types d’automates finis](/informatique/vocabulaire-sur-les-automates-finis)
 
 ## Méthode :
 
-![Automate fini non déterministe](image-18-1024x602.png)
+![Automate fini non déterministe](image-18-1024x602.png#t4)
 
 
 
@@ -82,7 +82,7 @@ Afin de tracer l'automate il nous suffit de créer des états de A à K, et de l
 
 Vous devriez obtenir cet automate :
 
-![Automate équivalent déterministe](image-19-1024x491.png)
+![Automate équivalent déterministe](image-19-1024x491.png#t4)
 
 ## Source :
 

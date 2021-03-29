@@ -346,59 +346,7 @@ article .figure {
 		width:900px;
 	}
 }
-.post-it {
-	width: 100%;
-	padding: 1.5em;
-	&--tip {
-		background-color: lemonchiffon;
-	}
-	&--info {
-		background-color: azure;
-	}
-	&--danger {
-		background-color: #ffcccb;
-	}
-	&--success {
-		background-color: #d0f0c0;
-	}
-	&__title {
-		font-weight: 700;
-		font-size: 1.5em;
-	}
-	&__content {
-		margin-top: 1em;
-	}
-}
 
-.product {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	padding: 1.5em;
-	border: 1px solid #333;
-	&__image {
-		margin: auto;
-		width: 100%;
-		min-width: 250px;
-		max-width: 400px;
-	}
-	&__content {
-		margin-left: 2em;
-		align-self: center;
-		display:flex;
-		flex-direction: column;
-	}
-	&__title {
-		font-weight: 700;
-		font-size: 1.5rem;
-	}
-	&__description {
-		margin-top: 1em;
-	}
-	&__cta {
-		margin-top: 1em;
-	}
-}
 
 .social-share {
 	display: flex;

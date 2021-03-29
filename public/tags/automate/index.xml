@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>automate on DevMath.fr</title>
-    <link>http://localhost:1313/tags/automate/</link>
+    <link>//devmath.fr:1313/tags/automate/</link>
     <description>Recent content in automate on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/automate/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="//devmath.fr:1313/tags/automate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Déterminisation d&#39;un automate</title>
-      <link>http://localhost:1313/informatique/determinisation-dun-automate/</link>
+      <link>//devmath.fr:1313/informatique/determinisation-dun-automate/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/determinisation-dun-automate/</guid>
+      <guid>//devmath.fr:1313/informatique/determinisation-dun-automate/</guid>
       <description>Définition : Un automate est dit déterministe s&amp;rsquo;il respecte trois conditions :
  Il possède un unique état initial. Il ne possède pas d’epsilon-transitions. Pour chaque état de cet automate, il existe au maximum une transition issue de cet état possédant le même symbole.  Pour en savoir plus : Différents types d’automates finis
 Méthode : Automate fini non déterministe  
@@ -21,10 +21,10 @@ La méthode permettant de passer d&amp;rsquo;un automate fini quelconque à un a
     
     <item>
       <title>Différents types d&#39;automates finis</title>
-      <link>http://localhost:1313/informatique/vocabulaire-sur-les-automates-finis/</link>
+      <link>//devmath.fr:1313/informatique/vocabulaire-sur-les-automates-finis/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/vocabulaire-sur-les-automates-finis/</guid>
+      <guid>//devmath.fr:1313/informatique/vocabulaire-sur-les-automates-finis/</guid>
       <description>Définitions : Automate déterministe Un automate est dit déterministe si il respecte trois conditions :
  Il possède un unique état initial. Il ne possède pas d&amp;rsquo;epsilon-transitions. Pour chaque état de cet automate, il existe au maximum une transition issue de cet état possédant le même symbole.  Pas un AFD  
 Attention : Un automate fini est toujours un AFN (automate fini non déterministe). Un automate fini déterministe (AFD) est un AFN particulier.</description>

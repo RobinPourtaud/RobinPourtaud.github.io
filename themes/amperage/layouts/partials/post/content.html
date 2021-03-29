@@ -10,6 +10,7 @@
 {{ $t := print "/latex-svg/" $m ".svg"}}
    {{ $foo = replace $foo . $t }}
 {{ end }}
+{{ $foo :=replaceRE "²" "\\" $foo}}
 {{ $foo | safeHTML }}
 {{ else }}
 {{.Content |safeHTML}}

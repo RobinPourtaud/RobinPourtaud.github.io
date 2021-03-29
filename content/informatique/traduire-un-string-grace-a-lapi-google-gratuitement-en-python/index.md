@@ -28,13 +28,13 @@ Pour ce projet, on va utiliser la bibliothèque (library) "googletrans". Trouvab
 
 (si vous utilisez votre terminal) Pour l'installer, utilisez la formule magique habituelle :
 
-```
+```bash
 sudo pip install googletrans
 ```
 
 Si vous voulez l'installer depuis Jupyter Notebook :
 
-```
+```bash
 !pip install -q googletrans
 ```
 
@@ -42,7 +42,7 @@ Si vous voulez l'installer depuis Jupyter Notebook :
 
 Je vous propose un code tout simple qui traduit le mot "hello world" en "bonjour le monde" :
 
-```
+```python
 from googletrans import Translator
 
 tr = Translator()
@@ -55,7 +55,7 @@ Comme on peut s'en douter, print(output) retourne bien "bonjour le monde".
 
 Mais googletrans permet des choses plus folles ! Il permet de detecter automatiquement la langue !
 
-```
+```python
 from googletrans import Translator
 
 tr = Translator()

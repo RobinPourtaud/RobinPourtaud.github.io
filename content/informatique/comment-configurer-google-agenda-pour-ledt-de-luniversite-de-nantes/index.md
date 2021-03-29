@@ -7,7 +7,6 @@ categories:
 tags: 
   - "edt"
   - "google-agenda"
-  
   - "universite"
 description: "L'université de Nantes propose une Application Android et IOS depuis 2019. En revanche, l'accès à l'EDT reste assez long et fastidieux... C'est pourquoi je vais vous expliquer comment associer votre EDT à Google Agenda."
 ---
@@ -15,23 +14,21 @@ NB : ce tutoriel, bien qu'à destination des étudiants et professeurs de l'univ
 
 ## Accéder à l'emploi du temps Web de votre Université
 
-Pour l'Université de Nantes, le lien est le suivant :
-
-[https://edt.univ-nantes.fr/edt](https://edt.univ-nantes.fr/edt)
+Pour l'Université de Nantes, le lien est le suivant : [https://edt.univ-nantes.fr/edt](https://edt.univ-nantes.fr/edt)
 
 Accédez ensuite à l'emploi du temps que vous souhaitez enregistrer sur Google Agenda.
 
 Pour l'université de Nantes, cliquez sur cette icône :
 
-![](image-10-1024x678.png)
+![EDT Université de nantes](image-10-1024x678.png#t4)
 
-EDT Université de nantes
+
 
 Et copiez le lien qui s'affiche :
 
-![](image-11-1024x252.png)
+![Lien copié !](image-11-1024x252.png#t4)
 
-Lien copié !
+
 
 ## Ajout de l'EDT à Google Agenda
 
@@ -41,9 +38,9 @@ Tout d'abord, connectez-vous à Google Agenda :
 
 Ensuite, cliquez sur le + à coté de "Autres agendas" en bas à gauche.
 
-![](image-12.png)
+![Autres agendas](image-12.png#t3)
 
-Autres agendas
+
 
 Et sélectionnez "À partir de l'URL".
 
@@ -57,9 +54,8 @@ Vous devriez avoir accès à votre Emploi du temps sur Google Agenda dès mainte
 
 Appuyez sur les trois points comme sur l'image suivante :
 
-![](image-13.png)
+![Autres agendas Paramètres](image-13.png#t3)
 
-Autres agendas Paramètres
 
 Et sélectionnez Paramètres.
 

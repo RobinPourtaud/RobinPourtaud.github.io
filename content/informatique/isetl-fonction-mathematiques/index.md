@@ -12,7 +12,7 @@ description: "Cet article a pour finalité de lister des fonctions mathématique
 ---
 ## Prérequis :
 
-Il est bien sur nécessaire d'avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n'est pas le cas, je vous renvoie vers mon article : [ISETL 3.0 sur Windows 10](/informatique/isetl-langage-de-programmation/)
+Il est bien sur nécessaire d'avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n'est pas le cas, je vous renvoie vers mon article : [ISETL 3.0 sur Windows 10](/informatique/installer-isetl/)
 
 ## Liste de fonctions mathématiques ISETL :
 

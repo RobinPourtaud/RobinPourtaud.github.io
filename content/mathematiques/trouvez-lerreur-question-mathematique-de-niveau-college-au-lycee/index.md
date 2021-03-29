@@ -22,10 +22,10 @@ Ici, chaque ligne correspond à la ligne précédente à laquelle on ajoute ce q
 
 
 
-1. $ a = b $
-2. $aa = ba $ En multipliant par a
+1. $a = b$
+2. $aa = ba$ En multipliant par a
 3. $a^2 - b^2 = ba - b^2$ En soustrayant $b^2$
-4. $(a+b)(a-b) = b(a-b)$ Identité remarquable : $ (a+b)(a-b) = a^2 - b^2 $
+4. $(a+b)(a-b) = b(a-b)$ Identité remarquable : $(a+b)(a-b) = a^2 - b^2$
 5. $a+b = b$ En divisant par $(a-b)$
 6. $b+b = b$ En remplaçant $a$ par $b$
 7. $2b = b$
@@ -39,7 +39,7 @@ Selon le théorème de Pythagore, dans un triangle rectangle, le carré de l'hyp
 
 1. $a^2 + b^2 = 9$
 2. $\sqrt{a^2+b^2}=3$ Racine carré de 9
-3. Si a = 0
+3. Si $a = 0$
 4. $\sqrt{0^2+b^2}=3$
 5. $\sqrt{b^2}=3$
 6. $b=3$
@@ -76,7 +76,7 @@ Comme $\lim\limits_{\substack{n \to \infty}} (1 + \frac{1}{n}) = 1$
 
 Et : $\lim\limits_{\substack{n \to \infty}} n = \infty$
 
-$\lim\limits_{\substack{n \to \infty}}(1+\frac{1}{n})^n = 1^\infty = 1$
+Donc : $\lim\limits_{\substack{n \to \infty}}(1+\frac{1}{n})^n = 1^\infty = 1$
 
 Logique non :) ?
 
@@ -100,9 +100,7 @@ De plus, l'utilisation de formules pour le second degrés n'était pas nécessai
 
 \+ C!! Evidemment. N'oubliez jamais cette constante, sinon votre résultat sera tout simplement faux. Pour rappel, la dérivé d'une constante est égale à 0. Ainsi, il n'est pas impossible que votre primitive possédait une constante :).
 
-Pour vous remémorer de nombreuses notions sur les intégrales tel que l'intégration par partie ou le changement de variable, je vous renvois vers mon article :
-
-[L’intégrale de x^i dx](https://keskec.fr/sciences/mathematiques/robin/220/)
+Pour vous remémorer de nombreuses notions sur les intégrales tel que l'intégration par partie ou le changement de variable, je vous renvois vers mon article : [L’intégrale de x^i dx](/mathematiques/integrale-de-xi-dx)
 
 En bonus, l'utilisation des nombres complexes :).
 
@@ -110,7 +108,7 @@ En bonus, l'utilisation des nombres complexes :).
 
 Trouvez manuellement le vrai résultat de cette limite est plus compliqué. Mais c'est une formule très connue, vous avez sans doute déjà dû la voir dans un livre de première :
 
-$\lim\limits_{\substack{n \to \infty}}(1+\frac{1}{n})^n = e$
+$$\lim\limits_{\substack{n \to \infty}}(1+\frac{1}{n})^n = e$$
 
 En revanche, même sans connaitre cette formule, vous auriez dû repérer la forme indéterminée : $1^\infty$. Si vous (comme moi avant) ne saviez pas pourquoi $1^\infty\neq 1$ dans tout les cas, maintenant vous avez un parfait contre-exemple:).
 

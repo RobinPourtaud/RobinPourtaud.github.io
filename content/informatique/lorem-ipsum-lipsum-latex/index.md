@@ -14,16 +14,16 @@ description: "Cet article présente la façon la plus courante de générer un L
 
 Afin de générer ce faux-texte, vous devez avoir importé le package "lipsum" :
 
-```
-\usepackage{lipsum} 
+```tex
+²usepackage{lipsum} 
 ```
 
 ### Exemple d'utilisation
 
 La syntaxe de la commande utilisateur est la suivante :
 
-```
-\lipsum[<paragraph range>][<sentence range>]
+```tex
+²lipsum[<paragraph range>][<sentence range>]
 ```
 
 - "Paragraph range" fait référence aux paragraphes du Lipsum souhaité (150 étant la valeur maximum).
@@ -33,51 +33,51 @@ Les 2 paramètres sont optionnels.
 
 #### Exemple 1
 
-La commande "\lipsum" génère par défaut les paragraphes 1 à 7 du Lipsum :
+La commande "²lipsum" génère par défaut les paragraphes 1 à 7 du Lipsum :
 
-```
-\lipsum
+```tex
+²lipsum
 ```
 
 #### Exemple 2
 
 Pour générer un Lipsum contenant les 2 premiers paragraphes, vous pouvez utiliser la commande :
 
-```
-\lipsum[1-2]
+```tex
+²lipsum[1-2]
 ```
 
-![](image-20-1024x686.png)
+![2 premiers paragraphes lipsum](image-20-1024x686.png#t4)
 
-2 premiers paragraphes lipsum
+
 
 #### Exemple 3
 
 Pour afficher la première phrase du premier paragraphe, vous pouvez utiliser la commande suivante :
 
-```
-\lipsum[1][1]
+```tex
+²lipsum[1][1]
 ```
 
 Le résultat étant le suivant :
 
-![](image-22.png)
+![Lorem Ipsum première phrase](image-22.png#t4)
 
-Lorem Ipsum première phrase
+
 
 ## Alternative :
 
 Le paquet blindtext propose un résultat similaire :
 
-```
-\usepackage{blindtext}
+```tex
+²usepackage{blindtext}
 ...
-\blindtext[1]
+²blindtext[1]
 ```
 
-![](image-21-1024x414.png)
+![blindtext\[1\]](image-21-1024x414.png#t4)
 
-blindtext\[1\]
+
 
 Pour en savoir plus : [Blindtext](https://www.ctan.org/pkg/blindtext)
 

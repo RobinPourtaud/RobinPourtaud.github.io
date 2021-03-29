@@ -17,15 +17,15 @@ Oracle propose depuis bientôt un an une offre appelée "[Always Free](https://w
 - Deux machines virtuelles de calcul Oracle Cloud Infrastructure Compute ; stockage de niveau bloc, objet et archive ; équilibreur de charge et extraction de données ; surveillance et notifications
 - Pendant les 30 premiers jours 300$ de crédit sur leur plateforme
 
-![](image-7-1024x371.png)
+![](image-7-1024x371.png#t4)
 
 Source : [oracle.com](https://www.oracle.com/fr/cloud/free/#always-free)
 
 La configuration des machines virtuelles est la suivante :
 
-![](image-11-1024x156.png)
+![Machine Virtuelle AMD - Oracle Cloud](image-11-1024x156.png#t4)
 
-Machine Virtuelle AMD - Oracle Cloud
+
 
 Si vous souhaitez une configuration plus "confortable", il sera nécessaire de passer à un plan payant après 30 jours...
 
@@ -49,18 +49,18 @@ Suivez cette inscription. Cela dure maximum 5 min.
 
 Une fois inscrit, vous devrez vous retrouver sur cette page :
 
-![](image-8-1024x397.png)
+![Oracle Cloud - Accueil](image-8-1024x397.png#t4)
 
-Oracle Cloud - Accueil
+
 
 1. Cliquez sur "Create a VM instance"
 2. Nommez votre instance du nom de votre choix
 3. Choisissez l'image "Always free" de votre choix (la suite du tutoriel peut varier selon l'image choisie)  
     
 
-![](image-9-1024x765.png)
+![Choix du système d'exploitation - Oracle Cloud](image-9-1024x765.png#t4)
 
-Choix du système d'exploitation - Oracle Cloud
+
 
 4. Cliquez ensuite sur "Show Shape, Network and Storage Options"
 5. Puis "Change Shape"
@@ -68,15 +68,15 @@ Choix du système d'exploitation - Oracle Cloud
 7. Sur "Specialty and Legacy"
 8. Et sélectionnez la ressource "Always Free Eligible" comme sur l'image ci-dessous (si aucune n'est disponible, essayez de modifier dans la fenêtre précédente "availability domain") :
 
-![](image-10-1024x742.png)
+![Choix de la VM - Oracle Cloud](image-10-1024x742.png#t4)
 
-Choix de la VM - Oracle Cloud
+
 
 9. Enfin, sauvegardez la clé privée pour accéder à votre machine via ssh :
 
-![](image-12-1024x341.png)
+![Sauvegarde des clés SSH - Oracle Cloud](image-12-1024x341.png#t4)
 
-Sauvegarde des clés SSH - Oracle Cloud
+
 
 10. Vous pouvez maintenant cliquer sur "Create" !
 
@@ -90,9 +90,9 @@ Rendez-vous dans la liste des instances située dans :
 
 "Menu de navigation en haut à gauche" > Compute > Instances
 
-![](image-1024x288.png)
+![Liste des Instances - Oracle Cloud](image-1024x288.png#t5)
 
-Liste des Instances - Oracle Cloud
+
 
 Cliquez sur l'instance puis copiez l'IP public ainsi que le nom d'utilisateur.
 
@@ -101,28 +101,28 @@ Vous pouvez maintenant ouvrir un terminal et vous connecter à l'instance via SS
 1. Ouvrez un terminal et allez dans le même dossier que votre "clé".
 2. Entrez les 2 commandes suivantes :
 
-```
+```bash
 chmod 500 <Votre clé>
 ssh -i <Votre clé> <nom utilisateur>@<IP publique>
 ```
 
 Résultat :
 
-![](image-2-1024x603.png)
+![Connexion via SSH - Oracle Cloud](image-2-1024x603.png#t5)
 
-Connexion via SSH - Oracle Cloud
+
 
 ## Installation de Jupyter lab
 
 Pour installer Jupyter Lab, nous aurons besoin de pip3. Pour l'installer :
 
-```
+```bash
 sudo apt install python3-pip
 ```
 
 Installons Jupyter Lab maintenant :
 
-```
+```bash
 pip3 install jupyterlab 
 ```
 
@@ -134,35 +134,33 @@ Je vous propose de vous connecter à Jupyter Lab via un tunnel SSH, mais il est 
 
 Dans votre terminal, commencez par taper "jupyter lab" :
 
-```
+```bash
 jupyter lab
 ```
 
 Comme ceci :
 
-![](image-3-1024x569.png)
+![Lancement de Jupyter Lab - Oracle Cloud](image-3-1024x569.png#t5)
 
-Lancement de Jupyter Lab - Oracle Cloud
+
 
 Laissez ce terminal ouvert en ayant bien en tête le port sur lequel est déployé Jupyter Lab.
 
 Ouvrez un nouveau terminal et tapez la commande :
 
-```
+```bash
 sudo ssh -i <Votre clé> -L 80:localhost:<Port Jupyter>  <nom utilisateur>@<IP publique>
 ```
 
 Cette commande permet de rediriger le port 80 de votre ordinateur vers le port jupyter de votre instance. Ainsi, ouvrez un navigateur et tapez "localhost", vous devriez être en mesure de vous connecter à Jupyter Lab !
 
-![](image-4-1024x703.png)
+![Connexion à Jupyter Lab - Oracle Cloud](image-4-1024x703.png#t5)
 
-Connexion à Jupyter Lab - Oracle Cloud
+
 
 Pour finir, récupérez sur votre premier terminal le "token" et collez-le.
 
-![](image-5-1024x727.png)
-
-Jupyter Lab - Oracle Cloud
+![Jupyter Lab - Oracle Cloud](image-5-1024x727.png#t5)
 
 Enjoy :).
 

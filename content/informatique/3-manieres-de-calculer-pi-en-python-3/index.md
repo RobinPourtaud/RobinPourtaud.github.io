@@ -9,6 +9,7 @@ tags:
   - "jupyter-notebook"
   - "python"
 description: "Le 14 mai 2019, Emma Haruka Iwao, un informaticien japonais détermina 31 415 milliards de décimales de Pi. La constante d'archimède ....."
+draft: true
 ---
 ## Définition de Pi :
 

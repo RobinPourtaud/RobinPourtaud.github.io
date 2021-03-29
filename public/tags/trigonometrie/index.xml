@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>trigonometrie on DevMath.fr</title>
-    <link>http://localhost:1313/tags/trigonometrie/</link>
+    <link>//devmath.fr:1313/tags/trigonometrie/</link>
     <description>Recent content in trigonometrie on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/trigonometrie/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="//devmath.fr:1313/tags/trigonometrie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Résolution complexe : cos(x)sin(x)=1</title>
-      <link>http://localhost:1313/mathematiques/resolution-complexe-cosxsinx1/</link>
+      <link>//devmath.fr:1313/mathematiques/resolution-complexe-cosxsinx1/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mathematiques/resolution-complexe-cosxsinx1/</guid>
+      <guid>//devmath.fr:1313/mathematiques/resolution-complexe-cosxsinx1/</guid>
       <description>Exercice : Dans $\mathbb{R}$ et dans $\mathbb{C}$, résoudre :
 $$\cos x \sin x = 1$$
 Résolution : 1 - Recherche d&amp;rsquo;une solution dans R Soit la formule de trigonométrie suivante :
@@ -23,32 +23,30 @@ Nous pouvons reprendre l&amp;rsquo;équation :
 $$cos(x)sin(x)=1$$
 Elle est donc équivalente à :
 $$sin(2x) = 2$$
-Comme $\forall x \in \mathbb{R} | sin(x) \in [0,1]$.
+Comme $\forall x \in \mathbb{R} ;|; sin(x) \in [0,1]$.
 Cette équation n&amp;rsquo;admet donc pas de solution dans R.
 2 - Introduction des formules d&amp;rsquo;Euler Continuons dans $\mathbb{C}$ :</description>
     </item>
     
     <item>
       <title>Démonstration : cos(x)²&#43;sin(x)²=1</title>
-      <link>http://localhost:1313/mathematiques/demonstration-cosxsinx1/</link>
+      <link>//devmath.fr:1313/mathematiques/demonstration-cosxsinx1/</link>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mathematiques/demonstration-cosxsinx1/</guid>
+      <guid>//devmath.fr:1313/mathematiques/demonstration-cosxsinx1/</guid>
       <description>Avec le théorème de Pythagore : Le théorème : En géométrie euclidienne, le théorème de pythagore met en relation dans un triangle rectangle, les 2 plus petits cotés avec l&amp;rsquo;hypothénuse :
-107123505_710315529768801_8982444762377697329_n.png (1080×1080)  
-Triangle Rectangle
+Triangle Rectangle  
 La célèbre relation est la suivante : $a^2+b^2=c^2$.
-Démonstration : En reprenant les formules vu en 3ème, on a :
-$\sin \alpha = \frac{a}{c}$ et $\cos \alpha = \frac{b}{c}$
-Cela nous donne donc :</description>
+Démonstration : En reprenant les formules vu en 3ème, on a : $\sin \alpha = \frac{a}{c}$ et $\cos \alpha = \frac{b}{c}$
+Cela nous donne donc : $a = \sin \alpha \times c$ et $b = \cos \alpha \times c$</description>
     </item>
     
     <item>
       <title>ISETL - Fonctions trigonométriques et hyperboliques</title>
-      <link>http://localhost:1313/informatique/isetl-liste-de-fonctions/</link>
+      <link>//devmath.fr:1313/informatique/isetl-fonctions-trigonometriques-hyperboliques/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/isetl-liste-de-fonctions/</guid>
+      <guid>//devmath.fr:1313/informatique/isetl-fonctions-trigonometriques-hyperboliques/</guid>
       <description>Pour installer ISETL, je vous renvoie vers cet article.
 Fonction trigonométrique : Soit x un réel quelconque (appartenant aux domaines de définition des fonctions) :
    Fonction Isetl Fonction mathématique     sin(x) Sinus   cos(x) Cosinus   tan(x) Tangente   sec(x) Sécante   csc(x) Cosécante   cot(x) Cotangente   asin(x) Arc Sinus   acos(x) Arc Cosinus   atan(x) Arc Tangeante    Tableau récapitulatif des fonctions trigonométriques :</description>
