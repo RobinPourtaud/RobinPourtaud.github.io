@@ -8,7 +8,7 @@ tags:
   - "iftt"
   - "mail"
   - "php"
-  
+latex: false
 description: "Il existe de nombreuses méthodes pour recevoir les notifications de son site web grâce à PHP. Aujourd'hui je vais vous montrer comment recevoir des mails grâce à IFTTT en moins de 10 min."
 ---
 ## Paramétrer IFTTT :
@@ -53,6 +53,6 @@ msg("Bonjour, voici un message");
 
 Si vous avez bien tout suivi, à l’exécution de la fonction msg, vous devriez recevoir un mail de "action@ifttt.com" de ce style :
 
-<table><tbody><tr><td>What: iftttmessage<br>When: April 27, 2020 at 11:08AM<br>Content: Bonjour, voici un message</td></tr></tbody></table>
+<div style="margin:auto;"><table><tbody><tr><td>What: iftttmessage<br>When: April 27, 2020 at 11:08AM<br>Content: Bonjour, voici un message</td></tr></tbody></table></div>
 
 Mail envoyé depuis un server Web

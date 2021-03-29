@@ -656,12 +656,12 @@
     </url>
     
     <url>
-        <loc>http://localhost:1313/tags/algebre-2/</loc>
+        <loc>http://localhost:1313/tags/algebre-lineaire/</loc>
         <lastmod>2020-04-19T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/</loc>
+        <loc>http://localhost:1313/mathematiques/valeurs-et-vecteur-propre/</loc>
         <lastmod>2020-04-19T00:00:00+00:00</lastmod>
     </url>
     
@@ -686,7 +686,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:1313/mathematiques/keske-cest-la-decomposition-de-cholesky/</loc>
+        <loc>http://localhost:1313/mathematiques/decomposition-de-cholesky/</loc>
         <lastmod>2020-04-18T00:00:00+00:00</lastmod>
     </url>
     
@@ -696,42 +696,17 @@
     </url>
     
     <url>
-        <loc>http://localhost:1313/tags/binary/</loc>
-        <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
         <loc>http://localhost:1313/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</loc>
         <lastmod>2020-04-15T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/tags/decimal/</loc>
-        <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/tags/hexadecimal/</loc>
-        <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</loc>
+        <loc>http://localhost:1313/informatique/convertir-un-nombre-decimal-en-float/</loc>
         <lastmod>2020-04-12T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://localhost:1313/tags/float/</loc>
-        <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/tags/float32/</loc>
-        <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://localhost:1313/mathematiques/keske-cest-lintegrale-de-xi-dx/</loc>
+        <loc>http://localhost:1313/mathematiques/integrale-de-xi-dx/</loc>
         <lastmod>2020-04-12T00:00:00+00:00</lastmod>
     </url>
     

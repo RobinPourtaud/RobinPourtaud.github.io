@@ -1,6 +1,6 @@
 ---
 title: "Convertir un nombre décimal en Float"
-slug: "keske-cest-convertir-un-nombre-decimal-en-float"
+slug: "convertir-un-nombre-decimal-en-float"
 date: "2020-04-12"
 categories: 
   - "informatique"
@@ -8,9 +8,7 @@ categories:
 tags: 
   - "binaire"
   - "conversion"
-  - "float"
-  - "float32"
-description: "La **virgule flottante** (float) est une méthode d'écriture de [nombres réels](https://fr.wikipedia.org/wiki/Nombre_r%C3%A9el) fréquemment utilisée dans les [ordinateurs](https://fr.wikipedia.org/wiki/Ordinateur). (Wikipédia)"
+description: "La virgule flottante (float) est une méthode d'écriture des nombres réels fréquemment utilisée dans les ordinateurs."
 ---
 En mémoire, un nombre peut être codé par de nombreux schémas différents:
 
@@ -22,9 +20,7 @@ En mémoire, un nombre peut être codé par de nombreux schémas différents:
 
 ## Nécessaire :
 
-Pour suivre ce tutoriel, vous devez savoir convertir des entiers décimaux en binaires. Si jamais vous avez un doute, vous pouvez checker mon article sur cette conversion :
-
-[Convertir un entier non signé décimal en Binaire](https://keskec.fr/sciences/informatique/robin/267/)
+Pour suivre ce tutoriel, vous devez savoir convertir des entiers décimaux en binaires. Si jamais vous avez un doute, vous pouvez checker mon article sur cette conversion : [Convertir un entier non signé décimal en Binaire](/informatique/convertir-un-entier-non-signe-decimal-en-binaire)
 
 ## Rappel :
 
@@ -38,9 +34,9 @@ _Pour réduire la difficulté de cet exercice, les exemples utilisés et expliqu
 
 Un float32 est composé de 3 parties: une partie signe, une partie exposant et une partie mantisse:
 
-![Float example.svg](2880px-Float_example.svg.png)
+![Nombre en Virgule flottante](2880px-Float_example.svg.png#t5)
 
-Nombre en Virgule flottante
+
 
 1. Le signe est représenté sur 1 bit (0 pour un nombre positif, 1 pour un nombre négatif).
 2. L'exposant est représenté sur 8 bits.
@@ -98,6 +94,6 @@ Ainsi, l’exposant biaisé est $127 + 3$, ce qui est égale à $130_{10}=100000
 
 En regroupant le tout (dans l'ordre Signe\-Exposant\-Mantisse).
 
-La représentation float32 de -12,4375 est donc:
+La représentation float32 de -12,4375 est donc : 
 
-11000001010001110000000000000000
+<div style="text-align:center;"><div style="color:#c3fcff;display:inline;">1</div><div style="color:#9cffaa;display:inline;">10000010</div><div style="color:#ffabab;display:inline;">10001110000000000000000</div></div>

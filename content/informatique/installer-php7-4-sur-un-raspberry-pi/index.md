@@ -9,16 +9,15 @@ tags:
   - "debian"
   - "php"
   - "raspberry-pi"
-  - "raspbian"
-  
   - "wordpress"
 description: "PHP7.4 est actuellement la dernière version de PHP. Sortie fin 2019, je vais vous montrer la méthode la plus simple pour installer cette version de php sous Raspbian."
+latex: false
 ---
 Vous avez peut-être remarqué que votre WordPress tourne sous une ancienne version de PHP ? Vous avez donc sans doute vu ce message :
 
-![](image-3-1024x331.png)
+![Problème Critique PHP Wordpress](image-3-1024x331.png#t5)
 
-Problème Critique PHP Wordpress
+
 
 Prenez 10 min de votre temps pour régler ce problème.
 
@@ -79,7 +78,7 @@ sudo apt install php7.4-*
 
 (Si vous aviez déjà PHP) Désactivez votre ancienne version de PHP pour apache2 (dans mon cas PHP7.0)
 
-```
+```bash
 sudo a2dismod php7.0
 ```
 
@@ -97,9 +96,9 @@ sudo service apache2 restart
 
 Wordpress ne devrait maintenant plus vous lister de problème critique.
 
-![](image-4-1024x85.png)
+![0 problème critique](image-4-1024x85.png#t5)
 
-0 problème critique
+
 
 ### Sources:
 

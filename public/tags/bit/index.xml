@@ -30,16 +30,5 @@ Le système international d&amp;rsquo;unité (SI) Au lycée, vous avez certainem
 Il s&amp;rsquo;agit d&amp;rsquo;un système décimal, permettant de conformer les unités avec précision pour tous les pays du monde (sauf exceptions). Le changement d’échelle se fait par puissance de 10.</description>
     </item>
     
-    <item>
-      <title>Convertir un entier non signé décimal en Binaire</title>
-      <link>http://localhost:1313/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</guid>
-      <description>Le système binaire est le système de numération utilisant la base 2. On nomme couramment bit (de l&#39; anglais binary digit, soit « chiffre binaire ») les chiffres de la numération binaire positionnelle. Un bit peut prendre deux valeurs, notées par convention 0 et 1.
- fr.wikipiedia.org
- Tous les systèmes informatiques actuels fonctionnent en binaire. Très grossièrement, on pourrait considérer que 0 représente un courant &amp;ldquo;éteint&amp;rdquo; et 1 un courant &amp;ldquo;allumé&amp;rdquo;.</description>
-    </item>
-    
   </channel>
 </rss>

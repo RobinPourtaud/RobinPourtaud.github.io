@@ -525,13 +525,12 @@ Prérequis :  Vous devez avoir un ordinateur mis à jour, sous une distribution 
     
     <item>
       <title>Convertir un nombre décimal en Float</title>
-      <link>http://localhost:1313/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</link>
+      <link>http://localhost:1313/informatique/convertir-un-nombre-decimal-en-float/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</guid>
+      <guid>http://localhost:1313/informatique/convertir-un-nombre-decimal-en-float/</guid>
       <description>En mémoire, un nombre peut être codé par de nombreux schémas différents:
- int (entier sur 16 bits en c++) uint64_t (entier sur 64 bits en c++) float32 (réel sur 32 bits) float64 (réel sur 64 bits) &amp;hellip;..  Nécessaire : Pour suivre ce tutoriel, vous devez savoir convertir des entiers décimaux en binaires. Si jamais vous avez un doute, vous pouvez checker mon article sur cette conversion :
- Convertir un entier non signé décimal en Binaire</description>
+ int (entier sur 16 bits en c++) uint64_t (entier sur 64 bits en c++) float32 (réel sur 32 bits) float64 (réel sur 64 bits) &amp;hellip;..  Nécessaire : Pour suivre ce tutoriel, vous devez savoir convertir des entiers décimaux en binaires. Si jamais vous avez un doute, vous pouvez checker mon article sur cette conversion : Convertir un entier non signé décimal en Binaire</description>
     </item>
     
     <item>

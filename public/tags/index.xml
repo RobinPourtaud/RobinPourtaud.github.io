@@ -602,11 +602,11 @@
     </item>
     
     <item>
-      <title>algebre-2</title>
-      <link>http://localhost:1313/tags/algebre-2/</link>
+      <title>algebre-lineaire</title>
+      <link>http://localhost:1313/tags/algebre-lineaire/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/algebre-2/</guid>
+      <guid>http://localhost:1313/tags/algebre-lineaire/</guid>
       <description></description>
     </item>
     
@@ -652,51 +652,6 @@
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/binaire/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>binary</title>
-      <link>http://localhost:1313/tags/binary/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/binary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>decimal</title>
-      <link>http://localhost:1313/tags/decimal/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/decimal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hexadecimal</title>
-      <link>http://localhost:1313/tags/hexadecimal/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/hexadecimal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>float</title>
-      <link>http://localhost:1313/tags/float/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/float/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>float32</title>
-      <link>http://localhost:1313/tags/float32/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/float32/</guid>
       <description></description>
     </item>
     

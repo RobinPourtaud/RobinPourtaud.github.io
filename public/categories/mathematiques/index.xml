@@ -326,26 +326,25 @@ Ce qui donne :  $\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$</description>
     
     <item>
       <title>Les Valeurs et Vecteurs Propres</title>
-      <link>http://localhost:1313/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/</link>
+      <link>http://localhost:1313/mathematiques/valeurs-et-vecteur-propre/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/</guid>
+      <guid>http://localhost:1313/mathematiques/valeurs-et-vecteur-propre/</guid>
       <description>Soit E un espace vectoriel de dimension fini, sur $\mathbb{K}$. $f$ un endomorphisme (applications linéaires d&amp;rsquo;un espace vectoriel dans lui-même) de E.
 Définition Un scalaire $\lambda$ est une valeur propre de $f$ s&amp;rsquo;il existe un vecteur x (le vecteur propre) non nul tel que $f(x)=\lambda x$.
-Exemple $A = \begin{bmatrix} 7 &amp;amp; 2 \ -4 &amp;amp; 1 \end{bmatrix}$.
+Exemple $$A = \begin{bmatrix} 7 &amp;amp; 2 \ -4 &amp;amp; 1 \end{bmatrix}$$
 Calcul du Polynôme Caractéristique Le polynome caractéristique de A est défini comme: $\chi_A(\lambda) = \det(\lambda I_{dim A} - A)$.</description>
     </item>
     
     <item>
       <title>La Factorisation de Cholesky</title>
-      <link>http://localhost:1313/mathematiques/keske-cest-la-decomposition-de-cholesky/</link>
+      <link>http://localhost:1313/mathematiques/decomposition-de-cholesky/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mathematiques/keske-cest-la-decomposition-de-cholesky/</guid>
-      <description>Définition : &amp;amp;
-Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que $A = L^tL$. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
-Vérification : Pour calculer la décomposition de A, nous devons vérifier que A est bien symétrique définie positive:
-Symétrique : Une matrice A est dite symétrique si $L = ^tL$. C&amp;rsquo;est à dire : $\forall i,j \in \dim{A}, A_{i,j} = A_{j,i}$.</description>
+      <guid>http://localhost:1313/mathematiques/decomposition-de-cholesky/</guid>
+      <description>Définition : Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que $A = L^tL$. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
+Vérification : Pour calculer la décomposition de A, nous devons vérifier que A est bien symétrique définie positive :
+Symétrique : Une matrice A est dite symétrique si $L = ^tL$. C&amp;rsquo;est à dire : $$\forall i,j \in \dim{A}, A_{i,j} = A_{j,i}$$</description>
     </item>
     
     <item>
@@ -361,27 +360,26 @@ Symétrique : Une matrice A est dite symétrique si $L = ^tL$. C&amp;rsquo;est �
     
     <item>
       <title>Convertir un nombre décimal en Float</title>
-      <link>http://localhost:1313/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</link>
+      <link>http://localhost:1313/informatique/convertir-un-nombre-decimal-en-float/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/keske-cest-convertir-un-nombre-decimal-en-float/</guid>
+      <guid>http://localhost:1313/informatique/convertir-un-nombre-decimal-en-float/</guid>
       <description>En mémoire, un nombre peut être codé par de nombreux schémas différents:
- int (entier sur 16 bits en c++) uint64_t (entier sur 64 bits en c++) float32 (réel sur 32 bits) float64 (réel sur 64 bits) &amp;hellip;..  Nécessaire : Pour suivre ce tutoriel, vous devez savoir convertir des entiers décimaux en binaires. Si jamais vous avez un doute, vous pouvez checker mon article sur cette conversion :
- Convertir un entier non signé décimal en Binaire</description>
+ int (entier sur 16 bits en c++) uint64_t (entier sur 64 bits en c++) float32 (réel sur 32 bits) float64 (réel sur 64 bits) &amp;hellip;..  Nécessaire : Pour suivre ce tutoriel, vous devez savoir convertir des entiers décimaux en binaires. Si jamais vous avez un doute, vous pouvez checker mon article sur cette conversion : Convertir un entier non signé décimal en Binaire</description>
     </item>
     
     <item>
       <title>L&#39;intégrale de x^i dx</title>
-      <link>http://localhost:1313/mathematiques/keske-cest-lintegrale-de-xi-dx/</link>
+      <link>http://localhost:1313/mathematiques/integrale-de-xi-dx/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mathematiques/keske-cest-lintegrale-de-xi-dx/</guid>
+      <guid>http://localhost:1313/mathematiques/integrale-de-xi-dx/</guid>
       <description>Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
 &amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.
 $x^i$ est de la forme $x^b$, $\forall b \in \mathbb{C}$. Or, on sait que :
-$\int x^b dx = \frac{x^{b+1}}{b+1}$
+$$\int x^b dx = \frac{x^{b+1}}{b+1}$$
 Nous obtenons donc la solution :
-$$\int x^i dx = \frac{x^{i+1}}{i+1} + C$$.
+$$\int x^i dx = \frac{x^{i+1}}{i+1} + C$$
 Méthode 2 : Pour le fun Cette méthode n&amp;rsquo;est absolument pas nécessaire, ni pratique à utiliser.</description>
     </item>
     

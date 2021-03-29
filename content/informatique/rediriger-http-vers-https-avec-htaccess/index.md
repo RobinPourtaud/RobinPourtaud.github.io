@@ -7,7 +7,6 @@ categories:
 tags: 
   - "apache2"
   - "htaccess"
-  
   - "wordpress"
 description: ".htaccess est un fichier de configuration utilisé par Apache2 permettant de paramétrer le comportement du serveur HTTP dans un dossier précis. Ainsi, sans toucher aux fichiers de configuration du serveur HTTP directement, on pourra facilement réécrire l'URL afin de permettre la redirection du trafic HTTP vers HTTPS."
 ---
@@ -33,7 +32,7 @@ Certaines extensions permettent la modification de .htaccess directement depuis 
 
 Je vous propose d'ajouter ces lignes de codes dans votre fichier .htaccess :
 
-```
+```ApacheConf
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
@@ -48,7 +47,7 @@ Pour plus de redirections, veuillez vous référer à [un article de Mozilla](ht
 
 Une alternative à "RewriteCond %{HTTPS} off" est :
 
-```
+```ApacheConf
 RewriteCond %{SERVER_PORT} 80
 ```
 

@@ -8,9 +8,10 @@ tags:
   - "apache2"
   - "htaccess"
   - "robots-txt"
-  
   - "wordpress"
-description: "Au cours de la création de notre site DevMath.fr, nous avons souhaité créer un sous-domaine afin de faciliter notre gestionp du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais nen devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l'unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution."
+
+latex: false
+description: "Au cours de la création de notre site DevMath.fr, nous avons souhaité créer un sous-domaine afin de faciliter notre gestionp du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l'unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution."
 ---
 Nb : Ce tutoriel nécessite un fichier .htaccess, il sera donc à destination des utilisateurs de Apache2 et non de Nginx.
 
@@ -38,7 +39,7 @@ Il sera alors nécessaire, pour le domaine "_no-ref.site.com_" uniquement, de fa
 
 Un fichier _.htaccess_ est un fichier de configuration Apache2. Il permet de paramétrer le serveur HTTP depuis un dossier spécifique. Nous allons nous en servir pour permettre aux moteurs de recherche d'accéder au contenu de robots2.txt depuis no-ref.site.com/robots.txt. Pour cela :
 
-```
+```ApacheConf
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^no-ref\.site\.com$
 RewriteRule ^robots\.txt$ robots2.txt [L]

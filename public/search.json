@@ -220,11 +220,11 @@
             "date": "21 Avril 2020"
         },{
             "title": "Les Valeurs et Vecteurs Propres",
-            "url": "http://localhost:1313/mathematiques/keske-cest-les-valeurs-et-vecteur-propre/",
+            "url": "http://localhost:1313/mathematiques/valeurs-et-vecteur-propre/",
             "date": "19 Avril 2020"
         },{
             "title": "La Factorisation de Cholesky",
-            "url": "http://localhost:1313/mathematiques/keske-cest-la-decomposition-de-cholesky/",
+            "url": "http://localhost:1313/mathematiques/decomposition-de-cholesky/",
             "date": "18 Avril 2020"
         },{
             "title": "Convertir un entier non signé décimal en Binaire",
@@ -232,11 +232,11 @@
             "date": "15 Avril 2020"
         },{
             "title": "Convertir un nombre décimal en Float",
-            "url": "http://localhost:1313/informatique/keske-cest-convertir-un-nombre-decimal-en-float/",
+            "url": "http://localhost:1313/informatique/convertir-un-nombre-decimal-en-float/",
             "date": "12 Avril 2020"
         },{
             "title": "L'intégrale de x^i dx",
-            "url": "http://localhost:1313/mathematiques/keske-cest-lintegrale-de-xi-dx/",
+            "url": "http://localhost:1313/mathematiques/integrale-de-xi-dx/",
             "date": "12 Avril 2020"
         },{
             "title": "Conditionnement d'une Matrice",
