@@ -1,45 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>php on DevMath.fr</title>
-    <link>//devmath.fr:1313/tags/php/</link>
-    <description>Recent content in php on DevMath.fr</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
-    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="//devmath.fr:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Héberger un Wordpress Gratuitement sur un Raspberry Pi</title>
-      <link>//devmath.fr:1313/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link>
-      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//devmath.fr:1313/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid>
-      <description>Wordpress est le CMS le plus utilisé au monde. De part sa simplicité d&amp;rsquo;utilisation et sa liberté de design, sa popularité s’explique d&amp;rsquo;elle même.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>php on DevMath.fr</title><link>https://devmath.fr/tags/php/</link><description>Recent content in php on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/php/index.xml" rel="self" type="application/rss+xml"/><item><title>Héberger un Wordpress Gratuitement sur un Raspberry Pi</title><link>https://devmath.fr/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link><pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid><description>Wordpress est le CMS le plus utilisé au monde. De part sa simplicité d&amp;rsquo;utilisation et sa liberté de design, sa popularité s’explique d&amp;rsquo;elle même.
 Malheureusement, utiliser Wordpress pour laisser libre cours à son imagination revient souvent à passer par son porte monnaie.
 Pour un site personnel, 4€ par mois reste raisonnable, mais pour un site d&amp;rsquo;e-Commerce, 45€ semble moins attrayant&amp;hellip;.
-Tarifs avril 2020  
-Il serait donc intéressent de pouvoir profiter de WordPress gratuitement, et ce sans être limité par les blocages du modèle &amp;ldquo;gratuit&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>Recevoir des notifications par mail en PHP grâce à IFTTT</title>
-      <link>//devmath.fr:1313/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</link>
-      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//devmath.fr:1313/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</guid>
-      <description>Paramétrer IFTTT :  Connectez-vous à l’adresse https://ifttt.com/ . Inscrivez-vous si ce n&amp;rsquo;est pas déjà fais. Appuyez sur votre photo de profil en haut à gauche, puis appuyez sur &amp;ldquo;Create&amp;rdquo;. Appuyez sur &amp;ldquo;This&amp;rdquo; puis sélectionnez le service &amp;ldquo;Webhooks&amp;rdquo;. Choisissez l&amp;rsquo;Event Name de votre choix. Pour ma part, ce sera &amp;ldquo;iftttmessage&amp;rdquo;. Appuyez sur &amp;ldquo;That&amp;rdquo; puis sélectionnez &amp;ldquo;Email&amp;rdquo;. Personnalisez le body, le subject comme vous le souhaitez. Gardez juste bien en tête que &amp;ldquo;Value1&amp;rdquo; contiendra le message qu&amp;rsquo;on voudra envoyer.</description>
-    </item>
-    
-    <item>
-      <title>Installer PHP7.4 pour Wordpress</title>
-      <link>//devmath.fr:1313/informatique/installer-php7-4-sur-un-raspberry-pi/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//devmath.fr:1313/informatique/installer-php7-4-sur-un-raspberry-pi/</guid>
-      <description>Vous avez peut-être remarqué que votre WordPress tourne sous une ancienne version de PHP ? Vous avez donc sans doute vu ce message :
-Problème Critique PHP Wordpress  
+Tarifs avril 2020
+Il serait donc intéressent de pouvoir profiter de WordPress gratuitement, et ce sans être limité par les blocages du modèle &amp;ldquo;gratuit&amp;rdquo;.</description></item><item><title>Recevoir des notifications par mail en PHP grâce à IFTTT</title><link>https://devmath.fr/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</link><pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</guid><description>Paramétrer IFTTT : Connectez-vous à l’adresse https://ifttt.com/ . Inscrivez-vous si ce n&amp;rsquo;est pas déjà fais. Appuyez sur votre photo de profil en haut à gauche, puis appuyez sur &amp;ldquo;Create&amp;rdquo;. Appuyez sur &amp;ldquo;This&amp;rdquo; puis sélectionnez le service &amp;ldquo;Webhooks&amp;rdquo;. Choisissez l&amp;rsquo;Event Name de votre choix. Pour ma part, ce sera &amp;ldquo;iftttmessage&amp;rdquo;. Appuyez sur &amp;ldquo;That&amp;rdquo; puis sélectionnez &amp;ldquo;Email&amp;rdquo;. Personnalisez le body, le subject comme vous le souhaitez. Gardez juste bien en tête que &amp;ldquo;Value1&amp;rdquo; contiendra le message qu&amp;rsquo;on voudra envoyer.</description></item><item><title>Installer PHP7.4 pour Wordpress</title><link>https://devmath.fr/informatique/installer-php7-4-sur-un-raspberry-pi/</link><pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/installer-php7-4-sur-un-raspberry-pi/</guid><description>Vous avez peut-être remarqué que votre WordPress tourne sous une ancienne version de PHP ? Vous avez donc sans doute vu ce message :
+Problème Critique PHP Wordpress
 Prenez 10 min de votre temps pour régler ce problème.
-Prérequis :  Vous devez avoir un ordinateur mis à jour, sous une distribution basée sur debian (raspbian pour moi). Avoir les droits de super utilisateur et donc avoir accès à la commande &amp;ldquo;sudo&amp;rdquo;.</description>
-    </item>
-    
-  </channel>
-</rss>
+Prérequis : Vous devez avoir un ordinateur mis à jour, sous une distribution basée sur debian (raspbian pour moi). Avoir les droits de super utilisateur et donc avoir accès à la commande &amp;ldquo;sudo&amp;rdquo;.</description></item></channel></rss>
