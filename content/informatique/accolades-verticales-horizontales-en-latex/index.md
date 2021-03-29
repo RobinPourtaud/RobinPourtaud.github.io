@@ -74,12 +74,7 @@ Pour une accolade à droite, il existe la commande ²right.
 
 **Rendu :**
 
-$$
-\begin{cases}  
-4x + 8y = & 54 \\  
-2x + 7y = & 39 
-\end{cases}   
-$$
+$$\begin{cases}  4x + 8y = & 54 \\  2x + 7y = & 39 \end{cases}$$
 
 ### Un exemple de fonction :
 
