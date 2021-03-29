@@ -5,7 +5,7 @@
         "vars": {
           "gtag_id": "{{ $.Site.Params.googleanalytics }}",
           "config": {
-            "{{ $.Site.Params.googleAnalytics }}": { "groups": "default" }
+            "{{ $.Site.Params.googleanalytics }}": { "groups": "default" }
           }
         },
         "triggers": {{ index $.Site.Data "analytics-triggers" }}
