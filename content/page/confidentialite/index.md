@@ -90,7 +90,7 @@ Les seules données collectées par DevMath.fr proviennent de Google Analytics e
 
 ### Template du site
 
-Ce site est originellement basé sur le Template Hugo de Licence MIT garantissant :
+Ce site est originellement basé sur le Template Hugo amperage de Licence MIT garantissant :
 
 - Commercial use
 
@@ -110,7 +110,7 @@ Cependant, DevMath **n'autorise personne n'ayant pas obtenu une autorisation pr�
 
 ### Articles
 
-Nos articles sont tous originaux. Toutes sources utilisées pour leurs rédactions sont donc spécifiées. Toutes plagiat par l'un des auteurs de DevMath est, bien évidement interdit et seul l'auteur sera responsable. Pour toutes demande relevant de vos droits d'auteurs, veuillez-nous contacter à l'adresse : robin@devmath.fr. L'accusation de plagiat, mènera si justification à la modification ou suppression de l'articles.
+Nos articles sont tous originaux. Toutes sources utilisées pour leurs rédactions sont donc spécifiées. Tout plagiat par l'un des auteurs de DevMath est, bien évidement interdit et seul l'auteur sera responsable. Pour toute demande relevant de vos droits d'auteurs, veuillez-nous contacter à l'adresse : robin@devmath.fr. L'accusation de plagiat, mènera si justification à la modification ou suppression de l'article.
 
   
 

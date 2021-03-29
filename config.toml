@@ -44,7 +44,7 @@ contentDir = "content"
     publisherName = "amperage"
     socialProfiles = ["https://fr.linkedin.com/in/robinpourtaud", "https://github.com/RobinPourtaud/"]
     themeColor = "#333"
-    googleanalytics = "G-K25NCNW9WS"
+    googleanalytics = "UA-193267617-1"
     
     [params.author]
         name = "Robin Pourtaud"
