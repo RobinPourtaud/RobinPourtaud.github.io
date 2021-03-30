@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>unordered_map on DevMath.fr</title>
-    <link>http://localhost:1313/tags/unordered_map/</link>
-    <description>Recent content in unordered_map on DevMath.fr</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
-    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/unordered_map/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>unordered_map en C&#43;&#43;</title>
-      <link>http://localhost:1313/informatique/unordered_map-en-c/</link>
-      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/informatique/unordered_map-en-c/</guid>
-      <description>Intérêts : L’intérêt principal de l&amp;rsquo;utilisation d&amp;rsquo;une unordered_map par rapport à un autre conteneur (notamement une map) est sa faible complexité asymptotique de recherche ou d&amp;rsquo;insertion moyenne (en O(1)).
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>unordered_map on DevMath.fr</title><link>https://devmath.fr/tags/unordered_map/</link><description>Recent content in unordered_map on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/unordered_map/index.xml" rel="self" type="application/rss+xml"/><item><title>unordered_map en C++</title><link>https://devmath.fr/informatique/unordered_map-en-c/</link><pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/unordered_map-en-c/</guid><description>Intérêts : L’intérêt principal de l&amp;rsquo;utilisation d&amp;rsquo;une unordered_map par rapport à un autre conteneur (notamement une map) est sa faible complexité asymptotique de recherche ou d&amp;rsquo;insertion moyenne (en O(1)).
 Exemple : En tant qu&amp;rsquo;exemple, je vais créer un tableau associant un animal à son âge.
-Définition : #include &amp;lt;iostream&amp;gt; //Cout, endl,etc#include &amp;lt;string&amp;gt;#include &amp;lt;unordered_map&amp;gt;int main(){ /* * Tableau associatif associant une clé de type string * à un int. * Concrètement, MaMap associant un animal à son âge */ std::unordered_map&amp;lt;std::string,int&amp;gt; MaMap = { {&amp;#34;Chien&amp;#34;,1}, {&amp;#34;Chat&amp;#34;,3}, {&amp;#34;Rat&amp;#34;,10}, {&amp;#34;Chameau&amp;#34;,3} }; // Le reste des parties ce situent ici  return 0; } Insertion : Complexité moyenne en O(1).</description>
-    </item>
-    
-  </channel>
-</rss>
+Définition : #include &amp;lt;iostream&amp;gt; //Cout, endl,etc#include &amp;lt;string&amp;gt;#include &amp;lt;unordered_map&amp;gt;int main(){ /* * Tableau associatif associant une clé de type string * à un int. * Concrètement, MaMap associant un animal à son âge */ std::unordered_map&amp;lt;std::string,int&amp;gt; MaMap = { {&amp;#34;Chien&amp;#34;,1}, {&amp;#34;Chat&amp;#34;,3}, {&amp;#34;Rat&amp;#34;,10}, {&amp;#34;Chameau&amp;#34;,3} }; // Le reste des parties ce situent ici return 0; } Insertion : Complexité moyenne en O(1).</description></item></channel></rss>

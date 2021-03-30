@@ -1,26 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>somme on DevMath.fr</title>
-    <link>http://localhost:1313/tags/somme/</link>
-    <description>Recent content in somme on DevMath.fr</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
-    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/somme/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Démonstration : Somme des k(k parmi n)</title>
-      <link>http://localhost:1313/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</link>
-      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
-      <description>Identité : Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>somme on DevMath.fr</title><link>https://devmath.fr/tags/somme/</link><description>Recent content in somme on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/somme/index.xml" rel="self" type="application/rss+xml"/><item><title>Démonstration : Somme des k(k parmi n)</title><link>https://devmath.fr/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</link><pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid><description>Identité : Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
 $$\sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$$
-Démonstration :  On commence par reprendre la formule du binôme de Newton :  $$\sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n$$
-Soit $b = 1$, alors :  $$\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n$$
-Dérivons l&amp;rsquo;équation selon $a$ comme ceci :  $$\frac{d}{da}(\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n)$$
-Ce qui donne :  $$\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$$
-Nous pouvons maintenant prendre $a = 1$ et retrouver l&amp;rsquo;équation :  $$\sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$$</description>
-    </item>
-    
-  </channel>
-</rss>
+Démonstration : On commence par reprendre la formule du binôme de Newton : $$\sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n$$
+Soit $b = 1$, alors : $$\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n$$
+Dérivons l&amp;rsquo;équation selon $a$ comme ceci : $$\frac{d}{da}(\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n)$$
+Ce qui donne : $$\sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1}$$
+Nous pouvons maintenant prendre $a = 1$ et retrouver l&amp;rsquo;équation : $$\sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$$</description></item></channel></rss>

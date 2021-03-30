@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>notation on DevMath.fr</title>
-    <link>http://localhost:1313/tags/notation/</link>
-    <description>Recent content in notation on DevMath.fr</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
-    <lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/notation/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>La notation ? en mathématique : Termial</title>
-      <link>http://localhost:1313/mathematiques/la-notation-en-mathematique/</link>
-      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mathematiques/la-notation-en-mathematique/</guid>
-      <description>Nota Bene :  Il faut savoir que cette notation n&amp;rsquo;est pas couramment employée et se doit donc d&amp;rsquo;être utilisée dans le bon contexte. La notation point d&amp;rsquo;interrogation est distincte de la fonction de Minkowski. Je n&amp;rsquo;ai pas trouvé de traduction pour &amp;ldquo;Termial&amp;rdquo; en français.  Définition : Le Termial est présenté par Knuth comme une fonction analogue à la fonction factorielle &amp;ldquo;!&amp;rdquo;.
-La fonction factorielle étant définie $\forall n \in \mathbb{N}$ par :</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>notation on DevMath.fr</title><link>https://devmath.fr/tags/notation/</link><description>Recent content in notation on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/notation/index.xml" rel="self" type="application/rss+xml"/><item><title>La notation ? en mathématique : Termial</title><link>https://devmath.fr/mathematiques/la-notation-en-mathematique/</link><pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/mathematiques/la-notation-en-mathematique/</guid><description>Nota Bene : Il faut savoir que cette notation n&amp;rsquo;est pas couramment employée et se doit donc d&amp;rsquo;être utilisée dans le bon contexte. La notation point d&amp;rsquo;interrogation est distincte de la fonction de Minkowski. Je n&amp;rsquo;ai pas trouvé de traduction pour &amp;ldquo;Termial&amp;rdquo; en français. Définition : Le Termial est présenté par Knuth comme une fonction analogue à la fonction factorielle &amp;ldquo;!&amp;rdquo;.
+La fonction factorielle étant définie $\forall n \in \mathbb{N}$ par :</description></item></channel></rss>

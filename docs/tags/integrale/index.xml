@@ -1,52 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>integrale on DevMath.fr</title>
-    <link>http://localhost:1313/tags/integrale/</link>
-    <description>Recent content in integrale on DevMath.fr</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
-    <lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/integrale/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>DI Method / Intégration tabulaire</title>
-      <link>http://localhost:1313/mathematiques/di-method-integration-tabulaire/</link>
-      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mathematiques/di-method-integration-tabulaire/</guid>
-      <description>Pour introduire la DI Method, nous nous servirons de 2 exemples :
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>integrale on DevMath.fr</title><link>https://devmath.fr/tags/integrale/</link><description>Recent content in integrale on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/integrale/index.xml" rel="self" type="application/rss+xml"/><item><title>DI Method / Intégration tabulaire</title><link>https://devmath.fr/mathematiques/di-method-integration-tabulaire/</link><pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/mathematiques/di-method-integration-tabulaire/</guid><description>Pour introduire la DI Method, nous nous servirons de 2 exemples :
 Exemple 1 On souhaite résoudre l&amp;rsquo;intégrale :
 $$\int cos(x) x^2 dx$$
 Création du tableau Comme pour l&amp;rsquo;intégration par partie, nous choisissons quel facteur de l&amp;rsquo;intégrale nous souhaitons intégrer et quel facteur nous souhaitons dériver. Dans notre cas, nous dériverons $x^2$ et intégrerons $cos(x)$.
 LigneSigneDI1+$x^2$$cos(x)$2-$2x$$sin(x)$3+$2$$-cos(x)$4-$0$$-sin(x)$ Tableau de la méthode d&amp;rsquo;intégration tabulaire
-Dans la colonne signe, nous alternons le signe positif et négatif.</description>
-    </item>
-    
-    <item>
-      <title>Trouvez l&#39;erreur ! Mathématiques Collège-Lycée</title>
-      <link>http://localhost:1313/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</guid>
-      <description>Note : Toutes les variables appartiennent à $\mathbb{R}$.
+Dans la colonne signe, nous alternons le signe positif et négatif.</description></item><item><title>Trouvez l'erreur ! Mathématiques Collège-Lycée</title><link>https://devmath.fr/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</link><pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</guid><description>Note : Toutes les variables appartiennent à $\mathbb{R}$.
 Solutions à la fin !
 Niveau 1 : Un bon début ! Ici, chaque ligne correspond à la ligne précédente à laquelle on ajoute ce qui est écrit à sa droite. Surtout, prenez votre temps ! Ce n&amp;rsquo;est pas un exercice compliqué, rappelez-vous juste de toutes les règles apprises au collège :).
- $a = b$ $aa = ba$ En multipliant par a $a^2 - b^2 = ba - b^2$ En soustrayant $b^2$ $(a+b)(a-b) = b(a-b)$ Identité remarquable : $(a+b)(a-b) = a^2 - b^2$ $a+b = b$ En divisant par $(a-b)$ $b+b = b$ En remplaçant $a$ par $b$ $2b = b$ $2 = 1$ En divisant par b  Avez-vous trouvé l&amp;rsquo;erreur ?</description>
-    </item>
-    
-    <item>
-      <title>L&#39;intégrale de x^i dx</title>
-      <link>http://localhost:1313/mathematiques/integrale-de-xi-dx/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/mathematiques/integrale-de-xi-dx/</guid>
-      <description>Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
+$a = b$ $aa = ba$ En multipliant par a $a^2 - b^2 = ba - b^2$ En soustrayant $b^2$ $(a+b)(a-b) = b(a-b)$ Identité remarquable : $(a+b)(a-b) = a^2 - b^2$ $a+b = b$ En divisant par $(a-b)$ $b+b = b$ En remplaçant $a$ par $b$ $2b = b$ $2 = 1$ En divisant par b Avez-vous trouvé l&amp;rsquo;erreur ?</description></item><item><title>L'intégrale de x^i dx</title><link>https://devmath.fr/mathematiques/integrale-de-xi-dx/</link><pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/mathematiques/integrale-de-xi-dx/</guid><description>Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
 &amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.
 $x^i$ est de la forme $x^b$, $\forall b \in \mathbb{C}$. Or, on sait que :
 $$\int x^b dx = \frac{x^{b+1}}{b+1}$$
 Nous obtenons donc la solution :
 $$\int x^i dx = \frac{x^{i+1}}{i+1} + C$$
-Méthode 2 : Pour le fun Cette méthode n&amp;rsquo;est absolument pas nécessaire, ni pratique à utiliser.</description>
-    </item>
-    
-  </channel>
-</rss>
+Méthode 2 : Pour le fun Cette méthode n&amp;rsquo;est absolument pas nécessaire, ni pratique à utiliser.</description></item></channel></rss>

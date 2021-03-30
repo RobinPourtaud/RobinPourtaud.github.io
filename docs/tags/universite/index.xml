@@ -1,24 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>universite on DevMath.fr</title>
-    <link>http://localhost:1313/tags/universite/</link>
-    <description>Recent content in universite on DevMath.fr</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
-    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/universite/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Google Agenda : Ajouter un EDT de l&#39;Université de Nantes</title>
-      <link>http://localhost:1313/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</link>
-      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</guid>
-      <description>NB : ce tutoriel, bien qu&amp;rsquo;à destination des étudiants et professeurs de l&amp;rsquo;université de Nantes, fonctionnera de manière analogue pour toutes les universités (française en tout cas).
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>universite on DevMath.fr</title><link>https://devmath.fr/tags/universite/</link><description>Recent content in universite on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/universite/index.xml" rel="self" type="application/rss+xml"/><item><title>Google Agenda : Ajouter un EDT de l'Université de Nantes</title><link>https://devmath.fr/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</link><pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</guid><description>NB : ce tutoriel, bien qu&amp;rsquo;à destination des étudiants et professeurs de l&amp;rsquo;université de Nantes, fonctionnera de manière analogue pour toutes les universités (française en tout cas).
 Accéder à l&amp;rsquo;emploi du temps Web de votre Université Pour l&amp;rsquo;Université de Nantes, le lien est le suivant : https://edt.univ-nantes.fr/edt
 Accédez ensuite à l&amp;rsquo;emploi du temps que vous souhaitez enregistrer sur Google Agenda.
 Pour l&amp;rsquo;université de Nantes, cliquez sur cette icône :
-EDT Université de nantes</description>
-    </item>
-    
-  </channel>
-</rss>
+EDT Université de nantes</description></item></channel></rss>
