@@ -263,20 +263,16 @@ article .figure {
 		display: flex;
 		border-top: none;	
 	}
-	&__image {
-		
+	&__image {	
 		& img[decoding$="async"]{
-			
-			height: auto; 
-			max-height: none; 
-			max-width: none; 
-    		min-height: auto; 
-    		min-width: auto; 
-			width: auto; 
-    		margin: none;
 			display: inherit;
 			position: relative;
 			margin: auto;
+			min-height: 0%; 
+    		min-width: 0%; 
+    		width:auto;
+			height:auto; 
+			max-width: 100%;
 		}
 	}
 	&__caption {
@@ -286,14 +282,6 @@ article .figure {
 		height: min-content;
 		word-wrap: break-word;
 		text-align:center;
-	}
-	
-	img{
-		min-height: 0%; 
-    	min-width: 0%; 
-    	width:auto;
-		height:auto; 
-		max-width: 100%;
 	}
 	img[src$='#t1']{
 		width:40px;

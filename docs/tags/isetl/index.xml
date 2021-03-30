@@ -1,20 +1,102 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>isetl on DevMath.fr</title><link>https://devmath.fr/tags/isetl/</link><description>Recent content in isetl on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 31 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/isetl/index.xml" rel="self" type="application/rss+xml"/><item><title>ISETL - Langage de Programmation</title><link>https://devmath.fr/informatique/isetl-langage-de-programmation/</link><pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/isetl-langage-de-programmation/</guid><description>Définition : Interactive Set Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, elle avait pour finalité l’enseignement des mathématiques discrètes à l’université.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>isetl on DevMath.fr</title>
+    <link>http://localhost:1313/tags/isetl/</link>
+    <description>Recent content in isetl on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 31 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/isetl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ISETL - Langage de Programmation</title>
+      <link>http://localhost:1313/informatique/isetl-langage-de-programmation/</link>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/isetl-langage-de-programmation/</guid>
+      <description>Définition : Interactive Set Language (ISETL) est un langage de programmation basé sur SETL. Développé par Garry Levin en 1988, elle avait pour finalité l’enseignement des mathématiques discrètes à l’université.
 En 1985, SETL était devenu un projet très lourd, lent et nécessitait une compilation, ce qui le rendait difficilement utilisable. C’est dans ce contexte que Gary Levin décida de créer une version de SETL interactive à direction des universités.
-Et c’est ainsi qu’en 1988 sortit la version 1.</description></item><item><title>ISETL - Boucle While et boucle For</title><link>https://devmath.fr/informatique/isetl-boucle-while-et-boucle-for/</link><pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/isetl-boucle-while-et-boucle-for/</guid><description>Boucle While Définition : Une boucle &amp;ldquo;While&amp;rdquo;, ou boucle &amp;ldquo;Tant Que&amp;rdquo; permet de répéter l&amp;rsquo;exécution d&amp;rsquo;une portion de code tant qu&amp;rsquo;une condition est &amp;ldquo;Vrai&amp;rdquo;.
+Et c’est ainsi qu’en 1988 sortit la version 1.</description>
+    </item>
+    
+    <item>
+      <title>ISETL - Boucle While et boucle For</title>
+      <link>http://localhost:1313/informatique/isetl-boucle-while-et-boucle-for/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/isetl-boucle-while-et-boucle-for/</guid>
+      <description>Boucle While Définition : Une boucle &amp;ldquo;While&amp;rdquo;, ou boucle &amp;ldquo;Tant Que&amp;rdquo; permet de répéter l&amp;rsquo;exécution d&amp;rsquo;une portion de code tant qu&amp;rsquo;une condition est &amp;ldquo;Vrai&amp;rdquo;.
 En ISETL, une boucle &amp;ldquo;While&amp;rdquo; se rédige de cette façon :
 Exemple : On veut se compliquer la vie et afficher 3 fois &amp;ldquo;true&amp;rdquo; avec une boucle &amp;ldquo;While&amp;rdquo; :
-x := true; i := 0; while x do i:=i+1; print(x); if i &amp;gt; 2 then x:=false; end if end while; Boucle While ISETL</description></item><item><title>ISETL - Conditions If, ElseIf, Else</title><link>https://devmath.fr/informatique/isetl-conditions-if-elseif-else/</link><pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/isetl-conditions-if-elseif-else/</guid><description>If, ElseIf et Else En informatique, un &amp;ldquo;Si&amp;rdquo; permet d&amp;rsquo;exécuter une partie de code conditionnellement.
+x := true; i := 0; while x do i:=i+1; print(x); if i &amp;gt; 2 then x:=false; end if end while; Boucle While ISETL</description>
+    </item>
+    
+    <item>
+      <title>ISETL - Conditions If, ElseIf, Else</title>
+      <link>http://localhost:1313/informatique/isetl-conditions-if-elseif-else/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/isetl-conditions-if-elseif-else/</guid>
+      <description>If, ElseIf et Else En informatique, un &amp;ldquo;Si&amp;rdquo; permet d&amp;rsquo;exécuter une partie de code conditionnellement.
 Par exemple, prenons une variable x.
 Si x &amp;gt; 5, alors on souhaite afficher &amp;quot;nombre &amp;gt; 5&amp;quot;, Sinon Si x = 5, alors afficher &amp;quot;nombre = 5&amp;quot;, Sinon, &amp;quot;nombre &amp;lt; 5&amp;quot;. En ISETL, une structure conditionnelle se rédige de la façon suivante :
-if (condition) then .... elseif (condition) then ..... else ..... end if; Comme vous pouvez le voir, le &amp;ldquo;else&amp;rdquo; ne requiert pas de &amp;ldquo;then&amp;rdquo;.</description></item><item><title>ISETL - Syntaxe des fonctions</title><link>https://devmath.fr/informatique/isetl-syntaxe-des-fonctions/</link><pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/isetl-syntaxe-des-fonctions/</guid><description>Fonction en ISETL Définition : Comme dans d&amp;rsquo;autres langages de programmation, une fonction dans ISETL est une entité informatique permettant l&amp;rsquo;encapsulation d&amp;rsquo;une partie de code. Elle peut prendre zéro, une ou plusieurs entrées et retourne une valeur (ou non, on parlera alors de procédures).
+if (condition) then .... elseif (condition) then ..... else ..... end if; Comme vous pouvez le voir, le &amp;ldquo;else&amp;rdquo; ne requiert pas de &amp;ldquo;then&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>ISETL - Syntaxe des fonctions</title>
+      <link>http://localhost:1313/informatique/isetl-syntaxe-des-fonctions/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/isetl-syntaxe-des-fonctions/</guid>
+      <description>Fonction en ISETL Définition : Comme dans d&amp;rsquo;autres langages de programmation, une fonction dans ISETL est une entité informatique permettant l&amp;rsquo;encapsulation d&amp;rsquo;une partie de code. Elle peut prendre zéro, une ou plusieurs entrées et retourne une valeur (ou non, on parlera alors de procédures).
 La syntaxe : En ISETL, la syntaxe des fonctions ne repose pas sur l&amp;rsquo;indentation, ni sur des accolades :
-Une fonction commence par func(); et se fini par end func();.</description></item><item><title>ISETL - Utilisation basique de ISETLW 3.0</title><link>https://devmath.fr/informatique/isetl-utilisation-basique-de-isetlw-3-0/</link><pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/isetl-utilisation-basique-de-isetlw-3-0/</guid><description>Nécessaire : Pour pouvoir suivre ce tutoriel, il est nécessaire d&amp;rsquo;avoir accès au logiciel ISETLW 3.0 sur Windows. Pour cela, vous pouvez vous référer à mon précédent article sur son installation : ISETL 3.0 sur Windows 10
+Une fonction commence par func(); et se fini par end func();.</description>
+    </item>
+    
+    <item>
+      <title>ISETL - Utilisation basique de ISETLW 3.0</title>
+      <link>http://localhost:1313/informatique/isetl-utilisation-basique-de-isetlw-3-0/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/isetl-utilisation-basique-de-isetlw-3-0/</guid>
+      <description>Nécessaire : Pour pouvoir suivre ce tutoriel, il est nécessaire d&amp;rsquo;avoir accès au logiciel ISETLW 3.0 sur Windows. Pour cela, vous pouvez vous référer à mon précédent article sur son installation : ISETL 3.0 sur Windows 10
 Utilisation de la console : Utilisation habituelle : Au démarrage de ISETLW, la console ISETL s&amp;rsquo;ouvrira par défaut :
-Console ISETLW 3.0
-Vous pouvez directement taper les commandes que vous souhaitez et appuyer sur &amp;ldquo;Entrer&amp;rdquo;.</description></item><item><title>ISETL - Fonctions trigonométriques et hyperboliques</title><link>https://devmath.fr/informatique/isetl-fonctions-trigonometriques-hyperboliques/</link><pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/isetl-fonctions-trigonometriques-hyperboliques/</guid><description>Pour installer ISETL, je vous renvoie vers cet article.
+Console ISETLW 3.0  
+Vous pouvez directement taper les commandes que vous souhaitez et appuyer sur &amp;ldquo;Entrer&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>ISETL - Fonctions trigonométriques et hyperboliques</title>
+      <link>http://localhost:1313/informatique/isetl-fonctions-trigonometriques-hyperboliques/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/isetl-fonctions-trigonometriques-hyperboliques/</guid>
+      <description>Pour installer ISETL, je vous renvoie vers cet article.
 Fonction trigonométrique : Soit x un réel quelconque (appartenant aux domaines de définition des fonctions) :
-Fonction Isetl Fonction mathématique sin(x) Sinus cos(x) Cosinus tan(x) Tangente sec(x) Sécante csc(x) Cosécante cot(x) Cotangente asin(x) Arc Sinus acos(x) Arc Cosinus atan(x) Arc Tangeante Tableau récapitulatif des fonctions trigonométriques :</description></item><item><title>ISETL - Fonctions Mathématiques</title><link>https://devmath.fr/informatique/isetl-fonction-mathematiques/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/isetl-fonction-mathematiques/</guid><description>Prérequis : Il est bien sur nécessaire d&amp;rsquo;avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n&amp;rsquo;est pas le cas, je vous renvoie vers mon article : ISETL 3.0 sur Windows 10
+   Fonction Isetl Fonction mathématique     sin(x) Sinus   cos(x) Cosinus   tan(x) Tangente   sec(x) Sécante   csc(x) Cosécante   cot(x) Cotangente   asin(x) Arc Sinus   acos(x) Arc Cosinus   atan(x) Arc Tangeante    Tableau récapitulatif des fonctions trigonométriques :</description>
+    </item>
+    
+    <item>
+      <title>ISETL - Fonctions Mathématiques</title>
+      <link>http://localhost:1313/informatique/isetl-fonction-mathematiques/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/isetl-fonction-mathematiques/</guid>
+      <description>Prérequis : Il est bien sur nécessaire d&amp;rsquo;avoir accès à un interpréteur ISETL sur votre ordinateur. Si ce n&amp;rsquo;est pas le cas, je vous renvoie vers mon article : ISETL 3.0 sur Windows 10
 Liste de fonctions mathématiques ISETL : Soit $x$ et $y$, deux réels quelconques :
-Fonction ISETL Fonction mathématiques abs(x) $\lvert x \rvert$ exp(x) $e^x$ ceil(x) $\lceil x \rceil$ floor(x) $\lfloor x \rfloor$ ln(x) $\ln x$ log(x) $\log x$ max(x,y) $\max (x,y)$ min(x,y) $\min (x,y)$ sgn(x) $\begin{cases}1\text{ si }x&amp;gt;0\0\text{ si }x=0\-1\text{ si }x&amp;lt;0\end{cases}$ sqrt(x) $\sqrt{x}$ NB : Il ne faut pas oublier qu&amp;rsquo;ISETL est utilisé habituellement sur des ensembles finis, comme pour l&amp;rsquo;exemple suivant :</description></item><item><title>ISETL 3.0 sur Windows 10</title><link>https://devmath.fr/informatique/installer-isetl/</link><pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/installer-isetl/</guid><description>En 1985, SETL était devenu un projet très lourd, lent et nécessitait une compilation, ce qui le rendait difficilement utilisable. C&amp;rsquo;est dans ce contexte que Gary Levin décida de créer une version de SETL interactive à direction des universités.
+   Fonction ISETL Fonction mathématiques     abs(x) $\lvert x \rvert$   exp(x) $e^x$   ceil(x) $\lceil x \rceil$   floor(x) $\lfloor x \rfloor$   ln(x) $\ln x$   log(x) $\log x$   max(x,y) $\max (x,y)$   min(x,y) $\min (x,y)$   sgn(x) $\begin{cases}1\text{ si }x&amp;gt;0\0\text{ si }x=0\-1\text{ si }x&amp;lt;0\end{cases}$   sqrt(x) $\sqrt{x}$    NB : Il ne faut pas oublier qu&amp;rsquo;ISETL est utilisé habituellement sur des ensembles finis, comme pour l&amp;rsquo;exemple suivant :</description>
+    </item>
+    
+    <item>
+      <title>ISETL 3.0 sur Windows 10</title>
+      <link>http://localhost:1313/informatique/installer-isetl/</link>
+      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/installer-isetl/</guid>
+      <description>En 1985, SETL était devenu un projet très lourd, lent et nécessitait une compilation, ce qui le rendait difficilement utilisable. C&amp;rsquo;est dans ce contexte que Gary Levin décida de créer une version de SETL interactive à direction des universités.
 Et c&amp;rsquo;est ainsi qu&amp;rsquo;en 1988 sortit la version 1.0 d&amp;rsquo;ISETL : plus rapide, plus léger (&amp;lt;250K), et ayant une syntaxe très proche de celle de SETL. (source 1)
-Il est extrêmement complexe de se procurer des informations utiles sur ISETL en 2020.</description></item></channel></rss>
+Il est extrêmement complexe de se procurer des informations utiles sur ISETL en 2020.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,5 +1,489 @@
-<!doctype html><html ⚡ lang=fr><head><meta charset=utf-8><meta name=viewport content="width=device-width,minimum-scale=1,initial-scale=1"><title>Conditionnement d'une Matrice</title><meta name=description content="Cet article présente ce qu'est le conditionnement d'une matrice inversible et sa norme infinie, illustré par deux exemples."><link rel=canonical href=https://devmath.fr/informatique/conditionnement-dune-matrice/><link rel=sitemap href=https://devmath.fr/sitemap.xml type=application/xml><meta property="og:title" content="Conditionnement d'une Matrice"><meta property="og:url" content="https://devmath.fr/informatique/conditionnement-dune-matrice/"><meta property="og:description" content="Cet article présente ce qu'est le conditionnement d'une matrice inversible et sa norme infinie, illustré par deux exemples."><meta property="og:image" content="https://devmath.fr/logo.png"><meta property="og:type" content="article"><meta property="og:site_name" content><meta name=twitter:card content="summary"><meta name=twitter:title content="Conditionnement d'une Matrice"><meta name=twitter:url content="https://devmath.fr/informatique/conditionnement-dune-matrice/"><meta name=twitter:description content="Cet article présente ce qu'est le conditionnement d'une matrice inversible et sa norme infinie, illustré par deux exemples."><meta name=twitter:image content="https://devmath.fr/logo.png"><meta name=twitter:site content><meta name=theme-color content="#333"><link rel=manifest href=https://devmath.fr/manifest.json><link rel=icon href=https://devmath.fr/icons/logo.svg sizes=any type=image/svg+xml><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script data-ad-client=ca-pub-7598305494340329 async src=https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js></script><script async src=https://cdn.ampproject.org/v0.js></script><script async custom-element=amp-analytics src=https://cdn.ampproject.org/v0/amp-analytics-0.1.js></script><script async custom-element=amp-social-share src=https://cdn.ampproject.org/v0/amp-social-share-0.1.js></script><script async custom-element=amp-install-serviceworker src=https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js></script><script async custom-element=amp-youtube src=https://cdn.ampproject.org/v0/amp-youtube-0.1.js></script><script async custom-element=amp-carousel src=https://cdn.ampproject.org/v0/amp-carousel-0.1.js></script><style amp-custom>*,*::before,*::after{box-sizing:border-box}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0}body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}ul[class],ol[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img{max-width:100%;display:block}input,button,textarea,select{font:inherit}.chroma{background-color:#fff}.chroma .err{color:#a61717;background-color:#e3d2d2}.chroma .lntd{vertical-align:top;padding:0;margin:0;border:0}.chroma .lntable{border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block}.chroma .hl{display:block;width:100%;background-color:#ffc}.chroma .lnt{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .ln{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .k{color:#000;font-weight:700}.chroma .kc{color:#000;font-weight:700}.chroma .kd{color:#000;font-weight:700}.chroma .kn{color:#000;font-weight:700}.chroma .kp{color:#000;font-weight:700}.chroma .kr{color:#000;font-weight:700}.chroma .kt{color:#458;font-weight:700}.chroma .na{color:teal}.chroma .nb{color:#0086b3}.chroma .bp{color:#999}.chroma .nc{color:#458;font-weight:700}.chroma .no{color:teal}.chroma .nd{color:#3c5d5d;font-weight:700}.chroma .ni{color:purple}.chroma .ne{color:#900;font-weight:700}.chroma .nf{color:#900;font-weight:700}.chroma .nl{color:#900;font-weight:700}.chroma .nn{color:#555}.chroma .nt{color:navy}.chroma .nv{color:teal}.chroma .vc{color:teal}.chroma .vg{color:teal}.chroma .vi{color:teal}.chroma .s{color:#d14}.chroma .sa{color:#d14}.chroma .sb{color:#d14}.chroma .sc{color:#d14}.chroma .dl{color:#d14}.chroma .sd{color:#d14}.chroma .s2{color:#d14}.chroma .se{color:#d14}.chroma .sh{color:#d14}.chroma .si{color:#d14}.chroma .sx{color:#d14}.chroma .sr{color:#009926}.chroma .s1{color:#d14}.chroma .ss{color:#990073}.chroma .m{color:#099}.chroma .mb{color:#099}.chroma .mf{color:#099}.chroma .mh{color:#099}.chroma .mi{color:#099}.chroma .il{color:#099}.chroma .mo{color:#099}.chroma .o{color:#000;font-weight:700}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#998;font-style:italic}.chroma .ch{color:#998;font-style:italic}.chroma .cm{color:#998;font-style:italic}.chroma .c1{color:#998;font-style:italic}.chroma .cs{color:#999;font-weight:700;font-style:italic}.chroma .cp{color:#999;font-weight:700;font-style:italic}.chroma .cpf{color:#999;font-weight:700;font-style:italic}.chroma .gd{color:#000;background-color:#fdd}.chroma .ge{color:#000;font-style:italic}.chroma .gr{color:#a00}.chroma .gh{color:#999}.chroma .gi{color:#000;background-color:#dfd}.chroma .go{color:#888}.chroma .gp{color:#555}.chroma .gs{font-weight:700}.chroma .gu{color:#aaa}.chroma .gt{color:#a00}.chroma .gl{text-decoration:underline}.chroma .w{color:#bbb}body{position:absolute;display:block;font-size:1.2em;font-family:poppins,sans-serif;line-height:1.6;color:#000;background-color:#f9fafc}amp-next-page{grid-column:span 12}.header{position:fixed;z-index:99;width:100%;height:70px;padding:10px 20%;top:0;background-color:#fff;box-shadow:0 15px 10px -15px #1e204b2b}.header__title{float:left;margin:0;padding:0;align-items:center;overflow:auto;justify-content:space-between}.header__title__text{color:#147480;font-weight:bolder;letter-spacing:1px;margin-left:50px;font-size:1.3em;white-space:nowrap}.header__title__text:hover{color:#d14;transition:1s ease-in-out}.header__title__logo{float:left;display:block;margin-left:auto;margin-right:auto;font-family:icomoon;font-size:23px}.header__title__logo svg{width:40px;height:40px}.header__search{float:right;font-family:poppins,sans-serif;z-index:4;display:block;padding:10px;color:#757575;background-color:transparent;height:50px;border:0;transition:.9s ease}.header__search :cheked{border-bottom:757575 solid 1px;transition:1s;width:80%;max-width:333px;outline:none;width:auto}.header__search__input{width:10px;font-size:1.2em;width:80%;height:100%;border-radius:0;border:0;background-color:transparent;outline:none;overflow:hidden;position:relative;float:left;color:#fff}.header__search__input::placeholder{color:#fff}.header__search__icon{float:right;position:relative;cursor:pointer}.header__search .search-item{width:300px}.header__search .search-item__link{border-bottom:none;width:300px}.main{line-height:1.7;width:100%;margin-top:80px;right:0;left:0;padding:20px 100px 0;position:relative}.main .pagination{margin:3em auto 2em;display:flex;justify-content:space-between}.footer{position:relative;bottom:0;width:100%;background-color:#0093e9;background-image:linear-gradient(160deg,#0093E9 0%,#80D0C7 100%);margin-bottom:0;text-align:center;font-size:15px;padding:3px;float:right}.footer__copyright{color:#fff}.footer__list__link{display:inline;margin:4px}.footer__list__link a{color:#fff}.more__list{list-style:none;text-align:center}.more__list li{background-color:#8ec5fc;background-image:linear-gradient(62deg,#8EC5FC 0%,#E0C3FC 100%);border-radius:4px;margin:20px;padding:10px;width:160px;display:inline-block;font-weight:bolder;text-transform:capitalize}.more__list a{color:#fff}h1{font-size:40px;line-height:58px;color:#333;margin:0;font-weight:700}h2{text-align:center;background:linear-gradient(to right,#f2709c,#ff9472);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:32px;margin-top:40px;border-top:solid 2px #e8e8e8;padding-bottom:15px;padding-top:15px}h3{background-image:radial-gradient(circle farthest-corner at 12.3% 19.3%,#5558da 0%,#5fd1f9 100.2%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-top:30px;margin-bottom:20px}h4{font-size:1.5rem}a{color:#1e3888;text-decoration:none;transition:background .3s}a:hover{border-color:#d14}.button{padding:.5em .75em;font-size:1.2em;text-align:center;border:0}li{margin-top:.25em}pre{font-family:poppins,sans-serif;font-size:12pt;display:block;overflow-x:auto;padding:25px;background:radial-gradient(circle 993px at 0.5% 50.5%,rgba(137,171,245,0.37) 0%,#f5f7fc 100.2%);color:#000;font-weight:500;border-radius:4px}blockquote{margin:1em 0 1em 1em;padding:1em;border-left:5px solid #999}blockquote:before{display:none}blockquote:not(:first-of-type){margin-top:.5em}blockquote p{color:#555;font-size:1em;font-family:poppins,sans-serif}article .figure{margin-top:10px;margin-bottom:10px;width:100%;max-width:100%;flex-direction:column-reverse;text-align:center}article .figure--with-alt{display:flex;border-top:none}article .figure__image img[decoding$=async]{height:auto;max-height:none;max-width:none;min-height:auto;min-width:auto;width:auto;margin:none;display:inherit;position:relative;margin:auto}article .figure__caption{color:#333;font-weight:400;padding:.5em 1em;height:min-content;word-wrap:break-word;text-align:center}article .figure img{min-height:0%;min-width:0%;width:auto;height:auto;max-width:100%}article .figure img[src$='#t1']{width:40px}article .figure img[src$='#t2']{width:100px}article .figure img[src$='#t3']{width:300px}article .figure img[src$='#t4']{width:500px}article .figure img[src$='#t5']{width:700px}article .figure img[src$='#t6']{width:900px}.social-share{display:flex;align-self:center;align-items:center}.social-share__button{margin:10px .3em;border-radius:50%;background-size:60%;margin:0 7px}#tags{margin:0;padding:0}#tags li{display:inline;margin-right:10px}#tags li a{text-transform:capitalize}.single{width:1200px;position:relative;display:block;height:auto;margin:auto}.aside{float:right;position:relative;display:block;width:300px;background-color:#f9fafc;padding:20px}.aside__title{border-top:#e8e8e8 solid 2px;margin-top:20px;text-transform:uppercase;font-size:12px;color:#666;font-weight:400}.aside__share{text-align:center;margin-top:10px}.aside .summary{width:100%;margin:0;display:block}.aside .summary__top{width:auto;height:auto}.aside .summary__top__tags{width:260px;font-size:10px;padding:110px 15px 10px 80px}.aside .summary__top__image{height:auto}.aside .summary__top__title{width:260px;font-size:16px;line-height:18px}.aside .summary__bottom__desc{height:83px;overflow:hidden}.aside .summary__list{display:initial;padding:20px}.description{text-align:center;font-weight:lighter;font-style:italic;margin-top:30px;color:#000000bf}.content{background-color:#ffff;display:block;padding:40px;border-radius:10px;width:900px;margin-bottom:20px;float:right;position:relative}.content table{display:block;overflow-x:auto;border-collapse:collapse;margin:10px;text-align:center}.content table td,.content table th{border:1px solid #ddd}.content table td{padding:.5em 1em}.content table th{padding:1em 2em;background-color:#333;color:#fff}.content table tr:nth-child(even){background-color:#f1f1f1}.content table tr:hover{background-color:#ddd}.content .highlight .chroma{background-color:#f1f1f1}.content .under-title{display:flex;flex-wrap:wrap;justify-content:space-between;font-size:1rem}.content .under-title__info,.content .under-title__social-share{align-self:center}.content .ad{display:flex;margin:1rem auto;align-content:center;width:min-content;height:min-content;min-width:320px;min-height:320px;border:1px solid #333}.content .ad__fallback{display:flex;align-items:center}.content .ad__fallback p{margin:auto}.content .author{border-radius:10px;background-color:#f9f9f9;padding:20px 60px;margin:40px}.content .author__image{border-radius:100px;margin:10px 0 0}.content .author__right{margin:0}.content .author__right__name{font-weight:700;font-size:20px;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-image:linear-gradient(135deg,#8bc6ec 0%,#9599e2 100%)}.content .author__right__bio{font-size:12px}.summary{width:333.3px;height:333px;overflow:hidden;margin:15px;display:inline-block}.summary__top__title{position:absolute;z-index:2;color:#fff;font-weight:bolder;width:333.3px;padding:20px 15px 10px 80px;text-align:right;vertical-align:center;line-height:25px}.summary__top__image{border-radius:6px;display:block;width:100%;height:181.9px;padding:20px;margin-bottom:10px}.summary__top__tags{position:absolute;color:#fff;z-index:2;width:333.3px;padding:120px 15px 10px 80px;text-align:right;font-size:15px;line-height:15px}.summary__bottom{text-align:left}.summary__bottom__title{font-weight:bolder;z-index:10;background-image:radial-gradient(circle farthest-corner at 12.3% 19.3%,#5558da 0%,#5fd1f9 100.2%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1.4;font-weight:500;font-size:20px}.summary__bottom__desc{font-size:13px;color:#000;text-overflow:ellipsis;letter-spacing:.1px}.summary__list{max-width:1100px;width:100%;position:relative;display:inline-flex}.list__summary{text-align:center}@media(max-width:320px){.p{font-size:20px}.under-title__social-share{width:100%;margin-top:1.5em;justify-content:space-between}}.toc{margin-top:40px;margin-bottom:40px;background-color:#f9fafc;padding:30px}.toc__title{font-size:30px;background-image:radial-gradient(circle 767px at 10.2% 22.1%,#0bda51 0%,deepskyblue 90%);-webkit-background-clip:text;font-weight:700;-webkit-text-fill-color:transparent}.toc ul{list-style:decimal}.formula__center{text-align:center;overflow:visible;margin:3px 0}.formula__center img{height:auto;max-height:none;max-width:none;min-height:auto;min-width:auto;width:auto;margin:auto}.formula__span{overflow:visible;position:relative;vertical-align:super;top:25px}.formula__inline{overflow:visible;width:auto;height:60px}.formula__inline img[decoding$=async]{height:auto;max-height:none;max-width:none;min-height:auto;min-width:auto;width:auto;position:relative;margin:0 2px;top:56%;transform:translateY(-50%)}@media(min-width:1300px){.author__right{float:right;width:80%}}@media(max-width:1300px){.single{width:100%}.aside{display:none}.content{width:100%}.main{padding:0}h1{font-size:32px}.toc__title,h2{font-size:25px}.author{padding:0;margin:0;text-align:center;float:none}.author__right{float:none;width:100%}}</style></head><body><amp-install-serviceworker src=https://devmath.fr/sw.js data-iframe-src=https://devmath.fr/install-sw.html layout=nodisplay></amp-install-serviceworker><amp-analytics type=gtag data-credentials=include><script type=application/json>{"vars":{"gtag_id":"UA-193267617-1","config":{"UA-193267617-1":{"groups":"default"}}},"triggers":{"trackPageview":{"on":"visible","request":"pageview"}}}</script></amp-analytics><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/devmath.fr","name":"Accueil"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/devmath.fr\/informatique\/","name":"Informatique"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/devmath.fr\/informatique\/conditionnement-dune-matrice\/","name":"Conditionnement dune matrice"}}]}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","image":"https:\/\/devmath.fr","url":"https:\/\/devmath.fr\/informatique\/conditionnement-dune-matrice\/","headline":"Conditionnement d\u0027une Matrice","alternativeHeadline":"Conditionnement d\u0027une Matrice","dateCreated":"2020-04-11T00:00:00","datePublished":"2020-04-11T00:00:00","dateModified":"2020-04-11T00:00:00","inLanguage":"fr","isFamilyFriendly":"true","copyrightYear":"2020","copyrightHolder":"","accountablePerson":{"@type":"Person","name":"","url":""},"author":{"@type":"Person","name":"","url":"https:\/\/devmath.fr","image":"https:\/\/devmath.fr","description":""},"creator":{"@type":"Person","name":"","url":"https:\/\/devmath.fr","image":"https:\/\/devmath.fr","description":""},"publisher":{"@type":"Organization","name":"amperage","url":"https:\/\/devmath.fr","logo":{"@type":"ImageObject","url":"\/icons\/logo.svg","width":"600","height":"60"}},"mainEntityOfPage":"https:\/\/devmath.fr\/informatique\/conditionnement-dune-matrice\/","keywords":"null","genre":"[\"algebre\",\"analyse\",\"optimisation-informatique\",\"systeme-lineaire\"]","articleSection":"Informatiques"}</script><header class=header><a class=header__title data-rel=prefetch href=https://devmath.fr aria-label="Retourner à la page d'accueil"><div class=header__title__logo><amp-img layout=fixed height=40 width=40 src=/icons/logo.svg></amp-img></div><div class=header__title__text>DevMath</div></a></header><main class=main><div class=single><article class=content><h1>Conditionnement d'une Matrice</h1><section class=under-title><div class=under-title__info><ul id=tags><li><a href=https://devmath.fr/tags/algebre/ data-rel=prefetch>algebre</a></li><li><a href=https://devmath.fr/tags/analyse/ data-rel=prefetch>analyse</a></li><li><a href=https://devmath.fr/tags/optimisation-informatique/ data-rel=prefetch>optimisation-informatique</a></li><li><a href=https://devmath.fr/tags/systeme-lineaire/ data-rel=prefetch>systeme-lineaire</a></li></ul></div></section><p class=description>Cet article présente ce qu'est le conditionnement d'une matrice inversible et sa norme infinie, illustré par deux exemples.</p><div class=toc><div class=toc__title>Table des matières</div><nav id=TableOfContents><ul><li><a href=#définition>Définition</a></li><li><a href=#exemple-1>Exemple 1</a><ul><li><a href=#matrice-a-et-sa-solution>Matrice A et sa solution</a></li><li><a href=#exemple-de-variation>Exemple de variation</a></li><li><a href=#calcul-du-conditionnement>Calcul du conditionnement</a></li><li><a href=#en-python>En python</a></li></ul></li><li><a href=#exemple-2>Exemple 2</a></li><li><a href=#sources>Sources</a></li></ul></nav></div><h2 id=définition>Définition</h2><p>Un système linéaire peut s&rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.</p><p>Pour une matrice inversible A, sa fonction de conditionnement est :</p><p><amp-img layout=fixed-height height=90 class=formula__center alt="kappa(A)=Vert A Vert Vert A^{-1} Vert" src=/latex-svg/54f9e1ec032adaa95d5ae0162c0412fc.svg><amp-img fallback alt="kappa(A)=Vert A Vert Vert A^{-1} Vert" width=1 height=1 class=formula__inline src="https://latex.codecogs.com/svg.latex?kappa(A)=Vert A Vert Vert A^{-1} Vert"></amp-img></amp-img></p><p>Note : Plus <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt=kappa src=/latex-svg/9f3e4a234b198c876b9b3715365351cc.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt=kappa width=1 height=1 src=https://latex.codecogs.com/svg.latex?kappa></amp-img></amp-img>est élevé, plus la matrice A est mal conditionnée.</p><h2 id=exemple-1>Exemple 1</h2><p>Pour comprendre ce qu&rsquo;est le conditionnement, prenons un exemple de système linéaire <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt="AX=Y" src=/latex-svg/b121a4c50bffa37c87085e7dae03a630.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt="AX=Y" width=1 height=1 src="https://latex.codecogs.com/svg.latex?AX=Y"></amp-img></amp-img>:</p><h3 id=matrice-a-et-sa-solution>Matrice A et sa solution</h3><p>Soit une matrice A :</p><p><amp-img layout=fixed-height height=90 class=formula__center alt="A=begin{bmatrix} 10 & 7 & 8 & 7  7 & 5 & 6 & 5 8 & 6 & 10 & 9  7 & 5 & 9 & 10 end{bmatrix}, Y=begin{bmatrix}32  23  33  31end{bmatrix}" src=/latex-svg/721218705dc898dc2b33f8ca2a05c1a0.svg><amp-img fallback alt="A=begin{bmatrix} 10 & 7 & 8 & 7  7 & 5 & 6 & 5 8 & 6 & 10 & 9  7 & 5 & 9 & 10 end{bmatrix}, Y=begin{bmatrix}32  23  33  31end{bmatrix}" width=1 height=1 class=formula__inline src="https://latex.codecogs.com/svg.latex?A=begin{bmatrix} 10 & 7 & 8 & 7  7 & 5 & 6 & 5 8 & 6 & 10 & 9  7 & 5 & 9 & 10 end{bmatrix}, Y=begin{bmatrix}32  23  33  31end{bmatrix}"></amp-img></amp-img></p><p>La solution de ce système sera donc :</p><p><amp-img layout=fixed-height height=90 class=formula__center alt="X = begin{bmatrix}1111end{bmatrix}" src=/latex-svg/70614caaa09820c0f2674e2ab28577d2.svg><amp-img fallback alt="X = begin{bmatrix}1111end{bmatrix}" width=1 height=1 class=formula__inline src="https://latex.codecogs.com/svg.latex?X = begin{bmatrix}1111end{bmatrix}"></amp-img></amp-img></p><h3 id=exemple-de-variation>Exemple de variation</h3><p>Il est intéressant de remarquer que si on varie faiblement <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt=Y src=/latex-svg/c0f2552900610441aab3eb4c53dc562c.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt=Y width=1 height=1 src=https://latex.codecogs.com/svg.latex?Y></amp-img></amp-img>:</p><p><amp-img layout=fixed-height height=90 class=formula__center alt="Delta_Y=begin{bmatrix}0.1-0.10.1-0.1end{bmatrix}" src=/latex-svg/df56c547e732839bcdbe7a8c5100ebf9.svg><amp-img fallback alt="Delta_Y=begin{bmatrix}0.1-0.10.1-0.1end{bmatrix}" width=1 height=1 class=formula__inline src="https://latex.codecogs.com/svg.latex?Delta_Y=begin{bmatrix}0.1-0.10.1-0.1end{bmatrix}"></amp-img></amp-img></p><p>Nous obtenons :</p><p><amp-img layout=fixed-height height=90 class=formula__center alt="X=begin{bmatrix}9.2-12.64.5-11end{bmatrix}" src=/latex-svg/3a93f90a5756380bd88c891c6e3ee8d0.svg><amp-img fallback alt="X=begin{bmatrix}9.2-12.64.5-11end{bmatrix}" width=1 height=1 class=formula__inline src="https://latex.codecogs.com/svg.latex?X=begin{bmatrix}9.2-12.64.5-11end{bmatrix}"></amp-img></amp-img></p><p>Une petite variation <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt=Delta_Y src=/latex-svg/2a7844a00cfde786d70dd9ceb4b52080.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt=Delta_Y width=1 height=1 src=https://latex.codecogs.com/svg.latex?Delta_Y></amp-img></amp-img>sur <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt=Y src=/latex-svg/c0f2552900610441aab3eb4c53dc562c.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt=Y width=1 height=1 src=https://latex.codecogs.com/svg.latex?Y></amp-img></amp-img>implique une grande variation de <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt=X src=/latex-svg/1e2ac16713d99c35c69e672d92bc136b.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt=X width=1 height=1 src=https://latex.codecogs.com/svg.latex?X></amp-img></amp-img>.<br>On dira de la matrice <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt=A src=/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt=A width=1 height=1 src=https://latex.codecogs.com/svg.latex?A></amp-img></amp-img>qu&rsquo;elle est &ldquo;<strong>mal conditionnée</strong>&rdquo;.</p><h3 id=calcul-du-conditionnement>Calcul du conditionnement</h3><p>La fonction de conditionnement d’une matrice <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt=A src=/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt=A width=1 height=1 src=https://latex.codecogs.com/svg.latex?A></amp-img></amp-img>est <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt="kappa(A)=Vert A Vert Vert A^{-1} Vert" src=/latex-svg/54f9e1ec032adaa95d5ae0162c0412fc.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt="kappa(A)=Vert A Vert Vert A^{-1} Vert" width=1 height=1 src="https://latex.codecogs.com/svg.latex?kappa(A)=Vert A Vert Vert A^{-1} Vert"></amp-img></amp-img>, <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt=A src=/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt=A width=1 height=1 src=https://latex.codecogs.com/svg.latex?A></amp-img></amp-img>ayant un déterminant différent de 0 et donc étant inversible. Prenons la norme infini (avec <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt="n = dim A" src=/latex-svg/2b0e0f3ef7d95635664a6875fd507dcb.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt="n = dim A" width=1 height=1 src="https://latex.codecogs.com/svg.latex?n = dim A"></amp-img></amp-img>)</p><p><amp-img layout=fixed-height height=90 class=formula__center alt="kappa(A)=Vert A Vert_{infty} Vert A^{-1} Vert_{infty} = max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}| times max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}^{-1}|" src=/latex-svg/65fe11c0088a391145babc20aab17e76.svg><amp-img fallback alt="kappa(A)=Vert A Vert_{infty} Vert A^{-1} Vert_{infty} = max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}| times max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}^{-1}|" width=1 height=1 class=formula__inline src="https://latex.codecogs.com/svg.latex?kappa(A)=Vert A Vert_{infty} Vert A^{-1} Vert_{infty} = max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}| times max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}^{-1}|"></amp-img></amp-img></p><p>Dans cet exemple: <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt="kappa(A)=33 times 136 = 4488" src=/latex-svg/7e8f8367bda69e539942559792f87c3a.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt="kappa(A)=33 times 136 = 4488" width=1 height=1 src="https://latex.codecogs.com/svg.latex?kappa(A)=33 times 136 = 4488"></amp-img></amp-img>.</p><h3 id=en-python>En python</h3><p>Pour calculer le conditionnement rapidement en python, je vous propose de faire :</p><div class=highlight><pre class=chroma><code class=language-python data-lang=python><span class=kn>import</span> <span class=nn>numpy</span> <span class=k>as</span> <span class=n>np</span> 
-<span class=n>A</span> <span class=o>=</span> <span class=n>np</span><span class=o>.</span><span class=n>array</span><span class=p>([[</span><span class=mi>10</span><span class=p>,</span><span class=mi>7</span><span class=p>,</span><span class=mi>8</span><span class=p>,</span><span class=mi>7</span><span class=p>],[</span><span class=mi>7</span><span class=p>,</span><span class=mi>5</span><span class=p>,</span><span class=mi>6</span><span class=p>,</span><span class=mi>5</span><span class=p>],[</span><span class=mi>8</span><span class=p>,</span><span class=mi>6</span><span class=p>,</span><span class=mi>10</span><span class=p>,</span><span class=mi>9</span><span class=p>],[</span><span class=mi>7</span><span class=p>,</span><span class=mi>5</span><span class=p>,</span><span class=mi>9</span><span class=p>,</span><span class=mi>10</span><span class=p>]])</span>
-<span class=k>print</span><span class=p>(</span><span class=n>np</span><span class=o>.</span><span class=n>linalg</span><span class=o>.</span><span class=n>cond</span><span class=p>(</span><span class=n>A</span><span class=p>,</span><span class=n>np</span><span class=o>.</span><span class=n>inf</span><span class=p>))</span>
-</code></pre></div><p>Vous devriez obtenir le même résultat !</p><p>Pour en savoir plus sur le conditionnement :
-<a href=https://keskec.fr/sciences/informatique/robin/2057/#Conditionnement_de_Matrice target=_blank rel="nofollow noopener noreferrer">Python avec Numpy</a>.</p><h2 id=exemple-2>Exemple 2</h2><p>Pour prendre un autre exemple: La &ldquo;matrice B&rdquo; est bien conditionnée:</p><p>Soit la matrice inversible B :</p><p><amp-img layout=fixed-height height=90 class=formula__center alt="B=begin{bmatrix}1&7&2&17&5&1&58&6&10&97&5&9&1end{bmatrix}" src=/latex-svg/0ba2bb99eaa5b11270607c59ad94c8bf.svg><amp-img fallback alt="B=begin{bmatrix}1&7&2&17&5&1&58&6&10&97&5&9&1end{bmatrix}" width=1 height=1 class=formula__inline src="https://latex.codecogs.com/svg.latex?B=begin{bmatrix}1&7&2&17&5&1&58&6&10&97&5&9&1end{bmatrix}"></amp-img></amp-img></p><p>Nous avons : <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt="kappa(B)=33times 0.4496=14.8368" src=/latex-svg/9091506b84fe7199d1a183e74334c45e.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt="kappa(B)=33times 0.4496=14.8368" width=1 height=1 src="https://latex.codecogs.com/svg.latex?kappa(B)=33times 0.4496=14.8368"></amp-img></amp-img></p><p>Cette matrice est relativement bien conditionnée en comparaison avec la matrice <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt=A src=/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt=A width=1 height=1 src=https://latex.codecogs.com/svg.latex?A></amp-img></amp-img>.</p><p>Nous pouvons donc affirmer que pour un système linéaire <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt="BX=Y" src=/latex-svg/f42a98f82817378f2bff6d511676f42f.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt="BX=Y" width=1 height=1 src="https://latex.codecogs.com/svg.latex?BX=Y"></amp-img></amp-img>, une petite variation de <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt=Y src=/latex-svg/c0f2552900610441aab3eb4c53dc562c.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt=Y width=1 height=1 src=https://latex.codecogs.com/svg.latex?Y></amp-img></amp-img>n’engendra pas une grosse variation <span class=formula__span><amp-img layout=intrinsic height=1 width=1 class=formula__inline alt=X src=/latex-svg/1e2ac16713d99c35c69e672d92bc136b.svg disable-inline-width></amp-img></span><amp-img fallbackclass=formula__inline alt=X width=1 height=1 src=https://latex.codecogs.com/svg.latex?X></amp-img></amp-img>.</p><h2 id=sources>Sources</h2><ol><li><a href="http://www.bibmath.net/dico/index.php?action=affiche&quoi=./c/conditionnement.html" target=_blank rel="nofollow noopener noreferrer">Conditionnement d&rsquo;une matrice - bibmath.net</a></li><li><a href=https://www.i2m.univ-amu.fr/perso/thierry.gallouet/licence.d/anum.d/anum-tg2.pdf target=_blank rel="nofollow noopener noreferrer">NORMES ET CONDITIONNEMENT D’UNE MATRICE</a></li><li><a href=http://wiki.inra.fr/wiki/cascisdi/Production/Conditionnement+d%27une+matrice target=_blank rel="nofollow noopener noreferrer">Conditionnement d&rsquo;une matrice</a></li></ol><div class=more><h2 class=more__title>Thèmes relatifs à l'article</h2><ul class=more__list><a href=https://devmath.fr/tags/algebre/ data-rel=prefetch><li>algebre</li></a><a href=https://devmath.fr/tags/analyse/ data-rel=prefetch><li>analyse</li></a><a href=https://devmath.fr/tags/optimisation-informatique/ data-rel=prefetch><li>optimisation-informatique</li></a><a href=https://devmath.fr/tags/systeme-lineaire/ data-rel=prefetch><li>systeme-lineaire</li></a></ul></div><section class=author><amp-img class=author__image src=https://devmath.fr/images/pdp.jpg layout=fixed height=70 width=70></amp-img><div class=author__right><p class=author__right__name>Robin Pourtaud</p><p class=author__right__bio>Etudiant en informatique, je suis l'administrateur et rédacteur du site DevMath.fr. Si vous avez une question, n'hésitez pas à me contacter !</p></div></section></article><aside class=aside><div class=aside__title>Partager</div><div class=aside__share><amp-social-share class=social-share__button aria-label=Partager type=system width=40 height=40 style=background-color:#147480;></amp-social-share><amp-social-share class=social-share__button aria-label="Partager sur Twitter" type=twitter width=40 height=40></amp-social-share><amp-social-share class=social-share__button aria-label="Partager sur Linkedin" type=linkedin width=40 height=40></amp-social-share></div><div class=aside__title>Date de publication</div><p><time datetime=2020-04-11T00:00:00>11 Avril 2020</time></p><div class=aside__title>Auteur</div><p>Robin Pourtaud</p><div class=aside__title>Tags</div><ul id=tags><li><a href=https://devmath.fr/tags/algebre/ data-rel=prefetch>algebre</a></li><li><a href=https://devmath.fr/tags/analyse/ data-rel=prefetch>analyse</a></li><li><a href=https://devmath.fr/tags/optimisation-informatique/ data-rel=prefetch>optimisation-informatique</a></li><li><a href=https://devmath.fr/tags/systeme-lineaire/ data-rel=prefetch>systeme-lineaire</a></li></ul><div class=aside__title>Articles liés</div><div class=summary__list></div></aside></div></main><footer class=footer><div class=footer__copyright>© DevMath.fr 2021 - Tous droits réservés</div><ul class=footer__list><li class=footer__list__link><a href=/page/contact>Contact</a></li><li class=footer__list__link><a href=/page/confidentialite>Confidentialité</a></li></ul></footer></body></html>
+<!DOCTYPE html>
+<html ⚡ lang="fr">
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<title>Conditionnement d&#39;une Matrice</title>
+    
+<meta name="description" content="Cet article présente ce qu&#39;est le conditionnement d&#39;une matrice inversible et sa norme infinie, illustré par deux exemples." />
+<link rel="canonical" href="http://localhost:1313/informatique/conditionnement-dune-matrice/" >
+<link rel="sitemap" href="http://localhost:1313/sitemap.xml" type="application/xml" /><meta property="og:title" content="Conditionnement d&#39;une Matrice">
+<meta property="og:url" content="http://localhost:1313/informatique/conditionnement-dune-matrice/">
+<meta property="og:description" content="Cet article présente ce qu&#39;est le conditionnement d&#39;une matrice inversible et sa norme infinie, illustré par deux exemples.">
+<meta property="og:image" content="http://localhost:1313/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content=""><meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Conditionnement d&#39;une Matrice">
+<meta name="twitter:url" content="http://localhost:1313/informatique/conditionnement-dune-matrice/">
+<meta name="twitter:description" content="Cet article présente ce qu&#39;est le conditionnement d&#39;une matrice inversible et sa norme infinie, illustré par deux exemples.">
+<meta name="twitter:image" content="http://localhost:1313/logo.png">
+<meta name="twitter:site" content=""><meta name="theme-color" content="#333"/>
+<link rel="manifest" href="http://localhost:1313/manifest.json">
+<link rel="icon" href="http://localhost:1313/icons/logo.svg" sizes="any" type="image/svg+xml"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<noscript>
+    <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+</noscript>
+<script data-ad-client="ca-pub-7598305494340329" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script async src="https://cdn.ampproject.org/v0.js"></script><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script><script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script><script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<style amp-custom>
+    
+        *,*::before,*::after{box-sizing:border-box}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0}body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}ul[class],ol[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img{max-width:100%;display:block}input,button,textarea,select{font:inherit}.chroma{background-color:#fff}.chroma .err{color:#a61717;background-color:#e3d2d2}.chroma .lntd{vertical-align:top;padding:0;margin:0;border:0}.chroma .lntable{border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block}.chroma .hl{display:block;width:100%;background-color:#ffc}.chroma .lnt{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .ln{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .k{color:#000;font-weight:700}.chroma .kc{color:#000;font-weight:700}.chroma .kd{color:#000;font-weight:700}.chroma .kn{color:#000;font-weight:700}.chroma .kp{color:#000;font-weight:700}.chroma .kr{color:#000;font-weight:700}.chroma .kt{color:#458;font-weight:700}.chroma .na{color:teal}.chroma .nb{color:#0086b3}.chroma .bp{color:#999}.chroma .nc{color:#458;font-weight:700}.chroma .no{color:teal}.chroma .nd{color:#3c5d5d;font-weight:700}.chroma .ni{color:purple}.chroma .ne{color:#900;font-weight:700}.chroma .nf{color:#900;font-weight:700}.chroma .nl{color:#900;font-weight:700}.chroma .nn{color:#555}.chroma .nt{color:navy}.chroma .nv{color:teal}.chroma .vc{color:teal}.chroma .vg{color:teal}.chroma .vi{color:teal}.chroma .s{color:#d14}.chroma .sa{color:#d14}.chroma .sb{color:#d14}.chroma .sc{color:#d14}.chroma .dl{color:#d14}.chroma .sd{color:#d14}.chroma .s2{color:#d14}.chroma .se{color:#d14}.chroma .sh{color:#d14}.chroma .si{color:#d14}.chroma .sx{color:#d14}.chroma .sr{color:#009926}.chroma .s1{color:#d14}.chroma .ss{color:#990073}.chroma .m{color:#099}.chroma .mb{color:#099}.chroma .mf{color:#099}.chroma .mh{color:#099}.chroma .mi{color:#099}.chroma .il{color:#099}.chroma .mo{color:#099}.chroma .o{color:#000;font-weight:700}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#998;font-style:italic}.chroma .ch{color:#998;font-style:italic}.chroma .cm{color:#998;font-style:italic}.chroma .c1{color:#998;font-style:italic}.chroma .cs{color:#999;font-weight:700;font-style:italic}.chroma .cp{color:#999;font-weight:700;font-style:italic}.chroma .cpf{color:#999;font-weight:700;font-style:italic}.chroma .gd{color:#000;background-color:#fdd}.chroma .ge{color:#000;font-style:italic}.chroma .gr{color:#a00}.chroma .gh{color:#999}.chroma .gi{color:#000;background-color:#dfd}.chroma .go{color:#888}.chroma .gp{color:#555}.chroma .gs{font-weight:700}.chroma .gu{color:#aaa}.chroma .gt{color:#a00}.chroma .gl{text-decoration:underline}.chroma .w{color:#bbb}body{position:absolute;display:block;font-size:1.2em;font-family:poppins,sans-serif;line-height:1.6;color:#000;background-color:#f9fafc}amp-next-page{grid-column:span 12}.header{position:fixed;z-index:99;width:100%;height:70px;padding:10px 20%;top:0;background-color:#fff;box-shadow:0 15px 10px -15px #1e204b2b}.header__title{float:left;margin:0;padding:0;align-items:center;overflow:auto;justify-content:space-between}.header__title__text{color:#147480;font-weight:bolder;letter-spacing:1px;margin-left:50px;font-size:1.3em;white-space:nowrap}.header__title__text:hover{color:#d14;transition:1s ease-in-out}.header__title__logo{float:left;display:block;margin-left:auto;margin-right:auto;font-family:icomoon;font-size:23px}.header__title__logo svg{width:40px;height:40px}.header__search{float:right;font-family:poppins,sans-serif;z-index:4;display:block;padding:10px;color:#757575;background-color:transparent;height:50px;border:0;transition:.9s ease}.header__search :cheked{border-bottom:757575 solid 1px;transition:1s;width:80%;max-width:333px;outline:none;width:auto}.header__search__input{width:10px;font-size:1.2em;width:80%;height:100%;border-radius:0;border:0;background-color:transparent;outline:none;overflow:hidden;position:relative;float:left;color:#fff}.header__search__input::placeholder{color:#fff}.header__search__icon{float:right;position:relative;cursor:pointer}.header__search .search-item{width:300px}.header__search .search-item__link{border-bottom:none;width:300px}.main{line-height:1.7;width:100%;margin-top:80px;right:0;left:0;padding:20px 100px 0;position:relative}.main .pagination{margin:3em auto 2em;display:flex;justify-content:space-between}.footer{position:relative;bottom:0;width:100%;background-color:#0093e9;background-image:linear-gradient(160deg,#0093E9 0%,#80D0C7 100%);margin-bottom:0;text-align:center;font-size:15px;padding:3px;float:right}.footer__copyright{color:#fff}.footer__list__link{display:inline;margin:4px}.footer__list__link a{color:#fff}.more__list{list-style:none;text-align:center}.more__list li{background-color:#8ec5fc;background-image:linear-gradient(62deg,#8EC5FC 0%,#E0C3FC 100%);border-radius:4px;margin:20px;padding:10px;width:160px;display:inline-block;font-weight:bolder;text-transform:capitalize}.more__list a{color:#fff}h1{font-size:40px;line-height:58px;color:#333;margin:0;font-weight:700}h2{text-align:center;background:linear-gradient(to right,#f2709c,#ff9472);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:32px;margin-top:40px;border-top:solid 2px #e8e8e8;padding-bottom:15px;padding-top:15px}h3{background-image:radial-gradient(circle farthest-corner at 12.3% 19.3%,#5558da 0%,#5fd1f9 100.2%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-top:30px;margin-bottom:20px}h4{font-size:1.5rem}a{color:#1e3888;text-decoration:none;transition:background .3s}a:hover{border-color:#d14}.button{padding:.5em .75em;font-size:1.2em;text-align:center;border:0}li{margin-top:.25em}pre{font-family:poppins,sans-serif;font-size:12pt;display:block;overflow-x:auto;padding:25px;background:radial-gradient(circle 993px at 0.5% 50.5%,rgba(137,171,245,0.37) 0%,#f5f7fc 100.2%);color:#000;font-weight:500;border-radius:4px}blockquote{margin:1em 0 1em 1em;padding:1em;border-left:5px solid #999}blockquote:before{display:none}blockquote:not(:first-of-type){margin-top:.5em}blockquote p{color:#555;font-size:1em;font-family:poppins,sans-serif}article .figure{margin-top:10px;margin-bottom:10px;width:100%;max-width:100%;flex-direction:column-reverse;text-align:center}article .figure--with-alt{display:flex;border-top:none}article .figure__image img[decoding$=async]{display:inherit;position:relative;margin:auto;min-height:0%;min-width:0%;width:auto;height:auto;max-width:100%}article .figure__caption{color:#333;font-weight:400;padding:.5em 1em;height:min-content;word-wrap:break-word;text-align:center}article .figure img[src$='#t1']{width:40px}article .figure img[src$='#t2']{width:100px}article .figure img[src$='#t3']{width:300px}article .figure img[src$='#t4']{width:500px}article .figure img[src$='#t5']{width:700px}article .figure img[src$='#t6']{width:900px}.social-share{display:flex;align-self:center;align-items:center}.social-share__button{margin:10px .3em;border-radius:50%;background-size:60%;margin:0 7px}#tags{margin:0;padding:0}#tags li{display:inline;margin-right:10px}#tags li a{text-transform:capitalize}.single{width:1200px;position:relative;display:block;height:auto;margin:auto}.aside{float:right;position:relative;display:block;width:300px;background-color:#f9fafc;padding:20px}.aside__title{border-top:#e8e8e8 solid 2px;margin-top:20px;text-transform:uppercase;font-size:12px;color:#666;font-weight:400}.aside__share{text-align:center;margin-top:10px}.aside .summary{width:100%;margin:0;display:block}.aside .summary__top{width:auto;height:auto}.aside .summary__top__tags{width:260px;font-size:10px;padding:110px 15px 10px 80px}.aside .summary__top__image{height:auto}.aside .summary__top__title{width:260px;font-size:16px;line-height:18px}.aside .summary__bottom__desc{height:83px;overflow:hidden}.aside .summary__list{display:initial;padding:20px}.description{text-align:center;font-weight:lighter;font-style:italic;margin-top:30px;color:#000000bf}.content{background-color:#ffff;display:block;padding:40px;border-radius:10px;width:900px;margin-bottom:20px;float:right;position:relative}.content table{display:block;overflow-x:auto;border-collapse:collapse;margin:10px;text-align:center}.content table td,.content table th{border:1px solid #ddd}.content table td{padding:.5em 1em}.content table th{padding:1em 2em;background-color:#333;color:#fff}.content table tr:nth-child(even){background-color:#f1f1f1}.content table tr:hover{background-color:#ddd}.content .highlight .chroma{background-color:#f1f1f1}.content .under-title{display:flex;flex-wrap:wrap;justify-content:space-between;font-size:1rem}.content .under-title__info,.content .under-title__social-share{align-self:center}.content .ad{display:flex;margin:1rem auto;align-content:center;width:min-content;height:min-content;min-width:320px;min-height:320px;border:1px solid #333}.content .ad__fallback{display:flex;align-items:center}.content .ad__fallback p{margin:auto}.content .author{border-radius:10px;background-color:#f9f9f9;padding:20px 60px;margin:40px}.content .author__image{border-radius:100px;margin:10px 0 0}.content .author__right{margin:0}.content .author__right__name{font-weight:700;font-size:20px;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-image:linear-gradient(135deg,#8bc6ec 0%,#9599e2 100%)}.content .author__right__bio{font-size:12px}.summary{width:333.3px;height:333px;overflow:hidden;margin:15px;display:inline-block}.summary__top__title{position:absolute;z-index:2;color:#fff;font-weight:bolder;width:333.3px;padding:20px 15px 10px 80px;text-align:right;vertical-align:center;line-height:25px}.summary__top__image{border-radius:6px;display:block;width:100%;height:181.9px;padding:20px;margin-bottom:10px}.summary__top__tags{position:absolute;color:#fff;z-index:2;width:333.3px;padding:120px 15px 10px 80px;text-align:right;font-size:15px;line-height:15px}.summary__bottom{text-align:left}.summary__bottom__title{font-weight:bolder;z-index:10;background-image:radial-gradient(circle farthest-corner at 12.3% 19.3%,#5558da 0%,#5fd1f9 100.2%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1.4;font-weight:500;font-size:20px}.summary__bottom__desc{font-size:13px;color:#000;text-overflow:ellipsis;letter-spacing:.1px}.summary__list{max-width:1100px;width:100%;position:relative;display:inline-flex}.list__summary{text-align:center}@media(max-width:320px){.p{font-size:20px}.under-title__social-share{width:100%;margin-top:1.5em;justify-content:space-between}}.toc{margin-top:40px;margin-bottom:40px;background-color:#f9fafc;padding:30px}.toc__title{font-size:30px;background-image:radial-gradient(circle 767px at 10.2% 22.1%,#0bda51 0%,deepskyblue 90%);-webkit-background-clip:text;font-weight:700;-webkit-text-fill-color:transparent}.toc ul{list-style:decimal}.formula__center{text-align:center;overflow:visible;margin:3px 0}.formula__center img{height:auto;max-height:none;max-width:none;min-height:auto;min-width:auto;width:auto;margin:auto}.formula__span{overflow:visible;position:relative;vertical-align:super;top:25px}.formula__inline{overflow:visible;width:auto;height:60px}.formula__inline img[decoding$=async]{height:auto;max-height:none;max-width:none;min-height:auto;min-width:auto;width:auto;position:relative;margin:0 2px;top:56%;transform:translateY(-50%)}@media(min-width:1300px){.author__right{float:right;width:80%}}@media(max-width:1300px){.single{width:100%}.aside{display:none}.content{width:100%}.main{padding:0}h1{font-size:32px}.toc__title,h2{font-size:25px}.author{padding:0;margin:0;text-align:center;float:none}.author__right{float:none;width:100%}}
+    
+    
+</style></head>
+	<body><amp-install-serviceworker
+  src="http://localhost:1313/sw.js"
+  data-iframe-src="http://localhost:1313/install-sw.html"
+  layout="nodisplay">
+</amp-install-serviceworker>
+  <amp-analytics type="gtag" data-credentials="include">
+    <script type="application/json">
+      {
+        "vars": {
+          "gtag_id": "UA-193267617-1",
+          "config": {
+            "UA-193267617-1": { "groups": "default" }
+          }
+        },
+        "triggers": {"trackPageview":{"on":"visible","request":"pageview"}}
+      }
+    </script>
+  </amp-analytics>
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      
+        
+        {
+          "@type": "ListItem",
+          "position":  1 ,
+          "item": {
+            "@id": "http:\/\/localhost:1313\/",
+            "name": "Accueil"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  2 ,
+          "item": {
+            "@id": "http:\/\/localhost:1313\/informatique\/",
+            "name": "Informatique"
+          }
+        }
+      
+        ,
+        {
+          "@type": "ListItem",
+          "position":  3 ,
+          "item": {
+            "@id": "http:\/\/localhost:1313\/informatique\/conditionnement-dune-matrice\/",
+            "name": "Conditionnement dune matrice"
+          }
+        }
+       ]
+  }
+</script><script type="application/ld+json">
+  {
+    "@context":"http://schema.org",
+    "@type": "BlogPosting",
+    "image": "http:\/\/localhost:1313\/",
+    "url": "http:\/\/localhost:1313\/informatique\/conditionnement-dune-matrice\/",
+    "headline": "Conditionnement d\u0027une Matrice",
+    "alternativeHeadline": "Conditionnement d\u0027une Matrice",
+    "dateCreated": "2020-04-11T00:00:00",
+    "datePublished": "2020-04-11T00:00:00",
+    "dateModified": "2020-04-11T00:00:00",
+    "inLanguage": "fr",
+    "isFamilyFriendly": "true",
+    "copyrightYear": "2020",
+    "copyrightHolder": "",
+    "accountablePerson": {
+      "@type": "Person",
+      "name": "",
+      "url": ""
+    },
+    "author": {
+      "@type": "Person",
+      "name": "",
+      "url": "http:\/\/localhost:1313\/",
+      "image": "http:\/\/localhost:1313\/",
+      "description": ""
+    },
+    "creator": {
+      "@type": "Person",
+      "name": "",
+      "url": "http:\/\/localhost:1313\/",
+      "image": "http:\/\/localhost:1313\/",
+      "description": ""
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "amperage",
+      "url": "http:\/\/localhost:1313\/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "\/icons\/logo.svg",
+        "width":"600",
+        "height":"60"
+      }
+    },
+    "mainEntityOfPage": "http:\/\/localhost:1313\/informatique\/conditionnement-dune-matrice\/",
+    "keywords": "null",
+    "genre": "[\"algebre\",\"analyse\",\"optimisation-informatique\",\"systeme-lineaire\"]",
+    "articleSection": "Informatiques"
+  }
+</script><header class="header"><a class="header__title" data-rel="prefetch" href="http://localhost:1313/" aria-label="Retourner à la page d&#39;accueil">
+    <div class="header__title__logo"><amp-img layout="fixed" height="40" width="40" src="/icons/logo.svg"></amp-img></div>
+    <div class="header__title__text">DevMath</div>
+</a>
+
+
+</header>
+		<main class="main">
+<div class="single">
+	<article class="content">
+		<h1>Conditionnement d&#39;une Matrice</h1><section class="under-title">
+    <div class="under-title__info">
+        
+        
+        
+        <ul id="tags">
+            
+                
+                
+                    <li><a href="http://localhost:1313/tags/algebre/" data-rel="prefetch">algebre</a></li>
+                
+            
+                
+                
+                    <li><a href="http://localhost:1313/tags/analyse/" data-rel="prefetch">analyse</a></li>
+                
+            
+                
+                
+                    <li><a href="http://localhost:1313/tags/optimisation-informatique/" data-rel="prefetch">optimisation-informatique</a></li>
+                
+            
+                
+                
+                    <li><a href="http://localhost:1313/tags/systeme-lineaire/" data-rel="prefetch">systeme-lineaire</a></li>
+                
+            
+        </ul>
+    </div>
+</section><p class="description">Cet article présente ce qu&#39;est le conditionnement d&#39;une matrice inversible et sa norme infinie, illustré par deux exemples.</p>
+<div class="toc">
+    <div class="toc__title">Table des matières</div>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#définition">Définition</a></li>
+    <li><a href="#exemple-1">Exemple 1</a>
+      <ul>
+        <li><a href="#matrice-a-et-sa-solution">Matrice A et sa solution</a></li>
+        <li><a href="#exemple-de-variation">Exemple de variation</a></li>
+        <li><a href="#calcul-du-conditionnement">Calcul du conditionnement</a></li>
+        <li><a href="#en-python">En python</a></li>
+      </ul>
+    </li>
+    <li><a href="#exemple-2">Exemple 2</a></li>
+    <li><a href="#sources">Sources</a></li>
+  </ul>
+</nav>
+</div>
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+
+   
+
+
+<h2 id="définition">Définition</h2>
+<p>Un système linéaire peut s&rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.</p>
+<p>Pour une matrice inversible A, sa fonction de conditionnement est :</p>
+<p><amp-img layout="fixed-height" height="90" class="formula__center" alt="kappa(A)=Vert A Vert Vert A^{-1} Vert" src="/latex-svg/54f9e1ec032adaa95d5ae0162c0412fc.svg"><amp-img fallback alt="kappa(A)=Vert A Vert Vert A^{-1} Vert" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?kappa(A)=Vert A Vert Vert A^{-1} Vert"></amp-img></amp-img></p>
+<p>Note : Plus <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="kappa" src="/latex-svg/9f3e4a234b198c876b9b3715365351cc.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="kappa" width="1" height="1" src="https://latex.codecogs.com/svg.latex?kappa"></amp-img></amp-img> est élevé, plus la matrice A est mal conditionnée.</p>
+<h2 id="exemple-1">Exemple 1</h2>
+<p>Pour comprendre ce qu&rsquo;est le conditionnement, prenons un exemple de système linéaire <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="AX=Y" src="/latex-svg/b121a4c50bffa37c87085e7dae03a630.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="AX=Y" width="1" height="1" src="https://latex.codecogs.com/svg.latex?AX=Y"></amp-img></amp-img> :</p>
+<h3 id="matrice-a-et-sa-solution">Matrice A et sa solution</h3>
+<p>Soit une matrice A :</p>
+<p><amp-img layout="fixed-height" height="90" class="formula__center" alt="A=begin{bmatrix} 10 &amp; 7 &amp; 8 &amp; 7  7 &amp; 5 &amp; 6 &amp; 5 8 &amp; 6 &amp; 10 &amp; 9  7 &amp; 5 &amp; 9 &amp; 10 end{bmatrix}, Y=begin{bmatrix}32  23  33  31end{bmatrix}" src="/latex-svg/721218705dc898dc2b33f8ca2a05c1a0.svg"><amp-img fallback alt="A=begin{bmatrix} 10 &amp; 7 &amp; 8 &amp; 7  7 &amp; 5 &amp; 6 &amp; 5 8 &amp; 6 &amp; 10 &amp; 9  7 &amp; 5 &amp; 9 &amp; 10 end{bmatrix}, Y=begin{bmatrix}32  23  33  31end{bmatrix}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?A=begin{bmatrix} 10 &amp; 7 &amp; 8 &amp; 7  7 &amp; 5 &amp; 6 &amp; 5 8 &amp; 6 &amp; 10 &amp; 9  7 &amp; 5 &amp; 9 &amp; 10 end{bmatrix}, Y=begin{bmatrix}32  23  33  31end{bmatrix}"></amp-img></amp-img></p>
+<p>La solution de ce système sera donc :</p>
+<p><amp-img layout="fixed-height" height="90" class="formula__center" alt="X = begin{bmatrix}1111end{bmatrix}" src="/latex-svg/70614caaa09820c0f2674e2ab28577d2.svg"><amp-img fallback alt="X = begin{bmatrix}1111end{bmatrix}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?X = begin{bmatrix}1111end{bmatrix}"></amp-img></amp-img></p>
+<h3 id="exemple-de-variation">Exemple de variation</h3>
+<p>Il est intéressant de remarquer que si on varie faiblement <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="Y" src="/latex-svg/c0f2552900610441aab3eb4c53dc562c.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="Y" width="1" height="1" src="https://latex.codecogs.com/svg.latex?Y"></amp-img></amp-img> :</p>
+<p><amp-img layout="fixed-height" height="90" class="formula__center" alt="Delta_Y=begin{bmatrix}0.1-0.10.1-0.1end{bmatrix}" src="/latex-svg/df56c547e732839bcdbe7a8c5100ebf9.svg"><amp-img fallback alt="Delta_Y=begin{bmatrix}0.1-0.10.1-0.1end{bmatrix}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?Delta_Y=begin{bmatrix}0.1-0.10.1-0.1end{bmatrix}"></amp-img></amp-img></p>
+<p>Nous obtenons :</p>
+<p><amp-img layout="fixed-height" height="90" class="formula__center" alt="X=begin{bmatrix}9.2-12.64.5-11end{bmatrix}" src="/latex-svg/3a93f90a5756380bd88c891c6e3ee8d0.svg"><amp-img fallback alt="X=begin{bmatrix}9.2-12.64.5-11end{bmatrix}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?X=begin{bmatrix}9.2-12.64.5-11end{bmatrix}"></amp-img></amp-img></p>
+<p>Une petite variation <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="Delta_Y" src="/latex-svg/2a7844a00cfde786d70dd9ceb4b52080.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="Delta_Y" width="1" height="1" src="https://latex.codecogs.com/svg.latex?Delta_Y"></amp-img></amp-img> sur <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="Y" src="/latex-svg/c0f2552900610441aab3eb4c53dc562c.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="Y" width="1" height="1" src="https://latex.codecogs.com/svg.latex?Y"></amp-img></amp-img> implique une grande variation de <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="X" src="/latex-svg/1e2ac16713d99c35c69e672d92bc136b.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="X" width="1" height="1" src="https://latex.codecogs.com/svg.latex?X"></amp-img></amp-img>.<br>
+On dira de la matrice <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="A" src="/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="A" width="1" height="1" src="https://latex.codecogs.com/svg.latex?A"></amp-img></amp-img> qu&rsquo;elle est &ldquo;<strong>mal conditionnée</strong>&rdquo;.</p>
+<h3 id="calcul-du-conditionnement">Calcul du conditionnement</h3>
+<p>La fonction de conditionnement d’une matrice <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="A" src="/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="A" width="1" height="1" src="https://latex.codecogs.com/svg.latex?A"></amp-img></amp-img> est <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="kappa(A)=Vert A Vert Vert A^{-1} Vert" src="/latex-svg/54f9e1ec032adaa95d5ae0162c0412fc.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="kappa(A)=Vert A Vert Vert A^{-1} Vert" width="1" height="1" src="https://latex.codecogs.com/svg.latex?kappa(A)=Vert A Vert Vert A^{-1} Vert"></amp-img></amp-img>, <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="A" src="/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="A" width="1" height="1" src="https://latex.codecogs.com/svg.latex?A"></amp-img></amp-img> ayant un déterminant différent de 0 et donc étant inversible. Prenons la norme infini (avec <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="n = dim A" src="/latex-svg/2b0e0f3ef7d95635664a6875fd507dcb.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="n = dim A" width="1" height="1" src="https://latex.codecogs.com/svg.latex?n = dim A"></amp-img></amp-img>)</p>
+<p><amp-img layout="fixed-height" height="90" class="formula__center" alt="kappa(A)=Vert A Vert_{infty} Vert A^{-1} Vert_{infty} = max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}| times max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}^{-1}|" src="/latex-svg/65fe11c0088a391145babc20aab17e76.svg"><amp-img fallback alt="kappa(A)=Vert A Vert_{infty} Vert A^{-1} Vert_{infty} = max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}| times max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}^{-1}|" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?kappa(A)=Vert A Vert_{infty} Vert A^{-1} Vert_{infty} = max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}| times max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}^{-1}|"></amp-img></amp-img></p>
+<p>Dans cet exemple: <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="kappa(A)=33 times 136 = 4488" src="/latex-svg/7e8f8367bda69e539942559792f87c3a.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="kappa(A)=33 times 136 = 4488" width="1" height="1" src="https://latex.codecogs.com/svg.latex?kappa(A)=33 times 136 = 4488"></amp-img></amp-img>.</p>
+<h3 id="en-python">En python</h3>
+<p>Pour calculer le conditionnement rapidement en python, je vous propose de faire :</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span> 
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">10</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">7</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">5</span><span class="p">],[</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">9</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">10</span><span class="p">]])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">cond</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">inf</span><span class="p">))</span>
+</code></pre></div><p>Vous devriez obtenir le même résultat !</p>
+<p>Pour en savoir plus sur le conditionnement : 
+
+
+<a href="https://keskec.fr/sciences/informatique/robin/2057/#Conditionnement_de_Matrice"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >Python avec Numpy</a>.</p>
+<h2 id="exemple-2">Exemple 2</h2>
+<p>Pour prendre un autre exemple: La &ldquo;matrice B&rdquo; est bien conditionnée:</p>
+<p>Soit la matrice inversible B :</p>
+<p><amp-img layout="fixed-height" height="90" class="formula__center" alt="B=begin{bmatrix}1&amp;7&amp;2&amp;17&amp;5&amp;1&amp;58&amp;6&amp;10&amp;97&amp;5&amp;9&amp;1end{bmatrix}" src="/latex-svg/0ba2bb99eaa5b11270607c59ad94c8bf.svg"><amp-img fallback alt="B=begin{bmatrix}1&amp;7&amp;2&amp;17&amp;5&amp;1&amp;58&amp;6&amp;10&amp;97&amp;5&amp;9&amp;1end{bmatrix}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?B=begin{bmatrix}1&amp;7&amp;2&amp;17&amp;5&amp;1&amp;58&amp;6&amp;10&amp;97&amp;5&amp;9&amp;1end{bmatrix}"></amp-img></amp-img></p>
+<p>Nous avons : <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="kappa(B)=33times 0.4496=14.8368" src="/latex-svg/9091506b84fe7199d1a183e74334c45e.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="kappa(B)=33times 0.4496=14.8368" width="1" height="1" src="https://latex.codecogs.com/svg.latex?kappa(B)=33times 0.4496=14.8368"></amp-img></amp-img></p>
+<p>Cette matrice est relativement bien conditionnée en comparaison avec la matrice <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="A" src="/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="A" width="1" height="1" src="https://latex.codecogs.com/svg.latex?A"></amp-img></amp-img>.</p>
+<p>Nous pouvons donc affirmer que pour un système linéaire <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="BX=Y" src="/latex-svg/f42a98f82817378f2bff6d511676f42f.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="BX=Y" width="1" height="1" src="https://latex.codecogs.com/svg.latex?BX=Y"></amp-img></amp-img>, une petite variation de <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="Y" src="/latex-svg/c0f2552900610441aab3eb4c53dc562c.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="Y" width="1" height="1" src="https://latex.codecogs.com/svg.latex?Y"></amp-img></amp-img> n’engendra pas une grosse variation <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="X" src="/latex-svg/1e2ac16713d99c35c69e672d92bc136b.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="X" width="1" height="1" src="https://latex.codecogs.com/svg.latex?X"></amp-img></amp-img>.</p>
+<h2 id="sources">Sources</h2>
+<ol>
+<li>
+
+
+<a href="http://www.bibmath.net/dico/index.php?action=affiche&amp;quoi=./c/conditionnement.html"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >Conditionnement d&rsquo;une matrice - bibmath.net</a></li>
+<li>
+
+
+<a href="https://www.i2m.univ-amu.fr/perso/thierry.gallouet/licence.d/anum.d/anum-tg2.pdf"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >NORMES ET CONDITIONNEMENT D’UNE MATRICE</a></li>
+<li>
+
+
+<a href="http://wiki.inra.fr/wiki/cascisdi/Production/Conditionnement&#43;d%27une&#43;matrice"
+     target="_blank" rel="nofollow noopener noreferrer" 
+    >Conditionnement d&rsquo;une matrice</a></li>
+</ol>
+
+<div class="more">
+    <h2 class="more__title">Thèmes relatifs à l'article</h2>
+    
+        <ul class="more__list">
+           
+            
+                
+                
+                    <a href="http://localhost:1313/tags/algebre/" data-rel="prefetch"><li>algebre</li></a>
+                
+            
+                
+                
+                    <a href="http://localhost:1313/tags/analyse/" data-rel="prefetch"><li>analyse</li></a>
+                
+            
+                
+                
+                    <a href="http://localhost:1313/tags/optimisation-informatique/" data-rel="prefetch"><li>optimisation-informatique</li></a>
+                
+            
+                
+                
+                    <a href="http://localhost:1313/tags/systeme-lineaire/" data-rel="prefetch"><li>systeme-lineaire</li></a>
+                
+            
+        </ul>
+</div>
+    <section class="author">
+        
+            <amp-img class="author__image"
+                src="http://localhost:1313/images/pdp.jpg"
+                layout="fixed" height="70" width="70"></amp-img>
+        
+        <div class="author__right">
+            
+                <p class="author__right__name">Robin Pourtaud</p>
+            
+            
+                <p class="author__right__bio">Etudiant en informatique, je suis l&#39;administrateur et rédacteur du site DevMath.fr. Si vous avez une question, n&#39;hésitez pas à me contacter !</p>
+            
+        </div>
+        
+    </section>
+</article><aside class="aside">
+    
+    <div class="aside__title">Partager</div><div class="aside__share">
+    <amp-social-share class="social-share__button"
+    aria-label="Partager" type="system" width="40" height="40"style="background-color:#147480;"></amp-social-share>
+<amp-social-share class="social-share__button"
+    aria-label="Partager sur Twitter" type="twitter" width="40" height="40"></amp-social-share>
+<amp-social-share class="social-share__button"
+    aria-label="Partager sur Linkedin" type="linkedin" width="40" height="40"></amp-social-share>
+
+</div>
+<div class="aside__title">Date de publication</div>
+    <p><time datetime="2020-04-11T00:00:00">
+        
+        
+        11 Avril 2020
+    </time>
+    </p>
+    
+    <div class="aside__title">Auteur</div>
+    <p>Robin Pourtaud </p>
+    <div class="aside__title">Tags</div>
+    
+        <ul id="tags">
+            
+                
+                
+                    <li><a href="http://localhost:1313/tags/algebre/" data-rel="prefetch">algebre</a></li>
+                
+            
+                
+                
+                    <li><a href="http://localhost:1313/tags/analyse/" data-rel="prefetch">analyse</a></li>
+                
+            
+                
+                
+                    <li><a href="http://localhost:1313/tags/optimisation-informatique/" data-rel="prefetch">optimisation-informatique</a></li>
+                
+            
+                
+                
+                    <li><a href="http://localhost:1313/tags/systeme-lineaire/" data-rel="prefetch">systeme-lineaire</a></li>
+                
+            
+        </ul>
+    <div class="aside__title">Articles liés</div>
+<div class="summary__list">
+    
+</div>
+</aside></div>
+
+		</main>
+		<footer class="footer"><div class="footer__copyright">© DevMath.fr 2021 - Tous droits réservés</div>
+<ul class="footer__list">
+    <li class="footer__list__link"><a href="/page/contact">Contact</a></li>
+    <li class="footer__list__link"><a href="/page/confidentialite">Confidentialité</a></li>
+</ul></footer>
+	</body>
+</html>

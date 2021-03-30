@@ -1,6 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bit on DevMath.fr</title><link>https://devmath.fr/tags/bit/</link><description>Recent content in bit on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/bit/index.xml" rel="self" type="application/rss+xml"/><item><title>UAL - Unité arithmétique et logique</title><link>https://devmath.fr/informatique/ual-unite-arithmetique-et-logique/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/ual-unite-arithmetique-et-logique/</guid><description>Caractéristiques de l&amp;rsquo;UAL : Notre UAL nous permet d&amp;rsquo;effectuer 7 opérations sur des entiers signés de 8 bits.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bit on DevMath.fr</title>
+    <link>http://localhost:1313/tags/bit/</link>
+    <description>Recent content in bit on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/bit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UAL - Unité arithmétique et logique</title>
+      <link>http://localhost:1313/informatique/ual-unite-arithmetique-et-logique/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/ual-unite-arithmetique-et-logique/</guid>
+      <description>Caractéristiques de l&amp;rsquo;UAL : Notre UAL nous permet d&amp;rsquo;effectuer 7 opérations sur des entiers signés de 8 bits.
 Entrées : Notre UAL prend 3 entrées :
-Un nombre sur 8 bits &amp;ldquo;A&amp;rdquo; utilisé en entrée des opérations. Un nombre sur 8 bits &amp;ldquo;B&amp;rdquo; utilisé en entrée des opérations. Un nombre sur 3 bits &amp;ldquo;ctr&amp;rdquo; utilisé pour sélectionner l&amp;rsquo;opération désirée. Sorties : Notre UAL possède 2 sorties :
-Un nombre sur 8 bits étant le résultat de l&amp;rsquo;opération choisie.</description></item><item><title>Octet, Giga-bits, Kibioctets, Byte ?</title><link>https://devmath.fr/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</guid><description>Savoir combien de films votre clé USB peut stocker, ce n&amp;rsquo;est pas inné, ça s&amp;rsquo;apprend, et c&amp;rsquo;est ce que je vais vous expliquer à travers cet article :).
+ Un nombre sur 8 bits &amp;ldquo;A&amp;rdquo; utilisé en entrée des opérations. Un nombre sur 8 bits &amp;ldquo;B&amp;rdquo; utilisé en entrée des opérations. Un nombre sur 3 bits &amp;ldquo;ctr&amp;rdquo; utilisé pour sélectionner l&amp;rsquo;opération désirée.  Sorties : Notre UAL possède 2 sorties :
+ Un nombre sur 8 bits étant le résultat de l&amp;rsquo;opération choisie.</description>
+    </item>
+    
+    <item>
+      <title>Octet, Giga-bits, Kibioctets, Byte ?</title>
+      <link>http://localhost:1313/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</guid>
+      <description>Savoir combien de films votre clé USB peut stocker, ce n&amp;rsquo;est pas inné, ça s&amp;rsquo;apprend, et c&amp;rsquo;est ce que je vais vous expliquer à travers cet article :).
 Le système international d&amp;rsquo;unité (SI) Au lycée, vous avez certainement entendu parler du système international d&amp;rsquo;unité.
-Il s&amp;rsquo;agit d&amp;rsquo;un système décimal, permettant de conformer les unités avec précision pour tous les pays du monde (sauf exceptions). Le changement d’échelle se fait par puissance de 10.</description></item></channel></rss>
+Il s&amp;rsquo;agit d&amp;rsquo;un système décimal, permettant de conformer les unités avec précision pour tous les pays du monde (sauf exceptions). Le changement d’échelle se fait par puissance de 10.</description>
+    </item>
+    
+  </channel>
+</rss>

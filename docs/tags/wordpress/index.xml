@@ -1,23 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>wordpress on DevMath.fr</title><link>https://devmath.fr/tags/wordpress/</link><description>Recent content in wordpress on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/wordpress/index.xml" rel="self" type="application/rss+xml"/><item><title>Bing URL Submissions Plugin : Indexez instantanément vos pages Wordpress !</title><link>https://devmath.fr/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</guid><description>Cet article est basé sur un communiqué de blogs.bing.com publié le 21 juin 2020.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on DevMath.fr</title>
+    <link>http://localhost:1313/tags/wordpress/</link>
+    <description>Recent content in wordpress on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bing URL Submissions Plugin : Indexez instantanément vos pages Wordpress !</title>
+      <link>http://localhost:1313/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</guid>
+      <description>Cet article est basé sur un communiqué de blogs.bing.com publié le 21 juin 2020.
 Nécessaire : Il y a 2 prérequis pour pouvoir suivre ce tutoriel :
-Avoir un Wordpress à jour et en posséder les droits d&amp;rsquo;administrations. Avoir un compte Bing Webmaster Tools correctement parametré. Étape par étape : L&amp;rsquo;installation se déroule en 3 étapes et ne devrait pas vous prendre plus de 10 min.
-Installez l&amp;rsquo;extension sur votre wordpress : Selon vos préférences, vous pouvez soit chercher dans votre interface d&amp;rsquo;administration l&amp;rsquo;extension &amp;ldquo;Bing Url Submissions Plugin&amp;rdquo; et l&amp;rsquo;installer :</description></item><item><title>Wordpress - Image de profil trouble avec l'extension AMPforWP</title><link>https://devmath.fr/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</link><pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</guid><description>Le problème : On peut voir avec le screenshot suivant que AMP for WP demande à Gravatar une image de taille s=70 car la taille du bloc est de taille 70 (dans notre cas).
-Cependant, une image Gravatar de taille s=70 a tendance à être trouble.
+ Avoir un Wordpress à jour et en posséder les droits d&amp;rsquo;administrations. Avoir un compte  Bing Webmaster Tools correctement parametré.  Étape par étape : L&amp;rsquo;installation se déroule en 3 étapes et ne devrait pas vous prendre plus de 10 min.
+Installez l&amp;rsquo;extension sur votre wordpress : Selon vos préférences, vous pouvez soit chercher dans votre interface d&amp;rsquo;administration l&amp;rsquo;extension &amp;ldquo;Bing Url Submissions Plugin&amp;rdquo; et l&amp;rsquo;installer :</description>
+    </item>
+    
+    <item>
+      <title>Wordpress - Image de profil trouble avec l&#39;extension AMPforWP</title>
+      <link>http://localhost:1313/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</guid>
+      <description>Le problème : On peut voir avec le screenshot suivant que AMP for WP demande à Gravatar une image de taille s=70 car la taille du bloc est de taille 70 (dans notre cas).
+Cependant, une image Gravatar de taille s=70 a tendance à être trouble.  
 Malheureusement, l&amp;rsquo;extension AMPforWP (actuellement en version : 1.0.53.1) ne le permet pas depuis les paramètres :
-Author Bio - AMPforWP</description></item><item><title>1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)</title><link>https://devmath.fr/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</link><pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</guid><description>Nb : Ce tutoriel nécessite un fichier .htaccess, il sera donc à destination des utilisateurs de Apache2 et non de Nginx.
+Author Bio - AMPforWP</description>
+    </item>
+    
+    <item>
+      <title>1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)</title>
+      <link>http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</guid>
+      <description>Nb : Ce tutoriel nécessite un fichier .htaccess, il sera donc à destination des utilisateurs de Apache2 et non de Nginx.
 Modification et création de robots.txt Un fichier robots.txt est un fichier utilisé par de nombreux moteurs de recherche afin d&amp;rsquo;indiquer si un site (ou une page / un document) doit être référencé ou non.
-Pour ce tutoriel, prenons 2 site web : &amp;ldquo;site.com&amp;rdquo; et &amp;ldquo;no-ref.site.com&amp;rdquo;. Comme leurs noms le suggèrent, on souhaite que le site &amp;ldquo;site.</description></item><item><title>Rediriger le trafic HTTP vers HTTPS avec .htaccess.</title><link>https://devmath.fr/informatique/rediriger-http-vers-https-avec-htaccess/</link><pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/rediriger-http-vers-https-avec-htaccess/</guid><description>Ce tutoriel n&amp;rsquo;est donc pas à destination des utilisateurs de serveur Nginx.
+Pour ce tutoriel, prenons 2 site web : &amp;ldquo;site.com&amp;rdquo; et &amp;ldquo;no-ref.site.com&amp;rdquo;. Comme leurs noms le suggèrent, on souhaite que le site &amp;ldquo;site.</description>
+    </item>
+    
+    <item>
+      <title>Rediriger le trafic HTTP vers HTTPS avec .htaccess.</title>
+      <link>http://localhost:1313/informatique/rediriger-http-vers-https-avec-htaccess/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/rediriger-http-vers-https-avec-htaccess/</guid>
+      <description>Ce tutoriel n&amp;rsquo;est donc pas à destination des utilisateurs de serveur Nginx.
 Accéder au fichier Manuellement Un fichier .htaccess peut se situer dans n&amp;rsquo;importe quel dossier de votre site web. Si vous souhaitez appliquer la redirection à tout le site, je vous conseille donc de modifier celui positionné à la racine de votre site.
 Vous pouvez bien-sûr le faire via FTP/SSH manuellement.
-Attention ! Si vous ne le trouvez pas, il est possible que le fichier soit caché !</description></item><item><title>Autoriser l'upload de fichiers non-autorisés sur Wordpress</title><link>https://devmath.fr/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</link><pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</guid><description>Je traiterai l&amp;rsquo;upload de fichiers zip en particulier.
+Attention ! Si vous ne le trouvez pas, il est possible que le fichier soit caché !</description>
+    </item>
+    
+    <item>
+      <title>Autoriser l&#39;upload de fichiers non-autorisés sur Wordpress</title>
+      <link>http://localhost:1313/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</link>
+      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</guid>
+      <description>Je traiterai l&amp;rsquo;upload de fichiers zip en particulier.
 Résolution manuelle : Accéder au fichier function.php : Le fichier &amp;ldquo;function.php&amp;rdquo; est censé se situer dans le dossier du thème de votre site web. Accedez-y via SFTP, SSH ou de la façon de votre choix.
 Modifier function.php Pour comprendre la fonction ci-dessous, il faut savoir ce qu&amp;rsquo;est un type Mime :
-Un type de média, ou type MIME est un identifiant de format de données composé de 2 parties, appelées type, et sous-types.</description></item><item><title>Coloration Syntaxique pour Wordpress AMP</title><link>https://devmath.fr/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</link><pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</guid><description>Il existe de nombreuses extensions Wordpress permettant la coloration syntaxique. Cependant, la (très grande) majorité d&amp;rsquo;entre elles utilise le JavaScript&amp;hellip; Ce tutoriel est là pour vous aider à rétablir vos magnifiques codes sur votre site Wordpress AMP :) .
-Nécessaire Avoir accès aux droits d&amp;rsquo;administration de votre Wordpress mis à jour (mai 2020). Avoir de préférence installé ce plugin pour AMP. Savoir installer une extension. Sinon : Support Installer l’extension : Syntax-highlighting Code Block Je vous propose d&amp;rsquo;installer l&amp;rsquo;extension :</description></item><item><title>Héberger un Wordpress Gratuitement sur un Raspberry Pi</title><link>https://devmath.fr/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link><pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid><description>Wordpress est le CMS le plus utilisé au monde. De part sa simplicité d&amp;rsquo;utilisation et sa liberté de design, sa popularité s’explique d&amp;rsquo;elle même.
+Un type de média, ou type MIME est un identifiant de format de données composé de 2 parties, appelées type, et sous-types.</description>
+    </item>
+    
+    <item>
+      <title>Coloration Syntaxique pour Wordpress AMP</title>
+      <link>http://localhost:1313/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</guid>
+      <description>Il existe de nombreuses extensions Wordpress permettant la coloration syntaxique. Cependant, la (très grande) majorité d&amp;rsquo;entre elles utilise le JavaScript&amp;hellip; Ce tutoriel est là pour vous aider à rétablir vos magnifiques codes sur votre site Wordpress AMP :) .
+Nécessaire  Avoir accès aux droits d&amp;rsquo;administration de votre Wordpress mis à jour (mai 2020). Avoir de préférence installé ce plugin pour AMP. Savoir installer une extension. Sinon : Support  Installer l’extension : Syntax-highlighting Code Block Je vous propose d&amp;rsquo;installer l&amp;rsquo;extension :</description>
+    </item>
+    
+    <item>
+      <title>Héberger un Wordpress Gratuitement sur un Raspberry Pi</title>
+      <link>http://localhost:1313/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</guid>
+      <description>Wordpress est le CMS le plus utilisé au monde. De part sa simplicité d&amp;rsquo;utilisation et sa liberté de design, sa popularité s’explique d&amp;rsquo;elle même.
 Malheureusement, utiliser Wordpress pour laisser libre cours à son imagination revient souvent à passer par son porte monnaie.
 Pour un site personnel, 4€ par mois reste raisonnable, mais pour un site d&amp;rsquo;e-Commerce, 45€ semble moins attrayant&amp;hellip;.
-Tarifs avril 2020
-Il serait donc intéressent de pouvoir profiter de WordPress gratuitement, et ce sans être limité par les blocages du modèle &amp;ldquo;gratuit&amp;rdquo;.</description></item><item><title>Installer PHP7.4 pour Wordpress</title><link>https://devmath.fr/informatique/installer-php7-4-sur-un-raspberry-pi/</link><pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/installer-php7-4-sur-un-raspberry-pi/</guid><description>Vous avez peut-être remarqué que votre WordPress tourne sous une ancienne version de PHP ? Vous avez donc sans doute vu ce message :
-Problème Critique PHP Wordpress
+Tarifs avril 2020  
+Il serait donc intéressent de pouvoir profiter de WordPress gratuitement, et ce sans être limité par les blocages du modèle &amp;ldquo;gratuit&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Installer PHP7.4 pour Wordpress</title>
+      <link>http://localhost:1313/informatique/installer-php7-4-sur-un-raspberry-pi/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/installer-php7-4-sur-un-raspberry-pi/</guid>
+      <description>Vous avez peut-être remarqué que votre WordPress tourne sous une ancienne version de PHP ? Vous avez donc sans doute vu ce message :
+Problème Critique PHP Wordpress  
 Prenez 10 min de votre temps pour régler ce problème.
-Prérequis : Vous devez avoir un ordinateur mis à jour, sous une distribution basée sur debian (raspbian pour moi). Avoir les droits de super utilisateur et donc avoir accès à la commande &amp;ldquo;sudo&amp;rdquo;.</description></item></channel></rss>
+Prérequis :  Vous devez avoir un ordinateur mis à jour, sous une distribution basée sur debian (raspbian pour moi). Avoir les droits de super utilisateur et donc avoir accès à la commande &amp;ldquo;sudo&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

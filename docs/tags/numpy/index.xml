@@ -1,12 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>numpy on DevMath.fr</title><link>https://devmath.fr/tags/numpy/</link><description>Recent content in numpy on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/numpy/index.xml" rel="self" type="application/rss+xml"/><item><title>Seuillage d'image en Python3</title><link>https://devmath.fr/informatique/seuillage-dimage-en-python/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/seuillage-dimage-en-python/</guid><description>Définition Soit $f$, une image composée de $n$ lignes et $m$ colonnes, $\forall i \in [0,n]$ et $\forall j \in [0,m]$.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>numpy on DevMath.fr</title>
+    <link>http://localhost:1313/tags/numpy/</link>
+    <description>Recent content in numpy on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/numpy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seuillage d&#39;image en Python3</title>
+      <link>http://localhost:1313/informatique/seuillage-dimage-en-python/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/seuillage-dimage-en-python/</guid>
+      <description>Définition Soit $f$, une image composée de $n$ lignes et $m$ colonnes, $\forall i \in [0,n]$ et $\forall j \in [0,m]$.
 Soit $f(i,j)$ l&amp;rsquo;intensité d&amp;rsquo;un pixel. C&amp;rsquo;est à dire la valeur maximale du triplet $[R,G,B]$ associée au pixel.
 Soit un seuil $s \in [0,255]$.
 Alors le seuillage de l&amp;rsquo;image f serait équivalent à une fonction $g$ tel que :
-$$g(i,j) = \begin{cases} 255 &amp;amp; \text{si} ; f(i,j) \leq s \ 0 &amp;amp; \text{sinon.</description></item><item><title>Modifier la Bitmap d'une image avec Python 3</title><link>https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link><pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid><description>Télécharger une image Je vous propose de modifier cette image image.
-Chat Surpris
+$$g(i,j) = \begin{cases} 255 &amp;amp; \text{si} ; f(i,j) \leq s \ 0 &amp;amp; \text{sinon.</description>
+    </item>
+    
+    <item>
+      <title>Modifier la Bitmap d&#39;une image avec Python 3</title>
+      <link>http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
+      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
+      <description>Télécharger une image Je vous propose de modifier cette image image.
+Chat Surpris  
 Il n&amp;rsquo;est pas nécessaire de la télécharger, je vais vous montrer comment le faire avec Python directement.
 Tout d&amp;rsquo;abord, ouvrez un nouveau fichier python dans votre IDE préféré. Jupyter Notebook est probablement la meilleure alternative :).
 Entrez ce code.
-from PIL import Image import requests from io import BytesIO Url = &amp;#39;https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/pexels-photo-2194261-1384x752.jpeg&amp;#39; response = requests.get(Url) ImgDL = Image.</description></item><item><title>Opération sur les matrices avec numpy en Python</title><link>https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link><pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid><description>Importer numpy Avant toute chose, pour effectuer des calculs scientifiques, vous devez importer la bibliothèque numpy.
+from PIL import Image import requests from io import BytesIO Url = &amp;#39;https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/pexels-photo-2194261-1384x752.jpeg&amp;#39; response = requests.get(Url) ImgDL = Image.</description>
+    </item>
+    
+    <item>
+      <title>Opération sur les matrices avec numpy en Python</title>
+      <link>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
+      <description>Importer numpy Avant toute chose, pour effectuer des calculs scientifiques, vous devez importer la bibliothèque numpy.
 import numpy as np Addition et Multiplication de Matrices M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) M2 = np.array([ [1.,1.,1.], [1.,2.,1.], [1.,1.,1.]]) MResultAdd = np.add(M1,M2) MResultSous = np.subtract(M1,M2) MResultMulti = M1.dot(M2) Trace de Matrices La trace d&amp;rsquo;une matrice est la somme des valeurs de la diagonale de la matrice.
-M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le calcul du déterminant d&amp;rsquo;une matrice est un outil nécessaire en algèbre linéaire afin de vérifier une inversibilité ou pour calculer l&amp;rsquo;inverse d&amp;rsquo;une matrice.</description></item></channel></rss>
+M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le calcul du déterminant d&amp;rsquo;une matrice est un outil nécessaire en algèbre linéaire afin de vérifier une inversibilité ou pour calculer l&amp;rsquo;inverse d&amp;rsquo;une matrice.</description>
+    </item>
+    
+  </channel>
+</rss>

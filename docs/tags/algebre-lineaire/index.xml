@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>algebre-lineaire on DevMath.fr</title><link>https://devmath.fr/tags/algebre-lineaire/</link><description>Recent content in algebre-lineaire on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/algebre-lineaire/index.xml" rel="self" type="application/rss+xml"/><item><title>Les Valeurs et Vecteurs Propres</title><link>https://devmath.fr/mathematiques/valeurs-et-vecteur-propre/</link><pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/mathematiques/valeurs-et-vecteur-propre/</guid><description>Soit E un espace vectoriel de dimension fini, sur $\mathbb{K}$. $f$ un endomorphisme (applications linéaires d&amp;rsquo;un espace vectoriel dans lui-même) de E.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algebre-lineaire on DevMath.fr</title>
+    <link>http://localhost:1313/tags/algebre-lineaire/</link>
+    <description>Recent content in algebre-lineaire on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/algebre-lineaire/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les Valeurs et Vecteurs Propres</title>
+      <link>http://localhost:1313/mathematiques/valeurs-et-vecteur-propre/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mathematiques/valeurs-et-vecteur-propre/</guid>
+      <description>Soit E un espace vectoriel de dimension fini, sur $\mathbb{K}$. $f$ un endomorphisme (applications linéaires d&amp;rsquo;un espace vectoriel dans lui-même) de E.
 Définition Un scalaire $\lambda$ est une valeur propre de $f$ s&amp;rsquo;il existe un vecteur x (le vecteur propre) non nul tel que $f(x)=\lambda x$.
 Exemple $$A = \begin{bmatrix} 7 &amp;amp; 2 \ -4 &amp;amp; 1 \end{bmatrix}$$
-Calcul du Polynôme Caractéristique Le polynome caractéristique de A est défini comme: $\chi_A(\lambda) = \det(\lambda I_{dim A} - A)$.</description></item></channel></rss>
+Calcul du Polynôme Caractéristique Le polynome caractéristique de A est défini comme: $\chi_A(\lambda) = \det(\lambda I_{dim A} - A)$.</description>
+    </item>
+    
+  </channel>
+</rss>

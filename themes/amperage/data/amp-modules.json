@@ -56,5 +56,6 @@
   "amp-autocomplete" : "https://cdn.ampproject.org/v0/amp-autocomplete-0.1.js",
   "amp-mathml" : "https://cdn.ampproject.org/v0/amp-mathml-0.1.js", 
   "amp-auto-ads" : "https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js", 
-  "amp-next-page" : "https://cdn.ampproject.org/v0/amp-next-page-1.0.js"
+  "amp-next-page" : "https://cdn.ampproject.org/v0/amp-next-page-1.0.js",
+  "amp-consent" : "https://cdn.ampproject.org/v0/amp-consent-0.1.js"
 }

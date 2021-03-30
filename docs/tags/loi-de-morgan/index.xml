@@ -1,3 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>loi-de-morgan on DevMath.fr</title><link>https://devmath.fr/tags/loi-de-morgan/</link><description>Recent content in loi-de-morgan on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/loi-de-morgan/index.xml" rel="self" type="application/rss+xml"/><item><title>Exercice corrigé - Dénombrement n°1</title><link>https://devmath.fr/mathematiques/exercice-corrige-denombrement-n1/</link><pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/mathematiques/exercice-corrige-denombrement-n1/</guid><description>Difficulté : Moyenne
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>loi-de-morgan on DevMath.fr</title>
+    <link>http://localhost:1313/tags/loi-de-morgan/</link>
+    <description>Recent content in loi-de-morgan on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/loi-de-morgan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exercice corrigé - Dénombrement n°1</title>
+      <link>http://localhost:1313/mathematiques/exercice-corrige-denombrement-n1/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/mathematiques/exercice-corrige-denombrement-n1/</guid>
+      <description>Difficulté : Moyenne
 Énoncé : Une histoire de pigeon A Central Parc, il y a 250 oiseaux à 3 couleurs. Parmi eux se trouvent :
-68 oiseaux possédant des plumes magentas et blanches 133 oiseaux possédant des plumes blanches 192 oiseaux ne possédant pas de plumes blanches ou ne possédant pas de plumes vertes 213 oiseaux possédant des plumes magentas ou vertes Seuls les pigeons sont verts, magentas et blancs, pouvez vous les dénombrer ?</description></item></channel></rss>
+ 68 oiseaux possédant des plumes magentas et blanches 133 oiseaux possédant des plumes blanches 192 oiseaux ne possédant pas de plumes blanches ou ne possédant pas de plumes vertes 213 oiseaux possédant des plumes magentas ou vertes  Seuls les pigeons sont verts, magentas et blancs, pouvez vous les dénombrer ?</description>
+    </item>
+    
+  </channel>
+</rss>

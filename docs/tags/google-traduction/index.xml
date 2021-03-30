@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>google-traduction on DevMath.fr</title><link>https://devmath.fr/tags/google-traduction/</link><description>Recent content in google-traduction on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/google-traduction/index.xml" rel="self" type="application/rss+xml"/><item><title>Traduire un string grâce à Google Traduction en Python (for free)</title><link>https://devmath.fr/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</link><pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</guid><description>La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l&amp;rsquo;API Google Cloud Translation. Cet API, bien que très pratique, pose un certain problème, celui du prix : 20$ pour 1 million de caractères. Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n&amp;rsquo;avez pas besoin d&amp;rsquo;utiliser autant de caractères, il serait intéressant de trouver une alternative gratuite.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google-traduction on DevMath.fr</title>
+    <link>http://localhost:1313/tags/google-traduction/</link>
+    <description>Recent content in google-traduction on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/google-traduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traduire un string grâce à Google Traduction en Python (for free)</title>
+      <link>http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</guid>
+      <description>La méthode la plus simple est encore de se relayer sur la puissance de Google. Google, ou plutôt Google Cloud propose un API, l&amp;rsquo;API Google Cloud Translation. Cet API, bien que très pratique, pose un certain problème, celui du prix : 20$ pour 1 million de caractères. Bien que plutôt rentable pour de nombreux projets, si, comme moi, vous n&amp;rsquo;avez pas besoin d&amp;rsquo;utiliser autant de caractères, il serait intéressant de trouver une alternative gratuite.</description>
+    </item>
+    
+  </channel>
+</rss>
