@@ -1,6 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bitmap on DevMath.fr</title><link>https://devmath.fr/tags/bitmap/</link><description>Recent content in bitmap on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/bitmap/index.xml" rel="self" type="application/rss+xml"/><item><title>Modifier la Bitmap d'une image avec Python 3</title><link>https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link><pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid><description>Télécharger une image Je vous propose de modifier cette image image.
-Chat Surpris
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bitmap on DevMath.fr</title>
+    <link>https://devmath.fr/tags/bitmap/</link>
+    <description>Recent content in bitmap on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/bitmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modifier la Bitmap d&#39;une image avec Python 3</title>
+      <link>https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
+      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
+      <description>Télécharger une image Je vous propose de modifier cette image image.
+Chat Surpris  
 Il n&amp;rsquo;est pas nécessaire de la télécharger, je vais vous montrer comment le faire avec Python directement.
 Tout d&amp;rsquo;abord, ouvrez un nouveau fichier python dans votre IDE préféré. Jupyter Notebook est probablement la meilleure alternative :).
 Entrez ce code.
-from PIL import Image import requests from io import BytesIO Url = &amp;#39;https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/pexels-photo-2194261-1384x752.jpeg&amp;#39; response = requests.get(Url) ImgDL = Image.</description></item></channel></rss>
+from PIL import Image import requests from io import BytesIO Url = &amp;#39;https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/pexels-photo-2194261-1384x752.jpeg&amp;#39; response = requests.get(Url) ImgDL = Image.</description>
+    </item>
+    
+  </channel>
+</rss>

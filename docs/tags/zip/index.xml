@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>zip on DevMath.fr</title><link>https://devmath.fr/tags/zip/</link><description>Recent content in zip on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/zip/index.xml" rel="self" type="application/rss+xml"/><item><title>Autoriser l'upload de fichiers non-autorisés sur Wordpress</title><link>https://devmath.fr/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</link><pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</guid><description>Je traiterai l&amp;rsquo;upload de fichiers zip en particulier.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zip on DevMath.fr</title>
+    <link>https://devmath.fr/tags/zip/</link>
+    <description>Recent content in zip on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/zip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autoriser l&#39;upload de fichiers non-autorisés sur Wordpress</title>
+      <link>https://devmath.fr/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</link>
+      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</guid>
+      <description>Je traiterai l&amp;rsquo;upload de fichiers zip en particulier.
 Résolution manuelle : Accéder au fichier function.php : Le fichier &amp;ldquo;function.php&amp;rdquo; est censé se situer dans le dossier du thème de votre site web. Accedez-y via SFTP, SSH ou de la façon de votre choix.
 Modifier function.php Pour comprendre la fonction ci-dessous, il faut savoir ce qu&amp;rsquo;est un type Mime :
-Un type de média, ou type MIME est un identifiant de format de données composé de 2 parties, appelées type, et sous-types.</description></item></channel></rss>
+Un type de média, ou type MIME est un identifiant de format de données composé de 2 parties, appelées type, et sous-types.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>logique on DevMath.fr</title><link>https://devmath.fr/tags/logique/</link><description>Recent content in logique on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/logique/index.xml" rel="self" type="application/rss+xml"/><item><title>UAL - Unité arithmétique et logique</title><link>https://devmath.fr/informatique/ual-unite-arithmetique-et-logique/</link><pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/ual-unite-arithmetique-et-logique/</guid><description>Caractéristiques de l&amp;rsquo;UAL : Notre UAL nous permet d&amp;rsquo;effectuer 7 opérations sur des entiers signés de 8 bits.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logique on DevMath.fr</title>
+    <link>https://devmath.fr/tags/logique/</link>
+    <description>Recent content in logique on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/logique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UAL - Unité arithmétique et logique</title>
+      <link>https://devmath.fr/informatique/ual-unite-arithmetique-et-logique/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/informatique/ual-unite-arithmetique-et-logique/</guid>
+      <description>Caractéristiques de l&amp;rsquo;UAL : Notre UAL nous permet d&amp;rsquo;effectuer 7 opérations sur des entiers signés de 8 bits.
 Entrées : Notre UAL prend 3 entrées :
-Un nombre sur 8 bits &amp;ldquo;A&amp;rdquo; utilisé en entrée des opérations. Un nombre sur 8 bits &amp;ldquo;B&amp;rdquo; utilisé en entrée des opérations. Un nombre sur 3 bits &amp;ldquo;ctr&amp;rdquo; utilisé pour sélectionner l&amp;rsquo;opération désirée. Sorties : Notre UAL possède 2 sorties :
-Un nombre sur 8 bits étant le résultat de l&amp;rsquo;opération choisie.</description></item><item><title>Exercice corrigé : Simplification de formules Booléennes</title><link>https://devmath.fr/informatique/exercice-corrige-simplification-de-formules-booleennes/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/exercice-corrige-simplification-de-formules-booleennes/</guid><description>Exercices : Simplifiez au maximum ces formules logiques algébriquement :
+ Un nombre sur 8 bits &amp;ldquo;A&amp;rdquo; utilisé en entrée des opérations. Un nombre sur 8 bits &amp;ldquo;B&amp;rdquo; utilisé en entrée des opérations. Un nombre sur 3 bits &amp;ldquo;ctr&amp;rdquo; utilisé pour sélectionner l&amp;rsquo;opération désirée.  Sorties : Notre UAL possède 2 sorties :
+ Un nombre sur 8 bits étant le résultat de l&amp;rsquo;opération choisie.</description>
+    </item>
+    
+    <item>
+      <title>Exercice corrigé : Simplification de formules Booléennes</title>
+      <link>https://devmath.fr/informatique/exercice-corrige-simplification-de-formules-booleennes/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/informatique/exercice-corrige-simplification-de-formules-booleennes/</guid>
+      <description>Exercices : Simplifiez au maximum ces formules logiques algébriquement :
 Formule 1 $ABC+\overline{A}+\overline{C}$
 Formule 2 $\overline{A}B+C\overline{A}D+\overline{B}+\overline{D}$
 Formule 3 $\overline{\overline{A+D}.\overline{\overline{C}+\overline{B}}+C}$
@@ -10,4 +34,8 @@ Formule 5 $A\overline{C} + AB\overline{C}+B\overline{C}+\overline{A}B$
 Indices : Formule 1 Il faut utiliser 2 fois la propriété : $\overline{A}+AB = \overline{A}+B$.
 Formule 2 Il faut utiliser 2 fois la propriété $\overline{A}+AB = \overline{A}+B$.
 Une fois $A + AB = A(1+B) = A$.
-Formule 3 Ce développement a pour but de vous faire réviser le théorème de Morgan.</description></item></channel></rss>
+Formule 3 Ce développement a pour but de vous faire réviser le théorème de Morgan.</description>
+    </item>
+    
+  </channel>
+</rss>

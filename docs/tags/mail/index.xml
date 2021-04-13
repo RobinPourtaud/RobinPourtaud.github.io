@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mail on DevMath.fr</title><link>https://devmath.fr/tags/mail/</link><description>Recent content in mail on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/mail/index.xml" rel="self" type="application/rss+xml"/><item><title>Recevoir des notifications par mail en PHP grâce à IFTTT</title><link>https://devmath.fr/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</link><pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</guid><description>Paramétrer IFTTT : Connectez-vous à l’adresse https://ifttt.com/ . Inscrivez-vous si ce n&amp;rsquo;est pas déjà fais. Appuyez sur votre photo de profil en haut à gauche, puis appuyez sur &amp;ldquo;Create&amp;rdquo;. Appuyez sur &amp;ldquo;This&amp;rdquo; puis sélectionnez le service &amp;ldquo;Webhooks&amp;rdquo;. Choisissez l&amp;rsquo;Event Name de votre choix. Pour ma part, ce sera &amp;ldquo;iftttmessage&amp;rdquo;. Appuyez sur &amp;ldquo;That&amp;rdquo; puis sélectionnez &amp;ldquo;Email&amp;rdquo;. Personnalisez le body, le subject comme vous le souhaitez. Gardez juste bien en tête que &amp;ldquo;Value1&amp;rdquo; contiendra le message qu&amp;rsquo;on voudra envoyer.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mail on DevMath.fr</title>
+    <link>https://devmath.fr/tags/mail/</link>
+    <description>Recent content in mail on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/mail/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recevoir des notifications par mail en PHP grâce à IFTTT</title>
+      <link>https://devmath.fr/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</guid>
+      <description>Paramétrer IFTTT :  Connectez-vous à l’adresse https://ifttt.com/ . Inscrivez-vous si ce n&amp;rsquo;est pas déjà fais. Appuyez sur votre photo de profil en haut à gauche, puis appuyez sur &amp;ldquo;Create&amp;rdquo;. Appuyez sur &amp;ldquo;This&amp;rdquo; puis sélectionnez le service &amp;ldquo;Webhooks&amp;rdquo;. Choisissez l&amp;rsquo;Event Name de votre choix. Pour ma part, ce sera &amp;ldquo;iftttmessage&amp;rdquo;. Appuyez sur &amp;ldquo;That&amp;rdquo; puis sélectionnez &amp;ldquo;Email&amp;rdquo;. Personnalisez le body, le subject comme vous le souhaitez. Gardez juste bien en tête que &amp;ldquo;Value1&amp;rdquo; contiendra le message qu&amp;rsquo;on voudra envoyer.</description>
+    </item>
+    
+  </channel>
+</rss>

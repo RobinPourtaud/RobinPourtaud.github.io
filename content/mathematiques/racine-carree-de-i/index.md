@@ -13,9 +13,7 @@ description: "Cet article présente un moyen d'évaluer la racine carrée de i t
 
 Soit $z=\sqrt{i}$.
 
-1. On réécrit z :
-
-$z=i^{\frac{1}{2}}$
+1. On réécrit z : $z=i^{\frac{1}{2}}$
 
 Cherchons à écrire i en écriture exponentielle :
 

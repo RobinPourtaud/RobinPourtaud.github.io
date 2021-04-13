@@ -1,7 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>algebre on DevMath.fr</title><link>https://devmath.fr/tags/algebre/</link><description>Recent content in algebre on DevMath.fr</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/algebre/index.xml" rel="self" type="application/rss+xml"/><item><title>Opération sur les matrices avec numpy en Python</title><link>https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link><pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid><description>Importer numpy Avant toute chose, pour effectuer des calculs scientifiques, vous devez importer la bibliothèque numpy.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algebre on DevMath.fr</title>
+    <link>https://devmath.fr/tags/algebre/</link>
+    <description>Recent content in algebre on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/algebre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Opération sur les matrices avec numpy en Python</title>
+      <link>https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
+      <description>Importer numpy Avant toute chose, pour effectuer des calculs scientifiques, vous devez importer la bibliothèque numpy.
 import numpy as np Addition et Multiplication de Matrices M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) M2 = np.array([ [1.,1.,1.], [1.,2.,1.], [1.,1.,1.]]) MResultAdd = np.add(M1,M2) MResultSous = np.subtract(M1,M2) MResultMulti = M1.dot(M2) Trace de Matrices La trace d&amp;rsquo;une matrice est la somme des valeurs de la diagonale de la matrice.
-M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le calcul du déterminant d&amp;rsquo;une matrice est un outil nécessaire en algèbre linéaire afin de vérifier une inversibilité ou pour calculer l&amp;rsquo;inverse d&amp;rsquo;une matrice.</description></item><item><title>Conditionnement d'une Matrice</title><link>https://devmath.fr/informatique/conditionnement-dune-matrice/</link><pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate><guid>https://devmath.fr/informatique/conditionnement-dune-matrice/</guid><description>Définition Un système linéaire peut s&amp;rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&amp;rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.
+M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le calcul du déterminant d&amp;rsquo;une matrice est un outil nécessaire en algèbre linéaire afin de vérifier une inversibilité ou pour calculer l&amp;rsquo;inverse d&amp;rsquo;une matrice.</description>
+    </item>
+    
+    <item>
+      <title>Conditionnement d&#39;une Matrice</title>
+      <link>https://devmath.fr/informatique/conditionnement-dune-matrice/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/informatique/conditionnement-dune-matrice/</guid>
+      <description>Définition Un système linéaire peut s&amp;rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&amp;rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.
 Pour une matrice inversible A, sa fonction de conditionnement est :
 $$\kappa(A)=\Vert A \Vert \Vert A^{-1} \Vert$$
 Note : Plus $\kappa$ est élevé, plus la matrice A est mal conditionnée.
-Exemple 1 Pour comprendre ce qu&amp;rsquo;est le conditionnement, prenons un exemple de système linéaire $AX=Y$ :</description></item></channel></rss>
+Exemple 1 Pour comprendre ce qu&amp;rsquo;est le conditionnement, prenons un exemple de système linéaire $AX=Y$ :</description>
+    </item>
+    
+  </channel>
+</rss>
