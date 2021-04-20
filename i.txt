@@ -1,0 +1,1322 @@
+Formula : a^2+b^2=c^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e2e3fe237919a91bb6c75a26db0f6d6a.svg
+b'/latex-svg/a^2+b^2=c^2.svg'
+Formula : (\sin \alpha \times c) ^2 + (\cos \alpha \times c) ^2= c (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e27690c9ef0f3d459eabcb8dcde595e6.svg
+b'/latex-svg/(sin alpha times c) ^2 + (cos alpha times c) ^2= c.svg'
+Formula : \sin \alpha ^2 + \cos \alpha ^2 = 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4ba83b17834cca0c6a8aafee24183dab.svg
+b'/latex-svg/sin alpha ^2 + cos alpha ^2 = 1.svg'
+Formula : a^2+b^2=c^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e2e3fe237919a91bb6c75a26db0f6d6a.svg
+b'/latex-svg/a^2+b^2=c^2.svg'
+Formula : \sin \alpha = \frac{a}{c} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d157da15ab07f844d2cfde24bb8759fa.svg
+b'/latex-svg/sin alpha = frac{a}{c}.svg'
+Formula : \cos \alpha = \frac{b}{c} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c24ee07cb79bf8ca49bd39e649f88fab.svg
+b'/latex-svg/cos alpha = frac{b}{c}.svg'
+Formula : a = \sin \alpha \times c (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a4775695156d713ff223c4217d6f923c.svg
+b'/latex-svg/a = sin alpha times c.svg'
+Formula : b = \cos \alpha \times c (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b799cbf6cec9f9df3a0f4033159e4083.svg
+b'/latex-svg/b = cos alpha times c.svg'
+Formula : c = 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/83ad9987b163b3f33da0d0e9c01119a5.svg
+b'/latex-svg/c = 1.svg'
+Formula : \sin \alpha = \frac{e^{i\alpha}-e^{-i\alpha}}{2i} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4a8db6df2b3efddb9e947d3f0a91ab35.svg
+b'/latex-svg/sin alpha = frac{e^{ialpha}-e^{-ialpha}}{2i}.svg'
+Formula : \cos \alpha = \frac{e^{i\alpha}+e^{-i\alpha}}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4de6d0a92d162af9dcb5d25d782d2115.svg
+b'/latex-svg/cos alpha = frac{e^{ialpha}+e^{-ialpha}}{2}.svg'
+Formula : sin \alpha ^2 + \cos \alpha ^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/00b267d52755c0a0f36986a9c38c4786.svg
+b'/latex-svg/sin alpha ^2 + cos alpha ^2.svg'
+Formula : = \frac{e^{i\alpha}-e^{-i\alpha}}{2i}^2 + \frac{e^{i\alpha}+e^{-i\alpha}}{2}^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bf29d616a232d5e49d99e703245a55d2.svg
+b'/latex-svg/= frac{e^{ialpha}-e^{-ialpha}}{2i}^2 + frac{e^{ialpha}+e^{-ialpha}}{2}^2.svg'
+Formula : = \frac{e^{2i\alpha}-2e^{2i\alpha-2i\alpha}+e^{-2i\alpha}}{-4} + \frac{e^{2i\alpha}+2e^{2i\alpha-2i\alpha}+e^{-2i\alpha}}{4} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4cf2b01de42b9abbb04d3b8a73ea91f2.svg
+b'/latex-svg/= frac{e^{2ialpha}-2e^{2ialpha-2ialpha}+e^{-2ialpha}}{-4} + frac{e^{2ialpha}+2e^{2ialpha-2ialpha}+e^{-2ialpha}}{4}.svg'
+Formula : =\frac{2+2}{4} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/70320977fa7ce6af9445e81c509c0d7a.svg
+b'/latex-svg/=frac{2+2}{4}.svg'
+Formula : =1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b45b4b6072dc541024b285b53bd29cd0.svg
+b'/latex-svg/=1.svg'
+Formula : \mathbb{N} Downloaded
+./themes/amperage/static/latex-svg/65e12fd93e6df23dba2ba9e06af438dd.svg
+Formula : A(n) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2ea84993ca901c4d7a21748eea92386b.svg
+b'/latex-svg/A(n).svg'
+Formula : \forall n \in (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/34b6f158d69870e03ba0ec34499cb10b.svg
+b'/latex-svg/forall n in.svg'
+Formula : A(n_0) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ac9237d3eca020c3f1c624178096f101.svg
+b'/latex-svg/A(n_0).svg'
+Formula : \forall n \geq n_0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/39afa3ec84ce77ac7e4bbd87aa735115.svg
+b'/latex-svg/forall n geq n_0.svg'
+Formula : A(n) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2ea84993ca901c4d7a21748eea92386b.svg
+b'/latex-svg/A(n).svg'
+Formula : \Rightarrow A(n+1) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/249c795885cfc67c2d907ffefaaf0ab2.svg
+b'/latex-svg/Rightarrow A(n+1).svg'
+Formula : \forall n \geq n_0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/39afa3ec84ce77ac7e4bbd87aa735115.svg
+b'/latex-svg/forall n geq n_0.svg'
+Formula : A(n) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2ea84993ca901c4d7a21748eea92386b.svg
+b'/latex-svg/A(n).svg'
+Formula : P \subseteq \mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/40b4f680766e2ad7feb927097a4df569.svg
+b'/latex-svg/P subseteq mathbb{N}.svg'
+Formula : P = \{n\in (\mathbb{N},\leq _\mathbb{N}) \;| \; A(n) \,\text{vraie}\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/537cc6fbe09754e3ddf67539a35efe27.svg
+b'/latex-svg/P = {nin (mathbb{N},leq _mathbb{N}) ;| ; A(n) ,text{vraie}}.svg'
+Formula : P = \mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/5e14db5e15b76a36f158fa5cfeedd16c.svg
+b'/latex-svg/P = mathbb{N}.svg'
+Formula : P = \mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/5e14db5e15b76a36f158fa5cfeedd16c.svg
+b'/latex-svg/P = mathbb{N}.svg'
+Formula : \mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/65e12fd93e6df23dba2ba9e06af438dd.svg
+b'/latex-svg/mathbb{N}.svg'
+Formula : \bar{P}^\mathbb{N} \neq \emptyset (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/acc3c42e897b9a978c1279bd11ecd9e5.svg
+b'/latex-svg/bar{P}^mathbb{N} neq emptyset.svg'
+Formula : \bar{P}^\mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3866f6035c115a7e0f6dc1595dc449d2.svg
+b'/latex-svg/bar{P}^mathbb{N}.svg'
+Formula : P (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/f7ccfd9da8a61f37f0c891778c0f2f87.svg
+b'/latex-svg/P.svg'
+Formula : \mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/65e12fd93e6df23dba2ba9e06af438dd.svg
+b'/latex-svg/mathbb{N}.svg'
+Formula : p \in \bar{P}^\mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/834745f63bd77fc88ae09026c1dfc304.svg
+b'/latex-svg/p in bar{P}^mathbb{N}.svg'
+Formula : n_0 \in P (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/46bd6b0ad4e0375bc98aa90b23b84149.svg
+b'/latex-svg/n_0 in P.svg'
+Formula : n_0 \notin \bar{P}^\mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bace06476defd68197c2f8b59f73a148.svg
+b'/latex-svg/n_0 notin bar{P}^mathbb{N}.svg'
+Formula : p\geq 1 + n_0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e64ff4ad563fcd81d202a4569a5f7c63.svg
+b'/latex-svg/pgeq 1 + n_0.svg'
+Formula : 1 + n_0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/f8a8f16bbbe429d656b3094fbfd24389.svg
+b'/latex-svg/1 + n_0.svg'
+Formula : n_0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/90bfc938fad60c0ff1370f7b91e18dd8.svg
+b'/latex-svg/n_0.svg'
+Formula : p-1 \geq n_0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/f50afa48c349472378cc01fb645006c3.svg
+b'/latex-svg/p-1 geq n_0.svg'
+Formula : p-1 \in \mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/93a204d69e3cef103a56cf7cf1535769.svg
+b'/latex-svg/p-1 in mathbb{N}.svg'
+Formula : p (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/990c3490a84920e0203fe842252fd06c.svg
+b'/latex-svg/p.svg'
+Formula : \bar{P}^\mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3866f6035c115a7e0f6dc1595dc449d2.svg
+b'/latex-svg/bar{P}^mathbb{N}.svg'
+Formula : p - 1 \notin \bar{P}^\mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/150ff35dd1e18814169900b0e2f64bfa.svg
+b'/latex-svg/p - 1 notin bar{P}^mathbb{N}.svg'
+Formula : p-1 \in P (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/15cf700db6a9d5780515ad9f41dc5b64.svg
+b'/latex-svg/p-1 in P.svg'
+Formula : A(p-1) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/783524f9aa7230437714fa0a743b40a3.svg
+b'/latex-svg/A(p-1).svg'
+Formula : \mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/65e12fd93e6df23dba2ba9e06af438dd.svg
+b'/latex-svg/mathbb{N}.svg'
+Formula : A(p) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1abc6c76624fd67f9b7a5f43c8506f93.svg
+b'/latex-svg/A(p).svg'
+Formula : p\in P (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/dd75e3855138d0040590002f105b9d9b.svg
+b'/latex-svg/pin P.svg'
+Formula : p \in \bar{P}^\mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/834745f63bd77fc88ae09026c1dfc304.svg
+b'/latex-svg/p in bar{P}^mathbb{N}.svg'
+Formula : n!=\prod^n_{i=1}i= 1 \times 2 \times \ldots \times (n-1) \times n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/74244b005b1c1349f343e50ec8a25e28.svg
+b'/latex-svg/n!=prod^n_{i=1}i= 1 times 2 times ldots times (n-1) times n.svg'
+Formula : n?=\sum^n_{i=1}i = 1 + 2 + \ldots + (n-1) + n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/5c795362535d4256b8f9cbe31340dc56.svg
+b'/latex-svg/n?=sum^n_{i=1}i = 1 + 2 + ldots + (n-1) + n.svg'
+Formula : n?=\sum^n_{i=1}i = \frac{n(n+1)}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6e06319c1a78ef5cded98de4c721d242.svg
+b'/latex-svg/n?=sum^n_{i=1}i = frac{n(n+1)}{2}.svg'
+Formula : 0.5? = \frac{0.5(0.5+1)}{2} = \frac{3}{8} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/f48da4c27c88d4c759243754a2778ed8.svg
+b'/latex-svg/0.5? = frac{0.5(0.5+1)}{2} = frac{3}{8}.svg'
+Formula : \forall n \in \mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/69824f71730c138b500fbabd750edef2.svg
+b'/latex-svg/forall n in mathbb{N}.svg'
+Formula : \#(M\cup V \cup B) = \#M + \#V + \#B - \#(M\cap V) - \#(M\cap B) - \#(V \cap B) + \#(M \cap V \cap B) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8bc38fe37da08485f9aaf9488463d0b6.svg
+b'/latex-svg/#(Mcup V cup B) = #M + #V + #B - #(Mcap V) - #(Mcap B) - #(V cap B) + #(M cap V cap B).svg'
+Formula : \#(M\cap V \cap B) = \#(M \cup V \cup B) - \#M - \#V - \#B + \#(M\cap V) + \#(M\cap B) + \#(V \cap B) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3ed575779d43dd531b8fbad2b84dfbe8.svg
+b'/latex-svg/#(Mcap V cap B) = #(M cup V cup B) - #M - #V - #B + #(Mcap V) + #(Mcap B) + #(V cap B).svg'
+Formula : = \#\Omega - \#M - \#V - \#B + (\#M + \#V - \#(M\cup V)) + \#(M\cap B) + (\#\Omega - \#(\overline{V}\cup \overline{B})) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b453ffec0517e8daeacaf0a222402a79.svg
+b'/latex-svg/= #Omega - #M - #V - #B + (#M + #V - #(Mcup V)) + #(Mcap B) + (#Omega - #(overline{V}cup overline{B})).svg'
+Formula : = 2 \times \#\Omega - \#B - \#(M\cup V)+ \#(M\cap B) - \#(\overline{V}\cup \overline{B}) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/058c64eb2ddfb2b6945ba2649b51fc1f.svg
+b'/latex-svg/= 2 times #Omega - #B - #(Mcup V)+ #(Mcap B) - #(overline{V}cup overline{B}).svg'
+Formula : =500 - 133 - 213 + 68 - 192 = 30 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4076ef7698722fb8a47b3cc8282c709e.svg
+b'/latex-svg/=500 - 133 - 213 + 68 - 192 = 30.svg'
+Formula : \Omega = V\cup B \cup M (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ca6f6145914aff2dcf6b9e0766794183.svg
+b'/latex-svg/Omega = Vcup B cup M.svg'
+Formula : \#(M\cap B)=140 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2ec85e2d9446bdacc8308c2d61688ab7.svg
+b'/latex-svg/#(Mcap B)=140.svg'
+Formula : \#B=23 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a68edf27e11e84112e1f74eaf5d772b9.svg
+b'/latex-svg/#B=23.svg'
+Formula : \#(\overline{B}\cup\overline{V})=75 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9356e521f712f70aad2aa072dcbfd830.svg
+b'/latex-svg/#(overline{B}cupoverline{V})=75.svg'
+Formula : \#(M\cup V)=32 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/79306de6cb6b6bdc78777b8ee7e0b66e.svg
+b'/latex-svg/#(Mcup V)=32.svg'
+Formula : \cos x \sin x = 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c0471f06e1de4ade61d7b6612693bab6.svg
+b'/latex-svg/cos x sin x = 1.svg'
+Formula : 2sin(x)cos(x)=sin(2x) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7314e4f8c2be4a8fb5bffa4ee3cb6887.svg
+b'/latex-svg/2sin(x)cos(x)=sin(2x).svg'
+Formula : sin(x)cos(x)=\frac{sin(2x)}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/01f8f36a6a06fa75b986317742e5b2a4.svg
+b'/latex-svg/sin(x)cos(x)=frac{sin(2x)}{2}.svg'
+Formula : cos(x)sin(x)=1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b8ecbfea766bf67958f47e9953fa8bf4.svg
+b'/latex-svg/cos(x)sin(x)=1.svg'
+Formula : sin(2x) = 2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/72088a42c5bddd61328cc7fee6bff2b6.svg
+b'/latex-svg/sin(2x) = 2.svg'
+Formula : sin(\theta)=\frac{e^{i\theta}-e^{-i\theta}}{2i} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c7c8eff81d1c6b129607e20d672b050f.svg
+b'/latex-svg/sin(theta)=frac{e^{itheta}-e^{-itheta}}{2i}.svg'
+Formula : \frac{e^{i2x}-e^{-i2x}}{2i} = 2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/0d923809efd5f9d0e10f7ce875b533fe.svg
+b'/latex-svg/frac{e^{i2x}-e^{-i2x}}{2i} = 2.svg'
+Formula : \frac{1}{2}ie^{-2ix}-\frac{1}{2}ie^{2ix}=2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e65a34f52403dcb0496a4ba18cbfad84.svg
+b'/latex-svg/frac{1}{2}ie^{-2ix}-frac{1}{2}ie^{2ix}=2.svg'
+Formula : \frac{1}{4\times \frac{-1}{2}ie^{2ix}}-\frac{1}{2}ie^{2ix}=2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/710beab62cc656430968163f127e7fc1.svg
+b'/latex-svg/frac{1}{4times frac{-1}{2}ie^{2ix}}-frac{1}{2}ie^{2ix}=2.svg'
+Formula : \begin{cases}\frac{-1}{2}ie^{2ix} \; = \; y \\ \frac{1}{4y}+y \; = \; 2  \end{cases} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/92519a1fc91b1ec170d8fcaad4eefd6f.svg
+b'/latex-svg/begin{cases}frac{-1}{2}ie^{2ix} ; = ; y  frac{1}{4y}+y ; = ; 2  end{cases}.svg'
+Formula : \frac{1}{4y}+y = 2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c507341b6e4f815506eecb107842580c.svg
+b'/latex-svg/frac{1}{4y}+y = 2.svg'
+Formula : \frac{4y^2+1}{4y}=2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e62066745f9318e17c03d64d259b85c0.svg
+b'/latex-svg/frac{4y^2+1}{4y}=2.svg'
+Formula : 4y^2-8y+1=0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/15dc89f0a19b8ee0c5c4e4436358ba0e.svg
+b'/latex-svg/4y^2-8y+1=0.svg'
+Formula : y=1\pm\frac{\sqrt{3}}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/51f3bc09b82dd3dfe8e6a2af9062654a.svg
+b'/latex-svg/y=1pmfrac{sqrt{3}}{2}.svg'
+Formula : \frac{-ie^{2ix}}{2}=1+\frac{\sqrt{3}}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/429df4f123f418764531813ff53f1c01.svg
+b'/latex-svg/frac{-ie^{2ix}}{2}=1+frac{sqrt{3}}{2}.svg'
+Formula : e^{2ix}=-\frac{2+\sqrt{3}}{i} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/99c9ae1a1a9e0a79baf94fc28f493acd.svg
+b'/latex-svg/e^{2ix}=-frac{2+sqrt{3}}{i}.svg'
+Formula : e^{2ix}=i(2+\sqrt{3}) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6d5b118192b630f84d24227699b5e33e.svg
+b'/latex-svg/e^{2ix}=i(2+sqrt{3}).svg'
+Formula : e^{2ix+2ik\pi}=i(2+\sqrt{3}) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/46170b5325f262c758004f76e3a6c8bb.svg
+b'/latex-svg/e^{2ix+2ikpi}=i(2+sqrt{3}).svg'
+Formula : 2ix = ln(i(2+\sqrt{3})) - 2ik\pi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/dab966e49f64939eca091b8513526cd4.svg
+b'/latex-svg/2ix = ln(i(2+sqrt{3})) - 2ikpi.svg'
+Formula : x = \frac{ln(i(2+\sqrt{3}))}{2i} + k\pi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6e761b8f83d376cfe3a16d40b08fee13.svg
+b'/latex-svg/x = frac{ln(i(2+sqrt{3}))}{2i} + kpi.svg'
+Formula : \frac{-ie^{2ix}}{2}=1-\frac{\sqrt{3}}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a9ba5567258b83c2695e3954ebc58196.svg
+b'/latex-svg/frac{-ie^{2ix}}{2}=1-frac{sqrt{3}}{2}.svg'
+Formula : e^{2ix}=-\frac{2-\sqrt{3}}{i} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/beb9d24c6293771899f67b7cc013fecb.svg
+b'/latex-svg/e^{2ix}=-frac{2-sqrt{3}}{i}.svg'
+Formula : e^{2ix}=i(2-\sqrt{3}) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/433bc7d1f5ca7e419ddb8ca977d92b30.svg
+b'/latex-svg/e^{2ix}=i(2-sqrt{3}).svg'
+Formula : e^{2ix+2ik\pi}=i(2-\sqrt{3}) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/761cab0c3d0ec25103cfc90a01e870c7.svg
+b'/latex-svg/e^{2ix+2ikpi}=i(2-sqrt{3}).svg'
+Formula : 2ix = ln(i(2-\sqrt{3})) - 2ik\pi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/0d1efd6b159f02d144c830eb1fd0ccfe.svg
+b'/latex-svg/2ix = ln(i(2-sqrt{3})) - 2ikpi.svg'
+Formula : x = \frac{ln(i(2-\sqrt{3}))}{2i} + k\pi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6289667c80c7ce253ab2c11b956ecb2f.svg
+b'/latex-svg/x = frac{ln(i(2-sqrt{3}))}{2i} + kpi.svg'
+Formula : \mathbb{R} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6ad957c717aad6aac62f64b3c35035bd.svg
+b'/latex-svg/mathbb{R}.svg'
+Formula : \mathbb{C} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/00bfdc7a6d0b2ec16ba11ff15fbe24f8.svg
+b'/latex-svg/mathbb{C}.svg'
+Formula : \forall x \in \mathbb{R} \;|\; sin(x) \in \[0,1\] (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/dc0bd9a11bb4199f672a1f8d57db1f04.svg
+b'/latex-svg/forall x in mathbb{R} ;|; sin(x) in [0,1].svg'
+Formula : \mathbb{C} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/00bfdc7a6d0b2ec16ba11ff15fbe24f8.svg
+b'/latex-svg/mathbb{C}.svg'
+Formula : \theta = 2x (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/39f71aa318a05a9031e68be7c0cb1626.svg
+b'/latex-svg/theta = 2x.svg'
+Formula : y = \frac{-1}{2}ie^{2ix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7ade3fddf2d4941e39b8a6bc580d2bdf.svg
+b'/latex-svg/y = frac{-1}{2}ie^{2ix}.svg'
+Formula : \Delta=64-16=48 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ac0a41523d351f96dd6be5eaa3132476.svg
+b'/latex-svg/Delta=64-16=48.svg'
+Formula : y=1 + \frac{\sqrt{3}}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9467963b9c57aa6cb7d69a3b47c7e6ab.svg
+b'/latex-svg/y=1 + frac{sqrt{3}}{2}.svg'
+Formula : \forall k \in \mathbb{Z} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1a8e2876d0b36e76cba2847aa287399b.svg
+b'/latex-svg/forall k in mathbb{Z}.svg'
+Formula : 2ik\pi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/316f811bee6e028eca02eafb95b219fc.svg
+b'/latex-svg/2ikpi.svg'
+Formula : y=1 - \frac{\sqrt{3}}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6174fec39e3c26b772863d5802179fad.svg
+b'/latex-svg/y=1 - frac{sqrt{3}}{2}.svg'
+Formula : \forall k \in \mathbb{Z} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1a8e2876d0b36e76cba2847aa287399b.svg
+b'/latex-svg/forall k in mathbb{Z}.svg'
+Formula : 2ik\pi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/316f811bee6e028eca02eafb95b219fc.svg
+b'/latex-svg/2ikpi.svg'
+Formula : 6^{n+1} = 60k + 36 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/353cd505f9503da4a4d8662d028f9185.svg
+b'/latex-svg/6^{n+1} = 60k + 36.svg'
+Formula : \forall n \in \mathbb{N}\ast (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/57b2d64b3abd7cd11907dde84cbc4a8e.svg
+b'/latex-svg/forall n in mathbb{N}ast.svg'
+Formula : P_n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/63cd7b5268504da55b5983d4c098ddb8.svg
+b'/latex-svg/P_n.svg'
+Formula : 6^n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/66000ee7aa830b3c96f8cedeb4e9bfdb.svg
+b'/latex-svg/6^n.svg'
+Formula : P_1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/374bbf27054494c23acf485bfeca8045.svg
+b'/latex-svg/P_1.svg'
+Formula : 6^1 = 6 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3af6d7d94606df46e7af10bd6ee14253.svg
+b'/latex-svg/6^1 = 6.svg'
+Formula : n \in \mathbb{N}^\ast (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/fb265fb7a9d3020295b7bf71f9c05803.svg
+b'/latex-svg/n in mathbb{N}^ast.svg'
+Formula : 6^n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/66000ee7aa830b3c96f8cedeb4e9bfdb.svg
+b'/latex-svg/6^n.svg'
+Formula : \forall k \in \mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/cc4ed5e725e999d6d8fc2ce898403790.svg
+b'/latex-svg/forall k in mathbb{N}.svg'
+Formula : 6^n = 10k + 6 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/37f3f1601cb1e925abebebe828db8fa2.svg
+b'/latex-svg/6^n = 10k + 6.svg'
+Formula : 6^{n+1} = 6 \times (10k + 6) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/470abdf8f9116832867f0540489bf487.svg
+b'/latex-svg/6^{n+1} = 6 times (10k + 6).svg'
+Formula : 6^{n+1} = 60k + 36 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/353cd505f9503da4a4d8662d028f9185.svg
+b'/latex-svg/6^{n+1} = 60k + 36.svg'
+Formula : 6^{n+1} = 60k + 30 + 6 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/17a3a40bbd275695bbce08ee378738c4.svg
+b'/latex-svg/6^{n+1} = 60k + 30 + 6.svg'
+Formula : 6^{n+1} = 10(6k + 3) + 6 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bb7f6cd18b6e8e84cc00d720a70fac71.svg
+b'/latex-svg/6^{n+1} = 10(6k + 3) + 6.svg'
+Formula : k' = 6k+3 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9bed99cbbb8e8d16e53fe41959556202.svg
+b"/latex-svg/k' = 6k+3.svg"
+Formula : k' \in \mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/decf6da8abb6cc353f69c08e636002cb.svg
+b"/latex-svg/k' in mathbb{N}.svg"
+Formula : 6^{n+1} = 10k' + 6 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/53bc812ed4619edf422b061a1fb39a72.svg
+b"/latex-svg/6^{n+1} = 10k' + 6.svg"
+Formula : 6^{n+1} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8a04063b33a930f3a7e3dc2b7162ad4a.svg
+b'/latex-svg/6^{n+1}.svg'
+Formula : P_n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/63cd7b5268504da55b5983d4c098ddb8.svg
+b'/latex-svg/P_n.svg'
+Formula : \forall n \in \mathbb{N}^\ast (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1313223c7c131cc3d3c330d24a907ed7.svg
+b'/latex-svg/forall n in mathbb{N}^ast.svg'
+Formula : n! = \prod^n_{i=1} i = 1 \times 2 \times \ldots \times (n-1) \times n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ac029086e16720cbd83d093c2171f9d8.svg
+b'/latex-svg/n! = prod^n_{i=1} i = 1 times 2 times ldots times (n-1) times n.svg'
+Formula : n! = 1 \times \ldots \times (n-1) \times n! (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b3dbda66b8369bfb5649fc617e71f9e3.svg
+b'/latex-svg/n! = 1 times ldots times (n-1) times n!.svg'
+Formula : n! = n \times (n-1)! \equiv (n-1)! = \frac{n!}{n} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/03a2754e2c2a98a0163c7358309389c4.svg
+b'/latex-svg/n! = n times (n-1)! equiv (n-1)! = frac{n!}{n}.svg'
+Formula : (1-1) ! = \frac{1!}{1} = 0! = 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/edce3f4d0ec3a42eb50eadc54afdc6cf.svg
+b'/latex-svg/(1-1) ! = frac{1!}{1} = 0! = 1.svg'
+Formula : \forall n \in\mathbb{N}^* \quad|\quad \Gamma(n)=(n-1)!=\int_0^{+\infty}t^{n-1}\times e^{-t}dt (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d00cfe7c265489b39967016d100d7eb3.svg
+b'/latex-svg/forall n inmathbb{N}^* quad|quad Gamma(n)=(n-1)!=int_0^{+infty}t^{n-1}times e^{-t}dt.svg'
+Formula : 0! = (1-1)! = \Gamma(1) = \int_0^{+\infty} t^{1-1} e^{-t} dt (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6a76527be9d28b1ee8dc5536f4684ea5.svg
+b'/latex-svg/0! = (1-1)! = Gamma(1) = int_0^{+infty} t^{1-1} e^{-t} dt.svg'
+Formula : \int_0^{+\infty}e^{-t}dt (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/61474491eee414c89e595df3b145a14d.svg
+b'/latex-svg/int_0^{+infty}e^{-t}dt.svg'
+Formula : 0! = (\lim_{t\to\infty} -e^{-t}) - (-e^0) = 0 + 1 = 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8ac2a1cfba02c543ca6472b8944d15a2.svg
+b'/latex-svg/0! = (lim_{ttoinfty} -e^{-t}) - (-e^0) = 0 + 1 = 1.svg'
+Formula : ]0,n] (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/aa50c8b85946dd93cd46c49f3122ea8a.svg
+b'/latex-svg/]0,n].svg'
+Formula : n! = n \times (n-1)! (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6fbedf73dc0f00670820e09126b741e3.svg
+b'/latex-svg/n! = n times (n-1)!.svg'
+Formula : n = 0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ff3d87ac71b65aa1b1db7d1f3df7a1ca.svg
+b'/latex-svg/n = 0.svg'
+Formula : 0! = 0 \times (-1)! (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c0225f47635c70a6037d07bfa3bc0484.svg
+b'/latex-svg/0! = 0 times (-1)!.svg'
+Formula : n = 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ffebe3110a5488a873a06b78d23ff45c.svg
+b'/latex-svg/n = 1.svg'
+Formula : e^{-t} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d490073c16f6a230f3637f85b26f341a.svg
+b'/latex-svg/e^{-t}.svg'
+Formula : -e^{-t} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a462363058cb9ad565f98a8dc4982fca.svg
+b'/latex-svg/-e^{-t}.svg'
+Formula : E=\{0,1\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/92e673b72f284c5938cfc7da86c04bc7.svg
+b'/latex-svg/E={0,1}.svg'
+Formula : \#E (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/db8c6f1a85fac97fb28b7d30b3cc9586.svg
+b'/latex-svg/#E.svg'
+Formula : \{(0,1),(1,0)\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6a68e230d936b7a4c2d117d7ef90e036.svg
+b'/latex-svg/{(0,1),(1,0)}.svg'
+Formula : E=\{0,1,2\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7b00c8b6ce6617bfb0ff19ff579ceb07.svg
+b'/latex-svg/E={0,1,2}.svg'
+Formula : \{(0,1,2),(0,2,1),(1,0,2),(1,2,0),(2,0,1),(2,1,0)\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4208bfbda4fe2e93871469ade5de9cc7.svg
+b'/latex-svg/{(0,1,2),(0,2,1),(1,0,2),(1,2,0),(2,0,1),(2,1,0)}.svg'
+Formula : E = \emptyset (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6cd561f7f076e57948b5230cda8dfde7.svg
+b'/latex-svg/E = emptyset.svg'
+Formula : \{\emptyset\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/30bc087b2506029dca8f432db35d44fa.svg
+b'/latex-svg/{emptyset}.svg'
+Formula : \sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/52eadf54f23d3f62b5a6a82955225095.svg
+b'/latex-svg/sum^n_{k=1} kbinom{n}{k} = n times 2^{n-1}.svg'
+Formula : \sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9eed35cee855cda85364306936fedf0a.svg
+b'/latex-svg/sum^n_{k=1} binom{n}{k}a^{k}b^{n-k}=(a+b)^n.svg'
+Formula : \sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/717234fd8e942b834ce3e0ed9825bb45.svg
+b'/latex-svg/sum^n_{k=1} binom{n}{k}a^{k} = (a+1)^n.svg'
+Formula : \frac{d}{da}(\sum^n_{k=1} \binom{n}{k}a^{k} = (a+1)^n) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9f7f5838782c1c909f20e8df5944b869.svg
+b'/latex-svg/frac{d}{da}(sum^n_{k=1} binom{n}{k}a^{k} = (a+1)^n).svg'
+Formula : \sum^n_{k=1} \binom{n}{k}ka^{k-1} = n(a+1)^{n-1} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/98735c252281ce90712d58f8e9a4a2ac.svg
+b'/latex-svg/sum^n_{k=1} binom{n}{k}ka^{k-1} = n(a+1)^{n-1}.svg'
+Formula : \sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/52eadf54f23d3f62b5a6a82955225095.svg
+b'/latex-svg/sum^n_{k=1} kbinom{n}{k} = n times 2^{n-1}.svg'
+Formula : b = 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/af94f8936976cc7310c80d50888144b4.svg
+b'/latex-svg/b = 1.svg'
+Formula : a (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bedb6065363b5ab3075bb585bd8ac2b3.svg
+b'/latex-svg/a.svg'
+Formula : a = 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/5ca7670dda1fc92a4182518f0dc6c482.svg
+b'/latex-svg/a = 1.svg'
+Formula : \#\left(\bigcup_{i\in \{1 \ldots n \}}A_i \right)=\sum_{I \in({2^{\{1 \dots n\}}\backslash\{\emptyset\})}}(-1)^{\#(I)+1}\#\left(\bigcap_{i \in I }A_i\right) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ebd65b3cd9398d2063dc50936bfadf4c.svg
+b'/latex-svg/#left(bigcup_{iin {1 ldots n }}A_i right)=sum_{I in({2^{{1 dots n}}backslash{emptyset})}}(-1)^{#(I)+1}#left(bigcap_{i in I }A_iright).svg'
+Formula : z=\sqrt{i} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6939cfa3494c380d264675d2d361815e.svg
+b'/latex-svg/z=sqrt{i}.svg'
+Formula : z=i^{\frac{1}{2}} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9748c92ffbf93b1a30c3aa2ca336c776.svg
+b'/latex-svg/z=i^{frac{1}{2}}.svg'
+Formula : e^{i \theta}=cos(\theta)+i sin(\theta) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/98754e9aeda50cef76f35148eb457a97.svg
+b'/latex-svg/e^{i theta}=cos(theta)+i sin(theta).svg'
+Formula : cos(\theta) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ef553b3ee4be984e1de5d316037f144f.svg
+b'/latex-svg/cos(theta).svg'
+Formula : sin(\theta) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/277067c336ee3430e1211c3fc9fa0d73.svg
+b'/latex-svg/sin(theta).svg'
+Formula : \frac{\pi}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a22c900b5e57d02e4a5b7d6c28f9fd23.svg
+b'/latex-svg/frac{pi}{2}.svg'
+Formula : 2 \pi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d1cafb367cecaf20d3976708907c846a.svg
+b'/latex-svg/2 pi.svg'
+Formula : \forall k \in \mathbb{N} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/cc4ed5e725e999d6d8fc2ce898403790.svg
+b'/latex-svg/forall k in mathbb{N}.svg'
+Formula : cos(\frac{\pi}{2}+2k\pi) + i \times sin(\frac{\pi}{2} + 2k\pi) = e^{i \frac{\pi}{2} + 2k\pi} = i (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a5add06521cbaea7a92fe421a7ee3ab7.svg
+b'/latex-svg/cos(frac{pi}{2}+2kpi) + i times sin(frac{pi}{2} + 2kpi) = e^{i frac{pi}{2} + 2kpi} = i.svg'
+Formula : z=i^{\frac{1}{2}} = (e^{i \frac{\pi}{2} + 2k\pi})^\frac{1}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bf6e189cf4ba5a0f46187618381057bc.svg
+b'/latex-svg/z=i^{frac{1}{2}} = (e^{i frac{pi}{2} + 2kpi})^frac{1}{2}.svg'
+Formula : z=(e^{i \frac{\pi}{2} + 2k\pi})^\frac{1}{2}=(e^{\frac{1}{2}(i \pi + 4k\pi)})^\frac{1}{2} = (e^{i \pi + 4k\pi})^\frac{1}{4}) = \sqrt\[4\]{-1} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ed1c0c89d35a075d29fb8b23755659f7.svg
+b'/latex-svg/z=(e^{i frac{pi}{2} + 2kpi})^frac{1}{2}=(e^{frac{1}{2}(i pi + 4kpi)})^frac{1}{2} = (e^{i pi + 4kpi})^frac{1}{4}) = sqrt[4]{-1}.svg'
+Formula : z=e^{i\frac{\pi}{4}+ k\pi} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/5b67e2826e5f5a0c74fbee2960a78715.svg
+b'/latex-svg/z=e^{ifrac{pi}{4}+ kpi}.svg'
+Formula : k\pi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/76ced0e8072ed57a7ff8e42d16b0ae8a.svg
+b'/latex-svg/kpi.svg'
+Formula : z=e^{i\frac{\pi}{4}+ k\pi}=cos(\frac{\pi}{4}+ k\pi)+i sin(\frac{\pi}{4}+ k\pi) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6cb13cc454c1e793b51939eb7ed7f26b.svg
+b'/latex-svg/z=e^{ifrac{pi}{4}+ kpi}=cos(frac{pi}{4}+ kpi)+i sin(frac{pi}{4}+ kpi).svg'
+Formula : \frac{\sqrt{2}}{2}+ i \frac{\sqrt{2}}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/121ca0ca24fb0a443cc8847bd28386ea.svg
+b'/latex-svg/frac{sqrt{2}}{2}+ i frac{sqrt{2}}{2}.svg'
+Formula : -\frac{\sqrt{2}}{2}- i \frac{\sqrt{2}}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/dea412fb5d519a83368c62a2bd78b2cb.svg
+b'/latex-svg/-frac{sqrt{2}}{2}- i frac{sqrt{2}}{2}.svg'
+Formula : \sqrt{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/fed145af3ecf5bbb1c15ce1c45054bfd.svg
+b'/latex-svg/sqrt{2}.svg'
+Formula : \frac{1}{\sqrt{2}}+ i \frac{1}{\sqrt{2}} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/52aae23622e9b0419adb42a0683acc90.svg
+b'/latex-svg/frac{1}{sqrt{2}}+ i frac{1}{sqrt{2}}.svg'
+Formula : -\frac{1}{\sqrt{2}}- i \frac{1}{\sqrt{2}} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/96be285ce893e617fc529a093aedfbc0.svg
+b'/latex-svg/-frac{1}{sqrt{2}}- i frac{1}{sqrt{2}}.svg'
+Formula : n! = \Pi_{k=1}^{n}k = 1 \times 2 \times \ldots \times (n-1) \times (n) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bd54122b84e15c5179ba410d5d167898.svg
+b'/latex-svg/n! = Pi_{k=1}^{n}k = 1 times 2 times ldots times (n-1) times (n).svg'
+Formula : \binom{n}{k} = C^k_n = \frac{n!}{k!(n-k)!} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3ccb5f75a60bb4cf97a147c0f88076b2.svg
+b'/latex-svg/binom{n}{k} = C^k_n = frac{n!}{k!(n-k)!}.svg'
+Formula : \mathcal{P}(E) = \{\varnothing, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\}, \{a,b,c\}\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7a537f9ba0ca74ff0b0e9f413105f5b1.svg
+b'/latex-svg/mathcal{P}(E) = {varnothing, {a}, {b}, {c}, {a, b}, {a, c}, {b, c}, {a,b,c}}.svg'
+Formula : \frac{n!}{k!(n-k)!} = \frac{52!}{3!(52-3)!} = \frac{52!}{6(49)!} = \frac{52\times 51 \times 50}{6}= 22100 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/0607d2f3e9c6f4199adc5cba349ab538.svg
+b'/latex-svg/frac{n!}{k!(n-k)!} = frac{52!}{3!(52-3)!} = frac{52!}{6(49)!} = frac{52times 51 times 50}{6}= 22100.svg'
+Formula : \frac{1}{22100} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e21810dccf89a830485894e975d2ea20.svg
+b'/latex-svg/frac{1}{22100}.svg'
+Formula : 2! = 1 \times 2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/0f13e2867f43f08a89431364c61ec42d.svg
+b'/latex-svg/2! = 1 times 2.svg'
+Formula : 5! = 1 \times 2 \times 3 \times 4 \times 5 = 120 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/255cea2d292c2cfe4d679176ec9ae7af.svg
+b'/latex-svg/5! = 1 times 2 times 3 times 4 times 5 = 120.svg'
+Formula : \binom{52}{3} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/0e13b77d10c0a6d6dabe6bc1e20210fd.svg
+b'/latex-svg/binom{52}{3}.svg'
+Formula : \sum_{k=0}^n {n \choose k}= 2^n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/995ed6ddccf7fd3414b5932fa29ea181.svg
+b'/latex-svg/sum_{k=0}^n {n choose k}= 2^n.svg'
+Formula : \sum_{k=0}^n {n \choose k} x^{k} y^{n-k}=(x+y)^n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8b10b1838ac96b320998e8c8e40c55cf.svg
+b'/latex-svg/sum_{k=0}^n {n choose k} x^{k} y^{n-k}=(x+y)^n.svg'
+Formula : \sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ec5d0d9e22d7b9b45c86e2d505a4ae6b.svg
+b'/latex-svg/sum_{k=0}^n {n choose k } 1^k1^{n-k}=(1+1)^n.svg'
+Formula : \sum_{k=0}^n {n \choose k}= 2^n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/995ed6ddccf7fd3414b5932fa29ea181.svg
+b'/latex-svg/sum_{k=0}^n {n choose k}= 2^n.svg'
+Formula : \#\mathcal{P}(E)=2^{\#E} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1dfc425e047f71657f9e1a1119b30e69.svg
+b'/latex-svg/#mathcal{P}(E)=2^{#E}.svg'
+Formula : x=1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/272516334f220ae4ba13c8f77d438f7e.svg
+b'/latex-svg/x=1.svg'
+Formula : y=1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/56e3e785741a7a4d1c7f5faac0581ff1.svg
+b'/latex-svg/y=1.svg'
+Formula : \mathcal{P}(E) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2a35ecfa6acc6d41909674ad57af3308.svg
+b'/latex-svg/mathcal{P}(E).svg'
+Formula : E=\{a,b,c\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/da54ec3aa2d74cc7635086b7c67328d9.svg
+b'/latex-svg/E={a,b,c}.svg'
+Formula : n = \#E = 3 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ae9a3c84edd4c7cddabfec36ca0c95c7.svg
+b'/latex-svg/n = #E = 3.svg'
+Formula : \mathcal{P}(E)=\{\emptyset,\{a\},\{b\},\{c\},\{a,b\},\{a,c\},\{b,c\},\{a,b,c\}\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/23d716eac55caf8e9e77eef0b4f29370.svg
+b'/latex-svg/mathcal{P}(E)={emptyset,{a},{b},{c},{a,b},{a,c},{b,c},{a,b,c}}.svg'
+Formula :  n \choose k (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/246c5e646b48bc44c53f7bd2a9c7c21f.svg
+b'/latex-svg/ n choose k.svg'
+Formula : k (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3e7dbd29e87f8a5197e29dee72fa495b.svg
+b'/latex-svg/k.svg'
+Formula :  \sum_{k=0}^n {n \choose k} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/42163725d4d8f87a2d1d4400fe594acd.svg
+b'/latex-svg/ sum_{k=0}^n {n choose k}.svg'
+Formula : \int cos(x) x^2 dx (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a739e35658a9768ff4b4ece227866e81.svg
+b'/latex-svg/int cos(x) x^2 dx.svg'
+Formula : \int cos(x) x^2 dx = + (x^2 \times sin(x)) - (2x \times -cos(x)) + (2 \times -sin(x)) - (\int 0 \times -sin(x) dx) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/75916c082434962f2c64ee0d5170757c.svg
+b'/latex-svg/int cos(x) x^2 dx = + (x^2 times sin(x)) - (2x times -cos(x)) + (2 times -sin(x)) - (int 0 times -sin(x) dx).svg'
+Formula : \int cos(x) x^2 dx = 2 \times cos(x) + (-2 + x^2) sin(x) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3cc0e36a853d5425619c464d258425dd.svg
+b'/latex-svg/int cos(x) x^2 dx = 2 times cos(x) + (-2 + x^2) sin(x).svg'
+Formula : \int cos(u) e^u du (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/dc54ed7c30a38c3d0776f47f17a28f26.svg
+b'/latex-svg/int cos(u) e^u du.svg'
+Formula : \int cos (u) e^u = + (e^u \times sin(u)) - (e^u \times -cos(u)) + (\int e^u \times -cos(u)) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ef8adc80ed01da8d6c38290bd1796a38.svg
+b'/latex-svg/int cos (u) e^u = + (e^u times sin(u)) - (e^u times -cos(u)) + (int e^u times -cos(u)).svg'
+Formula : 2 \int cos u e^u = + (e^u \times sin(u)) - (e^u \times -cos(u)) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ea119d277e9ad9a0e23c18d6af90c3c9.svg
+b'/latex-svg/2 int cos u e^u = + (e^u times sin(u)) - (e^u times -cos(u)).svg'
+Formula : \int cos u e^u = \frac{1}{2} \times e^u \times (sin(u)-cos(u)) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e59cfdf62979eff6970064f3e2b01380.svg
+b'/latex-svg/int cos u e^u = frac{1}{2} times e^u times (sin(u)-cos(u)).svg'
+Formula : x^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d910d1d334846ceca94ff8e0e40c7657.svg
+b'/latex-svg/x^2.svg'
+Formula : cos(x) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/fa0c0d1861751954794836a3d315be3e.svg
+b'/latex-svg/cos(x).svg'
+Formula : x^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d910d1d334846ceca94ff8e0e40c7657.svg
+b'/latex-svg/x^2.svg'
+Formula : cos(x) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/fa0c0d1861751954794836a3d315be3e.svg
+b'/latex-svg/cos(x).svg'
+Formula : 2x (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b5862ef53e6e5296861e9b045ab927cb.svg
+b'/latex-svg/2x.svg'
+Formula : sin(x) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1282fc943d364f8e05bd1636897ab115.svg
+b'/latex-svg/sin(x).svg'
+Formula : 2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4eecca6c030da1812305339e859770ed.svg
+b'/latex-svg/2.svg'
+Formula : -cos(x) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/5f2a7f351d01085c69330a401d87f9ce.svg
+b'/latex-svg/-cos(x).svg'
+Formula : 0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b2dc7ccd9337b7377d3b167337a681a8.svg
+b'/latex-svg/0.svg'
+Formula : -sin(x) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/61a04d940e71665bf170c9e59586acc4.svg
+b'/latex-svg/-sin(x).svg'
+Formula : e^u (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ada9b7856783322d3fd3ca360bffdb96.svg
+b'/latex-svg/e^u.svg'
+Formula : cos(u) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6b5d9759b3ff7196472ba534876821b7.svg
+b'/latex-svg/cos(u).svg'
+Formula : e^u (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ada9b7856783322d3fd3ca360bffdb96.svg
+b'/latex-svg/e^u.svg'
+Formula : sin(u) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/10d4043dcc1546bf529d3d4547fd3912.svg
+b'/latex-svg/sin(u).svg'
+Formula : e^u (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ada9b7856783322d3fd3ca360bffdb96.svg
+b'/latex-svg/e^u.svg'
+Formula : -cos(u) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c96072be72ac0a775c1d94328a21e1f2.svg
+b'/latex-svg/-cos(u).svg'
+Formula : cos(u) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6b5d9759b3ff7196472ba534876821b7.svg
+b'/latex-svg/cos(u).svg'
+Formula : A = \begin{bmatrix} 7 & 2 \\ -4 & 1 \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/abe809a8d8113849e998bbfcb3b3e0f1.svg
+b'/latex-svg/A = begin{bmatrix} 7 &amp; 2  -4 &amp; 1 end{bmatrix}.svg'
+Formula : \chi_A(\lambda) = \det \begin{bmatrix} \lambda - 7 & -2 \\ 4 & \lambda -1 \end{bmatrix} = (\lambda - 7)(\lambda - 1) + 8 = (\lambda - 3)(\lambda - 5) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2c5edbd545bf624c032b23d4fca6c348.svg
+b'/latex-svg/chi_A(lambda) = det begin{bmatrix} lambda - 7 &amp; -2  4 &amp; lambda -1 end{bmatrix} = (lambda - 7)(lambda - 1) + 8 = (lambda - 3)(lambda - 5).svg'
+Formula : Sp(A)=\{3,5\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/640e0512b42138743a5e379bf52b60e5.svg
+b'/latex-svg/Sp(A)={3,5}.svg'
+Formula : \ker (3I - A) = \ker \begin{bmatrix} -4 & -2 \\ 4 & 2 \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ba2a894df733dc2afb1a03206e6ad0b5.svg
+b'/latex-svg/ker (3I - A) = ker begin{bmatrix} -4 &amp; -2  4 &amp; 2 end{bmatrix}.svg'
+Formula : \begin{bmatrix} -4 & -2 \\ 4 & 2 \end{bmatrix}\begin{bmatrix} X \\ Y \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \Rightarrow 2X+Y = 0 \Rightarrow Y=-2X \Rightarrow \begin{bmatrix} X \\ Y \end{bmatrix} = X \begin{bmatrix} 1 \\ -2 \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e1af2dda305b7565d17f8b089508aec5.svg
+b'/latex-svg/begin{bmatrix} -4 &amp; -2  4 &amp; 2 end{bmatrix}begin{bmatrix} X  Y end{bmatrix} = begin{bmatrix} 0  0 end{bmatrix} Rightarrow 2X+Y = 0 Rightarrow Y=-2X Rightarrow begin{bmatrix} X  Y end{bmatrix} = X begin{bmatrix} 1  -2 end{bmatrix}.svg'
+Formula : \ker(3I - A) = Vect\{\begin{bmatrix} 1 \\ -2 \end{bmatrix}\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d5e6e7720223d66c2510da3c93837ee1.svg
+b'/latex-svg/ker(3I - A) = Vect{begin{bmatrix} 1  -2 end{bmatrix}}.svg'
+Formula : \mathbb{K} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/adde9521e8dc822abee1a4197d63aa33.svg
+b'/latex-svg/mathbb{K}.svg'
+Formula : f (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/47b5d84881a210e56fe0ce0ba126ed97.svg
+b'/latex-svg/f.svg'
+Formula : \lambda (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/fb7b6d25ddd20b735f857442904bc004.svg
+b'/latex-svg/lambda.svg'
+Formula : f (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/47b5d84881a210e56fe0ce0ba126ed97.svg
+b'/latex-svg/f.svg'
+Formula : f(x)=\lambda x (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4bcf172b89f51077df5e58572d98635a.svg
+b'/latex-svg/f(x)=lambda x.svg'
+Formula : \chi_A(\lambda) = \det(\lambda I_{dim A} - A) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8e3f80f58c4486400f6b2950f4ecc5f6.svg
+b'/latex-svg/chi_A(lambda) = det(lambda I_{dim A} - A).svg'
+Formula : \ker \chi_A(\lambda) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bfb0eb559b6b1ee7a1340eda429db873.svg
+b'/latex-svg/ker chi_A(lambda).svg'
+Formula : (\lambda - 3)(\lambda - 5) = 0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/86161469a8a4ba36c55c38014f3f73a2.svg
+b'/latex-svg/(lambda - 3)(lambda - 5) = 0.svg'
+Formula : \lambda_{1,2}=\{3,5\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d455edb31ad4a500527a85eedb2ee425.svg
+b'/latex-svg/lambda_{1,2}={3,5}.svg'
+Formula : \ker(\lambda_{1,2} I - A) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d480443be400820ef7100194dd36ded7.svg
+b'/latex-svg/ker(lambda_{1,2} I - A).svg'
+Formula : \lambda = 3 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d49520ac3c53b22b629869d715da5778.svg
+b'/latex-svg/lambda = 3.svg'
+Formula : x = \begin{bmatrix} X \\ Y \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/cfd4fc373b2205107799c38c58ec2aef.svg
+b'/latex-svg/x = begin{bmatrix} X  Y end{bmatrix}.svg'
+Formula : \lambda = 3 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d49520ac3c53b22b629869d715da5778.svg
+b'/latex-svg/lambda = 3.svg'
+Formula : \begin{bmatrix} 1 \\ -2 \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d93032bb071476e9e082d6e1231e7dd2.svg
+b'/latex-svg/begin{bmatrix} 1  -2 end{bmatrix}.svg'
+Formula : \lambda=5 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2a084d3972d6ad94eb11084dd8c6c445.svg
+b'/latex-svg/lambda=5.svg'
+Formula : \begin{bmatrix} 1 \\ -1 \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/386cc4891b102e87659a1a8c3f3b3220.svg
+b'/latex-svg/begin{bmatrix} 1  -1 end{bmatrix}.svg'
+Formula : \int x^b dx = \frac{x^{b+1}}{b+1} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/835609f048d650a29c416fb5408b4a6b.svg
+b'/latex-svg/int x^b dx = frac{x^{b+1}}{b+1}.svg'
+Formula : \int x^i dx = \frac{x^{i+1}}{i+1} + C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/14519d4479552e8caf4d9aeda16a022e.svg
+b'/latex-svg/int x^i dx = frac{x^{i+1}}{i+1} + C.svg'
+Formula : \int x^i dx = \int e^{i \ln{x}} dx (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/15acb4f7ddcdf5529c4ee56c557aef53.svg
+b'/latex-svg/int x^i dx = int e^{i ln{x}} dx.svg'
+Formula : e^{i\theta}=\cos{\theta}+ i \times \sin{\theta} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9b82c11ae3f130e914fd7c689795b835.svg
+b'/latex-svg/e^{itheta}=cos{theta}+ i times sin{theta}.svg'
+Formula : \int e^{i \ln{x}} = \int \cos{\ln{x}}+ i \times \sin{\ln{x}} dx = \int \cos{\ln{x}} dx+ i \times \int\sin{\ln{x}} dx (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7da1183d97df0007720440b448844212.svg
+b'/latex-svg/int e^{i ln{x}} = int cos{ln{x}}+ i times sin{ln{x}} dx = int cos{ln{x}} dx+ i times intsin{ln{x}} dx.svg'
+Formula : \int \cos{\ln{x}} dx = \int \cos{u}e^u du (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/eb9d5b90ba53914da10079094a8867bb.svg
+b'/latex-svg/int cos{ln{x}} dx = int cos{u}e^u du.svg'
+Formula : \int \sin{\ln{x}} dx = \int \sin{u}e^u du (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/cb881fcc0f9b287644dc2990684444ef.svg
+b'/latex-svg/int sin{ln{x}} dx = int sin{u}e^u du.svg'
+Formula : \int \cos{u}e^u du = e^u \cos{u} + e^u \sin{u} - \int \cos{u}e^u du + C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9c289f6519c0eabac11bf1f75157eb11.svg
+b'/latex-svg/int cos{u}e^u du = e^u cos{u} + e^u sin{u} - int cos{u}e^u du + C.svg'
+Formula : 2\int \cos{u}e^u du = e^u \cos{u} + e^u \sin{u} + C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c7236749fd747ea2dc0badff7798f9cf.svg
+b'/latex-svg/2int cos{u}e^u du = e^u cos{u} + e^u sin{u} + C.svg'
+Formula : \int \cos{u}e^u du = \frac{1}{2} \times (e^u \cos{u} + e^u \sin{u}) + C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/59c6066735111d3f613f72df5079f81a.svg
+b'/latex-svg/int cos{u}e^u du = frac{1}{2} times (e^u cos{u} + e^u sin{u}) + C.svg'
+Formula : \int \cos{u}e^u du = \frac{e^u}{2} \times ( \cos{u}+ \sin{u}) + C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/dc7c64449554bbff1339b8cacec87126.svg
+b'/latex-svg/int cos{u}e^u du = frac{e^u}{2} times ( cos{u}+ sin{u}) + C.svg'
+Formula : \int \sin{u}e^u du = e^u \sin{u} - e^u \cos{u} - \int \sin{u}e^u du + C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e0e56805dade9c6d4d62676934a48dc9.svg
+b'/latex-svg/int sin{u}e^u du = e^u sin{u} - e^u cos{u} - int sin{u}e^u du + C.svg'
+Formula : 2\int \sin{u}e^u du = e^u \sin{u} - e^u \cos{u} + C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7e1094e29f09cd87b376441b04b4cd64.svg
+b'/latex-svg/2int sin{u}e^u du = e^u sin{u} - e^u cos{u} + C.svg'
+Formula : \int \sin{u}e^u du = \frac{1}{2} \times (e^u \sin{u} - e^u \cos{u}) + C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/148153495f5e4fe63ed6d18b57335124.svg
+b'/latex-svg/int sin{u}e^u du = frac{1}{2} times (e^u sin{u} - e^u cos{u}) + C.svg'
+Formula : \int \sin{u}e^u du = \frac{e^u}{2} \times (\sin{u} - \cos{u}) + C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ff653f1d2a9b004a20a47daa09c2af89.svg
+b'/latex-svg/int sin{u}e^u du = frac{e^u}{2} times (sin{u} - cos{u}) + C.svg'
+Formula : \int \cos{u}e^u du + i \times \int \sin{u}e^u du = \frac{e^u}{2}(\cos{u}+\sin{u}+i\sin{u}-i\cos{u}) + C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1f7b61034d8bb5faf7635e1eb3768cee.svg
+b'/latex-svg/int cos{u}e^u du + i times int sin{u}e^u du = frac{e^u}{2}(cos{u}+sin{u}+isin{u}-icos{u}) + C.svg'
+Formula : =\frac{x}{2} \times (\cos{ln{x}}+\sin{ln{x}}+i\sin{ln{x}}-i\cos{ln{x}})+C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6362ed1a44de92a8e11c3473e8dcbbbc.svg
+b'/latex-svg/=frac{x}{2} times (cos{ln{x}}+sin{ln{x}}+isin{ln{x}}-icos{ln{x}})+C.svg'
+Formula : \cos{x} = \frac{e^{i\theta}+e^{-i\theta}}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a8ee62c32efe6c501c2d0961e77f3d66.svg
+b'/latex-svg/cos{x} = frac{e^{itheta}+e^{-itheta}}{2}.svg'
+Formula : \sin{x} = \frac{e^{i\theta}-e^{-i\theta}}{2i} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b8e24d80171bd729abba1f81202424b4.svg
+b'/latex-svg/sin{x} = frac{e^{itheta}-e^{-itheta}}{2i}.svg'
+Formula : =\frac{x}{2} \times (\cos{ln{x}}+\sin{ln{x}}+i\sin{ln{x}}-i\cos{ln{x}})+C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6362ed1a44de92a8e11c3473e8dcbbbc.svg
+b'/latex-svg/=frac{x}{2} times (cos{ln{x}}+sin{ln{x}}+isin{ln{x}}-icos{ln{x}})+C.svg'
+Formula : =\frac{x}{2} \times(\frac{e^{i ln{x}}+e^{-i ln{x}}}{2} - i \times \frac{e^{i ln{x}}+e^{-i ln{x}}}{2} + \frac{e^{i ln{x}}-e^{-i ln{x}}}{2i} + i \times \frac{e^{i ln{x}}-e^{-i ln{x}}}{2i}) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/dfd93572008b0a5b69ec205cd8b05148.svg
+b'/latex-svg/=frac{x}{2} times(frac{e^{i ln{x}}+e^{-i ln{x}}}{2} - i times frac{e^{i ln{x}}+e^{-i ln{x}}}{2} + frac{e^{i ln{x}}-e^{-i ln{x}}}{2i} + i times frac{e^{i ln{x}}-e^{-i ln{x}}}{2i}).svg'
+Formula : =\frac{x}{4} \times(x^i + x^{-i} -ix^i -ix^-i+x^i-x^{-i}+\frac{x^i-x^{-i}}{i}) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/cf2e2c44c0a97b228dcad9f88a0a61de.svg
+b'/latex-svg/=frac{x}{4} times(x^i + x^{-i} -ix^i -ix^-i+x^i-x^{-i}+frac{x^i-x^{-i}}{i}).svg'
+Formula : =\frac{x}{4} \times(2x^i -ix^i - ix^{-i}-ix^i+ix^{-i}) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b20d5b94c22b8ae8878c90a847eab273.svg
+b'/latex-svg/=frac{x}{4} times(2x^i -ix^i - ix^{-i}-ix^i+ix^{-i}).svg'
+Formula : =\frac{x}{4} \times(2x^i-2ix^{i}) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1983fc6cb06cc3264a11014e96997fb0.svg
+b'/latex-svg/=frac{x}{4} times(2x^i-2ix^{i}).svg'
+Formula : =\frac{x(x^i-ix^{i})}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6548415327912aca5f4a04d5c557213e.svg
+b'/latex-svg/=frac{x(x^i-ix^{i})}{2}.svg'
+Formula : =\frac{x^{i+1}-ix^{1+i}}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/af337a137d6c52a5bd7ef64686359081.svg
+b'/latex-svg/=frac{x^{i+1}-ix^{1+i}}{2}.svg'
+Formula : =\frac{x^{i+1}(1-i)}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a4b08b382842706185c97694817c4991.svg
+b'/latex-svg/=frac{x^{i+1}(1-i)}{2}.svg'
+Formula : \int x^i dx = \frac{x^{i+1}}{i+1} + C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/14519d4479552e8caf4d9aeda16a022e.svg
+b'/latex-svg/int x^i dx = frac{x^{i+1}}{i+1} + C.svg'
+Formula : x^i (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2374fb1264402b6b3d3146358fe0ac56.svg
+b'/latex-svg/x^i.svg'
+Formula : x^b (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ae9a6b0314c907a551ac92f05f576048.svg
+b'/latex-svg/x^b.svg'
+Formula : \forall b \in \mathbb{C} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/28ececf823f799ed227f43a78e2ffef2.svg
+b'/latex-svg/forall b in mathbb{C}.svg'
+Formula : u = ln(x) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d374b156454ade5346db25c993caa21f.svg
+b'/latex-svg/u = ln(x).svg'
+Formula : du = \frac{1}{x} dx (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1ce9777d0d899a5d172ee4b8a800470f.svg
+b'/latex-svg/du = frac{1}{x} dx.svg'
+Formula : dx = x du (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9296da2113115ae3da6d147e7e1538ab.svg
+b'/latex-svg/dx = x du.svg'
+Formula : dx=e^u du (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b317928de242a0e3baaeac819dc87fde.svg
+b'/latex-svg/dx=e^u du.svg'
+Formula : \lim\limits_{\substack{n \to \infty}}(1+\frac{1}{n})^n = e (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7fefa8f17dda342a489449257046f507.svg
+b'/latex-svg/limlimits_{substack{n to infty}}(1+frac{1}{n})^n = e.svg'
+Formula : \mathbb{R} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6ad957c717aad6aac62f64b3c35035bd.svg
+b'/latex-svg/mathbb{R}.svg'
+Formula : a = b (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/41123ec6b1be9155c9e08032295dfe7d.svg
+b'/latex-svg/a = b.svg'
+Formula : aa = ba (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d890365776e5d33ef069d8cda33b7ae8.svg
+b'/latex-svg/aa = ba.svg'
+Formula : a^2 - b^2 = ba - b^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/046d7bfde1d9f4dc22ae7c4e9d96cb81.svg
+b'/latex-svg/a^2 - b^2 = ba - b^2.svg'
+Formula : b^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ce848419fb8a5a650c7bf5b161bce8ca.svg
+b'/latex-svg/b^2.svg'
+Formula : (a+b)(a-b) = b(a-b) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/f1d4bea4b84995ce7a096f5f6fbef30f.svg
+b'/latex-svg/(a+b)(a-b) = b(a-b).svg'
+Formula : (a+b)(a-b) = a^2 - b^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d45e03df135da0d69c2325049ec9dd08.svg
+b'/latex-svg/(a+b)(a-b) = a^2 - b^2.svg'
+Formula : a+b = b (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6b47525c695766be0f608b6befce69d2.svg
+b'/latex-svg/a+b = b.svg'
+Formula : (a-b) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a4d90bb68ae059ce748b2b0a8297619b.svg
+b'/latex-svg/(a-b).svg'
+Formula : b+b = b (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a04df46ba0ef32ace0ff433c0691f268.svg
+b'/latex-svg/b+b = b.svg'
+Formula : a (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bedb6065363b5ab3075bb585bd8ac2b3.svg
+b'/latex-svg/a.svg'
+Formula : b (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bda176698d9f1ded9f00f5f14f60a481.svg
+b'/latex-svg/b.svg'
+Formula : 2b = b (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c65b4feae92d6f4d85ea361311936de6.svg
+b'/latex-svg/2b = b.svg'
+Formula : 2 = 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/eb4cda48cef9ffdd4736fffafcca82d7.svg
+b'/latex-svg/2 = 1.svg'
+Formula : a^2+b^2 = c^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2771b15793447f3a65ad3d4aa5128be6.svg
+b'/latex-svg/a^2+b^2 = c^2.svg'
+Formula : a^2 + b^2 = 9 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/5fc16582e84ff877bdba7d16552884bf.svg
+b'/latex-svg/a^2 + b^2 = 9.svg'
+Formula : \sqrt{a^2+b^2}=3 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b252b9d14691f5f10484facd036b5ff3.svg
+b'/latex-svg/sqrt{a^2+b^2}=3.svg'
+Formula : a = 0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ea27301c672ae098148691d9bccc00b1.svg
+b'/latex-svg/a = 0.svg'
+Formula : \sqrt{0^2+b^2}=3 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c8be28b3508b5b440cf81766655d3f93.svg
+b'/latex-svg/sqrt{0^2+b^2}=3.svg'
+Formula : \sqrt{b^2}=3 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/0cf349bd96781fea540ca9875cea98fc.svg
+b'/latex-svg/sqrt{b^2}=3.svg'
+Formula : b=3 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/258d3b242bcb957295d662f125a92ebc.svg
+b'/latex-svg/b=3.svg'
+Formula : \frac{x+1}{x^2-1} = 3 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e539042d80cfd88d9b7f5d4cbc36b3ce.svg
+b'/latex-svg/frac{x+1}{x^2-1} = 3.svg'
+Formula : x+1 = 3 \times (x^2 - 1) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b51581107af51c8d31683043ba19e149.svg
+b'/latex-svg/x+1 = 3 times (x^2 - 1).svg'
+Formula : 3x^2-x-4 = 0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9026bce404eb196867c9d27e56240e19.svg
+b'/latex-svg/3x^2-x-4 = 0.svg'
+Formula : x_{1,2} = \frac{1\pm\sqrt{49}}{6} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e97eafb160ad0a5e004a3cea297b5736.svg
+b'/latex-svg/x_{1,2} = frac{1pmsqrt{49}}{6}.svg'
+Formula : x_{1,2}=\{-1,\frac{4}{3}\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a07b852ef9525009017516ba8c4b4998.svg
+b'/latex-svg/x_{1,2}={-1,frac{4}{3}}.svg'
+Formula : \int x dx = \frac{x^2}{2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/09c26adbdb9c37566cf1ceee336e82dd.svg
+b'/latex-svg/int x dx = frac{x^2}{2}.svg'
+Formula : \lim\limits_{\substack{n \to \infty}}(1+\frac{1}{n})^n (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/27027051f3fbdd53b218712a4aa7adbc.svg
+b'/latex-svg/limlimits_{substack{n to infty}}(1+frac{1}{n})^n.svg'
+Formula : \lim\limits_{\substack{n \to \infty}} (1 + \frac{1}{n}) = 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2aafe69bdda630897162c6d683344bcc.svg
+b'/latex-svg/limlimits_{substack{n to infty}} (1 + frac{1}{n}) = 1.svg'
+Formula : \lim\limits_{\substack{n \to \infty}} n = \infty (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/081b19573673ada17f59397284dc942c.svg
+b'/latex-svg/limlimits_{substack{n to infty}} n = infty.svg'
+Formula : \lim\limits_{\substack{n \to \infty}}(1+\frac{1}{n})^n = 1^\infty = 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/0ec15346c88b87eb7f1345fe79e7ad3f.svg
+b'/latex-svg/limlimits_{substack{n to infty}}(1+frac{1}{n})^n = 1^infty = 1.svg'
+Formula : a=b (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2daa84840d6c93917967dbf41e2cff34.svg
+b'/latex-svg/a=b.svg'
+Formula : a-b=0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7d792f9570720bed9dd0af17f3ea4669.svg
+b'/latex-svg/a-b=0.svg'
+Formula : \sqrt{9} = 3 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/669fc4e80c387c947ecbee76b27266f7.svg
+b'/latex-svg/sqrt{9} = 3.svg'
+Formula : \sqrt{9}=-3 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/40847dfd3b5a800be1a43817979210ed.svg
+b'/latex-svg/sqrt{9}=-3.svg'
+Formula : b=\{3,-3\} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1686baa481df9d4b0d2e7c789137f6d9.svg
+b'/latex-svg/b={3,-3}.svg'
+Formula : (-1)^2-1=0 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/811fb1a9a1c39244cb14a23989a32810.svg
+b'/latex-svg/(-1)^2-1=0.svg'
+Formula : 1^\infty (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1cdd1195ce3aeb861dd22b6a68716dfe.svg
+b'/latex-svg/1^infty.svg'
+Formula : 1^\infty\neq 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/999557f1d852e0872232a5eb96443665.svg
+b'/latex-svg/1^inftyneq 1.svg'
+Formula : \forall i,j \in \dim{A}, A_{i,j} = A_{j,i} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4eb5df5196b4252566204a752cf1f4fe.svg
+b'/latex-svg/forall i,j in dim{A}, A_{i,j} = A_{j,i}.svg'
+Formula : \begin{bmatrix} -4 & -2 \\ -2 & 13 \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/0b8361289fbb9f6fea50bf6c23ac1b72.svg
+b'/latex-svg/begin{bmatrix} -4 &amp; -2  -2 &amp; 13 end{bmatrix}.svg'
+Formula : L = \begin{bmatrix} L_{1,1} & 0 & 0 \\  L_{2,1} & L_{2,2} & 0 \\  L_{3,1} & L_{3,2} & L_{3,3}\\  \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/77c00597b6841c5c64e7d9c2aaab45b2.svg
+b'/latex-svg/L = begin{bmatrix} L_{1,1} &amp; 0 &amp; 0   L_{2,1} &amp; L_{2,2} &amp; 0   L_{3,1} &amp; L_{3,2} &amp; L_{3,3}  end{bmatrix}.svg'
+Formula : A = \begin{bmatrix} L_{1,1} & 0 & 0 \\ L_{2,1} & L_{2,2} & 0 \\ L_{3,1} & L_{3,2} & L_{3,3} \end{bmatrix}\begin{bmatrix} L_{1,1} & L_{2,1} & L_{3,1} \\ 0 & L_{2,2} & L_{3,2} \\ 0 & 0 & L_{3,3} \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/fcf4c321fbd5f6766bc82bcafeeda5f9.svg
+b'/latex-svg/A = begin{bmatrix} L_{1,1} &amp; 0 &amp; 0  L_{2,1} &amp; L_{2,2} &amp; 0  L_{3,1} &amp; L_{3,2} &amp; L_{3,3} end{bmatrix}begin{bmatrix} L_{1,1} &amp; L_{2,1} &amp; L_{3,1}  0 &amp; L_{2,2} &amp; L_{3,2}  0 &amp; 0 &amp; L_{3,3} end{bmatrix}.svg'
+Formula : A = \begin{bmatrix} L_{1,1}^2 & * & * \\ L_{2,1}L_{1,1} & L_{2,1}^2 + L_{2,2}^2& * \\ L_{3,1}L_{1,1} & L_{3,1}L_{2,1}+L_{3,2}L_{2,2} & L_{3,1}^2 + L_{3,2}^2+L_{3,3}^2 \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/96c9dc81ee1dea7be6f826576b28a1bf.svg
+b'/latex-svg/A = begin{bmatrix} L_{1,1}^2 &amp; * &amp; *  L_{2,1}L_{1,1} &amp; L_{2,1}^2 + L_{2,2}^2&amp; *  L_{3,1}L_{1,1} &amp; L_{3,1}L_{2,1}+L_{3,2}L_{2,2} &amp; L_{3,1}^2 + L_{3,2}^2+L_{3,3}^2 end{bmatrix}.svg'
+Formula : A = L^tL= \begin{bmatrix} L_{1,1}^2 & L_{1,1}L_{2,1} \\ L_{2,1}L_{1,1} & L_{2,1}^2 + L_{2,2}^2 \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4fbeffbee8a02d6aaac019077d4b1ace.svg
+b'/latex-svg/A = L^tL= begin{bmatrix} L_{1,1}^2 &amp; L_{1,1}L_{2,1}  L_{2,1}L_{1,1} &amp; L_{2,1}^2 + L_{2,2}^2 end{bmatrix}.svg'
+Formula : A=L^tL=\begin{pmatrix}1 & 2\\ 2 & 7 \end{pmatrix} = \begin{bmatrix}1 & 0\\ 2 & \sqrt{3}\end{bmatrix}\begin{bmatrix}1 & 2\\ 0 & \sqrt{3} \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/83a1986ab8e8178d51b5ff6e3106737d.svg
+b'/latex-svg/A=L^tL=begin{pmatrix}1 &amp; 2 2 &amp; 7 end{pmatrix} = begin{bmatrix}1 &amp; 0 2 &amp; sqrt{3}end{bmatrix}begin{bmatrix}1 &amp; 2 0 &amp; sqrt{3} end{bmatrix}.svg'
+Formula : \det{A}=\det{L^tL}=\det{L}\times\det{^tL}=\det{L}^2=(\prod_{i=1}^{dim L}L_{i,i})^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9a8c680ad8d104dd7c0425be8f2ec011.svg
+b'/latex-svg/det{A}=det{L^tL}=det{L}timesdet{^tL}=det{L}^2=(prod_{i=1}^{dim L}L_{i,i})^2.svg'
+Formula : A = L^tL (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bab75ed9838d052dd600a5fdca70e999.svg
+b'/latex-svg/A = L^tL.svg'
+Formula : L = ^tL (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/f7247bc0d0c47d93320870a46f345ea7.svg
+b'/latex-svg/L = ^tL.svg'
+Formula : A = L^tL (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bab75ed9838d052dd600a5fdca70e999.svg
+b'/latex-svg/A = L^tL.svg'
+Formula : A = L^tL (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bab75ed9838d052dd600a5fdca70e999.svg
+b'/latex-svg/A = L^tL.svg'
+Formula : A = \begin{bmatrix} 1 & 2 \\ 2 & 7 \end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3070bc8cf01ceff57a564ecd0e737d5c.svg
+b'/latex-svg/A = begin{bmatrix} 1 &amp; 2  2 &amp; 7 end{bmatrix}.svg'
+Formula : 1 = L_{1,1}^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b558bd37db4fafae579911efd5dea369.svg
+b'/latex-svg/1 = L_{1,1}^2.svg'
+Formula : 2 = L_{1,1}L_{2,1} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8eb6212df78d85eeb885aa2c2317e0cc.svg
+b'/latex-svg/2 = L_{1,1}L_{2,1}.svg'
+Formula : 2 = L_{1,1}L_{2,1} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8eb6212df78d85eeb885aa2c2317e0cc.svg
+b'/latex-svg/2 = L_{1,1}L_{2,1}.svg'
+Formula : 7 = L_{2,1}^2 + L_{2,2}^2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/bbe637b7c9ad59a47d9547051591b764.svg
+b'/latex-svg/7 = L_{2,1}^2 + L_{2,2}^2.svg'
+Formula : L_{1,1}=1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/aebfafe5a6d944bf510cf8808b30a599.svg
+b'/latex-svg/L_{1,1}=1.svg'
+Formula : L_{2,1}=2 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/563275ab81f6665a9733ded458694dc0.svg
+b'/latex-svg/L_{2,1}=2.svg'
+Formula : L_{2,2}=\sqrt{3} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1259968751c12d0dd555de17ed31fa2a.svg
+b'/latex-svg/L_{2,2}=sqrt{3}.svg'
+Formula : \sum (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/83a139b34db828997c9b05e300a92f06.svg
+b'/latex-svg/sum.svg'
+Formula : Ax=B (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3e597c3f4f7b991909741269c456655c.svg
+b'/latex-svg/Ax=B.svg'
+Formula : x=A^{-1}B (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/838514cb9c79432613a5457e9aa2d063.svg
+b'/latex-svg/x=A^{-1}B.svg'
+Formula : ABC+\overline{A}+\overline{C} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/917c3ca560086c6bb1e64e596336d689.svg
+b'/latex-svg/ABC+overline{A}+overline{C}.svg'
+Formula : \overline{A}B+C\overline{A}D+\overline{B}+\overline{D} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e2b093939afc7e57095b97cd33dcdfdd.svg
+b'/latex-svg/overline{A}B+Coverline{A}D+overline{B}+overline{D}.svg'
+Formula : \overline{\overline{A+D}.\overline{\overline{C}+\overline{B}}+C} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c16dcaf5ea38538da724c1897e39fba5.svg
+b'/latex-svg/overline{overline{A+D}.overline{overline{C}+overline{B}}+C}.svg'
+Formula : (A+\overline{AB}+C\overline{AB})(A+B\overline{A}+\overline{B}) (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6088352b8cf1637f9da2fcbbef80e59d.svg
+b'/latex-svg/(A+overline{AB}+Coverline{AB})(A+Boverline{A}+overline{B}).svg'
+Formula : A\overline{C} + AB\overline{C}+B\overline{C}+\overline{A}B (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/6ca547ce6fd4aa79fd9d3af260bde315.svg
+b'/latex-svg/Aoverline{C} + ABoverline{C}+Boverline{C}+overline{A}B.svg'
+Formula : \overline{A}+AB = \overline{A}+B (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e8421b71a64d25e49e2e30f72fb703f3.svg
+b'/latex-svg/overline{A}+AB = overline{A}+B.svg'
+Formula : \overline{A}+AB = \overline{A}+B (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e8421b71a64d25e49e2e30f72fb703f3.svg
+b'/latex-svg/overline{A}+AB = overline{A}+B.svg'
+Formula : A + AB = A(1+B) = A (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a94150f7e5320b58ddb3e0556aa8cad6.svg
+b'/latex-svg/A + AB = A(1+B) = A.svg'
+Formula : A+\overline{A}=1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ceaf1d0a46846e3e9b18d8b48039992c.svg
+b'/latex-svg/A+overline{A}=1.svg'
+Formula : \overline{A}+B+\overline{C} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7f3376a8d8e66b62a121d5710c7d7ff0.svg
+b'/latex-svg/overline{A}+B+overline{C}.svg'
+Formula : \overline{A}+\overline{B}+\overline{D} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/10b267dfac8055520e9971544a118388.svg
+b'/latex-svg/overline{A}+overline{B}+overline{D}.svg'
+Formula : C (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c0c9a7141ee3602a8252230245ece4de.svg
+b'/latex-svg/C.svg'
+Formula : 1 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/53fc2a236f6b5d9789d1cb0c680f8477.svg
+b'/latex-svg/1.svg'
+Formula : A\overline{C}+\overline{A}B (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/953178e54b619a552be9890037fad57b.svg
+b'/latex-svg/Aoverline{C}+overline{A}B.svg'
+Formula : 5+5 = \overbrace{10_{10}}^{1010_2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/44bf74d20f71d0ba44fb5d2d2aeb3942.svg
+b'/latex-svg/5+5 = overbrace{10_{10}}^{1010_2}.svg'
+Formula : 5+5 = \underbrace{10_{10}}_{1010_2} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3752503751ad53b622837ddf3a9db21c.svg
+b'/latex-svg/5+5 = underbrace{10_{10}}_{1010_2}.svg'
+Formula : \begin{cases} 1+1=2\end{cases} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/73fff0e05e6071efa2152a0213870f54.svg
+b'/latex-svg/begin{cases} 1+1=2end{cases}.svg'
+Formula : \begin{cases}  4x + 8y = & 54 \\  2x + 7y = & 39 \end{cases} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3a1e1e70f406a91ad6128b4dcc527ae4.svg
+b'/latex-svg/begin{cases}  4x + 8y = &amp; 54   2x + 7y = &amp; 39 end{cases}.svg'
+Formula : g(i,j) =\begin{cases}255&\text{si}\; f(i,j)\leq s\\0 &\text{sinon.}\end{cases} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/fba8901bed85e0002df874eef13087bb.svg
+b'/latex-svg/g(i,j) =begin{cases}255&amp;text{si}; f(i,j)leq s0 &amp;text{sinon.}end{cases}.svg'
+Formula : \alpha (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7fb3424a2ab8c5efff48ea68660aacb1.svg
+b'/latex-svg/alpha.svg'
+Formula : \nu (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/854ca7769246698c2262e7cf1f27a8ef.svg
+b'/latex-svg/nu.svg'
+Formula : \beta (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/03aba3671f8ec78b090f0d177330384f.svg
+b'/latex-svg/beta.svg'
+Formula : \xi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/01d7a9f25220a2c4914d6ed26d4af10b.svg
+b'/latex-svg/xi.svg'
+Formula : \gamma (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8d0b6b40c349cb7877c191e234df5371.svg
+b'/latex-svg/gamma.svg'
+Formula : o (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ee82961eb563a1b922633e5a756695ea.svg
+b'/latex-svg/o.svg'
+Formula : \delta (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8a56d2da603a6d830124fa991ae1121c.svg
+b'/latex-svg/delta.svg'
+Formula : \pi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9a83df55e68216cb452676f7a6dd86c1.svg
+b'/latex-svg/pi.svg'
+Formula : \epsilon (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/97ca617abeac0777b42507ea021fed69.svg
+b'/latex-svg/epsilon.svg'
+Formula : \varepsilon (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3c075c576315c1a474c7f0d89bb8e3a9.svg
+b'/latex-svg/varepsilon.svg'
+Formula : \rho (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/386b695255fde25f53ff5eaf286b33b2.svg
+b'/latex-svg/rho.svg'
+Formula : \zeta (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9b81aaabc0000542c8e43f6ba2599eec.svg
+b'/latex-svg/zeta.svg'
+Formula : \sigma (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1b1ef6a6df2e051a37d89b5aeca6defd.svg
+b'/latex-svg/sigma.svg'
+Formula : \eta (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/84ab47a2236a9d9b7eadb30855296e5b.svg
+b'/latex-svg/eta.svg'
+Formula : \tau (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7bb211cf65b9262d61dfb040fa00bbf6.svg
+b'/latex-svg/tau.svg'
+Formula : \theta (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/fc26e8b5325e46fc298181fa017f253c.svg
+b'/latex-svg/theta.svg'
+Formula : \vartheta (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8f4f5abc7c4b305ba42a4b43ca22343d.svg
+b'/latex-svg/vartheta.svg'
+Formula : \upsilon (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c5503a091fef9dd5714ba4339ad736f3.svg
+b'/latex-svg/upsilon.svg'
+Formula : \iota (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/425a84378e3a2cc0018274833b0b6c3d.svg
+b'/latex-svg/iota.svg'
+Formula : \phi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/f000134287dbbe5f696d67df496e7a43.svg
+b'/latex-svg/phi.svg'
+Formula : \varphi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7c353fd15633abcd0484091fea67a1cb.svg
+b'/latex-svg/varphi.svg'
+Formula : \kappa (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9f3e4a234b198c876b9b3715365351cc.svg
+b'/latex-svg/kappa.svg'
+Formula : \chi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1cb675891f990c11982d77d7661a8b82.svg
+b'/latex-svg/chi.svg'
+Formula : \lambda (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/fb7b6d25ddd20b735f857442904bc004.svg
+b'/latex-svg/lambda.svg'
+Formula : \psi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/687758e3009adc4b428f045d07beba66.svg
+b'/latex-svg/psi.svg'
+Formula : \mu (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4961495de8457fb31d35f639c461393d.svg
+b'/latex-svg/mu.svg'
+Formula : \omega (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ae2284f5075d97f5752e47c978a4e7c6.svg
+b'/latex-svg/omega.svg'
+Formula : A (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg
+b'/latex-svg/A.svg'
+Formula : N (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d3377acdc8f1034a5a78d5da71c24be9.svg
+b'/latex-svg/N.svg'
+Formula : B (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b391378089b61687c99f76c1640f86fa.svg
+b'/latex-svg/B.svg'
+Formula : \Xi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4add2411b51bbddc201aadd25654b024.svg
+b'/latex-svg/Xi.svg'
+Formula : \Gamma (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8041efc82ce03db8ec393094f7592bb1.svg
+b'/latex-svg/Gamma.svg'
+Formula : O (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8469aac2288ace9b3d27b1887bda7338.svg
+b'/latex-svg/O.svg'
+Formula : \Delta (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/8b50fabb39a751e24c7ae80624f8eb8d.svg
+b'/latex-svg/Delta.svg'
+Formula : \Pi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d985fc0463b68f0b6db95b308a4b2bbd.svg
+b'/latex-svg/Pi.svg'
+Formula : E (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/f3207f52fcf149766e0e094b6168da11.svg
+b'/latex-svg/E.svg'
+Formula : P (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/f7ccfd9da8a61f37f0c891778c0f2f87.svg
+b'/latex-svg/P.svg'
+Formula : Z (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a3b9453b77e66214ae7575828410ecb9.svg
+b'/latex-svg/Z.svg'
+Formula : \Sigma (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/fc0245b005392c4554eb4c9a2db2fef2.svg
+b'/latex-svg/Sigma.svg'
+Formula : H (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/75afec159cc97fa283aeba681c89e1c3.svg
+b'/latex-svg/H.svg'
+Formula : T (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/629c48a6e1df7240c450a8ebb8560c90.svg
+b'/latex-svg/T.svg'
+Formula : \Theta (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/e5a517b9b7cdd99e2d5645673f1869e6.svg
+b'/latex-svg/Theta.svg'
+Formula : \Upsilon (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/4583ab6d63ca0236a6bd1d278dcd9cd1.svg
+b'/latex-svg/Upsilon.svg'
+Formula : I (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/f9189c44c8a963b6cd29f6261d077a0f.svg
+b'/latex-svg/I.svg'
+Formula : \Phi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/255e935e7c1ddfad271393177197f80f.svg
+b'/latex-svg/Phi.svg'
+Formula : K (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/22fd0751c0691d24e81811f41f536ba3.svg
+b'/latex-svg/K.svg'
+Formula : X (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1e2ac16713d99c35c69e672d92bc136b.svg
+b'/latex-svg/X.svg'
+Formula : \Lambda (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/0d4083cb00881a8af180f6e15e9adbba.svg
+b'/latex-svg/Lambda.svg'
+Formula : \Psi (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a7086e996c050298df9f2feb39469603.svg
+b'/latex-svg/Psi.svg'
+Formula : M (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/611fc105a925826b0b9cd09433d771f2.svg
+b'/latex-svg/M.svg'
+Formula : \Omega (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c60537dd291ac3dc77c6c1eb8d2d699f.svg
+b'/latex-svg/Omega.svg'
+Formula : C_n^k (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/a7d16c7be6fd231d9ddcd7713addc8e4.svg
+b'/latex-svg/C_n^k.svg'
+Formula : \binom{n}{k} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/ac67044ff97c2e1805308cd9daaeb5af.svg
+b'/latex-svg/binom{n}{k}.svg'
+Formula : \kappa(A)=\Vert A \Vert \Vert A^{-1} \Vert (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/54f9e1ec032adaa95d5ae0162c0412fc.svg
+b'/latex-svg/kappa(A)=Vert A Vert Vert A^{-1} Vert.svg'
+Formula : A=\begin{bmatrix} 10 & 7 & 8 & 7 \\ 7 & 5 & 6 & 5 \\8 & 6 & 10 & 9 \\ 7 & 5 & 9 & 10 \end{bmatrix}, Y=\begin{bmatrix}32 \\ 23 \\ 33 \\ 31\end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/721218705dc898dc2b33f8ca2a05c1a0.svg
+b'/latex-svg/A=begin{bmatrix} 10 &amp; 7 &amp; 8 &amp; 7  7 &amp; 5 &amp; 6 &amp; 5 8 &amp; 6 &amp; 10 &amp; 9  7 &amp; 5 &amp; 9 &amp; 10 end{bmatrix}, Y=begin{bmatrix}32  23  33  31end{bmatrix}.svg'
+Formula : X = \begin{bmatrix}1\\1\\1\\1\end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/70614caaa09820c0f2674e2ab28577d2.svg
+b'/latex-svg/X = begin{bmatrix}1111end{bmatrix}.svg'
+Formula : \Delta_Y=\begin{bmatrix}0.1\\-0.1\\0.1\\-0.1\end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/df56c547e732839bcdbe7a8c5100ebf9.svg
+b'/latex-svg/Delta_Y=begin{bmatrix}0.1-0.10.1-0.1end{bmatrix}.svg'
+Formula : X=\begin{bmatrix}9.2\\-12.6\\4.5\\-11\end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/3a93f90a5756380bd88c891c6e3ee8d0.svg
+b'/latex-svg/X=begin{bmatrix}9.2-12.64.5-11end{bmatrix}.svg'
+Formula : \kappa(A)=\Vert A \Vert_{\infty} \Vert A^{-1} \Vert_{\infty} = \max_{\{1\leq i \leq n\}} \sum^n_{j=1}|A_{i,j}| \times \max_{\{1\leq i \leq n\}} \sum^n_{j=1}|A_{i,j}^{-1}| (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/65fe11c0088a391145babc20aab17e76.svg
+b'/latex-svg/kappa(A)=Vert A Vert_{infty} Vert A^{-1} Vert_{infty} = max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}| times max_{{1leq i leq n}} sum^n_{j=1}|A_{i,j}^{-1}|.svg'
+Formula : B=\begin{bmatrix}1&7&2&1\\7&5&1&5\\8&6&10&9\\7&5&9&1\end{bmatrix} (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/0ba2bb99eaa5b11270607c59ad94c8bf.svg
+b'/latex-svg/B=begin{bmatrix}1&amp;7&amp;2&amp;17&amp;5&amp;1&amp;58&amp;6&amp;10&amp;97&amp;5&amp;9&amp;1end{bmatrix}.svg'
+Formula : \kappa (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9f3e4a234b198c876b9b3715365351cc.svg
+b'/latex-svg/kappa.svg'
+Formula : AX=Y (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/b121a4c50bffa37c87085e7dae03a630.svg
+b'/latex-svg/AX=Y.svg'
+Formula : Y (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c0f2552900610441aab3eb4c53dc562c.svg
+b'/latex-svg/Y.svg'
+Formula : \Delta_Y (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2a7844a00cfde786d70dd9ceb4b52080.svg
+b'/latex-svg/Delta_Y.svg'
+Formula : Y (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c0f2552900610441aab3eb4c53dc562c.svg
+b'/latex-svg/Y.svg'
+Formula : X (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1e2ac16713d99c35c69e672d92bc136b.svg
+b'/latex-svg/X.svg'
+Formula : A (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg
+b'/latex-svg/A.svg'
+Formula : A (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg
+b'/latex-svg/A.svg'
+Formula : \kappa(A)=\Vert A \Vert \Vert A^{-1} \Vert (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/54f9e1ec032adaa95d5ae0162c0412fc.svg
+b'/latex-svg/kappa(A)=Vert A Vert Vert A^{-1} Vert.svg'
+Formula : A (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg
+b'/latex-svg/A.svg'
+Formula : n = \dim A (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/2b0e0f3ef7d95635664a6875fd507dcb.svg
+b'/latex-svg/n = dim A.svg'
+Formula : \kappa(A)=33 \times 136 = 4488 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/7e8f8367bda69e539942559792f87c3a.svg
+b'/latex-svg/kappa(A)=33 times 136 = 4488.svg'
+Formula : \kappa(B)=33\times 0.4496=14.8368 (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/9091506b84fe7199d1a183e74334c45e.svg
+b'/latex-svg/kappa(B)=33times 0.4496=14.8368.svg'
+Formula : A (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/207bba974b27ac1aa55b9b664830de2d.svg
+b'/latex-svg/A.svg'
+Formula : BX=Y (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/f42a98f82817378f2bff6d511676f42f.svg
+b'/latex-svg/BX=Y.svg'
+Formula : Y (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/c0f2552900610441aab3eb4c53dc562c.svg
+b'/latex-svg/Y.svg'
+Formula : X (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/1e2ac16713d99c35c69e672d92bc136b.svg
+b'/latex-svg/X.svg'
+Formula : message){  (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/d295e235068c9ada8b3da60b564e2e5e.svg
+b'/latex-svg/message){ .svg'
+Formula : message);   (Skipt : Already Exist in folder)
+./themes/amperage/static/latex-svg/5877ff94d5473931bcffb7eea2dca040.svg
+b'/latex-svg/message);  .svg'
+Formula : eventname="EVENT NAME"; //Ajouté votre nom d’événement  file_get_contents("https://maker.ifttt.com/trigger/ Downloaded
+./themes/amperage/static/latex-svg/a9b5a98f0b5cff2fc2f215a933ee2eef.svg
+Voulez-vous réessayez ?

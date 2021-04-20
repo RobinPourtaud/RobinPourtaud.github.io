@@ -58,3 +58,5 @@ _Commentaire : La fonction indicatrice ne peut pas être affichée avec amsfonts
 
 1. [Nombre Hypercomplexe - Wikipédia](https://fr.wikipedia.org/wiki/Nombre_hypercomplexe)
 2. [amsmath - Latex](https://ctan.tetaneutral.net/macros/latex/required/amsmath/amsldoc.pdf)
+
+
