@@ -12,13 +12,16 @@ description: ""
 
 ## Logique en lambda calcul en OCaml
 ### Booléens
+#### True
+#### False
 
 ### Portes logiques
+#### Porte logique "NOT"
+#### Porte logique "AND"
+#### Porte logique "OR"
 
-#### Porte logique "Et"
-#### Porte logique "
-
+## Condition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQ1OTU1NDZdfQ==
+eyJoaXN0b3J5IjpbLTE1NDcwNDc4MzZdfQ==
 -->
