@@ -28,15 +28,23 @@ let ifthenelse_ = fun b v f = b v f;;
 ### Portes logiques
 #### Porte logique "NOT"
 ```ocaml
-let not_ = fun v f = f;;
+let not_ = fun a = ifthenelse_ a false_ true_;;
 ```
 #### Porte logique "AND"
+```ocaml
+let not_ = fun a = ifthenelse_ a false_ true_;;
+```
 #### Porte logique "OR"
-
+```ocaml
+let not_ = fun a = ifthenelse_ a false_ true_;;
+```
 
 
 ##  Arithmétiques 
 ### Définition de zéro
+```ocaml
+let zero_ = fun a = ifthenelse_ a false_ true_;;
+```
 ### Fonction successeur 
 ### Addition
 ### Multiplication 
@@ -47,5 +55,5 @@ let not_ = fun v f = f;;
 ### Les booléens
 ### Les entiers 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA4NzMxMDRdfQ==
+eyJoaXN0b3J5IjpbLTIxODM4MTk3M119
 -->
