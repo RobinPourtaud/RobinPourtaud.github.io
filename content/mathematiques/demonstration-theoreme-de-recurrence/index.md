@@ -14,7 +14,7 @@ draft: True
 ## Définition
 
 Soit $\mathbb{N}$ muni de son ordre usuel. 
-Soit $A(n)$ une assertion définie $\forall n \in \mathbb{N}$ et vérifiant : 
+Soit $A(n)$ une assertion définie $\forall n \in \mathbb{N}$ : 
 - Si $A(n_0)$ vraie
 - Si $\forall n \geq n_0$, $A(n)$ vraie $\Rightarrow A(n+1)$ vraie.
 
@@ -47,5 +47,5 @@ Nous ne pouvons avoir $p\in P$ et $p \in \bar{P}^\mathbb{N}$ : **Contradiction**
 
 Nous avons donc bien $P = \mathbb{N}$ et donc le théorème de récurrence !  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTg4OTc4NzhdfQ==
+eyJoaXN0b3J5IjpbLTE2NDY0NjMyNzddfQ==
 -->
