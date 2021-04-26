@@ -28,7 +28,7 @@ let rec syracuse n =
 Conformément à la conjecture, cette fonction retourne à priori toujours la valeur 1 : 
 ```ocaml
 syracuse 54;;
-- : int = 
+- : int = 1
 ```
 ### Calcul du temps de vol
 ### Calcul du temps de vol en altitude
@@ -39,5 +39,5 @@ syracuse 54;;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDgyNTMxMV19
+eyJoaXN0b3J5IjpbNjU3ODUzMjU0XX0=
 -->
