@@ -17,13 +17,18 @@ On définit la suite de syracuse récursivement $\forall n \in \mathbb{N}$ par :
 
 ## Implémentation en OCaml 
 ### La fonction
-La fonction syracuse en elle-même ne comporte aucun piège. Notez que j'utilise un "match" ici. 
+La fonction syracuse en elle-même ne comporte aucun piège. Notez que j'utilise un "match" ici. Une conditionnel "if-else" aurait très bien pu faire l'affaire.
 ```ocaml
 let rec syracuse n = 
 	match n with 
 	1 -> 1
 	| n when n mod 2 = 0 -> syracuse(n/2)
 	| _ -> syracuse (3*n+1)
+```
+Conformément à la conjecture, cette fonction retourne à priori toujours la valeur 1 : 
+```ocaml
+syracuse 54;;
+- : int = 
 ```
 ### Calcul du temps de vol
 ### Calcul du temps de vol en altitude
@@ -34,5 +39,5 @@ let rec syracuse n =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDg2ODY5OTddfQ==
+eyJoaXN0b3J5IjpbMjExMDgyNTMxMV19
 -->
