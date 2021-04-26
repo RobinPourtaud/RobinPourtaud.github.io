@@ -17,10 +17,13 @@ On définit la suite de syracuse récursivement $\forall n \in \mathbb{N}$ par :
 
 ## Implémentation en OCaml 
 ### Calcul du temps de vol
+### Calcul du temps de vol en altitude
+### Calcul de l'altitude maximale
+### Affichage de la suite 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDA0MTM0MjBdfQ==
+eyJoaXN0b3J5IjpbLTE2MzE0NzUzOTZdfQ==
 -->
