@@ -14,13 +14,13 @@ On définit la suite de syracuse récursivement $\forall n \in \mathbb{N}$ par :
 - $u_0=n$
 - $\forall n \in \mathbb{N}^* : u_{n+1} = \begin{cases}\end{cases}$
 
-## Evolution de syracuse en fonction de n 
 
 ## Implémentation en OCaml 
+### Calcul du temps de vol
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTYzNDYzOF19
+eyJoaXN0b3J5IjpbLTExNDA0MTM0MjBdfQ==
 -->
