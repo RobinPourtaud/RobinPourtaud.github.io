@@ -41,6 +41,7 @@ let not_ = fun a = _ifthenelse a false_ true_;;
 ## Couples
 Afin de définir la fonction prédécesseur plus aisément, nous auront besoin de créer des couples de valeurs. 
 ### Création de la paire
+
 ### Accès à la première valeur
 ### Accès à la seconde valeur
 
@@ -82,5 +83,5 @@ let _boolToOcaml (b = _ifthenelse b true false;;
 ## Exemple d'utilisation 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjk1ODkzNV19
+eyJoaXN0b3J5IjpbMTg1MTkwMzc3XX0=
 -->
