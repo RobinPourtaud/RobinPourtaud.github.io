@@ -23,10 +23,15 @@ description: ""
 ## Condition en OCaml
 
 ##  Arithmétiques 
-
+### Définition de zéro
 ### Fonction successeur 
-### Fonction 
+### Addition
+### Multiplication 
+### Exponentiel
+### Itération de Knuth
+
+## Traduire des booléens de O
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxNTk1MjM1XX0=
+eyJoaXN0b3J5IjpbLTEzNTg4MTIzNzFdfQ==
 -->
