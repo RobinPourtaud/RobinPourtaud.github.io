@@ -14,8 +14,8 @@ description: "Le raisonnement inductif est un classique des mathématiques, c'es
 ## Définition
 
 Soit $\mathbb{N}$ muni de son ordre usuel. 
-Soit $A(n)$ une assertion définie $\forall n \in \mathbb{N}$ et vérifiant : 
-- Si $A(n_0)$ est vraie
+Soit $A(n)$ une assertion définie $\forall n \in \mathbb{N}$ : 
+- Si $A(n_0)$ vraie
 - Si $\forall n \geq n_0$, $A(n)$ vraie $\Rightarrow A(n+1)$ vraie.
 
 Alors $\forall n \geq n_0$, $A(n)$ vraie.
@@ -46,3 +46,6 @@ Par l'ordre usuel sur $\mathbb{N}$, $A(p)$ l'est aussi.
 Nous ne pouvons avoir $p\in P$ et $p \in \bar{P}^\mathbb{N}$ : **Contradiction**
 
 Nous avons donc bien $P = \mathbb{N}$ et donc le théorème de récurrence !  
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2NDY0NjMyNzddfQ==
+-->
