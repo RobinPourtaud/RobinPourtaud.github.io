@@ -30,8 +30,9 @@ description: ""
 ### Exponentiel
 ### Itération de Knuth
 
-## Traduire des booléens de O
-
+## Interface entre notre lambda calcul et OCaml
+### Les booléens
+### Les entiers 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg4MTIzNzFdfQ==
+eyJoaXN0b3J5IjpbOTI5NjI2NjgwXX0=
 -->
