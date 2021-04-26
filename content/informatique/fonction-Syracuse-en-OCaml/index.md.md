@@ -23,7 +23,7 @@ let rec syracuse n =
 	match n with 
 	1 -> 1
 	| n when n mod 2 = 0 -> syracuse(n/2)
-	| _ -> syracuse (3*n+1)
+	| _ -> syracuse (3*n+1);;
 ```
 Conformément à la conjecture, cette fonction retourne à priori toujours la valeur 1 : 
 ```ocaml
@@ -39,5 +39,5 @@ syracuse 54;;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3ODUzMjU0XX0=
+eyJoaXN0b3J5IjpbMTgzNTc4MzkxMF19
 -->
