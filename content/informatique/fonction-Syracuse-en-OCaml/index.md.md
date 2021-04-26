@@ -12,7 +12,7 @@ description: ""
 ## Définition de Syracuse
 On définit la suite de syracuse récursivement $\forall n \in \mathbb{N}$ par : 
 - $u_0=n$
-- $\forall n \in \mathbb{N}^* : _
+- $\forall n \in \mathbb{N}^* : u_{n+1} = \begin{cases}\end{cases}$
 
 ## Evolution de syracuse en fonction de n 
 
@@ -22,5 +22,5 @@ On définit la suite de syracuse récursivement $\forall n \in \mathbb{N}$ par :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1MjIzNDIwXX0=
+eyJoaXN0b3J5IjpbLTE4NTYzNDYzOF19
 -->
