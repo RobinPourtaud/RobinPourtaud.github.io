@@ -20,12 +20,20 @@ let true_ = fun v f = v;;
 ```ocaml
 let false_ = fun v f = f;;
 ```
+### Condition en OCaml
+
+```ocaml
+let ifthenelse_ = fun b v f = b v f;;
+```
 ### Portes logiques
 #### Porte logique "NOT"
+```ocaml
+let not_ = fun v f = f;;
+```
 #### Porte logique "AND"
 #### Porte logique "OR"
 
-## Condition en OCaml
+
 
 ##  Arithmétiques 
 ### Définition de zéro
@@ -39,5 +47,5 @@ let false_ = fun v f = f;;
 ### Les booléens
 ### Les entiers 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwNzAwMjY1XX0=
+eyJoaXN0b3J5IjpbLTIxMjA4NzMxMDRdfQ==
 -->
