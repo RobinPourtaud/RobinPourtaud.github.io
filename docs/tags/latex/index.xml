@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>latex on DevMath.fr</title>
-    <link>https://devmath.fr/tags/latex/</link>
+    <link>http://localhost:1313/tags/latex/</link>
     <description>Recent content in latex on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ensembles mathématiques usuels (majuscules ajourées) - Latex</title>
-      <link>https://devmath.fr/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</link>
+      <link>http://localhost:1313/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</guid>
+      <guid>http://localhost:1313/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</guid>
       <description>Ajourer une majuscule : Pour ajourer une majuscule (mettre une majuscule sous forme usuelle des ensembles) en Latex, il suffit d&amp;rsquo;importer amsfonts :
 \usepackage{amsfonts} Vous pouvez ainsi via &amp;ldquo;mathbb&amp;rdquo; afficher les majuscules que vous souhaitez :
 \mathbb{R} Ce qui nous donne :
@@ -23,20 +23,20 @@ Tableau récapitulatif Ce tableau liste quelques utilisation commune des majuscu
     
     <item>
       <title>Espacement en mode mathématique - Latex</title>
-      <link>https://devmath.fr/informatique/espacement-en-mode-mathematique-latex/</link>
+      <link>http://localhost:1313/informatique/espacement-en-mode-mathematique-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/informatique/espacement-en-mode-mathematique-latex/</guid>
+      <guid>http://localhost:1313/informatique/espacement-en-mode-mathematique-latex/</guid>
       <description>Tableau récapitulatif des espacements horizontaux : Commentaire : Certains espacements sont exprimés en &amp;ldquo;mu&amp;rdquo; (math unit). 1 mu = 1/18 em = 0.2 mm environ (habituellement).
 Formule LatexRésultatDescriptiona \, b$a \, b$Taille = 3 mua \: b$a \: b$Taille = 4 mua \;$a \; b$Taille = 5 mua \!$a \! b$Taille = -3 mua \ b$a \ b$Taille = 3 mua ~ b$a~b$Taille = 3 mu (insécable)a \quad b$a \quad b$Taille = 18 mua \qquad b$a \qquad b$Taille = 36 mua \hspace{1cm} b$a \hspace{1cm} b$Taille = 1 cm Sources :   Line breaks and blank spaces - Overleaf  LaTeX Spaces and Boxes  </description>
     </item>
     
     <item>
       <title>Fonction Indicatrice / Fonction caractéristique - Latex</title>
-      <link>https://devmath.fr/informatique/fonction-indicatrice-fonction-caracteristique-latex/</link>
+      <link>http://localhost:1313/informatique/fonction-indicatrice-fonction-caracteristique-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/informatique/fonction-indicatrice-fonction-caracteristique-latex/</guid>
+      <guid>http://localhost:1313/informatique/fonction-indicatrice-fonction-caracteristique-latex/</guid>
       <description>Package requis Il existe plusieurs paquets permettant de générer un &amp;ldquo;1 ajouré&amp;rdquo;. On peut y trouver dsfont notamment. Pour cet article, nous utiliserons le package bbold.
 ²usepackage{bbold} Le package amsfonts ne permet pas de générer un 1 ajouré, vous obtiendrez ce symbole :
  
@@ -46,10 +46,10 @@ Code Latex Pour afficher le symbole de la fonction caractéristique, il faut uti
     
     <item>
       <title>Lorem Ipsum (lipsum) - Latex</title>
-      <link>https://devmath.fr/informatique/lorem-ipsum-lipsum-latex/</link>
+      <link>http://localhost:1313/informatique/lorem-ipsum-lipsum-latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/informatique/lorem-ipsum-lipsum-latex/</guid>
+      <guid>http://localhost:1313/informatique/lorem-ipsum-lipsum-latex/</guid>
       <description>Utilisation Importation de lipsum Afin de générer ce faux-texte, vous devez avoir importé le package &amp;ldquo;lipsum&amp;rdquo; :
 ²usepackage{lipsum} Exemple d&amp;rsquo;utilisation La syntaxe de la commande utilisateur est la suivante :
 ²lipsum[&amp;lt;paragraph range&amp;gt;][&amp;lt;sentence range&amp;gt;]  &amp;ldquo;Paragraph range&amp;rdquo; fait référence aux paragraphes du Lipsum souhaité (150 étant la valeur maximum). &amp;ldquo;Sentence range&amp;rdquo; fait référence aux phrases du Lipsum correspondant au paragraphe voulu. Ce paramètre nécessite une valeur non nulle du premier paramètre.  Les 2 paramètres sont optionnels.</description>
@@ -57,20 +57,20 @@ Code Latex Pour afficher le symbole de la fonction caractéristique, il faut uti
     
     <item>
       <title>Alphabet Grec - Latex</title>
-      <link>https://devmath.fr/informatique/alphabet-grec-latex/</link>
+      <link>http://localhost:1313/informatique/alphabet-grec-latex/</link>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/informatique/alphabet-grec-latex/</guid>
+      <guid>http://localhost:1313/informatique/alphabet-grec-latex/</guid>
       <description>Exemple : Pour afficher en mode mathématique (entre dollar) une lettre grec, il suffit de taper le nom de la lettre précédée d&amp;rsquo;un anti-slash, par exemple pour &amp;ldquo;phi&amp;rdquo; :
 ²phi Alphabet grec minuscule :    Latex Lettre Latex Lettre     ²alpha $\alpha$ ²nu $\nu$   ²beta $\beta$ ²xi $\xi$   ²gamma $\gamma$ o $o$   ²delta $\delta$ ²pi $\pi$   ²epsilon ou ²varepsilon $\epsilon$ ou $\varepsilon$ ²rho $\rho$   ²zeta $\zeta$ ²sigma $\sigma$   ²eta $\eta$ ²tau $\tau$   ²theta ou ²vartheta $\theta$ ou $\vartheta$ ²upsilon $\upsilon$   ²iota $\iota$ ²phi ou ²varphi $\phi$ ou $\varphi$   ²kappa $\kappa$ ²chi $\chi$   ²lambda $\lambda$ ²psi $\psi$   ²mu $\mu$ ²omega $\omega$    Alphabet grec majuscule :    Latex Lettre Latex Lettre     A $A$ N $N$   B $B$ ²Xi $\Xi$   ²Gamma $\Gamma$ O $O$   ²Delta $\Delta$ ²Pi $\Pi$   E $E$ P $P$   Z $Z$ ²Sigma $\Sigma$   H $H$ T $T$   ²Theta $\Theta$ ²Upsilon $\Upsilon$   I $I$ ²Phi $\Phi$   K $K$ X $X$   ²Lambda $\Lambda$ ²Psi $\Psi$   M $M$ ²Omega $\Omega$    </description>
     </item>
     
     <item>
       <title>Coefficient binomial - k parmi n en Latex</title>
-      <link>https://devmath.fr/informatique/coefficient-binomial-k-parmi-n-en-latex/</link>
+      <link>http://localhost:1313/informatique/coefficient-binomial-k-parmi-n-en-latex/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/informatique/coefficient-binomial-k-parmi-n-en-latex/</guid>
+      <guid>http://localhost:1313/informatique/coefficient-binomial-k-parmi-n-en-latex/</guid>
       <description>Notation &amp;ldquo;Française&amp;rdquo; : k parmi n peut se noter de la façon suivante :
 $$C_n^k$$
 Son code Latex en mode mathématique est tout simplement :
@@ -82,10 +82,10 @@ Son code Latex en mode Mathématique est :
     
     <item>
       <title>Partie entière supérieure et inférieure en Latex</title>
-      <link>https://devmath.fr/informatique/partie-entiere-superieur-et-inferieur-en-latex/</link>
+      <link>http://localhost:1313/informatique/partie-entiere-superieur-et-inferieur-en-latex/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/informatique/partie-entiere-superieur-et-inferieur-en-latex/</guid>
+      <guid>http://localhost:1313/informatique/partie-entiere-superieur-et-inferieur-en-latex/</guid>
       <description>Partie entière supérieure en LaTex : Pour prendre la partie entière supérieure d&amp;rsquo;un entier $x$ en Latex, il suffit de taper ceci :
 ²lceil x ²rceil Voici le résultat :
 $$\lceil x \rceil$$
@@ -97,10 +97,10 @@ Raccourcir son utilisation avec une macro?</description>
     
     <item>
       <title>Accolades Verticales/Horizontales en LaTeX</title>
-      <link>https://devmath.fr/informatique/accolades-verticales-horizontales-en-latex/</link>
+      <link>http://localhost:1313/informatique/accolades-verticales-horizontales-en-latex/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/informatique/accolades-verticales-horizontales-en-latex/</guid>
+      <guid>http://localhost:1313/informatique/accolades-verticales-horizontales-en-latex/</guid>
       <description>Accolades horizontales Accolades sur du texte Pour afficher une accolade sur du texte, il suffit d&amp;rsquo;utiliser ²overbrace comme ceci :
 Code LaTex :
 5+5 = ²overbrace{10_{10}}^{1010_2} Rendu :

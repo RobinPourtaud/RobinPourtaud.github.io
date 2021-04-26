@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nombre-complexe on DevMath.fr</title>
-    <link>https://devmath.fr/tags/nombre-complexe/</link>
+    <link>http://localhost:1313/tags/nombre-complexe/</link>
     <description>Recent content in nombre-complexe on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/nombre-complexe/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/nombre-complexe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Démonstration : cos(x)²&#43;sin(x)²=1</title>
-      <link>https://devmath.fr/mathematiques/demonstration-cosxsinx1/</link>
+      <link>http://localhost:1313/mathematiques/demonstration-cosxsinx1/</link>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/mathematiques/demonstration-cosxsinx1/</guid>
+      <guid>http://localhost:1313/mathematiques/demonstration-cosxsinx1/</guid>
       <description>Avec le théorème de Pythagore : Le théorème : En géométrie euclidienne, le théorème de pythagore met en relation dans un triangle rectangle, les 2 plus petits cotés avec l&amp;rsquo;hypothénuse :
 Triangle Rectangle  
 La célèbre relation est la suivante : $a^2+b^2=c^2$.
@@ -22,10 +22,10 @@ Cela nous donne donc : $a = \sin \alpha \times c$ et $b = \cos \alpha \times c$<
     
     <item>
       <title>L&#39;intégrale de x^i dx</title>
-      <link>https://devmath.fr/mathematiques/integrale-de-xi-dx/</link>
+      <link>http://localhost:1313/mathematiques/integrale-de-xi-dx/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/mathematiques/integrale-de-xi-dx/</guid>
+      <guid>http://localhost:1313/mathematiques/integrale-de-xi-dx/</guid>
       <description>Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
 &amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.
 $x^i$ est de la forme $x^b$, $\forall b \in \mathbb{C}$. Or, on sait que :

@@ -1,257 +1,261 @@
 { "items": [{
+            "title": "Démonstration - Théorème de récurrence",
+            "url": "http://localhost:1313/mathematiques/demonstration-theoreme-de-recurrence/",
+            "date": "20 Avril 2021"
+        },{
             "title": "Coefficient binomial (k parmi n)",
-            "url": "https://devmath.fr/mathematiques/coefficient-binomial-k-parmi-n/",
+            "url": "http://localhost:1313/mathematiques/coefficient-binomial-k-parmi-n/",
             "date": "15 Janvier 2021"
         },{
             "title": "Ensembles mathématiques usuels (majuscules ajourées) - Latex",
-            "url": "https://devmath.fr/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/",
+            "url": "http://localhost:1313/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/",
             "date": "5 Janvier 2021"
         },{
             "title": "Espacement en mode mathématique - Latex",
-            "url": "https://devmath.fr/informatique/espacement-en-mode-mathematique-latex/",
+            "url": "http://localhost:1313/informatique/espacement-en-mode-mathematique-latex/",
             "date": "5 Janvier 2021"
         },{
             "title": "Fonction Indicatrice / Fonction caractéristique - Latex",
-            "url": "https://devmath.fr/informatique/fonction-indicatrice-fonction-caracteristique-latex/",
+            "url": "http://localhost:1313/informatique/fonction-indicatrice-fonction-caracteristique-latex/",
             "date": "5 Janvier 2021"
         },{
             "title": "Lorem Ipsum (lipsum) - Latex",
-            "url": "https://devmath.fr/informatique/lorem-ipsum-lipsum-latex/",
+            "url": "http://localhost:1313/informatique/lorem-ipsum-lipsum-latex/",
             "date": "5 Janvier 2021"
         },{
             "title": "Parcours d'un arbre binaire",
-            "url": "https://devmath.fr/informatique/parcours-dun-arbre-binaire/",
+            "url": "http://localhost:1313/informatique/parcours-dun-arbre-binaire/",
             "date": "5 Janvier 2021"
         },{
             "title": "Déterminisation d'un automate",
-            "url": "https://devmath.fr/informatique/determinisation-dun-automate/",
+            "url": "http://localhost:1313/informatique/determinisation-dun-automate/",
             "date": "30 Décembre 2020"
         },{
             "title": "UAL - Unité arithmétique et logique",
-            "url": "https://devmath.fr/informatique/ual-unite-arithmetique-et-logique/",
+            "url": "http://localhost:1313/informatique/ual-unite-arithmetique-et-logique/",
             "date": "27 Décembre 2020"
         },{
             "title": "Alphabet Grec - Latex",
-            "url": "https://devmath.fr/informatique/alphabet-grec-latex/",
+            "url": "http://localhost:1313/informatique/alphabet-grec-latex/",
             "date": "21 Décembre 2020"
         },{
             "title": "Différents types d'automates finis",
-            "url": "https://devmath.fr/informatique/vocabulaire-sur-les-automates-finis/",
+            "url": "http://localhost:1313/informatique/vocabulaire-sur-les-automates-finis/",
             "date": "11 Décembre 2020"
         },{
             "title": "Exercice corrigé : Simplification de formules Booléennes",
-            "url": "https://devmath.fr/informatique/exercice-corrige-simplification-de-formules-booleennes/",
+            "url": "http://localhost:1313/informatique/exercice-corrige-simplification-de-formules-booleennes/",
             "date": "24 Novembre 2020"
         },{
             "title": "Définition : NFF-Sat",
-            "url": "https://devmath.fr/informatique/definition-nff-sat/",
+            "url": "http://localhost:1313/informatique/definition-nff-sat/",
             "date": "22 Novembre 2020"
         },{
             "title": "Racine carrée de i",
-            "url": "https://devmath.fr/mathematiques/racine-carree-de-i/",
+            "url": "http://localhost:1313/mathematiques/racine-carree-de-i/",
             "date": "18 Novembre 2020"
         },{
             "title": "Jupyter Lab gratuit avec Oracle Cloud",
-            "url": "https://devmath.fr/informatique/jupyter-lab-gratuit-avec-oracle-cloud/",
+            "url": "http://localhost:1313/informatique/jupyter-lab-gratuit-avec-oracle-cloud/",
             "date": "29 Septembre 2020"
         },{
             "title": "Formule de Sylvester",
-            "url": "https://devmath.fr/mathematiques/formule-de-sylvester/",
+            "url": "http://localhost:1313/mathematiques/formule-de-sylvester/",
             "date": "22 Septembre 2020"
         },{
             "title": "Exercice corrigé - Dénombrement n°1",
-            "url": "https://devmath.fr/mathematiques/exercice-corrige-denombrement-n1/",
+            "url": "http://localhost:1313/mathematiques/exercice-corrige-denombrement-n1/",
             "date": "15 Septembre 2020"
         },{
             "title": "Démonstration : Toutes les puissances de 6 finissent par un 6",
-            "url": "https://devmath.fr/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/",
+            "url": "http://localhost:1313/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/",
             "date": "30 Août 2020"
         },{
             "title": "Lister tous les ports ouverts d'un ordinateur avec nmap",
-            "url": "https://devmath.fr/informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/",
+            "url": "http://localhost:1313/informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/",
             "date": "24 Août 2020"
         },{
             "title": "Pourquoi 0!=1 ?",
-            "url": "https://devmath.fr/mathematiques/pourquoi-01/",
+            "url": "http://localhost:1313/mathematiques/pourquoi-01/",
             "date": "16 Août 2020"
         },{
             "title": "DI Method / Intégration tabulaire",
-            "url": "https://devmath.fr/mathematiques/di-method-integration-tabulaire/",
+            "url": "http://localhost:1313/mathematiques/di-method-integration-tabulaire/",
             "date": "8 Août 2020"
         },{
             "title": "Démonstration : Somme des k parmi n",
-            "url": "https://devmath.fr/mathematiques/demonstration-somme-des-k-parmi-n/",
+            "url": "http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/",
             "date": "7 Août 2020"
         },{
             "title": "ISETL - Langage de Programmation",
-            "url": "https://devmath.fr/informatique/isetl-langage-de-programmation/",
+            "url": "http://localhost:1313/informatique/isetl-langage-de-programmation/",
             "date": "31 Juillet 2020"
         },{
             "title": "ISETL - Boucle While et boucle For",
-            "url": "https://devmath.fr/informatique/isetl-boucle-while-et-boucle-for/",
+            "url": "http://localhost:1313/informatique/isetl-boucle-while-et-boucle-for/",
             "date": "27 Juillet 2020"
         },{
             "title": "ISETL - Conditions If, ElseIf, Else",
-            "url": "https://devmath.fr/informatique/isetl-conditions-if-elseif-else/",
+            "url": "http://localhost:1313/informatique/isetl-conditions-if-elseif-else/",
             "date": "26 Juillet 2020"
         },{
             "title": "ISETL - Syntaxe des fonctions",
-            "url": "https://devmath.fr/informatique/isetl-syntaxe-des-fonctions/",
+            "url": "http://localhost:1313/informatique/isetl-syntaxe-des-fonctions/",
             "date": "24 Juillet 2020"
         },{
             "title": "ISETL - Utilisation basique de ISETLW 3.0",
-            "url": "https://devmath.fr/informatique/isetl-utilisation-basique-de-isetlw-3-0/",
+            "url": "http://localhost:1313/informatique/isetl-utilisation-basique-de-isetlw-3-0/",
             "date": "22 Juillet 2020"
         },{
             "title": "Bing URL Submissions Plugin : Indexez instantanément vos pages Wordpress !",
-            "url": "https://devmath.fr/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/",
+            "url": "http://localhost:1313/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/",
             "date": "21 Juillet 2020"
         },{
             "title": "La notation ? en mathématique : Termial",
-            "url": "https://devmath.fr/mathematiques/la-notation-en-mathematique/",
+            "url": "http://localhost:1313/mathematiques/la-notation-en-mathematique/",
             "date": "20 Juillet 2020"
         },{
             "title": "Résolution complexe : cos(x)sin(x)=1",
-            "url": "https://devmath.fr/mathematiques/resolution-complexe-cosxsinx1/",
+            "url": "http://localhost:1313/mathematiques/resolution-complexe-cosxsinx1/",
             "date": "7 Juillet 2020"
         },{
             "title": "Démonstration : cos(x)²+sin(x)²=1",
-            "url": "https://devmath.fr/mathematiques/demonstration-cosxsinx1/",
+            "url": "http://localhost:1313/mathematiques/demonstration-cosxsinx1/",
             "date": "6 Juillet 2020"
         },{
             "title": "Traduction en Python 3 avec IBM Language Translator API",
-            "url": "https://devmath.fr/informatique/traduction-en-python-3-avec-ibm-language-translator-api/",
+            "url": "http://localhost:1313/informatique/traduction-en-python-3-avec-ibm-language-translator-api/",
             "date": "5 Juillet 2020"
         },{
             "title": "Coefficient binomial - k parmi n en Latex",
-            "url": "https://devmath.fr/informatique/coefficient-binomial-k-parmi-n-en-latex/",
+            "url": "http://localhost:1313/informatique/coefficient-binomial-k-parmi-n-en-latex/",
             "date": "1 Juillet 2020"
         },{
             "title": "Wordpress - Image de profil trouble avec l'extension AMPforWP",
-            "url": "https://devmath.fr/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/",
+            "url": "http://localhost:1313/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/",
             "date": "29 Juin 2020"
         },{
             "title": "Partie entière supérieure et inférieure en Latex",
-            "url": "https://devmath.fr/informatique/partie-entiere-superieur-et-inferieur-en-latex/",
+            "url": "http://localhost:1313/informatique/partie-entiere-superieur-et-inferieur-en-latex/",
             "date": "23 Juin 2020"
         },{
             "title": "ISETL - Fonctions trigonométriques et hyperboliques",
-            "url": "https://devmath.fr/informatique/isetl-fonctions-trigonometriques-hyperboliques/",
+            "url": "http://localhost:1313/informatique/isetl-fonctions-trigonometriques-hyperboliques/",
             "date": "19 Juin 2020"
         },{
             "title": "ISETL - Fonctions Mathématiques",
-            "url": "https://devmath.fr/informatique/isetl-fonction-mathematiques/",
+            "url": "http://localhost:1313/informatique/isetl-fonction-mathematiques/",
             "date": "18 Juin 2020"
         },{
             "title": "Seuillage d'image en Python3",
-            "url": "https://devmath.fr/informatique/seuillage-dimage-en-python/",
+            "url": "http://localhost:1313/informatique/seuillage-dimage-en-python/",
             "date": "17 Juin 2020"
         },{
             "title": "1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)",
-            "url": "https://devmath.fr/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/",
+            "url": "http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/",
             "date": "14 Juin 2020"
         },{
             "title": "Rediriger le trafic HTTP vers HTTPS avec .htaccess.",
-            "url": "https://devmath.fr/informatique/rediriger-http-vers-https-avec-htaccess/",
+            "url": "http://localhost:1313/informatique/rediriger-http-vers-https-avec-htaccess/",
             "date": "4 Juin 2020"
         },{
             "title": "Autoriser l'upload de fichiers non-autorisés sur Wordpress",
-            "url": "https://devmath.fr/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/",
+            "url": "http://localhost:1313/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/",
             "date": "3 Juin 2020"
         },{
             "title": "ISETL 3.0 sur Windows 10",
-            "url": "https://devmath.fr/informatique/installer-isetl/",
+            "url": "http://localhost:1313/informatique/installer-isetl/",
             "date": "3 Juin 2020"
         },{
             "title": "Octet, Giga-bits, Kibioctets, Byte ?",
-            "url": "https://devmath.fr/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/",
+            "url": "http://localhost:1313/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/",
             "date": "1 Juin 2020"
         },{
             "title": "Accolades Verticales/Horizontales en LaTeX",
-            "url": "https://devmath.fr/informatique/accolades-verticales-horizontales-en-latex/",
+            "url": "http://localhost:1313/informatique/accolades-verticales-horizontales-en-latex/",
             "date": "27 Mai 2020"
         },{
             "title": "Coloration Syntaxique pour Wordpress AMP",
-            "url": "https://devmath.fr/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/",
+            "url": "http://localhost:1313/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/",
             "date": "25 Mai 2020"
         },{
             "title": "Modifier la Bitmap d'une image avec Python 3",
-            "url": "https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/",
+            "url": "http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/",
             "date": "21 Mai 2020"
         },{
             "title": "Opération sur les matrices avec numpy en Python",
-            "url": "https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/",
+            "url": "http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/",
             "date": "18 Mai 2020"
         },{
             "title": "Traduire un string grâce à Google Traduction en Python (for free)",
-            "url": "https://devmath.fr/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/",
+            "url": "http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/",
             "date": "12 Mai 2020"
         },{
             "title": "Trouvez l'erreur ! Mathématiques Collège-Lycée",
-            "url": "https://devmath.fr/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/",
+            "url": "http://localhost:1313/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/",
             "date": "9 Mai 2020"
         },{
             "title": "unordered_map en C++",
-            "url": "https://devmath.fr/informatique/unordered_map-en-c/",
+            "url": "http://localhost:1313/informatique/unordered_map-en-c/",
             "date": "7 Mai 2020"
         },{
             "title": "Démonstration : Somme des k(k parmi n)",
-            "url": "https://devmath.fr/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/",
+            "url": "http://localhost:1313/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/",
             "date": "23 Avril 2020"
         },{
             "title": "Google Agenda : Ajouter un EDT de l'Université de Nantes",
-            "url": "https://devmath.fr/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/",
+            "url": "http://localhost:1313/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/",
             "date": "23 Avril 2020"
         },{
             "title": "Héberger un Wordpress Gratuitement sur un Raspberry Pi",
-            "url": "https://devmath.fr/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/",
+            "url": "http://localhost:1313/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/",
             "date": "23 Avril 2020"
         },{
             "title": "Recevoir des notifications par mail en PHP grâce à IFTTT",
-            "url": "https://devmath.fr/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/",
+            "url": "http://localhost:1313/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/",
             "date": "23 Avril 2020"
         },{
             "title": "Installer PHP7.4 pour Wordpress",
-            "url": "https://devmath.fr/informatique/installer-php7-4-sur-un-raspberry-pi/",
+            "url": "http://localhost:1313/informatique/installer-php7-4-sur-un-raspberry-pi/",
             "date": "21 Avril 2020"
         },{
             "title": "Les Valeurs et Vecteurs Propres",
-            "url": "https://devmath.fr/mathematiques/valeurs-et-vecteur-propre/",
+            "url": "http://localhost:1313/mathematiques/valeurs-et-vecteur-propre/",
             "date": "19 Avril 2020"
         },{
             "title": "La Factorisation de Cholesky",
-            "url": "https://devmath.fr/mathematiques/decomposition-de-cholesky/",
+            "url": "http://localhost:1313/mathematiques/decomposition-de-cholesky/",
             "date": "18 Avril 2020"
         },{
             "title": "Convertir un entier non signé décimal en Binaire",
-            "url": "https://devmath.fr/informatique/convertir-un-entier-non-signe-decimal-en-binaire/",
+            "url": "http://localhost:1313/informatique/convertir-un-entier-non-signe-decimal-en-binaire/",
             "date": "15 Avril 2020"
         },{
             "title": "Convertir un nombre décimal en Float",
-            "url": "https://devmath.fr/informatique/convertir-un-nombre-decimal-en-float/",
+            "url": "http://localhost:1313/informatique/convertir-un-nombre-decimal-en-float/",
             "date": "12 Avril 2020"
         },{
             "title": "L'intégrale de x^i dx",
-            "url": "https://devmath.fr/mathematiques/integrale-de-xi-dx/",
+            "url": "http://localhost:1313/mathematiques/integrale-de-xi-dx/",
             "date": "12 Avril 2020"
         },{
             "title": "Conditionnement d'une Matrice",
-            "url": "https://devmath.fr/informatique/conditionnement-dune-matrice/",
+            "url": "http://localhost:1313/informatique/conditionnement-dune-matrice/",
             "date": "11 Avril 2020"
         },{
             "title": "Wsl2",
-            "url": "https://devmath.fr/informatique/wsl2/",
+            "url": "http://localhost:1313/informatique/wsl2/",
             "date": "11 Avril 2020"
         },{
             "title": "",
-            "url": "https://devmath.fr/informatique/a/",
+            "url": "http://localhost:1313/informatique/a/",
             "date": "1 Janvier 1"
         },{
             "title": "Confidentialité des données",
-            "url": "https://devmath.fr/page/confidentialite/",
+            "url": "http://localhost:1313/page/confidentialite/",
             "date": "1 Janvier 1"
         },{
             "title": "Contact",
-            "url": "https://devmath.fr/page/contact/",
+            "url": "http://localhost:1313/page/contact/",
             "date": "1 Janvier 1"
         }]}

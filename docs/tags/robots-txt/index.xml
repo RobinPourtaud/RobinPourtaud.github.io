@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>robots-txt on DevMath.fr</title>
-    <link>https://devmath.fr/tags/robots-txt/</link>
+    <link>http://localhost:1313/tags/robots-txt/</link>
     <description>Recent content in robots-txt on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/robots-txt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/robots-txt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)</title>
-      <link>https://devmath.fr/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</link>
+      <link>http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</guid>
+      <guid>http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</guid>
       <description>Nb : Ce tutoriel nécessite un fichier .htaccess, il sera donc à destination des utilisateurs de Apache2 et non de Nginx.
 Modification et création de robots.txt Un fichier robots.txt est un fichier utilisé par de nombreux moteurs de recherche afin d&amp;rsquo;indiquer si un site (ou une page / un document) doit être référencé ou non.
 Pour ce tutoriel, prenons 2 site web : &amp;ldquo;site.com&amp;rdquo; et &amp;ldquo;no-ref.site.com&amp;rdquo;. Comme leurs noms le suggèrent, on souhaite que le site &amp;ldquo;site.</description>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>matrice on DevMath.fr</title>
-    <link>https://devmath.fr/tags/matrice/</link>
+    <link>http://localhost:1313/tags/matrice/</link>
     <description>Recent content in matrice on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/matrice/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/matrice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modifier la Bitmap d&#39;une image avec Python 3</title>
-      <link>https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
+      <link>http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
+      <guid>http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</guid>
       <description>Télécharger une image Je vous propose de modifier cette image image.
 Chat Surpris  
 Il n&amp;rsquo;est pas nécessaire de la télécharger, je vais vous montrer comment le faire avec Python directement.
@@ -23,10 +23,10 @@ from PIL import Image import requests from io import BytesIO Url = &amp;#39;http
     
     <item>
       <title>Opération sur les matrices avec numpy en Python</title>
-      <link>https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
+      <link>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
+      <guid>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</guid>
       <description>Importer numpy Avant toute chose, pour effectuer des calculs scientifiques, vous devez importer la bibliothèque numpy.
 import numpy as np Addition et Multiplication de Matrices M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) M2 = np.array([ [1.,1.,1.], [1.,2.,1.], [1.,1.,1.]]) MResultAdd = np.add(M1,M2) MResultSous = np.subtract(M1,M2) MResultMulti = M1.dot(M2) Trace de Matrices La trace d&amp;rsquo;une matrice est la somme des valeurs de la diagonale de la matrice.
 M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le calcul du déterminant d&amp;rsquo;une matrice est un outil nécessaire en algèbre linéaire afin de vérifier une inversibilité ou pour calculer l&amp;rsquo;inverse d&amp;rsquo;une matrice.</description>
@@ -34,10 +34,10 @@ M1 = np.array([ [1.,1.,1.], [1.,3.,1.], [1.,1.,1.]]) Déterminant de Matrices Le
     
     <item>
       <title>La Factorisation de Cholesky</title>
-      <link>https://devmath.fr/mathematiques/decomposition-de-cholesky/</link>
+      <link>http://localhost:1313/mathematiques/decomposition-de-cholesky/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/mathematiques/decomposition-de-cholesky/</guid>
+      <guid>http://localhost:1313/mathematiques/decomposition-de-cholesky/</guid>
       <description>Définition : Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que $A = L^tL$. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).
 Vérification : Pour calculer la décomposition de A, nous devons vérifier que A est bien symétrique définie positive :
 Symétrique : Une matrice A est dite symétrique si $L = ^tL$. C&amp;rsquo;est à dire : $$\forall i,j \in \dim{A}, A_{i,j} = A_{j,i}$$</description>

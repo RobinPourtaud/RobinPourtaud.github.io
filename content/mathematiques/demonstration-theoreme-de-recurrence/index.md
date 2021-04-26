@@ -8,15 +8,15 @@ tags:
   - "Demonstration"
   - "Preuve"
 description: "Le raisonnement inductif est un classique des mathématiques, c'est pourquoi il est important de bien comprendre son fonctionnement pour ensuite bien l'appliquer. Cet article présente la démonstration du théorème de récurrence par l'absurde."
-draft: True
+
 ---
 
 ## Définition
 
 Soit $\mathbb{N}$ muni de son ordre usuel. 
 Soit $A(n)$ une assertion définie $\forall n \in \mathbb{N}$ et vérifiant : 
-- $A(n_0)$ vraie
-- $\forall n \geq n_0$, $A(n)$ vraie $\Rightarrow A(n+1)$ vraie.
+- Si $A(n_0)$ est vraie
+- Si $\forall n \geq n_0$, $A(n)$ vraie $\Rightarrow A(n+1)$ vraie.
 
 Alors $\forall n \geq n_0$, $A(n)$ vraie.
 

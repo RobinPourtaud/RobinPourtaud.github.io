@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>analyse on DevMath.fr</title>
-    <link>https://devmath.fr/tags/analyse/</link>
+    <link>http://localhost:1313/tags/analyse/</link>
     <description>Recent content in analyse on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/analyse/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/analyse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Résolution complexe : cos(x)sin(x)=1</title>
-      <link>https://devmath.fr/mathematiques/resolution-complexe-cosxsinx1/</link>
+      <link>http://localhost:1313/mathematiques/resolution-complexe-cosxsinx1/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/mathematiques/resolution-complexe-cosxsinx1/</guid>
+      <guid>http://localhost:1313/mathematiques/resolution-complexe-cosxsinx1/</guid>
       <description>Exercice : Dans $\mathbb{R}$ et dans $\mathbb{C}$, résoudre :
 $$\cos x \sin x = 1$$
 Résolution : 1 - Recherche d&amp;rsquo;une solution dans R Soit la formule de trigonométrie suivante :
@@ -30,10 +30,10 @@ Cette équation n&amp;rsquo;admet donc pas de solution dans R.
     
     <item>
       <title>L&#39;intégrale de x^i dx</title>
-      <link>https://devmath.fr/mathematiques/integrale-de-xi-dx/</link>
+      <link>http://localhost:1313/mathematiques/integrale-de-xi-dx/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/mathematiques/integrale-de-xi-dx/</guid>
+      <guid>http://localhost:1313/mathematiques/integrale-de-xi-dx/</guid>
       <description>Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
 &amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.
 $x^i$ est de la forme $x^b$, $\forall b \in \mathbb{C}$. Or, on sait que :
@@ -45,10 +45,10 @@ Méthode 2 : Pour le fun Cette méthode n&amp;rsquo;est absolument pas nécessai
     
     <item>
       <title>Conditionnement d&#39;une Matrice</title>
-      <link>https://devmath.fr/informatique/conditionnement-dune-matrice/</link>
+      <link>http://localhost:1313/informatique/conditionnement-dune-matrice/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/informatique/conditionnement-dune-matrice/</guid>
+      <guid>http://localhost:1313/informatique/conditionnement-dune-matrice/</guid>
       <description>Définition Un système linéaire peut s&amp;rsquo;écrire sous forme de matrice par une équation du type AX=B. On dit de la matrice A qu&amp;rsquo;elle est mal conditionnée si une petite variation de B entraîne une grande variation de X.
 Pour une matrice inversible A, sa fonction de conditionnement est :
 $$\kappa(A)=\Vert A \Vert \Vert A^{-1} \Vert$$
