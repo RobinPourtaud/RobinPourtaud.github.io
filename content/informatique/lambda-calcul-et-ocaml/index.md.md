@@ -10,7 +10,15 @@ tags:
 description: ""
 ---
 
+## Logique en lambda calcul en OCaml
+### Booléens
+
+### Portes logiques
+
+#### Porte logique "Et"
+#### Porte logique "
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1Njg4ODM1XX0=
+eyJoaXN0b3J5IjpbLTExMjQ1OTU1NDZdfQ==
 -->
