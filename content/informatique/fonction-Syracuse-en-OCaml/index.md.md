@@ -42,6 +42,7 @@ let rec printSyracuse n =
 	| _ -> printSyracuse (3*n+1);;
 ```
 ### Calcul du temps de vol
+Le temps de vol est définir comme le plus petit indice $n$ tel que $u_n=1$. 
 ### Calcul du temps de vol en altitude
 ### Calcul de l'altitude maximale
 
@@ -50,5 +51,5 @@ let rec printSyracuse n =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODMzMTIwNF19
+eyJoaXN0b3J5IjpbMTYzNDI5MTkzMywtODk4MzMxMjA0XX0=
 -->
