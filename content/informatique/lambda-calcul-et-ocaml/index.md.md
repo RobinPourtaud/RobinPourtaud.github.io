@@ -9,35 +9,34 @@ tags:
   - "OCaml"
 description: ""
 ---
-## Commentaire : 
-Tout au long de ce tutoriel, nous utiliserons une notation non conventionnel pour écrire nos fonctions lambda en OCaml. Toutes nos fonctions "lambda" débuterons par "_" 
+>Tout au long de ce tutoriel, nous utiliserons une notation non conventionnel pour écrire nos fonctions lambda en OCaml. Toutes nos fonctions "lambda" débuterons par "_" (par exemple "_true").
 ## Logique en lambda calcul en OCaml
 ### Booléens
 #### True
 ```ocaml
-let true_ = fun v f = v;;
+let _true = fun t f = t;;
 ```
 #### False
 ```ocaml
-let false_ = fun v f = f;;
+let _false = fun t f = f;;
 ```
 ### Condition en OCaml
 
 ```ocaml
-let ifthenelse_ = fun b v f = b v f;;
+let _ifthenelse = fun b t f = b t f;;
 ```
 ### Portes logiques
 #### Porte logique "NOT"
 ```ocaml
-let not_ = fun a = ifthenelse_ a false_ true_;;
+let not_ = fun a = _ifthenelse a false_ true_;;
 ```
 #### Porte logique "AND"
 ```ocaml
-let not_ = fun a = ifthenelse_ a false_ true_;;
+let not_ = fun a = _ifthenelse a false_ true_;;
 ```
 #### Porte logique "OR"
 ```ocaml
-let not_ = fun a = ifthenelse_ a false_ true_;;
+let not_ = fun a = _ifthenelse a false_ true_;;
 ```
 
 
@@ -56,5 +55,5 @@ let zero_ = fun a = ifthenelse_ a false_ true_;;
 ### Les booléens
 ### Les entiers 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2MzQxMjczXX0=
+eyJoaXN0b3J5IjpbMzU2MTY5NTBdfQ==
 -->
