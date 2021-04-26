@@ -25,7 +25,7 @@ let rec syracuse n =
 	| n when n mod 2 = 0 -> syracuse(n/2)
 	| _ -> syracuse (3*n+1);;
 ```
-Conformément à la conjecture, cette fonction retourne à priori toujours la valeur 1 : 
+Conformément à la conjecture, cette fonction retourne à priori "toujours" la valeur 1 : 
 ```ocaml
 syracuse 54;;
 - : int = 1
@@ -39,5 +39,5 @@ syracuse 54;;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTc4MzkxMF19
+eyJoaXN0b3J5IjpbLTc1MTkxNDgzMF19
 -->
