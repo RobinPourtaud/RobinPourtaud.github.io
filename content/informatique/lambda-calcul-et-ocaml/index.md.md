@@ -20,8 +20,13 @@ description: ""
 #### Porte logique "AND"
 #### Porte logique "OR"
 
-## Condition
+## Condition en OCaml
+
+##  Arithmétiques 
+
+### Fonction successeur 
+### Fonction 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDcwNDc4MzZdfQ==
+eyJoaXN0b3J5IjpbMjMxNTk1MjM1XX0=
 -->
