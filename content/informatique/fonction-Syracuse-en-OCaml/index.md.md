@@ -35,7 +35,7 @@ Pour afficher la suite, il suffit d'afficher n à chaque appel de la fonctions :
 ```ocaml
 let rec printSyracuse n = 
 	print_int n; 
-	print_string ' ';
+	print_string " ";
 	match n with 
 	1 -> 1
 	| n when n mod 2 = 0 -> printSyracuse(n/2)
@@ -50,5 +50,5 @@ let rec printSyracuse n =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNDMyMDMzOF19
+eyJoaXN0b3J5IjpbLTg5ODMzMTIwNF19
 -->
