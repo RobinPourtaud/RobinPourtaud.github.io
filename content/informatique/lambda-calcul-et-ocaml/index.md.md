@@ -45,6 +45,8 @@ let not_ = fun a = _ifthenelse a false_ true_;;
 ```ocaml
 let zero_ = fun a = ifthenelse_ a false_ true_;;
 ```
+
+> Comme vous pouvez le constater, la définition du "zero" est analogue à la définition du "false"
 ### Fonction successeur 
 ### Addition
 ### Multiplication 
@@ -53,7 +55,8 @@ let zero_ = fun a = ifthenelse_ a false_ true_;;
 
 ## Interface entre notre lambda calcul et OCaml
 ### Les booléens
+#
 ### Les entiers 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2MTY5NTBdfQ==
+eyJoaXN0b3J5IjpbMTMzMTE4MDE5MV19
 -->
