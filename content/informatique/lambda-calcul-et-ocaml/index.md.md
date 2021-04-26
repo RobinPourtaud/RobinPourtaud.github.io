@@ -39,7 +39,10 @@ let not_ = fun a = _ifthenelse a false_ true_;;
 let not_ = fun a = _ifthenelse a false_ true_;;
 ```
 ## Couples
-Afin de définir la f
+Afin de définir la fonction prédécesseur plus aisément, nous auront besoin de créer des couples de valeurs. 
+### Création de la paire
+### Accès à la première valeur
+### Accès à la seconde valeur
 
 ##  Arithmétiques 
 ### Définition de zéro
@@ -79,5 +82,5 @@ let _boolToOcaml (b = _ifthenelse b true false;;
 ## Exemple d'utilisation 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzIxNTQyMDddfQ==
+eyJoaXN0b3J5IjpbMTUyNjk1ODkzNV19
 -->
