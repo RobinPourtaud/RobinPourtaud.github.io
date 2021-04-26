@@ -33,13 +33,13 @@ syracuse 54;;
 ### Affichage de la suite 
 Pour afficher la suite, il suffit d'afficher n à chaque appel de la fonctions : 
 ```ocaml
-let rec syracuse n = 
+let rec printSyracuse n = 
 	print_int n; 
 	print_string ' ';
 	match n with 
 	1 -> 1
-	| n when n mod 2 = 0 -> syracuse(n/2)
-	| _ -> syracuse (3*n+1);;
+	| n when n mod 2 = 0 -> printSyracuse(n/2)
+	| _ -> printSyracuse (3*n+1);;
 ```
 ### Calcul du temps de vol
 ### Calcul du temps de vol en altitude
@@ -50,5 +50,5 @@ let rec syracuse n =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjkwMTY2M119
+eyJoaXN0b3J5IjpbLTMxNDMyMDMzOF19
 -->
