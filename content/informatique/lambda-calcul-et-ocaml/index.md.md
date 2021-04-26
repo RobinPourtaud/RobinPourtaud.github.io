@@ -38,7 +38,8 @@ let not_ = fun a = _ifthenelse a false_ true_;;
 ```ocaml
 let not_ = fun a = _ifthenelse a false_ true_;;
 ```
-
+## Couples
+Afin de définir la f
 
 ##  Arithmétiques 
 ### Définition de zéro
@@ -53,10 +54,10 @@ let zero_ = fun a = ifthenelse_ a false_ true_;;
 ### Exponentiel
 ### Itération de Knuth
 
+
+
 ## Interface entre notre lambda calcul et OCaml
-
-
-C'est pourquoi il est utile de définir 4 fonctions permettant la traduction de notre "langage" 
+C'est pourquoi il est utile de définir 4 fonctions facilitant notre interaction avec nos autres fonctions. 
 ### Les entiers
 #### "Nombre OCaml" vers "Nombre Lambda"
 ```ocaml 
@@ -75,7 +76,8 @@ let  _ocamlToBool (b  : bool) =  if b then _true else _false ;;
 ```ocaml 
 let _boolToOcaml (b = _ifthenelse b true false;;
 ```
+## Exemple d'utilisation 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDQ3MDA0XX0=
+eyJoaXN0b3J5IjpbLTEzNzIxNTQyMDddfQ==
 -->
