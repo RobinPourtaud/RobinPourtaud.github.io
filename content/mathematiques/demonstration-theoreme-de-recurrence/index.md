@@ -46,6 +46,3 @@ Par l'ordre usuel sur $\mathbb{N}$, $A(p)$ l'est aussi.
 Nous ne pouvons avoir $p\in P$ et $p \in \bar{P}^\mathbb{N}$ : **Contradiction**
 
 Nous avons donc bien $P = \mathbb{N}$ et donc le théorème de récurrence !  
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY0NjMyNzddfQ==
--->
