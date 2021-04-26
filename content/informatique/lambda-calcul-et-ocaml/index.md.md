@@ -54,15 +54,25 @@ let zero_ = fun a = ifthenelse_ a false_ true_;;
 ### Itération de Knuth
 
 ## Interface entre notre lambda calcul et OCaml
-### Les booléens
+### Les entiers
 #### "Nombre OCaml" vers "Nombre Lambda"
 ```ocaml 
 let rec _ocamlToNumber n = if n = 0 then _zero else _succ (_ocamlToNumber (n-1));;
 ```
 #### "Nombre Lambda" vers "Nombre OCaml"
 ```ocaml 
+let  _numberToOcaml  c  = c succ 0 ;;
+```
+### Les booléens
+#### "Booléens OCaml" vers "Booléens Lambda"
+```ocaml 
+let  _ocamlToBool (b  : bool) =  if b then _true else _false ;;
+```
+#### "Booléens Lambda" vers "Booléens OCaml"
+```ocaml 
+let  _numberToOcaml  c  = c succ 0 ;;let _boolToOcaml (b = _ifthenelse b true false;;
+```
 
-### Les entiers 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODc4NzM2Ml19
+eyJoaXN0b3J5IjpbLTE1Mzc3NTk1MjBdfQ==
 -->
