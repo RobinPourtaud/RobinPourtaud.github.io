@@ -54,6 +54,9 @@ let zero_ = fun a = ifthenelse_ a false_ true_;;
 ### Itération de Knuth
 
 ## Interface entre notre lambda calcul et OCaml
+
+
+C'est pourquoi il est utile de définir 4 fonctions permettant la traduction de notre "langage" 
 ### Les entiers
 #### "Nombre OCaml" vers "Nombre Lambda"
 ```ocaml 
@@ -70,9 +73,9 @@ let  _ocamlToBool (b  : bool) =  if b then _true else _false ;;
 ```
 #### "Booléens Lambda" vers "Booléens OCaml"
 ```ocaml 
-let  _numberToOcaml  c  = c succ 0 ;;let _boolToOcaml (b = _ifthenelse b true false;;
+let _boolToOcaml (b = _ifthenelse b true false;;
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc3NTk1MjBdfQ==
+eyJoaXN0b3J5IjpbLTQwMDQ3MDA0XX0=
 -->
