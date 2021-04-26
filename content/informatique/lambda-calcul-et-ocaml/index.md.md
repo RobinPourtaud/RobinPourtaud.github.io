@@ -13,8 +13,13 @@ description: ""
 ## Logique en lambda calcul en OCaml
 ### Booléens
 #### True
+```ocaml
+let true_ = fun v f = v;;
+```
 #### False
-
+```ocaml
+let false_ = fun v f = f;;
+```
 ### Portes logiques
 #### Porte logique "NOT"
 #### Porte logique "AND"
@@ -34,5 +39,5 @@ description: ""
 ### Les booléens
 ### Les entiers 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5NjI2NjgwXX0=
+eyJoaXN0b3J5IjpbMjQwNzAwMjY1XX0=
 -->
