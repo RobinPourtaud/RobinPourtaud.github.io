@@ -55,8 +55,12 @@ let zero_ = fun a = ifthenelse_ a false_ true_;;
 
 ## Interface entre notre lambda calcul et OCaml
 ### Les booléens
-#
+#### "Booléen Ocaml" vers "Booléen Lambda"
+```ocaml 
+let rec _ocamlToNumber n = if n = 0 then _zero else _succ (_ocamlToNumber (n-1));;
+```
+#### "Booléen OCaml" vers "Boolée
 ### Les entiers 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTE4MDE5MV19
+eyJoaXN0b3J5IjpbNzAyNzUxMzYxXX0=
 -->
