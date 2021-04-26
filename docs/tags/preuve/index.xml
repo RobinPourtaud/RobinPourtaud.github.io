@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preuve on DevMath.fr</title>
+    <link>https://devmath.fr/tags/preuve/</link>
+    <description>Recent content in Preuve on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/preuve/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Démonstration - Théorème de récurrence</title>
+      <link>https://devmath.fr/mathematiques/demonstration-theoreme-de-recurrence/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/mathematiques/demonstration-theoreme-de-recurrence/</guid>
+      <description>Définition Soit $\mathbb{N}$ muni de son ordre usuel. Soit $A(n)$ une assertion définie $\forall n \in \mathbb{N}$ :
+ Si $A(n_0)$ vraie Si $\forall n \geq n_0$, $A(n)$ vraie $\Rightarrow A(n+1)$ vraie.  Alors $\forall n \geq n_0$, $A(n)$ vraie.
+Démonstration Montrons ce théorème par l&amp;rsquo;absurde.
+Soit $P \subseteq \mathbb{N}$ tel que $P = {n\in (\mathbb{N},\leq _\mathbb{N}) ;| ; A(n) ,\text{vraie}}$. Montrons que $P = \mathbb{N}$ :
+ Montrer que $P = \mathbb{N}$ reviens à montrer que A(n) est vrai pour tout n !</description>
+    </item>
+    
+  </channel>
+</rss>

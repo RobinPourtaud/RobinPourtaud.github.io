@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html ⚡ lang="fr">
-	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+	<head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <title>Exercice corrigé : Simplification de formules Booléennes</title>
     
 <meta name="description" content="A travers cet exercice, nous allons vous montrer comment simplifier une expression logique booléenne algébriquement, autrement dit sans avoir recours à un tableau de Karnaugh ou à la méthode de Quine. Pour pouvoir simplifier ces formules, vous devez avoir en tête un ensemble de propriétés sur les opérateurs logiques en plus du théorème de Morgan (que vous pouvez trouver facilement sur la page wikipedia de l&#39;algèbre de bool)." />
-<link rel="canonical" href="http://localhost:1313/informatique/exercice-corrige-simplification-de-formules-booleennes/" >
-<link rel="sitemap" href="http://localhost:1313/sitemap.xml" type="application/xml" /><meta property="og:title" content="Exercice corrigé : Simplification de formules Booléennes">
-<meta property="og:url" content="http://localhost:1313/informatique/exercice-corrige-simplification-de-formules-booleennes/">
+<link rel="canonical" href="https://devmath.fr/informatique/exercice-corrige-simplification-de-formules-booleennes/" >
+<link rel="sitemap" href="https://devmath.fr/sitemap.xml" type="application/xml" /><meta property="og:title" content="Exercice corrigé : Simplification de formules Booléennes">
+<meta property="og:url" content="https://devmath.fr/informatique/exercice-corrige-simplification-de-formules-booleennes/">
 <meta property="og:description" content="A travers cet exercice, nous allons vous montrer comment simplifier une expression logique booléenne algébriquement, autrement dit sans avoir recours à un tableau de Karnaugh ou à la méthode de Quine. Pour pouvoir simplifier ces formules, vous devez avoir en tête un ensemble de propriétés sur les opérateurs logiques en plus du théorème de Morgan (que vous pouvez trouver facilement sur la page wikipedia de l&#39;algèbre de bool).">
-<meta property="og:image" content="http://localhost:1313/logo.png">
+<meta property="og:image" content="https://devmath.fr/logo.png">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content=""><meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Exercice corrigé : Simplification de formules Booléennes">
-<meta name="twitter:url" content="http://localhost:1313/informatique/exercice-corrige-simplification-de-formules-booleennes/">
+<meta name="twitter:url" content="https://devmath.fr/informatique/exercice-corrige-simplification-de-formules-booleennes/">
 <meta name="twitter:description" content="A travers cet exercice, nous allons vous montrer comment simplifier une expression logique booléenne algébriquement, autrement dit sans avoir recours à un tableau de Karnaugh ou à la méthode de Quine. Pour pouvoir simplifier ces formules, vous devez avoir en tête un ensemble de propriétés sur les opérateurs logiques en plus du théorème de Morgan (que vous pouvez trouver facilement sur la page wikipedia de l&#39;algèbre de bool).">
-<meta name="twitter:image" content="http://localhost:1313/logo.png">
+<meta name="twitter:image" content="https://devmath.fr/logo.png">
 <meta name="twitter:site" content=""><meta name="theme-color" content="#333"/>
-<link rel="manifest" href="http://localhost:1313/manifest.json">
-<link rel="icon" href="http://localhost:1313/icons/logo.svg" sizes="any" type="image/svg+xml"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<link rel="manifest" href="https://devmath.fr/manifest.json">
+<link rel="icon" href="https://devmath.fr/icons/logo.svg" sizes="any" type="image/svg+xml"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
 <noscript>
     <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
 </noscript>
@@ -30,8 +30,8 @@
     
 </style></head>
 	<body><amp-install-serviceworker
-  src="http://localhost:1313/sw.js"
-  data-iframe-src="http://localhost:1313/install-sw.html"
+  src="https://devmath.fr/sw.js"
+  data-iframe-src="https://devmath.fr/install-sw.html"
   layout="nodisplay">
 </amp-install-serviceworker>
   <amp-analytics type="gtag" data-credentials="include">
@@ -51,6 +51,10 @@
 
 
 
+
+  
+  
+  
 
   
   
@@ -80,7 +84,7 @@
           "@type": "ListItem",
           "position":  1 ,
           "item": {
-            "@id": "http:\/\/localhost:1313\/",
+            "@id": "https:\/\/devmath.fr",
             "name": "Accueil"
           }
         }
@@ -90,7 +94,7 @@
           "@type": "ListItem",
           "position":  2 ,
           "item": {
-            "@id": "http:\/\/localhost:1313\/informatique\/",
+            "@id": "https:\/\/devmath.fr\/informatique\/",
             "name": "Informatique"
           }
         }
@@ -100,7 +104,7 @@
           "@type": "ListItem",
           "position":  3 ,
           "item": {
-            "@id": "http:\/\/localhost:1313\/informatique\/exercice-corrige-simplification-de-formules-booleennes\/",
+            "@id": "https:\/\/devmath.fr\/informatique\/exercice-corrige-simplification-de-formules-booleennes\/",
             "name": "Exercice corrige simplification de formules booleennes"
           }
         }
@@ -110,8 +114,8 @@
   {
     "@context":"http://schema.org",
     "@type": "BlogPosting",
-    "image": "http:\/\/localhost:1313\/",
-    "url": "http:\/\/localhost:1313\/informatique\/exercice-corrige-simplification-de-formules-booleennes\/",
+    "image": "https:\/\/devmath.fr",
+    "url": "https:\/\/devmath.fr\/informatique\/exercice-corrige-simplification-de-formules-booleennes\/",
     "headline": "Exercice corrigé : Simplification de formules Booléennes",
     "alternativeHeadline": "Exercice corrigé : Simplification de formules Booléennes",
     "dateCreated": "2020-11-24T00:00:00",
@@ -129,21 +133,21 @@
     "author": {
       "@type": "Person",
       "name": "",
-      "url": "http:\/\/localhost:1313\/",
-      "image": "http:\/\/localhost:1313\/",
+      "url": "https:\/\/devmath.fr",
+      "image": "https:\/\/devmath.fr",
       "description": ""
     },
     "creator": {
       "@type": "Person",
       "name": "",
-      "url": "http:\/\/localhost:1313\/",
-      "image": "http:\/\/localhost:1313\/",
+      "url": "https:\/\/devmath.fr",
+      "image": "https:\/\/devmath.fr",
       "description": ""
     },
     "publisher": {
       "@type": "Organization",
       "name": "amperage",
-      "url": "http:\/\/localhost:1313\/",
+      "url": "https:\/\/devmath.fr",
       "logo": {
         "@type": "ImageObject",
         "url": "\/icons\/logo.svg",
@@ -151,12 +155,12 @@
         "height":"60"
       }
     },
-    "mainEntityOfPage": "http:\/\/localhost:1313\/informatique\/exercice-corrige-simplification-de-formules-booleennes\/",
+    "mainEntityOfPage": "https:\/\/devmath.fr\/informatique\/exercice-corrige-simplification-de-formules-booleennes\/",
     "keywords": "null",
     "genre": "[\"logique\"]",
     "articleSection": "Informatiques"
   }
-</script><header class="header"><a class="header__title" data-rel="prefetch" href="http://localhost:1313/" aria-label="Retourner à la page d&#39;accueil">
+</script><header class="header"><a class="header__title" data-rel="prefetch" href="https://devmath.fr" aria-label="Retourner à la page d&#39;accueil">
     <div class="header__title__logo"><amp-img layout="fixed" height="40" width="40" src="/icons/logo.svg"></amp-img></div>
     <div class="header__title__text">DevMath</div>
 </a>
@@ -175,7 +179,7 @@
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/logique/" data-rel="prefetch">logique</a></li>
+                    <li><a href="https://devmath.fr/tags/logique/" data-rel="prefetch">logique</a></li>
                 
             
         </ul>
@@ -324,7 +328,7 @@
             
                 
                 
-                    <a href="http://localhost:1313/tags/logique/" data-rel="prefetch"><li>logique</li></a>
+                    <a href="https://devmath.fr/tags/logique/" data-rel="prefetch"><li>logique</li></a>
                 
             
         </ul>
@@ -332,7 +336,7 @@
     <section class="author">
         
             <amp-img class="author__image"
-                src="http://localhost:1313/images/pdp.jpg"
+                src="https://devmath.fr/images/pdp.jpg"
                 layout="fixed" height="70" width="70"></amp-img>
         
         <div class="author__right">
@@ -372,7 +376,7 @@
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/logique/" data-rel="prefetch">logique</a></li>
+                    <li><a href="https://devmath.fr/tags/logique/" data-rel="prefetch">logique</a></li>
                 
             
         </ul>

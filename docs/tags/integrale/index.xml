@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>integrale on DevMath.fr</title>
-    <link>http://localhost:1313/tags/integrale/</link>
+    <link>https://devmath.fr/tags/integrale/</link>
     <description>Recent content in integrale on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/integrale/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/integrale/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DI Method / Intégration tabulaire</title>
-      <link>http://localhost:1313/mathematiques/di-method-integration-tabulaire/</link>
+      <link>https://devmath.fr/mathematiques/di-method-integration-tabulaire/</link>
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mathematiques/di-method-integration-tabulaire/</guid>
+      <guid>https://devmath.fr/mathematiques/di-method-integration-tabulaire/</guid>
       <description>Pour introduire la DI Method, nous nous servirons de 2 exemples :
 Exemple 1 On souhaite résoudre l&amp;rsquo;intégrale :
 $$\int cos(x) x^2 dx$$
@@ -23,10 +23,10 @@ Dans la colonne signe, nous alternons le signe positif et négatif.</description
     
     <item>
       <title>Trouvez l&#39;erreur ! Mathématiques Collège-Lycée</title>
-      <link>http://localhost:1313/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</link>
+      <link>https://devmath.fr/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</guid>
+      <guid>https://devmath.fr/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</guid>
       <description>Note : Toutes les variables appartiennent à $\mathbb{R}$.
 Solutions à la fin !
 Niveau 1 : Un bon début ! Ici, chaque ligne correspond à la ligne précédente à laquelle on ajoute ce qui est écrit à sa droite. Surtout, prenez votre temps ! Ce n&amp;rsquo;est pas un exercice compliqué, rappelez-vous juste de toutes les règles apprises au collège :).
@@ -35,10 +35,10 @@ Niveau 1 : Un bon début ! Ici, chaque ligne correspond à la ligne précédente
     
     <item>
       <title>L&#39;intégrale de x^i dx</title>
-      <link>http://localhost:1313/mathematiques/integrale-de-xi-dx/</link>
+      <link>https://devmath.fr/mathematiques/integrale-de-xi-dx/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mathematiques/integrale-de-xi-dx/</guid>
+      <guid>https://devmath.fr/mathematiques/integrale-de-xi-dx/</guid>
       <description>Méthode 1 : Traditionnelle et Rapide Précision pour le reste de l&amp;rsquo;article :
 &amp;ldquo;C&amp;rdquo; est une constante polymorphe quelconque. J&amp;rsquo;utiliserais plusieurs fois &amp;ldquo;+ C&amp;rdquo;, mais les différents C ne sont pas forcément identiques.
 $x^i$ est de la forme $x^b$, $\forall b \in \mathbb{C}$. Or, on sait que :

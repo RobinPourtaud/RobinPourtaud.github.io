@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html ⚡ lang="fr">
-	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+	<head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <title>Opération sur les matrices avec numpy en Python</title>
     
 <meta name="description" content="Effectuer des calculs sur les matrices est, souvent, une opération fastidieuse et source de nombreuses erreurs. L&#39;algorithme naïf de multiplication de matrice possède, par exemple, une complexité cubique, rendant le calcul manuel de grandes matrices vite impossible. Utiliser un ordinateur pour effectuer ce genre de calculs me semble donc une bonne chose à faire. Pour aujourd&#39;hui, je vais vous présenter quelques fonctions en python, permettant d&#39;effectuer des opérations sur les matrices en juste quelques lignes de codes." />
-<link rel="canonical" href="http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/" >
-<link rel="sitemap" href="http://localhost:1313/sitemap.xml" type="application/xml" /><meta property="og:title" content="Opération sur les matrices avec numpy en Python">
-<meta property="og:url" content="http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/">
+<link rel="canonical" href="https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/" >
+<link rel="sitemap" href="https://devmath.fr/sitemap.xml" type="application/xml" /><meta property="og:title" content="Opération sur les matrices avec numpy en Python">
+<meta property="og:url" content="https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/">
 <meta property="og:description" content="Effectuer des calculs sur les matrices est, souvent, une opération fastidieuse et source de nombreuses erreurs. L&#39;algorithme naïf de multiplication de matrice possède, par exemple, une complexité cubique, rendant le calcul manuel de grandes matrices vite impossible. Utiliser un ordinateur pour effectuer ce genre de calculs me semble donc une bonne chose à faire. Pour aujourd&#39;hui, je vais vous présenter quelques fonctions en python, permettant d&#39;effectuer des opérations sur les matrices en juste quelques lignes de codes.">
-<meta property="og:image" content="http://localhost:1313/logo.png">
+<meta property="og:image" content="https://devmath.fr/logo.png">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content=""><meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Opération sur les matrices avec numpy en Python">
-<meta name="twitter:url" content="http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/">
+<meta name="twitter:url" content="https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/">
 <meta name="twitter:description" content="Effectuer des calculs sur les matrices est, souvent, une opération fastidieuse et source de nombreuses erreurs. L&#39;algorithme naïf de multiplication de matrice possède, par exemple, une complexité cubique, rendant le calcul manuel de grandes matrices vite impossible. Utiliser un ordinateur pour effectuer ce genre de calculs me semble donc une bonne chose à faire. Pour aujourd&#39;hui, je vais vous présenter quelques fonctions en python, permettant d&#39;effectuer des opérations sur les matrices en juste quelques lignes de codes.">
-<meta name="twitter:image" content="http://localhost:1313/logo.png">
+<meta name="twitter:image" content="https://devmath.fr/logo.png">
 <meta name="twitter:site" content=""><meta name="theme-color" content="#333"/>
-<link rel="manifest" href="http://localhost:1313/manifest.json">
-<link rel="icon" href="http://localhost:1313/icons/logo.svg" sizes="any" type="image/svg+xml"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<link rel="manifest" href="https://devmath.fr/manifest.json">
+<link rel="icon" href="https://devmath.fr/icons/logo.svg" sizes="any" type="image/svg+xml"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
 <noscript>
     <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
 </noscript>
@@ -30,8 +30,8 @@
     
 </style></head>
 	<body><amp-install-serviceworker
-  src="http://localhost:1313/sw.js"
-  data-iframe-src="http://localhost:1313/install-sw.html"
+  src="https://devmath.fr/sw.js"
+  data-iframe-src="https://devmath.fr/install-sw.html"
   layout="nodisplay">
 </amp-install-serviceworker>
   <amp-analytics type="gtag" data-credentials="include">
@@ -51,6 +51,10 @@
 
 
 
+
+  
+  
+  
 
   
   
@@ -80,7 +84,7 @@
           "@type": "ListItem",
           "position":  1 ,
           "item": {
-            "@id": "http:\/\/localhost:1313\/",
+            "@id": "https:\/\/devmath.fr",
             "name": "Accueil"
           }
         }
@@ -90,7 +94,7 @@
           "@type": "ListItem",
           "position":  2 ,
           "item": {
-            "@id": "http:\/\/localhost:1313\/informatique\/",
+            "@id": "https:\/\/devmath.fr\/informatique\/",
             "name": "Informatique"
           }
         }
@@ -100,7 +104,7 @@
           "@type": "ListItem",
           "position":  3 ,
           "item": {
-            "@id": "http:\/\/localhost:1313\/informatique\/operation-sur-les-matrices-avec-numpy-en-python\/",
+            "@id": "https:\/\/devmath.fr\/informatique\/operation-sur-les-matrices-avec-numpy-en-python\/",
             "name": "Operation sur les matrices avec numpy en python"
           }
         }
@@ -110,8 +114,8 @@
   {
     "@context":"http://schema.org",
     "@type": "BlogPosting",
-    "image": "http:\/\/localhost:1313\/",
-    "url": "http:\/\/localhost:1313\/informatique\/operation-sur-les-matrices-avec-numpy-en-python\/",
+    "image": "https:\/\/devmath.fr",
+    "url": "https:\/\/devmath.fr\/informatique\/operation-sur-les-matrices-avec-numpy-en-python\/",
     "headline": "Opération sur les matrices avec numpy en Python",
     "alternativeHeadline": "Opération sur les matrices avec numpy en Python",
     "dateCreated": "2020-05-18T00:00:00",
@@ -129,21 +133,21 @@
     "author": {
       "@type": "Person",
       "name": "",
-      "url": "http:\/\/localhost:1313\/",
-      "image": "http:\/\/localhost:1313\/",
+      "url": "https:\/\/devmath.fr",
+      "image": "https:\/\/devmath.fr",
       "description": ""
     },
     "creator": {
       "@type": "Person",
       "name": "",
-      "url": "http:\/\/localhost:1313\/",
-      "image": "http:\/\/localhost:1313\/",
+      "url": "https:\/\/devmath.fr",
+      "image": "https:\/\/devmath.fr",
       "description": ""
     },
     "publisher": {
       "@type": "Organization",
       "name": "amperage",
-      "url": "http:\/\/localhost:1313\/",
+      "url": "https:\/\/devmath.fr",
       "logo": {
         "@type": "ImageObject",
         "url": "\/icons\/logo.svg",
@@ -151,12 +155,12 @@
         "height":"60"
       }
     },
-    "mainEntityOfPage": "http:\/\/localhost:1313\/informatique\/operation-sur-les-matrices-avec-numpy-en-python\/",
+    "mainEntityOfPage": "https:\/\/devmath.fr\/informatique\/operation-sur-les-matrices-avec-numpy-en-python\/",
     "keywords": "null",
     "genre": "[\"algebre\",\"matrice\",\"numpy\",\"python\"]",
     "articleSection": "Informatiques"
   }
-</script><header class="header"><a class="header__title" data-rel="prefetch" href="http://localhost:1313/" aria-label="Retourner à la page d&#39;accueil">
+</script><header class="header"><a class="header__title" data-rel="prefetch" href="https://devmath.fr" aria-label="Retourner à la page d&#39;accueil">
     <div class="header__title__logo"><amp-img layout="fixed" height="40" width="40" src="/icons/logo.svg"></amp-img></div>
     <div class="header__title__text">DevMath</div>
 </a>
@@ -175,22 +179,22 @@
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/algebre/" data-rel="prefetch">algebre</a></li>
+                    <li><a href="https://devmath.fr/tags/algebre/" data-rel="prefetch">algebre</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/matrice/" data-rel="prefetch">matrice</a></li>
+                    <li><a href="https://devmath.fr/tags/matrice/" data-rel="prefetch">matrice</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/numpy/" data-rel="prefetch">numpy</a></li>
+                    <li><a href="https://devmath.fr/tags/numpy/" data-rel="prefetch">numpy</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/python/" data-rel="prefetch">python</a></li>
+                    <li><a href="https://devmath.fr/tags/python/" data-rel="prefetch">python</a></li>
                 
             
         </ul>
@@ -282,7 +286,7 @@
 </code></pre></div><p>Pour en savoir plus sur le sujet, je vous renvoie vers mon article sur 
 
 
-<a href="http://localhost:1313/mathematiques/valeurs-et-vecteur-propre"
+<a href="https://devmath.fr/mathematiques/valeurs-et-vecteur-propre"
      data-rel="prefetch"
     
     >les valeurs et vecteurs propres</a>.</p>
@@ -295,7 +299,7 @@
 <p>Pour en savoir plus sur l&rsquo;utilité et le calcul de la matrice de Cholesky, 
 
 
-<a href="http://localhost:1313/mathematiques/decomposition-de-cholesky"
+<a href="https://devmath.fr/mathematiques/decomposition-de-cholesky"
      data-rel="prefetch"
     
     >c&rsquo;est ici</a>.</p>
@@ -303,7 +307,7 @@
 <p>Pour définir correctement le conditionnement d&rsquo;une matrice, je vous suggère 
 
 
-<a href="http://localhost:1313/informatiques/conditionnement-dune-matrice"
+<a href="https://devmath.fr/informatiques/conditionnement-dune-matrice"
      data-rel="prefetch"
     
     >mon article sur ce sujet</a>.</p>
@@ -356,22 +360,22 @@
             
                 
                 
-                    <a href="http://localhost:1313/tags/algebre/" data-rel="prefetch"><li>algebre</li></a>
+                    <a href="https://devmath.fr/tags/algebre/" data-rel="prefetch"><li>algebre</li></a>
                 
             
                 
                 
-                    <a href="http://localhost:1313/tags/matrice/" data-rel="prefetch"><li>matrice</li></a>
+                    <a href="https://devmath.fr/tags/matrice/" data-rel="prefetch"><li>matrice</li></a>
                 
             
                 
                 
-                    <a href="http://localhost:1313/tags/numpy/" data-rel="prefetch"><li>numpy</li></a>
+                    <a href="https://devmath.fr/tags/numpy/" data-rel="prefetch"><li>numpy</li></a>
                 
             
                 
                 
-                    <a href="http://localhost:1313/tags/python/" data-rel="prefetch"><li>python</li></a>
+                    <a href="https://devmath.fr/tags/python/" data-rel="prefetch"><li>python</li></a>
                 
             
         </ul>
@@ -379,7 +383,7 @@
     <section class="author">
         
             <amp-img class="author__image"
-                src="http://localhost:1313/images/pdp.jpg"
+                src="https://devmath.fr/images/pdp.jpg"
                 layout="fixed" height="70" width="70"></amp-img>
         
         <div class="author__right">
@@ -419,22 +423,22 @@
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/algebre/" data-rel="prefetch">algebre</a></li>
+                    <li><a href="https://devmath.fr/tags/algebre/" data-rel="prefetch">algebre</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/matrice/" data-rel="prefetch">matrice</a></li>
+                    <li><a href="https://devmath.fr/tags/matrice/" data-rel="prefetch">matrice</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/numpy/" data-rel="prefetch">numpy</a></li>
+                    <li><a href="https://devmath.fr/tags/numpy/" data-rel="prefetch">numpy</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/python/" data-rel="prefetch">python</a></li>
+                    <li><a href="https://devmath.fr/tags/python/" data-rel="prefetch">python</a></li>
                 
             
         </ul>
@@ -442,7 +446,7 @@
 <div class="summary__list">
     
     
-        <a class="summary" href="http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/">
+        <a class="summary" href="https://devmath.fr/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/">
     <div class="summary__top">
         
         
@@ -465,13 +469,13 @@
         
             
             <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
+                src="https://devmath.fr/images/default-info.jpg"
+                srcset="https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
                 "
                 width= 1920 
                 height= 1080 
@@ -493,7 +497,7 @@
     </div>
 </a> 
     
-        <a class="summary" href="http://localhost:1313/mathematiques/decomposition-de-cholesky/">
+        <a class="summary" href="https://devmath.fr/mathematiques/decomposition-de-cholesky/">
     <div class="summary__top">
         
         
@@ -516,13 +520,13 @@
         
             
             <amp-img
-                src="http://localhost:1313/images/default-math.jpg"
-                srcset="http://localhost:1313/images/default-math_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53980_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-math_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53980_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-math_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53980_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-math_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53980_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-math_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53980_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-math_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53980_320x0_resize_q75_box.jpg 320w
+                src="https://devmath.fr/images/default-math.jpg"
+                srcset="https://devmath.fr/images/default-math_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53980_1200x0_resize_q75_box.jpg 1200w,
+                    https://devmath.fr/images/default-math_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53980_900x0_resize_q75_box.jpg 900w,
+                    https://devmath.fr/images/default-math_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53980_800x0_resize_q75_box.jpg 800w,
+                    https://devmath.fr/images/default-math_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53980_640x0_resize_q75_box.jpg 640w,
+                    https://devmath.fr/images/default-math_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53980_480x0_resize_q75_box.jpg 480w,
+                    https://devmath.fr/images/default-math_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53980_320x0_resize_q75_box.jpg 320w
                 "
                 width= 1920 
                 height= 1080 
@@ -544,7 +548,7 @@
     </div>
 </a> 
     
-        <a class="summary" href="http://localhost:1313/informatique/conditionnement-dune-matrice/">
+        <a class="summary" href="https://devmath.fr/informatique/conditionnement-dune-matrice/">
     <div class="summary__top">
         
         
@@ -567,13 +571,13 @@
         
             
             <amp-img
-                src="http://localhost:1313/images/default-mathinf.jpg"
-                srcset="http://localhost:1313/images/default-mathinf_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53697_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-mathinf_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53697_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-mathinf_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53697_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-mathinf_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53697_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-mathinf_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53697_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-mathinf_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53697_320x0_resize_q75_box.jpg 320w
+                src="https://devmath.fr/images/default-mathinf.jpg"
+                srcset="https://devmath.fr/images/default-mathinf_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53697_1200x0_resize_q75_box.jpg 1200w,
+                    https://devmath.fr/images/default-mathinf_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53697_900x0_resize_q75_box.jpg 900w,
+                    https://devmath.fr/images/default-mathinf_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53697_800x0_resize_q75_box.jpg 800w,
+                    https://devmath.fr/images/default-mathinf_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53697_640x0_resize_q75_box.jpg 640w,
+                    https://devmath.fr/images/default-mathinf_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53697_480x0_resize_q75_box.jpg 480w,
+                    https://devmath.fr/images/default-mathinf_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_53697_320x0_resize_q75_box.jpg 320w
                 "
                 width= 1920 
                 height= 1080 

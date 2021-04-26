@@ -2,647 +2,656 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on DevMath.fr</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://devmath.fr/tags/</link>
     <description>Recent content in Tags on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>demonstration</title>
+      <link>https://devmath.fr/tags/demonstration/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/tags/demonstration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preuve</title>
+      <link>https://devmath.fr/tags/preuve/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/tags/preuve/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Coefficients-Binomiaux</title>
-      <link>http://localhost:1313/tags/coefficients-binomiaux/</link>
+      <link>https://devmath.fr/tags/coefficients-binomiaux/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/coefficients-binomiaux/</guid>
+      <guid>https://devmath.fr/tags/coefficients-binomiaux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Factoriel</title>
-      <link>http://localhost:1313/tags/factoriel/</link>
+      <link>https://devmath.fr/tags/factoriel/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/factoriel/</guid>
+      <guid>https://devmath.fr/tags/factoriel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>arbre-binaire</title>
-      <link>http://localhost:1313/tags/arbre-binaire/</link>
+      <link>https://devmath.fr/tags/arbre-binaire/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/arbre-binaire/</guid>
+      <guid>https://devmath.fr/tags/arbre-binaire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>latex</title>
-      <link>http://localhost:1313/tags/latex/</link>
+      <link>https://devmath.fr/tags/latex/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/latex/</guid>
+      <guid>https://devmath.fr/tags/latex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>automate</title>
-      <link>http://localhost:1313/tags/automate/</link>
+      <link>https://devmath.fr/tags/automate/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/automate/</guid>
+      <guid>https://devmath.fr/tags/automate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bit</title>
-      <link>http://localhost:1313/tags/bit/</link>
+      <link>https://devmath.fr/tags/bit/</link>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/bit/</guid>
+      <guid>https://devmath.fr/tags/bit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>logique</title>
-      <link>http://localhost:1313/tags/logique/</link>
+      <link>https://devmath.fr/tags/logique/</link>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/logique/</guid>
+      <guid>https://devmath.fr/tags/logique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>processeur</title>
-      <link>http://localhost:1313/tags/processeur/</link>
+      <link>https://devmath.fr/tags/processeur/</link>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/processeur/</guid>
+      <guid>https://devmath.fr/tags/processeur/</guid>
       <description></description>
     </item>
     
     <item>
       <title>graphe</title>
-      <link>http://localhost:1313/tags/graphe/</link>
+      <link>https://devmath.fr/tags/graphe/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/graphe/</guid>
+      <guid>https://devmath.fr/tags/graphe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>complexite-asymptotique</title>
-      <link>http://localhost:1313/tags/complexite-asymptotique/</link>
+      <link>https://devmath.fr/tags/complexite-asymptotique/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/complexite-asymptotique/</guid>
+      <guid>https://devmath.fr/tags/complexite-asymptotique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>analyse-complexe</title>
-      <link>http://localhost:1313/tags/analyse-complexe/</link>
+      <link>https://devmath.fr/tags/analyse-complexe/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/analyse-complexe/</guid>
+      <guid>https://devmath.fr/tags/analyse-complexe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cercle-trigonometrique</title>
-      <link>http://localhost:1313/tags/cercle-trigonometrique/</link>
+      <link>https://devmath.fr/tags/cercle-trigonometrique/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/cercle-trigonometrique/</guid>
+      <guid>https://devmath.fr/tags/cercle-trigonometrique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jupyter-notebook</title>
-      <link>http://localhost:1313/tags/jupyter-notebook/</link>
+      <link>https://devmath.fr/tags/jupyter-notebook/</link>
       <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/jupyter-notebook/</guid>
+      <guid>https://devmath.fr/tags/jupyter-notebook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
+      <link>https://devmath.fr/tags/linux/</link>
       <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/linux/</guid>
+      <guid>https://devmath.fr/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>crible</title>
-      <link>http://localhost:1313/tags/crible/</link>
+      <link>https://devmath.fr/tags/crible/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/crible/</guid>
+      <guid>https://devmath.fr/tags/crible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>denombrement</title>
-      <link>http://localhost:1313/tags/denombrement/</link>
+      <link>https://devmath.fr/tags/denombrement/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/denombrement/</guid>
+      <guid>https://devmath.fr/tags/denombrement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ensemble</title>
-      <link>http://localhost:1313/tags/ensemble/</link>
+      <link>https://devmath.fr/tags/ensemble/</link>
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ensemble/</guid>
+      <guid>https://devmath.fr/tags/ensemble/</guid>
       <description></description>
     </item>
     
     <item>
       <title>loi-de-morgan</title>
-      <link>http://localhost:1313/tags/loi-de-morgan/</link>
+      <link>https://devmath.fr/tags/loi-de-morgan/</link>
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/loi-de-morgan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>demonstration</title>
-      <link>http://localhost:1313/tags/demonstration/</link>
-      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/demonstration/</guid>
+      <guid>https://devmath.fr/tags/loi-de-morgan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nmap</title>
-      <link>http://localhost:1313/tags/nmap/</link>
+      <link>https://devmath.fr/tags/nmap/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/nmap/</guid>
+      <guid>https://devmath.fr/tags/nmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>integrale</title>
-      <link>http://localhost:1313/tags/integrale/</link>
+      <link>https://devmath.fr/tags/integrale/</link>
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/integrale/</guid>
+      <guid>https://devmath.fr/tags/integrale/</guid>
       <description></description>
     </item>
     
     <item>
       <title>combinaison</title>
-      <link>http://localhost:1313/tags/combinaison/</link>
+      <link>https://devmath.fr/tags/combinaison/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/combinaison/</guid>
+      <guid>https://devmath.fr/tags/combinaison/</guid>
       <description></description>
     </item>
     
     <item>
       <title>isetl</title>
-      <link>http://localhost:1313/tags/isetl/</link>
+      <link>https://devmath.fr/tags/isetl/</link>
       <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/isetl/</guid>
+      <guid>https://devmath.fr/tags/isetl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bing</title>
-      <link>http://localhost:1313/tags/bing/</link>
+      <link>https://devmath.fr/tags/bing/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/bing/</guid>
+      <guid>https://devmath.fr/tags/bing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>seo</title>
-      <link>http://localhost:1313/tags/seo/</link>
+      <link>https://devmath.fr/tags/seo/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/seo/</guid>
+      <guid>https://devmath.fr/tags/seo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wordpress</title>
-      <link>http://localhost:1313/tags/wordpress/</link>
+      <link>https://devmath.fr/tags/wordpress/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/wordpress/</guid>
+      <guid>https://devmath.fr/tags/wordpress/</guid>
       <description></description>
     </item>
     
     <item>
       <title>notation</title>
-      <link>http://localhost:1313/tags/notation/</link>
+      <link>https://devmath.fr/tags/notation/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/notation/</guid>
+      <guid>https://devmath.fr/tags/notation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>analyse</title>
-      <link>http://localhost:1313/tags/analyse/</link>
+      <link>https://devmath.fr/tags/analyse/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/analyse/</guid>
+      <guid>https://devmath.fr/tags/analyse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>trigonometrie</title>
-      <link>http://localhost:1313/tags/trigonometrie/</link>
+      <link>https://devmath.fr/tags/trigonometrie/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/trigonometrie/</guid>
+      <guid>https://devmath.fr/tags/trigonometrie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nombre-complexe</title>
-      <link>http://localhost:1313/tags/nombre-complexe/</link>
+      <link>https://devmath.fr/tags/nombre-complexe/</link>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/nombre-complexe/</guid>
+      <guid>https://devmath.fr/tags/nombre-complexe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>https://devmath.fr/tags/python/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>https://devmath.fr/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>traduction</title>
-      <link>http://localhost:1313/tags/traduction/</link>
+      <link>https://devmath.fr/tags/traduction/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/traduction/</guid>
+      <guid>https://devmath.fr/tags/traduction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hyperbolique</title>
-      <link>http://localhost:1313/tags/hyperbolique/</link>
+      <link>https://devmath.fr/tags/hyperbolique/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/hyperbolique/</guid>
+      <guid>https://devmath.fr/tags/hyperbolique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>numpy</title>
-      <link>http://localhost:1313/tags/numpy/</link>
+      <link>https://devmath.fr/tags/numpy/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/numpy/</guid>
+      <guid>https://devmath.fr/tags/numpy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>apache2</title>
-      <link>http://localhost:1313/tags/apache2/</link>
+      <link>https://devmath.fr/tags/apache2/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/apache2/</guid>
+      <guid>https://devmath.fr/tags/apache2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>htaccess</title>
-      <link>http://localhost:1313/tags/htaccess/</link>
+      <link>https://devmath.fr/tags/htaccess/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/htaccess/</guid>
+      <guid>https://devmath.fr/tags/htaccess/</guid>
       <description></description>
     </item>
     
     <item>
       <title>robots-txt</title>
-      <link>http://localhost:1313/tags/robots-txt/</link>
+      <link>https://devmath.fr/tags/robots-txt/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/robots-txt/</guid>
+      <guid>https://devmath.fr/tags/robots-txt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ms-dos</title>
-      <link>http://localhost:1313/tags/ms-dos/</link>
+      <link>https://devmath.fr/tags/ms-dos/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ms-dos/</guid>
+      <guid>https://devmath.fr/tags/ms-dos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows-10</title>
-      <link>http://localhost:1313/tags/windows-10/</link>
+      <link>https://devmath.fr/tags/windows-10/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/windows-10/</guid>
+      <guid>https://devmath.fr/tags/windows-10/</guid>
       <description></description>
     </item>
     
     <item>
       <title>zip</title>
-      <link>http://localhost:1313/tags/zip/</link>
+      <link>https://devmath.fr/tags/zip/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/zip/</guid>
+      <guid>https://devmath.fr/tags/zip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conversion</title>
-      <link>http://localhost:1313/tags/conversion/</link>
+      <link>https://devmath.fr/tags/conversion/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/conversion/</guid>
+      <guid>https://devmath.fr/tags/conversion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>systeme-lineaire</title>
-      <link>http://localhost:1313/tags/systeme-lineaire/</link>
+      <link>https://devmath.fr/tags/systeme-lineaire/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/systeme-lineaire/</guid>
+      <guid>https://devmath.fr/tags/systeme-lineaire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>amp</title>
-      <link>http://localhost:1313/tags/amp/</link>
+      <link>https://devmath.fr/tags/amp/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/amp/</guid>
+      <guid>https://devmath.fr/tags/amp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>http://localhost:1313/tags/css/</link>
+      <link>https://devmath.fr/tags/css/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/css/</guid>
+      <guid>https://devmath.fr/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bitmap</title>
-      <link>http://localhost:1313/tags/bitmap/</link>
+      <link>https://devmath.fr/tags/bitmap/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/bitmap/</guid>
+      <guid>https://devmath.fr/tags/bitmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>matrice</title>
-      <link>http://localhost:1313/tags/matrice/</link>
+      <link>https://devmath.fr/tags/matrice/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/matrice/</guid>
+      <guid>https://devmath.fr/tags/matrice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>algebre</title>
-      <link>http://localhost:1313/tags/algebre/</link>
+      <link>https://devmath.fr/tags/algebre/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/algebre/</guid>
+      <guid>https://devmath.fr/tags/algebre/</guid>
       <description></description>
     </item>
     
     <item>
       <title>google-traduction</title>
-      <link>http://localhost:1313/tags/google-traduction/</link>
+      <link>https://devmath.fr/tags/google-traduction/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/google-traduction/</guid>
+      <guid>https://devmath.fr/tags/google-traduction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jeu</title>
-      <link>http://localhost:1313/tags/jeu/</link>
+      <link>https://devmath.fr/tags/jeu/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/jeu/</guid>
+      <guid>https://devmath.fr/tags/jeu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>limite</title>
-      <link>http://localhost:1313/tags/limite/</link>
+      <link>https://devmath.fr/tags/limite/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/limite/</guid>
+      <guid>https://devmath.fr/tags/limite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lycee</title>
-      <link>http://localhost:1313/tags/lycee/</link>
+      <link>https://devmath.fr/tags/lycee/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/lycee/</guid>
+      <guid>https://devmath.fr/tags/lycee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>c</title>
-      <link>http://localhost:1313/tags/c/</link>
+      <link>https://devmath.fr/tags/c/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/c/</guid>
+      <guid>https://devmath.fr/tags/c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unordered_map</title>
-      <link>http://localhost:1313/tags/unordered_map/</link>
+      <link>https://devmath.fr/tags/unordered_map/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/unordered_map/</guid>
+      <guid>https://devmath.fr/tags/unordered_map/</guid>
       <description></description>
     </item>
     
     <item>
       <title>edt</title>
-      <link>http://localhost:1313/tags/edt/</link>
+      <link>https://devmath.fr/tags/edt/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/edt/</guid>
+      <guid>https://devmath.fr/tags/edt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>google-agenda</title>
-      <link>http://localhost:1313/tags/google-agenda/</link>
+      <link>https://devmath.fr/tags/google-agenda/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/google-agenda/</guid>
+      <guid>https://devmath.fr/tags/google-agenda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iftt</title>
-      <link>http://localhost:1313/tags/iftt/</link>
+      <link>https://devmath.fr/tags/iftt/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/iftt/</guid>
+      <guid>https://devmath.fr/tags/iftt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mail</title>
-      <link>http://localhost:1313/tags/mail/</link>
+      <link>https://devmath.fr/tags/mail/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/mail/</guid>
+      <guid>https://devmath.fr/tags/mail/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mysql</title>
-      <link>http://localhost:1313/tags/mysql/</link>
+      <link>https://devmath.fr/tags/mysql/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/mysql/</guid>
+      <guid>https://devmath.fr/tags/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>php</title>
-      <link>http://localhost:1313/tags/php/</link>
+      <link>https://devmath.fr/tags/php/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/php/</guid>
+      <guid>https://devmath.fr/tags/php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>raspberry-pi</title>
-      <link>http://localhost:1313/tags/raspberry-pi/</link>
+      <link>https://devmath.fr/tags/raspberry-pi/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/raspberry-pi/</guid>
+      <guid>https://devmath.fr/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>somme</title>
-      <link>http://localhost:1313/tags/somme/</link>
+      <link>https://devmath.fr/tags/somme/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/somme/</guid>
+      <guid>https://devmath.fr/tags/somme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>universite</title>
-      <link>http://localhost:1313/tags/universite/</link>
+      <link>https://devmath.fr/tags/universite/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/universite/</guid>
+      <guid>https://devmath.fr/tags/universite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>debian</title>
-      <link>http://localhost:1313/tags/debian/</link>
+      <link>https://devmath.fr/tags/debian/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/debian/</guid>
+      <guid>https://devmath.fr/tags/debian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>algebre-lineaire</title>
-      <link>http://localhost:1313/tags/algebre-lineaire/</link>
+      <link>https://devmath.fr/tags/algebre-lineaire/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/algebre-lineaire/</guid>
+      <guid>https://devmath.fr/tags/algebre-lineaire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>valeurs-propres</title>
-      <link>http://localhost:1313/tags/valeurs-propres/</link>
+      <link>https://devmath.fr/tags/valeurs-propres/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/valeurs-propres/</guid>
+      <guid>https://devmath.fr/tags/valeurs-propres/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vecteurs-propres</title>
-      <link>http://localhost:1313/tags/vecteurs-propres/</link>
+      <link>https://devmath.fr/tags/vecteurs-propres/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/vecteurs-propres/</guid>
+      <guid>https://devmath.fr/tags/vecteurs-propres/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cholesky</title>
-      <link>http://localhost:1313/tags/cholesky/</link>
+      <link>https://devmath.fr/tags/cholesky/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/cholesky/</guid>
+      <guid>https://devmath.fr/tags/cholesky/</guid>
       <description></description>
     </item>
     
     <item>
       <title>decomposition</title>
-      <link>http://localhost:1313/tags/decomposition/</link>
+      <link>https://devmath.fr/tags/decomposition/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/decomposition/</guid>
+      <guid>https://devmath.fr/tags/decomposition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>binaire</title>
-      <link>http://localhost:1313/tags/binaire/</link>
+      <link>https://devmath.fr/tags/binaire/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/binaire/</guid>
+      <guid>https://devmath.fr/tags/binaire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>optimisation-informatique</title>
-      <link>http://localhost:1313/tags/optimisation-informatique/</link>
+      <link>https://devmath.fr/tags/optimisation-informatique/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/optimisation-informatique/</guid>
+      <guid>https://devmath.fr/tags/optimisation-informatique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wsl2</title>
-      <link>http://localhost:1313/tags/wsl2/</link>
+      <link>https://devmath.fr/tags/wsl2/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/wsl2/</guid>
+      <guid>https://devmath.fr/tags/wsl2/</guid>
       <description></description>
     </item>
     
