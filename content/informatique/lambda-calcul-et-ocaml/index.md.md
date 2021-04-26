@@ -9,7 +9,8 @@ tags:
   - "OCaml"
 description: ""
 ---
-
+## Commentaire : 
+Tout au long de ce tutoriel, nous utiliserons une notation non conventionnel pour écrire nos fonctions lambda en OCaml. Toutes nos fonctions "lambda" débuterons par "_" 
 ## Logique en lambda calcul en OCaml
 ### Booléens
 #### True
@@ -55,5 +56,5 @@ let zero_ = fun a = ifthenelse_ a false_ true_;;
 ### Les booléens
 ### Les entiers 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODM4MTk3M119
+eyJoaXN0b3J5IjpbODM2MzQxMjczXX0=
 -->
