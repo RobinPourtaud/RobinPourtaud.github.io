@@ -241,9 +241,10 @@ blockquote {
 	border-left: 5px solid #6e93dc;
 	background-image: linear-gradient(120deg,#f5fdff 0%,#f8fdff 100%);
 	padding-left:50px;
+	counter-increment:nb;
 	&:before {
 		font-size:21px;
-		content:"Remarque";
+		content:"Remarque "counter(nb);
 		color:#6e93dc;
 		position:absolute;
 		margin: -55px 0 0 -56px;
