@@ -17,7 +17,7 @@
  Si $A(n_0)$ vraie Si $\forall n \geq n_0$, $A(n)$ vraie $\Rightarrow A(n+1)$ vraie.  Alors $\forall n \geq n_0$, $A(n)$ vraie.
 Démonstration Montrons ce théorème par l&amp;rsquo;absurde.
 Soit $P \subseteq \mathbb{N}$ tel que $P = {n\in (\mathbb{N},\leq _\mathbb{N}) ;| ; A(n) ,\text{vraie}}$. Montrons que $P = \mathbb{N}$ :
- Montrer que $P = \mathbb{N}$ reviens à montrer que A(n) est vrai pour tout n !</description>
+ Montrer que $P = \mathbb{N}$ reviens à montrer que A(n) est vrai pour tout n.</description>
     </item>
     
     <item>

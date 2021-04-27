@@ -26,7 +26,7 @@ Montrons ce théorème par l'absurde.
 
 Soit $P \subseteq \mathbb{N}$ tel que $P = \{n\in (\mathbb{N},\leq _\mathbb{N}) \;| \; A(n) \,\text{vraie}\}$. 
 **Montrons que** $P = \mathbb{N}$ : 
-> Montrer que $P = \mathbb{N}$ reviens à montrer que A(n) est vrai pour tout n ! Son complémentaire dans $\mathbb{N}$ doit être vide ! Par l'absurde, supposons que son complémentaire ne l'est pas : 
+> Montrer que $P = \mathbb{N}$ reviens à montrer que A(n) est vrai pour tout n. Son complémentaire dans $\mathbb{N}$ doit être vide ! Par l'absurde, supposons que son complémentaire ne l'est pas : 
 
 Supposons que $\bar{P}^\mathbb{N} \neq \emptyset$ ($\bar{P}^\mathbb{N}$ est le complémentaire de $P$ dans $\mathbb{N}$).
 
@@ -34,7 +34,7 @@ Alors il existe un plus petit élément $p \in \bar{P}^\mathbb{N}$.
 
 Comme $n_0 \in P$, nécessairement, $n_0 \notin \bar{P}^\mathbb{N}$, donc $p\geq 1 + n_0$.
 
-> Si $1 + n_0$ vous perturbe, replacez $n_0$ par 0, cela devrait vous aider. 
+> Si $1 + n_0$ vous perturbe, remplacez $n_0$ par 0, cela devrait vous aider. 
 
 >Il était important de vérifier que $p-1 \geq n_0$ pour savoir si $p-1 \in \mathbb{N}$.
 
