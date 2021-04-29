@@ -28,7 +28,10 @@ Vous pouvez également obtenir un résultat très similaire en utilisant un **ma
 ```
 
 ### Troisième version
+Si vous préférer l'utilisation de if-then-else, je vous propose cette fonction : 
+```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzA4NzIzLDEwMzMxOTc0ODksMjI4MT
-c4NzBdfQ==
+eyJoaXN0b3J5IjpbLTE2NjMxMDg5MzgsMTAzMzE5NzQ4OSwyMj
+gxNzg3MF19
 -->
