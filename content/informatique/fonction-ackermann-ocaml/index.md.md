@@ -12,13 +12,15 @@ description: "Cet article présente différentes façons d'afficher du contenu d
 
 ## Implémentation en OCaml
 
-Cet article étant déstiné à un publique début
+Cet article étant destiné à un publique débutant en OCaml, je vous propose 3 façons d'implémenter la fonction d'Ackermann en OCaml. 
 
+### Première version
 OCaml se prêtant bien à l'implémentation de fonction récursive, l'implémentation de la fonction d'Ackermann est plutôt directe : 
 ```ocaml
 ```
 
-### Avec 
+### Deuxième version
+### Tr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzUwNjI4MCwyMjgxNzg3MF19
+eyJoaXN0b3J5IjpbLTIwNzAwMzU1MDUsMjI4MTc4NzBdfQ==
 -->
