@@ -13,8 +13,13 @@ Pour afficher un charactère, il faut utiliser la fonction **print_char**.
 ```ocaml
 print_char 'a';;
 ```
+Ce code affiche la lettre a dans la sortie standard. 
 
 ## Afficher un entier
+```ocaml
+print_int 1;;
+```
+Ce code affiche l'entier 1 dans la sortie standard. 
 
 ## Afficher un nombre floatant
 
@@ -32,5 +37,5 @@ Pour en savoir plus [Source 1]
 1. [Printf - Ocaml](https://www.ocaml.org/releases/4.07/htmlman/libref/Printf.html)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwMTA2MzVdfQ==
+eyJoaXN0b3J5IjpbLTEzNzQ5Mjc0NzZdfQ==
 -->
