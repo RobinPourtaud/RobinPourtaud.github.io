@@ -23,9 +23,9 @@ _Commentaire : Certains espacements sont exprimés en "mu" (math unit). 1 mu = 1
 |a ²!|$a \! b$|Taille = -3 mu|
 |a ² b|$a \ b$|Taille = 3 mu|
 |a ~ b|$a~b$|Taille = 3 mu (insécable)|
-|a \quad b|$a \quad b$|Taille = 18 mu|
-|a \qquad b|$a \qquad b$|Taille = 36 mu|
-|a \hspace{1cm} b|$a \hspace{1cm} b$|Taille = 1 cm|
+|a ²quad b|$a \quad b$|Taille = 18 mu|
+|a ²qquad b|$a \qquad b$|Taille = 36 mu|
+|a ²hspace{1cm} b|$a \hspace{1cm} b$|Taille = 1 cm|
 
 
 
@@ -34,5 +34,5 @@ _Commentaire : Certains espacements sont exprimés en "mu" (math unit). 1 mu = 1
 1. [Line breaks and blank spaces - Overleaf](https://www.overleaf.com/learn/latex/Line_breaks_and_blank_spaces)
 2. [LaTeX Spaces and Boxes](http://www.personal.ceu.hu/tex/spacebox.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjkwNDM5N119
+eyJoaXN0b3J5IjpbNjMyODAxOTE1XX0=
 -->
