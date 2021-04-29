@@ -9,18 +9,17 @@ description: "Cet article présente différentes façons d'afficher du contenu d
 ---
 
 ## Définition formelle
-Sans paraphraser Wikipédia ([page que vous pouvez retrouver ici](https://en.wikipedia.org/wiki/Ackermann_function)), je vous rappelle la définition récursive de la fonction de Ackermann : 
-$\forall m,n \in \mathbb{N}$
+Sans paraphraser Wikipédia ([page que vous pouvez retrouver ici](https://en.wikipedia.org/wiki/Ackermann_function)), je vous rappelle la définition récursive de la fonction de Ackermann $\forall m,n \in \mathbb{N}$ : 
 - $A(0,n) = n+1$
 - $A(m,0) = A(m-1,1)$
 - $A(m,n)=A(m-1,A(m,n-1)$
 
 ## Implémentation en OCaml
 
-Cet article étant destiné à un publique débutant en OCaml, je vous propose 3 façons d'implémenter la fonction d'Ackermann en OCaml. 
+Cet article étant destiné à un publique débutant en OCaml, je vous propose 3 façons d'implémenter la fonction d'Ackermann. 
 
 ### Première version
-OCaml se prêtant bien à l'implémentation de fonction récursive, l'implémentation de la fonction d'Ackermann est plutôt directe : 
+OCaml se prêtant bien à aux fonction récursive, l'implémentation de la fonction d'Ackermann est plutôt directe : 
 ```ocaml
 let rec ackermann = function
   | 0, n -> n + 1
@@ -60,6 +59,6 @@ ackermann2 3 4;;
 ```
 Avec $m=3$ et $n=4$, nous avons bien 127 pour résultat. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1OTUzOTI4LC0xNjYzMTA4OTM4LDEwMz
-MxOTc0ODksMjI4MTc4NzBdfQ==
+eyJoaXN0b3J5IjpbLTU5MjgwMTIxMywtMTY2MzEwODkzOCwxMD
+MzMTk3NDg5LDIyODE3ODcwXX0=
 -->
