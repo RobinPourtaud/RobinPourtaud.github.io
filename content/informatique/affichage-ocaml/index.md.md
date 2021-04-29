@@ -23,12 +23,13 @@ print_int 1;;
 Ce code affiche l'entier 1 dans la sortie standard. 
 
 ## Afficher un nombre flotant
-Pour afficher un nombre flotant, il faut utiliser la fonction **print_float**
+Pour afficher un nombre flottant, il faut utiliser la fonction **print_float**
 ```ocaml
 print_int 1.5;;
 ```
 
 ## Afficher un string
+
 ```ocaml
 print_string "bonjour";;
 ```
@@ -54,6 +55,6 @@ Pour en savoir plus [Source 2].
 1. [Printf - Ocaml](https://www.ocaml.org/releases/4.07/htmlman/libref/Printf.html)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1NzUwMjAsLTEwNjUyMDY1MjUsMTc5Nz
-cyOTY3OV19
+eyJoaXN0b3J5IjpbMTU0MDkyNjc0NCwtMTA2NTIwNjUyNSwxNz
+k3NzI5Njc5XX0=
 -->
