@@ -4,7 +4,7 @@ date: "2020-12-21"
 categories: 
   - "informatique"
 tags: 
-  - "latex"
+  - "Oc"
 description: "Cet article présente l'ensemble de l'alphabet grec, minuscule ou majuscule en Latex."
 ---
 
@@ -54,5 +54,6 @@ Pour en savoir plus [Source 2].
 1. [Printf - Ocaml](https://www.ocaml.org/releases/4.07/htmlman/libref/Printf.html)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjUyMDY1MjUsMTc5NzcyOTY3OV19
+eyJoaXN0b3J5IjpbMTk2NTc3NzQ0MSwtMTA2NTIwNjUyNSwxNz
+k3NzI5Njc5XX0=
 -->
