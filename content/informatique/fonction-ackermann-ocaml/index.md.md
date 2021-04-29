@@ -22,6 +22,10 @@ let rec ackermann = function
   | m, 0 -> ackermann (m - 1, 1)
   | m, n -> ackermann (m - 1, ackermann (m, n - 1));;
 ```
+```ocaml
+ackermann (3,4);;
+```
+nous 
 ### Deuxième version
 Vous pouvez également obtenir un résultat très similaire en utilisant un **match**. 
 
@@ -32,6 +36,6 @@ Si vous préférer l'utilisation de if-then-else, je vous propose cette fonction
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjMxMDg5MzgsMTAzMzE5NzQ4OSwyMj
-gxNzg3MF19
+eyJoaXN0b3J5IjpbLTQ4NDA1NDU2OSwtMTY2MzEwODkzOCwxMD
+MzMTk3NDg5LDIyODE3ODcwXX0=
 -->
