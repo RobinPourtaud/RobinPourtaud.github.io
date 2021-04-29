@@ -9,6 +9,7 @@ description: "Cet article présente différentes façons d'afficher du contenu d
 ---
 
 ## Définition formelle
+Sans paraphraser Wikipédia 'page que vous pouvez retrouver ici), je vous rappelle la définition récursive de la fonction de Ackermann
 
 ## Implémentation en OCaml
 
@@ -30,19 +31,6 @@ Avec $m=3$ et $n=4$, nous avons bien 127 pour résultat.
 ### Deuxième version
 Vous pouvez également obtenir un résultat très similaire en utilisant un **match**. 
 ```ocaml
-let rec ackermann = function
-  | 0, n -> n + 1
-  | m, 0 -> ackermann (m - 1, 1)
-  | m, n -> ackermann (m - 1, ackermann (m, n - 1));;
-```
-```ocaml
-ackermann 3,4;;
-```
-Avec $m=3$ et $n=4$, nous avons bien 127 pour résultat. 
-
-### Troisième version
-Si vous préférer l'utilisation de if-then-else, je vous propose cette fonction : 
-```ocaml
 let rec ackermann2 m n = 
   match m,n with
   | 0, n -> n + 1
@@ -50,10 +38,24 @@ let rec ackermann2 m n =
   | m, n -> ackermann (m - 1, ackermann (m, n - 1));;
 ```
 ```ocaml
+ackermann 3 4;;
+```
+Avec $m=3$ et $n=4$, nous avons bien 127 pour résultat. 
+
+### Troisième version
+Si vous préférer l'utilisation de if-then-else, je vous propose cette fonction : 
+```ocaml
+let rec ackermann3 m n =
+  if m = 0 then (n+1)
+  else
+    (if n = 0 then ackermann3 (m-1) 1
+     else ackermann3 (m-1) (ackermann3 m (n-1)));;
+```
+```ocaml
 ackermann2 3 4;;
 ```
 Avec $m=3$ et $n=4$, nous avons bien 127 pour résultat. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Njg4MDQ0MSwtMTY2MzEwODkzOCwxMD
+eyJoaXN0b3J5IjpbLTIzOTU3MzE5NywtMTY2MzEwODkzOCwxMD
 MzMTk3NDg5LDIyODE3ODcwXX0=
 -->
