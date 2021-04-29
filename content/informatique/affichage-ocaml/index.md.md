@@ -9,6 +9,10 @@ description: "Cet article présente l'ensemble de l'alphabet grec, minuscule ou 
 ---
 
 ## Afficher un charactère
+Pour afficher un charactère, il faut utiliser la fonction **print_char**. 
+```ocaml
+print_char 'a';;
+```
 
 ## Afficher un entier
 
@@ -28,5 +32,5 @@ Pour en savoir plus [Source 1]
 1. [Printf - Ocaml](https://www.ocaml.org/releases/4.07/htmlman/libref/Printf.html)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ3NDAyMTNdfQ==
+eyJoaXN0b3J5IjpbOTAwMTA2MzVdfQ==
 -->
