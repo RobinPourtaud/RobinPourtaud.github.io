@@ -33,9 +33,13 @@ Pour en savoir plus [Source 1]
 
 ## Afficher une matrice
 
+
+## Affichage sur la sortie sortie d'erreur : 
+Pour affic
+
 ## Sources 
 1. [Printf - Ocaml](https://www.ocaml.org/releases/4.07/htmlman/libref/Printf.html)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQ5Mjc0NzZdfQ==
+eyJoaXN0b3J5IjpbLTk2NTE4MDMyXX0=
 -->
