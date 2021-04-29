@@ -21,7 +21,7 @@ print_int 1;;
 ```
 Ce code affiche l'entier 1 dans la sortie standard. 
 
-## Afficher un nombre floatant
+## Afficher un nombre flotant
 
 ## Afficher un string
 
@@ -36,13 +36,15 @@ Pour en savoir plus [Source 1]
 
 ## Affichage sur la sortie sortie d'erreur : 
 Pour afficher une erreur, il faut utiliser les fonctions analogues : 
+- **prer_char**
 - **prer_int**
 - **prer_float**
 - **prer_string**
+- **
 
 ## Sources 
 1. [Printf - Ocaml](https://www.ocaml.org/releases/4.07/htmlman/libref/Printf.html)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzcyOTY3OV19
+eyJoaXN0b3J5IjpbLTgxNzA5NTQ4MiwxNzk3NzI5Njc5XX0=
 -->
