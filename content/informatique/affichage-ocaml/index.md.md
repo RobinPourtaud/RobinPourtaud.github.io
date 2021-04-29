@@ -22,29 +22,35 @@ print_int 1;;
 Ce code affiche l'entier 1 dans la sortie standard. 
 
 ## Afficher un nombre flotant
+```ocaml
+print_int 1.5;;
+```
 
 ## Afficher un string
+```ocaml
+print_string "bonjour";;
+```
 
 ## Affichage combiné
 
-Pour en savoir plus [Source 1]
+Pour en savoir plus [Source 1].
 
 ## Afficher une liste
 
 ## Afficher une matrice
 
 
-## Affichage sur la sortie sortie d'erreur : 
+## Affichage sur la sortie d'erreur : 
 Pour afficher une erreur, il faut utiliser les fonctions analogues : 
 - **prer_char**
 - **prer_int**
 - **prer_float**
 - **prer_string**
-- **
 
+Pour en savoir plus [Source 2]. 
 ## Sources 
 1. [Printf - Ocaml](https://www.ocaml.org/releases/4.07/htmlman/libref/Printf.html)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzA5NTQ4MiwxNzk3NzI5Njc5XX0=
+eyJoaXN0b3J5IjpbLTE5MDY3ODgyMDgsMTc5NzcyOTY3OV19
 -->
