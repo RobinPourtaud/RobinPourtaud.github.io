@@ -18,12 +18,15 @@ description: "Cet article présente l'ensemble de l'alphabet grec, minuscule ou 
 
 ## Affichage combiné
 
+Pour en savoir plus [Source 1]
+
 ## Afficher une liste
 
 ## Afficher une matrice
 
 ## Sources 
-- [
+1. [Printf - Ocaml](https://www.ocaml.org/releases/4.07/htmlman/libref/Printf.html)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTI5NzU4XX0=
+eyJoaXN0b3J5IjpbLTE1MzQ3NDAyMTNdfQ==
 -->
