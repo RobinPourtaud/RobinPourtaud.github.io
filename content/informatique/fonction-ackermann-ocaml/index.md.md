@@ -10,7 +10,10 @@ description: "Cet article présente différentes façons d'afficher du contenu d
 
 ## Définition formelle
 Sans paraphraser Wikipédia ([page que vous pouvez retrouver ici](https://en.wikipedia.org/wiki/Ackermann_function)), je vous rappelle la définition récursive de la fonction de Ackermann : 
-
+$\forall m,n \in \mathbb{N}$
+- $A(0,n) = n+1$
+- $A(m,0) = A(m-1,1)$
+- $A(m,n)=A(m-1,A(m,n-1)$
 
 ## Implémentation en OCaml
 
@@ -57,6 +60,6 @@ ackermann2 3 4;;
 ```
 Avec $m=3$ et $n=4$, nous avons bien 127 pour résultat. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc3OTM0ODksLTE2NjMxMDg5MzgsMT
-AzMzE5NzQ4OSwyMjgxNzg3MF19
+eyJoaXN0b3J5IjpbNDA1OTUzOTI4LC0xNjYzMTA4OTM4LDEwMz
+MxOTc0ODksMjI4MTc4NzBdfQ==
 -->
