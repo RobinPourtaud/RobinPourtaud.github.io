@@ -25,17 +25,35 @@ let rec ackermann = function
 ```ocaml
 ackermann (3,4);;
 ```
-nous 
+Avec $m=3$ et $n=4$, nous avons bien 127 pour résultat. 
+
 ### Deuxième version
 Vous pouvez également obtenir un résultat très similaire en utilisant un **match**. 
-
+```ocaml
+let rec ackermann = function
+  | 0, n -> n + 1
+  | m, 0 -> ackermann (m - 1, 1)
+  | m, n -> ackermann (m - 1, ackermann (m, n - 1));;
 ```
+```ocaml
+ackermann 3,4;;
+```
+Avec $m=3$ et $n=4$, nous avons bien 127 pour résultat. 
 
 ### Troisième version
 Si vous préférer l'utilisation de if-then-else, je vous propose cette fonction : 
+```ocaml
+let rec ackermann2 m n = 
+  match m,n with
+  | 0, n -> n + 1
+  | m, 0 -> ackermann (m - 1, 1)
+  | m, n -> ackermann (m - 1, ackermann (m, n - 1));;
 ```
+```ocaml
+ackermann2 3 4;;
 ```
+Avec $m=3$ et $n=4$, nous avons bien 127 pour résultat. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDA1NDU2OSwtMTY2MzEwODkzOCwxMD
+eyJoaXN0b3J5IjpbMTA0Njg4MDQ0MSwtMTY2MzEwODkzOCwxMD
 MzMTk3NDg5LDIyODE3ODcwXX0=
 -->
