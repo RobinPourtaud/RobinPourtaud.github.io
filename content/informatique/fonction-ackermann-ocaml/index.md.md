@@ -23,8 +23,9 @@ let rec ackermann = function
   | m, n -> ackermann (m - 1, ackermann (m, n - 1));;
 ```
 ### Deuxième version
-Vous pouvez également obtenir un résultat très similaire 
+Vous pouvez également obtenir un résultat très similaire en utilisant un **match**. 
+
 ### Troisième version
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzYxMzgyOTMsMjI4MTc4NzBdfQ==
+eyJoaXN0b3J5IjpbMTAzMzE5NzQ4OSwyMjgxNzg3MF19
 -->
