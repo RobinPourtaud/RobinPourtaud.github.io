@@ -17,10 +17,14 @@ Cet article étant destiné à un publique débutant en OCaml, je vous propose 3
 ### Première version
 OCaml se prêtant bien à l'implémentation de fonction récursive, l'implémentation de la fonction d'Ackermann est plutôt directe : 
 ```ocaml
+let rec ackermann = function
+  | 0, n -> n + 1
+  | m, 0 -> ackermann (m - 1, 1)
+  | m, n -> ackermann (m - 1, ackermann (m, n - 1));;
 ```
-
 ### Deuxième version
-### Tr
+Vous pouvez également obtenir un résultat très similaire 
+### Troisième version
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzAwMzU1MDUsMjI4MTc4NzBdfQ==
+eyJoaXN0b3J5IjpbLTE1NzYxMzgyOTMsMjI4MTc4NzBdfQ==
 -->
