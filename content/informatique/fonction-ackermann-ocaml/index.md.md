@@ -25,7 +25,10 @@ let rec ackermann = function
 ### Deuxième version
 Vous pouvez également obtenir un résultat très similaire en utilisant un **match**. 
 
+```
+
 ### Troisième version
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzE5NzQ4OSwyMjgxNzg3MF19
+eyJoaXN0b3J5IjpbLTI2MzA4NzIzLDEwMzMxOTc0ODksMjI4MT
+c4NzBdfQ==
 -->
