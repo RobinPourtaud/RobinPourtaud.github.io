@@ -9,7 +9,8 @@ description: "Cet article présente différentes façons d'afficher du contenu d
 ---
 
 ## Définition formelle
-Sans paraphraser Wikipédia 'page que vous pouvez retrouver ici), je vous rappelle la définition récursive de la fonction de Ackermann
+Sans paraphraser Wikipédia ([page que vous pouvez retrouver ici](https://en.wikipedia.org/wiki/Ackermann_function)), je vous rappelle la définition récursive de la fonction de Ackermann : 
+
 
 ## Implémentation en OCaml
 
@@ -56,6 +57,6 @@ ackermann2 3 4;;
 ```
 Avec $m=3$ et $n=4$, nous avons bien 127 pour résultat. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTU3MzE5NywtMTY2MzEwODkzOCwxMD
-MzMTk3NDg5LDIyODE3ODcwXX0=
+eyJoaXN0b3J5IjpbLTEzNTc3OTM0ODksLTE2NjMxMDg5MzgsMT
+AzMzE5NzQ4OSwyMjgxNzg3MF19
 -->
