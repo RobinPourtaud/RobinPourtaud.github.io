@@ -35,11 +35,14 @@ Pour en savoir plus [Source 1]
 
 
 ## Affichage sur la sortie sortie d'erreur : 
-Pour affic
+Pour afficher une erreur, il faut utiliser les fonctions analogues : 
+- **prer_int**
+- **prer_float**
+- **prer_string**
 
 ## Sources 
 1. [Printf - Ocaml](https://www.ocaml.org/releases/4.07/htmlman/libref/Printf.html)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTE4MDMyXX0=
+eyJoaXN0b3J5IjpbMTc5NzcyOTY3OV19
 -->
