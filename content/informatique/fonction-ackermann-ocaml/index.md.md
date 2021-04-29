@@ -12,10 +12,13 @@ description: "Cet article présente différentes façons d'afficher du contenu d
 
 ## Implémentation en OCaml
 
+Cet article étant déstiné à un publique début
+
 OCaml se prêtant bien à l'implémentation de fonction récursive, l'implémentation de la fonction d'Ackermann est plutôt directe : 
 ```ocaml
-
 ```
+
+### Avec 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4MTc4NzBdfQ==
+eyJoaXN0b3J5IjpbLTI5MzUwNjI4MCwyMjgxNzg3MF19
 -->
