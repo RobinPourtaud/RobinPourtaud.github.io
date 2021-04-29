@@ -10,7 +10,20 @@ description: "Cet article présente l'ensemble de l'alphabet grec, minuscule ou 
 
 ## Afficher un charactère
 
-## Afficher un en
+## Afficher un entier
+
+## Afficher un nombre floatant
+
+## Afficher un string
+
+## Affichage combiné
+
+## Afficher une liste
+
+## Afficher une matrice
+
+## Sources 
+- [
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTIzMzY3OF19
+eyJoaXN0b3J5IjpbLTgwNTI5NzU4XX0=
 -->
