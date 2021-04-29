@@ -16,12 +16,14 @@ print_char 'a';;
 Ce code affiche la lettre a dans la sortie standard. 
 
 ## Afficher un entier
+Pour afficher un entier, il faut utiliser la fonction **print_int**. 
 ```ocaml
 print_int 1;;
 ```
 Ce code affiche l'entier 1 dans la sortie standard. 
 
 ## Afficher un nombre flotant
+Pour afficher un nombre flotant, il faut utiliser la fonction **print_float**
 ```ocaml
 print_int 1.5;;
 ```
@@ -52,5 +54,5 @@ Pour en savoir plus [Source 2].
 1. [Printf - Ocaml](https://www.ocaml.org/releases/4.07/htmlman/libref/Printf.html)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY3ODgyMDgsMTc5NzcyOTY3OV19
+eyJoaXN0b3J5IjpbLTEwNjUyMDY1MjUsMTc5NzcyOTY3OV19
 -->
