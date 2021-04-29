@@ -1,5 +1,5 @@
 ---
-title: "Affichage textuel en OCaml"
+title: "Affichage textuelle en OCaml"
 date: "2020-12-21"
 categories: 
   - "informatique"
@@ -8,7 +8,7 @@ tags:
 description: "Cet article présente différentes façons d'afficher du contenu dans la sortie standard en OCaml."
 ---
 
-## Afficher un charactèr
+## Afficher un caractère
 Pour afficher un charactère, il faut utiliser la fonction **print_char**. 
 ```ocaml
 print_char 'a';;
@@ -55,6 +55,6 @@ Pour en savoir plus [Source 2].
 1. [Printf - Ocaml](https://www.ocaml.org/releases/4.07/htmlman/libref/Printf.html)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc0NDg3MDksMTU0MDkyNjc0NCwtMT
+eyJoaXN0b3J5IjpbLTE3ODI4NzY5MzUsMTU0MDkyNjc0NCwtMT
 A2NTIwNjUyNSwxNzk3NzI5Njc5XX0=
 -->
