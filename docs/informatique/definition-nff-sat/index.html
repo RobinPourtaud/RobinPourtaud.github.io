@@ -113,7 +113,7 @@
 </script><script type="application/ld+json">
   {
     "@context":"http://schema.org",
-    "@type": "BlogPosting",
+    "@type": "Article",
     "image": "https:\/\/devmath.fr",
     "url": "https:\/\/devmath.fr\/informatique\/definition-nff-sat\/",
     "headline": "Définition : NFF-Sat",
@@ -146,7 +146,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "amperage",
+      "name": "DevMath",
       "url": "https:\/\/devmath.fr",
       "logo": {
         "@type": "ImageObject",
@@ -246,21 +246,21 @@
 </ul>
 <p>Pour prendre un exemple :</p>
 <ul>
-<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="overline{A wedge B}" src="/latex-svg/3d3c8b4f72c553dcdd2cc1adf6799603.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="overline{A wedge B}" width="1" height="1" src="https://latex.codecogs.com/svg.latex?overline{A wedge B}"></amp-img></amp-img> n&rsquo;est pas sous forme normale négative.</li>
-<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="overline{A}wedge B" src="/latex-svg/3b02ac19aecb603daa6a0263e26e8f1a.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="overline{A}wedge B" width="1" height="1" src="https://latex.codecogs.com/svg.latex?overline{A}wedge B"></amp-img></amp-img> est sous forme normale négative.</li>
+<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="overline{A wedge B}" src="/latex-svg/3d3c8b4f72c553dcdd2cc1adf6799603.svg"disable-inline-width></amp-img></span> n&rsquo;est pas sous forme normale négative.</li>
+<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="overline{A}wedge B" src="/latex-svg/3b02ac19aecb603daa6a0263e26e8f1a.svg"disable-inline-width></amp-img></span> est sous forme normale négative.</li>
 </ul>
 <h3 id="définition--satisifiabilité">Définition : Satisifiabilité</h3>
 <p>On dit d&rsquo;une formule booléenne qu&rsquo;elle est satisfiable s&rsquo;il existe une assignation (ou valuation) des variables tel qu&rsquo;elle rende la formule &ldquo;vrai&rdquo;.</p>
 <p>Par exemple :</p>
 <ul>
-<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="overline{A}wedge A" src="/latex-svg/4d579daf04f832aae32b30de840e0c0c.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="overline{A}wedge A" width="1" height="1" src="https://latex.codecogs.com/svg.latex?overline{A}wedge A"></amp-img></amp-img> n&rsquo;est pas satisfiable</li>
-<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="overline{A}lor A" src="/latex-svg/b3509e715bf2e767c09702a3674c3ade.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="overline{A}lor A" width="1" height="1" src="https://latex.codecogs.com/svg.latex?overline{A}lor A"></amp-img></amp-img> est satisfiable</li>
+<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="overline{A}wedge A" src="/latex-svg/4d579daf04f832aae32b30de840e0c0c.svg"disable-inline-width></amp-img></span> n&rsquo;est pas satisfiable</li>
+<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="overline{A}lor A" src="/latex-svg/b3509e715bf2e767c09702a3674c3ade.svg"disable-inline-width></amp-img></span> est satisfiable</li>
 </ul>
 <p>Fun-Fact : Dans le deuxième cas, peu importe la valeur de notre seule variable A, notre formule est satisfiable, on peut dans ce cas parler de tautologie.</p>
 <h2 id="le-problème-nff-sat-">Le problème NFF-Sat :</h2>
 <p>Le problème NFF-Sat, ou NegLit-Sat peut se présenter en 2 lignes :</p>
-<p>Soit <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="mathcal{F}" src="/latex-svg/5e42271868c5d9c6b416362f7a51e2f4.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="mathcal{F}" width="1" height="1" src="https://latex.codecogs.com/svg.latex?mathcal{F}"></amp-img></amp-img> une formule booléenne telle que <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="mathcal{F}" src="/latex-svg/5e42271868c5d9c6b416362f7a51e2f4.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="mathcal{F}" width="1" height="1" src="https://latex.codecogs.com/svg.latex?mathcal{F}"></amp-img></amp-img> est sous forme normale négative.</p>
-<p><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="mathcal{F}" src="/latex-svg/5e42271868c5d9c6b416362f7a51e2f4.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="mathcal{F}" width="1" height="1" src="https://latex.codecogs.com/svg.latex?mathcal{F}"></amp-img></amp-img> est-elle satisfiable ?</p>
+<p>Soit <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="mathcal{F}" src="/latex-svg/5e42271868c5d9c6b416362f7a51e2f4.svg"disable-inline-width></amp-img></span> une formule booléenne telle que <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="mathcal{F}" src="/latex-svg/5e42271868c5d9c6b416362f7a51e2f4.svg"disable-inline-width></amp-img></span> est sous forme normale négative.</p>
+<p><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="mathcal{F}" src="/latex-svg/5e42271868c5d9c6b416362f7a51e2f4.svg"disable-inline-width></amp-img></span> est-elle satisfiable ?</p>
 <h2 id="sources-">Sources :</h2>
 <ol>
 <li>

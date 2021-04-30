@@ -113,7 +113,7 @@
 </script><script type="application/ld+json">
   {
     "@context":"http://schema.org",
-    "@type": "BlogPosting",
+    "@type": "Article",
     "image": "https:\/\/devmath.fr",
     "url": "https:\/\/devmath.fr\/informatique\/convertir-un-entier-non-signe-decimal-en-binaire\/",
     "headline": "Convertir un entier non signé décimal en Binaire",
@@ -146,7 +146,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "amperage",
+      "name": "DevMath",
       "url": "https:\/\/devmath.fr",
       "logo": {
         "@type": "ImageObject",
@@ -287,15 +287,15 @@
 <h2 id="la-représentation-binaire">La représentation binaire:</h2>
 <p>Tout d&rsquo;abord, il faut bien comprendre ce qu&rsquo;est le système le plus courant, le système décimal.</p>
 <p>Un nombre, 7803 par exemple peut être décomposé comme ceci:</p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="7803_{10}=7times1000+8times100+0times10+3times1" src="/latex-svg/bac4ca73e11deafd733f5d239e4f2fca.svg"><amp-img fallback alt="7803_{10}=7times1000+8times100+0times10+3times1" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?7803_{10}=7times1000+8times100+0times10+3times1"></amp-img></amp-img></p>
-<p>Autrement dit: <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="7803_{10}=7times10^3+8times10^2+0times10^1+3times10^0" src="/latex-svg/4dfc131bb9f716412439c56805db2af9.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="7803_{10}=7times10^3+8times10^2+0times10^1+3times10^0" width="1" height="1" src="https://latex.codecogs.com/svg.latex?7803_{10}=7times10^3+8times10^2+0times10^1+3times10^0"></amp-img></amp-img></p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="7803_{10}=7times1000+8times100+0times10+3times1" src="/latex-svg/bac4ca73e11deafd733f5d239e4f2fca.svg"></amp-img></p>
+<p>Autrement dit: <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="7803_{10}=7times10^3+8times10^2+0times10^1+3times10^0" src="/latex-svg/4dfc131bb9f716412439c56805db2af9.svg"disable-inline-width></amp-img></span></p>
 <p>Un nombre binaire sera donc décomposé de la même façon, mais avec une base de 2 et non de 10.</p>
 <h2 id="conversion-binaire-décimal">Conversion Binaire-Décimal:</h2>
 <p>Prenons un nombre binaire assez grand et décomposons-le:</p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="1011011101_2=1times2^9+0times2^8+1times2^7+1times2^6+0times2^5+1times2^4+1times2^3+1times2^2+0times2^1+1times2^0" src="/latex-svg/1ef8cc16c3d8865e5efcf343bdbfcb18.svg"><amp-img fallback alt="1011011101_2=1times2^9+0times2^8+1times2^7+1times2^6+0times2^5+1times2^4+1times2^3+1times2^2+0times2^1+1times2^0" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?1011011101_2=1times2^9+0times2^8+1times2^7+1times2^6+0times2^5+1times2^4+1times2^3+1times2^2+0times2^1+1times2^0"></amp-img></amp-img></p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="1011011101_2=1times2^9+0times2^8+1times2^7+1times2^6+0times2^5+1times2^4+1times2^3+1times2^2+0times2^1+1times2^0" src="/latex-svg/1ef8cc16c3d8865e5efcf343bdbfcb18.svg"></amp-img></p>
 <p>Ainsi:</p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="1011011101_2=512+128+64+16+8+4+1= 733_{10}" src="/latex-svg/0ef0b534bfc8ac0cb35cfb065ddbeda0.svg"><amp-img fallback alt="1011011101_2=512+128+64+16+8+4+1= 733_{10}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?1011011101_2=512+128+64+16+8+4+1= 733_{10}"></amp-img></amp-img></p>
-<p>Voilà :). Vous pouvez maintenant essayer de convertir le nombre <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="10000101100010_2" src="/latex-svg/02f8e5b56a6b62e92dbf47082f52af11.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="10000101100010_2" width="1" height="1" src="https://latex.codecogs.com/svg.latex?10000101100010_2"></amp-img></amp-img> en binaire (solution: 8546).</p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="1011011101_2=512+128+64+16+8+4+1= 733_{10}" src="/latex-svg/0ef0b534bfc8ac0cb35cfb065ddbeda0.svg"></amp-img></p>
+<p>Voilà :). Vous pouvez maintenant essayer de convertir le nombre <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="10000101100010_2" src="/latex-svg/02f8e5b56a6b62e92dbf47082f52af11.svg"disable-inline-width></amp-img></span> en binaire (solution: 8546).</p>
 <h2 id="conversion-décimal-binaire">Conversion Décimal-Binaire:</h2>
 <p>Prenons le nombre 733, solution de la section précédente.</p>
 <p>La méthode la plus connue pour convertir un nombre décimal en nombre binaire est la suivante:</p>
@@ -310,7 +310,7 @@
 <p>2 = 2 * 1 + 0</p>
 <p>1 = 2 * 0 + 1</p>
 <p>Maintenant: prenez le reste de chaque opération de bas en haut. Ce qui donne:</p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="733_10 =1011011101_2" src="/latex-svg/b25c568ea4b58f7bd13ae11efb5a46e7.svg"><amp-img fallback alt="733_10 =1011011101_2" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?733_10 =1011011101_2"></amp-img></amp-img></p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="733_10 =1011011101_2" src="/latex-svg/b25c568ea4b58f7bd13ae11efb5a46e7.svg"></amp-img></p>
 
 <div class="more">
     <h2 class="more__title">Thèmes relatifs à l'article</h2>

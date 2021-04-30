@@ -1,6 +1,6 @@
 {{ if (ne $.Page.Params.latex false)}}
-{{ $first :=replaceRE "\\$\\$(.*?)\\$\\$" "<amp-img layout=\"intrinsic\" height=\"1\" width=\"1\" class=\"formula__center\" alt=\"$1\" src=\"/latex-svg/$1.svg\"><amp-img fallback alt=\"$1\" width=\"1\" height=\"1\" class=\"formula__inline\" src=\"https://latex.codecogs.com/svg.latex?$1\"></amp-img></amp-img>"  .Content }}
-{{ $second :=replaceRE "\\$(.*?)\\$" "<span class=\"formula__span\"><amp-img layout=\"intrinsic\" height=\"1\" width=\"1\"class=\"formula__inline\" alt=\"$1\" src=\"/latex-svg/$1.svg\"disable-inline-width></amp-img></span><amp-img fallbackclass=\"formula__inline\" alt=\"$1\" width=\"1\" height=\"1\" src=\"https://latex.codecogs.com/svg.latex?$1\"></amp-img></amp-img>" $first }}
+{{ $first :=replaceRE "\\$\\$(.*?)\\$\\$" "<amp-img layout=\"intrinsic\" height=\"1\" width=\"1\" class=\"formula__center\" alt=\"$1\" src=\"/latex-svg/$1.svg\"></amp-img>"  .Content }}
+{{ $second :=replaceRE "\\$(.*?)\\$" "<span class=\"formula__span\"><amp-img layout=\"intrinsic\" height=\"1\" width=\"1\"class=\"formula__inline\" alt=\"$1\" src=\"/latex-svg/$1.svg\"disable-inline-width></amp-img></span>" $first }}
 {{ $third :=replaceRE "\\\\" "" $second}}
 {{ $foo := $third }}
 {{ $regexp := "/latex-svg/(.*?)\\.svg" }}

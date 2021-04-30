@@ -113,7 +113,7 @@
 </script><script type="application/ld+json">
   {
     "@context":"http://schema.org",
-    "@type": "BlogPosting",
+    "@type": "Article",
     "image": "https:\/\/devmath.fr",
     "url": "https:\/\/devmath.fr\/informatique\/accolades-verticales-horizontales-en-latex\/",
     "headline": "Accolades Verticales\/Horizontales en LaTeX",
@@ -146,7 +146,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "amperage",
+      "name": "DevMath",
       "url": "https:\/\/devmath.fr",
       "logo": {
         "@type": "ImageObject",
@@ -246,19 +246,19 @@
 <p><strong>Code LaTex :</strong></p>
 <div class="highlight"><pre class="chroma"><code class="language-tex" data-lang="tex">5+5 = \overbrace<span class="nb">{</span>10<span class="nb">_{</span>10<span class="nb">}}^{</span>1010<span class="nb">_</span>2<span class="nb">}</span>
 </code></pre></div><p><strong>Rendu :</strong></p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="5+5 = overbrace{10_{10}}^{1010_2}" src="/latex-svg/44bf74d20f71d0ba44fb5d2d2aeb3942.svg"><amp-img fallback alt="5+5 = overbrace{10_{10}}^{1010_2}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?5+5 = overbrace{10_{10}}^{1010_2}"></amp-img></amp-img></p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="5+5 = overbrace{10_{10}}^{1010_2}" src="/latex-svg/44bf74d20f71d0ba44fb5d2d2aeb3942.svg"></amp-img></p>
 <h3 id="accolades-sous-du-texte">Accolades sous du texte</h3>
 <p>La commande analogue à \overbrace est \underbrace.</p>
 <p><strong>Code LaTeX :</strong></p>
 <div class="highlight"><pre class="chroma"><code class="language-tex" data-lang="tex">5+5 = \underbrace<span class="nb">{</span>10<span class="nb">_{</span>10<span class="nb">}}_{</span>1010<span class="nb">_</span>2<span class="nb">}</span>
 </code></pre></div><p><strong>Rendu :</strong></p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="5+5 = underbrace{10_{10}}_{1010_2}" src="/latex-svg/3752503751ad53b622837ddf3a9db21c.svg"><amp-img fallback alt="5+5 = underbrace{10_{10}}_{1010_2}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?5+5 = underbrace{10_{10}}_{1010_2}"></amp-img></amp-img></p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="5+5 = underbrace{10_{10}}_{1010_2}" src="/latex-svg/3752503751ad53b622837ddf3a9db21c.svg"></amp-img></p>
 <h2 id="accolades-verticales">Accolades verticales</h2>
 <p>Pour afficher une accolade verticale sur le coté gauche d&rsquo;un texte, il suffit d&rsquo;utiliser la commande suivante :</p>
 <p><strong>Code LaTeX :</strong></p>
 <div class="highlight"><pre class="chroma"><code class="language-tex" data-lang="tex">\left\<span class="nb">{</span> 1+1=2
 </code></pre></div><p><strong>Rendu :</strong></p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="begin{cases} 1+1=2end{cases}" src="/latex-svg/73fff0e05e6071efa2152a0213870f54.svg"><amp-img fallback alt="begin{cases} 1+1=2end{cases}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?begin{cases} 1+1=2end{cases}"></amp-img></amp-img></p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="begin{cases} 1+1=2end{cases}" src="/latex-svg/73fff0e05e6071efa2152a0213870f54.svg"></amp-img></p>
 <p>Pour une accolade à droite, il existe la commande \right.</p>
 <p><strong>Mais \left et \right prennent toute leur utilité dans l&rsquo;écriture de systèmes ou de fonctions. Voici 2 exemples :</strong></p>
 <h3 id="un-exemple-de-système-">Un exemple de système :</h3>
@@ -270,7 +270,7 @@
 \end<span class="nb">{</span>array<span class="nb">}</span>
 \right.
 </code></pre></div><p><strong>Rendu :</strong></p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="begin{cases}  4x + 8y = &amp; 54   2x + 7y = &amp; 39 end{cases}" src="/latex-svg/3a1e1e70f406a91ad6128b4dcc527ae4.svg"><amp-img fallback alt="begin{cases}  4x + 8y = &amp; 54   2x + 7y = &amp; 39 end{cases}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?begin{cases}  4x + 8y = &amp; 54   2x + 7y = &amp; 39 end{cases}"></amp-img></amp-img></p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="begin{cases}  4x + 8y = &amp; 54   2x + 7y = &amp; 39 end{cases}" src="/latex-svg/3a1e1e70f406a91ad6128b4dcc527ae4.svg"></amp-img></p>
 <h3 id="un-exemple-de-fonction-">Un exemple de fonction :</h3>
 <p><strong>Code LaTeX :</strong></p>
 <div class="highlight"><pre class="chroma"><code class="language-tex" data-lang="tex">g(i,j) = <span class="nb">&amp;</span>left\<span class="nb">{</span>
@@ -280,7 +280,7 @@
 <span class="nb">&amp;</span>end<span class="nb">{</span>array<span class="nb">}</span>
 <span class="nb">&amp;</span>right.
 </code></pre></div><p><strong>Rendu :</strong></p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="g(i,j) =begin{cases}255&amp;text{si}; f(i,j)leq s0 &amp;text{sinon.}end{cases}" src="/latex-svg/fba8901bed85e0002df874eef13087bb.svg"><amp-img fallback alt="g(i,j) =begin{cases}255&amp;text{si}; f(i,j)leq s0 &amp;text{sinon.}end{cases}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?g(i,j) =begin{cases}255&amp;text{si}; f(i,j)leq s0 &amp;text{sinon.}end{cases}"></amp-img></amp-img></p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="g(i,j) =begin{cases}255&amp;text{si}; f(i,j)leq s0 &amp;text{sinon.}end{cases}" src="/latex-svg/fba8901bed85e0002df874eef13087bb.svg"></amp-img></p>
 <h3 id="alternative-">Alternative :</h3>
 <p>Il est possible alternativement d&rsquo;utiliser &ldquo;\begin{cases}&rdquo; et &ldquo;\end{cases}&rdquo; pour écrire un système :</p>
 <div class="highlight"><pre class="chroma"><code class="language-tex" data-lang="tex">g(i,j) =

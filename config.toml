@@ -41,11 +41,10 @@ contentDir = "content"
     publisherLogo = "/icons/logo.svg"
     publisherLogoHeight = 60
     publisherLogoWidth = 600
-    publisherName = "amperage"
+    publisherName = "DevMath"
     socialProfiles = ["https://fr.linkedin.com/in/robinpourtaud", "https://github.com/RobinPourtaud/"]
     themeColor = "#333"
     googleanalytics = "UA-193267617-1"
-    
     [params.author]
         name = "Robin Pourtaud"
         homepage = "cv.devmath.fr"

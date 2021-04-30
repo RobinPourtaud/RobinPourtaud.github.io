@@ -113,7 +113,7 @@
 </script><script type="application/ld+json">
   {
     "@context":"http://schema.org",
-    "@type": "BlogPosting",
+    "@type": "Article",
     "image": "https:\/\/devmath.fr",
     "url": "https:\/\/devmath.fr\/informatique\/operation-sur-les-matrices-avec-numpy-en-python\/",
     "headline": "Opération sur les matrices avec numpy en Python",
@@ -146,7 +146,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "amperage",
+      "name": "DevMath",
       "url": "https:\/\/devmath.fr",
       "logo": {
         "@type": "ImageObject",
@@ -266,7 +266,7 @@
                 <span class="p">[</span><span class="mf">1.</span><span class="p">,</span><span class="mf">1.</span><span class="p">,</span><span class="mf">1.</span><span class="p">]])</span>
 <span class="n">Transpose</span> <span class="o">=</span> <span class="n">M1</span><span class="o">.</span><span class="n">transpose</span><span class="p">()</span>
 </code></pre></div><h2 id="inverse-de-matrices">Inverse de Matrices</h2>
-<p>L&rsquo;inverse de matrice prend toute son utilité dans le calcul de systèmes linéaires. Si <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="Ax=B" src="/latex-svg/3e597c3f4f7b991909741269c456655c.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="Ax=B" width="1" height="1" src="https://latex.codecogs.com/svg.latex?Ax=B"></amp-img></amp-img>, alors <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="x=A^{-1}B" src="/latex-svg/838514cb9c79432613a5457e9aa2d063.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="x=A^{-1}B" width="1" height="1" src="https://latex.codecogs.com/svg.latex?x=A^{-1}B"></amp-img></amp-img>.</p>
+<p>L&rsquo;inverse de matrice prend toute son utilité dans le calcul de systèmes linéaires. Si <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="Ax=B" src="/latex-svg/3e597c3f4f7b991909741269c456655c.svg"disable-inline-width></amp-img></span>, alors <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="x=A^{-1}B" src="/latex-svg/838514cb9c79432613a5457e9aa2d063.svg"disable-inline-width></amp-img></span>.</p>
 <p>Une matrice A admet une inverse si et seulement si son déterminant est différent de 0. Il est donc important de le tester au préalable :).</p>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">M1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span> <span class="p">[</span><span class="mf">1.</span><span class="p">,</span><span class="mf">1.</span><span class="p">,</span><span class="mf">1.</span><span class="p">],</span>
                 <span class="p">[</span><span class="mf">1.</span><span class="p">,</span><span class="mf">3.</span><span class="p">,</span><span class="mf">2.</span><span class="p">],</span>

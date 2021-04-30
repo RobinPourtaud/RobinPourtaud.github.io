@@ -113,7 +113,7 @@
 </script><script type="application/ld+json">
   {
     "@context":"http://schema.org",
-    "@type": "BlogPosting",
+    "@type": "Article",
     "image": "https:\/\/devmath.fr",
     "url": "https:\/\/devmath.fr\/mathematiques\/decomposition-de-cholesky\/",
     "headline": "La Factorisation de Cholesky",
@@ -146,7 +146,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "amperage",
+      "name": "DevMath",
       "url": "https:\/\/devmath.fr",
       "logo": {
         "@type": "ImageObject",
@@ -307,14 +307,14 @@
 
 
 <h2 id="définition-">Définition :</h2>
-<p>Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="A = L^tL" src="/latex-svg/bab75ed9838d052dd600a5fdca70e999.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="A = L^tL" width="1" height="1" src="https://latex.codecogs.com/svg.latex?A = L^tL"></amp-img></amp-img>. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).</p>
+<p>Si A est une matrice symétrique définie positive, alors il existe une matrice triangulaire inférieure L telle que <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="A = L^tL" src="/latex-svg/bab75ed9838d052dd600a5fdca70e999.svg"disable-inline-width></amp-img></span>. On dit alors que A admet une factorisation de Cholesky (ou décomposition de Cholesky).</p>
 <h2 id="vérification-">Vérification :</h2>
 <p>Pour calculer la décomposition de A, nous devons vérifier que A est bien symétrique définie positive :</p>
 <h3 id="symétrique-">Symétrique :</h3>
-<p>Une matrice A est dite symétrique si <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="L = ^tL" src="/latex-svg/f7247bc0d0c47d93320870a46f345ea7.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="L = ^tL" width="1" height="1" src="https://latex.codecogs.com/svg.latex?L = ^tL"></amp-img></amp-img>. C&rsquo;est à dire :
-<amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="forall i,j in dim{A}, A_{i,j} = A_{j,i}" src="/latex-svg/4eb5df5196b4252566204a752cf1f4fe.svg"><amp-img fallback alt="forall i,j in dim{A}, A_{i,j} = A_{j,i}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?forall i,j in dim{A}, A_{i,j} = A_{j,i}"></amp-img></amp-img></p>
+<p>Une matrice A est dite symétrique si <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="L = ^tL" src="/latex-svg/f7247bc0d0c47d93320870a46f345ea7.svg"disable-inline-width></amp-img></span>. C&rsquo;est à dire :
+<amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="forall i,j in dim{A}, A_{i,j} = A_{j,i}" src="/latex-svg/4eb5df5196b4252566204a752cf1f4fe.svg"></amp-img></p>
 <p><strong>Par exemple :</strong>
-<amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="begin{bmatrix} -4 &amp; -2  -2 &amp; 13 end{bmatrix}" src="/latex-svg/0b8361289fbb9f6fea50bf6c23ac1b72.svg"><amp-img fallback alt="begin{bmatrix} -4 &amp; -2  -2 &amp; 13 end{bmatrix}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?begin{bmatrix} -4 &amp; -2  -2 &amp; 13 end{bmatrix}"></amp-img></amp-img></p>
+<amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="begin{bmatrix} -4 &amp; -2  -2 &amp; 13 end{bmatrix}" src="/latex-svg/0b8361289fbb9f6fea50bf6c23ac1b72.svg"></amp-img></p>
 <h3 id="définie-positive-">Définie positive :</h3>
 <p>Une matrice A est dite définie positive si et seulement si ses valeurs propres sont positives. Je vous renvoie vers mon article sur les valeurs propres et vecteurs propres pour en savoir plus :</p>
 <p>
@@ -325,36 +325,36 @@
     
     >Valeurs et Vecteurs propres - KeskeC.fr</a></p>
 <h2 id="résolution-">Résolution :</h2>
-<p>Une fois la vérification faite, en dimension 3, on cherche une matrice L telle que <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="A = L^tL" src="/latex-svg/bab75ed9838d052dd600a5fdca70e999.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="A = L^tL" width="1" height="1" src="https://latex.codecogs.com/svg.latex?A = L^tL"></amp-img></amp-img>.</p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="L = begin{bmatrix} L_{1,1} &amp; 0 &amp; 0   L_{2,1} &amp; L_{2,2} &amp; 0   L_{3,1} &amp; L_{3,2} &amp; L_{3,3}  end{bmatrix}" src="/latex-svg/77c00597b6841c5c64e7d9c2aaab45b2.svg"><amp-img fallback alt="L = begin{bmatrix} L_{1,1} &amp; 0 &amp; 0   L_{2,1} &amp; L_{2,2} &amp; 0   L_{3,1} &amp; L_{3,2} &amp; L_{3,3}  end{bmatrix}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?L = begin{bmatrix} L_{1,1} &amp; 0 &amp; 0   L_{2,1} &amp; L_{2,2} &amp; 0   L_{3,1} &amp; L_{3,2} &amp; L_{3,3}  end{bmatrix}"></amp-img></amp-img></p>
+<p>Une fois la vérification faite, en dimension 3, on cherche une matrice L telle que <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="A = L^tL" src="/latex-svg/bab75ed9838d052dd600a5fdca70e999.svg"disable-inline-width></amp-img></span>.</p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="L = begin{bmatrix} L_{1,1} &amp; 0 &amp; 0   L_{2,1} &amp; L_{2,2} &amp; 0   L_{3,1} &amp; L_{3,2} &amp; L_{3,3}  end{bmatrix}" src="/latex-svg/77c00597b6841c5c64e7d9c2aaab45b2.svg"></amp-img></p>
 <p><br /></p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="A = begin{bmatrix} L_{1,1} &amp; 0 &amp; 0  L_{2,1} &amp; L_{2,2} &amp; 0  L_{3,1} &amp; L_{3,2} &amp; L_{3,3} end{bmatrix}begin{bmatrix} L_{1,1} &amp; L_{2,1} &amp; L_{3,1}  0 &amp; L_{2,2} &amp; L_{3,2}  0 &amp; 0 &amp; L_{3,3} end{bmatrix}" src="/latex-svg/fcf4c321fbd5f6766bc82bcafeeda5f9.svg"><amp-img fallback alt="A = begin{bmatrix} L_{1,1} &amp; 0 &amp; 0  L_{2,1} &amp; L_{2,2} &amp; 0  L_{3,1} &amp; L_{3,2} &amp; L_{3,3} end{bmatrix}begin{bmatrix} L_{1,1} &amp; L_{2,1} &amp; L_{3,1}  0 &amp; L_{2,2} &amp; L_{3,2}  0 &amp; 0 &amp; L_{3,3} end{bmatrix}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?A = begin{bmatrix} L_{1,1} &amp; 0 &amp; 0  L_{2,1} &amp; L_{2,2} &amp; 0  L_{3,1} &amp; L_{3,2} &amp; L_{3,3} end{bmatrix}begin{bmatrix} L_{1,1} &amp; L_{2,1} &amp; L_{3,1}  0 &amp; L_{2,2} &amp; L_{3,2}  0 &amp; 0 &amp; L_{3,3} end{bmatrix}"></amp-img></amp-img></p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="A = begin{bmatrix} L_{1,1} &amp; 0 &amp; 0  L_{2,1} &amp; L_{2,2} &amp; 0  L_{3,1} &amp; L_{3,2} &amp; L_{3,3} end{bmatrix}begin{bmatrix} L_{1,1} &amp; L_{2,1} &amp; L_{3,1}  0 &amp; L_{2,2} &amp; L_{3,2}  0 &amp; 0 &amp; L_{3,3} end{bmatrix}" src="/latex-svg/fcf4c321fbd5f6766bc82bcafeeda5f9.svg"></amp-img></p>
 <p><br />
-<amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="A = begin{bmatrix} L_{1,1}^2 &amp; * &amp; *  L_{2,1}L_{1,1} &amp; L_{2,1}^2 + L_{2,2}^2&amp; *  L_{3,1}L_{1,1} &amp; L_{3,1}L_{2,1}+L_{3,2}L_{2,2} &amp; L_{3,1}^2 + L_{3,2}^2+L_{3,3}^2 end{bmatrix}" src="/latex-svg/96c9dc81ee1dea7be6f826576b28a1bf.svg"><amp-img fallback alt="A = begin{bmatrix} L_{1,1}^2 &amp; * &amp; *  L_{2,1}L_{1,1} &amp; L_{2,1}^2 + L_{2,2}^2&amp; *  L_{3,1}L_{1,1} &amp; L_{3,1}L_{2,1}+L_{3,2}L_{2,2} &amp; L_{3,1}^2 + L_{3,2}^2+L_{3,3}^2 end{bmatrix}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?A = begin{bmatrix} L_{1,1}^2 &amp; * &amp; *  L_{2,1}L_{1,1} &amp; L_{2,1}^2 + L_{2,2}^2&amp; *  L_{3,1}L_{1,1} &amp; L_{3,1}L_{2,1}+L_{3,2}L_{2,2} &amp; L_{3,1}^2 + L_{3,2}^2+L_{3,3}^2 end{bmatrix}"></amp-img></amp-img></p>
-<p>Il suffit maintenant de résoudre équation par équation le système <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="A = L^tL" src="/latex-svg/bab75ed9838d052dd600a5fdca70e999.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="A = L^tL" width="1" height="1" src="https://latex.codecogs.com/svg.latex?A = L^tL"></amp-img></amp-img></p>
+<amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="A = begin{bmatrix} L_{1,1}^2 &amp; * &amp; *  L_{2,1}L_{1,1} &amp; L_{2,1}^2 + L_{2,2}^2&amp; *  L_{3,1}L_{1,1} &amp; L_{3,1}L_{2,1}+L_{3,2}L_{2,2} &amp; L_{3,1}^2 + L_{3,2}^2+L_{3,3}^2 end{bmatrix}" src="/latex-svg/96c9dc81ee1dea7be6f826576b28a1bf.svg"></amp-img></p>
+<p>Il suffit maintenant de résoudre équation par équation le système <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="A = L^tL" src="/latex-svg/bab75ed9838d052dd600a5fdca70e999.svg"disable-inline-width></amp-img></span></p>
 <h2 id="exemple-">Exemple :</h2>
-<p>Prenons <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="A = begin{bmatrix} 1 &amp; 2  2 &amp; 7 end{bmatrix}" src="/latex-svg/3070bc8cf01ceff57a564ecd0e737d5c.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="A = begin{bmatrix} 1 &amp; 2  2 &amp; 7 end{bmatrix}" width="1" height="1" src="https://latex.codecogs.com/svg.latex?A = begin{bmatrix} 1 &amp; 2  2 &amp; 7 end{bmatrix}"></amp-img></amp-img>.</p>
+<p>Prenons <span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="A = begin{bmatrix} 1 &amp; 2  2 &amp; 7 end{bmatrix}" src="/latex-svg/3070bc8cf01ceff57a564ecd0e737d5c.svg"disable-inline-width></amp-img></span>.</p>
 <p>A étant de taille 2x2, alors :
-<amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="A = L^tL= begin{bmatrix} L_{1,1}^2 &amp; L_{1,1}L_{2,1}  L_{2,1}L_{1,1} &amp; L_{2,1}^2 + L_{2,2}^2 end{bmatrix}" src="/latex-svg/4fbeffbee8a02d6aaac019077d4b1ace.svg"><amp-img fallback alt="A = L^tL= begin{bmatrix} L_{1,1}^2 &amp; L_{1,1}L_{2,1}  L_{2,1}L_{1,1} &amp; L_{2,1}^2 + L_{2,2}^2 end{bmatrix}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?A = L^tL= begin{bmatrix} L_{1,1}^2 &amp; L_{1,1}L_{2,1}  L_{2,1}L_{1,1} &amp; L_{2,1}^2 + L_{2,2}^2 end{bmatrix}"></amp-img></amp-img>.</p>
+<amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="A = L^tL= begin{bmatrix} L_{1,1}^2 &amp; L_{1,1}L_{2,1}  L_{2,1}L_{1,1} &amp; L_{2,1}^2 + L_{2,2}^2 end{bmatrix}" src="/latex-svg/4fbeffbee8a02d6aaac019077d4b1ace.svg"></amp-img>.</p>
 <p>Ce qui nous donne 4 équations:</p>
 <ul>
-<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="1 = L_{1,1}^2" src="/latex-svg/b558bd37db4fafae579911efd5dea369.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="1 = L_{1,1}^2" width="1" height="1" src="https://latex.codecogs.com/svg.latex?1 = L_{1,1}^2"></amp-img></amp-img></li>
-<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="2 = L_{1,1}L_{2,1}" src="/latex-svg/8eb6212df78d85eeb885aa2c2317e0cc.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="2 = L_{1,1}L_{2,1}" width="1" height="1" src="https://latex.codecogs.com/svg.latex?2 = L_{1,1}L_{2,1}"></amp-img></amp-img></li>
-<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="2 = L_{1,1}L_{2,1}" src="/latex-svg/8eb6212df78d85eeb885aa2c2317e0cc.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="2 = L_{1,1}L_{2,1}" width="1" height="1" src="https://latex.codecogs.com/svg.latex?2 = L_{1,1}L_{2,1}"></amp-img></amp-img></li>
-<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="7 = L_{2,1}^2 + L_{2,2}^2" src="/latex-svg/bbe637b7c9ad59a47d9547051591b764.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="7 = L_{2,1}^2 + L_{2,2}^2" width="1" height="1" src="https://latex.codecogs.com/svg.latex?7 = L_{2,1}^2 + L_{2,2}^2"></amp-img></amp-img></li>
+<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="1 = L_{1,1}^2" src="/latex-svg/b558bd37db4fafae579911efd5dea369.svg"disable-inline-width></amp-img></span></li>
+<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="2 = L_{1,1}L_{2,1}" src="/latex-svg/8eb6212df78d85eeb885aa2c2317e0cc.svg"disable-inline-width></amp-img></span></li>
+<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="2 = L_{1,1}L_{2,1}" src="/latex-svg/8eb6212df78d85eeb885aa2c2317e0cc.svg"disable-inline-width></amp-img></span></li>
+<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="7 = L_{2,1}^2 + L_{2,2}^2" src="/latex-svg/bbe637b7c9ad59a47d9547051591b764.svg"disable-inline-width></amp-img></span></li>
 </ul>
 <p>Donc:</p>
 <ul>
-<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="L_{1,1}=1" src="/latex-svg/aebfafe5a6d944bf510cf8808b30a599.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="L_{1,1}=1" width="1" height="1" src="https://latex.codecogs.com/svg.latex?L_{1,1}=1"></amp-img></amp-img></li>
-<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="L_{2,1}=2" src="/latex-svg/563275ab81f6665a9733ded458694dc0.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="L_{2,1}=2" width="1" height="1" src="https://latex.codecogs.com/svg.latex?L_{2,1}=2"></amp-img></amp-img></li>
-<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="L_{2,2}=sqrt{3}" src="/latex-svg/1259968751c12d0dd555de17ed31fa2a.svg"disable-inline-width></amp-img></span><amp-img fallbackclass="formula__inline" alt="L_{2,2}=sqrt{3}" width="1" height="1" src="https://latex.codecogs.com/svg.latex?L_{2,2}=sqrt{3}"></amp-img></amp-img></li>
+<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="L_{1,1}=1" src="/latex-svg/aebfafe5a6d944bf510cf8808b30a599.svg"disable-inline-width></amp-img></span></li>
+<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="L_{2,1}=2" src="/latex-svg/563275ab81f6665a9733ded458694dc0.svg"disable-inline-width></amp-img></span></li>
+<li><span class="formula__span"><amp-img layout="intrinsic" height="1" width="1"class="formula__inline" alt="L_{2,2}=sqrt{3}" src="/latex-svg/1259968751c12d0dd555de17ed31fa2a.svg"disable-inline-width></amp-img></span></li>
 </ul>
 <p>Ainsi :</p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="A=L^tL=begin{pmatrix}1 &amp; 2 2 &amp; 7 end{pmatrix} = begin{bmatrix}1 &amp; 0 2 &amp; sqrt{3}end{bmatrix}begin{bmatrix}1 &amp; 2 0 &amp; sqrt{3} end{bmatrix}" src="/latex-svg/83a1986ab8e8178d51b5ff6e3106737d.svg"><amp-img fallback alt="A=L^tL=begin{pmatrix}1 &amp; 2 2 &amp; 7 end{pmatrix} = begin{bmatrix}1 &amp; 0 2 &amp; sqrt{3}end{bmatrix}begin{bmatrix}1 &amp; 2 0 &amp; sqrt{3} end{bmatrix}" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?A=L^tL=begin{pmatrix}1 &amp; 2 2 &amp; 7 end{pmatrix} = begin{bmatrix}1 &amp; 0 2 &amp; sqrt{3}end{bmatrix}begin{bmatrix}1 &amp; 2 0 &amp; sqrt{3} end{bmatrix}"></amp-img></amp-img></p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="A=L^tL=begin{pmatrix}1 &amp; 2 2 &amp; 7 end{pmatrix} = begin{bmatrix}1 &amp; 0 2 &amp; sqrt{3}end{bmatrix}begin{bmatrix}1 &amp; 2 0 &amp; sqrt{3} end{bmatrix}" src="/latex-svg/83a1986ab8e8178d51b5ff6e3106737d.svg"></amp-img></p>
 <h2 id="utile-pour-le-calcul-de-déterminant-">Utile pour le calcul de déterminant !</h2>
 <p>La décomposition de Cholesky offre un avantage pour le calcul de déterminant.</p>
 <p>En effet, L étant triangulaire :</p>
-<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="det{A}=det{L^tL}=det{L}timesdet{^tL}=det{L}^2=(prod_{i=1}^{dim L}L_{i,i})^2" src="/latex-svg/9a8c680ad8d104dd7c0425be8f2ec011.svg"><amp-img fallback alt="det{A}=det{L^tL}=det{L}timesdet{^tL}=det{L}^2=(prod_{i=1}^{dim L}L_{i,i})^2" width="1" height="1" class="formula__inline" src="https://latex.codecogs.com/svg.latex?det{A}=det{L^tL}=det{L}timesdet{^tL}=det{L}^2=(prod_{i=1}^{dim L}L_{i,i})^2"></amp-img></amp-img></p>
+<p><amp-img layout="intrinsic" height="1" width="1" class="formula__center" alt="det{A}=det{L^tL}=det{L}timesdet{^tL}=det{L}^2=(prod_{i=1}^{dim L}L_{i,i})^2" src="/latex-svg/9a8c680ad8d104dd7c0425be8f2ec011.svg"></amp-img></p>
 <h2 id="en-python-">En python :</h2>
 <p>Il est possible d&rsquo;effectuer une factorisation de Cholesky rapidement en Python grâce à numpy !</p>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
