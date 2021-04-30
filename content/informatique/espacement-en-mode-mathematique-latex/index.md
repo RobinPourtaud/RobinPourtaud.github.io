@@ -15,10 +15,24 @@ _Commentaire : Certains espacements sont exprimés en "mu" (math unit). 1 mu = 1
 
 
 
-<table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Formule Latex</strong></td><td class="has-text-align-left" data-align="left"><strong>Résultat</strong></td><td class="has-text-align-left" data-align="left"><strong>Description</strong></td></tr><tr><td class="has-text-align-left" data-align="left">a \, b</td><td class="has-text-align-left" data-align="left">$a \, b$</td><td class="has-text-align-left" data-align="left">Taille = 3 mu</td></tr><tr><td class="has-text-align-left" data-align="left">a \: b</td><td class="has-text-align-left" data-align="left">$a \: b$</td><td class="has-text-align-left" data-align="left">Taille = 4 mu</td></tr><tr><td class="has-text-align-left" data-align="left">a \;</td><td class="has-text-align-left" data-align="left">$a \; b$</td><td class="has-text-align-left" data-align="left">Taille = 5 mu</td></tr><tr><td class="has-text-align-left" data-align="left">a \!</td><td class="has-text-align-left" data-align="left">$a \! b$</td><td class="has-text-align-left" data-align="left">Taille = -3 mu</td></tr><tr><td class="has-text-align-left" data-align="left">a \ b</td><td class="has-text-align-left" data-align="left">$a \ b$</td><td class="has-text-align-left" data-align="left">Taille = 3 mu</td></tr><tr><td class="has-text-align-left" data-align="left">a ~ b</td><td class="has-text-align-left" data-align="left">$a~b$</td><td class="has-text-align-left" data-align="left">Taille = 3 mu (insécable)</td></tr><tr><td class="has-text-align-left" data-align="left">a \quad b</td><td class="has-text-align-left" data-align="left">$a \quad b$</td><td class="has-text-align-left" data-align="left">Taille = 18 mu</td></tr><tr><td class="has-text-align-left" data-align="left">a \qquad b</td><td class="has-text-align-left" data-align="left">$a \qquad b$</td><td class="has-text-align-left" data-align="left">Taille = 36 mu</td></tr><tr><td class="has-text-align-left" data-align="left">a \hspace{1cm} b</td><td class="has-text-align-left" data-align="left">$a \hspace{1cm} b$</td><td class="has-text-align-left" data-align="left">Taille = 1 cm</td></tr></tbody></table>
+|**Formule Latex**|**Résultat**|**Description**|
+|:----|:----|:----|
+|a ², b|$a \, b$|Taille = 3 mu|
+|a ²: b|$a \: b$|Taille = 4 mu|
+|a ²;|$a \; b$|Taille = 5 mu|
+|a ²!|$a \! b$|Taille = -3 mu|
+|a ² b|$a \ b$|Taille = 3 mu|
+|a ~ b|$a~b$|Taille = 3 mu (insécable)|
+|a ²quad b|$a \quad b$|Taille = 18 mu|
+|a ²qquad b|$a \qquad b$|Taille = 36 mu|
+|a ²hspace{1cm} b|$a \hspace{1cm} b$|Taille = 1 cm|
+
 
 
 ## Sources :
 
 1. [Line breaks and blank spaces - Overleaf](https://www.overleaf.com/learn/latex/Line_breaks_and_blank_spaces)
 2. [LaTeX Spaces and Boxes](http://www.personal.ceu.hu/tex/spacebox.htm)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjMyODAxOTE1XX0=
+-->
