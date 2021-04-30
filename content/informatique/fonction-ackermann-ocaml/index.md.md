@@ -1,6 +1,6 @@
 ---
 title: "Affichage textuelle en OCaml"
-date: "2020-12-21"
+date: "2021-04-21"
 categories: 
   - "informatique"
 tags: 
@@ -59,6 +59,6 @@ ackermann3 3 4;;
 ```
 Avec $m=3$ et $n=4$, nous avons bien 127 pour résultat. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjQ2OTQwMSwtMTY2MzEwODkzOCwxMD
-MzMTk3NDg5LDIyODE3ODcwXX0=
+eyJoaXN0b3J5IjpbLTE2Mjk3MDc4ODEsLTE2NjMxMDg5MzgsMT
+AzMzE5NzQ4OSwyMjgxNzg3MF19
 -->
