@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html ⚡ lang="fr">
-	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+	<head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <title>1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)</title>
     
 <meta name="description" content="Au cours de la création de notre site DevMath.fr, nous avons souhaité créer un sous-domaine afin de faciliter notre gestionp du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&#39;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution." />
-<link rel="canonical" href="http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/" >
-<link rel="sitemap" href="http://localhost:1313/sitemap.xml" type="application/xml" /><meta property="og:title" content="1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)">
-<meta property="og:url" content="http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/">
+<link rel="canonical" href="https://devmath.fr/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/" >
+<link rel="sitemap" href="https://devmath.fr/sitemap.xml" type="application/xml" /><meta property="og:title" content="1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)">
+<meta property="og:url" content="https://devmath.fr/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/">
 <meta property="og:description" content="Au cours de la création de notre site DevMath.fr, nous avons souhaité créer un sous-domaine afin de faciliter notre gestionp du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&#39;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution.">
-<meta property="og:image" content="http://localhost:1313/logo.png">
+<meta property="og:image" content="https://devmath.fr/logo.png">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content=""><meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)">
-<meta name="twitter:url" content="http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/">
+<meta name="twitter:url" content="https://devmath.fr/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/">
 <meta name="twitter:description" content="Au cours de la création de notre site DevMath.fr, nous avons souhaité créer un sous-domaine afin de faciliter notre gestionp du site web. Ce sous-domaine utilisait les mêmes fichiers que notre site web principal, mais ne devait pas être référencé sur les moteurs de recherches ! Nous avons vite rencontré un problème en raison de l&#39;unicité du fichier robots.txt. Ce tutoriel a pour but de vous montrer sa résolution.">
-<meta name="twitter:image" content="http://localhost:1313/logo.png">
+<meta name="twitter:image" content="https://devmath.fr/logo.png">
 <meta name="twitter:site" content=""><meta name="theme-color" content="#333"/>
-<link rel="manifest" href="http://localhost:1313/manifest.json">
-<link rel="icon" href="http://localhost:1313/icons/logo.svg" sizes="any" type="image/svg+xml"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<link rel="manifest" href="https://devmath.fr/manifest.json">
+<link rel="icon" href="https://devmath.fr/icons/logo.svg" sizes="any" type="image/svg+xml"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
 <noscript>
     <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
 </noscript><script async src="https://cdn.ampproject.org/v0.js"></script><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script><script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script><script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
@@ -31,8 +31,8 @@
 	<body>
     
 <amp-install-serviceworker
-  src="http://localhost:1313/sw.js"
-  data-iframe-src="http://localhost:1313/install-sw.html"
+  src="https://devmath.fr/sw.js"
+  data-iframe-src="https://devmath.fr/install-sw.html"
   layout="nodisplay">
 </amp-install-serviceworker>
   <amp-analytics type="gtag" data-credentials="include">
@@ -52,6 +52,10 @@
 
 
 
+
+  
+  
+  
 
   
   
@@ -81,7 +85,7 @@
           "@type": "ListItem",
           "position":  1 ,
           "item": {
-            "@id": "http:\/\/localhost:1313\/",
+            "@id": "https:\/\/devmath.fr",
             "name": "Accueil"
           }
         }
@@ -91,7 +95,7 @@
           "@type": "ListItem",
           "position":  2 ,
           "item": {
-            "@id": "http:\/\/localhost:1313\/informatique\/",
+            "@id": "https:\/\/devmath.fr\/informatique\/",
             "name": "Informatique"
           }
         }
@@ -101,7 +105,7 @@
           "@type": "ListItem",
           "position":  3 ,
           "item": {
-            "@id": "http:\/\/localhost:1313\/informatique\/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess\/",
+            "@id": "https:\/\/devmath.fr\/informatique\/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess\/",
             "name": "1 site web 2 domaines 1 domaine reference avec robots txt et htaccess"
           }
         }
@@ -111,8 +115,8 @@
   {
     "@context":"http://schema.org",
     "@type": "Article",
-    "image": "http:\/\/localhost:1313\/",
-    "url": "http:\/\/localhost:1313\/informatique\/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess\/",
+    "image": "https:\/\/devmath.fr",
+    "url": "https:\/\/devmath.fr\/informatique\/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess\/",
     "headline": "1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)",
     "alternativeHeadline": "1 site web, 2 domaines dont 1 référencé (avec robots.txt et .htaccess)",
     "dateCreated": "2020-06-14T00:00:00",
@@ -130,21 +134,21 @@
     "author": {
       "@type": "Person",
       "name": "",
-      "url": "http:\/\/localhost:1313\/",
-      "image": "http:\/\/localhost:1313\/",
+      "url": "https:\/\/devmath.fr",
+      "image": "https:\/\/devmath.fr",
       "description": ""
     },
     "creator": {
       "@type": "Person",
       "name": "",
-      "url": "http:\/\/localhost:1313\/",
-      "image": "http:\/\/localhost:1313\/",
+      "url": "https:\/\/devmath.fr",
+      "image": "https:\/\/devmath.fr",
       "description": ""
     },
     "publisher": {
       "@type": "Organization",
       "name": "DevMath",
-      "url": "http:\/\/localhost:1313\/",
+      "url": "https:\/\/devmath.fr",
       "logo": {
         "@type": "ImageObject",
         "url": "\/icons\/logo.svg",
@@ -152,12 +156,12 @@
         "height":"60"
       }
     },
-    "mainEntityOfPage": "http:\/\/localhost:1313\/informatique\/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess\/",
+    "mainEntityOfPage": "https:\/\/devmath.fr\/informatique\/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess\/",
     "keywords": "null",
     "genre": "[\"apache2\",\"htaccess\",\"robots-txt\",\"wordpress\"]",
     "articleSection": "Informatiques"
   }
-</script><header class="header"><a class="header__title" data-rel="prefetch" href="http://localhost:1313/" aria-label="Retourner à la page d&#39;accueil">
+</script><header class="header"><a class="header__title" data-rel="prefetch" href="https://devmath.fr" aria-label="Retourner à la page d&#39;accueil">
     <div class="header__title__logo"><amp-img layout="fixed" height="40" width="40" src="/icons/logo.svg"></amp-img></div>
     <div class="header__title__text">DevMath</div>
 </a>
@@ -176,22 +180,22 @@
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/apache2/" data-rel="prefetch">apache2</a></li>
+                    <li><a href="https://devmath.fr/tags/apache2/" data-rel="prefetch">apache2</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/htaccess/" data-rel="prefetch">htaccess</a></li>
+                    <li><a href="https://devmath.fr/tags/htaccess/" data-rel="prefetch">htaccess</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/robots-txt/" data-rel="prefetch">robots-txt</a></li>
+                    <li><a href="https://devmath.fr/tags/robots-txt/" data-rel="prefetch">robots-txt</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/wordpress/" data-rel="prefetch">wordpress</a></li>
+                    <li><a href="https://devmath.fr/tags/wordpress/" data-rel="prefetch">wordpress</a></li>
                 
             
         </ul>
@@ -244,22 +248,22 @@ Il sera alors nécessaire, pour le domaine &ldquo;<em>no-ref.site.com</em>&rdquo
             
                 
                 
-                    <a href="http://localhost:1313/tags/apache2/" data-rel="prefetch"><li>apache2</li></a>
+                    <a href="https://devmath.fr/tags/apache2/" data-rel="prefetch"><li>apache2</li></a>
                 
             
                 
                 
-                    <a href="http://localhost:1313/tags/htaccess/" data-rel="prefetch"><li>htaccess</li></a>
+                    <a href="https://devmath.fr/tags/htaccess/" data-rel="prefetch"><li>htaccess</li></a>
                 
             
                 
                 
-                    <a href="http://localhost:1313/tags/robots-txt/" data-rel="prefetch"><li>robots-txt</li></a>
+                    <a href="https://devmath.fr/tags/robots-txt/" data-rel="prefetch"><li>robots-txt</li></a>
                 
             
                 
                 
-                    <a href="http://localhost:1313/tags/wordpress/" data-rel="prefetch"><li>wordpress</li></a>
+                    <a href="https://devmath.fr/tags/wordpress/" data-rel="prefetch"><li>wordpress</li></a>
                 
             
         </ul>
@@ -267,7 +271,7 @@ Il sera alors nécessaire, pour le domaine &ldquo;<em>no-ref.site.com</em>&rdquo
     <section class="author">
         
             <amp-img class="author__image"
-                src="http://localhost:1313/images/pdp.jpg"
+                src="https://devmath.fr/images/pdp.jpg"
                 layout="fixed" height="70" width="70"></amp-img>
         
         <div class="author__right">
@@ -307,22 +311,22 @@ Il sera alors nécessaire, pour le domaine &ldquo;<em>no-ref.site.com</em>&rdquo
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/apache2/" data-rel="prefetch">apache2</a></li>
+                    <li><a href="https://devmath.fr/tags/apache2/" data-rel="prefetch">apache2</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/htaccess/" data-rel="prefetch">htaccess</a></li>
+                    <li><a href="https://devmath.fr/tags/htaccess/" data-rel="prefetch">htaccess</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/robots-txt/" data-rel="prefetch">robots-txt</a></li>
+                    <li><a href="https://devmath.fr/tags/robots-txt/" data-rel="prefetch">robots-txt</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/wordpress/" data-rel="prefetch">wordpress</a></li>
+                    <li><a href="https://devmath.fr/tags/wordpress/" data-rel="prefetch">wordpress</a></li>
                 
             
         </ul>
@@ -330,7 +334,7 @@ Il sera alors nécessaire, pour le domaine &ldquo;<em>no-ref.site.com</em>&rdquo
 <div class="summary__list">
     
     
-        <a class="summary" href="http://localhost:1313/informatique/rediriger-http-vers-https-avec-htaccess/">
+        <a class="summary" href="https://devmath.fr/informatique/rediriger-http-vers-https-avec-htaccess/">
     <div class="summary__top">
         
         
@@ -353,13 +357,13 @@ Il sera alors nécessaire, pour le domaine &ldquo;<em>no-ref.site.com</em>&rdquo
         
             
             <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
+                src="https://devmath.fr/images/default-info.jpg"
+                srcset="https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
                 "
                 width= 1920 
                 height= 1080 
@@ -381,7 +385,7 @@ Il sera alors nécessaire, pour le domaine &ldquo;<em>no-ref.site.com</em>&rdquo
     </div>
 </a> 
     
-        <a class="summary" href="http://localhost:1313/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/">
+        <a class="summary" href="https://devmath.fr/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/">
     <div class="summary__top">
         
         
@@ -404,13 +408,13 @@ Il sera alors nécessaire, pour le domaine &ldquo;<em>no-ref.site.com</em>&rdquo
         
             
             <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
+                src="https://devmath.fr/images/default-info.jpg"
+                srcset="https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
                 "
                 width= 1920 
                 height= 1080 
@@ -432,7 +436,7 @@ Il sera alors nécessaire, pour le domaine &ldquo;<em>no-ref.site.com</em>&rdquo
     </div>
 </a> 
     
-        <a class="summary" href="http://localhost:1313/informatique/installer-php7-4-sur-un-raspberry-pi/">
+        <a class="summary" href="https://devmath.fr/informatique/installer-php7-4-sur-un-raspberry-pi/">
     <div class="summary__top">
         
         
@@ -455,13 +459,13 @@ Il sera alors nécessaire, pour le domaine &ldquo;<em>no-ref.site.com</em>&rdquo
         
             
             <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
+                src="https://devmath.fr/images/default-info.jpg"
+                srcset="https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
                 "
                 width= 1920 
                 height= 1080 
@@ -483,7 +487,7 @@ Il sera alors nécessaire, pour le domaine &ldquo;<em>no-ref.site.com</em>&rdquo
     </div>
 </a> 
     
-        <a class="summary" href="http://localhost:1313/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/">
+        <a class="summary" href="https://devmath.fr/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/">
     <div class="summary__top">
         
         
@@ -506,13 +510,13 @@ Il sera alors nécessaire, pour le domaine &ldquo;<em>no-ref.site.com</em>&rdquo
         
             
             <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
+                src="https://devmath.fr/images/default-info.jpg"
+                srcset="https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
                 "
                 width= 1920 
                 height= 1080 

@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html ⚡ lang="fr">
-	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+	<head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <title>Recevoir des notifications par mail en PHP grâce à IFTTT</title>
     
 <meta name="description" content="Il existe de nombreuses méthodes pour recevoir les notifications de son site web grâce à PHP. Aujourd&#39;hui je vais vous montrer comment recevoir des mails grâce à IFTTT en moins de 10 min." />
-<link rel="canonical" href="http://localhost:1313/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/" >
-<link rel="sitemap" href="http://localhost:1313/sitemap.xml" type="application/xml" /><meta property="og:title" content="Recevoir des notifications par mail en PHP grâce à IFTTT">
-<meta property="og:url" content="http://localhost:1313/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/">
+<link rel="canonical" href="https://devmath.fr/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/" >
+<link rel="sitemap" href="https://devmath.fr/sitemap.xml" type="application/xml" /><meta property="og:title" content="Recevoir des notifications par mail en PHP grâce à IFTTT">
+<meta property="og:url" content="https://devmath.fr/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/">
 <meta property="og:description" content="Il existe de nombreuses méthodes pour recevoir les notifications de son site web grâce à PHP. Aujourd&#39;hui je vais vous montrer comment recevoir des mails grâce à IFTTT en moins de 10 min.">
-<meta property="og:image" content="http://localhost:1313/logo.png">
+<meta property="og:image" content="https://devmath.fr/logo.png">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content=""><meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Recevoir des notifications par mail en PHP grâce à IFTTT">
-<meta name="twitter:url" content="http://localhost:1313/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/">
+<meta name="twitter:url" content="https://devmath.fr/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/">
 <meta name="twitter:description" content="Il existe de nombreuses méthodes pour recevoir les notifications de son site web grâce à PHP. Aujourd&#39;hui je vais vous montrer comment recevoir des mails grâce à IFTTT en moins de 10 min.">
-<meta name="twitter:image" content="http://localhost:1313/logo.png">
+<meta name="twitter:image" content="https://devmath.fr/logo.png">
 <meta name="twitter:site" content=""><meta name="theme-color" content="#333"/>
-<link rel="manifest" href="http://localhost:1313/manifest.json">
-<link rel="icon" href="http://localhost:1313/icons/logo.svg" sizes="any" type="image/svg+xml"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<link rel="manifest" href="https://devmath.fr/manifest.json">
+<link rel="icon" href="https://devmath.fr/icons/logo.svg" sizes="any" type="image/svg+xml"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
 <noscript>
     <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
 </noscript><script async src="https://cdn.ampproject.org/v0.js"></script><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script><script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script><script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
@@ -31,8 +31,8 @@
 	<body>
     
 <amp-install-serviceworker
-  src="http://localhost:1313/sw.js"
-  data-iframe-src="http://localhost:1313/install-sw.html"
+  src="https://devmath.fr/sw.js"
+  data-iframe-src="https://devmath.fr/install-sw.html"
   layout="nodisplay">
 </amp-install-serviceworker>
   <amp-analytics type="gtag" data-credentials="include">
@@ -52,6 +52,10 @@
 
 
 
+
+  
+  
+  
 
   
   
@@ -81,7 +85,7 @@
           "@type": "ListItem",
           "position":  1 ,
           "item": {
-            "@id": "http:\/\/localhost:1313\/",
+            "@id": "https:\/\/devmath.fr",
             "name": "Accueil"
           }
         }
@@ -91,7 +95,7 @@
           "@type": "ListItem",
           "position":  2 ,
           "item": {
-            "@id": "http:\/\/localhost:1313\/informatique\/",
+            "@id": "https:\/\/devmath.fr\/informatique\/",
             "name": "Informatique"
           }
         }
@@ -101,7 +105,7 @@
           "@type": "ListItem",
           "position":  3 ,
           "item": {
-            "@id": "http:\/\/localhost:1313\/informatique\/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt\/",
+            "@id": "https:\/\/devmath.fr\/informatique\/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt\/",
             "name": "Recevoir DES notifications depuis depuis php grace a iftt"
           }
         }
@@ -111,8 +115,8 @@
   {
     "@context":"http://schema.org",
     "@type": "Article",
-    "image": "http:\/\/localhost:1313\/",
-    "url": "http:\/\/localhost:1313\/informatique\/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt\/",
+    "image": "https:\/\/devmath.fr",
+    "url": "https:\/\/devmath.fr\/informatique\/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt\/",
     "headline": "Recevoir des notifications par mail en PHP grâce à IFTTT",
     "alternativeHeadline": "Recevoir des notifications par mail en PHP grâce à IFTTT",
     "dateCreated": "2020-04-23T00:00:00",
@@ -130,21 +134,21 @@
     "author": {
       "@type": "Person",
       "name": "",
-      "url": "http:\/\/localhost:1313\/",
-      "image": "http:\/\/localhost:1313\/",
+      "url": "https:\/\/devmath.fr",
+      "image": "https:\/\/devmath.fr",
       "description": ""
     },
     "creator": {
       "@type": "Person",
       "name": "",
-      "url": "http:\/\/localhost:1313\/",
-      "image": "http:\/\/localhost:1313\/",
+      "url": "https:\/\/devmath.fr",
+      "image": "https:\/\/devmath.fr",
       "description": ""
     },
     "publisher": {
       "@type": "Organization",
       "name": "DevMath",
-      "url": "http:\/\/localhost:1313\/",
+      "url": "https:\/\/devmath.fr",
       "logo": {
         "@type": "ImageObject",
         "url": "\/icons\/logo.svg",
@@ -152,12 +156,12 @@
         "height":"60"
       }
     },
-    "mainEntityOfPage": "http:\/\/localhost:1313\/informatique\/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt\/",
+    "mainEntityOfPage": "https:\/\/devmath.fr\/informatique\/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt\/",
     "keywords": "null",
     "genre": "[\"iftt\",\"mail\",\"php\"]",
     "articleSection": "Informatiques"
   }
-</script><header class="header"><a class="header__title" data-rel="prefetch" href="http://localhost:1313/" aria-label="Retourner à la page d&#39;accueil">
+</script><header class="header"><a class="header__title" data-rel="prefetch" href="https://devmath.fr" aria-label="Retourner à la page d&#39;accueil">
     <div class="header__title__logo"><amp-img layout="fixed" height="40" width="40" src="/icons/logo.svg"></amp-img></div>
     <div class="header__title__text">DevMath</div>
 </a>
@@ -176,17 +180,17 @@
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/iftt/" data-rel="prefetch">iftt</a></li>
+                    <li><a href="https://devmath.fr/tags/iftt/" data-rel="prefetch">iftt</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/mail/" data-rel="prefetch">mail</a></li>
+                    <li><a href="https://devmath.fr/tags/mail/" data-rel="prefetch">mail</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/php/" data-rel="prefetch">php</a></li>
+                    <li><a href="https://devmath.fr/tags/php/" data-rel="prefetch">php</a></li>
                 
             
         </ul>
@@ -270,17 +274,17 @@
             
                 
                 
-                    <a href="http://localhost:1313/tags/iftt/" data-rel="prefetch"><li>iftt</li></a>
+                    <a href="https://devmath.fr/tags/iftt/" data-rel="prefetch"><li>iftt</li></a>
                 
             
                 
                 
-                    <a href="http://localhost:1313/tags/mail/" data-rel="prefetch"><li>mail</li></a>
+                    <a href="https://devmath.fr/tags/mail/" data-rel="prefetch"><li>mail</li></a>
                 
             
                 
                 
-                    <a href="http://localhost:1313/tags/php/" data-rel="prefetch"><li>php</li></a>
+                    <a href="https://devmath.fr/tags/php/" data-rel="prefetch"><li>php</li></a>
                 
             
         </ul>
@@ -288,7 +292,7 @@
     <section class="author">
         
             <amp-img class="author__image"
-                src="http://localhost:1313/images/pdp.jpg"
+                src="https://devmath.fr/images/pdp.jpg"
                 layout="fixed" height="70" width="70"></amp-img>
         
         <div class="author__right">
@@ -328,17 +332,17 @@
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/iftt/" data-rel="prefetch">iftt</a></li>
+                    <li><a href="https://devmath.fr/tags/iftt/" data-rel="prefetch">iftt</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/mail/" data-rel="prefetch">mail</a></li>
+                    <li><a href="https://devmath.fr/tags/mail/" data-rel="prefetch">mail</a></li>
                 
             
                 
                 
-                    <li><a href="http://localhost:1313/tags/php/" data-rel="prefetch">php</a></li>
+                    <li><a href="https://devmath.fr/tags/php/" data-rel="prefetch">php</a></li>
                 
             
         </ul>
@@ -346,7 +350,7 @@
 <div class="summary__list">
     
     
-        <a class="summary" href="http://localhost:1313/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/">
+        <a class="summary" href="https://devmath.fr/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/">
     <div class="summary__top">
         
         
@@ -369,13 +373,13 @@
         
             
             <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
+                src="https://devmath.fr/images/default-info.jpg"
+                srcset="https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
                 "
                 width= 1920 
                 height= 1080 
@@ -397,7 +401,7 @@
     </div>
 </a> 
     
-        <a class="summary" href="http://localhost:1313/informatique/installer-php7-4-sur-un-raspberry-pi/">
+        <a class="summary" href="https://devmath.fr/informatique/installer-php7-4-sur-un-raspberry-pi/">
     <div class="summary__top">
         
         
@@ -420,13 +424,13 @@
         
             
             <amp-img
-                src="http://localhost:1313/images/default-info.jpg"
-                srcset="http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
-                    http://localhost:1313/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
+                src="https://devmath.fr/images/default-info.jpg"
+                srcset="https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_1200x0_resize_q75_box.jpg 1200w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_900x0_resize_q75_box.jpg 900w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_800x0_resize_q75_box.jpg 800w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_640x0_resize_q75_box.jpg 640w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_480x0_resize_q75_box.jpg 480w,
+                    https://devmath.fr/images/default-info_hu0bed7b4d6babf7a58dfb4c70e3ef5b39_57473_320x0_resize_q75_box.jpg 320w
                 "
                 width= 1920 
                 height= 1080 

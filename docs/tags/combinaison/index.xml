@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>combinaison on DevMath.fr</title>
-    <link>http://localhost:1313/tags/combinaison/</link>
+    <link>https://devmath.fr/tags/combinaison/</link>
     <description>Recent content in combinaison on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/combinaison/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/combinaison/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Démonstration : Somme des k parmi n</title>
-      <link>http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/</link>
+      <link>https://devmath.fr/mathematiques/demonstration-somme-des-k-parmi-n/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
+      <guid>https://devmath.fr/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
       <description>Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
 $$\sum_{k=0}^n {n \choose k}= 2^n$$
 Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe. Elle s&amp;rsquo;appuiera sur la formule du binôme de Newton :
@@ -23,10 +23,10 @@ $$\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$$</description>
     
     <item>
       <title>Coefficient binomial - k parmi n en Latex</title>
-      <link>http://localhost:1313/informatique/coefficient-binomial-k-parmi-n-en-latex/</link>
+      <link>https://devmath.fr/informatique/coefficient-binomial-k-parmi-n-en-latex/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/coefficient-binomial-k-parmi-n-en-latex/</guid>
+      <guid>https://devmath.fr/informatique/coefficient-binomial-k-parmi-n-en-latex/</guid>
       <description>Notation &amp;ldquo;Française&amp;rdquo; : k parmi n peut se noter de la façon suivante :
 $$C_n^k$$
 Son code Latex en mode mathématique est tout simplement :
