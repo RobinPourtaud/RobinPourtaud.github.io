@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>demonstration on DevMath.fr</title>
-    <link>https://devmath.fr/tags/demonstration/</link>
+    <link>http://localhost:1313/tags/demonstration/</link>
     <description>Recent content in demonstration on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/demonstration/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/demonstration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Démonstration - Théorème de récurrence</title>
-      <link>https://devmath.fr/mathematiques/demonstration-theoreme-de-recurrence/</link>
+      <link>http://localhost:1313/mathematiques/demonstration-theoreme-de-recurrence/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/mathematiques/demonstration-theoreme-de-recurrence/</guid>
+      <guid>http://localhost:1313/mathematiques/demonstration-theoreme-de-recurrence/</guid>
       <description>Définition Soit $\mathbb{N}$ muni de son ordre usuel. Soit $A(n)$ une assertion définie $\forall n \in \mathbb{N}$ :
  Si $A(n_0)$ vraie Si $\forall n \geq n_0$, $A(n)$ vraie $\Rightarrow A(n+1)$ vraie.  Alors $\forall n \geq n_0$, $A(n)$ vraie.
 Démonstration Montrons ce théorème par l&amp;rsquo;absurde.
@@ -22,10 +22,10 @@ Soit $P \subseteq \mathbb{N}$ tel que $P = {n\in (\mathbb{N},\leq _\mathbb{N}) ;
     
     <item>
       <title>Démonstration : Toutes les puissances de 6 finissent par un 6</title>
-      <link>https://devmath.fr/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</link>
+      <link>http://localhost:1313/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</link>
       <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</guid>
+      <guid>http://localhost:1313/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</guid>
       <description>Intuition : 6 puissance 1 est 6, 6 puissance 2 36, 6 puissance 3 216. Pour aller plus vite je vous propose ce code python :
 for i in range(1,20) : print(&amp;#34;6 puissance &amp;#34; + str(i) + &amp;#34; est égale à &amp;#34; + str(6**i)) A l&amp;rsquo;exécution, nous avons :
 Puissance de 6 de 1 à 19  
@@ -34,10 +34,10 @@ Bien que très persuasif, ce n&amp;rsquo;est pas suffisant pour considérer cett
     
     <item>
       <title>Démonstration : Somme des k parmi n</title>
-      <link>https://devmath.fr/mathematiques/demonstration-somme-des-k-parmi-n/</link>
+      <link>http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
+      <guid>http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/</guid>
       <description>Définition : La somme des combinaisons de k=0 à n de k parmi n est égale à 2 à la puissance n.
 $$\sum_{k=0}^n {n \choose k}= 2^n$$
 Démonstrations : Démonstration 1 : Cette première démonstration est la plus rapide et directe. Elle s&amp;rsquo;appuiera sur la formule du binôme de Newton :
@@ -48,10 +48,10 @@ $$\sum_{k=0}^n {n \choose k } 1^k1^{n-k}=(1+1)^n$$</description>
     
     <item>
       <title>Démonstration : Somme des k(k parmi n)</title>
-      <link>https://devmath.fr/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</link>
+      <link>http://localhost:1313/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://devmath.fr/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
+      <guid>http://localhost:1313/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</guid>
       <description>Identité : Une des célèbres formules utilisant les coefficients binomiaux est la suivante :
 $$\sum^n_{k=1} k\binom{n}{k} = n \times 2^{n-1}$$
 Démonstration :  On commence par reprendre la formule du binôme de Newton :  $$\sum^n_{k=1} \binom{n}{k}a^{k}b^{n-k}=(a+b)^n$$

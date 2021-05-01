@@ -8,6 +8,7 @@ tags:
   - "Lambda Calcul"
   - "OCaml"
 description: ""
+draft : true
 ---
 >Tout au long de ce tutoriel, nous utiliserons une notation non conventionnel pour écrire nos fonctions lambda en OCaml. Toutes nos fonctions "lambda" débuterons par "_" (par exemple "_true").
 ## Logique en lambda calcul en OCaml

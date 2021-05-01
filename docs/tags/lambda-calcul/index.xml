@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lambda Calcul on DevMath.fr</title>
+    <link>http://localhost:1313/tags/lambda-calcul/</link>
+    <description>Recent content in Lambda Calcul on DevMath.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/lambda-calcul/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lambda Calcul en OCaml</title>
+      <link>http://localhost:1313/informatique/lambda-calcul-et-ocaml/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/informatique/lambda-calcul-et-ocaml/</guid>
+      <description>Tout au long de ce tutoriel, nous utiliserons une notation non conventionnel pour écrire nos fonctions lambda en OCaml. Toutes nos fonctions &amp;ldquo;lambda&amp;rdquo; débuterons par &amp;ldquo;_&amp;rdquo; (par exemple &amp;ldquo;_true&amp;rdquo;).
+ Logique en lambda calcul en OCaml Booléens True let _true = fun t f = t;; False let _false = fun t f = f;; Condition en OCaml let _ifthenelse = fun b t f = b t f;; Portes logiques Porte logique &amp;ldquo;NOT&amp;rdquo; let not_ = fun a = _ifthenelse a false_ true_;; Porte logique &amp;ldquo;AND&amp;rdquo; let not_ = fun a = _ifthenelse a false_ true_;; Porte logique &amp;ldquo;OR&amp;rdquo; let not_ = fun a = _ifthenelse a false_ true_;; Couples Afin de définir la fonction prédécesseur plus aisément, nous auront besoin de créer des couples de valeurs.</description>
+    </item>
+    
+  </channel>
+</rss>

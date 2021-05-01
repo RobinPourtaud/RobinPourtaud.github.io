@@ -35,7 +35,7 @@ contentDir = "content"
     title = "DevMath"
     alternatePageName = "DevMath.fr"
     copyright = "DevMath.fr"
-    ampElements = ["amp-analytics", "amp-social-share", "amp-install-serviceworker","amp-youtube", "amp-carousel"]
+    ampElements = ["amp-analytics", "amp-social-share", "amp-install-serviceworker","amp-youtube", "amp-carousel", "amp-adsense"]
     organizationLogo = "/icons/logo.svg"
     organizationName = "DevMath"
     publisherLogo = "/icons/logo.svg"
@@ -45,6 +45,7 @@ contentDir = "content"
     socialProfiles = ["https://fr.linkedin.com/in/robinpourtaud", "https://github.com/RobinPourtaud/"]
     themeColor = "#333"
     googleanalytics = "UA-193267617-1"
+    AdsensePublisher = "ca-pub-7598305494340329"
     [params.author]
         name = "Robin Pourtaud"
         homepage = "cv.devmath.fr"

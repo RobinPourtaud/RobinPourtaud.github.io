@@ -3,739 +3,749 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://devmath.fr/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/demonstration/</loc>
+    <loc>http://localhost:1313/tags/demonstration/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/demonstration-theoreme-de-recurrence/</loc>
+    <loc>http://localhost:1313/mathematiques/demonstration-theoreme-de-recurrence/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/</loc>
+    <loc>http://localhost:1313/mathematiques/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/categories/mathematiques/</loc>
+    <loc>http://localhost:1313/categories/mathematiques/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/preuve/</loc>
+    <loc>http://localhost:1313/tags/preuve/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/coefficient-binomial-k-parmi-n/</loc>
+    <loc>http://localhost:1313/mathematiques/coefficient-binomial-k-parmi-n/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/coefficients-binomiaux/</loc>
+    <loc>http://localhost:1313/tags/coefficients-binomiaux/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/categories/denombrement/</loc>
+    <loc>http://localhost:1313/categories/denombrement/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/factoriel/</loc>
+    <loc>http://localhost:1313/tags/factoriel/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/arbre-binaire/</loc>
+    <loc>http://localhost:1313/tags/arbre-binaire/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</loc>
+    <loc>http://localhost:1313/informatique/ensembles-mathematiques-usuels-majuscules-ajourees-latex/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/espacement-en-mode-mathematique-latex/</loc>
+    <loc>http://localhost:1313/informatique/espacement-en-mode-mathematique-latex/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/fonction-indicatrice-fonction-caracteristique-latex/</loc>
+    <loc>http://localhost:1313/informatique/fonction-indicatrice-fonction-caracteristique-latex/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/categories/informatique/</loc>
+    <loc>http://localhost:1313/categories/informatique/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/</loc>
+    <loc>http://localhost:1313/informatique/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/latex/</loc>
+    <loc>http://localhost:1313/tags/latex/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/lorem-ipsum-lipsum-latex/</loc>
+    <loc>http://localhost:1313/informatique/lorem-ipsum-lipsum-latex/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/parcours-dun-arbre-binaire/</loc>
+    <loc>http://localhost:1313/informatique/parcours-dun-arbre-binaire/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/automate/</loc>
+    <loc>http://localhost:1313/tags/automate/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/determinisation-dun-automate/</loc>
+    <loc>http://localhost:1313/informatique/determinisation-dun-automate/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/bit/</loc>
+    <loc>http://localhost:1313/tags/bit/</loc>
     <lastmod>2020-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/logique/</loc>
+    <loc>http://localhost:1313/tags/logique/</loc>
     <lastmod>2020-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/processeur/</loc>
+    <loc>http://localhost:1313/tags/processeur/</loc>
     <lastmod>2020-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/ual-unite-arithmetique-et-logique/</loc>
+    <loc>http://localhost:1313/informatique/ual-unite-arithmetique-et-logique/</loc>
     <lastmod>2020-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/alphabet-grec-latex/</loc>
+    <loc>http://localhost:1313/informatique/affichage-ocaml/</loc>
     <lastmod>2020-12-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/vocabulaire-sur-les-automates-finis/</loc>
+    <loc>http://localhost:1313/informatique/alphabet-grec-latex/</loc>
+    <lastmod>2020-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/ocaml/</loc>
+    <lastmod>2020-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/informatique/vocabulaire-sur-les-automates-finis/</loc>
     <lastmod>2020-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/graphe/</loc>
+    <loc>http://localhost:1313/tags/graphe/</loc>
     <lastmod>2020-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/exercice-corrige-simplification-de-formules-booleennes/</loc>
+    <loc>http://localhost:1313/informatique/exercice-corrige-simplification-de-formules-booleennes/</loc>
     <lastmod>2020-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/complexite-asymptotique/</loc>
+    <loc>http://localhost:1313/tags/complexite-asymptotique/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/definition-nff-sat/</loc>
+    <loc>http://localhost:1313/informatique/definition-nff-sat/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/analyse-complexe/</loc>
+    <loc>http://localhost:1313/tags/analyse-complexe/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/cercle-trigonometrique/</loc>
+    <loc>http://localhost:1313/tags/cercle-trigonometrique/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/racine-carree-de-i/</loc>
+    <loc>http://localhost:1313/mathematiques/racine-carree-de-i/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</loc>
+    <loc>http://localhost:1313/informatique/jupyter-lab-gratuit-avec-oracle-cloud/</loc>
     <lastmod>2020-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/jupyter-notebook/</loc>
+    <loc>http://localhost:1313/tags/jupyter-notebook/</loc>
     <lastmod>2020-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2020-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/crible/</loc>
+    <loc>http://localhost:1313/tags/crible/</loc>
     <lastmod>2020-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/denombrement/</loc>
+    <loc>http://localhost:1313/tags/denombrement/</loc>
     <lastmod>2020-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/formule-de-sylvester/</loc>
+    <loc>http://localhost:1313/mathematiques/formule-de-sylvester/</loc>
     <lastmod>2020-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/ensemble/</loc>
+    <loc>http://localhost:1313/tags/ensemble/</loc>
     <lastmod>2020-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/exercice-corrige-denombrement-n1/</loc>
+    <loc>http://localhost:1313/mathematiques/exercice-corrige-denombrement-n1/</loc>
     <lastmod>2020-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/loi-de-morgan/</loc>
+    <loc>http://localhost:1313/tags/loi-de-morgan/</loc>
     <lastmod>2020-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</loc>
+    <loc>http://localhost:1313/mathematiques/demonstration-toutes-les-puissances-de-6-finissent-par-un-6/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</loc>
+    <loc>http://localhost:1313/informatique/lister-tous-les-ports-ouverts-dun-ordinateur-avec-nmap/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/nmap/</loc>
+    <loc>http://localhost:1313/tags/nmap/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/categories/securite-informatique/</loc>
+    <loc>http://localhost:1313/categories/securite-informatique/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/pourquoi-01/</loc>
+    <loc>http://localhost:1313/mathematiques/pourquoi-01/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/di-method-integration-tabulaire/</loc>
+    <loc>http://localhost:1313/mathematiques/di-method-integration-tabulaire/</loc>
     <lastmod>2020-08-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/integrale/</loc>
+    <loc>http://localhost:1313/tags/integrale/</loc>
     <lastmod>2020-08-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/combinaison/</loc>
+    <loc>http://localhost:1313/tags/combinaison/</loc>
     <lastmod>2020-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/demonstration-somme-des-k-parmi-n/</loc>
+    <loc>http://localhost:1313/mathematiques/demonstration-somme-des-k-parmi-n/</loc>
     <lastmod>2020-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/isetl/</loc>
+    <loc>http://localhost:1313/tags/isetl/</loc>
     <lastmod>2020-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/isetl-langage-de-programmation/</loc>
+    <loc>http://localhost:1313/informatique/isetl-langage-de-programmation/</loc>
     <lastmod>2020-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/isetl-boucle-while-et-boucle-for/</loc>
+    <loc>http://localhost:1313/informatique/isetl-boucle-while-et-boucle-for/</loc>
     <lastmod>2020-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/isetl-conditions-if-elseif-else/</loc>
+    <loc>http://localhost:1313/informatique/isetl-conditions-if-elseif-else/</loc>
     <lastmod>2020-07-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/isetl-syntaxe-des-fonctions/</loc>
+    <loc>http://localhost:1313/informatique/isetl-syntaxe-des-fonctions/</loc>
     <lastmod>2020-07-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/isetl-utilisation-basique-de-isetlw-3-0/</loc>
+    <loc>http://localhost:1313/informatique/isetl-utilisation-basique-de-isetlw-3-0/</loc>
     <lastmod>2020-07-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/bing/</loc>
+    <loc>http://localhost:1313/tags/bing/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</loc>
+    <loc>http://localhost:1313/informatique/bing-url-submissions-plugin-indexer-instantanement-vos-pages-wordpress/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/seo/</loc>
+    <loc>http://localhost:1313/tags/seo/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/wordpress/</loc>
+    <loc>http://localhost:1313/tags/wordpress/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/la-notation-en-mathematique/</loc>
+    <loc>http://localhost:1313/mathematiques/la-notation-en-mathematique/</loc>
     <lastmod>2020-07-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/notation/</loc>
+    <loc>http://localhost:1313/tags/notation/</loc>
     <lastmod>2020-07-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/analyse/</loc>
+    <loc>http://localhost:1313/tags/analyse/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/resolution-complexe-cosxsinx1/</loc>
+    <loc>http://localhost:1313/mathematiques/resolution-complexe-cosxsinx1/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/trigonometrie/</loc>
+    <loc>http://localhost:1313/tags/trigonometrie/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/demonstration-cosxsinx1/</loc>
+    <loc>http://localhost:1313/mathematiques/demonstration-cosxsinx1/</loc>
     <lastmod>2020-07-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/nombre-complexe/</loc>
+    <loc>http://localhost:1313/tags/nombre-complexe/</loc>
     <lastmod>2020-07-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2020-07-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/traduction/</loc>
+    <loc>http://localhost:1313/tags/traduction/</loc>
     <lastmod>2020-07-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</loc>
+    <loc>http://localhost:1313/informatique/traduction-en-python-3-avec-ibm-language-translator-api/</loc>
     <lastmod>2020-07-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/coefficient-binomial-k-parmi-n-en-latex/</loc>
+    <loc>http://localhost:1313/informatique/coefficient-binomial-k-parmi-n-en-latex/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</loc>
+    <loc>http://localhost:1313/informatique/wordpress-image-de-profil-trouble-avec-lextension-ampforwp/</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/partie-entiere-superieur-et-inferieur-en-latex/</loc>
+    <loc>http://localhost:1313/informatique/partie-entiere-superieur-et-inferieur-en-latex/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/hyperbolique/</loc>
+    <loc>http://localhost:1313/tags/hyperbolique/</loc>
     <lastmod>2020-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/isetl-fonctions-trigonometriques-hyperboliques/</loc>
+    <loc>http://localhost:1313/informatique/isetl-fonctions-trigonometriques-hyperboliques/</loc>
     <lastmod>2020-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/isetl-fonction-mathematiques/</loc>
+    <loc>http://localhost:1313/informatique/isetl-fonction-mathematiques/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/numpy/</loc>
+    <loc>http://localhost:1313/tags/numpy/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/seuillage-dimage-en-python/</loc>
+    <loc>http://localhost:1313/informatique/seuillage-dimage-en-python/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</loc>
+    <loc>http://localhost:1313/informatique/1-site-web-2-domaines-1-domaine-reference-avec-robots-txt-et-htaccess/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/apache2/</loc>
+    <loc>http://localhost:1313/tags/apache2/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/htaccess/</loc>
+    <loc>http://localhost:1313/tags/htaccess/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/robots-txt/</loc>
+    <loc>http://localhost:1313/tags/robots-txt/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/rediriger-http-vers-https-avec-htaccess/</loc>
+    <loc>http://localhost:1313/informatique/rediriger-http-vers-https-avec-htaccess/</loc>
     <lastmod>2020-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</loc>
+    <loc>http://localhost:1313/informatique/autoriser-lupload-de-fichier-zip-sur-wordpress/</loc>
     <lastmod>2020-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/installer-isetl/</loc>
+    <loc>http://localhost:1313/informatique/installer-isetl/</loc>
     <lastmod>2020-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/ms-dos/</loc>
+    <loc>http://localhost:1313/tags/ms-dos/</loc>
     <lastmod>2020-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/windows-10/</loc>
+    <loc>http://localhost:1313/tags/windows-10/</loc>
     <lastmod>2020-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/zip/</loc>
+    <loc>http://localhost:1313/tags/zip/</loc>
     <lastmod>2020-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/conversion/</loc>
+    <loc>http://localhost:1313/tags/conversion/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</loc>
+    <loc>http://localhost:1313/informatique/kilo-octets-kilo-bits-kibioctets-byte-quelles-differences-pour-quelle-utilitee/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/accolades-verticales-horizontales-en-latex/</loc>
+    <loc>http://localhost:1313/informatique/accolades-verticales-horizontales-en-latex/</loc>
     <lastmod>2020-05-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/systeme-lineaire/</loc>
+    <loc>http://localhost:1313/tags/systeme-lineaire/</loc>
     <lastmod>2020-05-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/amp/</loc>
+    <loc>http://localhost:1313/tags/amp/</loc>
     <lastmod>2020-05-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</loc>
+    <loc>http://localhost:1313/informatique/mettre-de-la-couleurs-a-vos-codes-pour-les-wordpress-amp/</loc>
     <lastmod>2020-05-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/css/</loc>
+    <loc>http://localhost:1313/tags/css/</loc>
     <lastmod>2020-05-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/bitmap/</loc>
+    <loc>http://localhost:1313/tags/bitmap/</loc>
     <lastmod>2020-05-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/matrice/</loc>
+    <loc>http://localhost:1313/tags/matrice/</loc>
     <lastmod>2020-05-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</loc>
+    <loc>http://localhost:1313/informatique/modifier-la-bitmap-dune-image-avec-python-et-numpy/</loc>
     <lastmod>2020-05-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/algebre/</loc>
+    <loc>http://localhost:1313/tags/algebre/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/operation-sur-les-matrices-avec-numpy-en-python/</loc>
+    <loc>http://localhost:1313/informatique/operation-sur-les-matrices-avec-numpy-en-python/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/google-traduction/</loc>
+    <loc>http://localhost:1313/tags/google-traduction/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</loc>
+    <loc>http://localhost:1313/informatique/traduire-un-string-grace-a-lapi-google-gratuitement-en-python/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/jeu/</loc>
+    <loc>http://localhost:1313/tags/jeu/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/limite/</loc>
+    <loc>http://localhost:1313/tags/limite/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/lycee/</loc>
+    <loc>http://localhost:1313/tags/lycee/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/categories/sciences/</loc>
+    <loc>http://localhost:1313/categories/sciences/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</loc>
+    <loc>http://localhost:1313/mathematiques/trouvez-lerreur-question-mathematique-de-niveau-college-au-lycee/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/c/</loc>
+    <loc>http://localhost:1313/tags/c/</loc>
     <lastmod>2020-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/unordered_map/</loc>
+    <loc>http://localhost:1313/tags/unordered_map/</loc>
     <lastmod>2020-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/unordered_map-en-c/</loc>
+    <loc>http://localhost:1313/informatique/unordered_map-en-c/</loc>
     <lastmod>2020-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</loc>
+    <loc>http://localhost:1313/mathematiques/demonstration-somme-des-kk-parmis-n-n2n-1/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/edt/</loc>
+    <loc>http://localhost:1313/tags/edt/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</loc>
+    <loc>http://localhost:1313/informatique/comment-configurer-google-agenda-pour-ledt-de-luniversite-de-nantes/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/google-agenda/</loc>
+    <loc>http://localhost:1313/tags/google-agenda/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</loc>
+    <loc>http://localhost:1313/informatique/heberger-un-wordpress-gratuitement-sur-un-raspberry-pi/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/iftt/</loc>
+    <loc>http://localhost:1313/tags/iftt/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/mail/</loc>
+    <loc>http://localhost:1313/tags/mail/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/mysql/</loc>
+    <loc>http://localhost:1313/tags/mysql/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/php/</loc>
+    <loc>http://localhost:1313/tags/php/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/raspberry-pi/</loc>
+    <loc>http://localhost:1313/tags/raspberry-pi/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</loc>
+    <loc>http://localhost:1313/informatique/recevoir-des-notifications-depuis-depuis-php-grace-a-iftt/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/somme/</loc>
+    <loc>http://localhost:1313/tags/somme/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/universite/</loc>
+    <loc>http://localhost:1313/tags/universite/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/debian/</loc>
+    <loc>http://localhost:1313/tags/debian/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/installer-php7-4-sur-un-raspberry-pi/</loc>
+    <loc>http://localhost:1313/informatique/installer-php7-4-sur-un-raspberry-pi/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/algebre-lineaire/</loc>
+    <loc>http://localhost:1313/tags/algebre-lineaire/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/valeurs-et-vecteur-propre/</loc>
+    <loc>http://localhost:1313/mathematiques/valeurs-et-vecteur-propre/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/valeurs-propres/</loc>
+    <loc>http://localhost:1313/tags/valeurs-propres/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/vecteurs-propres/</loc>
+    <loc>http://localhost:1313/tags/vecteurs-propres/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/cholesky/</loc>
+    <loc>http://localhost:1313/tags/cholesky/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/decomposition/</loc>
+    <loc>http://localhost:1313/tags/decomposition/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/decomposition-de-cholesky/</loc>
+    <loc>http://localhost:1313/mathematiques/decomposition-de-cholesky/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/binaire/</loc>
+    <loc>http://localhost:1313/tags/binaire/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</loc>
+    <loc>http://localhost:1313/informatique/convertir-un-entier-non-signe-decimal-en-binaire/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/convertir-un-nombre-decimal-en-float/</loc>
+    <loc>http://localhost:1313/informatique/convertir-un-nombre-decimal-en-float/</loc>
     <lastmod>2020-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/mathematiques/integrale-de-xi-dx/</loc>
+    <loc>http://localhost:1313/mathematiques/integrale-de-xi-dx/</loc>
     <lastmod>2020-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/conditionnement-dune-matrice/</loc>
+    <loc>http://localhost:1313/informatique/conditionnement-dune-matrice/</loc>
     <lastmod>2020-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/optimisation-informatique/</loc>
+    <loc>http://localhost:1313/tags/optimisation-informatique/</loc>
     <lastmod>2020-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/wsl2/</loc>
+    <loc>http://localhost:1313/informatique/wsl2/</loc>
     <lastmod>2020-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/wsl2/</loc>
+    <loc>http://localhost:1313/tags/wsl2/</loc>
     <lastmod>2020-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/informatique/a/</loc>
+    <loc>http://localhost:1313/informatique/a/</loc>
   </url>
   
   <url>
-    <loc>https://devmath.fr/page/confidentialite/</loc>
+    <loc>http://localhost:1313/page/confidentialite/</loc>
   </url>
   
   <url>
-    <loc>https://devmath.fr/page/contact/</loc>
+    <loc>http://localhost:1313/page/contact/</loc>
   </url>
   
   <url>
-    <loc>https://devmath.fr/page/</loc>
+    <loc>http://localhost:1313/page/</loc>
   </url>
   
 </urlset>
