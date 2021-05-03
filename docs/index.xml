@@ -117,20 +117,6 @@ Entrées : Notre UAL prend 3 entrées :
     </item>
     
     <item>
-      <title>Affichage textuelle en OCaml</title>
-      <link>https://devmath.fr/informatique/affichage-ocaml/</link>
-      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://devmath.fr/informatique/affichage-ocaml/</guid>
-      <description>Afficher un caractère Pour afficher un charactère, il faut utiliser la fonction print_char.
-print_char &amp;#39;a&amp;#39;;; Ce code affiche la lettre a dans la sortie standard.
-Afficher un entier Pour afficher un entier, il faut utiliser la fonction print_int.
-print_int 1;; Ce code affiche l&amp;rsquo;entier 1 dans la sortie standard.
-Afficher un nombre flottant Pour afficher un nombre flottant, il faut utiliser la fonction print_float
-print_int 1.5;; Afficher un string Pour afficher un nombre flottant, il faut utiliser la fonction print_string</description>
-    </item>
-    
-    <item>
       <title>Alphabet Grec - Latex</title>
       <link>https://devmath.fr/informatique/alphabet-grec-latex/</link>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
@@ -784,17 +770,6 @@ Exemple 1 Pour comprendre ce qu&amp;rsquo;est le conditionnement, prenons un exe
  En mai 2019, Microsoft lance WSL2, une mise à jours de WSL proposant de nombreuses nouveautés.
 Parmi celles-ci, on retrouve:
  La présence d&amp;rsquo;un vrai noyau Linux au sein de Windows Un temps d&amp;rsquo;accès réduit Un accès et une modification des fichiers plus fluides Un accès à internet et des ports plus rapide et intrinsèque à Windows  Wsl, bénéfice?</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://devmath.fr/informatique/a/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devmath.fr/informatique/a/</guid>
-      <description>Titre machin
-$\sum$
-   a b     a b   c d   a     aaaa</description>
     </item>
     
     <item>

@@ -6,6 +6,7 @@ categories:
 tags: 
   - "OCaml"
 description: "Cet article présente différentes façons d'afficher du contenu dans la sortie standard en OCaml."
+draft: true
 ---
 
 ## Afficher un caractère
