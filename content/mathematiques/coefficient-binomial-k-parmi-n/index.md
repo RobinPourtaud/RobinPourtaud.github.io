@@ -61,9 +61,9 @@ $$\mathcal{P}(E) = \{\varnothing, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, 
 Il y a :
 
 - 1 élément à 0 élément (0 parmi 3 = 1)
-- 3 éléments à 1 élément (0 parmi 3 = 3)
-- 3 éléments à 2 éléments (0 parmi 3 = 3)
-- 1 élément à 3 éléments (0 parmi 3 = 1)
+- 3 éléments à 1 élément (1 parmi 3 = 3)
+- 3 éléments à 2 éléments (2 parmi 3 = 3)
+- 1 élément à 3 éléments (3 parmi 3 = 1)
 
 Commentaire : L'ensemble des parties d'un ensemble E a pour cardinal 2^#E, ce qui correspond à la somme des cardinaux des parties à k éléments. Par exemple, nous avons bien pour cet exemple 1+3+3+1=2^3. Pour en savoir plus, [c'est ici](/mathematiques/demonstration-somme-des-k-parmi-n).
 
