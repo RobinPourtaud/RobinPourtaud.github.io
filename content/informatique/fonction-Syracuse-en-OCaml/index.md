@@ -3,12 +3,18 @@
 title: "Fonction Syracuse en Ocaml"
 date: "2021-01-05"
 categories: 
+
 - "informatique"
+
 - "mathematiques"
+
 tags: 
+
 - "OCaml"
+
 description: ""
 draft: true
+
 ---
 ## Définition de Syracuse
 On définit la suite de Syracuse récursivement $\forall n \in \mathbb{N}$ par : 
@@ -45,5 +51,8 @@ let rec printSyracuse n =
 ```
 ### Calcul du temps de vol
 Le temps de vol est définir comme le plus petit indice $n$ tel que $u_n=1$. 
+
 ### Calcul du temps de vol en altitude
+
 ### Calcul de l'altitude maximale
+

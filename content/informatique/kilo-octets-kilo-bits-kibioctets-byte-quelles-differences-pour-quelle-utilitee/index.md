@@ -20,7 +20,7 @@ Il s'agit d'un système décimal, permettant de conformer les unités avec préc
 
 Par exemple : 1 km = 1 kilomètre ou 10 hectomètre ou 100 décamètres, mais encore 1000 mètre. Le mètre étant l'unité utilisé pour mesurer des distances. De la même façon, on peut se servir du gramme pour mesurer la masse, le Watt pour la puissance, le joule pour l'énergie, alors pourquoi ne pas faire la même chose pour les données :).
 
-  
+
 Pour une vision plus globale de la chose, je vous propose un tableau présentant quelques préfixes utilisés pour respecter les standards du système internationales :
 
 | Préfixe | Symbole | Valeur |

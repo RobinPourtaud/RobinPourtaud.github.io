@@ -54,8 +54,3 @@ Pour afficher une erreur, il faut utiliser les fonctions analogues :
 Pour en savoir plus [Source 2]. 
 ## Sources 
 1. [Printf - Ocaml](https://www.ocaml.org/releases/4.07/htmlman/libref/Printf.html)
-- 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTg5ODI3LDE1NDA5MjY3NDQsLTEwNj
-UyMDY1MjUsMTc5NzcyOTY3OV19
--->
