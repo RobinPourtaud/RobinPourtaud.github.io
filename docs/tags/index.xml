@@ -6,7 +6,25 @@
     <description>Recent content in Tags on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ackermann</title>
+      <link>https://devmath.fr/tags/ackermann/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/tags/ackermann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OCaml</title>
+      <link>https://devmath.fr/tags/ocaml/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/tags/ocaml/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>demonstration</title>
       <link>https://devmath.fr/tags/demonstration/</link>

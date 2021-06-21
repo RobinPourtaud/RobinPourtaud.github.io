@@ -3,17 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://devmath.fr/categories/</loc>
-    <lastmod>2021-04-20T00:00:00+00:00</lastmod>
+    <loc>https://devmath.fr/tags/ackermann/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devmath.fr/tags/demonstration/</loc>
-    <lastmod>2021-04-20T00:00:00+00:00</lastmod>
+    <loc>https://devmath.fr/categories/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://devmath.fr/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devmath.fr/informatique/fonction-ackermann-ocaml/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devmath.fr/categories/informatique/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devmath.fr/informatique/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devmath.fr/tags/ocaml/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devmath.fr/tags/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devmath.fr/tags/demonstration/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -34,11 +64,6 @@
   
   <url>
     <loc>https://devmath.fr/tags/preuve/</loc>
-    <lastmod>2021-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devmath.fr/tags/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -79,16 +104,6 @@
   
   <url>
     <loc>https://devmath.fr/informatique/fonction-indicatrice-fonction-caracteristique-latex/</loc>
-    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devmath.fr/categories/informatique/</loc>
-    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devmath.fr/informatique/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   

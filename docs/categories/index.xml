@@ -6,7 +6,16 @@
     <description>Recent content in Categories on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>informatique</title>
+      <link>https://devmath.fr/categories/informatique/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://devmath.fr/categories/informatique/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>mathematiques</title>
       <link>https://devmath.fr/categories/mathematiques/</link>
@@ -22,15 +31,6 @@
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://devmath.fr/categories/denombrement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>informatique</title>
-      <link>https://devmath.fr/categories/informatique/</link>
-      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://devmath.fr/categories/informatique/</guid>
       <description></description>
     </item>
     

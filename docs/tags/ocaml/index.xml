@@ -2,23 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OCaml on DevMath.fr</title>
-    <link>http://localhost:1313/tags/ocaml/</link>
+    <link>https://devmath.fr/tags/ocaml/</link>
     <description>Recent content in OCaml on DevMath.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 21 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ocaml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://devmath.fr/tags/ocaml/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Affichage textuelle en OCaml</title>
-      <link>http://localhost:1313/informatique/affichage-ocaml/</link>
-      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      <title>Fonction de Ackermann - Ocaml</title>
+      <link>https://devmath.fr/informatique/fonction-ackermann-ocaml/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/informatique/affichage-ocaml/</guid>
-      <description>Afficher un caractère Pour afficher un charactère, il faut utiliser la fonction print_char.
-print_char &amp;#39;a&amp;#39;;; Ce code affiche la lettre a dans la sortie standard.
-Afficher un entier Pour afficher un entier, il faut utiliser la fonction print_int.
-print_int 1;; Ce code affiche l&amp;rsquo;entier 1 dans la sortie standard.
-Afficher un nombre flottant Pour afficher un nombre flottant, il faut utiliser la fonction print_float
-print_int 1.5;; Afficher un string Pour afficher un nombre flottant, il faut utiliser la fonction print_string</description>
+      <guid>https://devmath.fr/informatique/fonction-ackermann-ocaml/</guid>
+      <description>Définition Sans paraphraser Wikipédia ( page que vous pouvez retrouver ici), je vous rappelle la définition récursive de la fonction de Ackermann $\forall m,n \in \mathbb{N}$ :
+ $A(0,n) = n+1$ $A(m,0) = A(m-1,1)$ $A(m,n)=A(m-1,A(m,n-1)$  Implémentation en OCaml Cet article étant destiné à un publique débutant en OCaml, je vous propose 3 façons d&amp;rsquo;implémenter la fonction d&amp;rsquo;Ackermann.
+Première version OCaml se prêtant bien aux fonctions récursives, l&amp;rsquo;implémentation de la fonction d&amp;rsquo;Ackermann est, à partir de la définition, plutôt directe :</description>
     </item>
     
   </channel>

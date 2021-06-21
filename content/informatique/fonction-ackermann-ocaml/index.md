@@ -5,8 +5,9 @@ categories:
   - "informatique"
 tags: 
   - "OCaml"
-description: "La fonction d'Ackermann est une fonction primitive terminale. Le langage de programmation OCaml se plit donc bien à ce genre d'exercice. Cet article présente donc différentes facon d'implémenter la fonction de Ackermann en OCaml."
-draft: true
+  - "Ackermann"
+description: "La fonction d'Ackermann est une fonction primitive terminale. Le langage de programmation OCaml se plit donc bien à ce genre d'exercice. Cet article présente donc différentes façons d'implémenter la fonction de Ackermann en OCaml."
+draft: false
 ---
 
 ## Définition 
@@ -20,7 +21,7 @@ Sans paraphraser Wikipédia ([page que vous pouvez retrouver ici](https://en.wik
 Cet article étant destiné à un publique débutant en OCaml, je vous propose 3 façons d'implémenter la fonction d'Ackermann. 
 
 ### Première version
-OCaml se prêtant bien à aux fonction récursive, l'implémentation de la fonction d'Ackermann est, à partir de la définition, plutôt directe : 
+OCaml se prêtant bien aux fonctions récursives, l'implémentation de la fonction d'Ackermann est, à partir de la définition, plutôt directe : 
 
 ```ocaml
 let rec ackermann = function
@@ -39,8 +40,8 @@ Vous pouvez également obtenir un résultat très similaire en utilisant un **ma
 let rec ackermann2 m n = 
   match m,n with
   | 0, n -> n + 1
-  | m, 0 -> ackermann (m - 1, 1)
-  | m, n -> ackermann (m - 1, ackermann (m, n - 1));;
+  | m, 0 -> ackermann2 (m - 1) 1
+  | m, n -> ackermann2 (m - 1) (ackermann2 (m) (n - 1));;
 ```
 ```ocaml
 ackermann 3 4;;
