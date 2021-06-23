@@ -6,7 +6,7 @@ categories:
 tags: 
   - "OCaml"
   - "Ackermann"
-description: "La fonction d'Ackermann est une fonction primitive terminale. Le langage de programmation OCaml se plit donc bien à ce genre d'exercice. Cet article présente différentes façons d'implémenter la fonction de Ackermann en OCaml."
+description: "La fonction d'Ackermann est une fonction récursive terminale. Le langage de programmation OCaml se plit donc bien à ce genre d'exercices. Cet article présente différentes façons d'implémenter la fonction de Ackermann en OCaml."
 draft: false
 ---
 
